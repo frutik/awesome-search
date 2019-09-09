@@ -3,6 +3,9 @@
 ## Types of search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
+* [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
+* Daniel Tunkelang.
+[Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 
 
 ## Spelling correction
@@ -26,7 +29,8 @@
 
 ## Suggestions
 
-* https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708
+* Giovanni Fernandez-Kincade. 
+[Bootstrapping Autosuggest](https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb), [Building an Autosuggest Corpus, Part 1](https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708), [Building an Autosuggest Corpus, Part 2](https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b), [Autosuggest Retrieval Data Structures & Algorithms](https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8), [Autosuggest Ranking](https://medium.com/related-works-inc/autosuggest-ranking-d8a3242c2837)
 
 ## Spacy
 
@@ -65,16 +69,21 @@
 * Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
 * Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
 
+## Other Algorithms
+
+* [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
+* (Minhash)[http://ekzhu.com/datasketch/minhash.html]
+
 ## GDPR
 
 * https://ico.org.uk/media/1061/anonymisation-code.pdf
 * https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf
 
-# conferences
+# Conferences
 
 * activate
 * berlin buzzword
 
-# books
+# Books
 
 
