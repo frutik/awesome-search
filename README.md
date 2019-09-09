@@ -75,7 +75,7 @@ I am creating e-commerce search. Below listed what inspires me.
 
 ## Query understanding
 
-* Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). He is God of Search
+* Daniel Tunkelang (he is God of Search) [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 
 ## Other Algorithms
