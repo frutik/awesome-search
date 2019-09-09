@@ -1,5 +1,10 @@
 # Awesome-search
 
+## Types of search
+
+* Targeting Broad Queries in Search https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/
+
+
 ## Spelling correction
 
 * Daniel Tunkelang  https://queryunderstanding.com/spelling-correction-471f71b19880
