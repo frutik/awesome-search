@@ -74,7 +74,7 @@ I am creating e-commerce search. Below listed what inspires me.
 ## Other Algorithms
 
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
-* (Minhash)[http://ekzhu.com/datasketch/minhash.html]
+* [Minhash](http://ekzhu.com/datasketch/minhash.html)
 
 ## GDPR
 
@@ -83,8 +83,8 @@ I am creating e-commerce search. Below listed what inspires me.
 
 # Conferences
 
-* activate
-* berlin buzzword
+* [Activate](https://www.activate-conf.com/)
+* [Berlin buzzword](berlinbuzzwords.de)
 
 # Books
 
