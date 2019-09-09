@@ -8,6 +8,7 @@ I am creating e-commerce search. Below listed what inspires me.
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
 * Daniel Tunkelang.
 [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
+* https://baymard.com/blog/ecommerce-search-query-types
 
 
 ## Spelling correction
@@ -82,11 +83,14 @@ I am creating e-commerce search. Below listed what inspires me.
 
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
+* [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
+* https://www.evanmiller.org/how-not-to-sort-by-average-rating.html
 
-## GDPR
+## Tracking, profiling, GDPR
 
 * https://ico.org.uk/media/1061/anonymisation-code.pdf
 * https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf
+* [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 
 # Conferences
 
@@ -94,6 +98,7 @@ I am creating e-commerce search. Below listed what inspires me.
 * [Berlin buzzword](berlinbuzzwords.de)
 * [Haystack](https://haystackconf.com/)
 * [Elastic{ON}](https://www.elastic.co/elasticon/)
+* [MIX-CAMP E-COMMERCE SEARCH](http://www.mices.co)
 
 # Books
 
