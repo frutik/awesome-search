@@ -71,7 +71,7 @@ I am creating e-commerce search. Below listed what inspires me.
 
 ## Other search
 
-* [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
+* Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
 * Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). He is God of Search
 
 ## Other Algorithms
