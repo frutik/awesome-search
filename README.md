@@ -49,6 +49,7 @@ I am creating e-commerce search. Below listed what inspires me.
 * https://spacy.io/usage/examples
 * https://spacy.io/api/textcategorizer
 * spaCy and the ‘set_extension’ attributes https://medium.com/@ashiqgiga07/spacy-and-the-set-extension-attributes-47a094c921c7
+* https://course.spacy.io/
 
 ## Word2Vec
 
