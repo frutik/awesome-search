@@ -2,7 +2,7 @@
 
 ## Types of search
 
-* Targeting Broad Queries in Search https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/
+* Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
 
 
 ## Spelling correction
