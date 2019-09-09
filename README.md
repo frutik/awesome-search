@@ -70,16 +70,16 @@ I am creating e-commerce search. Below listed what inspires me.
 * Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
 * Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
 
-## Other search
-
-* Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
-
 ## Query understanding
 
 * Daniel Tunkelang (he is God of Search) [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 
-## Other Algorithms
+## Other, Search
+
+* Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
+
+## Other, Algorithms
 
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
