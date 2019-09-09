@@ -81,6 +81,8 @@ I am creating e-commerce search. Below listed what inspires me.
 ## Other, Search
 
 * Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
+* [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
+* [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
 
 ## Other, Algorithms
 
