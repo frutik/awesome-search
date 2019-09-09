@@ -85,6 +85,7 @@ I am creating e-commerce search. Below listed what inspires me.
 
 * [Activate](https://www.activate-conf.com/)
 * [Berlin buzzword](berlinbuzzwords.de)
+* [Haystack](https://haystackconf.com/)
 
 # Books
 
