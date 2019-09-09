@@ -58,6 +58,17 @@
 * Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences. https://radimrehurek.com/gensim/models/phrases.html
 * The Unreasonable Effectiveness of Collocations https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/
 
+## Graph/Taxonomies
+
+* Combining WordNet and ConceptNet in Neo4j http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/
+* Where Ontologies End and Knowledge Graphs Begin https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed
+* Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
+* Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
+
+## GDPR
+
+* https://ico.org.uk/media/1061/anonymisation-code.pdf
+* https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf
 
 # conferences
 
