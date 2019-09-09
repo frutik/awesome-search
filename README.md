@@ -1,5 +1,7 @@
 # Awesome-search
 
+I am creating e-commerce search. Below listed what inspires me.
+
 ## Types of search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
@@ -85,5 +87,10 @@
 * berlin buzzword
 
 # Books
+
+* [AI-powered search](https://www.manning.com/books/ai-powered-search)
+* [Relevant Search](https://www.manning.com/books/relevant-search)
+* [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
+* [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
 
 
