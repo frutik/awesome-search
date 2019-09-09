@@ -76,6 +76,7 @@ I am creating e-commerce search. Below listed what inspires me.
 
 * Daniel Tunkelang (he is God of Search) [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
+* [Search for Things not for Strings](https://medium.com/@searchhub.io/humans-search-for-things-not-for-strings-5dd115d95986)
 
 ## Other, Search
 
