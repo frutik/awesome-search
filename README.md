@@ -7,8 +7,8 @@
 
 ## Spelling correction
 
-* Daniel Tunkelang  https://queryunderstanding.com/spelling-correction-471f71b19880
-* Norvig http://norvig.com/spell-correct.html
+* Peter Norvig. ["How to Write a Spelling Corrector"](http://norvig.com/spell-correct.html). Classic publication. 
+* Daniel Tunkelang. ["Spelling Correction"](https://queryunderstanding.com/spelling-correction-471f71b19880)
 * A simple spell checker built from word vectors https://blog.usejournal.com/a-simple-spell-checker-built-from-word-vectors-9f28452b6f26
 * https://github.com/mammothb/symspellpy
 * https://github.com/wolfgarbe/symspell
@@ -21,4 +21,8 @@
 
 # conferences
 
-activate
+* activate
+
+# books
+
+
