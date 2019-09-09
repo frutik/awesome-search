@@ -62,7 +62,7 @@ I am creating e-commerce search. Below listed what inspires me.
 * Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences. https://radimrehurek.com/gensim/models/phrases.html
 * The Unreasonable Effectiveness of Collocations https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/
 
-## Graph/Taxonomies
+## Graphs/Taxonomies/Knowledge Graph
 
 * Combining WordNet and ConceptNet in Neo4j http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/
 * Where Ontologies End and Knowledge Graphs Begin https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed
