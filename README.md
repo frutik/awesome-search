@@ -29,6 +29,8 @@ I am creating e-commerce search. Below listed what inspires me.
 
 * Giovanni Fernandez-Kincade. 
 [Bootstrapping Autosuggest](https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb), [Building an Autosuggest Corpus, Part 1](https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708), [Building an Autosuggest Corpus, Part 2](https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b), [Autosuggest Retrieval Data Structures & Algorithms](https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8), [Autosuggest Ranking](https://medium.com/related-works-inc/autosuggest-ranking-d8a3242c2837)
+* [8 Design Patterns for Autocomplete Suggestions
+](https://baymard.com/blog/autocomplete-design)
 
 ## Spacy
 
@@ -66,6 +68,10 @@ I am creating e-commerce search. Below listed what inspires me.
 * Where Ontologies End and Knowledge Graphs Begin https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed
 * Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
 * Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
+
+## Other search
+
+* [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
 
 ## Other Algorithms
 
