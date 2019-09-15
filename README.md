@@ -92,6 +92,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
 * [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
 * https://www.evanmiller.org/how-not-to-sort-by-average-rating.html
+* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 
 ## Tracking, profiling, GDPR
 
