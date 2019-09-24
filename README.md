@@ -26,6 +26,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * https://www.elastic.co/blog/boosting-the-power-of-elasticsearch-with-synonyms
 * https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741
 * [Synonyms in Solr I — The good, the bad and the ugly](https://medium.com/empathyco/synonyms-in-solr-i-the-good-the-bad-and-the-ugly-efe8e437a940)
+* [Synonyms and Antonyms from WordNet](https://medium.com/@tameremil/synonyms-and-antonyms-from-wordnet-778f6274fb09)
 
 ## Suggestions
 
@@ -73,6 +74,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * Where Ontologies End and Knowledge Graphs Begin https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed
 * Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
 * Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
+* [Where Ontologies End and Knowledge Graphs Begin](https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed)
 
 ## Query understanding
 
