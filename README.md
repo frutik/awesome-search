@@ -2,6 +2,10 @@
 
 I am creating e-commerce search. Below listed what inspires me. Grouped by topic.
 
+## General
+
+* [Falsehoods Programmers Believe About Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/)
+
 ## Types of search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
