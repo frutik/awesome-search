@@ -110,12 +110,12 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf
 * [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 
-# Testing
+## Testing
 
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
 
-# Conferences
+## Conferences
 
 * [Activate](https://www.activate-conf.com/)
 * [Berlin buzzword](berlinbuzzwords.de)
@@ -123,7 +123,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * [Elastic{ON}](https://www.elastic.co/elasticon/)
 * [MIX-CAMP E-COMMERCE SEARCH](http://www.mices.co)
 
-# Books
+## Books
 
 * [AI-powered search](https://www.manning.com/books/ai-powered-search)
 * [Relevant Search](https://www.manning.com/books/relevant-search)
