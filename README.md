@@ -2,9 +2,10 @@
 
 I am creating e-commerce search. Below listed what inspires me. Grouped by topic.
 
-## General
+## General, fun, philosophy
 
 * [Falsehoods Programmers Believe About Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/)
+* [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
 
 ## Types of search
 
