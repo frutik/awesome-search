@@ -44,6 +44,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 ](https://baymard.com/blog/autocomplete-design)
 * [On two types of suggestions](https://web.archive.org/web/20181207194952/https://www.searchblox.com/autosuggest-search-query-based-vs-content-based)
 * [Improving Search Suggestions for eCommerce](https://medium.com/empathyco/improving-search-suggestions-for-ecommerce-cb1bc2946021)
+* [Autocomplete Search Best Practices to Increase Conversions](https://lucidworks.com/post/autocomplete-search-increase-conversions/)
 
 ## Spacy
 
