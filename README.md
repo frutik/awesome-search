@@ -117,6 +117,8 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
+* Evaluating Search (by Daniel Tunkelang) [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6), [Measuring Searcher Behavior](https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0), [Using Human Judgement](https://medium.com/@dtunkelang/evaluating-search-using-human-judgement-fbb2eeba37d9)
+* [When There’s No Conversion Rate](https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed)
 
 ## Conferences
 
