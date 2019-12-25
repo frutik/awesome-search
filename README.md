@@ -33,7 +33,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 
 ## Synonyms
 
-* https://www.elastic.co/blog/boosting-the-power-of-elasticsearch-with-synonyms
+* [Boosting the power of Elasticsearch with synonyms](https://www.elastic.co/blog/boosting-the-power-of-elasticsearch-with-synonyms)
 * https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741
 * [Synonyms in Solr I — The good, the bad and the ugly](https://medium.com/empathyco/synonyms-in-solr-i-the-good-the-bad-and-the-ugly-efe8e437a940)
 * [Synonyms and Antonyms from WordNet](https://medium.com/@tameremil/synonyms-and-antonyms-from-wordnet-778f6274fb09)
