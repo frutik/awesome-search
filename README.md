@@ -79,7 +79,7 @@ I've been building search applications for almost 10 years. Below you can find a
 
 ## Query understanding
 
-* Daniel Tunkelang (he is God of Search) [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
+* Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 * [Search for Things not for Strings](https://medium.com/@searchhub.io/humans-search-for-things-not-for-strings-5dd115d95986)
 
@@ -126,5 +126,9 @@ I've been building search applications for almost 10 years. Below you can find a
 * [Relevant Search](https://www.manning.com/books/relevant-search)
 * [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 * [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
+
+## Personalies
+
+* [Daniel Tunkelang (he is God of Search)](https://twitter.com/dtunkelang)
 
 
