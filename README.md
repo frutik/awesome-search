@@ -13,7 +13,8 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
 * Daniel Tunkelang.
 [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
-* https://baymard.com/blog/ecommerce-search-query-types
+* [Deconstructing E-Commerce Search: The 12 Query Types
+](https://baymard.com/blog/ecommerce-search-query-types)
 
 
 ## Spelling correction
@@ -34,7 +35,7 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 ## Synonyms
 
 * [Boosting the power of Elasticsearch with synonyms](https://www.elastic.co/blog/boosting-the-power-of-elasticsearch-with-synonyms)
-* https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741
+* [Real Talk About Synonyms and Search](https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741)
 * [Synonyms in Solr I — The good, the bad and the ugly](https://medium.com/empathyco/synonyms-in-solr-i-the-good-the-bad-and-the-ugly-efe8e437a940)
 * [Synonyms and Antonyms from WordNet](https://medium.com/@tameremil/synonyms-and-antonyms-from-wordnet-778f6274fb09)
 * [Dive into WordNet with NLTK](https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788)
