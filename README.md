@@ -62,19 +62,19 @@ I am creating e-commerce search. Below listed what inspires me. Grouped by topic
 * [Gensim Word2Vec Tutorial](http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/#.XV-wnJMzbUL)
 * [How to incorporate phrases into Word2Vec – a text mining approach](http://kavita-ganesan.com/how-to-incorporate-phrases-into-word2vec-a-text-mining-approach/#.XV-wnJMzbUL)
 * [Word2Vec — a baby step in Deep Learning but a giant leap towards Natural Language Processing](https://medium.com/explore-artificial-intelligence/word2vec-a-baby-step-in-deep-learning-but-a-giant-leap-towards-natural-language-processing-40fe4e8602ba)
-* https://machinelearningmastery.com/develop-word-embeddings-python-gensim/
+* [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
 
 ## Collocations, common phrases
 
-* Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences. https://radimrehurek.com/gensim/models/phrases.html
-* The Unreasonable Effectiveness of Collocations https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/
+* [Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences.]( https://radimrehurek.com/gensim/models/phrases.html)
+* [The Unreasonable Effectiveness of Collocations](https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/)
 
 ## Graphs/Taxonomies/Knowledge Graph
 
-* Combining WordNet and ConceptNet in Neo4j http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/
-* Where Ontologies End and Knowledge Graphs Begin https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed
-* Dive into WordNet with NLTK https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788
-* Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/
+* [Combining WordNet and ConceptNet in Neo4j](http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/)
+* [Where Ontologies End and Knowledge Graphs Begin](https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed)
+* [Dive into WordNet with NLTK](https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788)
+* [Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom](https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/)
 * [Where Ontologies End and Knowledge Graphs Begin](https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed)
 
 ## Query understanding
