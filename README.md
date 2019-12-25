@@ -127,8 +127,9 @@ I've been building search applications for almost 10 years. Below you can find a
 * [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 * [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
 
-## Personalies
+## Personalies and influencers
 
 * [Daniel Tunkelang (he is God of Search)](https://twitter.com/dtunkelang)
+* [Max Irwin](https://twitter.com/binarymax)
 
 
