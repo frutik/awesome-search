@@ -56,6 +56,7 @@ I've been building search applications for almost 10 years. Below you can find a
 ## BERT
 
 * [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
+* [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
 
 ## Spacy
 
