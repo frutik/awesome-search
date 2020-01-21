@@ -153,5 +153,6 @@ I've been building search applications for almost 10 years. Below you can find a
 * [Daniel Tunkelang (he is God of Search)](https://twitter.com/dtunkelang)
 * [Max Irwin](https://twitter.com/binarymax)
 * [Doug Turnbull](https://twitter.com/softwaredoug)
+* [Baymard’s Institute](https://baymard.com/blog)
 
 
