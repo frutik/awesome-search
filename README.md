@@ -14,9 +14,22 @@ I've been building search applications for almost 10 years. Below you can find a
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
 * Daniel Tunkelang.
 [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
-* [Deconstructing E-Commerce Search: The 12 Query Types
-](https://baymard.com/blog/ecommerce-search-query-types)
 
+## Baymard's guides
+
+* [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
+* [Autodirect or Guide Users to Matching Category](https://baymard.com/blog/autodirect-searches-matching-category-scopes)
+* [13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)]()
+* [E-Commerce Search Needs to Support Users’ Non-Product Search Queries (15% Don’t)]()
+* [Search UX: 6 Essential Elements for ‘No Results’ Pages]()
+* [Product Thumbnails Should Dynamically Update to Match the Variation Searched For (54% Don’t)]()
+* [Faceted Sorting - A New Method for Sorting Search Results]()
+* [The Current State of E-Commerce Search]()
+* [E-Commerce Sites Need Multiple of These 5 ‘Search Scope’ Features]()
+* [E-Commerce Search Field Design and Its Implications]()
+* [E-Commerce Sites Should Include Contextual Search Snippets (96% Get it Wrong)]()
+* [Deconstructing E-Commerce Search: The 12 Query Types]()
+* [E-Commerce Search Usability: Report & Benchmark]()
 
 ## Spelling correction
 
