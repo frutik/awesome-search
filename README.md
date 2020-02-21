@@ -2,6 +2,25 @@
 
 I've been building search applications for almost 10 years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
 
+- [General, fun, philosophy](#heading)
+- [Types of search](#heading2)
+- [Baymard's guides](#) 
+- [Spelling correction](#) 
+- [Synonyms](#) 
+- [Suggestions](#) 
+- [BERT](#) 
+- [Spacy](#) 
+- [Word2Vec](#) 
+- [Collocations, common phrases](#)
+- [Graphs/Taxonomies/Knowledge Graph](#) 
+- [Query understanding](#) 
+- [Other, Search](#) 
+- [Tracking, profiling, GDPR](#) 
+- [Testing](#) 
+- [Conferences](#) 
+- [Books](#) 
+- [Personalies and influencers](#) 
+
 ## General, fun, philosophy
 
 * [Falsehoods Programmers Believe About Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/)
