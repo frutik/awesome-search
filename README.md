@@ -46,6 +46,7 @@ I've been building search applications for almost 10 years. Below you can find a
 * [Embedding for spelling correction](https://towardsdatascience.com/embedding-for-spelling-correction-92c93f835d79)
 * [A simple spell checker built from word vectors](https://blog.usejournal.com/a-simple-spell-checker-built-from-word-vectors-9f28452b6f26)
 * [What are some algorithms of spelling correction that are used by search engines?](https://www.quora.com/String-Searching-Algorithms/What-are-some-algorithms-of-spelling-correction-that-are-used-by-search-engines-For-example-when-I-used-Google-to-search-Google-imeges-it-prompted-me-Did-you-mean-Google-images/answer/Wolf-Garbe)
+* [Moman](https://github.com/jpbarrette/moman) - lucene/solr/elasticsearch spell correction/autocorrect is actually powered by this library.
 
 
 ## Synonyms
