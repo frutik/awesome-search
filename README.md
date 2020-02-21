@@ -2,6 +2,7 @@
 
 I've been building search applications for almost 10 years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
 
+### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#heading2)
 - [Baymard's guides](#) 
