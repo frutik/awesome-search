@@ -117,10 +117,8 @@ I've been building search applications for almost 10 years. Below you can find a
 ## Graphs/Taxonomies/Knowledge Graph
 
 * [Combining WordNet and ConceptNet in Neo4j](http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/)
-* [Where Ontologies End and Knowledge Graphs Begin](https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed)
 * [Dive into WordNet with NLTK](https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788)
-* [Bring Order to Chaos: A Graph-Based Journey from Textual Data to Wisdom](https://neo4j.com/blog/bring-order-to-chaos-graph-based-journey-textual-data-to-wisdom/)
-* [Where Ontologies End and Knowledge Graphs Begin](https://medium.com/predict/where-ontologies-end-and-knowledge-graphs-begin-6fe0cdede1ed)
+* [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
 
 ## Query understanding
 
