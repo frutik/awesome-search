@@ -127,6 +127,10 @@ I've been building search applications for almost 10 years. Below you can find a
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 * [Search for Things not for Strings](https://medium.com/@searchhub.io/humans-search-for-things-not-for-strings-5dd115d95986)
 
+## Learning to Rank
+
+* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
+
 ## Other, Search
 
 * Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
