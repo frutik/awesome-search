@@ -1,6 +1,6 @@
 # Awesome-search
 
-I've been building search applications for almost 10 years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
+I've been building search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
 
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
