@@ -176,6 +176,7 @@ I've been building search applications for almost ten years. Below you can find 
 * [Relevant Search](https://www.manning.com/books/relevant-search)
 * [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 * [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
+* [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
 
 ## Personalies and influencers
 
