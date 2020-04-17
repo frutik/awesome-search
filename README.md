@@ -177,6 +177,7 @@ I've been building search applications for almost ten years. Below you can find 
 * [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
 * [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
 * [Search User Interfaces](http://www.searchuserinterfaces.com)
+* [Search Patterns](https://searchpatterns.org/)
 
 ## Personalies and influencers
 
