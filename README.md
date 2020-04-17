@@ -53,7 +53,6 @@ I've been building search applications for almost ten years. Below you can find 
 * [E-Commerce Sites Need Multiple of These 5 ‘Search Scope’ Features]()
 * [E-Commerce Search Field Design and Its Implications]()
 * [E-Commerce Sites Should Include Contextual Search Snippets (96% Get it Wrong)]()
-* [Deconstructing E-Commerce Search: The 12 Query Types]()
 * [E-Commerce Search Usability: Report & Benchmark]()
 
 ## Spelling correction
@@ -177,6 +176,7 @@ I've been building search applications for almost ten years. Below you can find 
 * [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
 * [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
 * [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
+* [Search User Interfaces](http://www.searchuserinterfaces.com)
 
 ## Personalies and influencers
 
