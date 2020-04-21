@@ -18,7 +18,7 @@ I've been building search applications for almost ten years. Below you can find 
 - [Learning to rank](#learning-to-rank)
 - [Other, Search](#other-search) 
 - [Other, Algorithms](#other-algorithms)
-- [Tracking, profiling, GDPR](#tracking-profiling-gdpr) 
+- [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
 - [Testing](#testing) 
 - [Conferences](#conferences) 
 - [Books](#books) 
@@ -147,11 +147,12 @@ I've been building search applications for almost ten years. Below you can find 
 * [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
 * [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
 
-## Tracking, profiling, GDPR
+## Tracking, profiling, GDPR, Analysis
 
 * [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
 * [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+* [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
 
 ## Testing
 
