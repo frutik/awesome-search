@@ -126,6 +126,7 @@ I've been building search applications for almost ten years. Below you can find 
 * Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 * [Search for Things not for Strings](https://medium.com/@searchhub.io/humans-search-for-things-not-for-strings-5dd115d95986)
+* Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639) 
 
 ## Learning to Rank
 
