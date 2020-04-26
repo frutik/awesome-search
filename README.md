@@ -201,4 +201,8 @@ I've been building search applications for almost ten years. Below you can find 
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 
+## Other awesome stuff
 
+* [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs/blob/master/README.md)
+* [Awesome time series](https://gist.github.com/frutik/f64bac258051e66696c6daacee836978)
+* [Awesome Spacy](https://github.com/frutik/awesome-spacy)
