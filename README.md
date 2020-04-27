@@ -137,6 +137,7 @@ I've been building search applications for almost ten years. Below you can find 
 ## Learning to Rank
 
 * [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
+* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
 
 ## Other, Search
 
