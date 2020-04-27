@@ -143,6 +143,7 @@ I've been building search applications for almost ten years. Below you can find 
 * Baymard Institute [11 E-Commerce Search Articles](https://baymard.com/ecommerce-search/articles)
 * [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
 * [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
+* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
 
 ## Other, Algorithms
 
