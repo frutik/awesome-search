@@ -119,8 +119,10 @@ I've been building search applications for almost ten years. Below you can find 
 
 ## Graphs/Taxonomies/Knowledge Graph
 
-* [Combining WordNet and ConceptNet in Neo4j](http://tomkdickinson.co.uk/2017/05/21/combining-wordnet-and-conceptnet-in-neo4j/)
-* [Dive into WordNet with NLTK](https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788)
+* [Knowledge graphs applied in the retail industry](https://towardsdatascience.com/knowledge-graphs-applied-in-the-retail-industry-ecac4e7baf8)
+  
+  Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
+  
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
 
 ## Query understanding
