@@ -203,6 +203,10 @@ I've been building search applications for almost ten years. Below you can find 
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 
+## Videos
+
+* [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
+
 ## Other awesome stuff
 
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs/blob/master/README.md)
