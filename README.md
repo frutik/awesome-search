@@ -23,6 +23,7 @@ I've been building search applications for almost ten years. Below you can find 
 - [Conferences](#conferences) 
 - [Books](#books) 
 - [Personalies and influencers](#personalies-and-influencers) 
+- [Videos](#videos)
 - [Usecases](#usecases)
 
 ## General, fun, philosophy
