@@ -5,7 +5,7 @@ I've been building search applications for almost ten years. Below you can find 
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
-- [Baymard's guides](#baymards-guides) 
+- [Search UX](#search-ux) 
 - [Spelling correction](#spelling-correction) 
 - [Synonyms](#synonyms) 
 - [Suggestions](#suggestions) 
