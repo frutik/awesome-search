@@ -42,20 +42,23 @@ I've been building search applications for almost ten years. Below you can find 
 * Daniel Tunkelang.
 [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 
-## Baymard's guides
+## Search UX 
+
+### Baymard's guides
 
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 * [Autodirect or Guide Users to Matching Category](https://baymard.com/blog/autodirect-searches-matching-category-scopes)
-* [13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)]()
-* [E-Commerce Search Needs to Support Users’ Non-Product Search Queries (15% Don’t)]()
-* [Search UX: 6 Essential Elements for ‘No Results’ Pages]()
-* [Product Thumbnails Should Dynamically Update to Match the Variation Searched For (54% Don’t)]()
-* [Faceted Sorting - A New Method for Sorting Search Results]()
-* [The Current State of E-Commerce Search]()
-* [E-Commerce Sites Need Multiple of These 5 ‘Search Scope’ Features]()
-* [E-Commerce Search Field Design and Its Implications]()
-* [E-Commerce Sites Should Include Contextual Search Snippets (96% Get it Wrong)]()
-* [E-Commerce Search Usability: Report & Benchmark]()
+* [13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)](https://baymard.com/blog/autocomplete-design)
+* [E-Commerce Search Needs to Support Users’ Non-Product Search Queries (15% Don’t)](https://baymard.com/blog/support-non-product-search)
+* [Search UX: 6 Essential Elements for ‘No Results’ Pages](https://baymard.com/blog/no-results-page)
+* [Product Thumbnails Should Dynamically Update to Match the Variation Searched For (54% Don’t)](https://baymard.com/blog/color-and-variation-searches)
+* [Faceted Sorting - A New Method for Sorting Search Results](https://baymard.com/blog/faceted-sorting)
+* [The Current State of E-Commerce Search](https://baymard.com/blog/external-article-state-of-ecommerce-search)
+* [E-Commerce Sites Need Multiple of These 5 ‘Search Scope’ Features](https://baymard.com/blog/search-scope)
+* [E-Commerce Search Field Design and Its Implications](https://baymard.com/blog/search-field-design)
+* [E-Commerce Sites Should Include Contextual Search Snippets (96% Get it Wrong)](https://baymard.com/blog/search-snippets)
+* [E-Commerce Search Usability: Report & Benchmark](https://baymard.com/blog/ecommerce-search-report-and-benchmark)
+* [Six ‘COVID-19’ Related E-Commerce UX Improvements to Make](https://baymard.com/blog/covid-19-ux-improvements)
 
 ## Spelling correction
 
