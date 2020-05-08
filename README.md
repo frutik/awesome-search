@@ -168,6 +168,7 @@ I've been building search applications for almost ten years. Below you can find 
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
 * [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 
 ## Testing
 
