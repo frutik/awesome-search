@@ -19,7 +19,7 @@ I've been building search applications for almost ten years. Below you can find 
 - [Other, Search](#other-search) 
 - [Other, Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
-- [Testing](#testing) 
+- [Testing and metrics](#testing-and-metrics) 
 - [Conferences](#conferences) 
 - [Books](#books) 
 - [Personalies and influencers](#personalies-and-influencers) 
@@ -168,15 +168,16 @@ I've been building search applications for almost ten years. Below you can find 
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
 * [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 
-## Testing
+## Testing and metrics
 
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
 * Evaluating Search (by Daniel Tunkelang) [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6), [Measuring Searcher Behavior](https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0), [Using Human Judgement](https://medium.com/@dtunkelang/evaluating-search-using-human-judgement-fbb2eeba37d9)
 * [When There’s No Conversion Rate](https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
+
 
 ## Conferences
 
