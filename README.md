@@ -127,7 +127,10 @@ I've been building e-commerce search applications for almost ten years. Below yo
   
   Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
   
+* [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
+
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
+
 
 ## Query understanding
 
