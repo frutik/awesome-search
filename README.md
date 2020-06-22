@@ -101,6 +101,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [On two types of suggestions](https://web.archive.org/web/20181207194952/https://www.searchblox.com/autosuggest-search-query-based-vs-content-based)
 * [Improving Search Suggestions for eCommerce](https://medium.com/empathyco/improving-search-suggestions-for-ecommerce-cb1bc2946021)
 * [Autocomplete Search Best Practices to Increase Conversions](https://lucidworks.com/post/autocomplete-search-increase-conversions/)
+* Nielsen Norman Group: [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
+* [Why we’ve developed the searchhub smartSuggest module and why it might matter to you](https://www.linkedin.com/pulse/why-weve-developed-searchhub-smartsuggest-module-might-andreas-wagner/)
 
 ## BERT
 
