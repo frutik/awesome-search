@@ -226,6 +226,22 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ## Query Understanding by Daniel Tunkelang
    Better search through query understanding.
    
+* [An Introduction](https://queryunderstanding.com/introduction-c98740502103)
+* [Language Identification](https://queryunderstanding.com/language-identification-c1d2a072eda)
+* [Character Filtering](https://queryunderstanding.com/character-filtering-76ede1cf1a97)
+* [Tokenization](https://queryunderstanding.com/tokenization-c8cdd6aef7ff)
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+
 ## Videos
 
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
