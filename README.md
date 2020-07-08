@@ -223,6 +223,9 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 
+## Query Understanding by Daniel Tunkelang
+   Better search through query understanding.
+   
 ## Videos
 
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
