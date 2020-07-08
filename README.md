@@ -23,6 +23,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Conferences](#conferences) 
 - [Books](#books) 
 - [Personalies and influencers](#personalies-and-influencers) 
+- [Query Understanding by Daniel Tunkelang](#query-understanding-by-daniel-tunkelang)
 - [Videos](#videos)
 - [Usecases](#usecases)
 
