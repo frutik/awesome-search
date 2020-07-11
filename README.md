@@ -82,6 +82,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Query Segmentation and Spelling Correction](https://towardsdatascience.com/query-segmentation-and-spelling-correction-483173008981)
 * [How search|hub.io changed the way of working for Site Search Consultants
 ](https://medium.com/@searchhub.io/how-search-hub-io-changed-the-way-of-working-for-site-search-consultants-17a3d618e09)
+* [Applying Context Aware Spell Checking in Spark NLP](https://medium.com/spark-nlp/applying-context-aware-spell-checking-in-spark-nlp-3c29c46963bc)
 
 ## Synonyms
 
