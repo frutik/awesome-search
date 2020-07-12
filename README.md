@@ -196,6 +196,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
+* [Measuring Search: Metrics Matter](https://medium.com/@jamesrubinstein/measuring-search-metrics-matter-de124c2f6f8c)
 
 
 ## Conferences
