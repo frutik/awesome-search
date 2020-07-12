@@ -220,10 +220,12 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Search is a Team Sport](https://medium.com/search-in-21st-century/search-is-a-team-sport-400eecdfe736)
 * [Thoughts about Managing Search Teams](https://medium.com/@dtunkelang/thoughts-about-managing-search-teams-f8d2f54fbed7)
+* [Building an Effective Search Team: the key to great search & relevancy](https://opensourceconnections.com/blog/2020/05/14/building-an-effective-search-team-the-key-to-great-search-relevancy/)
+* [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
 
 ## Personalies and influencers
 
-* [Daniel Tunkelang (he is God of Search)](https://twitter.com/dtunkelang)
+* [Daniel Tunkelang (he is God of Search)](https://medium.com/@dtunkelang)
 * [Max Irwin](https://twitter.com/binarymax)
 * [Doug Turnbull](https://twitter.com/softwaredoug)
 * [Baymard’s Institute](https://baymard.com/blog)
