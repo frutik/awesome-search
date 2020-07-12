@@ -22,7 +22,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Testing and metrics](#testing-and-metrics) 
 - [Conferences](#conferences) 
 - [Books](#books) 
-- [Management](#management-search-team)
+- [Management, Search Team](#management-search-team)
 - [Personalies and influencers](#personalies-and-influencers) 
 - [Query Understanding by Daniel Tunkelang](#query-understanding-by-daniel-tunkelang)
 - [Videos](#videos)
