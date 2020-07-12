@@ -22,3 +22,7 @@ People usually don’t give enough context to search engines for most of their q
 the top facets for search query should be those associated with the highest demand, not the highest supply.
 
 [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
+
+[Autocorrect in Google, Amazon and Pinterest and how to write your own one](https://towardsdatascience.com/autocorrect-in-google-amazon-and-pinterest-and-how-to-write-your-own-one-6d23bc927c81)
+
+the important thing is that there is no purely programmatic way which will convert your mistyped “ipone” into “iphone” (at least with decent quality). Mostly there has to be a data set the system is based on.
