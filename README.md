@@ -22,6 +22,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Testing and metrics](#testing-and-metrics) 
 - [Conferences](#conferences) 
 - [Books](#books) 
+- [Management](#management)
 - [Personalies and influencers](#personalies-and-influencers) 
 - [Query Understanding by Daniel Tunkelang](#query-understanding-by-daniel-tunkelang)
 - [Videos](#videos)
@@ -214,6 +215,11 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
 * [Search User Interfaces](http://www.searchuserinterfaces.com)
 * [Search Patterns](https://searchpatterns.org/)
+
+## Management
+
+* [Search is a Team Sport](https://medium.com/search-in-21st-century/search-is-a-team-sport-400eecdfe736)
+* [Thoughts about Managing Search Teams](https://medium.com/@dtunkelang/thoughts-about-managing-search-teams-f8d2f54fbed7)
 
 ## Personalies and influencers
 
