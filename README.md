@@ -83,6 +83,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How search|hub.io changed the way of working for Site Search Consultants
 ](https://medium.com/@searchhub.io/how-search-hub-io-changed-the-way-of-working-for-site-search-consultants-17a3d618e09)
 * [Applying Context Aware Spell Checking in Spark NLP](https://medium.com/spark-nlp/applying-context-aware-spell-checking-in-spark-nlp-3c29c46963bc)
+* [Autocorrect in Google, Amazon and Pinterest and how to write your own one](https://towardsdatascience.com/autocorrect-in-google-amazon-and-pinterest-and-how-to-write-your-own-one-6d23bc927c81)
 
 ## Synonyms
 
@@ -106,6 +107,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Autocomplete Search Best Practices to Increase Conversions](https://lucidworks.com/post/autocomplete-search-increase-conversions/)
 * Nielsen Norman Group: [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
 * [Why we’ve developed the searchhub smartSuggest module and why it might matter to you](https://www.linkedin.com/pulse/why-weve-developed-searchhub-smartsuggest-module-might-andreas-wagner/)
+
 
 ## BERT
 
