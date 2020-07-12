@@ -177,6 +177,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 * [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
 * [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
+* [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake)
 
 ## Tracking, profiling, GDPR, Analysis
 
