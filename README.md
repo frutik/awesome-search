@@ -65,6 +65,15 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [E-Commerce Search Usability: Report & Benchmark](https://baymard.com/blog/ecommerce-search-report-and-benchmark)
 * [Six ‘COVID-19’ Related E-Commerce UX Improvements to Make](https://baymard.com/blog/covid-19-ux-improvements)
 
+### Nielsen Norman Group
+
+* [The Love-at-First-Sight Gaze Pattern on Search-Results Pages](https://www.nngroup.com/articles/love-at-first-sight-pattern/)
+* [Good Abandonment on Search Results Pages](https://www.nngroup.com/articles/good-abandonment/)
+* [Complex Search-Results Pages Change Search Behavior: The Pinball Pattern](https://www.nngroup.com/articles/pinball-pattern-search-behavior/)
+* [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
+* [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
+* [Scoped Search: Dangerous, but Sometimes Useful](https://www.nngroup.com/articles/scoped-search/)
+
 ## Spelling correction
 
 * Peter Norvig. ["How to Write a Spelling Corrector"](http://norvig.com/spell-correct.html). Classic publication. 
