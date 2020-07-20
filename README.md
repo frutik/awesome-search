@@ -73,6 +73,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
 * [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
 * [Scoped Search: Dangerous, but Sometimes Useful](https://www.nngroup.com/articles/scoped-search/)
+* [3 Guidelines for Search Engine "No Results" Pages](https://www.nngroup.com/articles/search-no-results-serp/)
 
 ## Spelling correction
 
