@@ -49,7 +49,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 ## Search UX 
 
-### Baymard's guides
+### Baymard Institute
 
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 * [Autodirect or Guide Users to Matching Category](https://baymard.com/blog/autodirect-searches-matching-category-scopes)
