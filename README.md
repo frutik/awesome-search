@@ -24,7 +24,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Books](#books) 
 - [Management, Search Team](#management-search-team)
 - [Personalies and influencers](#personalies-and-influencers) 
-- [Query Understanding by Daniel Tunkelang](#query-understanding-by-daniel-tunkelang)
+- [Blogposts series](#blogposts-series)
 - [Videos](#videos)
 - [Usecases](#usecases)
 
@@ -38,7 +38,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Supporting the Searcher’s Journey: When and How](https://medium.com/@dtunkelang/supporting-the-searchers-journey-when-and-how-568e9b68fe02)
 * [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
 * [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
-* [Search Optimization 101 – How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
 
 ## Types of search
 
@@ -249,7 +248,14 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 
-## Query Understanding by Daniel Tunkelang
+## Blogposts series
+
+### Search Optimization 101 by Charlie Hull
+
+* [How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
+* [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/17/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
+
+### Query Understanding by Daniel Tunkelang
    Better search through query understanding.
    
 * [An Introduction](https://queryunderstanding.com/introduction-c98740502103)
