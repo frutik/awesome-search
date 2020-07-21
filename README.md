@@ -169,6 +169,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
 * [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
+* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
 * [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
 
 
@@ -176,7 +177,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
 * [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
-* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
 
 ## Other, Algorithms
 
