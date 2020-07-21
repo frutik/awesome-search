@@ -251,6 +251,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
 * [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
 * [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
+* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
 
 ## Blogposts series
 
