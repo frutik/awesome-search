@@ -117,7 +117,10 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Autocomplete Search Best Practices to Increase Conversions](https://lucidworks.com/post/autocomplete-search-increase-conversions/)
 * Nielsen Norman Group: [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
 * [Why we’ve developed the searchhub smartSuggest module and why it might matter to you](https://www.linkedin.com/pulse/why-weve-developed-searchhub-smartsuggest-module-might-andreas-wagner/)
-
+* [13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)](https://baymard.com/blog/autocomplete-design)
+* [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
+* [Autocomplete](https://queryunderstanding.com/autocomplete-69ed81bba245)
+* [Autocomplete and User Experience](https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000)
 
 ## BERT
 
