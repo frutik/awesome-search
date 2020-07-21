@@ -240,6 +240,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
 * [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
 * [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
+* [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
 
 ## Blogposts series
 
