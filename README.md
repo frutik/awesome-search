@@ -7,17 +7,15 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Types of search](#types-of-search)
 - [Search UX](#search-ux) 
 - [Spelling correction](#spelling-correction) 
-- [Synonyms](#synonyms) 
 - [Suggestions](#suggestions) 
-- [BERT](#bert) 
-- [Spacy](#spacy) 
-- [Word2Vec](#word2vec) 
+- [Synonyms](#synonyms) 
 - [Collocations, common phrases](#collocations-common-phrases)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
 - [Query understanding](#query-understanding)
 - [Learning to rank](#learning-to-rank)
 - [Other, Search](#other-search) 
 - [Other, Algorithms](#other-algorithms)
+- [BERT](#bert) 
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
 - [Testing and metrics](#testing-and-metrics) 
 - [Conferences](#conferences) 
@@ -126,18 +124,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
 * [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
-
-## Spacy
-
-[Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
-
-## Word2Vec
-
-* [Word2Vec For Phrases — Learning Embeddings For More Than One Word](https://towardsdatascience.com/word2vec-for-phrases-learning-embeddings-for-more-than-one-word-727b6cf723cf)
-* [Gensim Word2Vec Tutorial](http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/#.XV-wnJMzbUL)
-* [How to incorporate phrases into Word2Vec – a text mining approach](http://kavita-ganesan.com/how-to-incorporate-phrases-into-word2vec-a-text-mining-approach/#.XV-wnJMzbUL)
-* [Word2Vec — a baby step in Deep Learning but a giant leap towards Natural Language Processing](https://medium.com/explore-artificial-intelligence/word2vec-a-baby-step-in-deep-learning-but-a-giant-leap-towards-natural-language-processing-40fe4e8602ba)
-* [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
 
 ## Collocations, common phrases
 
@@ -301,6 +287,20 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
 
 ## Tools
+
+### Spacy
+
+[Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
+
+### Word2Vec
+
+* [Word2Vec For Phrases — Learning Embeddings For More Than One Word](https://towardsdatascience.com/word2vec-for-phrases-learning-embeddings-for-more-than-one-word-727b6cf723cf)
+* [Gensim Word2Vec Tutorial](http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/#.XV-wnJMzbUL)
+* [How to incorporate phrases into Word2Vec – a text mining approach](http://kavita-ganesan.com/how-to-incorporate-phrases-into-word2vec-a-text-mining-approach/#.XV-wnJMzbUL)
+* [Word2Vec — a baby step in Deep Learning but a giant leap towards Natural Language Processing](https://medium.com/explore-artificial-intelligence/word2vec-a-baby-step-in-deep-learning-but-a-giant-leap-towards-natural-language-processing-40fe4e8602ba)
+* [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
+
+### Other
 
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
 * [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
