@@ -249,6 +249,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
+* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
 
 ## Blogposts series
 
