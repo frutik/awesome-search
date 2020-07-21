@@ -27,6 +27,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Blogposts series](#blogposts-series)
 - [Videos](#videos)
 - [Usecases](#usecases)
+- [Tools](#tools)
 
 ## General, fun, philosophy
 
@@ -298,6 +299,15 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ## Videos
 
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
+
+## Tools
+
+* [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
+* [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
+* https://github.com/zentity-io/zentity
+* https://github.com/mammothb/symspellpy
+* https://github.com/searchhub/search-collector
+
 
 ## Other awesome stuff
 
