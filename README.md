@@ -300,3 +300,4 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
 * [Awesome time series](https://github.com/frutik/awesome-timeseries)
 * [Awesome Spacy](https://github.com/frutik/awesome-spacy)
+* [Query-Understanding](https://github.com/sanazb/Query-Understanding)
