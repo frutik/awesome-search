@@ -45,8 +45,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
-* Daniel Tunkelang.
-[Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
+* [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
+* [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 
 ## Search UX 
 
