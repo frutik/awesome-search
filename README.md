@@ -38,6 +38,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
 * [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
+* [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 
 ## Types of search
 
