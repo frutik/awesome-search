@@ -205,6 +205,10 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Haystack](https://haystackconf.com/)
 * [Elastic{ON}](https://www.elastic.co/elasticon/)
 * [MIX-CAMP E-COMMERCE SEARCH](http://www.mices.co)
+* [SIGIR eCommerce](https://sigir-ecom.github.io/index.html)
+  - [2019](https://sigir-ecom.github.io/ecom2019/index.html) 
+  - [2018](https://sigir-ecom.github.io/ecom2018/index.html)
+  - [2017](http://sigir-ecom.weebly.com/)
 
 ## Books
 
