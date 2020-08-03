@@ -110,6 +110,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 ## Suggestions
 
+Synonyms: autocomplete, search as you type, suggestions
+
 * Giovanni Fernandez-Kincade. 
 [Bootstrapping Autosuggest](https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb), [Building an Autosuggest Corpus, Part 1](https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708), [Building an Autosuggest Corpus, Part 2](https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b), [Autosuggest Retrieval Data Structures & Algorithms](https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8), [Autosuggest Ranking](https://medium.com/related-works-inc/autosuggest-ranking-d8a3242c2837)
 * [On two types of suggestions](https://web.archive.org/web/20181207194952/https://www.searchblox.com/autosuggest-search-query-based-vs-content-based)
@@ -120,6 +122,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [13 Design Patterns for Autocomplete Suggestions](https://baymard.com/blog/autocomplete-design)
 * [Autocomplete](https://queryunderstanding.com/autocomplete-69ed81bba245)
 * [Autocomplete and User Experience](https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000)
+* [IMPLEMENTING A LINKEDIN LIKE SEARCH AS YOU TYPE WITH ELASTICSEARCH](https://spinscale.de/posts/2020-05-29-implementing-a-linkedin-like-search-as-you-type-with-elasticsearch.html)
 
 ## BERT
 
