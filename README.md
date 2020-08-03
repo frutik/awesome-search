@@ -201,6 +201,9 @@ Synonyms: autocomplete, search as you type, suggestions
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
 * [Measuring Search: Metrics Matter](https://medium.com/@jamesrubinstein/measuring-search-metrics-matter-de124c2f6f8c)
 
+## Blogs and Portals
+
+* [Searchnews](http://searchnews.org/)
 
 ## Conferences
 
