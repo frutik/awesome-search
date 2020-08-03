@@ -18,6 +18,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [BERT](#bert) 
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
 - [Testing and metrics](#testing-and-metrics) 
+- [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
 - [Management, Search Team](#management-search-team)
