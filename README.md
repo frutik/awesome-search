@@ -2,6 +2,8 @@
 
 I've been building e-commerce search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
 
+:star: Star us on GitHub — it helps!
+
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
