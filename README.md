@@ -38,7 +38,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [On Semantic Search](https://medium.com/modern-nlp/semantic-search-fuck-yeah-e371c0f639d)
 * [Feedback debt: what the segway teaches search teams](https://opensourceconnections.com/blog/2020/03/19/feedback-debt/)
 * [Supporting the Searcher’s Journey: When and How](https://medium.com/@dtunkelang/supporting-the-searchers-journey-when-and-how-568e9b68fe02)
-* [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
 * [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
@@ -155,8 +154,11 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search for Things not for Strings](https://medium.com/@searchhub.io/humans-search-for-things-not-for-strings-5dd115d95986)
 * Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639) 
 * [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/)
-* [Mapping Search Queries To Search Intents](https://medium.com/@dtunkelang/search-queries-and-search-intent-1dec79ad155f)
 
+#### Search Intent
+
+* [Mapping Search Queries To Search Intents](https://medium.com/@dtunkelang/search-queries-and-search-intent-1dec79ad155f)
+* [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
 
 #### Query segmentation
 
