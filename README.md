@@ -266,7 +266,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Search Optimization 101 by Charlie Hull
 
 * [How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
-* [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/17/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
+* [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/20/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
 
 ### Query Understanding by Daniel Tunkelang
    Better search through query understanding.
