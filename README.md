@@ -207,10 +207,14 @@ Synonyms: autocomplete, search as you type, suggestions
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
 
-### James Rubinstein
+### Measuring Search by James Rubinstein
 
 * [Statistical and human-centered approaches to search engine improvement](https://medium.com/@jamesrubinstein/statistical-and-human-centered-approaches-to-search-engine-improvement-52af0e98f38f)
-* [Measuring Search: Metrics Matter](https://medium.com/@jamesrubinstein/measuring-search-metrics-matter-de124c2f6f8c)
+* [A Human Approach](https://medium.com/@jamesrubinstein/measuring-search-a-human-approach-acf54e2cf33d)
+* [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
+* [Metrics Matter](https://medium.com/@jamesrubinstein/measuring-search-metrics-matter-de124c2f6f8c)
+* [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
+* [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
 
 ## Blogs and Portals
 
