@@ -19,7 +19,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Other, Algorithms](#other-algorithms)
 - [BERT](#bert) 
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
-- [Testing and metrics](#testing-and-metrics) 
+- [Testing, metrics, KPIs](#testing-metrics-kpis) 
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
@@ -196,7 +196,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
 
-## Testing and metrics
+## Testing, metrics, KPIs
 
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
@@ -206,6 +206,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
+* E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), Part 3
 
 ### Measuring Search by James Rubinstein
 
