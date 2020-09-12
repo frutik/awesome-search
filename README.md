@@ -198,8 +198,8 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Testing, metrics, KPIs
 
-* [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
+* [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
 * Evaluating Search (by Daniel Tunkelang) [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6), [Measuring Searcher Behavior](https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0), [Using Human Judgement](https://medium.com/@dtunkelang/evaluating-search-using-human-judgement-fbb2eeba37d9)
 * [When There’s No Conversion Rate](https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed)
@@ -207,8 +207,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
 * E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), Part 3
-* [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
-* [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
+* [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 
 ### Measuring Search by James Rubinstein
 
