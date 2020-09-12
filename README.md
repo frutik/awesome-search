@@ -208,6 +208,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
 * E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), Part 3
 * [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
+* [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
 
 ### Measuring Search by James Rubinstein
 
