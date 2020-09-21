@@ -335,6 +335,8 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
 * [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
+* [Quepid](https://github.com/o19s/quepid)
+* [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 * https://github.com/zentity-io/zentity
 * https://github.com/mammothb/symspellpy
 * https://github.com/searchhub/search-collector
