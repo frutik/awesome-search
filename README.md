@@ -331,16 +331,18 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Word2Vec — a baby step in Deep Learning but a giant leap towards Natural Language Processing](https://medium.com/explore-artificial-intelligence/word2vec-a-baby-step-in-deep-learning-but-a-giant-leap-towards-natural-language-processing-40fe4e8602ba)
 * [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
 
-### Other
+### Libs
 
-* [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
 * [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
-* [Quepid](https://github.com/o19s/quepid)
-* [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 * https://github.com/zentity-io/zentity
 * https://github.com/mammothb/symspellpy
 * https://github.com/searchhub/search-collector
 
+### Other
+
+* [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
+* [Quepid](https://github.com/o19s/quepid)
+* [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 
 ## Other awesome stuff
 
