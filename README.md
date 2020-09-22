@@ -350,3 +350,4 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Awesome time series](https://github.com/frutik/awesome-timeseries)
 * [Awesome Spacy](https://github.com/frutik/awesome-spacy)
 * [Query-Understanding](https://github.com/sanazb/Query-Understanding)
+* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
