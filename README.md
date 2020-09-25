@@ -208,7 +208,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
-* E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), Part 3
+* E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), [Part 3 - Queries](https://opensourceconnections.com/blog/2020/09/24/e-commerce-site-search-kpis-part-3-queries/)
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 
 ### Measuring Search by James Rubinstein
