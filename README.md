@@ -15,6 +15,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
 - [Query understanding](#query-understanding)
 - [Learning to rank](#learning-to-rank)
+- [Relevance Algorithms](#relevance-algorithms)
 - [Other, Search](#other-search) 
 - [Other, Algorithms](#other-algorithms)
 - [BERT](#bert) 
@@ -175,6 +176,11 @@ Synonyms: autocomplete, search as you type, suggestions
 * [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
 
 
+## Relevance Algorithms
+
+* Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
+* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
+
 ## Other, Search
 
 * [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
@@ -186,7 +192,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
 * [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
 * [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
-* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 * [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
 * [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
 * [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake)
