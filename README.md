@@ -127,6 +127,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Autocomplete](https://queryunderstanding.com/autocomplete-69ed81bba245)
 * [Autocomplete and User Experience](https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000)
 * [IMPLEMENTING A LINKEDIN LIKE SEARCH AS YOU TYPE WITH ELASTICSEARCH](https://spinscale.de/posts/2020-05-29-implementing-a-linkedin-like-search-as-you-type-with-elasticsearch.html)
+* [Smart autocomplete best practices: improve search relevance and sales](https://blog.griddynamics.com/smart-autocomplete-best-practices/)
 
 ## BERT
 
