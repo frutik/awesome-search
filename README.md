@@ -218,6 +218,8 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
+* https://en.wikipedia.org/wiki/Precision_and_recall
+* https://en.wikipedia.org/wiki/F1_score
 
 ### KPIs
 
