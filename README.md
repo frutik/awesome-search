@@ -79,7 +79,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Scoped Search: Dangerous, but Sometimes Useful](https://www.nngroup.com/articles/scoped-search/)
 * [3 Guidelines for Search Engine "No Results" Pages](https://www.nngroup.com/articles/search-no-results-serp/)
 
-### Enterprise Knowledge
+### Enterprise Knowledge LLC
 
 * [Optimizing Your Search Experience: A Human-Centered Approach to Search Design](https://enterprise-knowledge.com/optimizing-your-search-experience-a-human-centered-approach-to-search-design/)
 
