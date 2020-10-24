@@ -1,6 +1,6 @@
 # Awesome-search
 
-I've been building e-commerce search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic.
+I've been building e-commerce search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic (If an article fits into multiple topics - it goes into multiple sections).
 
 :star: Star us on GitHub — it helps!
 
@@ -286,6 +286,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Building an Effective Search Team: the key to great search & relevancy](https://opensourceconnections.com/blog/2020/05/14/building-an-effective-search-team-the-key-to-great-search-relevancy/)
 * [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
 * [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
+* [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
 * [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
 
 ## Personalies and influencers
