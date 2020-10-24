@@ -148,8 +148,11 @@ Synonyms: autocomplete, search as you type, suggestions
   Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
   
 * [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
-
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
+
+### Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
+
+* [Part 1: Displaying Relationships](https://enterprise-knowledge.com/integrating-search-and-knowledge-graphs-series-part-1-displaying-relationships/)
 
 
 ## Query understanding
