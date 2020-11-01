@@ -278,6 +278,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
 * [Search User Interfaces](http://www.searchuserinterfaces.com)
 * [Search Patterns](https://searchpatterns.org/)
+* [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
 
 ## Management, Search Team
 
