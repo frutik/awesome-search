@@ -235,6 +235,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), [Part 3 - Queries](https://opensourceconnections.com/blog/2020/09/24/e-commerce-site-search-kpis-part-3-queries/)
 * [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
 * [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
+* [Behind the Wizardry of a Seamless Search Experience](https://enterprise-knowledge.com/if-i-only-had-an-enterprise-search-brain-behind-the-wizardry-of-a-seamless-search-experience/)
 
 ### Evaluating Search (by Daniel Tunkelang) 
 
