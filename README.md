@@ -291,25 +291,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
 * [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
 
-## Personalies and influencers
-
-* [Daniel Tunkelang (he is God of Search)](https://medium.com/@dtunkelang)
-* [Max Irwin](https://twitter.com/binarymax)
-* [Doug Turnbull](https://twitter.com/softwaredoug)
-* [Baymard’s Institute](https://baymard.com/blog)
-
-## Usecases
-
-* Airbnb - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
-* Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
-* Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
-* [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
-* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
-* [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
-* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
-* [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
-* [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
-
 ## Blogposts series
 
 ### Search Optimization 101 by Charlie Hull
@@ -352,16 +333,47 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Query Understanding and Voice Interfaces](https://queryunderstanding.com/query-understanding-and-voice-interfaces-6cd60d063fca)
 * [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
 
-## Search Engines
+## Industry players
+
+### Personalies and influencers
+
+* [Daniel Tunkelang (he is God of Search)](https://medium.com/@dtunkelang)
+* [Max Irwin](https://twitter.com/binarymax)
+* [Doug Turnbull](https://twitter.com/softwaredoug)
+* [Baymard’s Institute](https://baymard.com/blog)
+
+### Search Engines
 
 * Google
 * Bing
 * Yandex
+* Amazon
+* eBay
 
-## Consulting companies, products
+### Products and services
+
+* Algolia
+* Vespa
+* Elastic
+* Solr
+
+### Consulting companies, products
 
 * OpenSource Connections
 * SearchHub.io
+* https://sease.io/
+
+### Case studies
+
+* Airbnb - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
+* Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
+* Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
+* [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
+* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
+* [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
+* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
+* [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
+* [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
 
 
 ## Videos
