@@ -352,6 +352,18 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Query Understanding and Voice Interfaces](https://queryunderstanding.com/query-understanding-and-voice-interfaces-6cd60d063fca)
 * [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
 
+## Search Engines
+
+* Google
+* Bing
+* Yandex
+
+## Consulting companies, products
+
+* OpenSource Connections
+* SearchHub.io
+
+
 ## Videos
 
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
