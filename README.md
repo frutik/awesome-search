@@ -352,10 +352,11 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### Products and services
 
-* Algolia
+* [Algolia](https://www.algolia.com/)
 * Vespa
 * Elastic
 * Solr
+* [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 
 ### Consulting companies, products
 
