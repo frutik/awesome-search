@@ -358,7 +358,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * Solr
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 
-### Consulting companies, products
+### Consulting companies
 
 * OpenSource Connections
 * SearchHub.io
