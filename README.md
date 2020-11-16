@@ -237,6 +237,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
 * [Behind the Wizardry of a Seamless Search Experience](https://enterprise-knowledge.com/if-i-only-had-an-enterprise-search-brain-behind-the-wizardry-of-a-seamless-search-experience/)
 * [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
+* [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
 
 ### Evaluating Search (by Daniel Tunkelang) 
 
