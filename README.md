@@ -8,6 +8,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
 - [Search UX](#search-ux) 
+- [Facets](#facets) 
 - [Spelling correction](#spelling-correction) 
 - [Suggestions](#suggestions) 
 - [Synonyms](#synonyms) 
@@ -42,7 +43,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
-* [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
 
 ## Types of search
 
@@ -86,6 +86,13 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ### Other
 
 * [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
+
+## Facets 
+
+* [Facets of Faceted Search](https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592)
+* [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
+* [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
+* [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
 
 ## Spelling correction
 
@@ -211,7 +218,8 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
-* [98 personal data points that Facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+* [98 personal data points that 
+book uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
 * [A Face Is Exposed for AOL Searcher No. 4417749](https://www.nytimes.com/2006/08/09/technology/09aol.html)
 * [AOL search data leak](https://en.wikipedia.org/wiki/AOL_search_data_leak)
