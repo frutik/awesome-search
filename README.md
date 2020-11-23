@@ -13,7 +13,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Synonyms](#synonyms) 
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
 - [Query understanding](#query-understanding)
-- [Learning to rank](#learning-to-rank)
 - [Algorithms](#algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
 - [Testing, metrics, KPIs](#testing-metrics-kpis) 
@@ -171,14 +170,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * Paper [Unsupervised Query Segmentation Using only Query Logs ](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/01/pp0295-mishra.pdf)
 * Paper [Towards Semantic Query Segmentation](https://arxiv.org/pdf/1707.07835.pdf)
 
-## Learning to Rank
-
-* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
-* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
-* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
-* [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
-* [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
-
 ## Algorithms
 
 ### Relevance Algorithms
@@ -187,7 +178,15 @@ Synonyms: autocomplete, search as you type, suggestions
 * [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 * [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
 
-## BERT
+### Learning to Rank
+
+* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
+* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
+* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
+* [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
+* [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
+
+### BERT
 
 * [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
 * [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
