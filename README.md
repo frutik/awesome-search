@@ -300,6 +300,8 @@ Synonyms: autocomplete, search as you type, suggestions
 * [How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
 * [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/20/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
 * [How do you fix a broken search?](https://blog.supahands.com/2020/08/04/search-optimization-101-how-do-you-fix-a-broken-search/)
+* [Reducing business risk by optimizing search
+](https://blog.supahands.com/2020/09/02/reducing-business-risks-by-optimizing-search/)
 
 ### Query Understanding by Daniel Tunkelang
    Better search through query understanding.
