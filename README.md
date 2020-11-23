@@ -8,18 +8,13 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
 - [Search UX](#search-ux) 
-- [Facets](#facets) 
 - [Spelling correction](#spelling-correction) 
 - [Suggestions](#suggestions) 
 - [Synonyms](#synonyms) 
-- [Collocations, common phrases](#collocations-common-phrases)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
 - [Query understanding](#query-understanding)
 - [Learning to rank](#learning-to-rank)
-- [Relevance Algorithms](#relevance-algorithms)
-- [Other, Search](#other-search) 
-- [Other, Algorithms](#other-algorithms)
-- [BERT](#bert) 
+- [Algorithms](#algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
 - [Testing, metrics, KPIs](#testing-metrics-kpis) 
 - [Blogs and Portals, News](#blogs-and-portals)
@@ -83,16 +78,18 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Optimizing Your Search Experience: A Human-Centered Approach to Search Design](https://enterprise-knowledge.com/optimizing-your-search-experience-a-human-centered-approach-to-search-design/)
 
-### Other
-
-* [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
-
-## Facets 
+### Facets 
 
 * [Facets of Faceted Search](https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592)
 * [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
 * [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
 * [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
+
+### Other
+
+* [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
+* [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
+* [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
 
 ## Spelling correction
 
@@ -142,16 +139,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [IMPLEMENTING A LINKEDIN LIKE SEARCH AS YOU TYPE WITH ELASTICSEARCH](https://spinscale.de/posts/2020-05-29-implementing-a-linkedin-like-search-as-you-type-with-elasticsearch.html)
 * [Smart autocomplete best practices: improve search relevance and sales](https://blog.griddynamics.com/smart-autocomplete-best-practices/)
 
-## BERT
-
-* [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
-* [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
-
-## Collocations, common phrases
-
-* [Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences.]( https://radimrehurek.com/gensim/models/phrases.html)
-* [The Unreasonable Effectiveness of Collocations](https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/)
-
 ## Graphs/Taxonomies/Knowledge Graph
 
 * [Knowledge graphs applied in the retail industry](https://towardsdatascience.com/knowledge-graphs-applied-in-the-retail-industry-ecac4e7baf8)
@@ -192,19 +179,25 @@ Synonyms: autocomplete, search as you type, suggestions
 * [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
 * [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
 
+## Algorithms
 
-## Relevance Algorithms
+### Relevance Algorithms
 
 * Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
 * [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 * [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
 
-## Other, Search
+## BERT
 
-* [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
-* [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
+* [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
+* [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
 
-## Other, Algorithms
+### Collocations, common phrases
+
+* [Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences.]( https://radimrehurek.com/gensim/models/phrases.html)
+* [The Unreasonable Effectiveness of Collocations](https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/)
+
+### Other Algorithms
 
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
