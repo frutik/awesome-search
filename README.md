@@ -296,10 +296,13 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Search is a Team Sport](https://medium.com/search-in-21st-century/search-is-a-team-sport-400eecdfe736)
 * [Thoughts about Managing Search Teams](https://medium.com/@dtunkelang/thoughts-about-managing-search-teams-f8d2f54fbed7)
 * [Building an Effective Search Team: the key to great search & relevancy](https://opensourceconnections.com/blog/2020/05/14/building-an-effective-search-team-the-key-to-great-search-relevancy/)
-* [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
 * [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
 * [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
 * [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
+
+### Job Interviews
+
+* [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
 
 ## Blogposts series
 
