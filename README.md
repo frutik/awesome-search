@@ -193,6 +193,13 @@ Synonyms: autocomplete, search as you type, suggestions
 * [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
 * [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
 * [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
+* [Using AI and Machine Learning to Overcome Position Bias within Adobe Stock Search](https://medium.com/adobetech/evaluating-addressing-position-bias-in-adobe-stock-search-9807b11ee268)
+
+#### Click models for search
+
+* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
+* [Click Modeling for eCommerce](https://tech.ebayinc.com/engineering/click-modeling-for-ecommerce/)
+* [Using Behavioral Data to Improve Search](https://tech.ebayinc.com/engineering/using-behavioral-data-to-improve-search/)
 
 ### BERT
 
@@ -246,6 +253,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Behind the Wizardry of a Seamless Search Experience](https://enterprise-knowledge.com/if-i-only-had-an-enterprise-search-brain-behind-the-wizardry-of-a-seamless-search-experience/)
 * [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
 * [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
+
 
 ### Evaluating Search (by Daniel Tunkelang) 
 
