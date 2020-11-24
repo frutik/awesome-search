@@ -9,21 +9,47 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
-- [Search UX](#search-ux) 
+- [Search UX](#search-ux)
+  - Baymard Institute
+  - Nielsen Norman Group
+  - Enterprise Knowledge LLC
+  - Facets
+    - Accidental Taxonomist
+  - Other 
 - [Spelling correction](#spelling-correction) 
 - [Suggestions](#suggestions) 
 - [Synonyms](#synonyms) 
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
+  - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 - [Query understanding](#query-understanding)
+  - Search Intent
+  - Query segmentation
 - [Algorithms](#algorithms)
+  - Relevance Algorithms
+  - Learning to Rank
+    - Click models for search
+  - BERT
+  - Collocations, common phrases
+  - Other Algorithms
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
-- [Testing, metrics, KPIs](#testing-metrics-kpis) 
+- [Testing, metrics, KPIs](#testing-metrics-kpis)
+  - Metrics
+  - KPIs
+  - Evaluating Search (by Daniel Tunkelang)
+  - Measuring Search by James Rubinstein
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
 - [Management, Search Team](#management-search-team)
-- [Personalies and influencers](#personalies-and-influencers) 
+  - Job Interviews
+- [Industry players](#industry-players)
+  - Personalies and influencers
+  - Search Engines
+  - Products and services
+  - Consulting companies
 - [Blogposts series](#blogposts-series)
+  - Search Optimization 101 (by Charlie Hull)
+  - Query Understanding (by Daniel Tunkelang)
 - [Videos](#videos)
 - [Usecases](#usecases)
 - [Tools](#tools)
@@ -168,12 +194,12 @@ Synonyms: autocomplete, search as you type, suggestions
 * Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639) 
 * [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/)
 
-#### Search Intent
+### Search Intent
 
 * [Mapping Search Queries To Search Intents](https://medium.com/@dtunkelang/search-queries-and-search-intent-1dec79ad155f)
 * [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
 
-#### Query segmentation
+### Query segmentation
 
 * Paper [Unsupervised Query Segmentation Using only Query Logs ](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/01/pp0295-mishra.pdf)
 * Paper [Towards Semantic Query Segmentation](https://arxiv.org/pdf/1707.07835.pdf)
@@ -262,7 +288,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Using Human Judgement](https://medium.com/@dtunkelang/evaluating-search-using-human-judgement-fbb2eeba37d9)
 * [When There’s No Conversion Rate](https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed)
 
-### Measuring Search by James Rubinstein
+### Measuring Search (by James Rubinstein)
 
 * [Statistical and human-centered approaches to search engine improvement](https://medium.com/@jamesrubinstein/statistical-and-human-centered-approaches-to-search-engine-improvement-52af0e98f38f)
 * [A Human Approach](https://medium.com/@jamesrubinstein/measuring-search-a-human-approach-acf54e2cf33d)
@@ -315,7 +341,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 
 ## Blogposts series
 
-### Search Optimization 101 by Charlie Hull
+### Search Optimization 101 (by Charlie Hull)
 
 * [How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
 * [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/20/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
@@ -323,7 +349,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Reducing business risk by optimizing search
 ](https://blog.supahands.com/2020/09/02/reducing-business-risks-by-optimizing-search/)
 
-### Query Understanding by Daniel Tunkelang
+### Query Understanding (by Daniel Tunkelang)
    Better search through query understanding.
    
 * [An Introduction](https://queryunderstanding.com/introduction-c98740502103)
@@ -388,7 +414,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * SearchHub.io
 * https://sease.io/
 
-### Case studies
+## Case studies
 
 * Airbnb - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
 * Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
