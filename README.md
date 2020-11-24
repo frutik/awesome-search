@@ -303,6 +303,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 ### Job Interviews
 
 * [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
+* [Data Science Interviews: Ranking and search](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md#ranking-andsearch)
 
 ## Blogposts series
 
