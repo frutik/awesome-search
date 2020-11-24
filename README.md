@@ -86,6 +86,12 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
 * [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
 
+#### Accidental Taxonomist
+
+* [How Many Facets Should a Taxonomy Have](http://accidental-taxonomist.blogspot.com/2020/07/how-many-facets-in-taxonomy.html)
+* [When a Taxonomy Should not be Hierarchical](https://accidental-taxonomist.blogspot.com/2020/06/when-taxonomy-should-not-be-hierarchical.html)
+* [Customizing Taxonomy Facets](http://accidental-taxonomist.blogspot.com/2020/10/customizing-taxonomy-facets.html)
+
 ### Other
 
 * [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
