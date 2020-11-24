@@ -4,7 +4,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 :star: Star us on GitHub — it helps!
 
-:bell: Start wathing the repo or follow the [atom feed](https://github.com/frutik/awesome-search/commits/master.atom) to receive updates.
+:bell: Start watching the repo or follow the [atom feed](https://github.com/frutik/awesome-search/commits/master.atom) to receive updates.
 
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
