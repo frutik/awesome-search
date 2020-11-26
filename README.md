@@ -50,6 +50,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Blogposts series](#blogposts-series)
   - Search Optimization 101 (by Charlie Hull)
   - Query Understanding (by Daniel Tunkelang)
+  - Grid Dynamics
 - [Videos](#videos)
 - [Usecases](#usecases)
 - [Tools](#tools)
