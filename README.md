@@ -387,6 +387,13 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Query Understanding and Voice Interfaces](https://queryunderstanding.com/query-understanding-and-voice-interfaces-6cd60d063fca)
 * [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
 
+### Grid Dynamics
+
+* [Not your father’s search engine: a brief history of retail search](https://blog.griddynamics.com/not-your-fathers-search-engine-a-brief-history-of-retail-search/)
+* [Semantic vector search: the new frontier in product discovery](https://blog.griddynamics.com/semantic-vector-search-the-new-frontier-in-product-discovery/)
+* [Boosting product discovery with semantic search](https://blog.griddynamics.com/boosting-product-discovery-with-semantic-search/)
+* [Semantic query parsing blueprint](https://blog.griddynamics.com/semantic-query-parsing-blueprint/)
+
 ## Industry players
 
 ### Personalies and influencers
