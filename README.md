@@ -281,7 +281,6 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
 * [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
 
-
 ### Evaluating Search (by Daniel Tunkelang) 
 
 * [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6)
@@ -298,6 +297,10 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
 * [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
 * [The Launch Review: bringing it all together…](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
+
+### Three Pillars of Search Relevancy (by Andreas Wagner)
+
+* [Part 1: Findability](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-1-findability)
 
 ## Blogs and Portals
 
