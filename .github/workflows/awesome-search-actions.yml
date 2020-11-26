@@ -7,7 +7,7 @@ on:
 jobs:
   check-links:
     name: check links for 404
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@master
