@@ -110,6 +110,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Facets of Faceted Search](https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592)
 * [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
+* [Faceted Search](https://queryunderstanding.com/faceted-search-7d053cc4fada)
 * [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
 * [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
 
