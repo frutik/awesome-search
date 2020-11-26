@@ -246,6 +246,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
 * [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
 * [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake)
+* [Writing a full-text search engine using Bloom filters](https://www.stavros.io/posts/bloom-filter-search-engine/)
 
 ## Tracking, profiling, GDPR, Analysis
 
