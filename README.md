@@ -36,7 +36,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Metrics
   - KPIs
   - Evaluating Search (by Daniel Tunkelang)
-  - Measuring Search by James Rubinstein
+  - Measuring Search (by James Rubinstein)
+  - Three Pillars of Search Relevancy (by Andreas Wagner)
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
