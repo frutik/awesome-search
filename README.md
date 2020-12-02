@@ -422,6 +422,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * Elastic
 * Solr
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
+* [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
 
 ### Consulting companies
 
