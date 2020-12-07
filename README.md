@@ -1,4 +1,4 @@
-# Awesome Search
+e# Awesome Search
 
 I've been building e-commerce search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic (If an article fits into multiple topics - it goes into multiple sections).
 
@@ -68,6 +68,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 * [On-Site Search Design Patterns for E-Commerce: Schema Structure, Data Driven Ranking & More](https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/)
+* [In Search of Recall](https://www.linkedin.com/pulse/search-recall-daniel-tunkelang/)
 
 ## Types of search
 
