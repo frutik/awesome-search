@@ -1,4 +1,4 @@
-e# Awesome Search
+# Awesome Search
 
 I've been building e-commerce search applications for almost ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic (If an article fits into multiple topics - it goes into multiple sections).
 
