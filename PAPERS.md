@@ -1,16 +1,26 @@
-### [Event-Related Query Classification with Deep Neural Networks](https://dl.acm.org/doi/abs/10.1145/3366424.3382183)
+### Event-Related Query Classification with Deep Neural Networks
 
 ![](static/1.png)
 
-### [Semantic Product Search for Matching Structured Product Catalogs in E-Commerce](https://arxiv.org/pdf/2008.08180.pdf)
+https://dl.acm.org/doi/abs/10.1145/3366424.3382183
 
-### [Semantic Product Search](https://arxiv.org/pdf/1907.00937.pdf)
+### Semantic Product Search for Matching Structured Product Catalogs in E-Commerce
 
-### [Named Entity Recognition for E-Commerce Search Queries](https://sdm-dsre.github.io/pdf/named_entity.pdf)
+https://arxiv.org/pdf/2008.08180.pdf
 
-### [Expansion via Prediction of Importance with Contextualization](https://arxiv.org/pdf/2004.14245.pdf)
+### Semantic Product Search
 
-### [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf)
+https://arxiv.org/pdf/1907.00937.pdf
+
+### Named Entity Recognition for E-Commerce Search Queries
+
+https://sdm-dsre.github.io/pdf/named_entity.pdf
+
+### Expansion via Prediction of Importance with Contextualization
+
+https://arxiv.org/pdf/2004.14245.pdf
+
+### Amazon Search: The Joy of Ranking Products
 
 Amazon is one of the world’s largest e-commerce sites and
 Amazon Search powers the majority of Amazon’s sales. As a
@@ -25,7 +35,17 @@ framework used for ranking within categories, blending separate rankings in All 
 for matching queries and products, and algorithms targeted
 at unique tasks of specific categories — books and fashion.
 
-### [E-commerce Query Classification Using Product Taxonomy Mapping: A Transfer Learning Approach](http://ceur-ws.org/Vol-2410/paper37.pdf)
+https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf
+
+### E-commerce Query Classification Using Product Taxonomy Mapping: A Transfer Learning Approach
+
+http://ceur-ws.org/Vol-2410/paper37.pdf
+
+### FairSearch: A Tool For Fairness in Ranked Search Results
+
+https://arxiv.org/pdf/1905.13134.pdf
+
+
 
 
 
