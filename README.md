@@ -41,6 +41,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
+- [Papers](#papers) 
 - [Management, Search Team](#management-search-team)
   - Job Interviews
 - [Industry players](#industry-players)
@@ -333,6 +334,10 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Search User Interfaces](http://www.searchuserinterfaces.com)
 * [Search Patterns](https://searchpatterns.org/)
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
+
+## Papers
+
+* [List of papers](PAPERS.md)
 
 ## Management, Search Team
 
