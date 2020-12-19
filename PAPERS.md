@@ -10,6 +10,8 @@
 
 - [Expansion via Prediction of Importance with Contextualization](https://arxiv.org/pdf/2004.14245.pdf)
 
+- [Amazon Search: The Joy of Ranking Products](https://assets.amazon.science/89/cd/34289f1f4d25b5857d776bdf04d5/amazon-search-the-joy-of-ranking-products.pdf)
+
 - [E-commerce Query Classification Using Product Taxonomy Mapping: A Transfer Learning Approach](http://ceur-ws.org/Vol-2410/paper37.pdf)
 
 
