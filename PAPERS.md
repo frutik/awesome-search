@@ -45,7 +45,8 @@ http://ceur-ws.org/Vol-2410/paper37.pdf
 
 https://arxiv.org/pdf/1905.13134.pdf
 
+### Pretrained Transformers for Text Ranking: BERT and Beyond
 
-
+https://arxiv.org/pdf/2010.06467.pdf
 
 
