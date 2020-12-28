@@ -26,3 +26,9 @@ the top facets for search query should be those associated with the highest dema
 [Autocorrect in Google, Amazon and Pinterest and how to write your own one](https://towardsdatascience.com/autocorrect-in-google-amazon-and-pinterest-and-how-to-write-your-own-one-6d23bc927c81)
 
 the important thing is that there is no purely programmatic way which will convert your mistyped “ipone” into “iphone” (at least with decent quality). Mostly there has to be a data set the system is based on.
+
+[Precision at K](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
+
+Precision at K
+For modern (web-scale) information retrieval, recall is no longer a meaningful metric, as many queries have thousands of relevant documents, and few users will be interested in reading all of them. Precision at k documents (P@k) is still a useful metric (e.g., P@10 or "Precision at 10" corresponds to the number of relevant results among the top 10 documents), but fails to take into account the positions of the relevant documents among the top k.[9] Another shortcoming is that on a query with fewer relevant results than k, even a perfect system will have a score less than 1.[10] It is easier to score manually since only the top k results need to be examined to determine if they are relevant or not.
+
