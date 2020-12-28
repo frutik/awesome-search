@@ -271,6 +271,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
 * [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
+* [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
