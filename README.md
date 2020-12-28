@@ -347,6 +347,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
 * [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
 * [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
+* [Search Product Management: The Most Misunderstood Role in Search?](https://jamesrubinstein.medium.com/search-product-management-the-most-misunderstood-role-in-search-2b7569058638)
 
 ### Job Interviews
 
