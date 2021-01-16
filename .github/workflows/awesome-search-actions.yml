@@ -1,5 +1,5 @@
 
-name: detect broken links within Awesome Search resources
+name: check Awesome Search resources
 
 on:
   workflow_dispatch:
