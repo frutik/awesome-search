@@ -477,6 +477,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * https://github.com/zentity-io/zentity
 * https://github.com/mammothb/symspellpy
 * https://github.com/searchhub/search-collector
+* [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
 
 ### Other
 
