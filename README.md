@@ -15,11 +15,11 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Enterprise Knowledge LLC
   - Facets
     - Accidental Taxonomist
-  - Other 
-- [Spelling correction](#spelling-correction) 
-- [Suggestions](#suggestions) 
-- [Synonyms](#synonyms) 
-- [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph) 
+  - Other
+- [Spelling correction](#spelling-correction)
+- [Suggestions](#suggestions)
+- [Synonyms](#synonyms)
+- [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 - [Query understanding](#query-understanding)
   - Search Intent
@@ -31,7 +31,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - BERT
   - Collocations, common phrases
   - Other Algorithms
-- [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis) 
+- [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
 - [Testing, metrics, KPIs](#testing-metrics-kpis)
   - Metrics
   - KPIs
@@ -40,9 +40,9 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Three Pillars of Search Relevancy (by Andreas Wagner)
 - [Architecture](#architecture)  
 - [Blogs and Portals, News](#blogs-and-portals)
-- [Conferences](#conferences) 
-- [Books](#books) 
-- [Papers](#papers) 
+- [Conferences](#conferences)
+- [Books](#books)
+- [Papers](#papers)
 - [Management, Search Team](#management-search-team)
   - Job Interviews
 - [Industry players](#industry-players)
@@ -79,7 +79,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 
-## Search UX 
+## Search UX
 
 ### Baymard Institute
 
@@ -111,7 +111,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Optimizing Your Search Experience: A Human-Centered Approach to Search Design](https://enterprise-knowledge.com/optimizing-your-search-experience-a-human-centered-approach-to-search-design/)
 
-### Facets 
+### Facets
 
 * [Facets of Faceted Search](https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592)
 * [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
@@ -134,7 +134,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 ## Spelling correction
 
-* Peter Norvig. ["How to Write a Spelling Corrector"](http://norvig.com/spell-correct.html). Classic publication. 
+* Peter Norvig. ["How to Write a Spelling Corrector"](http://norvig.com/spell-correct.html). Classic publication.
 * Daniel Tunkelang. ["Spelling Correction"](https://queryunderstanding.com/spelling-correction-471f71b19880)
 * [A simple spell checker built from word vectora](https://blog.usejournal.com/a-simple-spell-checker-built-from-word-vectors-9f28452b6f26)
 * A closer look into the spell correction problem: [1](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-1-a6795bbf7112), [2](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-2-introducing-predict-8993ecab7226), [3](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-3-the-bells-and-whistles-19697a34011b), [preDict](https://github.com/searchhub/preDict)
@@ -167,7 +167,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 Synonyms: autocomplete, search as you type, suggestions
 
-* Giovanni Fernandez-Kincade. 
+* Giovanni Fernandez-Kincade.
 [Bootstrapping Autosuggest](https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb), [Building an Autosuggest Corpus, Part 1](https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708), [Building an Autosuggest Corpus, Part 2](https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b), [Autosuggest Retrieval Data Structures & Algorithms](https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8), [Autosuggest Ranking](https://medium.com/related-works-inc/autosuggest-ranking-d8a3242c2837)
 * [On two types of suggestions](https://web.archive.org/web/20181207194952/https://www.searchblox.com/autosuggest-search-query-based-vs-content-based)
 * [Improving Search Suggestions for eCommerce](https://medium.com/empathyco/improving-search-suggestions-for-ecommerce-cb1bc2946021)
@@ -184,9 +184,9 @@ Synonyms: autocomplete, search as you type, suggestions
 ## Graphs/Taxonomies/Knowledge Graph
 
 * [Knowledge graphs applied in the retail industry](https://towardsdatascience.com/knowledge-graphs-applied-in-the-retail-industry-ecac4e7baf8)
-  
+
   Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
-  
+
 * [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
 
@@ -197,10 +197,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Query understanding
 
-* Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103). 
+* Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103).
 * [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
 * [Search for Things not for Strings](https://blog.searchhub.io/humans-search-for-things-not-for-strings-2?cn-reloaded=1)
-* Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639) 
+* Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639)
 * [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/)
 
 ### Search Intent
@@ -261,7 +261,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
-* [98 personal data points that 
+* [98 personal data points that
 book uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
 * [A Face Is Exposed for AOL Searcher No. 4417749](https://www.nytimes.com/2006/08/09/technology/09aol.html)
@@ -291,7 +291,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
 * [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
 
-### Evaluating Search (by Daniel Tunkelang) 
+### Evaluating Search (by Daniel Tunkelang)
 
 * [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6)
 * [Measuring Searcher Behavior](https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0)
@@ -328,7 +328,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Elastic{ON}](https://www.elastic.co/elasticon/)
 * [MIX-CAMP E-COMMERCE SEARCH](http://www.mices.co)
 * [SIGIR eCommerce](https://sigir-ecom.github.io/index.html)
-  - [2019](https://sigir-ecom.github.io/ecom2019/index.html) 
+  - [2019](https://sigir-ecom.github.io/ecom2019/index.html)
   - [2018](https://sigir-ecom.github.io/ecom2018/index.html)
   - [2017](http://sigir-ecom.weebly.com/)
 
@@ -374,7 +374,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 
 ### Query Understanding (by Daniel Tunkelang)
    Better search through query understanding.
-   
+
 * [An Introduction](https://queryunderstanding.com/introduction-c98740502103)
 * [Language Identification](https://queryunderstanding.com/language-identification-c1d2a072eda)
 * [Character Filtering](https://queryunderstanding.com/character-filtering-76ede1cf1a97)
@@ -438,11 +438,11 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * Solr
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
+* [SearchHub.io](https://www.searchhub.io/)
 
 ### Consulting companies
 
-* OpenSource Connections
-* SearchHub.io
+* [OpenSource Connections](https://www.opensourceconnections.com)
 * https://sease.io/
 
 ## Case studies
