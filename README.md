@@ -38,6 +38,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Evaluating Search (by Daniel Tunkelang)
   - Measuring Search (by James Rubinstein)
   - Three Pillars of Search Relevancy (by Andreas Wagner)
+- [Architecture](#architecture)  
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences) 
 - [Books](#books) 
@@ -310,6 +311,10 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 ### Three Pillars of Search Relevancy (by Andreas Wagner)
 
 * [Part 1: Findability](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-1-findability)
+
+## Architecture
+
+* [The Art Of Abstraction – Revisiting Webshop Architecture](https://blog.searchhub.io/the-art-of-abstraction-revisting-webshop-architecture)
 
 ## Blogs and Portals
 
