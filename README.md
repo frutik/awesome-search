@@ -439,6 +439,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
 * [SearchHub.io](https://www.searchhub.io/)
+* [Datafari](https://www.datafari.com/en/index.html) - an open source enterprise search solution. 
 
 ### Consulting companies
 
