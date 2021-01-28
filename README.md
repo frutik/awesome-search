@@ -311,6 +311,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 ### Three Pillars of Search Relevancy (by Andreas Wagner)
 
 * [Part 1: Findability](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-1-findability)
+* [part 2: Search Quality For Discovery & Inspiration](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-2-discovery-inspiration)
 
 ## Architecture
 
