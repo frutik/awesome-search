@@ -55,6 +55,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Query Understanding (by Daniel Tunkelang)
   - Grid Dynamics
 - [Videos](#videos)
+  - Channels
+  - Other
 - [Usecases](#usecases)
 - [Tools](#tools)
 
@@ -462,7 +464,18 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 
 ## Videos
 
+### Channels
+
+* [Lucid Thoughts](https://www.youtube.com/c/LucidThoughts)
+* [Lucidworks](https://www.youtube.com/user/LucidWorksSearch)
+* [MIx-Camp E-commerce Search](https://www.youtube.com/channel/UCCxvMykUdtFFc1O_tIr9oxA)
+* [OpenSource Connections](https://www.youtube.com/channel/UCiuXt-f2Faan4Es37nADUdQ)
+* [SIGIR eCom](https://www.youtube.com/channel/UCd6PyC_9zrxgA7vmT05Mx4Q)
+
+### Other
+
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
+
 
 ## Tools
 
