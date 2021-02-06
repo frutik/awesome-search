@@ -54,6 +54,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Search Optimization 101 (by Charlie Hull)
   - Query Understanding (by Daniel Tunkelang)
   - Grid Dynamics
+  - Considering Search: Search Topics (by Derek Sisson)
 - [Videos](#videos)
   - Channels
   - Featured
@@ -415,6 +416,17 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Semantic vector search: the new frontier in product discovery](https://blog.griddynamics.com/semantic-vector-search-the-new-frontier-in-product-discovery/)
 * [Boosting product discovery with semantic search](https://blog.griddynamics.com/boosting-product-discovery-with-semantic-search/)
 * [Semantic query parsing blueprint](https://blog.griddynamics.com/semantic-query-parsing-blueprint/)
+
+### Considering Search: Search Topics (by Derek Sisson)
+
+* [Intro](https://www.philosophe.com/archived_content/search_topics/search_topics.html)
+* [Assumptions About Search](https://www.philosophe.com/archived_content/search_topics/search_assumptions.html)
+* [Assumptions About User Search Behavior](https://www.philosophe.com/archived_content/search_topics/user_behavior.html)
+* [Types of Information Collections](https://www.philosophe.com/archived_content/search_topics/collections.html)
+* [A Structural Look at Search](https://www.philosophe.com/archived_content/search_topics/structure.html)
+* [Users and the Task of Information Retrieval](https://www.philosophe.com/archived_content/search_topics/search_tasks.html)
+* [Testing Search](https://www.philosophe.com/archived_content/search_topics/search_tests.html)
+* [Useful Search Links and References](https://www.philosophe.com/archived_content/search_topics/search_links.html)
 
 ## Industry players
 
