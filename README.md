@@ -283,6 +283,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
 * https://en.wikipedia.org/wiki/Precision_and_recall
 * https://en.wikipedia.org/wiki/F1_score
+* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
 
 ### KPIs
 
