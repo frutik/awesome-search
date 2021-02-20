@@ -1,3 +1,9 @@
+### Efficient Neural Query Auto Completion
+
+Query autocompletion/autosuggest has strict latency requirements. This latest work by Linkedin incorporates context and deep semantics to improve the quality of autosuggestions and uses an unnormalized language model to keep latency requirements within industry standards.
+
+https://arxiv.org/abs/2008.02879
+
 ### Event-Related Query Classification with Deep Neural Networks
 
 ![](static/1.png)
