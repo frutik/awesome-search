@@ -134,6 +134,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
 * [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
 * [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
+* [Google kills Instant Search](https://www.904labs.com/en/blog-google-kills-instant-search.html)
 
 ## Spelling correction
 
