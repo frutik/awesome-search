@@ -348,6 +348,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Search User Interfaces](http://www.searchuserinterfaces.com)
 * [Search Patterns](https://searchpatterns.org/)
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
+* [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
 
 ## Papers
 
