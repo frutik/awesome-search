@@ -285,6 +285,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * https://en.wikipedia.org/wiki/Precision_and_recall
 * https://en.wikipedia.org/wiki/F1_score
 * [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 
 ### KPIs
 
