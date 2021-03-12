@@ -497,8 +497,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 
 ### Spacy
 
-* [Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
-* [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
+[Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
 
 ### Word2Vec
 
@@ -521,6 +520,7 @@ book uses to target ads to you](https://www.washingtonpost.com/news/the-intersec
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
 * [Quepid](https://github.com/o19s/quepid)
 * [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
+* [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
 
 ## Other awesome stuff
 
