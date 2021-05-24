@@ -212,6 +212,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search for Things not for Strings](https://blog.searchhub.io/humans-search-for-things-not-for-strings-2?cn-reloaded=1)
 * Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639)
 * [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/)
+* [AI for Query Understanding](https://www.linkedin.com/pulse/ai-query-understanding-daniel-tunkelang)
 
 ### Search Intent
 
