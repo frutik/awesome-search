@@ -63,6 +63,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 ## Unsorted
 
+- [sandbox Jun 2021](https://github.com/frutik/awesome-search/issues/19)
+- [sandbox May 2021](https://github.com/frutik/awesome-search/issues/18)
 - [sandbox April 2021](https://github.com/frutik/awesome-search/issues/17)
 - [sandbox Dec 2020](https://github.com/frutik/awesome-search/issues/10)
 - [sandbox Jan 2020](https://github.com/frutik/awesome-search/issues/1)
