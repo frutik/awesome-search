@@ -9,6 +9,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
+- [Relevance](#relevance)
 - [Search UX](#search-ux)
   - Baymard Institute
   - Nielsen Norman Group
@@ -74,13 +75,11 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 * [Falsehoods Programmers Believe About Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/)
 * [Ethical Search: Designing an irresistible journey with a positive impact](https://medium.com/empathyco/fooddiscovery-2-ethical-search-designing-an-irresistible-journey-with-a-positive-impact-cc921c07a5a8)
-* [Humans Search for Things not for Strings](https://www.linkedin.com/pulse/humans-search-things-strings-andreas-wagner/)
 * [On Semantic Search](https://medium.com/modern-nlp/semantic-search-fuck-yeah-e371c0f639d)
 * [Feedback debt: what the segway teaches search teams](https://opensourceconnections.com/blog/2020/03/19/feedback-debt/)
 * [Supporting the Searcher’s Journey: When and How](https://medium.com/@dtunkelang/supporting-the-searchers-journey-when-and-how-568e9b68fe02)
 * [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
-* [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 * [On-Site Search Design Patterns for E-Commerce: Schema Structure, Data Driven Ranking & More](https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/)
 * [In Search of Recall](https://www.linkedin.com/pulse/search-recall-daniel-tunkelang/)
 
@@ -90,6 +89,13 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
+
+## Relevance
+
+* [Humans Search for Things not for Strings](https://www.linkedin.com/pulse/humans-search-things-strings-andreas-wagner/)
+* [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
+* [How to Achieve Ecommerce Search Relevance](https://blog.searchhub.io/how-to-achieve-ecommerce-search-relevance?cn-reloaded=1&cn-reloaded=1)
+* [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
 
 ## Search UX
 
