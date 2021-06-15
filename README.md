@@ -19,6 +19,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Spelling correction](#spelling-correction)
 - [Suggestions](#suggestions)
 - [Synonyms](#synonyms)
+- [Personalisation](#personalisation)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 - [Query understanding](#query-understanding)
@@ -207,6 +208,14 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Part 1: Displaying Relationships](https://enterprise-knowledge.com/integrating-search-and-knowledge-graphs-series-part-1-displaying-relationships/)
 
 
+## Personalisation
+
+* [Patterns for Personalization in Recommendations and Search](https://eugeneyan.com/writing/patterns-for-personalization/)
+* Daniel Tunkelang [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
+* Airbnb - [Real-time personalization in search](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
+* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+
+
 ## Query understanding
 
 * Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103).
@@ -274,8 +283,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
-* [98 personal data points that
-book uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
 * [A Face Is Exposed for AOL Searcher No. 4417749](https://www.nytimes.com/2006/08/09/technology/09aol.html)
 * [AOL search data leak](https://en.wikipedia.org/wiki/AOL_search_data_leak)
