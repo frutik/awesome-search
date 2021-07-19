@@ -20,6 +20,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Spelling correction](#spelling-correction)
 - [Suggestions](#suggestions)
 - [Synonyms](#synonyms)
+- [Stopwords](#stopwords)
 - [Personalisation](#personalisation)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
@@ -181,6 +182,10 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Creating Better Searches Through Automatic Synonym Detection](https://lucidworks.com/post/search-automatic-synonym-detection/)
 * [Multiword synonyms in search using Querqy](https://sharing.luminis.eu/blog/multiword-synonyms-in-search-using-querqy/)
 * [How to Build a Smart Synonyms Model](https://blog.kensho.com/how-to-build-a-smart-synonyms-model-1d525971a4ee)
+
+## Stopwords
+
+- [Do all-stopword queries matter?](https://observer.wunderwood.org/2007/05/31/do-all-stopword-queries-matter/)
 
 ## Suggestions
 
