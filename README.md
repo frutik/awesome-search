@@ -9,8 +9,12 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
-- [Relevance](#relevance)
-- [Diversification](#diversification)
+- [Search Results](#search-results)
+  - [Relevance](#relevance)
+    - [Relevance Algorithms](#relevance-algorithms)
+    - [Learning to Rank](#learning-to-rank)
+      - [Click models for search](#click-models-for-search)
+  - [Diversification](#diversification)
 - [Search UX](#search-ux)
   - Baymard Institute
   - Nielsen Norman Group
@@ -29,9 +33,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Search Intent
   - Query segmentation
 - [Algorithms](#algorithms)
-  - Relevance Algorithms
-  - Learning to Rank
-    - Click models for search
   - BERT
   - Collocations, common phrases
   - Other Algorithms
