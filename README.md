@@ -10,6 +10,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
 - [Relevance](#relevance)
+- [Diversification](#diversification)
 - [Search UX](#search-ux)
   - Baymard Institute
   - Nielsen Norman Group
@@ -97,6 +98,11 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 * [How to Achieve Ecommerce Search Relevance](https://blog.searchhub.io/how-to-achieve-ecommerce-search-relevance?cn-reloaded=1&cn-reloaded=1)
 * [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
+
+## Diversification
+
+* [Search Result Diversification using Causal Language Models](https://arxiv.org/pdf/2108.04026.pdf)
+* []()
 
 ## Search UX
 
