@@ -92,14 +92,37 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 
-## Relevance
+## Search Results
+
+### Relevance
 
 * [Humans Search for Things not for Strings](https://www.linkedin.com/pulse/humans-search-things-strings-andreas-wagner/)
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 * [How to Achieve Ecommerce Search Relevance](https://blog.searchhub.io/how-to-achieve-ecommerce-search-relevance?cn-reloaded=1&cn-reloaded=1)
 * [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
 
-## Diversification
+#### Relevance Algorithms
+
+* Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
+* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
+* [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
+
+#### Learning to Rank
+
+* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
+* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
+* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
+* [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
+* [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
+* [Using AI and Machine Learning to Overcome Position Bias within Adobe Stock Search](https://medium.com/adobetech/evaluating-addressing-position-bias-in-adobe-stock-search-9807b11ee268)
+
+##### Click models for search
+
+* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
+* [Click Modeling for eCommerce](https://tech.ebayinc.com/engineering/click-modeling-for-ecommerce/)
+* [Using Behavioral Data to Improve Search](https://tech.ebayinc.com/engineering/using-behavioral-data-to-improve-search/)
+
+### Diversification
 
 * [Search Result Diversification using Causal Language Models](https://arxiv.org/pdf/2108.04026.pdf)
 * [Learning to Diversify for E-commerce Search with Multi-Armed Bandit](http://ceur-ws.org/Vol-2410/paper18.pdf)
@@ -107,6 +130,14 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How to measure Diversity of Search Results](https://2021.berlinbuzzwords.de/session/how-measure-diversity-search-results)
 * [Searching for Goldilocks](https://dtunkelang.medium.com/searching-for-goldilocks-12cb21c7d036)
 * [Broad and Ambiguous Search Queries - Recognizing When Search Results Need Diversification](https://dtunkelang.medium.com/broad-and-ambiguous-search-queries-1bbbe417dcc)
+
+### Personalisation
+
+* [Patterns for Personalization in Recommendations and Search](https://eugeneyan.com/writing/patterns-for-personalization/)
+* Daniel Tunkelang [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
+* Airbnb - [Real-time personalization in search](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
+* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+
 
 ## Search UX
 
@@ -229,14 +260,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Part 1: Displaying Relationships](https://enterprise-knowledge.com/integrating-search-and-knowledge-graphs-series-part-1-displaying-relationships/)
 
 
-## Personalisation
-
-* [Patterns for Personalization in Recommendations and Search](https://eugeneyan.com/writing/patterns-for-personalization/)
-* Daniel Tunkelang [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
-* Airbnb - [Real-time personalization in search](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
-* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
-
-
 ## Query understanding
 
 * Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103).
@@ -257,27 +280,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * Paper [Towards Semantic Query Segmentation](https://arxiv.org/pdf/1707.07835.pdf)
 
 ## Algorithms
-
-### Relevance Algorithms
-
-* Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
-* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
-* [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
-
-### Learning to Rank
-
-* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
-* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
-* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
-* [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
-* [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
-* [Using AI and Machine Learning to Overcome Position Bias within Adobe Stock Search](https://medium.com/adobetech/evaluating-addressing-position-bias-in-adobe-stock-search-9807b11ee268)
-
-#### Click models for search
-
-* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
-* [Click Modeling for eCommerce](https://tech.ebayinc.com/engineering/click-modeling-for-ecommerce/)
-* [Using Behavioral Data to Improve Search](https://tech.ebayinc.com/engineering/using-behavioral-data-to-improve-search/)
 
 ### BERT
 
