@@ -102,7 +102,9 @@ I've been building e-commerce search applications for almost ten years. Below yo
 ## Diversification
 
 * [Search Result Diversification using Causal Language Models](https://arxiv.org/pdf/2108.04026.pdf)
-* []()
+* [Learning to Diversify for E-commerce Search with Multi-Armed Bandit](http://ceur-ws.org/Vol-2410/paper18.pdf)
+* [Search Quality for Discovery & Inspiration](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-2-discovery-inspiration)
+* [How to measure Diversity of Search Results](https://2021.berlinbuzzwords.de/session/how-measure-diversity-search-results)
 
 ## Search UX
 
