@@ -179,7 +179,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Faceted Search](https://queryunderstanding.com/faceted-search-7d053cc4fada)
 * [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
 * [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
-8 [](https://people.well.com/user/doctorow/metacrap.htm)
+* [Metacrap: Putting the torch to seven straw-men of the meta-utopia](https://people.well.com/user/doctorow/metacrap.htm)
+* [7 Filtering Implementations That Make Macy’s Best-in-Class](https://baymard.com/blog/macys-filtering-experience)
 
 #### Accidental Taxonomist
 
