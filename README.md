@@ -17,12 +17,12 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - [Diversification](#diversification)
   - [Personalisation](#personalisation) 
 - [Search UX](#search-ux)
-  - Baymard Institute
-  - Nielsen Norman Group
-  - Enterprise Knowledge LLC
-  - Facets
-    - Accidental Taxonomist
-  - Other
+  - [Baymard Institute](#baymard-institute)
+  - [Nielsen Norman Group](#nielsen-norman-group)
+  - [Enterprise Knowledge LLC](#enterprise-knowledge-llc)
+  - [Facets](#facets)
+    - [Accidental Taxonomist](#accidental-taxonomist)
+  - [Other](#other)
 - [Spelling correction](#spelling-correction)
 - [Suggestions](#suggestions)
 - [Synonyms](#synonyms)
@@ -30,12 +30,12 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 - [Query understanding](#query-understanding)
-  - Search Intent
-  - Query segmentation
+  - [Search Intent](#search-intent)
+  - [Query segmentation](#query-segmentation)
 - [Algorithms](#algorithms)
-  - BERT
-  - Collocations, common phrases
-  - Other Algorithms
+  - [BERT](#bert)
+  - [Collocations, common phrases](#collocations-common-phrases)
+  - [Other Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
 - [Testing, metrics, KPIs](#testing-metrics-kpis)
   - Metrics
