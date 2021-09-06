@@ -15,6 +15,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
     - [Learning to Rank](#learning-to-rank)
       - [Click models for search](#click-models-for-search)
   - [Diversification](#diversification)
+  - [Personalisation](#personalisation) 
 - [Search UX](#search-ux)
   - Baymard Institute
   - Nielsen Norman Group
@@ -26,7 +27,6 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Suggestions](#suggestions)
 - [Synonyms](#synonyms)
 - [Stopwords](#stopwords)
-- [Personalisation](#personalisation)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 - [Query understanding](#query-understanding)
