@@ -299,6 +299,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Other Algorithms
 
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
+* [Locality Sensitive Hashing (LSH): The Practical and Illustrated Guide](https://www.pinecone.io/learn/locality-sensitive-hashing/)
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
 * [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
 * [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
