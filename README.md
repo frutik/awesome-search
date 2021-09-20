@@ -44,6 +44,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
   - Measuring Search (by James Rubinstein)
   - Three Pillars of Search Relevancy (by Andreas Wagner)
 - [Architecture](#architecture)  
+- [Vectors search](#vectors-search)
 - [Blogs and Portals, News](#blogs-and-portals)
 - [Conferences](#conferences)
 - [Books](#books)
@@ -367,6 +368,10 @@ Synonyms: autocomplete, search as you type, suggestions
 ## Architecture
 
 * [The Art Of Abstraction – Revisiting Webshop Architecture](https://blog.searchhub.io/the-art-of-abstraction-revisting-webshop-architecture)
+
+## Vectors search
+
+* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 
 ## Blogs and Portals
 
