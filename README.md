@@ -181,6 +181,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
 * [Metacrap: Putting the torch to seven straw-men of the meta-utopia](https://people.well.com/user/doctorow/metacrap.htm)
 * [7 Filtering Implementations That Make Macy’s Best-in-Class](https://baymard.com/blog/macys-filtering-experience)
+* [Facet Search: The Most Comprehensive Guide. Best Practices, Design Patterns, Hidden Caveats, And Workarounds](https://hybrismart.com/2019/02/13/facet-search-the-most-comprehensible-guide-best-practices-design-patterns/#d5)
 
 #### Accidental Taxonomist
 
@@ -247,6 +248,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [IMPLEMENTING A LINKEDIN LIKE SEARCH AS YOU TYPE WITH ELASTICSEARCH](https://spinscale.de/posts/2020-05-29-implementing-a-linkedin-like-search-as-you-type-with-elasticsearch.html)
 * [Smart autocomplete best practices: improve search relevance and sales](https://blog.griddynamics.com/smart-autocomplete-best-practices/)
 * OLX: [Building Corpus for AutoSuggest (Part 1)](https://tech.olx.com/building-corpus-for-autosuggest-part-1-4f63512b1ea1), [AutoSuggest Retrieval & Ranking (Part 2)](https://tech.olx.com/autosuggest-retrieval-ranking-part-2-14a8f50fef34)
+* [Autocomplete, Live Search Suggestions, and Autocorrection: Best Practice Design Patterns](https://hybrismart.com/2019/01/08/autocomplete-live-search-suggestions-autocorrection-best-practice-design-patterns/)
 
 ## Graphs/Taxonomies/Knowledge Graph
 
