@@ -371,6 +371,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Vectors search
 
+* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/vector-indexes/)
 * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 
 ## Blogs and Portals
