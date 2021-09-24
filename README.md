@@ -567,6 +567,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * https://github.com/mammothb/symspellpy
 * https://github.com/searchhub/search-collector
 * [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
+* [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data.
 
 ### Other
 
