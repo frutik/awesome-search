@@ -374,6 +374,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/vector-indexes/)
 * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
+* [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 
 ## Blogs and Portals
 
