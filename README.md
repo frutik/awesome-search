@@ -86,6 +86,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
 * [On-Site Search Design Patterns for E-Commerce: Schema Structure, Data Driven Ranking & More](https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/)
 * [In Search of Recall](https://www.linkedin.com/pulse/search-recall-daniel-tunkelang/)
+* [Balance Your Search Budget!](https://www.linkedin.com/pulse/balance-your-search-budget-daniel-tunkelang/)
 
 ## Types of search
 
