@@ -29,6 +29,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 - [Stopwords](#stopwords)
 - [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
   - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
+- [Query expansion](#query-expansion)
 - [Query understanding](#query-understanding)
   - [Search Intent](#search-intent)
   - [Query segmentation](#query-segmentation)
@@ -258,13 +259,17 @@ Synonyms: autocomplete, search as you type, suggestions
 
   Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
 
-* [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
 * [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
 
 ### Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
 
 * [Part 1: Displaying Relationships](https://enterprise-knowledge.com/integrating-search-and-knowledge-graphs-series-part-1-displaying-relationships/)
+* [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
 
+
+## Query expansion
+
+- [Fundamentals of query rewriting (part 1): introduction to query expansion](https://opensourceconnections.com/blog/2021/10/19/fundamentals-of-query-rewriting-part-1-introduction-to-query-expansion/?utm_source=dlvr.it&utm_medium=linkedin)
 
 ## Query understanding
 
