@@ -134,6 +134,7 @@ I've been building e-commerce search applications for almost ten years. Below yo
 * [How to measure Diversity of Search Results](https://2021.berlinbuzzwords.de/session/how-measure-diversity-search-results)
 * [Searching for Goldilocks](https://dtunkelang.medium.com/searching-for-goldilocks-12cb21c7d036)
 * [Broad and Ambiguous Search Queries - Recognizing When Search Results Need Diversification](https://dtunkelang.medium.com/broad-and-ambiguous-search-queries-1bbbe417dcc)
+* [Thoughts on Search Result Diversity](https://dtunkelang.medium.com/thoughts-on-search-result-diversity-1df54cb5bf4a)
 
 ### Personalisation
 
