@@ -6,6 +6,8 @@ I've been building e-commerce search applications for almost ten years. Below yo
 
 :bell: Start watching the repo or follow the [atom feed](https://github.com/frutik/awesome-search/commits/master.atom) to receive updates.
 
+Also check my other repos [awesome e-commerce](https://github.com/frutik/awesome-e-commerce), [awesome knowledge graphs](https://github.com/frutik/awesome-knowledge-graphs), [awesome cloud apps](https://github.com/frutik/awesome-cloud-apps) 
+
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
