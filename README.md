@@ -65,7 +65,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Videos](#videos)
   - Channels
   - Featured
-- [Usecases](#usecases)
+- [Case studies](#case-studies)
+  - [General search](#general-search)
+  - [Multisided markets](#multisided-markets)
+  - [E-commerce](#e-commerce) 
 - [Tools](#tools)
 
 ## Unsorted
@@ -532,11 +535,22 @@ Synonyms: autocomplete, search as you type, suggestions
 * Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
 * [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
-* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
-* [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
-* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
 * [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
 * [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
+
+### General search
+
+* [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
+* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
+
+
+### E-commerce
+
+* [Searchandising](https://searchanise.io/blog/searchandising/)
+
+### Multisided markets
+
+* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
 
 
 ## Videos
