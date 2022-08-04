@@ -45,6 +45,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Testing, metrics, KPIs](#testing-metrics-kpis)
   - Metrics
   - KPIs
+  - A/B testing, MABs
   - Evaluating Search (by Daniel Tunkelang)
   - Measuring Search (by James Rubinstein)
   - Three Pillars of Search Relevancy (by Andreas Wagner)
