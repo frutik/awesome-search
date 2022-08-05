@@ -13,6 +13,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
+  - [Classic search](#classic-search)
+  - [Hybrid search](#hybrid-search)
+  - [Multimodal search](#multimodal-search)
 - [Search Results](#search-results)
   - [Relevance](#relevance)
     - [Relevance Algorithms](#relevance-algorithms)
@@ -99,10 +102,20 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ## Types of search
 
+### Classic search
+
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
+
+### Hybrid search
+
+* [Hybrid search > sum of its parts?](https://pretalx.com/bbuzz22/talk/YEHRTE/)
+
+### Multimodal search
+
+* [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
 
 ## Search Results
 
