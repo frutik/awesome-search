@@ -21,6 +21,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     - [Relevance Algorithms](#relevance-algorithms)
     - [Learning to Rank](#learning-to-rank)
       - [Click models for search](#click-models-for-search)
+  - [Bias](#bias)
   - [Diversification](#diversification)
   - [Personalisation](#personalisation) 
 - [Search UX](#search-ux)
@@ -148,6 +149,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Click Modeling for eCommerce](https://tech.ebayinc.com/engineering/click-modeling-for-ecommerce/)
 * [Using Behavioral Data to Improve Search](https://tech.ebayinc.com/engineering/using-behavioral-data-to-improve-search/)
 
+### Bias
+  
+* [What is Presentation Bias in search?](https://softwaredoug.com/blog/2022/07/16/what-is-presentation-bias-in-search.html)
+  
 ### Diversification
 
 * [Search Result Diversification using Causal Language Models](https://arxiv.org/pdf/2108.04026.pdf)
