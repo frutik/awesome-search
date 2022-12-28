@@ -564,8 +564,13 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * Airbnb - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
 * Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
+* Algolia - [The Architecture Of Algolia’s Distributed Search Network](http://highscalability.com/blog/2015/3/9/the-architecture-of-algolias-distributed-search-network.html)
+* Meituan - Exploration and practice of BERT in the core ranking of Meituan search (🇨🇳 [BERT在美团搜索核心排序的探索和实践](https://tech.meituan.com/2020/07/09/bert-in-meituan-search.html))
+* Netflix - How Netflix Content Engineering makes a federated graph searchable ([Part 1](https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf), [Part 2](https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-part-2-49348511c06c))
+* Netflix - [Elasticsearch Indexing Strategy in Asset Management Platform (AMP)](https://netflixtechblog.medium.com/elasticsearch-indexing-strategy-in-asset-management-platform-amp-99332231e541)
 * Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
-* [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
+* Slack - [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
+* Twitter - [Stability and scalability for search](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search)
 * [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
 * [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
 
