@@ -55,10 +55,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - Three Pillars of Search Relevancy (by Andreas Wagner)
 - [Architecture](#architecture)  
 - [Vectors search](#vectors-search)
-- [Blogs and Portals, News](#blogs-and-portals)
 - [Education and networking](#education-and-networking)
   - [Conferences](#conferences)
   - [Books](#books)
+  - [Blogs and Portals, News](#blogs-and-portals)
   - [Papers](#papers)
 - [Management, Search Team](#management-search-team)
   - Job Interviews
@@ -418,10 +418,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 * [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 
-## Blogs and Portals
-
-* [Searchnews](http://searchnews.org/)
-
 ## Education and networking
 
 ### Conferences
@@ -445,7 +441,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Sease's trainings](https://sease.io/training)
 * [Daniel Tunkelang's trainings](https://dtunkelang.medium.com/upcoming-search-classes-afaf11073c)
 
-
 ### Books
 
 * [AI-powered search](https://www.manning.com/books/ai-powered-search)
@@ -458,6 +453,11 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
 * [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
 
+### Blogs and Portals
+
+* [Searchnews](http://searchnews.org/)
+  
+  
 ### Papers
 
 * [List of papers](PAPERS.md)
