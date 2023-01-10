@@ -56,9 +56,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Architecture](#architecture)  
 - [Vectors search](#vectors-search)
 - [Blogs and Portals, News](#blogs-and-portals)
-- [Conferences](#conferences)
-- [Books](#books)
-- [Papers](#papers)
+- [Education and networking](#education-and-networking)
+  - [Conferences](#conferences)
+  - [Books](#books)
+  - [Papers](#papers)
 - [Management, Search Team](#management-search-team)
   - Job Interviews
 - [Industry players](#industry-players)
