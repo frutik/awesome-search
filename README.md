@@ -421,7 +421,9 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Searchnews](http://searchnews.org/)
 
-## Conferences
+## Education and networking
+
+### Conferences
 
 * [Activate](https://www.activate-conf.com/)
 * [Berlin buzzword](berlinbuzzwords.de)
@@ -433,7 +435,17 @@ Synonyms: autocomplete, search as you type, suggestions
   - [2018](https://sigir-ecom.github.io/ecom2018/index.html)
   - [2017](http://sigir-ecom.weebly.com/)
 
-## Books
+### Trainings and courses
+
+* [Sphere - ML Powered Search - Corise](https://www.getsphere.com/cohorts/machine-learning-powered-search)
+* [Elasticsearch "Think Like a Relevance Engineer"](https://opensourceconnections.com/training/elasticsearch-think-like-a-relevance-engineer-tlre/)
+* [Solr "Think Like a Relevance Engingeer"](https://opensourceconnections.com/training/solr-think-like-a-relevance-engineer-tlre/)
+* [Hello LTR](https://opensourceconnections.com/training/hello-ltr-learning-to-rank/)
+* [Sease's trainings](https://sease.io/training)
+* [Daniel Tunkelang's trainings](https://dtunkelang.medium.com/upcoming-search-classes-afaf11073c)
+
+
+### Books
 
 * [AI-powered search](https://www.manning.com/books/ai-powered-search)
 * [Relevant Search](https://www.manning.com/books/relevant-search)
@@ -445,7 +457,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
 * [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
 
-## Papers
+### Papers
 
 * [List of papers](PAPERS.md)
 
