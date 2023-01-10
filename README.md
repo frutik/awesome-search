@@ -436,9 +436,10 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Trainings and courses
 
 * [Machine Learning Powered Search. Doug Turnbull](https://www.getsphere.com/cohorts/machine-learning-powered-search) Next: Jan 24, 2023
-* [Elasticsearch "Think Like a Relevance Engineer"](https://opensourceconnections.com/training/elasticsearch-think-like-a-relevance-engineer-tlre/)
-* [Solr "Think Like a Relevance Engingeer"](https://opensourceconnections.com/training/solr-think-like-a-relevance-engineer-tlre/)
-* [Hello LTR](https://opensourceconnections.com/training/hello-ltr-learning-to-rank/)
+* OpenSource Connections
+  - [Elasticsearch "Think Like a Relevance Engineer"](https://opensourceconnections.com/training/elasticsearch-think-like-a-relevance-engineer-tlre/)
+  -[Solr "Think Like a Relevance Engingeer"](https://opensourceconnections.com/training/solr-think-like-a-relevance-engineer-tlre/)
+  - [Hello LTR](https://opensourceconnections.com/training/hello-ltr-learning-to-rank/)
 * [Sease's trainings](https://sease.io/training)
 * [Search Fundamentals. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-fundamentals) Next: Feb 6, 2023  
 * [Search with Machine Learning. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-with-machine-learning)  Next: Feb 27, 2023  
