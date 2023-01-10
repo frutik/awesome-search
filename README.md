@@ -57,6 +57,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Vectors search](#vectors-search)
 - [Education and networking](#education-and-networking)
   - [Conferences](#conferences)
+  - [Trainings and courses](#trainings-and-courses)
   - [Books](#books)
   - [Blogs and Portals, News](#blogs-and-portals)
   - [Papers](#papers)
