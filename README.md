@@ -412,6 +412,9 @@ Synonyms: autocomplete, search as you type, suggestions
 ## Architecture
 
 * [The Art Of Abstraction – Revisiting Webshop Architecture](https://blog.searchhub.io/the-art-of-abstraction-revisting-webshop-architecture)
+* Canva - Search Pipeline
+  * [Part One](https://canvatechblog.com/search-pipeline-part-i-faa6c543aef1) outline of the challenges faced
+  * [Part Two](https://canvatechblog.com/search-pipeline-part-ii-3b43978607cd) new search arcthitecture  
 
 ## Vectors search
 
