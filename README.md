@@ -371,6 +371,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [Compute Mean Reciprocal Rank (MRR) using Pandas](https://softwaredoug.com/blog/2021/04/21/compute-mrr-using-pandas.html)
+* [Recommender Systems: Machine Learning Metrics and Business Metrics](https://neptune.ai/blog/recommender-systems-metrics)
 
 ### KPIs
 
