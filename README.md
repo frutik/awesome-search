@@ -200,7 +200,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
 * [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
 * [Scoped Search: Dangerous, but Sometimes Useful](https://www.nngroup.com/articles/scoped-search/)
-* [Metacrap: Putting the torch to seven straw-men of the meta-utopia](Guidelines for Search Engine "No Results" Pages](https://www.nngroup.com/articles/search-no-results-serp/)
+* [3 Guidelines for Search Engine "No Results" Pages](https://www.nngroup.com/articles/search-no-results-serp/)
 
 ### Enterprise Knowledge LLC
 
