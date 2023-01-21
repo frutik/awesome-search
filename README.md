@@ -172,6 +172,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * Daniel Tunkelang [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
 * Airbnb - [Real-time personalization in search](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
 * [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
+* [Architecture of real world recommendation systems](https://fennel.ai/blog/real-world-recommendation-system/)
+* [Feature engineering for personalized search](https://fennel.ai/blog/feature-engineering-for-personalized-search/)
 
 
 ## Search UX
