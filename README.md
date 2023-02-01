@@ -465,6 +465,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search Patterns](https://searchpatterns.org/)
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
 * [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
+* [Optimization Algorithms](https://www.manning.com/books/optimization-algorithms)
 
 ### Blogs and Portals
 
