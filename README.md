@@ -14,6 +14,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
   - [Classic search](#classic-search)
+  - [Vectors search](#vectors-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
 - [Search Results](#search-results)
@@ -112,9 +113,17 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 
+### Vectors search
+
+* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/vector-indexes/)
+* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
+* [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
+
+
 ### Hybrid search
 
 * [Hybrid search > sum of its parts?](https://pretalx.com/bbuzz22/talk/YEHRTE/)
+* [On Hybrid Search](https://qdrant.tech/articles/hybrid-search/#)
 
 ### Multimodal search
 
@@ -420,12 +429,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * Canva - Search Pipeline
   * [Part One](https://canvatechblog.com/search-pipeline-part-i-faa6c543aef1) outline of the challenges faced
   * [Part Two](https://canvatechblog.com/search-pipeline-part-ii-3b43978607cd) new search arcthitecture  
-
-## Vectors search
-
-* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/vector-indexes/)
-* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
-* [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 
 ## Education and networking
 
