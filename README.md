@@ -164,6 +164,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Bias
   
 * [What is Presentation Bias in search?](https://softwaredoug.com/blog/2022/07/16/what-is-presentation-bias-in-search.html)
+* [Dealing with Position Bias in Recommendations and Search](https://www.kdnuggets.com/2023/03/dealing-position-bias-recommendations-search.html)
   
 ### Diversification
 
