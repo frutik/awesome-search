@@ -349,15 +349,25 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### Other Algorithms
 
+* [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
+* [Writing a full-text search engine using Bloom filters](https://www.stavros.io/posts/bloom-filter-search-engine/)
+
+#### Hashing
+
 * [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
 * [Locality Sensitive Hashing (LSH): The Practical and Illustrated Guide](https://www.pinecone.io/learn/locality-sensitive-hashing/)
 * [Minhash](http://ekzhu.com/datasketch/minhash.html)
+
+#### Sorting by average ratings
+
 * [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
 * [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
-* [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
+
+#### Keywords extraction
+
 * [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
 * [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake)
-* [Writing a full-text search engine using Bloom filters](https://www.stavros.io/posts/bloom-filter-search-engine/)
+* [Keyword Extraction with BERT](https://towardsdatascience.com/keyword-extraction-with-bert-724efca412e)
 
 ## Tracking, profiling, GDPR, Analysis
 
