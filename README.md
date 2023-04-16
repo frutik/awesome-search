@@ -1,6 +1,6 @@
 # Awesome Search
 
-<p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank"> <img src="https://savelife.in.ua/wp-content/themes/savelife/assets/images/new-logo-en.svg" alt="Ukraine" width="50" height="50"/> </a> 
+<p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank">Support the Ukrainian fight for freedom</a> 
   
 [RUSSIAN WARSHIP, GO F*CK YOURSELF](https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself!)
 
