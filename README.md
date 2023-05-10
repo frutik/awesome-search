@@ -506,6 +506,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
 * [Data Science Interviews: Ranking and search](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md#ranking-andsearch)
+  
+### Engineering
+
+* [Technical debt in search](https://twitter.com/gsingers/status/1655286486692970497?t=7HVu0Kc2vXT5NPHH_bB2uA&s=19)
 
 ## Blogposts series
 
