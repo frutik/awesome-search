@@ -63,7 +63,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Blogs and Portals, News](#blogs-and-portals)
   - [Papers](#papers)
 - [Management, Search Team](#management-search-team)
-  - Job Interviews
+  - [Job Interviews](#job-interviews)
+  - [Engineering](#engineering)
 - [Industry players](#industry-players)
   - Personalies and influencers
   - Search Engines
