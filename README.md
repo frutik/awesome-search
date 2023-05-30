@@ -503,6 +503,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
 * [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
 * [Search Product Management: The Most Misunderstood Role in Search?](https://jamesrubinstein.medium.com/search-product-management-the-most-misunderstood-role-in-search-2b7569058638)
+* [Search relevance for understaffed teams](https://softwaredoug.com/blog/2023/05/29/guide-for-search-teams.html)
 
 ### Job Interviews
 
