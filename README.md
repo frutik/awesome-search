@@ -82,6 +82,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [General search](#general-search)
   - [Multisided markets](#multisided-markets)
   - [E-commerce](#e-commerce) 
+- [Datasets](#datasets)
 - [Tools](#tools)
 
 ## Unsorted
