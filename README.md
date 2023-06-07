@@ -657,6 +657,8 @@ Synonyms: autocomplete, search as you type, suggestions
   
 * [Shopping Queries Dataset: A Large-Scale ESCI Benchmark for Improving Product Search](https://github.com/amazon-science/esci-data/tree/main)
 * [ESCI-S: extended metadata for Amazon ESCI dataset](https://github.com/shuttie/esci-s)  
+* [Home Depot Product Search Relevance](https://www.kaggle.com/competitions/home-depot-product-search-relevance/data)
+* [WANDS - Wayfair ANnotation Dataset](https://github.com/wayfair/WANDS)  
   
 ## Tools
   
