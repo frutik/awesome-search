@@ -653,9 +653,13 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
 
-
+## Datasets
+  
+* [Shopping Queries Dataset: A Large-Scale ESCI Benchmark for Improving Product Search](https://github.com/amazon-science/esci-data/tree/main)
+* [ESCI-S: extended metadata for Amazon ESCI dataset](https://github.com/shuttie/esci-s)  
+  
 ## Tools
-
+  
 ### Spacy
 
 [Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
