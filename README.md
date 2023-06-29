@@ -470,7 +470,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search Fundamentals. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-fundamentals) Next: Feb 6, 2023  
 * [Search with Machine Learning. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-with-machine-learning)  Next: Feb 27, 2023  
 * [Search for Product Managers. Daniel Tunkelang](https://corise.com/course/search-for-product-managers) Next: Apr 3, 2023 
-* [Sematext trainings](https://sematext.com/training/)
+* [Sematext's Solr, Elasticsearch, and OpenSearch trainings](https://sematext.com/training/)
 
 ### Books
 
@@ -610,6 +610,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [OpenSource Connections](https://www.opensourceconnections.com)
 * https://sease.io/
+* [Sematext](https://sematext.com/)
 
 ## Case studies
 
@@ -641,6 +642,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 
 ## Videos
+[Apache Solr Short Tips](https://www.youtube.com/watch?v=YFoPWgja89o&list=PLT_fd32OFYpe7xXxUYtV8upGcZtgPY3cU)
 
 ### Channels
 
