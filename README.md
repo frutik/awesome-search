@@ -442,7 +442,8 @@ Synonyms: autocomplete, search as you type, suggestions
 * [The Art Of Abstraction – Revisiting Webshop Architecture](https://blog.searchhub.io/the-art-of-abstraction-revisting-webshop-architecture)
 * Canva - Search Pipeline
   * [Part One](https://canvatechblog.com/search-pipeline-part-i-faa6c543aef1) outline of the challenges faced
-  * [Part Two](https://canvatechblog.com/search-pipeline-part-ii-3b43978607cd) new search arcthitecture  
+  * [Part Two](https://canvatechblog.com/search-pipeline-part-ii-3b43978607cd) new search arcthitecture
+* [Event-Driven Architecture for Efficient Search Indexing](https://sasarun.medium.com/event-driven-architecture-for-efficient-search-indexing-f7af27192e98)
 
 ## Education and networking
 
