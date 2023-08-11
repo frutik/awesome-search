@@ -474,6 +474,10 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search for Product Managers. Daniel Tunkelang](https://corise.com/course/search-for-product-managers) Next: Apr 3, 2023 
 * [Sematext's Solr, Elasticsearch, and OpenSearch trainings](https://sematext.com/training/)
 
+  Fall 2023
+
+* https://dtunkelang.medium.com/upcoming-search-classes-this-fall-58f877fe00ad
+
 ### Books
 
 * [AI-powered search](https://www.manning.com/books/ai-powered-search)
