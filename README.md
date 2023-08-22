@@ -19,7 +19,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Multimodal search](#multimodal-search)
 - [Search Results](#search-results)
   - [Ranking](#ranking)
-    - [Relevance Algorithms](#relevance-algorithms)
+    - [Relevance](#relevance)
+      - [Relevance Algorithms](#relevance-algorithms)
     - [Multi stage ranking](#multi-stage-ranking)
     - [Learning to Rank](#learning-to-rank)
       - [Click models for search](#click-models-for-search)
@@ -135,14 +136,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ## Search Results
 
-### Relevance
+### Ranking
+
+#### Relevance
 
 * [Humans Search for Things not for Strings](https://www.linkedin.com/pulse/humans-search-things-strings-andreas-wagner/)
 * [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
 * [How to Achieve Ecommerce Search Relevance](https://blog.searchhub.io/how-to-achieve-ecommerce-search-relevance?cn-reloaded=1&cn-reloaded=1)
 * [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
 
-#### Relevance Algorithms
+##### Relevance Algorithms
 
 * Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
 * [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
