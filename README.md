@@ -18,8 +18,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
 - [Search Results](#search-results)
-  - [Relevance](#relevance)
+  - [Ranking](#ranking)
     - [Relevance Algorithms](#relevance-algorithms)
+    - [Multi stage ranking](#multi-stage-ranking)
     - [Learning to Rank](#learning-to-rank)
       - [Click models for search](#click-models-for-search)
   - [Bias](#bias)
@@ -147,6 +148,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 * [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
 * [Lucene Similarities (BM25, DFR, DFI, IB, LM) Explained](https://sematext.com/blog/search-relevance-solr-elasticsearch-similarity/)
+
+#### Multi-stage ranking
+
+* [Multi stage ranking](https://medium.com/better-ml/multi-stage-ranking-e0dacd81ac4)
 
 #### Learning to Rank
 
