@@ -18,6 +18,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
 - [Search Results](#search-results)
+  - [Retrieval](#retrieval)
   - [Ranking](#ranking)
     - [Relevance](#relevance)
       - [Relevance Algorithms](#relevance-algorithms)
@@ -135,6 +136,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
 
 ## Search Results
+
+### Retrieval
 
 ### Ranking
 
