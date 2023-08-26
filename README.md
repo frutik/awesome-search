@@ -130,6 +130,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Hybrid search > sum of its parts?](https://pretalx.com/bbuzz22/talk/YEHRTE/)
 * [On Hybrid Search](https://qdrant.tech/articles/hybrid-search/#)
+* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
 
 ### Multimodal search
 
