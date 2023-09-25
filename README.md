@@ -111,6 +111,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ## Types of search
 
+* [Evolution of Search Technology: A Look Ahead](https://medium.com/@Ratnaparkhi/how-the-search-technology-is-evolving-88607f5efb9e)
+
 ### Classic search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
