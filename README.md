@@ -208,6 +208,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Zero search results
 
 * [Strategies for using alternative queries to mitigate zero results and their application to online marketplaces](https://haystackconf.com/files/slides/haystackEU2023/Jean_Ren%C3%A9_Strategies_for_using_alternative_queries_to_mitigate_zero_results.pdf)
+* [Semantic Equivalence of e-Commerce Queries](https://dtunkelang.medium.com/semantic-equivalence-of-e-commerce-queries-78630e5fab5d)
 
 
 ## Search UX
