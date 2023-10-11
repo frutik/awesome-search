@@ -27,7 +27,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
       - [Click models for search](#click-models-for-search)
   - [Bias](#bias)
   - [Diversification](#diversification)
-  - [Personalisation](#personalisation) 
+  - [Personalisation](#personalisation)
+  - [Zero search results](#zero-search-results)
 - [Search UX](#search-ux)
   - [Baymard Institute](#baymard-institute)
   - [Nielsen Norman Group](#nielsen-norman-group)
@@ -113,7 +114,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Evolution of Search Technology: A Look Ahead](https://medium.com/@Ratnaparkhi/how-the-search-technology-is-evolving-88607f5efb9e)
 
-### Classic search
+### Classic Search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
@@ -203,6 +204,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
 * [Architecture of real world recommendation systems](https://fennel.ai/blog/real-world-recommendation-system/)
 * [Feature engineering for personalized search](https://fennel.ai/blog/feature-engineering-for-personalized-search/)
+
+### Zero search results
+
+* [Strategies for using alternative queries to mitigate zero results and their application to online marketplaces](https://haystackconf.com/files/slides/haystackEU2023/Jean_Ren%C3%A9_Strategies_for_using_alternative_queries_to_mitigate_zero_results.pdf)
 
 
 ## Search UX
