@@ -48,6 +48,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Query segmentation](#query-segmentation)
 - [Algorithms](#algorithms)
   - [BERT](#bert)
+  - [ColBERT](#colbert)
+  - [SPLADE](#splade)
+  - [Bi-encoders](#bi-encoders)
+  - [Cross-encoders](#cross-encoders) 
   - [Collocations, common phrases](#collocations-common-phrases)
   - [Other Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
@@ -368,6 +372,18 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
 * [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
+
+### ColBERT
+
+* [Pretrained Transformer Language Models for Search - part 3](https://blog.vespa.ai/pretrained-transformer-language-models-for-search-part-3/#)
+
+### SPLADE
+
+* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)  
+
+### Bi-encoders
+
+### Cross-encoders
 
 ### Collocations, common phrases
 
