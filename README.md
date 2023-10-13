@@ -51,10 +51,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Collocations, common phrases](#collocations-common-phrases)
   - [Other Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
+- [Experiments](#experiments)
+  - A/B testing, MABs
 - [Testing, metrics, KPIs](#testing-metrics-kpis)
   - Metrics
   - KPIs
-  - A/B testing, MABs
   - Evaluating Search (by Daniel Tunkelang)
   - Measuring Search (by James Rubinstein)
   - Three Pillars of Search Relevancy (by Andreas Wagner)
@@ -405,6 +406,15 @@ Synonyms: autocomplete, search as you type, suggestions
 * [AOL search data leak](https://en.wikipedia.org/wiki/AOL_search_data_leak)
 * [Personal data](https://en.wikipedia.org/wiki/Personal_data)
 
+## Experiments
+
+* [Common Pitfalls of Search Experimentation](https://www.searchhub.io/common-pitfalls-of-search-experimentation/)
+
+### A/B testing, MABs
+
+* [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
+* [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
+
 ## Testing, metrics, KPIs
 
 ### Metrics
@@ -430,13 +440,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Behind the Wizardry of a Seamless Search Experience](https://enterprise-knowledge.com/if-i-only-had-an-enterprise-search-brain-behind-the-wizardry-of-a-seamless-search-experience/)
 * [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
 * [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
-
-
-### A/B testing, MABs
-
-* [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
-* [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
-
 
 ### Evaluating Search (by Daniel Tunkelang)
 
