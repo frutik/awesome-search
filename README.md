@@ -50,6 +50,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [BERT](#bert)
   - [ColBERT](#colbert)
   - [SPLADE](#splade)
+  - [RRF](#reciprocal-rank-fusion-rrf)
   - [Bi-encoders](#bi-encoders)
   - [Cross-encoders](#cross-encoders) 
   - [Collocations, common phrases](#collocations-common-phrases)
