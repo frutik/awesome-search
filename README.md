@@ -381,6 +381,11 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)  
 
+### Reciprocal rank fusion (RRF)
+
+* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
+* [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
+
 ### Bi-encoders
 
 ### Cross-encoders
