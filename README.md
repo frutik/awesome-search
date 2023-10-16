@@ -380,7 +380,8 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### SPLADE
 
-* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)  
+* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
+* [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
 
 ### Reciprocal rank fusion (RRF)
 
