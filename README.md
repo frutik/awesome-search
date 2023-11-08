@@ -17,6 +17,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Vectors search](#vectors-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
+- [Also types of search](#also-types-of-search)
+  - [Conversational search](#conversational-search)   
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
     - [Relevance](#relevance)
@@ -144,6 +146,14 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Multimodal search
 
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
+
+## Also types of search
+
+### Conversational search
+
+* [Search as a Conversation](https://queryunderstanding.com/search-as-a-conversation-bafa7cd0c9a5)
+* [Affordances for Conversational Search](https://dtunkelang.medium.com/affordances-for-conversational-search-2cc543eae83d)
+* [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
 
 ## Search Results
 
