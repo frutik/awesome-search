@@ -14,7 +14,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
   - [Classic search](#classic-search)
-  - [Vectors search](#vectors-search)
+  - [Vectors/Semantic search](#vectors-search)
+    -  Symmetric and Asymmetric semantic search
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
 - [Also types of search](#also-types-of-search)
@@ -129,12 +130,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
 * [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
 
-### Vectors search
+### Vectors/Semantic search
 
 * [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/vector-indexes/)
 * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 * [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 * [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
+
+  #### Symmetric and Asymmetric semantic search
+
+  * [Symmetric vs. Asymmetric Semantic Search]([https://www.sbert.net/examples/applications/semantic-search/README.html](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search))
 
 
 ### Hybrid search
