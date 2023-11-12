@@ -14,8 +14,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
   - [Classic search](#classic-search)
-  - [Vectors/Semantic search](#vectors-search)
-    -  Symmetric and Asymmetric semantic search
+  - [Vectors/Semantic search](#vectorssemantic-search)
+    -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
 - [Also types of search](#also-types-of-search)
