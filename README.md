@@ -139,7 +139,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
   #### Symmetric and Asymmetric semantic search
 
-  * [Symmetric vs. Asymmetric Semantic Search]([https://www.sbert.net/examples/applications/semantic-search/README.html](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search))
+  * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
 
 ### Hybrid search
