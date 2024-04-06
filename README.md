@@ -18,6 +18,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     -  [Embeddings](#embeddings)
         - [Types of vectors](#types-of-vectors)
           - [Dense vectors](#dense-vectors)
+            - [Matryoshka embeddings](#matryoshka-embeddings)
           - [Sparse vectors](#sparse-vectors)
             - [SPLADE](#splade)  
         - [Encoder models](#encoder-models)
@@ -159,8 +160,17 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
 
 ##### Bi-encoders
+
 ##### Cross-encoders
+
 ##### Dense Vectors
+
+###### Matryoshka embeddings
+
+* [Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval](https://supabase.com/blog/matryoshka-embeddings)
+* [Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka)
+* [Matryoshka representations. A guide to faster semantic search](https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530)
+
 ##### Sparse Vectors
 
 ###### SPLADE
