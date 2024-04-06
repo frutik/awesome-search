@@ -16,15 +16,15 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Classic search](#classic-search)
   - [Vectors/Semantic search](#vectorssemantic-search)
     -  Embeddings
-      - Types
-        - Bi-encoders
-        - Cross-encoders
-        - Dense
-        - Sparse
-      - Handling high-dimension embeddings
-        - Dimensionality reduction
-        - Quantization
-        - Binary embeddings
+        - Types
+          - Bi-encoders
+          - Cross-encoders
+          - Dense
+          - Sparse
+        - Handling high-dimension embeddings
+          - Dimensionality reduction
+          - Quantization
+          - Binary embeddings
     -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
