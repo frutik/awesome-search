@@ -25,7 +25,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
         - Handling high-dimension embeddings
           - Dimensionality reduction
           - Quantization
-          - Binary embeddings
+            - Scalar quantization
+            - Binary quantization
     -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
