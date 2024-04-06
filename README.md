@@ -15,6 +15,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Types of search](#types-of-search)
   - [Classic search](#classic-search)
   - [Vectors/Semantic search](#vectorssemantic-search)
+    -  Embeddings
+      - Typos
+      - Bi-encoders
+      - Cross-encoders
+      - Dense
+      - Sparse
+    - Handling high-dimension embeddings
+      - Dimensionality reduction
+      - Quantization
+      - Binary embeddings
     -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
@@ -145,6 +155,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 #### Embeddings
 ##### Typos
+
+* [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
+
 ##### Bi-encoders
 ##### Cross-encoders
 ##### Dense
