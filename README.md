@@ -15,18 +15,19 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Types of search](#types-of-search)
   - [Classic/Lexical search](#classic-lexical-search)
   - [Vectors/Semantic search](#vectorssemantic-search)
-    -  Embeddings
-        - Types of vectors
-          - Dense
-          - Sparse
-        - Encoder models
-          - Bi-encoders
-          - Cross-encoders
-        - Handling high-dimension embeddings
-          - Dimensionality reduction
-          - Quantization
-            - Scalar quantization
-            - Binary quantization
+    -  [Embeddings](#embeddings)
+        - [Types of vectors](#types-of-vectors)
+          - [Dense vectors](#dense-vectors)
+          - [Sparse vectors](#sparse-vectors)
+            - [SPLADE](#splade)  
+        - [Encoder models](#encoder-models)
+          - [Bi-encoders](#bi-encoders)
+          - [Cross-encoders](#cross-encoders)
+        - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
+          - [Dimensionality reduction](#dimensionality-reduction)
+          - [Quantization](#quantization)
+            - [Scalar quantization](#scalar-quantization)
+            - [Binary quantization](#binary-quantization)
     -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
   - [Multimodal search](#multimodal-search)
@@ -64,10 +65,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Algorithms](#algorithms)
   - [BERT](#bert)
   - [ColBERT](#colbert)
-  - [SPLADE](#splade)
   - [RRF](#reciprocal-rank-fusion-rrf)
-  - [Bi-encoders](#bi-encoders)
-  - [Cross-encoders](#cross-encoders) 
   - [Collocations, common phrases](#collocations-common-phrases)
   - [Other Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
@@ -156,14 +154,21 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
 #### Embeddings
-##### Typos
+##### Types
 
 * [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
 
 ##### Bi-encoders
 ##### Cross-encoders
-##### Dense
-##### Sparse
+##### Dense Vectors
+##### Sparse Vectors
+
+###### SPLADE
+
+* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
+* [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
+
+
 #### Handling high-dimension embeddings
 ##### Dimensionality reduction
 ##### Quantization
@@ -422,19 +427,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Pretrained Transformer Language Models for Search - part 3](https://blog.vespa.ai/pretrained-transformer-language-models-for-search-part-3/#)
 
-### SPLADE
-
-* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
-* [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
-
 ### Reciprocal rank fusion (RRF)
 
 * [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
 * [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
-
-### Bi-encoders
-
-### Cross-encoders
 
 ### Collocations, common phrases
 
