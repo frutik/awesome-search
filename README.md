@@ -13,7 +13,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
-  - [Classic search](#classic-search)
+  - [Classic/Lexical search](#classic-lexical-search)
   - [Vectors/Semantic search](#vectorssemantic-search)
     -  Embeddings
         - Types
@@ -133,7 +133,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Evolution of Search Technology: A Look Ahead](https://medium.com/@Ratnaparkhi/how-the-search-technology-is-evolving-88607f5efb9e)
 
-### Classic Search
+### Classic/Lexical Search
 
 * Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
 * [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
