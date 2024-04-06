@@ -16,11 +16,12 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Classic/Lexical search](#classic-lexical-search)
   - [Vectors/Semantic search](#vectorssemantic-search)
     -  Embeddings
-        - Types
-          - Bi-encoders
-          - Cross-encoders
+        - Types of vectors
           - Dense
           - Sparse
+        - Encoder models
+          - Bi-encoders
+          - Cross-encoders
         - Handling high-dimension embeddings
           - Dimensionality reduction
           - Quantization
