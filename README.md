@@ -143,6 +143,18 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
   * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
+#### Embeddings
+##### Typos
+##### Bi-encoders
+##### Cross-encoders
+##### Dense
+##### Sparse
+#### Handling high-dimension embeddings
+##### Dimensionality reduction
+##### Quantization
+##### Binary embeddings
+
+
 
 ### Hybrid search
 
