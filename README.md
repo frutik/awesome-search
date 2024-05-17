@@ -195,6 +195,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Multimodal search
 
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
+* [Model Selection for Multimodal Search](https://docs.marqo.ai/2.6/Cookbook/model_selection/multimodal_search/#convnext-models)
 
 ## Also types of search
 
