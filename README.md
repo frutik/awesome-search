@@ -494,6 +494,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Metrics
 
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
+* [Flavors of NDCG - normalized to what!?](https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg)
 * [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
 * [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
