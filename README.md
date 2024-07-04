@@ -472,6 +472,16 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Tracking, profiling, GDPR, Analysis
 
+### Tools, platforms, helpers for search tracking
+
+* [OpenSearch User Behavior Insights](https://github.com/opensearch-project/user-behavior-insights)
+* [Site Search tracking with Google Analytics 4](https://opensourceconnections.com/blog/2023/04/06/site-search-tracking-with-google-analytics-4/)
+* [Snowplow](https://snowplow.io/)
+* [search-colletor](https://github.com/searchhub/search-collector)
+* [OpenTelemetry with search additions](https://gist.github.com/binarymax/16ef2ed12d0aa446a6240c5fbb95e2c3)
+
+### Resources
+
 * [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
 * [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
 * [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
@@ -483,6 +493,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ## Experiments
 
 * [Common Pitfalls of Search Experimentation](https://www.searchhub.io/common-pitfalls-of-search-experimentation/)
+* [Improving Search @scale with efficient query experimentation](https://youtu.be/5p9Ss2vn7t4?si=42TBiIpwO5IxO1SZ)
 
 ### A/B testing, MABs
 
