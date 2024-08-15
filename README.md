@@ -320,6 +320,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [7 Filtering Implementations That Make Macy’s Best-in-Class](https://baymard.com/blog/macys-filtering-experience)
 * [Facet Search: The Most Comprehensive Guide. Best Practices, Design Patterns, Hidden Caveats, And Workarounds](https://hybrismart.com/2019/02/13/facet-search-the-most-comprehensible-guide-best-practices-design-patterns/#d5)
 * [Facets: Constraints or Preferences?](https://dtunkelang.medium.com/facets-constraints-or-preferences-8b8689903652)
+* [Facets, But Which Ones?](https://dtunkelang.medium.com/facets-but-which-ones-6589416ed4db)
+
 
 #### Accidental Taxonomist
 
