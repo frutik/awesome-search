@@ -168,6 +168,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ##### ColBERT
 
 - [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
+- [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
 
 ##### Dense Vectors
 
