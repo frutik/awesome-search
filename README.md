@@ -24,6 +24,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
         - [Encoder models](#encoder-models)
           - [Bi-encoders](#bi-encoders)
           - [Cross-encoders](#cross-encoders)
+          - ColBERT
         - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
           - [Dimensionality reduction](#dimensionality-reduction)
           - [Quantization](#quantization)
