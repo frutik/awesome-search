@@ -159,10 +159,15 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ##### Types
 
 * [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
+* [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
 
 ##### Bi-encoders
 
 ##### Cross-encoders
+
+##### ColBERT
+
+- [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
 
 ##### Dense Vectors
 
