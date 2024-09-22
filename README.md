@@ -30,8 +30,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
           - [Quantization](#quantization)
             - [Scalar quantization](#scalar-quantization)
             - [Binary quantization](#binary-quantization)
-    -  [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
+    - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
+    - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
   - [Multimodal search](#multimodal-search)
 - [Also types of search](#also-types-of-search)
   - [Conversational search](#conversational-search)   
@@ -67,7 +68,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Algorithms](#algorithms)
   - [BERT](#bert)
   - [ColBERT](#colbert)
-  - [RRF](#reciprocal-rank-fusion-rrf)
   - [Collocations, common phrases](#collocations-common-phrases)
   - [Other Algorithms](#other-algorithms)
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
@@ -198,6 +198,12 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Hybrid search > sum of its parts?](https://pretalx.com/bbuzz22/talk/YEHRTE/)
 * [On Hybrid Search](https://qdrant.tech/articles/hybrid-search/#)
 * [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
+
+#### Reciprocal rank fusion (RRF)
+
+* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
+* [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
+
 
 ### Multimodal search
 
@@ -446,11 +452,6 @@ Synonyms: autocomplete, search as you type, suggestions
 ### ColBERT
 
 * [Pretrained Transformer Language Models for Search - part 3](https://blog.vespa.ai/pretrained-transformer-language-models-for-search-part-3/#)
-
-### Reciprocal rank fusion (RRF)
-
-* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
-* [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
 
 ### Collocations, common phrases
 
