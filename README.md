@@ -39,8 +39,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [e-Commerce search](#e-commerce-search)
   - [Conversational search](#conversational-search)
   - [Geo-Spatial Search]()
-  - [Medical and Healthcare:]()
-  - [Social Media and User-Generated Content Search]
+  - [Medical and Healthcare Search]()
+  - [Social Media and User-Generated Content Search]()
   - [Question Answering Systems]()
   - [Personal Information Management]()
 - [Search Results](#search-results)
