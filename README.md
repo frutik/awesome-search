@@ -35,8 +35,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
   - [Multimodal search](#multimodal-search)
 - [Areas of application](#also-types-of-search)
-  - [Enterprise search]
-  - [e-Commerce search]
+  - [Enterprise search](#enterprise-search)
+  - [e-Commerce search](#e-commerce-search)
   - [Conversational search](#conversational-search)   
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
@@ -212,7 +212,15 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
 * [Model Selection for Multimodal Search](https://docs.marqo.ai/2.6/Cookbook/model_selection/multimodal_search/#convnext-models)
 
-## Also types of search
+## Areas of application
+
+### Enterprise search
+
+* [GenAI Can Improve Enterprise Search, But Remains a Work In Progress](https://www.reworked.co/knowledge-findability/genai-can-improve-enterprise-search-but-remains-a-work-in-progress/)
+
+### e-Commerce search
+
+* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
 
 ### Conversational search
 
