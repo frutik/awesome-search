@@ -34,7 +34,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
   - [Multimodal search](#multimodal-search)
-- [Also types of search](#also-types-of-search)
+- [Areas of application](#also-types-of-search)
+  - [Enterprise search]
+  - [e-Commerce search]
   - [Conversational search](#conversational-search)   
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
