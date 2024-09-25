@@ -37,7 +37,12 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Areas of application](#also-types-of-search)
   - [Enterprise search](#enterprise-search)
   - [e-Commerce search](#e-commerce-search)
-  - [Conversational search](#conversational-search)   
+  - [Conversational search](#conversational-search)
+  - [Geo-Spatial Search]()
+  - [Medical and Healthcare:]()
+  - [Social Media and User-Generated Content Search]
+  - [Question Answering Systems]()
+  - [Personal Information Management]()
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
     - [Relevance](#relevance)
