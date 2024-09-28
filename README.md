@@ -24,7 +24,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
         - [Encoder models](#encoder-models)
           - [Bi-encoders](#bi-encoders)
           - [Early interactions / Cross-encoders](#early-interactions---cross-encoders)
-          - [Late interactions / ColBERT](#colbert)
+          - [Late interactions / ColBERT](#late-interactions--colbert)
         - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
           - [Dimensionality reduction](#dimensionality-reduction)
           - [Quantization](#quantization)
