@@ -22,9 +22,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
           - [Sparse vectors](#sparse-vectors)
             - [SPLADE](#splade)  
         - [Encoder models](#encoder-models)
-          - [Two towers / Bi-encoders](#two-towers--bi-encoders)
-          - [Early interactions / Cross-encoders](#early-interactions---cross-encoders)
-          - [Late interactions / ColBERT](#late-interactions--colbert)
+          - [Query/Document interaction]
+            - [No interactions - Two towers / Bi-encoders](#two-towers--bi-encoders)
+            - [Early interactions - Cross-encoders](#early-interactions---cross-encoders)
+            - [Late interactions - ColBERT](#late-interactions--colbert)
         - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
           - [Dimensionality reduction](#dimensionality-reduction)
           - [Quantization](#quantization)
