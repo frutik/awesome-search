@@ -23,8 +23,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
             - [SPLADE](#splade)  
         - [Encoder models](#encoder-models)
           - [Bi-encoders](#bi-encoders)
-          - [Cross-encoders](#cross-encoders)
-          - [ColBERT](#colbert)
+          - [Early interactions / Cross-encoders](#cross-encoders)
+          - [Late interactions / ColBERT](#colbert)
         - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
           - [Dimensionality reduction](#dimensionality-reduction)
           - [Quantization](#quantization)
@@ -170,9 +170,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ##### Bi-encoders
 
-##### Cross-encoders
+##### Early interactions  / Cross-encoders
 
-##### ColBERT
+##### Late interactions / ColBERT
 
 - [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
 - [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
