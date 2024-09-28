@@ -22,7 +22,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
           - [Sparse vectors](#sparse-vectors)
             - [SPLADE](#splade)  
         - [Encoder models](#encoder-models)
-          - [Query/Document interaction]
+          - [Query/Document tokens interaction]()
             - [No interactions - Two towers / Bi-encoders](#two-towers--bi-encoders)
             - [Early interactions - Cross-encoders](#early-interactions---cross-encoders)
             - [Late interactions - ColBERT](#late-interactions--colbert)
