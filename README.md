@@ -82,9 +82,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
 - [Experiments](#experiments)
   - A/B testing, MABs
-- [Testing, metrics, KPIs](#testing-metrics-kpis)
-  - Metrics
-  - KPIs
+- Evaluating search
+  - MRR
+  - [Testing, metrics, KPIs](#testing-metrics-kpis)
+    - Metrics
+    - KPIs
   - Evaluating Search (by Daniel Tunkelang)
   - Measuring Search (by James Rubinstein)
   - Three Pillars of Search Relevancy (by Andreas Wagner)
