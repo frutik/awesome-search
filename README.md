@@ -750,7 +750,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * [Algolia](https://www.algolia.com/)
 * Vespa
-* Elastic
+* [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
 * Solr
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
