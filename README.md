@@ -751,7 +751,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Algolia](https://www.algolia.com/)
 * Vespa
 * Elastic
-* Solr
+* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
 * [SearchHub.io](https://www.searchhub.io/)
