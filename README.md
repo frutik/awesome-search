@@ -757,6 +757,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [SearchHub.io](https://www.searchhub.io/)
 * [Datafari](https://www.datafari.com/en/index.html) - an open source enterprise search solution. 
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
+* [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
 
 ### Consulting companies
 
