@@ -175,6 +175,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 
 #### Encoder models
+* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
 
 ##### Query/Document tokens interaction
 
