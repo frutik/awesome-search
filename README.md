@@ -161,6 +161,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Pinecone Series](#pinecone-series)
   * [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
   * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
+* [Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock](https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc)
 
   #### Symmetric and Asymmetric semantic search
 
@@ -516,6 +517,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Snowplow](https://snowplow.io/)
 * [search-colletor](https://github.com/searchhub/search-collector)
 * [OpenTelemetry with search additions](https://gist.github.com/binarymax/16ef2ed12d0aa446a6240c5fbb95e2c3)
+* [Pulse Query Analytics](https://pulse.support/)
 
 ### Resources
 
@@ -764,6 +766,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### Consulting companies
 
+* [BigData Boutique](https://bigdataboutique.com/services/elasticsearch-consulting)
 * [OpenSource Connections](https://www.opensourceconnections.com)
 * https://sease.io/
 * [Sematext](https://sematext.com/)
