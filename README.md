@@ -432,6 +432,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * OLX: [Building Corpus for AutoSuggest (Part 1)](https://tech.olx.com/building-corpus-for-autosuggest-part-1-4f63512b1ea1), [AutoSuggest Retrieval & Ranking (Part 2)](https://tech.olx.com/autosuggest-retrieval-ranking-part-2-14a8f50fef34)
 * [Autocomplete, Live Search Suggestions, and Autocorrection: Best Practice Design Patterns](https://hybrismart.com/2019/01/08/autocomplete-live-search-suggestions-autocorrection-best-practice-design-patterns/)
 * [Mirror, Mirror, What Am I Typing Next? All About Search Suggestions](https://spinscale.de/posts/2023-01-18-mirror-mirror-what-am-i-typing-next.html)
+* [How we built the lightning fast autosuggest for otto.de](https://www.youtube.com/watch?v=02GLXE5EAGw)
 
 ## Graphs/Taxonomies/Knowledge Graph
 
