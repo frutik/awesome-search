@@ -519,6 +519,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [search-colletor](https://github.com/searchhub/search-collector)
 * [OpenTelemetry with search additions](https://gist.github.com/binarymax/16ef2ed12d0aa446a6240c5fbb95e2c3)
 * [Pulse Query Analytics](https://pulse.support/)
+* [Tracking who's hot and who's not presents an algorithmic challenge](https://www.americanscientist.org/article/the-britney-spears-problem)
 
 ### Resources
 
