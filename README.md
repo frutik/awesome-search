@@ -261,6 +261,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ### Online measuring
 
+* [How we Compute NDCG in Daraz. E-Commerce](https://medium.com/@hassam.chundrigar520/how-we-compute-ndcg-in-daraz-e-commerce-9a103b444c9f)
+
 ## Areas of application
 
 ### Enterprise search
