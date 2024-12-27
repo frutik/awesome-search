@@ -39,6 +39,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Federated search](#federated-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [Metrics](#metrics)
+    - [Focus on ranking quality](#focus-on-ranking-quality)
+    - [Focus on diversity of results](#focus-on-diversity-of-results)
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
       - [HUman judgements](#human-judgements)
@@ -252,6 +254,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * [Measuring Search: Metrics Matter](https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c)
+
+#### Focus on ranking quality
+
+#### Focus on diversity of results
+
 
 ### Offline measuring
 
