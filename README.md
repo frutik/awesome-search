@@ -267,6 +267,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
 * [Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction](https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5)
 
+#### Focused on interactions
+
+##### Zero results
+
+##### Zero clicks
 
 ### Offline measuring
 
