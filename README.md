@@ -258,6 +258,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 #### Judgements
 
+* [What Is a Judgment List?](https://softwaredoug.com/blog/2021/02/21/what-is-a-judgment-list)
 
 ### Online measuring
 
