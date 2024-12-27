@@ -92,7 +92,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - Evaluating search
   - MRR
   - [Testing, metrics, KPIs](#testing-metrics-kpis)
-    - Metrics
     - KPIs
   - Evaluating Search (by Daniel Tunkelang)
   - Measuring Search (by James Rubinstein)
@@ -240,9 +239,25 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ### Metrics
 
+* [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
+* [Flavors of NDCG - normalized to what!?](https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg)
+* [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
+* [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
+* [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
+* https://en.wikipedia.org/wiki/Precision_and_recall
+* https://en.wikipedia.org/wiki/F1_score
+* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
+* [Recommender Systems: Machine Learning Metrics and Business Metrics](https://neptune.ai/blog/recommender-systems-metrics)
+
 ### Offline measuring
 
+* [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
+* [Compute Mean Reciprocal Rank (MRR) using Pandas](https://softwaredoug.com/blog/2021/04/21/compute-mrr-using-pandas.html)
+
 #### Judgements
+
 
 ### Online measuring
 
@@ -564,22 +579,6 @@ Synonyms: autocomplete, search as you type, suggestions
 * [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
 
 ## Testing, metrics, KPIs
-
-### Metrics
-
-* [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
-* [Flavors of NDCG - normalized to what!?](https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg)
-* [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
-* [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
-* [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
-* https://en.wikipedia.org/wiki/Precision_and_recall
-* https://en.wikipedia.org/wiki/F1_score
-* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [Compute Mean Reciprocal Rank (MRR) using Pandas](https://softwaredoug.com/blog/2021/04/21/compute-mrr-using-pandas.html)
-* [Recommender Systems: Machine Learning Metrics and Business Metrics](https://neptune.ai/blog/recommender-systems-metrics)
 
 ### KPIs
 
