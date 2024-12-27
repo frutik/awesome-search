@@ -37,6 +37,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
   - [Multimodal search](#multimodal-search)
   - [Federated search](#federated-search)
+- [Search Quality Assurance](#search-quality-assurance)
+  - [Metrics](#metrics)
+  - [Offline quality measuring](#offline-quality-measuring)
+    - [Judgements](#judgements)
+  - [Online quality measuring](#online-quality-measuring)
 - [Areas of application](#also-types-of-search)
   - [Enterprise search](#enterprise-search)
   - [e-Commerce search](#e-commerce-search)
@@ -230,6 +235,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
 * [Model Selection for Multimodal Search](https://docs.marqo.ai/2.6/Cookbook/model_selection/multimodal_search/#convnext-models)
+
+## Search Quality Assurance
+
+### Metrics
+
+### Offline measuring
+
+#### Judgements
+
+### Online measuring
 
 ## Areas of application
 
