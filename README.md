@@ -39,8 +39,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Federated search](#federated-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [Metrics](#metrics)
-    - [Focus on ranking quality](#focus-on-ranking-quality)
-    - [Focus on diversity of results](#focus-on-diversity-of-results)
+    - [Focused on ranking quality](#focused-on-ranking-quality)
+    - [Focused on diversity of results](#focused-on-diversity-of-results)
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
       - [HUman judgements](#human-judgements)
@@ -243,21 +243,27 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ### Metrics
 
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
+* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
+* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
+* [Measuring Search: Metrics Matter](https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c)
+
+#### Focused on ranking quality
+
 * [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
 * [Flavors of NDCG - normalized to what!?](https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg)
 * [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
 * [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
 * [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
 * https://en.wikipedia.org/wiki/Precision_and_recall
 * https://en.wikipedia.org/wiki/F1_score
-* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [Measuring Search: Metrics Matter](https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c)
 
-#### Focus on ranking quality
+#### Focused on diversity of results
 
-#### Focus on diversity of results
+##### MMR
+
+* [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
+* [Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction](https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5)
 
 
 ### Offline measuring
