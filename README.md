@@ -260,6 +260,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 #### Focused on diversity of results
 
+* [Diving into Diversity Metrics: Elevate Your Recommender Systems in a Snap!](https://shunya-vichaar.medium.com/diving-into-diversity-metrics-elevate-your-recommender-systems-in-a-snap-57637de380e1)
+
 ##### MMR
 
 * [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
