@@ -251,7 +251,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * https://en.wikipedia.org/wiki/F1_score
 * [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [Recommender Systems: Machine Learning Metrics and Business Metrics](https://neptune.ai/blog/recommender-systems-metrics)
+* [Measuring Search: Metrics Matter](https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c)
 
 ### Offline measuring
 
@@ -264,6 +264,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [What Is a Judgment List?](https://softwaredoug.com/blog/2021/02/21/what-is-a-judgment-list)
 * [Evaluating Search: Using Human Judgments](https://dtunkelang.medium.com/evaluating-search-using-human-judgement-fbb2eeba37d9)
+* [Measuring Search, A Human Approach](https://jamesrubinstein.medium.com/measuring-search-a-human-approach-acf54e2cf33d)
+  
 
 ##### Using LLM as judge
 
