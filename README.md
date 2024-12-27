@@ -41,6 +41,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Metrics](#metrics)
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
+      - HUman judgements
+      - Using LLM as judge
   - [Online quality measuring](#online-quality-measuring)
 - [Areas of application](#also-types-of-search)
   - [Enterprise search](#enterprise-search)
@@ -258,7 +260,14 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 #### Judgements
 
+##### HUman judgements
+
 * [What Is a Judgment List?](https://softwaredoug.com/blog/2021/02/21/what-is-a-judgment-list)
+
+##### Using LLM as judge
+
+* [Improving retrieval with LLM-as-a-judge](https://blog.vespa.ai/improving-retrieval-with-llm-as-a-judge/)
+* [LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods](https://arxiv.org/abs/2412.05579)
 
 ### Online measuring
 
