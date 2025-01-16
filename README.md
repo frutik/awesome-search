@@ -811,16 +811,17 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Products and services
 
 * [Algolia](https://www.algolia.com/)
-* Vespa
+* [Vespa] (https://vespa.ai/)
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
-* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
+* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene.
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
+* [TopK](https://topk.io/) - combines AI-powered query understanding with adaptive ranking to provide the most relevant results in your domain.
 * [SearchHub.io](https://www.searchhub.io/)
 * [Datafari](https://www.datafari.com/en/index.html) - an open source enterprise search solution. 
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
-* [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search
+* [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
 
 ### Consulting companies
 
