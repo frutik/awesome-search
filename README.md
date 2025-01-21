@@ -44,6 +44,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
       - [HUman judgements](#human-judgements)
+      - [Implicite judgements](#implicite-judgements)
       - [Using LLM as judge](#using-llm-as-judge)
   - [Online quality measuring](#online-quality-measuring)
 - [Areas of application](#also-types-of-search)
@@ -286,6 +287,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Evaluating Search: Using Human Judgments](https://dtunkelang.medium.com/evaluating-search-using-human-judgement-fbb2eeba37d9)
 * [Measuring Search, A Human Approach](https://jamesrubinstein.medium.com/measuring-search-a-human-approach-acf54e2cf33d)
   
+##### Implicite judgements
+
+add something on clicks streams
 
 ##### Using LLM as judge
 
