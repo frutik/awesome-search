@@ -817,7 +817,8 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Algolia](https://www.algolia.com/)
 * [Vespa] (https://vespa.ai/)
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
-* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene.
+* [ParadeDB](https://github.com/paradedb/paradedb) - Modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.
+* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
 * [TopK](https://topk.io/) - combines AI-powered query understanding with adaptive ranking to provide the most relevant results in your domain.
@@ -902,6 +903,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Libs
 
 * [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
+* [Tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
 * https://github.com/zentity-io/zentity
 * https://github.com/mammothb/symspellpy
 * https://github.com/searchhub/search-collector
