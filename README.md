@@ -44,6 +44,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
       - [HUman judgements](#human-judgements)
+      - [Implicite judgements](#implicite-judgements)
       - [Using LLM as judge](#using-llm-as-judge)
   - [Online quality measuring](#online-quality-measuring)
 - [Areas of application](#also-types-of-search)
@@ -286,6 +287,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Evaluating Search: Using Human Judgments](https://dtunkelang.medium.com/evaluating-search-using-human-judgement-fbb2eeba37d9)
 * [Measuring Search, A Human Approach](https://jamesrubinstein.medium.com/measuring-search-a-human-approach-acf54e2cf33d)
   
+##### Implicite judgements
+
+add something on clicks streams
 
 ##### Using LLM as judge
 
@@ -811,17 +815,18 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Products and services
 
 * [Algolia](https://www.algolia.com/)
-* Vespa
+* [Vespa] (https://vespa.ai/)
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
 * [ParadeDB](https://github.com/paradedb/paradedb) - Modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.
 * [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
+* [TopK](https://topk.io/) - combines AI-powered query understanding with adaptive ranking to provide the most relevant results in your domain.
 * [SearchHub.io](https://www.searchhub.io/)
 * [Datafari](https://www.datafari.com/en/index.html) - an open source enterprise search solution. 
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
-* [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search
+* [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
 
 ### Consulting companies
 
