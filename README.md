@@ -32,6 +32,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
           - [Quantization](#quantization)
             - [Scalar quantization](#scalar-quantization)
             - [Binary quantization](#binary-quantization)
+        - [Finetuning models](#finetuning-models)
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
@@ -174,7 +175,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 * [Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock](https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc)
 
-  #### Symmetric and Asymmetric semantic search
+#### Symmetric and Asymmetric semantic search
 
   * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
@@ -221,6 +222,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ##### Quantization
 ##### Binary embeddings
 
+#### Finetuning models
+
+* [Fine-Tuning Text Embeddings For Domain-Specific Search](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c)
+* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
 
 
 ### Hybrid search
