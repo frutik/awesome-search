@@ -37,6 +37,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
   - [Multimodal search](#multimodal-search)
+    - [Multimodality Problems](#multimodality-problems)
+      - [Modality Gap](#modality-gap)
+      - [Contrastive Gap](#contrastive-gap)  
   - [Federated search](#federated-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [Metrics](#metrics)
@@ -244,6 +247,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
 * [Model Selection for Multimodal Search](https://docs.marqo.ai/2.6/Cookbook/model_selection/multimodal_search/#convnext-models)
+
+#### Multimodality Problems
+
+##### Modality Gap
+
+- [Accept the modality gap: An exploration in the hyperbolic space](https://www.amazon.science/publications/accept-the-modality-gap-an-exploration-in-the-hyperbolic-space)
+
+##### Contrastive Gap
+
+- [Characterizing and Addressing the Contrastive Gap](https://arxiv.org/abs/2405.18570)
 
 ## Search Quality Assurance
 
