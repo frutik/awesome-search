@@ -263,6 +263,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ### How to select queries
 
+#### Random sampling
+
+#### Probability-proportional-to-size sampling
+
 - [How to succeed with explicit relevance evaluation using Probability-Proportional-to-Size sampling](https://opensourceconnections.com/blog/2022/10/13/how-to-succeed-with-explicit-relevance-evaluation-using-probability-proportional-to-size-sampling/)
 
 ### Metrics
