@@ -42,12 +42,13 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
       - [Contrastive Gap](#contrastive-gap)  
   - [Federated search](#federated-search)
 - [Search Quality Assurance](#search-quality-assurance)
+  - [How to select queries](#how-to-select-queries)
   - [Metrics](#metrics)
     - [Focused on ranking quality](#focused-on-ranking-quality)
     - [Focused on diversity of results](#focused-on-diversity-of-results)
   - [Offline quality measuring](#offline-quality-measuring)
     - [Judgements](#judgements)
-      - [HUman judgements](#human-judgements)
+      - Explicite judgements, [HUman judgements](#human-judgements)
       - [Implicite judgements](#implicite-judgements)
       - [Using LLM as judge](#using-llm-as-judge)
   - [Online quality measuring](#online-quality-measuring)
@@ -260,6 +261,10 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ## Search Quality Assurance
 
+### How to select queries
+
+- [How to succeed with explicit relevance evaluation using Probability-Proportional-to-Size sampling](https://opensourceconnections.com/blog/2022/10/13/how-to-succeed-with-explicit-relevance-evaluation-using-probability-proportional-to-size-sampling/)
+
 ### Metrics
 
 * [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
@@ -291,6 +296,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ##### Zero results
 
 ##### Zero clicks
+
+
 
 ### Offline measuring
 
