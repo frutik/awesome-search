@@ -43,6 +43,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Federated search](#federated-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [How to select queries](#how-to-select-queries)
+    - [Random sampling](#random-sampling)
+    - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
   - [Metrics](#metrics)
     - [Focused on ranking quality](#focused-on-ranking-quality)
     - [Focused on diversity of results](#focused-on-diversity-of-results)
