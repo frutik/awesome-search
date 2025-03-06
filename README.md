@@ -44,6 +44,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Search Quality Assurance](#search-quality-assurance)
   - [How to select queries](#how-to-select-queries)
     - [Random sampling](#random-sampling)
+    - [Stratified sampling](#stratified-sampling)
     - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
   - [Metrics](#metrics)
     - [Focused on ranking quality](#focused-on-ranking-quality)
@@ -266,6 +267,13 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### How to select queries
 
 #### Random sampling
+
+- [Simple random sample](https://en.wikipedia.org/wiki/Simple_random_sample)
+
+#### Stratified sampling
+
+- [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
+- [The 8 Most Common Search Query Types ](https://baymard.com/blog/ecommerce-search-query-types)
 
 #### Probability-proportional-to-size sampling
 
