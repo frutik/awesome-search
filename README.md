@@ -741,6 +741,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
 * [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
 * [Optimization Algorithms](https://www.manning.com/books/optimization-algorithms)
+* [Query Understanding for Search Engines](https://link.springer.com/book/10.1007/978-3-030-58334-7)
 
 ### Blogs and Portals
 
