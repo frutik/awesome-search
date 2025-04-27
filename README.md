@@ -18,6 +18,9 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     -  [Embeddings](#embeddings)
         - [Types of vectors](#types-of-vectors)
           - [Dense vectors](#dense-vectors)
+            - [Size of input and Chunking](#size-of-input-and-chunking)
+              - [Positional chunking](#positional-chunking)
+              - [Semantic chunking](#semantic-chunking)
             - [Matryoshka embeddings](#matryoshka-embeddings)
           - [Sparse vectors](#sparse-vectors)
             - [SPLADE](#splade)  
@@ -209,6 +212,16 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
 
 ##### Dense Vectors
+
+###### Size of input and Chunking
+
+- [Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/)
+- [Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex](https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5)
+- [How to Chunk Text Data — A Comparative Analysis](https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a)
+
+####### Positional chunking
+
+####### Semantic chunking
 
 ###### Matryoshka embeddings
 
