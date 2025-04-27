@@ -24,7 +24,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
             - [Matryoshka embeddings](#matryoshka-embeddings)
           - [Sparse vectors](#sparse-vectors)
             - [SPLADE](#splade)  
-        - [Encoder models](#encoder-models)
+        - [Vector retrieval](#vector-retrieval)
           - Main architectures
           - [Query/Document tokens interaction]()
             - [No interactions - Two towers / Bi-encoders](#two-towers--bi-encoders)
@@ -197,7 +197,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 
 
-#### Encoder models
+#### Vector retrieval
+
 * [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
 
 ##### Query/Document tokens interaction
