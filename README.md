@@ -4,7 +4,7 @@
   
 [RUSSIAN WARSHIP, GO F*CK YOURSELF](https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself!)
 
-I've been building e-commerce search applications for more than ten years. Below you can find a list of (some) publications, conferences and books that inspire me. Grouped by topic (If an article fits into multiple topics - it goes into multiple sections).
+I've been building e-commerce search applications for almost ten years. Below is a list of some publications, conferences, and books that have inspired me, grouped by topic. If an item fits into multiple topics, it appears in multiple sections.
 
 :star: Star us on GitHub — it helps!
 
