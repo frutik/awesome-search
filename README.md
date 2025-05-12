@@ -73,6 +73,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
       - [Relevance Algorithms](#relevance-algorithms)
   - [Ranking](#ranking)
     - [Multi stage ranking](#multi-stage-ranking)
+      - [Reranking](£reranking)  
     - [Learning to Rank](#learning-to-rank)
       - [Click models for search](#click-models-for-search)
   - [Bias](#bias)
@@ -395,6 +396,10 @@ add something on clicks streams
 #### Multi-stage ranking
 
 * [Multi stage ranking](https://medium.com/better-ml/multi-stage-ranking-e0dacd81ac4)
+
+##### Reranking
+
+* [Drowning in Documents: Consequences of Scaling Reranker Inference](https://arxiv.org/pdf/2411.11767)
 
 #### Learning to Rank
 
