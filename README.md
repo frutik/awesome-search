@@ -737,7 +737,8 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### Trainings and courses
 
-* [Machine Learning Powered Search. Doug Turnbull](https://www.getsphere.com/cohorts/machine-learning-powered-search) Next: Jan 24, 2023
+* [Cheat at Search with LLMs. Doug Turnbull](http://maven.com/softwaredoug/cheat-at-search) Next: July 2025
+* [Relevant Search Masterclass by Doug Turnbull](http://maven.com/softwaredoug/relevant-search) Next: July 2025
 * OpenSource Connections
   - [Elasticsearch "Think Like a Relevance Engineer"](https://opensourceconnections.com/training/elasticsearch-think-like-a-relevance-engineer-tlre/)
   - [Solr "Think Like a Relevance Engingeer"](https://opensourceconnections.com/training/solr-think-like-a-relevance-engineer-tlre/)
