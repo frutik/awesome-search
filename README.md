@@ -400,6 +400,7 @@ add something on clicks streams
 #### Multi-stage ranking
 
 * [Multi stage ranking](https://medium.com/better-ml/multi-stage-ranking-e0dacd81ac4)
+* [Cross-Encoders, ColBERT, and LLM-Based Re-Rankers](https://medium.com/@aimichael/cross-encoders-colbert-and-llm-based-re-rankers-a-practical-guide-a23570d88548)
 
 ##### Reranking
 
