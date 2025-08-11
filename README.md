@@ -248,11 +248,15 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 #### Handling high-dimension embeddings
 ##### Dimensionality reduction
 
-###### Quantization
+##### Quantization
 
-####### Product quantization
+###### Scalar quantization
 
-####### Rotational quantization
+###### Binary quantization
+
+###### Product quantization
+
+###### Rotational quantization
 
 #### Finetuning models
 
