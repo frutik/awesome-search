@@ -35,6 +35,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
           - [Quantization](#quantization)
             - [Scalar quantization](#scalar-quantization)
             - [Binary quantization](#binary-quantization)
+            - [Product quantization](#product-quantization)
+            - [Rotational quantization](#rotational-quantization)
         - [Finetuning models](#finetuning-models)
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
@@ -245,8 +247,12 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 
 #### Handling high-dimension embeddings
 ##### Dimensionality reduction
-##### Quantization
-##### Binary embeddings
+
+###### Quantization
+
+####### Product quantization
+
+####### Rotational quantization
 
 #### Finetuning models
 
