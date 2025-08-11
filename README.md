@@ -246,7 +246,12 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 
 
 #### Handling high-dimension embeddings
+
 ##### Dimensionality reduction
+
+###### PCA
+
+###### t-SNE
 
 ##### Quantization
 
