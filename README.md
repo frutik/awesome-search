@@ -282,6 +282,9 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 * [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
 * [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
 
+#### Linear Score Combination
+
+* [Linear retriever](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/retrievers/linear-retriever?utm_source=chatgpt.com)
 
 ### Multimodal search
 
