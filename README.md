@@ -41,6 +41,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
+    - [Linear Score Combination](#linear-score-combination)
   - [Multimodal search](#multimodal-search)
     - [Multimodality Problems](#multimodality-problems)
       - [Modality Gap](#modality-gap)
