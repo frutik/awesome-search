@@ -344,6 +344,15 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 * [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
 * [Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction](https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5)
 
+##### Average Pairwise Distance, APD
+
+- edit distance
+- semantic distance
+
+##### Entropy
+
+- [How to measure Diversity of Search Results](https://docs.google.com/presentation/d/1uz15rpxcUipvJMSfXc8_DpEnqtrH9PPx6UmF_dbdG-o/edit?slide=id.p#slide=id.p)
+
 #### Focused on interactions
 
 ##### Zero results
