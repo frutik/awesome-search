@@ -10,6 +10,7 @@ I've been building e-commerce search applications for more than ten years. Below
 
 Also check my other collections [awesome e-commerce](https://github.com/frutik/awesome-e-commerce), [awesome knowledge graphs](https://github.com/frutik/awesome-knowledge-graphs), [awesome cloud apps](https://github.com/frutik/awesome-cloud-apps) 
 
+*Topics*
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -130,7 +131,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 
-### Topics
 - [General, fun, philosophy](#general-fun-philosophy)
 - [Types of search](#types-of-search)
   - [Classic/Lexical search](#classic-lexical-search)
