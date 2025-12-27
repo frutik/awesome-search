@@ -210,11 +210,20 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ####### Semantic chunking
 
+####### Hypothetical Document Embeddings
+
+* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
+
 ###### Matryoshka embeddings
 
 * [Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval](https://supabase.com/blog/matryoshka-embeddings)
 * [Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka)
 * [Matryoshka representations. A guide to faster semantic search](https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530)
+
+###### Context-aware embeddings
+
+* [Improve your RAG applications by moving to Task-aware Embeddings](https://medium.com/@gal.peretz/improve-your-rag-applications-by-moving-to-task-aware-embeddings-09ebee62616f)
+* [How Context-Aware Embeddings Are Transforming Enterprise Search](https://medium.com/@sonakshi.sp/smarter-knowledge-retrieval-how-context-aware-embeddings-are-transforming-enterprise-search-802c29c4b9b5)
 
 ##### Sparse Vectors
 
