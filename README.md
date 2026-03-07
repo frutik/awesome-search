@@ -131,6 +131,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ## Unsorted
 
+- [traceflux](https://github.com/tracer-mohist/traceflux) - A text search engine with associative discovery. Discovers what you don't know to search for using co-occurrence graphs and PageRank.
 - [sandbox Jun 2021](https://github.com/frutik/awesome-search/issues/19)
 - [sandbox May 2021](https://github.com/frutik/awesome-search/issues/18)
 - [sandbox April 2021](https://github.com/frutik/awesome-search/issues/17)
