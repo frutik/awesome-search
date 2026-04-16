@@ -289,6 +289,7 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 ### Agentic search
 
 - [Agentic Search as an Agile Engineering Process](https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e)
+- [Not Human Search](https://nothumansearch.ai/) - Search engine built for AI agents, indexing 1,400+ agent-first tools and APIs. Offers MCP server, REST API, and llms.txt for machine-readable discovery.
 
 ## Search Quality Assurance
 
@@ -907,6 +908,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * Google
 * Bing
+* [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
 * Yandex
 * Amazon
 * eBay
