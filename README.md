@@ -933,6 +933,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
 * [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
+* [Omnigraph](https://github.com/ModernRelay/omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
 
 ### Consulting companies
 
