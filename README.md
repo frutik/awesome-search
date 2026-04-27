@@ -1016,6 +1016,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
 * [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data.
 * https://github.com/castorini/docTTTTTquery
+* https://github.com/AiDinho/ruosh - A full text search library  with Tantivy backend ,all the goodness of whoosh api powered by Tantivy
 
 ### Other
 
