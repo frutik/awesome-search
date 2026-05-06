@@ -1020,6 +1020,7 @@ Synonyms: autocomplete, search as you type, suggestions
 ### Other
 
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
+* [DocKit](https://geekfun.club/products/dockit/) - Desktop GUI client for Elasticsearch, OpenSearch, and DynamoDB with AI-powered query generation
 * [Quepid](https://github.com/o19s/quepid)
 * [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 * [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
