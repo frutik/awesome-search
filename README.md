@@ -330,6 +330,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Agentic search
 
 - [Agentic Search as an Agile Engineering Process](https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e)
+- [Agentic search models](https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models)
 
 ## Search Quality Assurance
 
