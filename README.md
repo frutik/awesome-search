@@ -21,9 +21,11 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Vectors/Semantic search](#vectorssemantic-search)
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
     - [Embeddings](#embeddings)
+      - [Encoder architecture](#encoder-architecture)
+      - [Vector types](#vector-types)
+      - [Dimensionality handling](#dimensionality-handling)
+      - [Finetuning](#finetuning)
     - [Vector retrieval](#vector-retrieval)
-    - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
-    - [Finetuning models](#finetuning-models)
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion (RRF)](#reciprocal-rank-fusion-rrf)
     - [Linear Score Combination](#linear-score-combination)
@@ -158,10 +160,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 * [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
-* [Guidelines to choose an index](https://github.com/facebookresearch/faiss/wiki/Guidelines-to-choose-an-index)
-* [Pinecone Series](#pinecone-series)
-  * [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
-  * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 * [Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock](https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc)
 
 #### Symmetric and Asymmetric semantic search
@@ -169,90 +167,80 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
 #### Embeddings
-##### Types
 
-* [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
-* [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
+##### Encoder architecture
 
+###### Bi-encoders / Two towers (no interaction)
 
+* [Bi-encoder vs Cross encoder? When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
 
-#### Vector retrieval
+###### Cross-encoders (early interaction)
 
-* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
-
-##### Query/Document tokens interaction
-
-###### No interactions - Two towers / Bi-encoders
-
-###### Early interactions - Cross-encoders
-
-###### Late interactions - ColBERT
+###### ColBERT (late interaction)
 
 - [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
 - [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
 
-##### Dense Vectors
+##### Vector types
 
-###### Size of input and Chunking
+###### Dense vectors
+
+####### Chunking
 
 - [Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/)
 - [Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex](https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5)
 - [How to Chunk Text Data — A Comparative Analysis](https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a)
 
-####### Positional chunking
+  - **Positional chunking**
+  - **Semantic chunking**
+  - **Hypothetical Document Embeddings (HyDE)**: [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
 
-####### Semantic chunking
-
-####### Hypothetical Document Embeddings
-
-* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
-
-###### Matryoshka embeddings
+####### Matryoshka embeddings
 
 * [Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval](https://supabase.com/blog/matryoshka-embeddings)
 * [Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka)
 * [Matryoshka representations. A guide to faster semantic search](https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530)
 
-###### Context-aware embeddings
+####### Context-aware embeddings
 
 * [Improve your RAG applications by moving to Task-aware Embeddings](https://medium.com/@gal.peretz/improve-your-rag-applications-by-moving-to-task-aware-embeddings-09ebee62616f)
 * [How Context-Aware Embeddings Are Transforming Enterprise Search](https://medium.com/@sonakshi.sp/smarter-knowledge-retrieval-how-context-aware-embeddings-are-transforming-enterprise-search-802c29c4b9b5)
 
-##### Sparse Vectors
+###### Sparse vectors
 
-###### SPLADE
+####### SPLADE
 
 * [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
 * [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
 * [Improving information retrieval in the Elastic Stack. Introducing Elastic Learned Sparse Encoder, our new retrieval model](https://www.elastic.co/search-labs/blog/elastic-learned-sparse-encoder-elser-retrieval-performance)
-* [No tracking until you click to share
-SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
+* [SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
 
+##### Dimensionality handling
 
+###### Dimensionality reduction
 
-#### Handling high-dimension embeddings
+- PCA
+- t-SNE
 
-##### Dimensionality reduction
+###### Quantization
 
-###### PCA
+- Scalar quantization
+- Binary quantization
+- Product quantization
+- Rotational quantization
 
-###### t-SNE
-
-##### Quantization
-
-###### Scalar quantization
-
-###### Binary quantization
-
-###### Product quantization
-
-###### Rotational quantization
-
-#### Finetuning models
+##### Finetuning
 
 * [Fine-Tuning Text Embeddings For Domain-Specific Search](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c)
 * [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
 * [Is Fine-Tuning an Embedding Model Worth it?](https://pub.towardsai.net/is-fine-tuning-an-embedding-model-worth-it-9d5fe6875c32)
+
+#### Vector retrieval
+
+* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
+* [Guidelines to choose an index](https://github.com/facebookresearch/faiss/wiki/Guidelines-to-choose-an-index)
+* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
+* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 
 
 ### Hybrid search
