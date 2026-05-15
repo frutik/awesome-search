@@ -30,7 +30,7 @@ jobs:
 
       - name: Generate TOC
         run: |
-          doctoc --maxlevel 4 README.md
+          doctoc --maxlevel 6 README.md
 
       - name: Commit & push if changed
         run: |
