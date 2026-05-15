@@ -979,6 +979,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
 * [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
+* [SearchPixel](https://searchpixel.pixelapi.dev) - Hybrid CLIP + BGE product-search API for Shopify and WooCommerce stores. Combines visual and semantic search, priced in INR (Indian rupees), and free during the open beta for the first 50 stores.
 
 ### Consulting companies
 
