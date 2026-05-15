@@ -960,7 +960,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * Google
 * Bing
-* Yandex
+* [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
 * Amazon
 * eBay
 
