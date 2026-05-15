@@ -2,8 +2,6 @@
 
 <p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank">Support Ukrainian fight for the freedom</a> 
   
-[RUSSIAN WARSHIP, GO F*CK YOURSELF](https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself!)
-
 I've been building e-commerce search applications for more than ten years. Below is a list of some publications, conferences, and books that have inspired me, grouped by topic. If an item fits into multiple topics, it appears in multiple sections.
 
 :star: Star us on GitHub — it helps!
@@ -21,23 +19,54 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Vectors/Semantic search](#vectorssemantic-search)
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
     - [Embeddings](#embeddings)
+      - [Encoder architecture](#encoder-architecture)
+        - [Bi-encoders / Two towers (no interaction)](#bi-encoders--two-towers-no-interaction)
+        - [Cross-encoders (early interaction)](#cross-encoders-early-interaction)
+        - [ColBERT (late interaction)](#colbert-late-interaction)
+      - [Vector types](#vector-types)
+        - [Dense vectors](#dense-vectors)
+        - [Sparse vectors](#sparse-vectors)
+        - [Constructed query vectors](#constructed-query-vectors)
+      - [Dimensionality handling](#dimensionality-handling)
+        - [Dimensionality reduction](#dimensionality-reduction)
+        - [Quantization](#quantization)
+      - [Finetuning](#finetuning)
+        - [Supervised finetuning](#supervised-finetuning)
+        - [Knowledge distillation](#knowledge-distillation)
+        - [Multimodal finetuning](#multimodal-finetuning)
     - [Vector retrieval](#vector-retrieval)
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion (RRF)](#reciprocal-rank-fusion-rrf)
     - [Linear Score Combination](#linear-score-combination)
   - [Multimodal search](#multimodal-search)
     - [Multimodality Problems](#multimodality-problems)
+      - [Modality Gap](#modality-gap)
+      - [Contrastive Gap](#contrastive-gap)
   - [Agentic search](#agentic-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [Evaluation Paradigms](#evaluation-paradigms)
     - [Session-based Evaluation](#session-based-evaluation)
     - [Query-based Evaluation](#query-based-evaluation)
+      - [Random sampling](#random-sampling)
+      - [Stratified sampling](#stratified-sampling)
+      - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
   - [Metrics](#metrics)
     - [Focused on ranking quality](#focused-on-ranking-quality)
     - [Focused on diversity of results](#focused-on-diversity-of-results)
+      - [MMR](#mmr)
+      - [Average Pairwise Distance, APD](#average-pairwise-distance-apd)
+      - [Entropy](#entropy)
     - [Behavioral / Product / Performance](#behavioral--product--performance)
+      - [Clicks](#clicks)
+        - [Zero clicks](#zero-clicks)
+        - [Clicks residual](#clicks-residual)
+      - [Zero results](#zero-results)
   - [Evaluation Modes](#evaluation-modes)
     - [Offline](#offline)
+      - [Judgements](#judgements)
+        - [HUman judgements](#human-judgements)
+        - [Implicite judgements](#implicite-judgements)
+        - [Using LLM as judge](#using-llm-as-judge)
     - [Online](#online)
 - [Areas of application](#areas-of-application)
   - [Enterprise search](#enterprise-search)
@@ -46,12 +75,17 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
     - [Relevance](#relevance)
+      - [Relevance Algorithms](#relevance-algorithms)
+        - [BM25](#bm25)
+        - [Bayesian BM25 (BB25)](#bayesian-bm25-bb25)
   - [Ranking](#ranking)
     - [Multi-stage ranking](#multi-stage-ranking)
+      - [Reranking](#reranking)
     - [Learning to Rank](#learning-to-rank)
+      - [Click models for search](#click-models-for-search)
   - [Bias](#bias)
   - [Diversification](#diversification)
-    - [MMR](#mmr)
+    - [MMR](#mmr-1)
   - [Personalisation](#personalisation)
   - [Zero search results](#zero-search-results)
 - [Search UX](#search-ux)
@@ -91,6 +125,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Three Pillars of Search Relevancy (by Andreas Wagner)](#three-pillars-of-search-relevancy-by-andreas-wagner)
 - [Architecture](#architecture)
 - [Education and networking](#education-and-networking)
+  - [Events](#events)
   - [Conferences](#conferences)
   - [Trainings and courses](#trainings-and-courses)
   - [Books](#books)
@@ -295,6 +330,8 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 ### Agentic search
 
 - [Agentic Search as an Agile Engineering Process](https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e)
+- [Agents turn simple keyword search into compelling search experiences](https://softwaredoug.com/blog/2025/09/22/reasoning-agents-need-bad-search)
+- [Agentic search models](https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models)
 
 ## Search Quality Assurance
 
@@ -768,6 +805,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Education and networking
 
+### Events
+
+* [Search Conference Calendar - The Search Juggler](https://thesearchjuggler.com/conferences/)
+
 ### Conferences
 
 * [Activate](https://www.activate-conf.com/)
@@ -920,7 +961,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * Google
 * Bing
-* Yandex
+* [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
 * Amazon
 * eBay
 
@@ -939,6 +980,8 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Qdrant](https://qdrant.tech/) - an open source vector database.
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
 * [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
+* [Omnigraph](https://github.com/ModernRelay/omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
+* [SearchPixel](https://searchpixel.pixelapi.dev) - Hybrid CLIP + BGE product-search API for Shopify and WooCommerce stores. Combines visual and semantic search, priced in INR (Indian rupees), and free during the open beta for the first 50 stores.
 
 ### Consulting companies
 
@@ -1022,10 +1065,12 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
 * [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data.
 * https://github.com/castorini/docTTTTTquery
+* https://github.com/AiDinho/ruosh - A full text search library  with Tantivy backend ,all the goodness of whoosh api powered by Tantivy
 
 ### Other
 
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
+* [DocKit](https://www.geekfun.club/products/dockit/) - Desktop GUI client for Elasticsearch, OpenSearch, and DynamoDB with AI-powered query generation
 * [Quepid](https://github.com/o19s/quepid)
 * [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 * [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
