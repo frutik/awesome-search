@@ -766,6 +766,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Education and networking
 
+### Events
+
+* [Search Conference Calendar - The Search Juggler](https://thesearchjuggler.com/conferences/)
+
 ### Conferences
 
 * [Activate](https://www.activate-conf.com/)
