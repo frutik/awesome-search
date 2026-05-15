@@ -2,8 +2,6 @@
 
 <p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank">Support Ukrainian fight for the freedom</a> 
   
-[RUSSIAN WARSHIP, GO F*CK YOURSELF](https://en.wikipedia.org/wiki/Russian_warship,_go_fuck_yourself!)
-
 I've been building e-commerce search applications for more than ten years. Below is a list of some publications, conferences, and books that have inspired me, grouped by topic. If an item fits into multiple topics, it appears in multiple sections.
 
 :star: Star us on GitHub — it helps!
@@ -21,25 +19,54 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Vectors/Semantic search](#vectorssemantic-search)
     - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
     - [Embeddings](#embeddings)
+      - [Encoder architecture](#encoder-architecture)
+        - [Bi-encoders / Two towers (no interaction)](#bi-encoders--two-towers-no-interaction)
+        - [Cross-encoders (early interaction)](#cross-encoders-early-interaction)
+        - [ColBERT (late interaction)](#colbert-late-interaction)
+      - [Vector types](#vector-types)
+        - [Dense vectors](#dense-vectors)
+        - [Sparse vectors](#sparse-vectors)
+        - [Constructed query vectors](#constructed-query-vectors)
+      - [Dimensionality handling](#dimensionality-handling)
+        - [Dimensionality reduction](#dimensionality-reduction)
+        - [Quantization](#quantization)
+      - [Finetuning](#finetuning)
+        - [Supervised finetuning](#supervised-finetuning)
+        - [Knowledge distillation](#knowledge-distillation)
+        - [Multimodal finetuning](#multimodal-finetuning)
     - [Vector retrieval](#vector-retrieval)
-    - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
-    - [Finetuning models](#finetuning-models)
   - [Hybrid search](#hybrid-search)
     - [Reciprocal rank fusion (RRF)](#reciprocal-rank-fusion-rrf)
     - [Linear Score Combination](#linear-score-combination)
   - [Multimodal search](#multimodal-search)
     - [Multimodality Problems](#multimodality-problems)
+      - [Modality Gap](#modality-gap)
+      - [Contrastive Gap](#contrastive-gap)
   - [Agentic search](#agentic-search)
 - [Search Quality Assurance](#search-quality-assurance)
   - [Evaluation Paradigms](#evaluation-paradigms)
     - [Session-based Evaluation](#session-based-evaluation)
     - [Query-based Evaluation](#query-based-evaluation)
+      - [Random sampling](#random-sampling)
+      - [Stratified sampling](#stratified-sampling)
+      - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
   - [Metrics](#metrics)
     - [Focused on ranking quality](#focused-on-ranking-quality)
     - [Focused on diversity of results](#focused-on-diversity-of-results)
+      - [MMR](#mmr)
+      - [Average Pairwise Distance, APD](#average-pairwise-distance-apd)
+      - [Entropy](#entropy)
     - [Behavioral / Product / Performance](#behavioral--product--performance)
+      - [Clicks](#clicks)
+        - [Zero clicks](#zero-clicks)
+        - [Clicks residual](#clicks-residual)
+      - [Zero results](#zero-results)
   - [Evaluation Modes](#evaluation-modes)
     - [Offline](#offline)
+      - [Judgements](#judgements)
+        - [HUman judgements](#human-judgements)
+        - [Implicite judgements](#implicite-judgements)
+        - [Using LLM as judge](#using-llm-as-judge)
     - [Online](#online)
 - [Areas of application](#areas-of-application)
   - [Enterprise search](#enterprise-search)
@@ -48,12 +75,17 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 - [Search Results](#search-results)
   - [Retrieval](#retrieval)
     - [Relevance](#relevance)
+      - [Relevance Algorithms](#relevance-algorithms)
+        - [BM25](#bm25)
+        - [Bayesian BM25 (BB25)](#bayesian-bm25-bb25)
   - [Ranking](#ranking)
     - [Multi-stage ranking](#multi-stage-ranking)
+      - [Reranking](#reranking)
     - [Learning to Rank](#learning-to-rank)
+      - [Click models for search](#click-models-for-search)
   - [Bias](#bias)
   - [Diversification](#diversification)
-    - [MMR](#mmr)
+    - [MMR](#mmr-1)
   - [Personalisation](#personalisation)
   - [Zero search results](#zero-search-results)
 - [Search UX](#search-ux)
@@ -93,6 +125,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   - [Three Pillars of Search Relevancy (by Andreas Wagner)](#three-pillars-of-search-relevancy-by-andreas-wagner)
 - [Architecture](#architecture)
 - [Education and networking](#education-and-networking)
+  - [Events](#events)
   - [Conferences](#conferences)
   - [Trainings and courses](#trainings-and-courses)
   - [Books](#books)
@@ -158,10 +191,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 * [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
 * [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
-* [Guidelines to choose an index](https://github.com/facebookresearch/faiss/wiki/Guidelines-to-choose-an-index)
-* [Pinecone Series](#pinecone-series)
-  * [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
-  * [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 * [Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock](https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc)
 
 #### Symmetric and Asymmetric semantic search
@@ -169,90 +198,102 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
   * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
 
 #### Embeddings
-##### Types
 
-* [Bi-encoder vs Cross encoder?When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
-* [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
+##### Encoder architecture
 
+###### Bi-encoders / Two towers (no interaction)
 
+* [Bi-encoder vs Cross encoder? When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
 
-#### Vector retrieval
+###### Cross-encoders (early interaction)
 
-* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
-
-##### Query/Document tokens interaction
-
-###### No interactions - Two towers / Bi-encoders
-
-###### Early interactions - Cross-encoders
-
-###### Late interactions - ColBERT
+###### ColBERT (late interaction)
 
 - [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
 - [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
 
-##### Dense Vectors
+##### Vector types
 
-###### Size of input and Chunking
+###### Dense vectors
+
+####### Input size limits
 
 - [Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/)
 - [Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex](https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5)
 - [How to Chunk Text Data — A Comparative Analysis](https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a)
 
-####### Positional chunking
+  - **Positional chunking**
+  - **Semantic chunking**
 
-####### Semantic chunking
-
-####### Hypothetical Document Embeddings
-
-* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
-
-###### Matryoshka embeddings
+####### Matryoshka embeddings
 
 * [Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval](https://supabase.com/blog/matryoshka-embeddings)
 * [Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka)
 * [Matryoshka representations. A guide to faster semantic search](https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530)
 
-###### Context-aware embeddings
+####### Context-aware embeddings
 
 * [Improve your RAG applications by moving to Task-aware Embeddings](https://medium.com/@gal.peretz/improve-your-rag-applications-by-moving-to-task-aware-embeddings-09ebee62616f)
 * [How Context-Aware Embeddings Are Transforming Enterprise Search](https://medium.com/@sonakshi.sp/smarter-knowledge-retrieval-how-context-aware-embeddings-are-transforming-enterprise-search-802c29c4b9b5)
 
-##### Sparse Vectors
+###### Sparse vectors
 
-###### SPLADE
+####### SPLADE
 
 * [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
 * [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
 * [Improving information retrieval in the Elastic Stack. Introducing Elastic Learned Sparse Encoder, our new retrieval model](https://www.elastic.co/search-labs/blog/elastic-learned-sparse-encoder-elser-retrieval-performance)
-* [No tracking until you click to share
-SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
+* [SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
 
+###### Constructed query vectors
 
+####### Hypothetical Document Embeddings (HyDE)
 
-#### Handling high-dimension embeddings
+* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
 
-##### Dimensionality reduction
+####### Bag-of-documents
 
-###### PCA
+* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
 
-###### t-SNE
+####### Wormhole vectors
 
-##### Quantization
+* [Beyond Hybrid Search: Traversing Vector Spaces with Wormhole Vectors](https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors)
 
-###### Scalar quantization
+##### Dimensionality handling
 
-###### Binary quantization
+###### Dimensionality reduction
 
-###### Product quantization
+- PCA
+- t-SNE
 
-###### Rotational quantization
+###### Quantization
 
-#### Finetuning models
+- Scalar quantization
+- Binary quantization
+- Product quantization
+- Rotational quantization
+
+##### Finetuning
+
+###### Supervised finetuning
 
 * [Fine-Tuning Text Embeddings For Domain-Specific Search](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c)
-* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
 * [Is Fine-Tuning an Embedding Model Worth it?](https://pub.towardsai.net/is-fine-tuning-an-embedding-model-worth-it-9d5fe6875c32)
+
+###### Knowledge distillation
+
+* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
+
+###### Multimodal finetuning
+
+* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
+
+#### Vector retrieval
+
+* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
+* [Guidelines to choose an index](https://github.com/facebookresearch/faiss/wiki/Guidelines-to-choose-an-index)
+* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
+* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
 
 
 ### Hybrid search
@@ -289,6 +330,7 @@ SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient
 ### Agentic search
 
 - [Agentic Search as an Agile Engineering Process](https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e)
+- [Agentic search models](https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models)
 
 ## Search Quality Assurance
 
@@ -762,6 +804,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ## Education and networking
 
+### Events
+
+* [Search Conference Calendar - The Search Juggler](https://thesearchjuggler.com/conferences/)
+
 ### Conferences
 
 * [Activate](https://www.activate-conf.com/)
@@ -914,7 +960,7 @@ Synonyms: autocomplete, search as you type, suggestions
 
 * Google
 * Bing
-* Yandex
+* [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
 * Amazon
 * eBay
 
@@ -934,6 +980,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
 * [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
 * [Omnigraph](https://github.com/ModernRelay/omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
+* [SearchPixel](https://searchpixel.pixelapi.dev) - Hybrid CLIP + BGE product-search API for Shopify and WooCommerce stores. Combines visual and semantic search, priced in INR (Indian rupees), and free during the open beta for the first 50 stores.
 
 ### Consulting companies
 
@@ -1017,10 +1064,12 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
 * [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data.
 * https://github.com/castorini/docTTTTTquery
+* https://github.com/AiDinho/ruosh - A full text search library  with Tantivy backend ,all the goodness of whoosh api powered by Tantivy
 
 ### Other
 
 * [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
+* [DocKit](https://www.geekfun.club/products/dockit/) - Desktop GUI client for Elasticsearch, OpenSearch, and DynamoDB with AI-powered query generation
 * [Quepid](https://github.com/o19s/quepid)
 * [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
 * [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
