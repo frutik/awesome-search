@@ -185,7 +185,7 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ###### Dense vectors
 
-####### Chunking
+####### Input size limits
 
 - [Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/)
 - [Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex](https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5)
@@ -193,7 +193,6 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
   - **Positional chunking**
   - **Semantic chunking**
-  - **Hypothetical Document Embeddings (HyDE)**: [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
 
 ####### Matryoshka embeddings
 
@@ -215,6 +214,20 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 * [Improving information retrieval in the Elastic Stack. Introducing Elastic Learned Sparse Encoder, our new retrieval model](https://www.elastic.co/search-labs/blog/elastic-learned-sparse-encoder-elser-retrieval-performance)
 * [SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
 
+###### Constructed query vectors
+
+####### Hypothetical Document Embeddings (HyDE)
+
+* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
+
+####### Bag-of-documents
+
+* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
+
+####### Wormhole vectors
+
+* [Beyond Hybrid Search: Traversing Vector Spaces with Wormhole Vectors](https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors)
+
 ##### Dimensionality handling
 
 ###### Dimensionality reduction
@@ -231,9 +244,18 @@ Also check my other collections [awesome e-commerce](https://github.com/frutik/a
 
 ##### Finetuning
 
+###### Supervised finetuning
+
 * [Fine-Tuning Text Embeddings For Domain-Specific Search](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c)
-* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
 * [Is Fine-Tuning an Embedding Model Worth it?](https://pub.towardsai.net/is-fine-tuning-an-embedding-model-worth-it-9d5fe6875c32)
+
+###### Knowledge distillation
+
+* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
+
+###### Multimodal finetuning
+
+* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
 
 #### Vector retrieval
 
