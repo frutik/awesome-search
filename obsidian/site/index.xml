@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Adopting Vespa for Recommendation Retrieval at Vinted</title>
+    <link>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</guid>
+    <description><![CDATA[ Adopting Vespa for Recommendation Retrieval at Vinted Vinted (Europe’s largest second-hand fashion marketplace) migrated from FAISS to Vespa for serving personalized homepage recommendations. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Building Smarter Search Products - 3 Steps for Evaluating Search Algorithms</title>
+    <link>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</guid>
+    <description><![CDATA[ Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms Shopify describes their three-step framework for evaluating new search algorithms (specifically: Query-specific Pagerank vs. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Common Pitfalls of Onsite Search Experimentation Part 2</title>
+    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</guid>
+    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Part 2 Siegfried Schüle (searchHub) exposes the basket attribution trap in search A/B testing. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Common Pitfalls of Onsite Search Experimentation</title>
+    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</guid>
+    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Andreas Wagner (searchHub) identifies two major A/B testing traps in onsite search. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>E-commerce Search and Recommendation with Vespa</title>
+    <link>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</link>
+    <guid>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</guid>
+    <description><![CDATA[ E-commerce Search and Recommendation with Vespa Jo Kristian Bergum (Vespa) surveys how Vespa addresses core e-commerce search challenges. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant</title>
+    <link>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</guid>
+    <description><![CDATA[ Elasticsearch BBQ: Optimized Scalar Quantization vs. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Evaluating the Best AB Testing Metrics for Search</title>
+    <link>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</guid>
+    <description><![CDATA[ Evaluating the Best AB Testing Metrics for Search Algolia introduces a two-dimensional framework for evaluating A/B testing metrics: directionality and sensitivity (from Yandex Research). ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Finding the Relevance Cutoff - When to Stop Showing Search Results</title>
+    <link>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</guid>
+    <description><![CDATA[ Finding the Relevance Cutoff: When to Stop Showing Search Results Doug Turnbull (at Shopify) explores metrics for the progressive-scroll UX — when users review all returned results and you need to know where to cut off the result set. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Fine Tune LLM on a Custom Dataset with QLoRA</title>
+    <link>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</guid>
+    <description><![CDATA[ Fine Tune LLM on a Custom Dataset with QLoRA End-to-end tutorial for fine-tuning a large language model (Phi-2) on a domain-specific dataset using QLoRA (Quantized LoRA). ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item><item>
+    <title>Fine-Tuning LLMs From Zero to Hero with Python and Ollama</title>
+    <link>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</guid>
+    <description><![CDATA[ Fine-Tuning LLMs: From Zero to Hero with Python &amp; Ollama Practical tutorial: fine-tune a small LLM (Phi-3 Mini) using Unsloth (2× training speedup), export to GGUF format, and serve locally via Ollama. ]]></description>
+    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
