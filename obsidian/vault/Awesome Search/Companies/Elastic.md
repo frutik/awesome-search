@@ -1,0 +1,54 @@
+---
+type: company
+industry: search infrastructure / observability
+products:
+  - Elasticsearch
+  - Kibana
+  - Elastic Search Labs
+category: technology-provider
+search_domain: open-source + managed search and observability platform
+---
+
+# Elastic
+
+## What They Build
+
+Elastic makes **Elasticsearch** — the dominant open-source distributed search engine built on Apache Lucene. It is the default backend for a large share of production search systems globally (e-commerce, log analytics, enterprise search). Elastic also runs a cloud offering (Elastic Cloud) and a Search Labs blog that publishes practical search engineering content.
+
+## Search Contributions
+
+### Retrieval Models
+- **[[ELSER]]** (Elastic Learned Sparse Encoder) — production-grade sparse retrieval model based on [[SPLADE]]. Achieves +17% NDCG@10 over BM25 on BEIR benchmarks with zero-shot performance
+- **[[BBQ]]** (Better Binary Quantization) — scalar + binary quantization approach for Elasticsearch dense vector fields; competitive with TurboQuant at fraction of the cost
+
+### Search Features
+- `function_score` query — the primary [[Results Boosting]] mechanism in Elasticsearch
+- `kNN` + pre-filter pipeline — [[Vector Filtering]] support in dense vector search
+- Native [[Hybrid Search]] with BM25 + dense vector combination
+
+### Applied Examples Published
+- Multilingual hybrid search + reranking on Elasticsearch
+- E-commerce personalization via purchase history in Elasticsearch
+- Margin and popularity boosting patterns (governed control plane)
+
+## Tech Stack Significance
+
+Elasticsearch is used as the underlying engine in many case studies in this vault:
+- [[Zalando]] — Base Search layer
+- [[Uber]] — custom Lucene platform
+- Semantic Scholar — Elasticsearch with ML reranker on top
+
+## People
+
+- [[Thomas Veasey]] — Principal Engineer, Elastic
+
+## Articles
+
+- [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]
+- [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]]
+- [[Multilingual Embedding Model Hybrid Search Reranking]]
+- [[Ecommerce search optimization with margin & popularity boosting]]
+
+## Concepts
+
+[[ELSER]] · [[BBQ]] · [[BM25]] · [[Results Boosting]] · [[Hybrid Search]]

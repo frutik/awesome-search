@@ -1,0 +1,76 @@
+---
+title: "Reranking"
+aliases: ["reranker", "second-stage ranking", "re-ranking", "cross-encoder reranking", "neural reranking", "multi-stage reranking"]
+tags:
+  - concept
+  - search
+  - ranking
+  - retrieval
+created: 2026-05-16
+---
+
+# Reranking
+
+## Definition
+
+Reranking is a second-stage scoring step that takes an initial candidate set retrieved cheaply (first stage) and rescores it using a more expensive, higher-quality model. The reranker sees both the query and document together, enabling richer interaction than first-stage retrievers.
+
+## Why Reranking Exists
+
+First-stage retrievers ([[BM25]], [[Bi-Encoder]]) must score millions of documents quickly — they use independent query/document representations or simple term statistics. This limits their expressiveness. A reranker only needs to score ~100–1000 candidates, so it can afford deep query-document interaction.
+
+## Standard Pipeline
+
+```
+Query
+  │
+  ▼
+First-stage retrieval (BM25 / bi-encoder ANN)   → top-1000 candidates
+  │
+  ▼
+Reranker (cross-encoder or LLM)                 → rescored top-1000
+  │
+  ▼
+Final ranked list (top-10/20 served to user)
+```
+
+## Reranker Types
+
+### Cross-Encoder (Most Common)
+A [[Cross-Encoder]] processes query + document concatenated as a single sequence, producing a relevance score. Sees full interaction between query and document tokens.
+
+- Models: `cross-encoder/ms-marco-MiniLM-L-6-v2`, Cohere Rerank, `bge-reranker-*`
+- Latency: ~50–200ms for 100 candidates on GPU
+- Quality: significantly better than bi-encoder for nuanced relevance
+
+### LLM-as-Reranker
+Use a large language model ([[LLM as Judge]]) to score or listwise-rank candidates. Higher quality, much higher cost.
+
+- Pointwise: "Is this document relevant to the query? Yes/No"
+- Listwise: "Rank these 10 documents by relevance"
+
+### ColBERT Late Interaction
+[[ColBERT]] / [[Late Interaction]] sits between bi-encoder speed and cross-encoder quality — efficient enough for first-stage in some setups, but also used as a reranker.
+
+## Reranking in RAG
+
+In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, so only the top 3–5 chunks are included. A reranker narrows 50–100 retrieved chunks down to the best ones before LLM generation.
+
+## Tradeoffs
+
+| | First-Stage | Reranker |
+|---|---|---|
+| Throughput | Millions of docs/sec | Hundreds of docs/sec |
+| Latency | <10ms | 50–500ms |
+| Quality | Good | Excellent |
+| Cost | Low | Higher |
+
+## Related Concepts
+
+- [[Retrieval Pipeline]] — the multi-stage architecture reranking fits into
+- [[Cross-Encoder]] — primary reranking architecture
+- [[Bi-Encoder]] — first-stage retriever that feeds the reranker
+- [[ColBERT]] — late interaction alternative
+- [[LLM as Judge]] — LLM-based reranking
+- [[RAG]] — key use case for reranking
+- [[Learning to Rank]] — related family of ranking approaches
