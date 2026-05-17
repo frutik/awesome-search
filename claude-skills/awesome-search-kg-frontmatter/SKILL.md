@@ -24,6 +24,10 @@ Use this skill to check all notes for required frontmatter fields and fix missin
 | `company` | `type`, `tags`, `created`, `website` (if known) |
 | `tool` | `type`, `tags`, `created`, `website` or `repo` (if known) |
 
+## Vault Access
+
+**Always use the Obsidian MCP server for all vault operations** — never access the vault directly via the filesystem (no Read/Write/Bash file tools). The MCP server is the only sanctioned way to read, search, create, and edit notes.
+
 ## Workflow
 
 ### 1. Scan all notes

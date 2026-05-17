@@ -13,6 +13,10 @@ Use this skill to identify the true hub notes in the vault by inbound link count
 - When the Topics/ folder feels out of sync with the actual content
 - Periodically (e.g. monthly) as part of graph health maintenance
 
+## Vault Access
+
+**Always use the Obsidian MCP server for all vault operations** — never access the vault directly via the filesystem (no Read/Write/Bash file tools). The MCP server is the only sanctioned way to read, search, create, and edit notes.
+
 ## Workflow
 
 ### 1. Count inbound links for all notes

@@ -25,6 +25,10 @@ Build a dense but meaningful semantic knowledge graph inside Obsidian. Prefer cr
 - `Awesome Search/Companies/` — organisations mentioned
 - `Awesome Search/Case Studies/` — real-world implementations
 
+## Vault Access
+
+**Always use the Obsidian MCP server for all vault operations** — never access the vault directly via the filesystem (no Read/Write/Bash file tools). The MCP server is the only sanctioned way to read, search, create, and edit notes.
+
 ## Workflow
 
 When asked to read/process articles, follow these steps in order:

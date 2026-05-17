@@ -13,6 +13,10 @@ Use this skill to find groups of notes that form isolated islands — internally
 - After importing or processing a new domain of articles
 - Periodically to surface cross-domain connections that were missed
 
+## Vault Access
+
+**Always use the Obsidian MCP server for all vault operations** — never access the vault directly via the filesystem (no Read/Write/Bash file tools). The MCP server is the only sanctioned way to read, search, create, and edit notes.
+
 ## Workflow
 
 ### 1. Identify clusters
