@@ -955,6 +955,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Daniel Tunkelang (he is God of Search)](https://medium.com/@dtunkelang)
 * [Max Irwin](https://twitter.com/binarymax)
 * [Doug Turnbull](https://twitter.com/softwaredoug)
+* [Charlie Hull](https://thesearchjuggler.com) - 25+ years in search. Founder of Flax, ex-Managing Consultant at OpenSource Connections. Runs The Search Juggler, a vendor-neutral search consultancy. Organizer of the Haystack conference and the London Search & AI Meetup.
 * [Baymard’s Institute](https://baymard.com/blog)
 
 ### Search Engines
@@ -985,9 +986,10 @@ Synonyms: autocomplete, search as you type, suggestions
 
 ### Consulting companies
 
-* [BigData Boutique](https://bigdataboutique.com/services/elasticsearch-consulting)
-* [OpenSource Connections](https://www.opensourceconnections.com)
-* https://sease.io/
+* [The Search Juggler](https://thesearchjuggler.com) — Charlie Hull's solo consultancy. Vendor-neutral strategy & audit, technology selection, relevance measurement, market positioning for search vendors, and event expertise (Haystack conference, London Search & AI Meetup).
+* [OpenSource Connections](https://www.opensourceconnections.com) — Search relevance consulting firm. Authors of Quepid (relevance evaluation SaaS) and Rated Ranking Evaluator (RRE). Doug Turnbull's practice.
+* [Sease](https://sease.io/) — Italian search engineering firm specializing in Apache Solr, Elasticsearch, Learning to Rank, and neural reranking (ColBERT, cross-encoders).
+* [BigData Boutique](https://bigdataboutique.com/services/elasticsearch-consulting) — Elasticsearch consulting.
 * [Sematext](https://sematext.com/)
 
 ## Case studies
