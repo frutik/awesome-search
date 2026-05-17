@@ -1,17 +1,33 @@
 ---
 type: topic
-aliases: ["search team management", "search org", "managing search"]
-tags: [topic, management, team, org-design, search-team]
-related_concepts: ["[[Search Relevance]]", "[[Search Quality]]"]
-related_topics: ["[[Hiring for Search]]", "[[Economics of Search]]", "[[A-B Testing for Search]]"]
-articles: [
-  "[[Thoughts about Managing Search Teams]]",
-  "[[Search is a Team Sport]]",
-  "[[On Search Leadership]]",
-  "[[Search Product Management - The Most Misunderstood Role]]",
-  "[[Search Relevance for Understaffed Teams]]"
-]
-people: ["[[Daniel Tunkelang]]", "[[Lester Solbakken]]"]
+aliases:
+  - search team management
+  - search org
+  - managing search
+tags:
+  - topic
+  - management
+  - team
+  - org-design
+  - search-team
+related_concepts:
+  - "[[Search Relevance]]"
+  - "[[Search Quality]]"
+related_topics:
+  - "[[Hiring for Search]]"
+  - "[[Economics of Search]]"
+  - "[[A-B Testing for Search]]"
+  - "[[Understaffed Search Team]]"
+articles:
+  - "[[Thoughts about Managing Search Teams]]"
+  - "[[Search is a Team Sport]]"
+  - "[[On Search Leadership]]"
+  - "[[Search Product Management - The Most Misunderstood Role]]"
+  - "[[Search Relevance for Understaffed Teams]]"
+  - "[[Getting Started on Search Relevance for the Understaffed Search Team]]"
+people:
+  - "[[Daniel Tunkelang]]"
+  - "[[Lester Solbakken]]"
 created: 2026-05-16
 ---
 
@@ -145,3 +161,4 @@ When you have 1-2 engineers and no dedicated data science support:
 - [[Economics of Search]] — org decisions have direct cost implications
 - [[A-B Testing for Search]] — evaluation culture depends on a working experiment framework
 - [[Daniel Tunkelang]] — canonical voice on search team management
+- [[Understaffed Search Team]] — focused topic on resource-constrained teams

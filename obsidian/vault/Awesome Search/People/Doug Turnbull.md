@@ -1,11 +1,13 @@
 ---
-title: "Doug Turnbull"
-aliases: ["Turnbull", "softwaredoug"]
+title: Doug Turnbull
+aliases:
+  - Turnbull
+  - softwaredoug
 tags:
   - person
   - search-practitioner
   - search-researcher
-created: 2026-05-15
+created: 2026-05-152026-05-15
 ---
 
 # Doug Turnbull
@@ -25,6 +27,8 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 
 - [[Semantic Search Without Embeddings]]
 - [[Finding the Relevance Cutoff - When to Stop Showing Search Results]]
+
+- [[Getting Started on Search Relevance for the Understaffed Search Team]]
 
 ## Affiliations
 

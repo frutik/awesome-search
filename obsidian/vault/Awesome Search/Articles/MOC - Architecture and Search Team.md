@@ -29,9 +29,12 @@ Map of content covering search system architecture and the human side of search:
 ## Search Team Organization
 
 ### Process
+### Process
 - [[Query Triage - The Secret Weapon for Search Relevance]] — Rubinstein: cross-functional triage meetings
 - [[The Launch Review]] — go/no-go decision process for algorithm changes
 - [[Search Relevance for Understaffed Teams]] — Turnbull: focus on NOW, not future headcount
+- [[Getting Started on Search Relevance for the Understaffed Search Team]] — comprehensive strategy guide for lean teams
+- [[Understaffed Search Team]] — topic: high-ROI techniques for resource-constrained teams
 
 ### Key Figures in Search Teams
 - [[Daniel Tunkelang]] — search leadership, strategy, philosophy

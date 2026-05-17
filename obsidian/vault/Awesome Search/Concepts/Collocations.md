@@ -65,3 +65,6 @@ Collocations must be handled carefully in [[Synonyms]] expansion — "hot dog" �
 - [[Stopwords]] — stopwords inside phrases must be preserved
 - [[Query Segmentation]] — related task of segmenting queries into meaningful units
 - [[Keywords Extraction]] — related task of identifying important phrases in documents
+
+## Related Articles
+- [[Getting Started on Search Relevance for the Understaffed Search Team]]

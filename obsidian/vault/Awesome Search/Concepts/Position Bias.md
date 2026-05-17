@@ -88,6 +88,11 @@ When evaluating search systems, position bias affects:
 - [[Diversity Metrics]] — diversity reduces concentration at top positions
 - [[Judgment Lists]] — human judgments are position-unbiased (when evaluated blindly)
 
+
+## Related Articles
+- [[Getting Started on Search Relevance for the Understaffed Search Team]]
+- [[What is Presentation Bias in Search]]
+
 ## People
 
 - [[Daniel Tunkelang]] — position bias in search quality discussion

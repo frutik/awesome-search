@@ -1,12 +1,13 @@
 ---
-title: "Search Relevance for Understaffed Teams"
+title: Search Relevance for Understaffed Teams
 tags:
   - clippings
   - search
   - search-team
   - process
-source: "https://softwaredoug.com/blog/2023/05/29/guide-for-search-teams.html"
-author: "Doug Turnbull"
+  - understaffed-search-team
+source: https://softwaredoug.com/blog/2023/05/29/guide-for-search-teams.html
+author: Doug Turnbull
 created: 2026-05-15
 concepts:
   - Search Evaluation
@@ -56,3 +57,4 @@ Limited teams should resist building elaborate infrastructure and instead identi
 - [[What Is a Judgment List]]
 - [[Measuring Search - Metrics Matter]]
 - [[Query Triage - The Secret Weapon for Search Relevance]]
+- [[Getting Started on Search Relevance for the Understaffed Search Team]] — full strategy guide (Google Doc version, more comprehensive)
