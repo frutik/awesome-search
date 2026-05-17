@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Adopting Vespa for Recommendation Retrieval at Vinted</title>
-    <link>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</guid>
-    <description><![CDATA[ Adopting Vespa for Recommendation Retrieval at Vinted Vinted (Europe’s largest second-hand fashion marketplace) migrated from FAISS to Vespa for serving personalized homepage recommendations. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Lester Solbakken</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/People/Lester-Solbakken</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/People/Lester-Solbakken</guid>
+    <description><![CDATA[ q Lester Solbakken Background Lester Solbakken is co-founder of Hornet, a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. ]]></description>
+    <pubDate>Sun, 17 May 2026 10:52:32 GMT</pubDate>
   </item><item>
-    <title>Building Smarter Search Products - 3 Steps for Evaluating Search Algorithms</title>
-    <link>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</guid>
-    <description><![CDATA[ Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms Shopify describes their three-step framework for evaluating new search algorithms (specifically: Query-specific Pagerank vs. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Your Obsidian Vault Is a Knowledge Graph. Here&#039;s How to Make It Think (quickly).</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Articles/Your-Obsidian-Vault-Is-a-Knowledge-Graph</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Articles/Your-Obsidian-Vault-Is-a-Knowledge-Graph</guid>
+    <description><![CDATA[ Your Obsidian Vault Is a Knowledge Graph. Here’s How to Make It Think (quickly). ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Common Pitfalls of Onsite Search Experimentation Part 2</title>
-    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</guid>
-    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Part 2 Siegfried Schüle (searchHub) exposes the basket attribution trap in search A/B testing. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Books</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Topics/Books</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Topics/Books</guid>
+    <description><![CDATA[ Books Key books on search, information retrieval, NLP, and related fields. Organized by audience and focus area. ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Common Pitfalls of Onsite Search Experimentation</title>
-    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</guid>
-    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Andreas Wagner (searchHub) identifies two major A/B testing traps in onsite search. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Events and Conferences</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Topics/Events-and-Conferences</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Topics/Events-and-Conferences</guid>
+    <description><![CDATA[ Events and Conferences Industry and academic events where search, information retrieval, NLP, and AI are discussed and published. ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>E-commerce Search and Recommendation with Vespa</title>
-    <link>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</link>
-    <guid>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</guid>
-    <description><![CDATA[ E-commerce Search and Recommendation with Vespa Jo Kristian Bergum (Vespa) surveys how Vespa addresses core e-commerce search challenges. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Fun and Philosophy</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Topics/Fun-and-Philosophy</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Topics/Fun-and-Philosophy</guid>
+    <description><![CDATA[ Fun and Philosophy Reflective, opinionated, and conceptually provocative writing about search — pieces that ask what is search, really? rather than how do we tune the model? Includes metaphors, thought experiments, ethical framings, and challenges to conventional assumptions. ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant</title>
-    <link>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</guid>
-    <description><![CDATA[ Elasticsearch BBQ: Optimized Scalar Quantization vs. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Your Obsidian Vault Is a Knowledge Graph. Here’s How to Make It Think (quickly).</title>
+    <link>https://quartz.jzhao.xyz/Clippings/Your-Obsidian-Vault-Is-a-Knowledge-Graph.-Here%E2%80%99s-How-to-Make-It-Think-(quickly).-1</link>
+    <guid>https://quartz.jzhao.xyz/Clippings/Your-Obsidian-Vault-Is-a-Knowledge-Graph.-Here%E2%80%99s-How-to-Make-It-Think-(quickly).-1</guid>
+    <description><![CDATA[ More ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Evaluating the Best AB Testing Metrics for Search</title>
-    <link>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</guid>
-    <description><![CDATA[ Evaluating the Best AB Testing Metrics for Search Algolia introduces a two-dimensional framework for evaluating A/B testing metrics: directionality and sensitivity (from Yandex Research). ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Your Obsidian Vault Is a Knowledge Graph. Here’s How to Make It Think (quickly).</title>
+    <link>https://quartz.jzhao.xyz/Clippings/Your-Obsidian-Vault-Is-a-Knowledge-Graph.-Here%E2%80%99s-How-to-Make-It-Think-(quickly).</link>
+    <guid>https://quartz.jzhao.xyz/Clippings/Your-Obsidian-Vault-Is-a-Knowledge-Graph.-Here%E2%80%99s-How-to-Make-It-Think-(quickly).</guid>
+    <description><![CDATA[ More ]]></description>
+    <pubDate>Sat, 16 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Finding the Relevance Cutoff - When to Stop Showing Search Results</title>
-    <link>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</guid>
-    <description><![CDATA[ Finding the Relevance Cutoff: When to Stop Showing Search Results Doug Turnbull (at Shopify) explores metrics for the progressive-scroll UX — when users review all returned results and you need to know where to cut off the result set. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Elastic</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Companies/Elastic</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Companies/Elastic</guid>
+    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
+    <pubDate>Sat, 16 May 2026 18:24:26 GMT</pubDate>
   </item><item>
-    <title>Fine Tune LLM on a Custom Dataset with QLoRA</title>
-    <link>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</guid>
-    <description><![CDATA[ Fine Tune LLM on a Custom Dataset with QLoRA End-to-end tutorial for fine-tuning a large language model (Phi-2) on a domain-specific dataset using QLoRA (Quantized LoRA). ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>LLM as Judge</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Concepts/LLM-as-Judge</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Concepts/LLM-as-Judge</guid>
+    <description><![CDATA[ LLM as Judge Definition Using a large language model (LLM) to evaluate the relevance of search results — as a cheaper, faster alternative to human annotators for creating Judgment Lists or running automated quality checks. ]]></description>
+    <pubDate>Sat, 16 May 2026 18:24:10 GMT</pubDate>
   </item><item>
-    <title>Fine-Tuning LLMs From Zero to Hero with Python and Ollama</title>
-    <link>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</guid>
-    <description><![CDATA[ Fine-Tuning LLMs: From Zero to Hero with Python &amp; Ollama Practical tutorial: fine-tune a small LLM (Phi-3 Mini) using Unsloth (2× training speedup), export to GGUF format, and serve locally via Ollama. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Personalization</title>
+    <link>https://quartz.jzhao.xyz/Awesome-Search/Concepts/Personalization</link>
+    <guid>https://quartz.jzhao.xyz/Awesome-Search/Concepts/Personalization</guid>
+    <description><![CDATA[ Personalization Definition Personalization adapts search results to individual user preferences, history, and context — returning different results for different users submitting the same query, based on signals like their browsing history, purchase behavior, location, and demographics. ]]></description>
+    <pubDate>Sat, 16 May 2026 18:24:08 GMT</pubDate>
   </item>
     </channel>
   </rss>
