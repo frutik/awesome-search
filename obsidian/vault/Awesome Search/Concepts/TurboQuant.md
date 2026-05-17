@@ -72,3 +72,8 @@ Beyond the paper: [[Qdrant]] adds length renormalization from [[RaBitQ]] (per-ve
 - [[HNSW]] — TurboQuant's MSE variant chosen for HNSW compatibility (symmetric scoring)
 - [[Dense Vector Retrieval]]
 - [[ANN]]
+
+
+## Mathematical Deep Dive
+
+- [[The Mathematics of Google's TurboQuant]] — [[Prateek Chandra Jha]]; first-principles derivation of PolarQuant + QJL; Beta distribution, Lloyd-Max quantizer, Johnson-Lindenstrauss lemma; within 2.7x of information-theoretic limit

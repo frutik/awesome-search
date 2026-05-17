@@ -8,7 +8,7 @@ tags: [agentic-search, retrieval, evaluation, distractor, RAG]
 
 # Mutually Assured Distraction
 
-**Author:** [[Lester Solbakken]] (hornet.dev)
+**Author:** [[Lester Solbakken]] ([[Hornet]])
 
 ## Core Thesis: MAD
 

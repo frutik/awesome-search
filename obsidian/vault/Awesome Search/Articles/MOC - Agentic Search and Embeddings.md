@@ -213,3 +213,11 @@ Embedding Quality
   ├── Multimodal Embeddings (image + text)
   └── Vector Filtering (metadata + ANN)
 ```
+
+### New: Direct Corpus Interaction
+- [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] — TIGER-Lab; DCI (grep/bash) outperforms all traditional retrievers; +30.7% multi-hop QA, +21.5% IR ranking
+- [[Metadata - The 3rd Kind of Retrieval]] — [[Doug Turnbull]]; attribute-based retrieval as a 3rd paradigm; LLMs make attribute extraction easy
+
+### New: ColBERT Training
+- [[ColBERT-Zero - To Pre-train Or Not To Pre-train ColBERT Models]] — [[Antoine Chaffin]] et al. ([[LightOn AI]]); multi-vector pre-training beats KD-only; SOTA BEIR <150M (55.43 nDCG@10)
+- [[ColBERT Comes to Apache Solr]] — [[Nicolò Rinaldi]] ([[Sease]]); ColBERT reranking implementation for Apache Solr

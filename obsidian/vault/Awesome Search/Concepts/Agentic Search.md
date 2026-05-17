@@ -69,3 +69,6 @@ Adapted from classic project management:
 
 - [[Daniel Tunkelang]]
 - [[Asif Makhani]]
+
+- [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] — TIGER-Lab; DCI (grep/bash) outperforms all traditional retrievers on agentic tasks
+- [[Metadata - The 3rd Kind of Retrieval]] — [[Doug Turnbull]]; attribute-based retrieval as alternative to embeddings in agentic context

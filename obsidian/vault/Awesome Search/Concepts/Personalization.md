@@ -92,3 +92,28 @@ The key insight: user preferences are encoded in their past interactions, not in
 ## People
 
 - [[Daniel Tunkelang]] — personalization in search; QueryUnderstanding.com series
+
+
+## Elastic Governed Personalization (Ecommerce)
+
+Two mechanisms extending a governance control plane without replacing it:
+1. **Purchase history boosting** — query `user_purchases` index in parallel with governance; logarithmic frequency + exponential decay recency weights; governance still controls what appears
+2. **Cohort-aware policy activation** — cohort policies stored in same policy engine; `terms` filter `{"cohorts": ["_all", "vegan"]}` narrows candidate policy set
+
+### Ordering (innermost → outermost)
+1. Base query (keyword/semantic)
+2. Governance policy layer (hard filters + soft boosts)
+3. Business-signal boosts (margin, popularity)
+4. Purchase history boosts (outermost)
+
+## Articles
+
+- [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — [[Alexander Marquardt]], [[Honza Král]], [[Taylor Roy]]
+- [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]] (Dropbox Dash enterprise search)
+
+## People (additional)
+
+- [[Alexander Marquardt]] — Elastic governed personalization
+- [[Honza Král]] — Elastic governed personalization
+- [[Taylor Roy]] — Elastic governed personalization
+- [[Dmitriy Meyerzon]] — Dropbox Dash relevance labeling

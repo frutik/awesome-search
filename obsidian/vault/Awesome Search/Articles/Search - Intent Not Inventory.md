@@ -15,6 +15,9 @@ created: 2026-05-15
 ---
 
 # Search: Intent, Not Inventory
+> [!note] Redirect
+> Canonical note: [[Search Intent Not Inventory]]
+
 
 **Source**: https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21  
 **Author**: [[Daniel Tunkelang]]

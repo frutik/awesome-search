@@ -52,3 +52,20 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 ## Concepts
 
 [[ELSER]] · [[BBQ]] · [[BM25]] · [[Results Boosting]] · [[Hybrid Search]]
+
+### Governed Ecommerce Search Series (2026)
+
+A 7-part series on building governed search control planes for ecommerce:
+- [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]] — intent classification + routing
+- [[Ecommerce Search Governance - Move Faster Not Slower]] — zero-deploy operating model
+- [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — purchase history + cohort personalization
+
+## Additional People
+
+- [[Alexander Marquardt]] — Elastic Services Engineering
+- [[Honza Král]] — Elastic
+- [[Taylor Roy]] — Elastic
+
+## Additional Concepts
+
+[[Search Governance]] · [[Personalization]]

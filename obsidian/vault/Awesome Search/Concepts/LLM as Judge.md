@@ -104,3 +104,12 @@ Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with hu
 
 - [[Jo Kristian Bergum]] — Vespa "Improving retrieval with LLM-as-a-judge"
 - [[Daniel Tunkelang]] — traditional human judgment advocate; acknowledges LLM judges
+
+
+## Articles
+
+- [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]]; LLM calibrated on human labels → 100x scale-up; DSPy for prompt optimization; context-aware evaluation with tool use
+
+## People
+
+- [[Dmitriy Meyerzon]]

@@ -39,3 +39,5 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 
 ## Affiliations
 - OpenSource Connections (OSC) — same org as [[Max Irwin]]
+- [[Can BM25 be a Probability]] — BB25 framework; calibrating BM25 as probability for principled hybrid fusion
+- [[Metadata - The 3rd Kind of Retrieval]] — attribute-based retrieval as a third paradigm beyond lexical + embeddings

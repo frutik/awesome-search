@@ -85,3 +85,6 @@ Asymmetric binarization by [[Jo Kristian Bergum]]:
 - [[Matei Zaharia]] (co-creator)
 - [[Jo Kristian Bergum]] (Vespa implementation)
 - [[Han Xiao]] (Jina AI extension)
+
+- [[ColBERT-Zero - To Pre-train Or Not To Pre-train ColBERT Models]] — [[Antoine Chaffin]] et al.; multi-vector pre-training beats KD-only; SOTA on BEIR <150M
+- [[ColBERT Comes to Apache Solr]] — [[Nicolò Rinaldi]]; ColBERT reranking implementation in Apache Solr

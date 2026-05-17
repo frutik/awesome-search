@@ -2,17 +2,17 @@
 title: "Lester Solbakken"
 aliases: []
 role: "Co-founder"
-affiliation: "Hornet (hornet.dev)"
+affiliation: "[[Hornet]] (hornet.dev)"
 tags:
   - person
   - search
 ---
-
+q
 # Lester Solbakken
 
 ## Background
 
-Lester Solbakken is co-founder of Hornet, a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. Formerly studied computational neuroscience. Author of influential writing on the failure modes of agentic retrieval.
+Lester Solbakken is co-founder of [[Hornet]], a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. Formerly studied computational neuroscience. Author of influential writing on the failure modes of agentic retrieval.
 
 ## Articles in This Vault
 

@@ -97,3 +97,14 @@ Map of content covering real-world search implementations. Each **Use Case** not
 - [[MOC - Ranking and Retrieval]]
 - [[MOC - Agentic Search and Embeddings]]
 - [[MOC - Architecture and Search Team]]
+
+## Enterprise Search
+
+### Dropbox — [[Dropbox]]
+- [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — Dropbox Dash enterprise search; LLM-as-judge calibrated on human labels; 100x label amplification; DSPy prompt optimization
+
+## Ecommerce Governance (Elastic)
+
+- [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]] — [[Elastic]]; intent routing + governance control plane for ecommerce
+- [[Ecommerce Search Governance - Move Faster Not Slower]] — [[Elastic]]; zero-deploy operating model; policies as data
+- [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — [[Elastic]]; purchase history + cohort personalization

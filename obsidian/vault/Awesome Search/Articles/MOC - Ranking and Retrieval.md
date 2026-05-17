@@ -81,3 +81,14 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - [[E-commerce Search and Recommendation with Vespa]] — Vespa features for e-commerce search and recs
 - [[Using Approximate Nearest Neighbor Search to Find Similar Products]] — ANN with metadata filters, HNSW, real-time updates
 - [[Putting Search Ranking in Perspective]] — Tunkelang on ranking priority stack
+
+## New: Search Governance (Ecommerce)
+
+- [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]] — [[Alexander Marquardt]] et al.; governance layer between query and retrieval; intent routing; Part 1 of series
+- [[Ecommerce Search Governance - Move Faster Not Slower]] — [[Alexander Marquardt]] et al.; zero-deploy operating model; policies as data; Part 2 of series
+- [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — [[Alexander Marquardt]] et al.; purchase history + cohort personalization within governance; Part 6 of series
+- [[Metadata - The 3rd Kind of Retrieval]] — [[Doug Turnbull]]; attribute-based ranking as complement to lexical + semantic
+
+## New: BM25 as Probability
+
+- [[Can BM25 be a Probability]] — [[Doug Turnbull]]; BB25 calibration framework for principled hybrid fusion; gradient descent on alpha/beta
