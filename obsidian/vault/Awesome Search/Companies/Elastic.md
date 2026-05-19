@@ -69,3 +69,6 @@ A 7-part series on building governed search control planes for ecommerce:
 ## Additional Concepts
 
 [[Search Governance]] · [[Personalization]]
+
+## Tools
+- [[Elasticsearch]]

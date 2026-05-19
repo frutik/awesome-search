@@ -24,7 +24,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Core Concepts by Domain
 
 ### Retrieval
-[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Semantic Search]] · [[SIRA]]
+[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
 
 ### Embeddings
 [[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]]
@@ -49,12 +49,12 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Tools
 
-[[Quepid]] · [[Querqy]]
+[[Quepid]] · [[Querqy]] · [[Elasticsearch]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]]
 
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]]
 
 **End Users**
 [[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]]
@@ -69,11 +69,11 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Stats
 
-- **~122+** article notes
-- **~70** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT)
+- **~123+** article notes
+- **~72** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
 - **15** topic notes (incl. Understaffed Search Team)
-- **~37** people notes
+- **~38** people notes
 - **8** case study notes
-- **25** company nodes
-- **2** tool notes (Quepid, Querqy)
+- **28** company nodes
+- **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)
 - **6** Maps of Content

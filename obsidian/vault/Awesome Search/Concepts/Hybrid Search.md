@@ -107,3 +107,10 @@ GET /products/_search
 - [[Bayesian BM25 is Cool]]
 
 - [[Bayesian BM25]]
+
+## Semantic Boosting
+
+[[Semantic Boosting]] is a two-phase alternative to RRF/RSF fusion: run vector search first, inject the results as boost clauses into a final lexical query. The output comes entirely from the lexical engine, so faceting, highlighting, and pagination work natively without extra merging.
+
+- See: [[Hybrid Search Blueprint Series Semantic Boosting]] — [[Erik Hatcher]] ([[MongoDB]])
+- See: [[Relative Score Fusion]] — score-normalization-based fusion, contrasted with RRF

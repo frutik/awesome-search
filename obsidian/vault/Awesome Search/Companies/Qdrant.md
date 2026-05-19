@@ -26,3 +26,6 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 
 ## Articles
 - [[TurboQuant in Qdrant]]
+
+## Tools
+- [[Qdrant Vector DB]]

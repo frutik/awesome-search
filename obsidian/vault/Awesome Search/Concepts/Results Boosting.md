@@ -104,3 +104,5 @@ Boost factors must be calibrated so one signal doesn't overwhelm relevance:
 ## Related Articles
 
 - [[Ecommerce search optimization with margin & popularity boosting]]
+
+- [[Semantic Boosting]] — special case where the boost signal comes from a real-time vector search rather than pre-computed behavioral data

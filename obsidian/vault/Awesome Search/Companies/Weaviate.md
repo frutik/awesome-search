@@ -27,3 +27,6 @@ Weaviate supports cross-encoder reranking as a native feature in its search pipe
 ## Key Articles
 
 - [[Using Cross-Encoders as Reranker in Multistage Vector Search]]
+
+## Tools
+- [[Weaviate Vector DB]]
