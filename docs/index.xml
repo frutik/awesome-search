@@ -6,65 +6,65 @@
       <description>Last 10 notes on Quartz 4</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Adopting Vespa for Recommendation Retrieval at Vinted</title>
-    <link>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</guid>
-    <description><![CDATA[ Adopting Vespa for Recommendation Retrieval at Vinted Vinted (Europe’s largest second-hand fashion marketplace) migrated from FAISS to Vespa for serving personalized homepage recommendations. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Doug Turnbull</title>
+    <link>https://quartz.jzhao.xyz/People/Doug-Turnbull</link>
+    <guid>https://quartz.jzhao.xyz/People/Doug-Turnbull</guid>
+    <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
+    <pubDate>Tue, 19 May 2026 18:56:49 GMT</pubDate>
   </item><item>
-    <title>Building Smarter Search Products - 3 Steps for Evaluating Search Algorithms</title>
-    <link>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</guid>
-    <description><![CDATA[ Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms Shopify describes their three-step framework for evaluating new search algorithms (specifically: Query-specific Pagerank vs. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Results Boosting</title>
+    <link>https://quartz.jzhao.xyz/Concepts/Results-Boosting</link>
+    <guid>https://quartz.jzhao.xyz/Concepts/Results-Boosting</guid>
+    <description><![CDATA[ Results Boosting Definition Results boosting is a technique for adjusting the relevance scores of search results at query time to promote or demote specific items based on business signals, behavioral data, or business rules — without changing the underlying relevance model. ]]></description>
+    <pubDate>Tue, 19 May 2026 18:14:21 GMT</pubDate>
   </item><item>
-    <title>Common Pitfalls of Onsite Search Experimentation Part 2</title>
-    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</guid>
-    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Part 2 Siegfried Schüle (searchHub) exposes the basket attribution trap in search A/B testing. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Hybrid Search</title>
+    <link>https://quartz.jzhao.xyz/Concepts/Hybrid-Search</link>
+    <guid>https://quartz.jzhao.xyz/Concepts/Hybrid-Search</guid>
+    <description><![CDATA[ Hybrid Search Definition Hybrid search combines two or more retrieval signals — most commonly sparse (lexical/term-based) and dense (semantic/embedding-based) — to produce results that outperform either approach alone. ]]></description>
+    <pubDate>Tue, 19 May 2026 18:14:17 GMT</pubDate>
   </item><item>
-    <title>Common Pitfalls of Onsite Search Experimentation</title>
-    <link>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</guid>
-    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Andreas Wagner (searchHub) identifies two major A/B testing traps in onsite search. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Elastic</title>
+    <link>https://quartz.jzhao.xyz/Companies/Elastic</link>
+    <guid>https://quartz.jzhao.xyz/Companies/Elastic</guid>
+    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
+    <pubDate>Tue, 19 May 2026 18:09:59 GMT</pubDate>
   </item><item>
-    <title>E-commerce Search and Recommendation with Vespa</title>
-    <link>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</link>
-    <guid>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</guid>
-    <description><![CDATA[ E-commerce Search and Recommendation with Vespa Jo Kristian Bergum (Vespa) surveys how Vespa addresses core e-commerce search challenges. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Weaviate</title>
+    <link>https://quartz.jzhao.xyz/Companies/Weaviate</link>
+    <guid>https://quartz.jzhao.xyz/Companies/Weaviate</guid>
+    <description><![CDATA[ Weaviate Open-source vector database company providing semantic and hybrid search infrastructure. Competes with Pinecone, Qdrant, Milvus. ]]></description>
+    <pubDate>Tue, 19 May 2026 18:08:07 GMT</pubDate>
   </item><item>
-    <title>Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant</title>
-    <link>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</guid>
-    <description><![CDATA[ Elasticsearch BBQ: Optimized Scalar Quantization vs. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Hybrid Search Blueprint Series: Semantic Boosting</title>
+    <link>https://quartz.jzhao.xyz/Articles/Hybrid-Search-Blueprint-Series-Semantic-Boosting</link>
+    <guid>https://quartz.jzhao.xyz/Articles/Hybrid-Search-Blueprint-Series-Semantic-Boosting</guid>
+    <description><![CDATA[ Hybrid Search Blueprint Series: Semantic Boosting Erik Hatcher (MongoDB) presents Semantic Boosting — a two-shot hybrid retrieval technique that runs a vector search first, then injects the results as boost clauses into a final lexical search — preserving full-text features like faceting, highlighti... ]]></description>
+    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Evaluating the Best AB Testing Metrics for Search</title>
-    <link>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</guid>
-    <description><![CDATA[ Evaluating the Best AB Testing Metrics for Search Algolia introduces a two-dimensional framework for evaluating A/B testing metrics: directionality and sensitivity (from Yandex Research). ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>MongoDB</title>
+    <link>https://quartz.jzhao.xyz/Companies/MongoDB</link>
+    <guid>https://quartz.jzhao.xyz/Companies/MongoDB</guid>
+    <description><![CDATA[ MongoDB Database platform company. ]]></description>
+    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Finding the Relevance Cutoff - When to Stop Showing Search Results</title>
-    <link>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</guid>
-    <description><![CDATA[ Finding the Relevance Cutoff: When to Stop Showing Search Results Doug Turnbull (at Shopify) explores metrics for the progressive-scroll UX — when users review all returned results and you need to know where to cut off the result set. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Voyage AI</title>
+    <link>https://quartz.jzhao.xyz/Companies/Voyage-AI</link>
+    <guid>https://quartz.jzhao.xyz/Companies/Voyage-AI</guid>
+    <description><![CDATA[ Voyage AI Embedding model provider. Offers high-dimensional text embedding APIs used in semantic and vector search pipelines. ]]></description>
+    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Fine Tune LLM on a Custom Dataset with QLoRA</title>
-    <link>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</guid>
-    <description><![CDATA[ Fine Tune LLM on a Custom Dataset with QLoRA End-to-end tutorial for fine-tuning a large language model (Phi-2) on a domain-specific dataset using QLoRA (Quantized LoRA). ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Relative Score Fusion</title>
+    <link>https://quartz.jzhao.xyz/Concepts/Relative-Score-Fusion</link>
+    <guid>https://quartz.jzhao.xyz/Concepts/Relative-Score-Fusion</guid>
+    <description><![CDATA[ Relative Score Fusion A hybrid search fusion strategy that normalizes scores from multiple retrieval systems to a common scale and combines them linearly, preserving score magnitude information that Reciprocal Rank Fusion (RRF) discards. ]]></description>
+    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Fine-Tuning LLMs From Zero to Hero with Python and Ollama</title>
-    <link>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</guid>
-    <description><![CDATA[ Fine-Tuning LLMs: From Zero to Hero with Python &amp; Ollama Practical tutorial: fine-tune a small LLM (Phi-3 Mini) using Unsloth (2× training speedup), export to GGUF format, and serve locally via Ollama. ]]></description>
-    <pubDate>Sat, 16 May 2026 13:41:13 GMT</pubDate>
+    <title>Semantic Boosting</title>
+    <link>https://quartz.jzhao.xyz/Concepts/Semantic-Boosting</link>
+    <guid>https://quartz.jzhao.xyz/Concepts/Semantic-Boosting</guid>
+    <description><![CDATA[ Semantic Boosting A two-shot hybrid retrieval technique that executes a vector search first, then injects the resulting document IDs and similarity scores as explicit boost clauses into a final full-text lexical query. ]]></description>
+    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

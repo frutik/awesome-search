@@ -15,7 +15,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:35.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Affordances-for-Conversational-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -47,6 +47,9 @@
     <loc>https://quartz.jzhao.xyz/Articles/Beyond-Hybrid-Search---Traversing-Vector-Spaces-with-Wormhole-Vectors</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Beyond-Semantic-Similarity---Rethinking-Retrieval-for-Agentic-Search-via-Direct-Corpus-Interaction</loc>
+    <lastmod>2026-05-16T18:21:45.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Bi-encoder-vs-Cross-encoderWhen-to-use-which-one</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -60,10 +63,13 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Building-a-Better-Search-Engine-for-Semantic-Scholar</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Can-BM25-be-a-Probability</loc>
+    <lastmod>2026-05-16T18:20:08.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Canva-Search-Pipeline-Part-I</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -83,11 +89,17 @@
     <loc>https://quartz.jzhao.xyz/Articles/Click-Residual---A-Query-Success-Metric</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/ColBERT-Comes-to-Apache-Solr</loc>
+    <lastmod>2026-05-16T18:20:14.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/ColBERT-Zero---To-Pre-train-Or-Not-To-Pre-train-ColBERT-Models</loc>
+    <lastmod>2026-05-16T18:19:50.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Compute-MRR-using-Pandas</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -114,7 +126,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/E-commerce-Search-and-Recommendation-with-Vespa</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:44.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Ecommerce-Search-Governance---Move-Faster-Not-Slower</loc>
+    <lastmod>2026-05-16T18:20:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Elastic-Learned-Sparse-Encoder-(ELSER)-Retrieval-Performance</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -123,7 +138,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Elasticsearch-BBQ-Optimized-Scalar-Quantization-vs-TurboQuant</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:41:12.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Elasticsearch-Personalized-Search-in-Ecommerce---Improve-Relevance</loc>
+    <lastmod>2026-05-16T18:21:29.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Evaluating-Good-Search---Measure-It</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -132,7 +150,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Evaluating-the-Best-AB-Testing-Metrics-for-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:30.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Evaluating-the-Ideal-Chunk-Size-for-a-RAG-System-using-LlamaIndex-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -150,16 +168,16 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Fine-Tune-LLM-on-a-Custom-Dataset-with-QLoRA</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:30:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Fine-Tuning-LLMs-From-Zero-to-Hero-with-Python-and-Ollama</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:03:05.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Fine-Tuning-Qwen3-Embeddings-for-Product-Category-Classification</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:31:05.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Fine-Tuning-Text-Embeddings-For-Domain-Specific-Search-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -186,7 +204,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/GGUF-Quantization---A-Technical-Deep-Dive</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:41:15.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Getting-Started-on-Search-Relevance-for-the-Understaffed-Search-Team</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/How-Context-Aware-Embeddings-Are-Transforming-Enterprise-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -210,13 +231,16 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/How-to-Really-Scale-Autocomplete</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:29:30.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/How-to-Write-a-Spelling-Corrector</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/How-we-Compute-NDCG-in-Daraz-E-Commerce</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Hybrid-Search-Blueprint-Series-Semantic-Boosting</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Hybrid-Search-SPLADE-Sparse-Encoder</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -246,7 +270,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Incremental-AI-Adoption-for-E-commerce-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:30:10.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Innovating-Search-Experience-with-Amazon-OpenSearch-and-Amazon-Bedrock-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -261,10 +285,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/LLM-Powered-Query-Extraction-for-Autocomplete</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:29:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/LLM-as-a-Judge-When-to-Use-Reasoning-CoT-and-Explanations</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:31:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Learning-to-Rank-for-Flight-Itinerary-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -338,6 +362,9 @@
     <loc>https://quartz.jzhao.xyz/Articles/Measuring-Searcher-Behavior</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Metadata---The-3rd-Kind-of-Retrieval</loc>
+    <lastmod>2026-05-16T18:21:08.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Migrating-to-Elasticsearch-with-Dense-Vector-for-Carousell-Spotlight</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -345,7 +372,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Mirror-Mirror---All-About-Search-Suggestions</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:05.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Modeling-Spelling-Correction-for-Search-at-Etsy</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -354,13 +381,13 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Multilingual-Embedding-Model-Hybrid-Search-Reranking</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:30:21.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Mutually-Assured-Distraction</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T16:56:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/My-Journey-Building-Elasticsearch-for-Retail</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:26.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Nearest-Neighbor-Indexes-for-Similarity-Search-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -375,10 +402,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Optimizing-Search-at-Uber-Eats</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:42.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Part-1---Learning-to-Rank-for-E-Commerce-Search-at-Otto</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:30.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Patterns-for-Personalization</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -387,7 +414,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Putting-Search-Ranking-in-Perspective</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:30.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Query-Triage---The-Secret-Weapon-for-Search-Relevance</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -492,7 +519,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Qwen3-Embedding-Series</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:31:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/RRF-is-Not-Enough</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -501,7 +528,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Rethinking-Spotify-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/SPLADE---Sparse-Bi-Encoder-BERT-Model-for-First-Stage-Ranking</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -540,7 +567,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Semantic-Search-Without-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T06:48:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Session-vs-Query-based-Search-Evals</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -552,7 +579,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Sparse-Embeddings---Dense-vs-Sparse-Vectors-in-Elasticsearch</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:23.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Statistical-and-Human-Centered-Approaches-to-Search-Improvement</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -561,7 +588,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Superintelligent-Retrieval-Agent-SIRA</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:28:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Symmetric-vs-Asymmetric-Semantic-Search-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -573,13 +600,16 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/The-Day-Our-Own-Queries-DoSed-Us---Zalando-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:32:22.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/The-Influence-of-TF-IDF-Algorithms-in-E-commerce-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:29.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/The-Launch-Review</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/The-Mathematics-of-Google's-TurboQuant</loc>
+    <lastmod>2026-05-16T18:22:17.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/The-Missing-WHERE-Clause-in-Vector-Search-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -618,10 +648,13 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Using-Approximate-Nearest-Neighbor-Search-to-Find-Similar-Products</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:39:43.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Using-Cross-Encoders-as-Reranker-in-Multistage-Vector-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:00:28.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Using-LLMs-to-Amplify-Human-Labeling-and-Improve-Dash-Search-Relevance</loc>
+    <lastmod>2026-05-16T18:22:38.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/What-Is-a-Judgment-List</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -639,46 +672,52 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Why-Are-Embeddings-So-Cheap</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:31:17.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Why-Ecommerce-Search-Needs-Governance-and-How-It-Improves-Retrieval</loc>
+    <lastmod>2026-05-16T18:20:31.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/Wormhole-Vectors-Beyond-Hybrid-Search-in-OpenSearch</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:28:48.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/You-Say-Search-I-Say-Recs---Spotify-Agentic-Query-Understanding</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:29:55.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Articles/Your-Obsidian-Vault-Is-a-Knowledge-Graph</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Articles/frutikawesome-search-Awesome-Search---this-is-all-about-the-(e-commerce,-but-not-only)-search-and-its-awesomeness</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Airbnb---ML-Powered-Experiences-Ranking</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:04:10.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Canva---Search-Pipeline-Modernization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:13:14.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Etsy---Search-Quality-and-Query-Understanding</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:12:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Netflix---Content-Search-Architecture</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:12:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Skyscanner---Learning-to-Rank-for-Flights</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:12:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Slack---Enterprise-Message-Search-with-LTR</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:04:38.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Uber-Eats---Scaling-Search-for-Food-Delivery</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:03:55.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:04:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Airbnb</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:05:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Algolia</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:03:35.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Canva</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -689,11 +728,14 @@
     <loc>https://quartz.jzhao.xyz/Companies/Cohere</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/Dropbox</loc>
+    <lastmod>2026-05-16T18:23:20.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Elastic</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-19T18:09:59.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Empathy</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Etsy</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -701,8 +743,17 @@
     <loc>https://quartz.jzhao.xyz/Companies/Grubhub</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/Hornet</loc>
+    <lastmod>2026-05-16T16:56:44.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/LightOn-AI</loc>
+    <lastmod>2026-05-16T18:23:13.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Meta</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:17:31.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/MongoDB</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Netflix</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -711,94 +762,103 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Otto</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:03:42.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Qdrant</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/Sease</loc>
+    <lastmod>2026-05-16T18:23:16.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Shopify</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Skyscanner</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Slack</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:05:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Spotify</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/The-Search-Juggler</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Twitter</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Uber</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:04:51.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Vespa</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:16:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Vinted</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:03:14.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Companies/Voyage-AI</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Weaviate</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-19T18:08:07.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/Zalando</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:05:08.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Companies/searchHub</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/A-B-Testing-for-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:27:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/APD</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Agentic-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T18:24:01.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Asymmetric-Semantic-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:09:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Autocomplete</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:37:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/BBQ</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:24:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/BERT</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/BM25</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T18:23:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Bag-of-Documents-Model</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:28.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Bayesian-BM25</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Bi-Encoder</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Binary-Quantization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:23:34.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Clean-Context</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:49:17.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Click-Models</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Click-Signals</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:35:22.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Clicks-Residual</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/ColBERT</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T18:24:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Collocations</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -810,55 +870,58 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Cross-Encoder</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:03:48.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Dense-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:24:02.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Dense-Vector-Retrieval</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:23:55.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Dimensionality-Reduction</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Direct-Corpus-Interaction</loc>
+    <lastmod>2026-05-16T18:23:51.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Diversity-Metrics</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T19:09:02.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/ELSER</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:08.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Economics-of-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:23:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Embedding-Fine-tuning</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:30:47.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Faceted-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:20:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/GGUF</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:40:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/HNSW</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:22:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Hit-Rate-at-K</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T19:10:02.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Hybrid-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-19T18:14:17.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Hypothetical-Document-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:31.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/IVF</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:22:50.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Judgment-Lists</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:20:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Keywords-Extraction</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -870,79 +933,79 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/LLM-as-Judge</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T18:24:10.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Late-Interaction</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:04:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Learning-to-Rank</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:44:51.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Linear-Score-Combination</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/LoRA</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:30:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/MAP</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:49:31.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/MMR</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/MRR</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:33:59.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Matryoshka-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Modality-Gap</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Multimodal-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/NDCG</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:51:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/PEFT</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:30:39.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Personalization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T18:24:08.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Position-Bias</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-17T13:15:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Precision-and-Recall</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:35:54.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/QLoRA</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:30:25.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Expansion</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Relaxation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:43:59.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Sampling</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Segmentation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:36:51.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Specificity</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Types</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:43:59.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Query-Understanding</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:42:37.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/RAG</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/RaBitQ</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -950,53 +1013,65 @@
     <loc>https://quartz.jzhao.xyz/Concepts/Reciprocal-Rank-Fusion</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Relative-Score-Fusion</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Reranking</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Results-Boosting</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-19T18:14:21.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Results-Merchandising</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:50:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Retrieval-Pipeline</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:10:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/SIRA</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:49:48.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/SPLADE</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Scalar-Quantization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:23:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Search-Architecture</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Search-Evaluation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:20:14.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Search-Governance</loc>
+    <lastmod>2026-05-16T18:23:37.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Search-Intent</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:36:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Search-Team</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:27:40.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Semantic-Boosting</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Semantic-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T06:50:22.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Session-Based-Evaluation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T17:35:05.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Concepts/Signal-Downboosting</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Sparse-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:47:49.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Sparse-Vector-Retrieval</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:48:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Spelling-Correction</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:40:07.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Stopwords</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1005,52 +1080,64 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Task-Aware-Embeddings</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:14.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Text-Chunking</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/TurboQuant</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/UDCG</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T07:49:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Vector-Filtering</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:09:55.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Vector-Quantization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T13:24:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Vector-Similarity-Metrics</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T19:11:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Wormhole-Vectors</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:54:29.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Concepts/Zero-Results</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:44:01.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Home</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Alexander-Marquardt</loc>
+    <lastmod>2026-05-16T18:22:57.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Am%C3%A9lie-Chatelain</loc>
+    <lastmod>2026-05-16T18:22:49.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/People/Andrea-Sch%C3%BCtt</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Andreas-Wagner</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:46:28.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Antoine-Chaffin</loc>
+    <lastmod>2026-05-16T18:22:46.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Aparna-Dhinakaran</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:32:57.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Asif-Makhani</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:02:56.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Charlie-Hull</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Dai-Sugimori</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Daniel-Doro</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:27.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Daniel-Tunkelang</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1059,28 +1146,40 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/David-Arg%C3%BCello-S%C3%A1nchez</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:20.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Dima-Kan</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:35:20.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Dmitriy-Meyerzon</loc>
+    <lastmod>2026-05-16T18:23:03.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Doug-Turnbull</loc>
-    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+    <lastmod>2026-05-19T18:56:49.209Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Erik-Hatcher</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Eugene-Yan</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Florent-Krzakala</loc>
+    <lastmod>2026-05-16T18:22:52.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Giovanni-Fernandez-Kincade</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Han-Xiao</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:02:51.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Hassam-Chundrigar</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Honza-Kr%C3%A1l</loc>
+    <lastmod>2026-05-16T18:22:59.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/People/Hugo-Galv%C3%A3o</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Isabella-Tromba</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1089,10 +1188,10 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Jaideep-Ray</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:41:15.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/James-Briggs</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/James-Rubinstein</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1101,10 +1200,10 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Jo-Kristian-Bergum</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:41:12.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Jodi-Sloan</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:13.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Jonas-Schulz</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1113,16 +1212,19 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Laura-Ham</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Lester-Solbakken</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-17T10:52:32.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Luca-Arnaboldi</loc>
+    <lastmod>2026-05-16T18:22:48.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Maryna-Kryvko</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T18:32:56.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Matei-Zaharia</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:41:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Max-Irwin</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1131,7 +1233,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Michael-Ryaboy</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:41:16.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Mihajlo-Grbovic</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1139,47 +1241,71 @@
     <loc>https://quartz.jzhao.xyz/People/Neal-Lathia</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Nicol%C3%B2-Rinaldi</loc>
+    <lastmod>2026-05-16T18:22:54.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/People/Omar-Khattab</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:02:22.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Piotr-Mazurek</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Prateek-Chandra-Jha</loc>
+    <lastmod>2026-05-16T18:23:05.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Quynh-Nguyen</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Rudolf-Batt</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:04.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Sergey-Feldman</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Shaw-Talebi</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:11.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Siegfried-Sch%C3%BCle</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:04:09.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Stuart-Cam</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/St%C3%A9phane-Clinchant</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/People/Taylor-Roy</loc>
+    <lastmod>2026-05-16T18:23:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Ted-Underwood</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Thibault-Formal</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T08:39:24.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Thomas-Veasey</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Trey-Grainger</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-15T14:02:32.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/People/Wolf-Garbe</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Tools/Elasticsearch</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Tools/Qdrant-Vector-DB</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Tools/Quepid</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Tools/Querqy</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Tools/Weaviate-Vector-DB</loc>
+    <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/A-B-Testing-for-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1187,14 +1313,23 @@
     <loc>https://quartz.jzhao.xyz/Topics/Autocomplete-and-Autosuggest</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://quartz.jzhao.xyz/Topics/Books</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Conversational-and-Agentic-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T11:56:48.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/E-commerce-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Economics-of-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Topics/Events-and-Conferences</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Topics/Fun-and-Philosophy</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Hiring-for-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1203,16 +1338,19 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Multilingual-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T11:55:08.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Personalization-in-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T11:56:14.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Query-Understanding-in-Practice</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Relevance-Program-Setup</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T11:55:41.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Topics/Search-Consultancy</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Search-Quality-Assurance</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1221,10 +1359,13 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Spelling-Correction-in-Search</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-16T12:07:58.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/Topics/Synonyms-and-Vocabulary-Management</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://quartz.jzhao.xyz/Topics/Understaffed-Search-Team</loc>
+    <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://quartz.jzhao.xyz/</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
