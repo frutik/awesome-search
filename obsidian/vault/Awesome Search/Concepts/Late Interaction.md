@@ -45,10 +45,19 @@ Since late interaction stores many vectors per document, storage is a concern:
 - [[ColBERT]] uses 128-dim token vectors
 - Vespa's implementation uses int8 compression (32x reduction)
 - Residual compression in ColBERTv2 reduces storage 6-10x
+- [[Token Pooling]] — clusters similar token vectors and replaces each cluster with its mean; pool factor 3 retains 97.8% performance while cutting vectors by 66.7%
+- Bit vectors — sign quantization (>0 → 1); 32× storage reduction; pairs with hamming distance (`maxSimInvHamming`)
+- Average vectors — single normalized mean vector per document; HNSW-indexable but loses per-token granularity
+
+## Multimodal Extension: ColPali
+
+[[ColPali]] applies late interaction to document page **images** (PDFs, slides) using a PaliGemma backbone. Generates ~1000 patch-level vectors per page instead of token-level vectors. Same MaxSim scoring, much higher storage pressure. Used primarily as a reranker over HNSW-retrieved candidates.
 
 ## Related Concepts
 
-- [[ColBERT]] — primary implementation of late interaction
+- [[ColBERT]] — primary text-domain implementation of late interaction
+- [[ColPali]] — visual-domain late interaction (document page images)
+- [[Token Pooling]] — compression for multi-vector late interaction embeddings
 - [[Bi-Encoder]] — no interaction model (the baseline)
 - [[Cross-Encoder]] — early interaction (joint encoding)
 - [[Dense Vector Retrieval]] — late interaction uses multi-vector dense representations
@@ -57,3 +66,4 @@ Since late interaction stores many vectors per document, storage is a concern:
 
 - [[What is ColBERT and Late Interaction and Why They Matter in Search]]
 - [[Announcing the Vespa ColBERT Embedder]]
+- [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]

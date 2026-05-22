@@ -91,6 +91,7 @@ Elasticsearch's kNN search applies the filter during candidate selection.
 - [[Hybrid Search]] — combines metadata filters with both sparse and dense
 - [[RAG]] — often needs filtered retrieval (e.g., retrieve only from specific docs)
 - [[Sparse Vector Retrieval]] — sparse indexes handle filters more naturally
+- [[ACORN-1]] — HNSW extension that uses multi-hop neighborhoods to maintain recall under aggressive filtering
 
 ## People
 

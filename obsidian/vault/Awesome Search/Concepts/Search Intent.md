@@ -95,6 +95,8 @@ In [[Agentic Search]], the agent must infer intent to choose the right retrieval
 - [[Agentic Search]] — intent-aware retrieval planning
 - [[Bag-of-Documents Model]] — probabilistic intent framing
 
+- [[Intent Drift]] — how the right answer for a query shifts over time
+
 ## People
 
 - [[Daniel Tunkelang]] — "Mapping Search Queries To Search Intents", "Search: Intent, Not Inventory"

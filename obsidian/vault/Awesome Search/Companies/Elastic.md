@@ -48,6 +48,7 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]]
 - [[Multilingual Embedding Model Hybrid Search Reranking]]
 - [[Ecommerce search optimization with margin & popularity boosting]]
+- [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
 
 ## Concepts
 
@@ -65,6 +66,8 @@ A 7-part series on building governed search control planes for ecommerce:
 - [[Alexander Marquardt]] — Elastic Services Engineering
 - [[Honza Král]] — Elastic
 - [[Taylor Roy]] — Elastic
+- [[Peter Straßer]] — Elastic; late interaction / ColPali scaling
+- [[Benjamin Trent]] — Elastic; late interaction / ColPali scaling
 
 ## Additional Concepts
 

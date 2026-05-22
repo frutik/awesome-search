@@ -64,6 +64,12 @@ Each node in layer 0 holds up to `M` bidirectional links to its nearest neighbor
 
 Standard HNSW ignores metadata — filters are applied post-search (post-filter: fast but low recall when filters are selective) or pre-filter (accurate but slow). Purpose-built solutions like Qdrant's [[Vector Filtering]] integrate predicates into graph traversal.
 
+Four strategies ranked by filter selectivity:
+1. **Post-filter** — ANN search runs normally, filter applied to hits; can return 0 results
+2. **Pre-filter** — only filter-passing nodes counted in search; degrades as selectivity increases
+3. **Pre-filter, check first** — skip distance computations for non-matching nodes; [[ACORN-1]] extends this with multi-hop neighborhoods to avoid getting stuck
+4. **Exact search fallback** — triggered when filtering fraction drops below a threshold
+
 ## Related Concepts
 - [[Dense Vector Retrieval]] — HNSW is the dominant index used here
 - [[IVF]] — alternative cluster-based ANN index
@@ -72,4 +78,9 @@ Standard HNSW ignores metadata — filters are applied post-search (post-filter:
 - [[Binary Quantization]] — extreme compression combined with HNSW; recall recovered via rescoring
 - [[TurboQuant]] — rotation-based quantization designed to work with HNSW (MSE variant chosen for symmetric scoring compatibility)
 - [[Vector Filtering]] — metadata-aware HNSW traversal
+- [[ACORN-1]] — HNSW extension for aggressive filtered ANN search using multi-hop neighborhoods
 - [[ANN]] — parent concept
+
+## Articles
+
+- [[Exploring Hierarchical Navigable Small World]] — Vespa intern deep-dive; covers graph quality metrics, disconnected components, edge density, dimensionality reduction, and ACORN-1 comparison
