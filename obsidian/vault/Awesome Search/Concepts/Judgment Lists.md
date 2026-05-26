@@ -76,6 +76,19 @@ For large corpora it's infeasible to judge all documents. **Pooling**: run multi
 
 An alternative to human annotation: use an LLM to rate relevance. Cheaper but less reliable for nuanced cases. See [[LLM as Judge]].
 
+## Public Judgment List Datasets
+
+Instead of building from scratch, teams can bootstrap evaluation using publicly released annotation datasets:
+
+| Dataset | Domain | Label scheme | Notes |
+|---|---|---|---|
+| [[Amazon ESCI Dataset]] | E-commerce | 4-class (Exact/Substitute/Complement/Irrelevant) | Large-scale; multi-locale |
+| [[ESCI-S Dataset]] | E-commerce | 4-class + enriched metadata | Community extension of ESCI |
+| [[WANDS Dataset]] | Home goods (Wayfair) | 3-class (Exact/Partial/Irrelevant) | ~42K pairs; vertical domain |
+| [[Home Depot Product Search Relevance]] | Home improvement | Continuous 1–3 | Crowdsourced; Kaggle competition |
+
+These datasets are useful for: initial model benchmarking, transfer learning baselines, and calibrating in-house annotation guidelines against established community standards.
+
 ## Related Concepts
 
 - [[NDCG]] — primary metric using judgment lists

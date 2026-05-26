@@ -76,6 +76,19 @@ These measure different things:
 
 Both are needed; a system can have high NDCG@10 but low Recall@1000 (high-quality ranking of a poor candidate set).
 
+## Public Evaluation Datasets
+
+Public benchmark datasets provide pre-built judgment lists for offline evaluation without the cost of in-house annotation. Especially common in e-commerce search:
+
+| Dataset | Domain | Scale | Label type |
+|---|---|---|---|
+| [[Amazon ESCI Dataset]] | General e-commerce | Very large | 4-class (E/S/C/I) |
+| [[WANDS Dataset]] | Home goods | ~42K pairs | 3-class |
+| [[Home Depot Product Search Relevance]] | Home improvement | ~74K pairs | Continuous 1–3 |
+| [[ESCI-S Dataset]] | General e-commerce | ESCI + enriched metadata | 4-class |
+
+Use cases: benchmarking embeddings, LTR training, hybrid search evaluation, model transfer experiments.
+
 ## Related Concepts
 
 - [[NDCG]] — primary offline ranking metric

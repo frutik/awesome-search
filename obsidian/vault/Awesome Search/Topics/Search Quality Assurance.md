@@ -162,6 +162,21 @@ See [[A-B Testing for Search]] for the full treatment: interleaving, A/B splits,
 
 ---
 
+## Public Evaluation Datasets
+
+Open datasets provide ready-made judgment lists for offline evaluation. Common in e-commerce:
+
+| Dataset | Domain | Scale | Labels |
+|---|---|---|---|
+| [[Amazon ESCI Dataset]] | General e-commerce | Very large | 4-class ESCI |
+| [[ESCI-S Dataset]] | General e-commerce | ESCI + metadata | 4-class ESCI |
+| [[WANDS Dataset]] | Home goods | ~42K pairs | 3-class |
+| [[Home Depot Product Search Relevance]] | Home improvement | ~74K pairs | Continuous 1–3 |
+
+Use these to: benchmark models before investing in custom annotation, calibrate annotator guidelines, and run cross-domain transfer experiments.
+
+---
+
 ## Related
 
 - [[A-B Testing for Search]] — online evaluation in depth
