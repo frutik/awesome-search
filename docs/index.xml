@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>Awesome Search KG</title>
+      <link>https://frutik.github.io/awesome-search</link>
+      <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Doug Turnbull</title>
-    <link>https://quartz.jzhao.xyz/People/Doug-Turnbull</link>
-    <guid>https://quartz.jzhao.xyz/People/Doug-Turnbull</guid>
+    <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
+    <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Tue, 19 May 2026 18:56:49 GMT</pubDate>
+    <pubDate>Tue, 26 May 2026 06:23:03 GMT</pubDate>
   </item><item>
-    <title>Results Boosting</title>
-    <link>https://quartz.jzhao.xyz/Concepts/Results-Boosting</link>
-    <guid>https://quartz.jzhao.xyz/Concepts/Results-Boosting</guid>
-    <description><![CDATA[ Results Boosting Definition Results boosting is a technique for adjusting the relevance scores of search results at query time to promote or demote specific items based on business signals, behavioral data, or business rules — without changing the underlying relevance model. ]]></description>
-    <pubDate>Tue, 19 May 2026 18:14:21 GMT</pubDate>
+    <title>Exploring Hierarchical Navigable Small World</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Exploring-Hierarchical-Navigable-Small-World</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Exploring-Hierarchical-Navigable-Small-World</guid>
+    <description><![CDATA[ Exploring Hierarchical Navigable Small World A hands-on deep dive into the HNSW algorithm written by two Vespa summer interns who built visualization and analysis tools during their exploration. ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Hybrid Search</title>
-    <link>https://quartz.jzhao.xyz/Concepts/Hybrid-Search</link>
-    <guid>https://quartz.jzhao.xyz/Concepts/Hybrid-Search</guid>
-    <description><![CDATA[ Hybrid Search Definition Hybrid search combines two or more retrieval signals — most commonly sparse (lexical/term-based) and dense (semantic/embedding-based) — to produce results that outperform either approach alone. ]]></description>
-    <pubDate>Tue, 19 May 2026 18:14:17 GMT</pubDate>
+    <title>Late Interaction Models: How to Scale &amp; Optimize in Elasticsearch</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Late-Interaction-Models---How-to-Scale-and-Optimize-in-Elasticsearch</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Late-Interaction-Models---How-to-Scale-and-Optimize-in-Elasticsearch</guid>
+    <description><![CDATA[ Late Interaction Models: How to Scale &amp; Optimize in Elasticsearch Part 2 of Elastic’s ColPali series. ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
     <title>Elastic</title>
-    <link>https://quartz.jzhao.xyz/Companies/Elastic</link>
-    <guid>https://quartz.jzhao.xyz/Companies/Elastic</guid>
+    <link>https://frutik.github.io/awesome-search/Companies/Elastic</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Elastic</guid>
     <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
-    <pubDate>Tue, 19 May 2026 18:09:59 GMT</pubDate>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Weaviate</title>
-    <link>https://quartz.jzhao.xyz/Companies/Weaviate</link>
-    <guid>https://quartz.jzhao.xyz/Companies/Weaviate</guid>
-    <description><![CDATA[ Weaviate Open-source vector database company providing semantic and hybrid search infrastructure. Competes with Pinecone, Qdrant, Milvus. ]]></description>
-    <pubDate>Tue, 19 May 2026 18:08:07 GMT</pubDate>
+    <title>Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
+    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Hybrid Search Blueprint Series: Semantic Boosting</title>
-    <link>https://quartz.jzhao.xyz/Articles/Hybrid-Search-Blueprint-Series-Semantic-Boosting</link>
-    <guid>https://quartz.jzhao.xyz/Articles/Hybrid-Search-Blueprint-Series-Semantic-Boosting</guid>
-    <description><![CDATA[ Hybrid Search Blueprint Series: Semantic Boosting Erik Hatcher (MongoDB) presents Semantic Boosting — a two-shot hybrid retrieval technique that runs a vector search first, then injects the results as boost clauses into a final lexical search — preserving full-text features like faceting, highlighti... ]]></description>
-    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+    <title>ACORN-1</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ACORN-1</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ACORN-1</guid>
+    <description><![CDATA[ ACORN-1 Definition ACORN-1 is an HNSW-based approximate nearest neighbor algorithm designed to handle aggressive metadata filtering better than standard HNSW. ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>MongoDB</title>
-    <link>https://quartz.jzhao.xyz/Companies/MongoDB</link>
-    <guid>https://quartz.jzhao.xyz/Companies/MongoDB</guid>
-    <description><![CDATA[ MongoDB Database platform company. ]]></description>
-    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+    <title>ColPali</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ColPali</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ColPali</guid>
+    <description><![CDATA[ ColPali Definition ColPali is a visual document retrieval model that applies Late Interaction (ColBERT-style MaxSim scoring) to document page images. ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Voyage AI</title>
-    <link>https://quartz.jzhao.xyz/Companies/Voyage-AI</link>
-    <guid>https://quartz.jzhao.xyz/Companies/Voyage-AI</guid>
-    <description><![CDATA[ Voyage AI Embedding model provider. Offers high-dimensional text embedding APIs used in semantic and vector search pipelines. ]]></description>
-    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+    <title>HNSW</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/HNSW</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/HNSW</guid>
+    <description><![CDATA[ HNSW — Hierarchical Navigable Small World Graph-based approximate nearest neighbor (ANN) index. Malkov &amp; Yashunin, 2018 (arXiv:1603.09320). ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Relative Score Fusion</title>
-    <link>https://quartz.jzhao.xyz/Concepts/Relative-Score-Fusion</link>
-    <guid>https://quartz.jzhao.xyz/Concepts/Relative-Score-Fusion</guid>
-    <description><![CDATA[ Relative Score Fusion A hybrid search fusion strategy that normalizes scores from multiple retrieval systems to a common scale and combines them linearly, preserving score magnitude information that Reciprocal Rank Fusion (RRF) discards. ]]></description>
-    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+    <title>Intent Drift</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Intent-Drift</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Intent-Drift</guid>
+    <description><![CDATA[ Intent Drift Definition Intent drift is the gradual or sudden shift in what users expect from a query, even when the query text stays the same. ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item><item>
-    <title>Semantic Boosting</title>
-    <link>https://quartz.jzhao.xyz/Concepts/Semantic-Boosting</link>
-    <guid>https://quartz.jzhao.xyz/Concepts/Semantic-Boosting</guid>
-    <description><![CDATA[ Semantic Boosting A two-shot hybrid retrieval technique that executes a vector search first, then injects the resulting document IDs and similarity scores as explicit boost clauses into a final full-text lexical query. ]]></description>
-    <pubDate>Mon, 18 May 2026 22:00:00 GMT</pubDate>
+    <title>Late Interaction</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
+    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
+    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
   </item>
     </channel>
   </rss>
