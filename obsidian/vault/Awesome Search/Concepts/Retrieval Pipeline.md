@@ -88,6 +88,20 @@ Full corpus
 - [[Embedding Fine-tuning]] — can collapse pipeline via distillation
 
 ## People
+## Evaluation and Ownership Splits in Multi-Stage Pipelines
+
+From [[When Reranking Becomes a System Boundary]] ([[Ravindra Harige]]):
+
+Once a pipeline is multi-stage, evaluation splits along the same boundary:
+- **Retrieval** → Recall@K: whether relevant documents appear in the candidate set
+- **Reranking** → NDCG, MRR: how well a fixed candidate set is ordered
+
+These are partially independent. NDCG can improve while recall is weak; retrieval improvements may not immediately affect top-k ordering. **Asymmetric visibility**: each stage's metrics can look healthy while overall user-visible relevance plateaus.
+
+The organizational mirror: retrieval owned by engineering (latency, indexing, recall), reranking owned by ML/data science (model quality, offline metrics). A retrieval change shifts the reranker's input distribution; a reranker improvement masks retrieval weaknesses. Each system looks correct under its own metrics.
+
+**Warning sign:** performance improves by widening the rerank window rather than by improving retrieval — the window is now load-bearing, and reranking has become compensatory.
+
 
 - [[Daniel Tunkelang]] — pipeline distillation; QueryUnderstanding.com
 - [[Jo Kristian Bergum]] — Vespa multi-stage retrieval

@@ -203,6 +203,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Food-Discovery-with-Uber-Eats---Building-a-Query-Understanding-Engine</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/From-Elasticsearch-to-Vespa---Rebuilding-the-Kleinanzeigen-Homepage-Feed-Part-1</loc>
+    <lastmod>2026-05-25T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/From-Zero-to-Semantic-Search-Embedding-Model</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -306,9 +309,6 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/MOC---Architecture-and-Search-Team</loc>
-    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://frutik.github.io/awesome-search/Articles/MOC---Case-Studies</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/MOC---Ranking-and-Retrieval</loc>
@@ -674,6 +674,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/What-is-a-Relevant-Search-Result</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/When-Reranking-Becomes-a-System-Boundary</loc>
+    <lastmod>2026-05-25T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/When-There's-No-Conversion-Rate</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -703,6 +706,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Etsy---Search-Quality-and-Query-Understanding</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</loc>
+    <lastmod>2026-05-26T14:29:45.523Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Netflix---Content-Search-Architecture</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -751,6 +757,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Hornet</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Companies/Kleinanzeigen</loc>
+    <lastmod>2026-05-26T14:29:14.471Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/LightOn-AI</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
@@ -936,7 +945,7 @@
     <lastmod>2026-05-22T09:52:40.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Keywords-Extraction</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1056,7 +1065,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Evaluation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Governance</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
@@ -1118,6 +1127,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/WAND</loc>
+    <lastmod>2026-05-26T14:29:31.844Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Wormhole-Vectors</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -1125,16 +1137,16 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</loc>
-    <lastmod>2026-05-26T07:34:25.460Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</loc>
-    <lastmod>2026-05-26T07:34:35.062Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance</loc>
-    <lastmod>2026-05-26T07:34:37.915Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset</loc>
-    <lastmod>2026-05-26T07:34:54.515Z</lastmod>
+    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Home</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1144,6 +1156,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Am%C3%A9lie-Chatelain</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Andre-Charton</loc>
+    <lastmod>2026-05-26T14:29:03.592Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Andrea-Sch%C3%BCtt</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1191,7 +1206,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-05-26T07:36:42.561Z</lastmod>
+    <lastmod>2026-05-26T14:36:24.012Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1297,6 +1312,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Quynh-Nguyen</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Ravindra-Harige</loc>
+    <lastmod>2026-05-26T14:29:06.121Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Rudolf-Batt</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>

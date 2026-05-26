@@ -45,6 +45,8 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - [[Cross-Encoders ColBERT and LLM-Based Re-Rankers]] — when to use each
 - [[Bi-encoder vs Cross-encoder When to Use Which One]]
 
+- [[When Reranking Becomes a System Boundary]] — [[Ravindra Harige]]: retrieval defines eligibility, reranking defines order; compensatory reranking; evaluation and ownership splits across pipeline stages
+
 ## Learning to Rank
 
 - **Concept**: [[Learning to Rank]] — LambdaMART, RankNet, neural rerankers
@@ -58,6 +60,8 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - **Concept**: [[Personalization]] — user embeddings, behavioral signals
 - [[Patterns for Personalization]] — Eugene Yan: 5 ML patterns with industry examples
 - [[Listing Embeddings in Search Ranking]] — Airbnb: real-time personalization via embeddings
+
+- [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]: WAND-based click profile matching, in-engine user profiles with Vespa, token similarity propagation
 
 ## Bias and Diversity
 

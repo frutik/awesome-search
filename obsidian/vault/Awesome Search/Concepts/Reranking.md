@@ -66,6 +66,29 @@ In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, 
 | Cost | Low | Higher |
 
 ## Related Concepts
+## When Reranking Becomes a System Boundary
+
+From [[When Reranking Becomes a System Boundary]] ([[Ravindra Harige]]):
+
+**Retrieval defines eligibility; reranking defines order.** If a document is not retrieved, no downstream stage can recover it.
+
+### Ranking as a Projection
+
+Reranking does not redo retrieval-time computation (term matches, field contributions, BM25 components). It operates on a compressed, lossy representation of what survived into the candidate set. This is structural — not a failure of implementation.
+
+### Compensatory Reranking
+
+The system crosses a boundary when performance gains come from widening the rerank window rather than improving retrieval. At that point the window size is load-bearing (not a latency knob), and reranking has become compensatory.
+
+### Evaluation Split
+
+| Stage | Metric | Blindspot |
+|-------|--------|-----------|
+| Retrieval | Recall@K | NDCG can improve while recall is weak |
+| Reranking | NDCG, MRR | Metrics improve while user-visible relevance plateaus |
+
+Retrieval (engineering) and reranking (ML/data science) are owned by different teams with different metrics. Neither dashboard shows the full picture. The gap closes only when someone is accountable for the space between them.
+
 
 - [[Retrieval Pipeline]] — the multi-stage architecture reranking fits into
 - [[Cross-Encoder]] — primary reranking architecture

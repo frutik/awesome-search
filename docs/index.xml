@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Tue, 26 May 2026 07:36:42 GMT</pubDate>
+    <pubDate>Tue, 26 May 2026 14:36:24 GMT</pubDate>
   </item><item>
-    <title>WANDS Dataset</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset</guid>
-    <description><![CDATA[ WANDS Dataset Overview WANDS (Wayfair ANnotation Dataset) is a search relevance annotation dataset released by Wayfair. ]]></description>
-    <pubDate>Tue, 26 May 2026 07:34:54 GMT</pubDate>
+    <title>Kleinanzeigen - Vespa Migration for Homepage Feed</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</guid>
+    <description><![CDATA[ Kleinanzeigen — Vespa Migration for Homepage Feed Context Kleinanzeigen (Germany’s largest classifieds marketplace) migrated their homepage personalized feed from Elasticsearch to Vespa. ]]></description>
+    <pubDate>Tue, 26 May 2026 14:29:45 GMT</pubDate>
   </item><item>
-    <title>Home Depot Product Search Relevance</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance</guid>
-    <description><![CDATA[ Home Depot Product Search Relevance Overview A Kaggle competition dataset released by Home Depot for evaluating product search relevance. ]]></description>
-    <pubDate>Tue, 26 May 2026 07:34:37 GMT</pubDate>
+    <title>WAND</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/WAND</guid>
+    <description><![CDATA[ WAND (Weighted AND) Definition WAND (Weak AND / Weighted AND) is a top-k retrieval algorithm for sparse vector inner-product scoring that avoids scoring every document in an inverted index. ]]></description>
+    <pubDate>Tue, 26 May 2026 14:29:31 GMT</pubDate>
   </item><item>
-    <title>ESCI-S Dataset</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</guid>
-    <description><![CDATA[ ESCI-S Dataset Overview ESCI-S is a community-built extension of the Amazon ESCI Dataset that adds richer product metadata to the original query–product pairs. ]]></description>
-    <pubDate>Tue, 26 May 2026 07:34:35 GMT</pubDate>
+    <title>Kleinanzeigen</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Kleinanzeigen</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Kleinanzeigen</guid>
+    <description><![CDATA[ Kleinanzeigen Germany’s largest online classifieds marketplace, serving millions of users daily. Formerly known as eBay Kleinanzeigen. ]]></description>
+    <pubDate>Tue, 26 May 2026 14:29:14 GMT</pubDate>
+  </item><item>
+    <title>Ravindra Harige</title>
+    <link>https://frutik.github.io/awesome-search/People/Ravindra-Harige</link>
+    <guid>https://frutik.github.io/awesome-search/People/Ravindra-Harige</guid>
+    <description><![CDATA[ Ravindra Harige Search practitioner writing at searchplex.net. ]]></description>
+    <pubDate>Tue, 26 May 2026 14:29:06 GMT</pubDate>
+  </item><item>
+    <title>Andre Charton</title>
+    <link>https://frutik.github.io/awesome-search/People/Andre-Charton</link>
+    <guid>https://frutik.github.io/awesome-search/People/Andre-Charton</guid>
+    <description><![CDATA[ Andre Charton Engineer at Kleinanzeigen (German classifieds marketplace). ]]></description>
+    <pubDate>Tue, 26 May 2026 14:29:03 GMT</pubDate>
+  </item><item>
+    <title>Judgment Lists</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</guid>
+    <description><![CDATA[ Judgment Lists Definition A judgment list (also called “qrels” in IR — short for “query relevance”) is a dataset of (query, document, relevance_grade) triples created by human annotators. ]]></description>
+    <pubDate>Tue, 26 May 2026 07:37:19 GMT</pubDate>
+  </item><item>
+    <title>Search Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Search-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Search-Evaluation</guid>
+    <description><![CDATA[ Search Evaluation Definition Search evaluation is the systematic process of measuring how well a search system serves user information needs. ]]></description>
+    <pubDate>Tue, 26 May 2026 07:37:19 GMT</pubDate>
   </item><item>
     <title>Amazon ESCI Dataset</title>
     <link>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</link>
     <guid>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</guid>
     <description><![CDATA[ Amazon ESCI Dataset Overview The Shopping Queries Dataset is a large-scale e-commerce search benchmark released by Amazon. ]]></description>
-    <pubDate>Tue, 26 May 2026 07:34:25 GMT</pubDate>
+    <pubDate>Tue, 26 May 2026 07:37:19 GMT</pubDate>
   </item><item>
-    <title>Exploring Hierarchical Navigable Small World</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Exploring-Hierarchical-Navigable-Small-World</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Exploring-Hierarchical-Navigable-Small-World</guid>
-    <description><![CDATA[ Exploring Hierarchical Navigable Small World A hands-on deep dive into the HNSW algorithm written by two Vespa summer interns who built visualization and analysis tools during their exploration. ]]></description>
-    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
-  </item><item>
-    <title>Late Interaction Models: How to Scale &amp; Optimize in Elasticsearch</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Late-Interaction-Models---How-to-Scale-and-Optimize-in-Elasticsearch</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Late-Interaction-Models---How-to-Scale-and-Optimize-in-Elasticsearch</guid>
-    <description><![CDATA[ Late Interaction Models: How to Scale &amp; Optimize in Elasticsearch Part 2 of Elastic’s ColPali series. ]]></description>
-    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
-  </item><item>
-    <title>Elastic</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Elastic</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Elastic</guid>
-    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
-    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
-  </item><item>
-    <title>Vespa</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
-    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
-    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
-  </item><item>
-    <title>ACORN-1</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/ACORN-1</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/ACORN-1</guid>
-    <description><![CDATA[ ACORN-1 Definition ACORN-1 is an HNSW-based approximate nearest neighbor algorithm designed to handle aggressive metadata filtering better than standard HNSW. ]]></description>
-    <pubDate>Fri, 22 May 2026 09:52:40 GMT</pubDate>
+    <title>ESCI-S Dataset</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</guid>
+    <description><![CDATA[ ESCI-S Dataset Overview ESCI-S is a community-built extension of the Amazon ESCI Dataset that adds richer product metadata to the original query–product pairs. ]]></description>
+    <pubDate>Tue, 26 May 2026 07:37:19 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -61,6 +61,15 @@ Add user features to the [[Learning to Rank]] model:
 - User's category preferences
 - Session recency signals
 
+
+### In-Engine Click Profile Matching (Kleinanzeigen / Vespa)
+
+[[Kleinanzeigen]] moved user behavioral profiles entirely inside [[Vespa]], eliminating the external orchestration layer. Click events fire as Vespa document updates, processed in-process by a document processor. Profiles decay over time, are L2-normalized, and are stored as Vespa documents keyed `{userId}:category:{categoryId}`. At query time: read profile → expand tokens via a `relations` similarity graph → fire a [[WAND]] query. No external profile store. No service hop.
+
+This exemplifies **retrieval-personalization colocation**: profile maintenance and retrieval in the same platform removes service-boundary latency entirely.
+
+See: [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]], [[Kleinanzeigen - Vespa Migration for Homepage Feed]]
+
 ## Privacy Considerations
 
 Personalization requires collecting and using personal data:

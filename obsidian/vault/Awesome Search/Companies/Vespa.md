@@ -46,6 +46,8 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[Improving Retrieval with LLM as a Judge]]
 - [[Exploring Hierarchical Navigable Small World]]
 
+- [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]
+
 ## Concepts
 
 [[ColBERT]] · [[Late Interaction]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]]
