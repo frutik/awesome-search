@@ -972,6 +972,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * [Vespa] (https://vespa.ai/)
 * [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
 * [ParadeDB](https://github.com/paradedb/paradedb) - Modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.
+* [psql_bm25s](https://github.com/Intelligent-Internet/psql_bm25s) - PostgreSQL extension for BM25-family lexical retrieval with a native index access method and SQL top-k query APIs.
 * [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
 * [Fess Enterprise Search Server](https://github.com/codelibs/fess)
 * [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
@@ -1231,4 +1232,3 @@ OLD TOC (to review)
   - [E-commerce](#e-commerce) 
 - [Datasets](#datasets)
 - [Tools](#tools)
-
