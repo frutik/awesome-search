@@ -1,5 +1,5 @@
 ---
-title: "Awesome Search — Knowledge Graph Home"
+title: Awesome Search — Information Retrieval & Search Knowledge Graph
 tags:
   - index
   - search

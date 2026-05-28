@@ -708,7 +708,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</loc>
-    <lastmod>2026-05-26T14:29:45.523Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Netflix---Content-Search-Architecture</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -759,7 +759,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Kleinanzeigen</loc>
-    <lastmod>2026-05-26T14:29:14.471Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/LightOn-AI</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
@@ -807,7 +807,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Vespa</loc>
-    <lastmod>2026-05-22T09:52:40.000Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Vinted</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -996,7 +996,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Personalization</loc>
-    <lastmod>2026-05-17T11:49:24.000Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Position-Bias</loc>
     <lastmod>2026-05-17T13:22:53.000Z</lastmod>
@@ -1050,7 +1050,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Retrieval-Pipeline</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/SIRA</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1128,7 +1128,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/WAND</loc>
-    <lastmod>2026-05-26T14:29:31.844Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Wormhole-Vectors</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1158,7 +1158,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Andre-Charton</loc>
-    <lastmod>2026-05-26T14:29:03.592Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Andrea-Sch%C3%BCtt</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1206,7 +1206,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-05-26T14:36:24.012Z</lastmod>
+    <lastmod>2026-05-28T15:58:02.820Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1314,7 +1314,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Ravindra-Harige</loc>
-    <lastmod>2026-05-26T14:29:06.121Z</lastmod>
+    <lastmod>2026-05-26T14:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Rudolf-Batt</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1384,6 +1384,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Economics-of-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Enterprise-Search</loc>
+    <lastmod>2026-05-27T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Events-and-Conferences</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
