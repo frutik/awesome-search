@@ -1,12 +1,7 @@
 ---
 title: Awesome Search — Information Retrieval & Search Knowledge Graph
-tags:
-  - index
-  - search
-created: 2026-05-15
 ---
-
-# Awesome Search 2
+ # Awesome Search — Information Retrieval & Search Knowledge Graph
 
 Semantic knowledge graph built from the [Awesome Search](https://github.com/frutik/awesome-search) curated list. Contains article notes, concept notes, topic notes, people notes, case study notes, and company nodes connected by wikilinks.
 
