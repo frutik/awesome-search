@@ -1,5 +1,7 @@
 ---
-title: Awesome Search — Information Retrieval & Search Knowledge Graph
+tags:
+  - search
+  - information-retrieval
 ---
  # Awesome Search — Information Retrieval & Search Knowledge Graph
 
