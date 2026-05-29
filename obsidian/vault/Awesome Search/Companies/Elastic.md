@@ -41,6 +41,7 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 ## People
 
 - [[Thomas Veasey]] — Principal Engineer, Elastic
+- [[Leonie Monigatti]] — Developer Advocate / ML Engineer; writes on agentic search and context engineering
 
 ## Articles
 
@@ -49,6 +50,7 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 - [[Multilingual Embedding Model Hybrid Search Reranking]]
 - [[Ecommerce search optimization with margin & popularity boosting]]
 - [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
+- [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; three search tool patterns for context engineering
 
 ## Concepts
 

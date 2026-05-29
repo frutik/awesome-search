@@ -70,3 +70,4 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - [[raw_articles/Improve your RAG applications by moving to Task-aware Embeddings]]
 - [[Hypothetical Document Embeddings HyDE]]
 - [[Agentic Search as an Agile Engineering Process]]
+- [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; traces evolution RAG → agentic RAG → context engineering; articulates where single-pass RAG breaks

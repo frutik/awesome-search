@@ -55,10 +55,12 @@ Adapted from classic project management:
 - [[Retrieval Pipeline]] — the multi-stage pipeline that agentic systems orchestrate
 - [[RAG]] — foundational architecture that agentic search extends
 - [[Query Understanding]] — understanding intent is especially critical in agentic workflows
+- [[Context Engineering]] — agentic search is ~80% of context engineering; the curation arrow maps to search tools
 
 ## Articles
 
 - [[Agentic Search as an Agile Engineering Process]] — [[Daniel Tunkelang]] & [[Asif Makhani]]
+- [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; evolution from RAG to context engineering; three search tool patterns; low-floor/high-ceiling design principle
 
 - [[Superintelligent Retrieval Agent SIRA]] — LLM-enriched BM25; corpus enrichment + query expansion
 - [[Mutually Assured Distraction]] — [[Lester Solbakken]]; better retrievers → better distractors; MAD dynamic; abstention as control signal
@@ -69,6 +71,7 @@ Adapted from classic project management:
 
 - [[Daniel Tunkelang]]
 - [[Asif Makhani]]
+- [[Leonie Monigatti]]
 
 - [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] — TIGER-Lab; DCI (grep/bash) outperforms all traditional retrievers on agentic tasks
 - [[Metadata - The 3rd Kind of Retrieval]] — [[Doug Turnbull]]; attribute-based retrieval as alternative to embeddings in agentic context

@@ -10,13 +10,37 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 28 May 2026 17:17:06 GMT</pubDate>
+    <pubDate>Fri, 29 May 2026 06:27:51 GMT</pubDate>
+  </item><item>
+    <title>Jina AI</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Jina-AI</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Jina-AI</guid>
+    <description><![CDATA[ Jina AI Berlin-based AI company focused on multimodal embeddings and neural search infrastructure. ]]></description>
+    <pubDate>Fri, 29 May 2026 06:05:47 GMT</pubDate>
+  </item><item>
+    <title>Context Engineering</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Context-Engineering</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Context-Engineering</guid>
+    <description><![CDATA[ Context Engineering Context engineering is the process of deciding which information from all available context sources actually enters the LLM’s context window so the model can generate the best response. ]]></description>
+    <pubDate>Fri, 29 May 2026 06:05:43 GMT</pubDate>
+  </item><item>
+    <title>Leonie Monigatti</title>
+    <link>https://frutik.github.io/awesome-search/People/Leonie-Monigatti</link>
+    <guid>https://frutik.github.io/awesome-search/People/Leonie-Monigatti</guid>
+    <description><![CDATA[ Leonie Monigatti Developer advocate / ML engineer at Elastic. Writes about agentic search, context engineering, and RAG. ]]></description>
+    <pubDate>Fri, 29 May 2026 06:05:31 GMT</pubDate>
+  </item><item>
+    <title>Agentic Search for Context Engineering</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</guid>
+    <description><![CDATA[ Agentic Search for Context Engineering Long-form write-up of the workshop given at AI Engineer Europe 2026 (London, April 8, 2026). ]]></description>
+    <pubDate>Fri, 29 May 2026 06:05:26 GMT</pubDate>
   </item><item>
     <title>Home</title>
     <link>https://frutik.github.io/awesome-search/Home</link>
     <guid>https://frutik.github.io/awesome-search/Home</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Semantic knowledge graph built from the Awesome Search curated list. ]]></description>
-    <pubDate>Thu, 28 May 2026 16:04:26 GMT</pubDate>
+    <pubDate>Thu, 28 May 2026 17:17:43 GMT</pubDate>
   </item><item>
     <title>Enterprise Search</title>
     <link>https://frutik.github.io/awesome-search/Topics/Enterprise-Search</link>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
     <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
-    <pubDate>Tue, 26 May 2026 14:37:19 GMT</pubDate>
-  </item><item>
-    <title>Personalization</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Personalization</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Personalization</guid>
-    <description><![CDATA[ Personalization Definition Personalization adapts search results to individual user preferences, history, and context — returning different results for different users submitting the same query, based on signals like their browsing history, purchase behavior, location, and demographics. ]]></description>
-    <pubDate>Tue, 26 May 2026 14:37:19 GMT</pubDate>
-  </item><item>
-    <title>Retrieval Pipeline</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Retrieval-Pipeline</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Retrieval-Pipeline</guid>
-    <description><![CDATA[ Retrieval Pipeline Definition A retrieval pipeline is a multi-stage architecture that cascades retrieval systems from fast-but-approximate to slow-but-accurate, progressively narrowing a large corpus to a final ranked list. ]]></description>
-    <pubDate>Tue, 26 May 2026 14:37:19 GMT</pubDate>
-  </item><item>
-    <title>WAND</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/WAND</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/WAND</guid>
-    <description><![CDATA[ WAND (Weighted AND) Definition WAND (Weak AND / Weighted AND) is a top-k retrieval algorithm for sparse vector inner-product scoring that avoids scoring every document in an inverted index. ]]></description>
-    <pubDate>Tue, 26 May 2026 14:37:19 GMT</pubDate>
-  </item><item>
-    <title>Andre Charton</title>
-    <link>https://frutik.github.io/awesome-search/People/Andre-Charton</link>
-    <guid>https://frutik.github.io/awesome-search/People/Andre-Charton</guid>
-    <description><![CDATA[ Andre Charton Engineer at Kleinanzeigen (German classifieds marketplace). ]]></description>
     <pubDate>Tue, 26 May 2026 14:37:19 GMT</pubDate>
   </item>
     </channel>

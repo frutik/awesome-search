@@ -75,6 +75,19 @@ Dedicated e-commerce search conference. Close overlap with [[E-commerce Search]]
 
 ---
 
+
+
+### AI Engineer
+Conference series for AI engineering practitioners. Covers LLMs, agents, context engineering, retrieval, and production AI systems.
+
+🔗 https://www.ai.engineer/
+
+**AI Engineer Europe 2026** — London, April 8–10, 2026
+🔗 https://www.ai.engineer/europe/2026
+
+Notable vault connections:
+- [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]] ([[Elastic]]) workshop on agentic search tool patterns for [[Context Engineering]]; demonstrated semantic search, ES|QL query tool, and shell tool patterns
+
 ## Academic Conferences
 
 ### SIGIR
@@ -121,6 +134,7 @@ Core ML conferences. Source of embedding architectures, [[Learning to Rank]] adv
 | [[Hybrid search > sum of its parts? Berlin Buzzwords 2022]] | Berlin Buzzwords 2022 | [[Hybrid Search]], [[BM25]], [[Dense Embeddings]], [[Reciprocal Rank Fusion]] |
 | [[What is ColBERT and Late Interaction and Why They Matter in Search?]] | SIGIR 2020 / 2021 | [[ColBERT]], [[Late Interaction]], [[Bi-Encoder]] |
 | [[What Is a Judgment List?]] | References Haystack talk | [[Judgment Lists]], [[Search Evaluation]] |
+| [[Agentic Search for Context Engineering]] | AI Engineer Europe 2026 | [[Context Engineering]], [[Agentic Search]], [[RAG]] |
 
 ---
 
