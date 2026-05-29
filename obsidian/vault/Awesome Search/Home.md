@@ -5,7 +5,7 @@ tags:
 ---
  # Awesome Search — Information Retrieval & Search Knowledge Graph
  
- Hello, I am [Andrew](www.linkedin.com/in/andriy-kornilov).
+ Hello, I am [Andrew](https://www.linkedin.com/in/andriy-kornilov).
 
 I've been building e-commerce search applications for 15+ years. Over that time, I've collected and connected ideas from publications, conference talks, books, research papers, blog posts, and practitioners across the information retrieval ecosystem.
 
