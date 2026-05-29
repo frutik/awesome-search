@@ -4,6 +4,14 @@ tags:
   - information-retrieval
 ---
  # Awesome Search — Information Retrieval & Search Knowledge Graph
+ 
+ Hello, I am Andrew.
+
+I've been building e-commerce search applications for 15+ years. Over that time, I've collected and connected ideas from publications, conference talks, books, research papers, blog posts, and practitioners across the information retrieval ecosystem.
+
+This knowledge graph maps many of the resources that have influenced my thinking, organized by topic and interconnected through shared concepts. Because search is inherently multidisciplinary, many resources are linked to multiple areas of the graph, reflecting how ideas from ranking, relevance, user behavior, machine learning, evaluation, and system design often overlap.
+
+⭐ Star us on GitHub — it helps!
 
 Semantic knowledge graph built from the [Awesome Search](https://github.com/frutik/awesome-search) curated list. Contains article notes, concept notes, topic notes, people notes, case study notes, and company nodes connected by wikilinks.
 
