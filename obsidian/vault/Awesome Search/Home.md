@@ -74,3 +74,5 @@ Practice-oriented guides — how to DO or deal with something in search.
 - **28** company nodes
 - **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)
 - **6** Maps of Content
+
+See [[History]] for the full note-addition log.
