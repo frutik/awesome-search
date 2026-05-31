@@ -125,6 +125,7 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 - [[Mutually Assured Distraction]] — [[Lester Solbakken]]; MAD dynamic; abstention as retrieval control signal
 - [[You Say Search I Say Recs - Spotify Agentic Query Understanding]] — LLM router; +115% similar artists, +91% new music releases
 - [[Incremental AI Adoption for E-commerce Search]] — 4-level progression: traditional → conversational AI
+- [[This Is What Agentic Retrieval Looks Like]] — [[Jo Kristian Bergum]]; GPT-5 BrowseComp-Plus analysis; median 24 searches/session; phrase quotes in 98%; agent queries at 99th percentile of human length
 
 ### ColBERT / Late Interaction
 - [[Announcing the Vespa ColBERT embedder 1|Announcing the Vespa ColBERT Embedder]]

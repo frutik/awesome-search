@@ -89,6 +89,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Chunking-Strategies-for-LLM-Applications</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Classic-ML-to-Cope-with-Dumb-LLM-Judges</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Click-Residual---A-Query-Success-Metric</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -557,6 +560,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Search-Product-Management---The-Most-Misunderstood-Role</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Search-Quality-Assurance-with-AI-as-a-Judge</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Search-Query-Expansion-with-Query-Embeddings</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -626,6 +632,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/The-Missing-WHERE-Clause-in-Vector-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/This-Is-What-Agentic-Retrieval-Looks-Like</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Thoughts-about-Managing-Search-Teams</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -664,6 +673,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Using-LLMs-to-Amplify-Human-Labeling-and-Improve-Dash-Search-Relevance</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/What-AI-Engineers-Should-Know-about-Search</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/What-Is-a-Judgment-List</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -977,6 +989,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Linear-Score-Combination</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Listwise-Relevance-Evaluation</loc>
+    <lastmod>2026-05-31T16:26:32.841Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/LoRA</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -1004,14 +1019,23 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/PEFT</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</loc>
+    <lastmod>2026-05-31T16:26:32.128Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Personalization</loc>
     <lastmod>2026-05-26T14:37:19.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Pointwise-Relevance-Evaluation</loc>
+    <lastmod>2026-05-31T16:26:30.488Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Position-Bias</loc>
     <lastmod>2026-05-17T13:22:53.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Precision-and-Recall</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Presentation-Bias</loc>
+    <lastmod>2026-05-31T16:33:52.498Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/QLoRA</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1048,6 +1072,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Relative-Score-Fusion</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</loc>
+    <lastmod>2026-05-31T16:33:40.937Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Reranking</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1161,7 +1188,7 @@
     <lastmod>2026-05-29T06:43:17.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Home</loc>
-    <lastmod>2026-05-29T07:07:40.000Z</lastmod>
+    <lastmod>2026-05-29T07:10:30.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Alexander-Marquardt</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
@@ -1218,7 +1245,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-05-29T07:09:40.699Z</lastmod>
+    <lastmod>2026-05-31T16:38:44.207Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1263,7 +1290,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Jo-Kristian-Bergum</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Jodi-Sloan</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1348,6 +1375,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/St%C3%A9phane-Clinchant</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Tao-Ruangyam</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Taylor-Roy</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>

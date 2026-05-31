@@ -19,19 +19,22 @@ Their work challenges the assumption that better retrieval always means better e
 - **Defensive retrieval** — precision over recall; dynamic-k over fixed-k; abstention as a first-class retrieval outcome
 - **Distractor-aware evaluation** — UDCG metric that assigns negative utility to passages that cause incorrect answers
 - **MAD (Mutually Assured Distraction)** — framework describing how independently rational improvements to retrieval and reasoning can lead to global system instability
+- **Agentic query workload** — characterizing how agents search differently from humans (long queries, web operators, multi-turn sessions)
 - **Agentic context quality** — treating each retrieved chunk as a liability rather than a free addition
 
 ## People
 
+- [[Jo Kristian Bergum]] — Co-founder; former Vespa AI Chief Scientist; agentic retrieval workload research
 - [[Lester Solbakken]] — Co-founder; author of the MAD framework and defensive retrieval principles
 
 ## Articles
 
 - [[Mutually Assured Distraction]] — why better retrieval and better reasoning can make agentic systems less reliable
+- [[This Is What Agentic Retrieval Looks Like]] — GPT-5 query behavior: 24 calls/session, 10-term median, phrase quotes in 98% of sessions
 
 ## Concepts
 
-[[Agentic Search]] · [[Clean Context]] · [[UDCG]] · [[Retrieval Pipeline]] · [[LLM as Judge]] · [[Search Evaluation]]
+[[Agentic Search]] · [[Agentic Retrieval]] · [[Clean Context]] · [[UDCG]] · [[Retrieval Pipeline]] · [[LLM as Judge]] · [[Search Evaluation]] · [[BM25]] · [[Query Operators]]
 
 ## Topics
 

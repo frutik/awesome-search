@@ -113,6 +113,10 @@ Unbiased training data → significantly better LTR models.
 - [[Dense Vector Retrieval]] — embedding cosine as LTR feature
 - [[Personalization]] — personalized LTR uses user features
 
+## Articles
+
+- [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; accessible LTR primer covering SVMRank, LambdaMART, feature orthogonality, multi-stage reranking
+
 ## People
 
 - [[Doug Turnbull]] — "How LambdaMART works" post; LTR in production

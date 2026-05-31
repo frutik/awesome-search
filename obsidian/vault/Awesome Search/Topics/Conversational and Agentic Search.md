@@ -3,7 +3,12 @@ type: topic
 tags: [topic, conversational-search, agentic-search, llm, rag, multi-turn]
 related_concepts: [RAG, LLM, Query Understanding, Embeddings]
 related_topics: [Query Understanding in Practice, Personalization in Search, Autocomplete and Autosuggest, E-commerce Search]
-articles: []
+articles:
+  - "[[Agentic Search for Context Engineering]]"
+  - "[[Agentic Search as an Agile Engineering Process]]"
+  - "[[You Say Search I Say Recs - Spotify Agentic Query Understanding]]"
+  - "[[Superintelligent Retrieval Agent SIRA]]"
+  - "[[Incremental AI Adoption for E-commerce Search]]"
 companies: [Spotify, Elastic, Cohere]
 people: []
 ---

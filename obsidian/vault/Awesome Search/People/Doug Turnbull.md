@@ -21,6 +21,8 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 - "What is Relevant?" — task-centered definition of relevance
 
 ## Articles
+- [[What is Presentation Bias in Search]]
+- [[What AI Engineers Should Know about Search]]
 - [[Bayesian BM25 is Cool]]
 - [[What is a Relevant Search Result]]
 - [[Practical BM25 - The Effect of k1 and b]]
@@ -45,3 +47,4 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 - OpenSource Connections (OSC) — same org as [[Max Irwin]]
 - [[Can BM25 be a Probability]] — BB25 framework; calibrating BM25 as probability for principled hybrid fusion
 - [[Metadata - The 3rd Kind of Retrieval]] — attribute-based retrieval as a third paradigm beyond lexical + embeddings
+- [[Classic ML to Cope with Dumb LLM Judges]] — combining many dumb LLM judges via decision tree to improve precision

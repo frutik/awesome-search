@@ -19,6 +19,7 @@ Principal engineer and search expert; author of the [Query Understanding](https:
 - Search team management and culture
 
 ## Articles
+- [[Query Understanding - Relevance Feedback]]
 - [[Evaluating Good Search - Measure It]]
 - [[Measuring Searcher Behavior]]
 - [[When There's No Conversion Rate]]

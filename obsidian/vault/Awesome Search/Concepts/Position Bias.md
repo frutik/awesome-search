@@ -82,6 +82,8 @@ When evaluating search systems, position bias affects:
 
 ## Related Concepts
 
+- [[Presentation Bias]] — the broader phenomenon; position bias is one specific form
+- [[Relevance Feedback]] — implicit feedback is corrupted by position bias
 - [[Click Signals]] — position bias is the main issue with click signals
 - [[Learning to Rank]] — must correct for bias in training data
 - [[Search Evaluation]] — bias affects online evaluation validity

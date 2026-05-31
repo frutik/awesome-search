@@ -36,6 +36,7 @@ This coupling means search degradation has compound blast radius: not just UX fa
 ## People
 
 - [[Maryna Kryvko]] — Search & Browse team
+- [[Tao Ruangyam]] — Search engineering; LLM-as-judge quality framework
 
 ## Use Cases
 
@@ -44,3 +45,4 @@ This coupling means search degradation has compound blast radius: not just UX fa
 ## Published Articles
 
 - [[The Day Our Own Queries DoSed Us - Zalando Search]]
+- [[Search Quality Assurance with AI as a Judge]] — LLM-as-judge pipeline for pre-launch market validation (2026)

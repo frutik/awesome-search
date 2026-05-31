@@ -83,6 +83,7 @@ How to build a representative query set for evaluation:
 | [[Jo Kristian Bergum]] | LLM-as-a-judge for retrieval (Vespa) |
 | [[Aparna Dhinakaran]] | LLM-as-judge methodology; explanation-first pattern |
 | [[Lester Solbakken]] | UDCG advocacy; dynamic-k and abstention design |
+| [[Tao Ruangyam]] | LLM-as-judge production pipeline at Zalando; NER-based test generation |
 
 ---
 
@@ -108,6 +109,8 @@ How to build a representative query set for evaluation:
 - [[Improving retrieval with LLM-as-a-judge|Improving Retrieval with LLM-as-a-judge]] — LLM as annotation alternative
 
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — [[Aparna Dhinakaran]]; explanation-first pattern; when CoT helps vs. hurts
+- [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER query clustering; GPT-4o; ~$250/run; pre-launch market validation
+- [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM outputs as decision tree features; 96.7% precision on 40% of pairs
 
 ### Query Understanding
 - [[Query Understanding - Introduction 1]] — what is QU and why it matters

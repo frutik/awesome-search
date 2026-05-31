@@ -36,6 +36,7 @@ people:
   - "[[Daniel Tunkelang]]"
   - "[[James Rubinstein]]"
   - "[[Doug Turnbull]]"
+  - "[[Tao Ruangyam]]"
 created: 2026-05-16
 ---
 
@@ -184,3 +185,10 @@ Use these to: benchmark models before investing in custom annotation, calibrate 
 - [[Query Sampling]] — how to build a representative query set
 - [[Managing a Search Team]] — evaluation culture as a team practice
 - [[LLM as Judge]] — scaling annotation with LLMs
+
+### LLM Judge Articles
+
+- [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; broad primer covering judgment methodology, evaluation biases, pointwise/pairwise/listwise paradigms
+- [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER query clustering; multi-language; pre-launch validation
+- [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; treating per-attribute LLM outputs as ML features for a decision tree
+- [[Improving retrieval with LLM-as-a-judge]] — [[Jo Kristian Bergum]]; Vespa retrieval benchmarking with LLM judge

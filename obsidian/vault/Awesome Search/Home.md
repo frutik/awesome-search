@@ -38,7 +38,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]]
+[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Synonyms]] · [[Spelling Correction]] · [[Autocomplete]] · [[Faceted Search]] · [[Zero Results]] · [[Collocations]] · [[Query Relaxation]]
@@ -59,7 +59,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]]
 
 **End Users**
 [[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]]
@@ -74,10 +74,10 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Stats
 
-- **~123+** article notes
-- **~72** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
+- **~127+** article notes
+- **~77** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
 - **15** topic notes (incl. Understaffed Search Team)
-- **~38** people notes
+- **~39** people notes
 - **8** case study notes
 - **28** company nodes
 - **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)

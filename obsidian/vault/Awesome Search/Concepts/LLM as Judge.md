@@ -90,6 +90,9 @@ Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with hu
 
 ## Related Concepts
 
+- [[Pointwise Relevance Evaluation]] — score each item independently; simplest LLM judge pattern
+- [[Pairwise Relevance Evaluation]] — LHS/RHS comparison; stronger signal than pointwise
+- [[Listwise Relevance Evaluation]] — rank full candidate list; most holistic
 - [[Judgment Lists]] — what LLM judges help create
 - [[Search Evaluation]] — where LLM judgments are used
 - [[NDCG]] — metric computed from LLM-generated grades
@@ -109,7 +112,11 @@ Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with hu
 ## Articles
 
 - [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]]; LLM calibrated on human labels → 100x scale-up; DSPy for prompt optimization; context-aware evaluation with tool use
+- [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER-clustered test queries; GPT-4o; ~$250/run for 1,500 segments × 25 results; pre-launch market validation
+- [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM signals as ML features → decision tree; 96.7% precision on 40% of pairs
 
 ## People
 
 - [[Dmitriy Meyerzon]]
+- [[Tao Ruangyam]]
+- [[Doug Turnbull]]

@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 29 May 2026 07:09:40 GMT</pubDate>
+    <pubDate>Sun, 31 May 2026 16:38:44 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://frutik.github.io/awesome-search/Home</link>
-    <guid>https://frutik.github.io/awesome-search/Home</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Fri, 29 May 2026 07:07:40 GMT</pubDate>
+    <title>Presentation Bias</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Presentation-Bias</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Presentation-Bias</guid>
+    <description><![CDATA[ Presentation Bias Definition The distortion in click-based relevance signals caused by the fact that users can only interact with results that are actually displayed to them. ]]></description>
+    <pubDate>Sun, 31 May 2026 16:33:52 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:43:17 GMT</pubDate>
+    <title>Relevance Feedback</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</guid>
+    <description><![CDATA[ Relevance Feedback Definition Using signals about which results are relevant (or not) to iteratively refine a search query and improve subsequent retrieval. ]]></description>
+    <pubDate>Sun, 31 May 2026 16:33:40 GMT</pubDate>
   </item><item>
-    <title>Agentic Search for Context Engineering</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</guid>
-    <description><![CDATA[ Agentic Search for Context Engineering Long-form write-up of the workshop given at AI Engineer Europe 2026 (London, April 8, 2026). ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>Listwise Relevance Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Listwise-Relevance-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Listwise-Relevance-Evaluation</guid>
+    <description><![CDATA[ Listwise Relevance Evaluation Definition A relevance judgment method where an evaluator receives a full list of candidates for a query and produces a ranked ordering or set of grades over all items simultaneously. ]]></description>
+    <pubDate>Sun, 31 May 2026 16:26:32 GMT</pubDate>
   </item><item>
-    <title>Elastic</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Elastic</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Elastic</guid>
-    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>Pairwise Relevance Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</guid>
+    <description><![CDATA[ Pairwise Relevance Evaluation Definition A relevance judgment method where an evaluator (human or LLM) is shown two candidates side-by-side — conventionally called LHS (left-hand side) and RHS (right-hand side) — and asked which is more relevant to a given query. ]]></description>
+    <pubDate>Sun, 31 May 2026 16:26:32 GMT</pubDate>
   </item><item>
-    <title>Jina AI</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Jina-AI</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Jina-AI</guid>
-    <description><![CDATA[ Jina AI Berlin-based AI company focused on multimodal embeddings and neural search infrastructure. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>Pointwise Relevance Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Pointwise-Relevance-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Pointwise-Relevance-Evaluation</guid>
+    <description><![CDATA[ Pointwise Relevance Evaluation Definition A relevance judgment method where each (query, document) pair is scored independently, without reference to other candidates. ]]></description>
+    <pubDate>Sun, 31 May 2026 16:26:30 GMT</pubDate>
   </item><item>
-    <title>Agentic Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
-    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>Classic ML to Cope with Dumb LLM Judges</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Classic-ML-to-Cope-with-Dumb-LLM-Judges</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Classic-ML-to-Cope-with-Dumb-LLM-Judges</guid>
+    <description><![CDATA[ Classic ML to Cope with Dumb LLM Judges Doug Turnbull shows how to combine many “dumb” single-attribute LLM judges into a smarter relevance prediction by treating their outputs as features for a classical ML decision tree classifier. ]]></description>
+    <pubDate>Sat, 30 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Context Engineering</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Context-Engineering</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Context-Engineering</guid>
-    <description><![CDATA[ Context Engineering Context engineering is the process of deciding which information from all available context sources actually enters the LLM’s context window so the model can generate the best response. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>Search Quality Assurance with AI as a Judge</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Search-Quality-Assurance-with-AI-as-a-Judge</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Search-Quality-Assurance-with-AI-as-a-Judge</guid>
+    <description><![CDATA[ Search Quality Assurance with AI as a Judge Tao Ruangyam (Zalando) describes how Zalando built a production LLM-as-a-judge pipeline to evaluate search quality at scale — with high coverage, multi-language support, and no hand-crafted test cases. ]]></description>
+    <pubDate>Sat, 30 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>RAG</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/RAG</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/RAG</guid>
-    <description><![CDATA[ RAG (Retrieval-Augmented Generation) Definition RAG combines a retrieval system with a generative language model. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>This Is What Agentic Retrieval Looks Like</title>
+    <link>https://frutik.github.io/awesome-search/Articles/This-Is-What-Agentic-Retrieval-Looks-Like</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/This-Is-What-Agentic-Retrieval-Looks-Like</guid>
+    <description><![CDATA[ This Is What Agentic Retrieval Looks Like Jo Kristian Bergum (Hornet) analyzes 19,279 search calls made by GPT-5 during BrowseComp-Plus benchmark runs to characterize the agentic query workload. ]]></description>
+    <pubDate>Sat, 30 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Leonie Monigatti</title>
-    <link>https://frutik.github.io/awesome-search/People/Leonie-Monigatti</link>
-    <guid>https://frutik.github.io/awesome-search/People/Leonie-Monigatti</guid>
-    <description><![CDATA[ Leonie Monigatti Developer advocate / ML engineer at Elastic. Writes about agentic search, context engineering, and RAG. ]]></description>
-    <pubDate>Fri, 29 May 2026 06:28:26 GMT</pubDate>
+    <title>What AI Engineers Should Know about Search</title>
+    <link>https://frutik.github.io/awesome-search/Articles/What-AI-Engineers-Should-Know-about-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/What-AI-Engineers-Should-Know-about-Search</guid>
+    <description><![CDATA[ What AI Engineers Should Know about Search Doug Turnbull provides a 58-point primer for AI engineers entering the search domain — covering lexical search fundamentals (BM25, tokenization, phrase search), relevance evaluation and judgment methodology, query understanding pipelines, and Learning to Ra... ]]></description>
+    <pubDate>Sat, 30 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

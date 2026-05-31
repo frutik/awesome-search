@@ -1,18 +1,19 @@
 ---
 title: "Jo Kristian Bergum"
-aliases: []
-role: "Chief Scientist"
-affiliation: "Vespa AI"
+aliases: ["jobergum"]
+role: "Co-founder"
+affiliation: "Hornet"
+former_affiliation: "Vespa AI"
+website: "https://hornet.dev"
 tags:
   - person
   - search
+created: 2026-05-15
 ---
 
 # Jo Kristian Bergum
 
-## Background
-
-Jo Kristian Bergum is Chief Scientist at Vespa AI, responsible for research and engineering on Vespa's AI-powered search and retrieval capabilities. He authored the announcement of the native ColBERT embedder in Vespa.
+Co-founder of [[Hornet]], a retrieval infrastructure company focused on agentic AI systems. Formerly Chief Scientist at [[Vespa]] AI, where he led research on AI-powered search and retrieval, including the native ColBERT embedder and LLM-as-judge work.
 
 ## Articles in This Vault
 
@@ -20,12 +21,14 @@ Jo Kristian Bergum is Chief Scientist at Vespa AI, responsible for research and 
 - [[Using Approximate Nearest Neighbor Search to Find Similar Products]]
 - [[E-commerce Search and Recommendation with Vespa]]
 - [[Improving retrieval with LLM-as-a-judge]]
+- [[This Is What Agentic Retrieval Looks Like]] — Hornet; GPT-5 query behavior analysis on BrowseComp-Plus
 
 ## Key Contributions
 
 - Native [[ColBERT]] embedder in Vespa with 32x asymmetric compression
-- Asymmetric binarization (float queries, int8 documents)
-- Integration of late-interaction with hybrid search pipelines
+- Asymmetric binarization (float queries, int8 documents) for late interaction at scale
+- LLM-as-judge retrieval evaluation framework (Vespa)
+- Characterization of agentic query workload: long queries, web-search operators, multi-turn compounding (Hornet)
 
 ## Concepts
 
@@ -33,3 +36,5 @@ Jo Kristian Bergum is Chief Scientist at Vespa AI, responsible for research and 
 - [[Late Interaction]]
 - [[Dense Vector Retrieval]]
 - [[Hybrid Search]]
+- [[Agentic Retrieval]]
+- [[LLM as Judge]]

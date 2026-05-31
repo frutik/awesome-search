@@ -6,7 +6,15 @@ tags:
 created: 2026-05-15
 ---
 
-# Awesome Search 2
+ # Awesome Search — Information Retrieval & Search Knowledge Graph
+ 
+ Hello, I am [Andrew](https://www.linkedin.com/in/andriy-kornilov).
+
+I've been building e-commerce search applications for 15+ years. Over that time, I've collected and connected ideas from publications, conference talks, books, research papers, blog posts, and practitioners across the information retrieval ecosystem.
+
+This knowledge graph maps many of the resources that have influenced my thinking, organized by topic and interconnected through shared concepts. Because search is inherently multidisciplinary, many resources are linked to multiple areas of the graph, reflecting how ideas from ranking, relevance, user behavior, machine learning, evaluation, and system design often overlap.
+
+⭐ Star us on GitHub — it helps!
 
 Semantic knowledge graph built from the [Awesome Search](https://github.com/frutik/awesome-search) curated list. Contains article notes, concept notes, topic notes, people notes, case study notes, and company nodes connected by wikilinks.
 
@@ -33,7 +41,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]]
+[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Synonyms]] · [[Spelling Correction]] · [[Autocomplete]] · [[Faceted Search]] · [[Zero Results]] · [[Collocations]] · [[Query Relaxation]]
@@ -54,14 +62,14 @@ Practice-oriented guides — how to DO or deal with something in search.
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]]
 
 **End Users**
 [[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]]
 
 ## Case Studies
 
-[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Message Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]]
+[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]]
 
 ## Key People
 
@@ -69,11 +77,13 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Stats
 
-- **~123+** article notes
-- **~72** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
+- **~127+** article notes
+- **~77** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
 - **15** topic notes (incl. Understaffed Search Team)
-- **~38** people notes
+- **~39** people notes
 - **8** case study notes
 - **28** company nodes
 - **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)
 - **6** Maps of Content
+
+See [[History]] for the full note-addition log.
