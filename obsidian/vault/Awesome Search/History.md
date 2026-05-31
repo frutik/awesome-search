@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-05-31 — LLM Judges, Agentic Retrieval & Bias Concepts (~20 notes)
+
+**Articles** — [[Classic ML to Cope with Dumb LLM Judges]] (by [[Doug Turnbull]], published 2025-01-21), [[What AI Engineers Should Know about Search]] (by [[Doug Turnbull]], published 2024-06-25), [[Search Quality Assurance with AI as a Judge]] (by [[Tao Ruangyam]] at [[Zalando]], published 2026-03-17), [[This Is What Agentic Retrieval Looks Like]] (by [[Jo Kristian Bergum]] at [[Hornet]], published 2026-05-20), [[Agentic Search for Context Engineering]] (by [[Leonie Monigatti]] at [[Elastic]], published 2026-05-27).
+
+**Concepts** — [[LLM as Judge]], [[Pointwise Relevance Evaluation]], [[Pairwise Relevance Evaluation]], [[Listwise Relevance Evaluation]], [[Position Bias]], [[Presentation Bias]], [[Relevance Feedback]], [[Context Engineering]].
+
+**Companies** — [[Hornet]] (agentic retrieval infrastructure), [[Zalando]] (European fashion e-commerce).
+
+**People** — [[Jo Kristian Bergum]] (Hornet co-founder, former Vespa AI Chief Scientist), [[Tao Ruangyam]] (Zalando search engineering), [[Leonie Monigatti]] (Elastic developer advocate).
+
+**Topics** — [[Search Quality Assurance]] and [[Conversational and Agentic Search]] expanded.
+
+---
+
 ## 2026-05-28 — Topic Expansion (1 note)
 
 **Topics** — [[Enterprise Search]] — new topic page covering enterprise-specific search challenges, internal knowledge bases, and vendor landscape.
@@ -81,6 +95,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-05-31 | ~20 | ~293 |
 | 2026-05-28 | 1 | ~273 |
 | 2026-05-26 | 2 | ~272 |
 | 2026-05-19 | ~9 | ~270 |
