@@ -1,9 +1,34 @@
 ---
 type: topic
-aliases: ["search engine", "search backend", "search infrastructure", "vector database", "search platform"]
-tags: [topic, search-platforms, elasticsearch, solr, vespa, qdrant, weaviate, algolia, pinecone, opensearch]
-related_concepts: ["[[Hybrid Search]]", "[[BM25]]", "[[Vector Search]]", "[[Inverted Index]]", "[[HNSW]]", "[[Sparse Embeddings]]"]
-related_topics: ["[[E-commerce Search]]", "[[Enterprise Search]]", "[[Conversational and Agentic Search]]"]
+aliases:
+  - search engine
+  - search backend
+  - search infrastructure
+  - vector database
+  - search platform
+tags:
+  - topic
+  - search-platforms
+  - elasticsearch
+  - solr
+  - vespa
+  - qdrant
+  - weaviate
+  - algolia
+  - pinecone
+  - opensearch
+  - search-engine
+related_concepts:
+  - "[[Hybrid Search]]"
+  - "[[BM25]]"
+  - "[[Vector Search]]"
+  - "[[Inverted Index]]"
+  - "[[HNSW]]"
+  - "[[Sparse Embeddings]]"
+related_topics:
+  - "[[E-commerce Search]]"
+  - "[[Enterprise Search]]"
+  - "[[Conversational and Agentic Search]]"
 created: 2026-05-31
 ---
 
@@ -56,6 +81,7 @@ Fully managed, proprietary offerings where the engine is not available for self-
 Some platforms are not general-purpose search engines but focus on a specific domain or problem layer, typically sitting on top of an underlying engine.
 
 - **[[searchHub]]** ([[Andreas Wagner]]) — e-commerce-focused SaaS platform for search optimization and query understanding. Covers query rewriting, A/B testing, analytics, and spell correction (SmartQuery). Also released the Open Commerce Search Stack (OCSS) as an open-source reference implementation for retail search. See [[Three Pillars of Search Quality - Findability]] and [[Common Pitfalls of Onsite Search Experimentation]].
+- **[[Hornet]]** ([[Jo Kristian Bergum]], [[Lester Solbakken]]) — retrieval infrastructure platform purpose-built for AI agents. Focuses on high-precision context delivery for agentic workloads, where query patterns differ fundamentally from human search (longer queries, web-search operators, multi-turn compounding). See [[This Is What Agentic Retrieval Looks Like]] and [[Mutually Assured Distraction]].
 - **Empathy.co** — e-commerce search and discovery platform; SaaS, focused on search UX, analytics, and personalization.
 - **Constructor.io** — SaaS product discovery platform for e-commerce; combines search, recommendations, and browse with ML-driven ranking.
 
@@ -75,3 +101,4 @@ Some platforms are not general-purpose search engines but focus on a specific do
 - [[Enterprise Search]] — enterprise teams frequently operate Elasticsearch or Vespa at scale
 - [[Hybrid Search Blueprint Series Semantic Boosting]] — hybrid retrieval patterns that span Lucene and vector platforms
 - [[From Elasticsearch to Vespa Rebuilding the Kleinanzeigen Homepage Feed — Part 1]] — real migration case study
+- [[Conversational and Agentic Search]] — agentic workloads impose distinct retrieval requirements; Hornet is built specifically for this use case
