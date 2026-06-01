@@ -59,7 +59,8 @@ Key capabilities:
 ## Related Tools
 - **[[Qdrant Vector DB]]** — purpose-built vector DB; stronger quantization
 - **[[Weaviate Vector DB]]** — vector DB with native reranking pipeline
-- **OpenSearch** — AWS fork of Elasticsearch
+- **[[OpenSearch]]** — AWS fork of Elasticsearch; Apache 2.0 licensed
+- **[[Elasticsearch vs OpenSearch]]** — licensing, performance, and feature comparison
 
 ## Related Concepts
 - [[BM25]] — default scoring model

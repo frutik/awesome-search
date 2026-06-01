@@ -1245,7 +1245,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-05-31T21:04:43.980Z</lastmod>
+    <lastmod>2026-06-01T04:51:50.808Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1400,6 +1400,9 @@
     <loc>https://frutik.github.io/awesome-search/Tools/Elasticsearch</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/OpenSearch</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/Qdrant-Vector-DB</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
@@ -1429,6 +1432,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Economics-of-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Elasticsearch-vs-OpenSearch</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Enterprise-Search</loc>
     <lastmod>2026-05-27T22:00:00.000Z</lastmod>

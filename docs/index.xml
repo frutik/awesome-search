@@ -10,7 +10,19 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sun, 31 May 2026 21:04:43 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 04:51:50 GMT</pubDate>
+  </item><item>
+    <title>OpenSearch</title>
+    <link>https://frutik.github.io/awesome-search/Tools/OpenSearch</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/OpenSearch</guid>
+    <description><![CDATA[ OpenSearch Open-source distributed search and analytics engine forked from Elasticsearch 7.10.2 in 2021 by AWS, after Elastic changed its license from Apache 2.0 to SSPL/Elastic License. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Elasticsearch vs OpenSearch</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Elasticsearch-vs-OpenSearch</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Elasticsearch-vs-OpenSearch</guid>
+    <description><![CDATA[ Elasticsearch vs OpenSearch Origin: The 2021 Fork OpenSearch was born in 2021 when AWS forked Elasticsearch 7.10.2 — the last version under Apache 2.0 — after Elastic changed its license to SSPL/Elastic License to protect against cloud providers (primarily AWS) running Elasticsearch as a managed ser... ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
@@ -52,18 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</guid>
     <description><![CDATA[ Pairwise Relevance Evaluation Definition A relevance judgment method where an evaluator (human or LLM) is shown two candidates side-by-side — conventionally called LHS (left-hand side) and RHS (right-hand side) — and asked which is more relevant to a given query. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
-  </item><item>
-    <title>Pointwise Relevance Evaluation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Pointwise-Relevance-Evaluation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Pointwise-Relevance-Evaluation</guid>
-    <description><![CDATA[ Pointwise Relevance Evaluation Definition A relevance judgment method where each (query, document) pair is scored independently, without reference to other candidates. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
-  </item><item>
-    <title>Position Bias</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Position-Bias</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Position-Bias</guid>
-    <description><![CDATA[ Position Bias Definition Position bias is the tendency for users to click on higher-ranked search results independent of their actual relevance — simply because they appear earlier. ]]></description>
     <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
   </item>
     </channel>

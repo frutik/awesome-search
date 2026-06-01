@@ -7,6 +7,28 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-01 — History Audit & Comprehensive Catch-Up (~175 notes)
+
+Catch-up log — notes present in the vault but not individually recorded in prior entries (initial import, May 16 batch, and later additions).
+
+**Articles** — [[RRF is Not Enough]] (by [[Doug Turnbull]], 2024-11-03), [[Agentic search models]] (by [[Doug Turnbull]], 2026-05-11), [[Agents turn simple keyword search into compelling search experiences]] (by [[Doug Turnbull]]), [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] (TIGER-Lab, 2026-05-08), [[Superintelligent Retrieval Agent SIRA]] (Meta / Rice University, 2026), [[You Say Search I Say Recs - Spotify Agentic Query Understanding]] (Spotify Research, 2025), [[Qwen3 Embedding Series]] (Alibaba Qwen Team, 2025-06-05), [[Fine-Tuning Qwen3 Embeddings for Product Category Classification]], [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] (by [[Aparna Dhinakaran]], 2025-08-20), [[Incremental AI Adoption for E-commerce Search]] (2026-01-18), [[On Search Leadership]] (by [[Daniel Tunkelang]]), [[Canva Search Pipeline Part I]], [[Bayesian BM25 is Cool]], [[Can BM25 be a Probability]], [[Broad and Ambiguous Search Queries]], [[Click Residual - A Query Success Metric]], [[Deconstructing E-Commerce Search - The 12 Query Types]], [[Diversity Metrics for Recommender Systems]], [[Ecommerce Search Governance - Move Faster Not Slower]], [[How Context-Aware Embeddings Are Transforming Enterprise Search]], [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]], [[LLM-Powered Query Extraction for Autocomplete]], [[Metadata - The 3rd Kind of Retrieval]], [[Mirror Mirror - All About Search Suggestions]], [[Mutually Assured Distraction]], [[My Journey Building Elasticsearch for Retail]], [[Patterns for Personalization]], [[Probability-Proportional-to-Size Sampling for Relevance Evaluation]], [[Real Talk About Synonyms and Search]], [[Searching for Goldilocks]], [[Session vs Query based Search Evals]], [[Statistical and Human-Centered Approaches to Search Improvement]], [[Three Pillars of Search Quality - Findability]], [[Three Pillars of Search Quality - Discovery and Inspiration]], [[Autosuggest Ranking]], [[Autosuggest Retrieval Data Structures and Algorithms]].
+
+**New Section — Case Studies** (9 notes) — [[Airbnb - ML-Powered Experiences Ranking]], [[Canva - Search Pipeline Modernization]], [[Etsy - Search Quality and Query Understanding]], [[Kleinanzeigen - Vespa Migration for Homepage Feed]], [[Netflix - Content Search Architecture]], [[Skyscanner - Learning to Rank for Flights]], [[Slack - Enterprise Message Search with LTR]], [[Uber Eats - Scaling Search for Food Delivery]], [[Zalando - Self-DoS via Facet Aggregation]]. Structured use-case notes synthesising engineering lessons from each company's published work.
+
+**New Section — Datasets** (4 notes) — [[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[WANDS Dataset]]. Benchmark datasets for search relevance evaluation.
+
+**Concepts** — [[Bag-of-Documents Model]], [[Clean Context]], [[Click Signals]], [[Direct Corpus Interaction]], [[GGUF]], [[Hit Rate at K]], [[Intent Drift]], [[IVF]], [[LoRA]], [[PEFT]], [[QLoRA]], [[SIRA]], [[Session-Based Evaluation]], [[Task-Aware Embeddings]], [[Token Pooling]], [[UDCG]], [[WAND]].
+
+**People** — [[Omar Khattab]] (Stanford, ColBERT author), [[Aparna Dhinakaran]] (Arize AI), [[Thibault Formal]] (SPLADE co-author), [[Stéphane Clinchant]] (SPLADE co-author), [[Antoine Chaffin]], [[Florent Krzakala]], [[Han Xiao]] (Jina AI), [[James Briggs]], [[Shaw Talebi]], [[Matei Zaharia]] (Databricks / MLflow), [[Laura Ham]] (Weaviate), [[Marianne Haugvaldstad]], [[Lester Solbakken]], [[Brage Vik]], [[Rudolf Batt]], [[Nicolò Rinaldi]], [[Luca Arnaboldi]], [[Hugo Galvão]], [[Honza Král]], [[Jodi Sloan]], [[Michael Ryaboy]], [[Michael Hannecke]], [[Peter Straßer]], [[Siegfried Schüle]], [[Andrea Schütt]], [[Andreas Wagner]], [[Alexander Marquardt]], [[Amélie Chatelain]], [[Asif Makhani]], [[Benjamin Trent]], [[Dai Sugimori]], [[Daniel Doro]], [[David Argüello Sánchez]], [[Dima Kan]], [[Dmitriy Meyerzon]], [[Jaideep Ray]], [[Maryna Kryvko]], [[Prateek Chandra Jha]], [[Ravindra Harige]], [[Taylor Roy]], [[Trey Grainger]].
+
+**Companies** — [[Empathy]], [[Jina AI]], [[LightOn AI]], [[Meta]], [[Sease]], [[searchHub]], [[Shopify]].
+
+**Topics** — [[Elasticsearch vs OpenSearch]], [[Multilingual Search]], [[Personalization in Search]], [[Relevance Program Setup]], [[Search Platforms]], [[Search UX]], [[Spelling Correction in Search]].
+
+**Tools** — [[OpenSearch]].
+
+---
+
 ## 2026-05-31 — LLM Judges, Agentic Retrieval & Bias Concepts (~20 notes)
 
 **Articles** — [[Classic ML to Cope with Dumb LLM Judges]] (by [[Doug Turnbull]], published 2025-01-21), [[What AI Engineers Should Know about Search]] (by [[Doug Turnbull]], published 2024-06-25), [[Search Quality Assurance with AI as a Judge]] (by [[Tao Ruangyam]] at [[Zalando]], published 2026-03-17), [[This Is What Agentic Retrieval Looks Like]] (by [[Jo Kristian Bergum]] at [[Hornet]], published 2026-05-20), [[Agentic Search for Context Engineering]] (by [[Leonie Monigatti]] at [[Elastic]], published 2026-05-27).
@@ -95,6 +117,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-01 | ~175 | ~468 |
 | 2026-05-31 | ~20 | ~293 |
 | 2026-05-28 | 1 | ~273 |
 | 2026-05-26 | 2 | ~272 |
