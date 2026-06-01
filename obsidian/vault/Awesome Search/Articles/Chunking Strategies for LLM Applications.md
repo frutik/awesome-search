@@ -8,6 +8,7 @@ tags:
   - rag
   - embeddings
   - llm
+  - company-blog
 concepts:
   - Text Chunking
   - RAG

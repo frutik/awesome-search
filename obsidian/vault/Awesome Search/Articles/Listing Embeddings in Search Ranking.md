@@ -6,6 +6,7 @@ tags:
   - embeddings
   - personalization
   - case-study
+  - medium
 source: "https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e"
 author: "Mihajlo Grbovic, Haibin Cheng, Qing Zhang, Lynn Yang, Phillippe Siclait, Matt Jones"
 created: 2026-05-15

@@ -3,7 +3,7 @@ title: "Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant"
 source: "https://www.elastic.co/search-labs/blog/elasticsearch-bbq-osq-vs-turbo"
 author: "[[Thomas Veasey]]"
 published: 2026-04-09
-tags: [vector-search, quantization, BBQ, OSQ, TurboQuant, CPU-search, embeddings]
+tags: [vector-search, quantization, BBQ, OSQ, TurboQuant, CPU-search, embeddings, company-blog]
 ---
 
 # Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant

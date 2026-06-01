@@ -6,6 +6,7 @@ tags:
   - search
   - relevance
   - evaluation
+  - company-blog
 source: "https://opensourceconnections.com/blog/2017/03/08/what-is-relevant/"
 author: "Doug Turnbull"
 created: 2026-05-15

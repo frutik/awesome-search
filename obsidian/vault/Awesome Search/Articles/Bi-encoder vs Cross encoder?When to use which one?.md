@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "More"
 tags:
   - "clippings"
+  - medium
 ---
 **Bi-encoder and cross-encoder** are two different approaches to designing models for natural language understanding tasks, particularly in the context of information retrieval and similarity search.
 

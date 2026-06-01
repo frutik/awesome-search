@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "A comprehensive framework for search evaluation: from traditional precision/recall metrics to session-level, multi-session, and system-level evaluation perspectives."
 tags:
   - clippings
+  - medium
 ---
 # Measuring Search Effectiveness
 

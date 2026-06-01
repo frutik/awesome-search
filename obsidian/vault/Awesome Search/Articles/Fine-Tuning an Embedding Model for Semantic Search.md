@@ -9,6 +9,7 @@ tags:
   - embedding
   - fine-tuning
   - sentence-transformers
+  - medium
 concepts:
   - Embedding Fine-tuning
   - Semantic Search

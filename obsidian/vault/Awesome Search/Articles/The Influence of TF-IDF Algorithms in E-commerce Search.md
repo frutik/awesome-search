@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, tf-idf, bm25, e-commerce, relevance, ranking]
+tags: [article, tf-idf, bm25, e-commerce, relevance, ranking, medium]
 source: "https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662"
 author: [David Argüello Sánchez]
 company: [Empathy]

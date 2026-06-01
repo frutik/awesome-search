@@ -3,7 +3,7 @@ title: "Qwen3 Embedding Series"
 source: "https://qwen.ai/blog?id=qwen3-embedding"
 author: "Qwen Team (Alibaba)"
 published: 2025-06-05
-tags: [embeddings, reranking, Qwen3, multilingual, MTEB, MRL]
+tags: [embeddings, reranking, Qwen3, multilingual, MTEB, MRL, company-blog]
 ---
 
 # Qwen3 Embedding Series

@@ -9,6 +9,7 @@ tags:
   - agentic-search
   - context-engineering
   - retrieval
+  - medium
 ---
 
 # Agentic Search for Context Engineering

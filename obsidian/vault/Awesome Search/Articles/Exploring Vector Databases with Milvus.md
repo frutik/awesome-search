@@ -9,6 +9,7 @@ tags:
   - vector-database
   - milvus
   - architecture
+  - medium
 concepts:
   - HNSW
   - IVF

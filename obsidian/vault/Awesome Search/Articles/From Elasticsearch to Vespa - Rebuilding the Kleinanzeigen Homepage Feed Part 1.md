@@ -1,7 +1,7 @@
 ---
 title: "From Elasticsearch to Vespa: Rebuilding the Kleinanzeigen Homepage Feed — Part 1"
 type: article
-tags: [article, vespa, personalization, wand, homepage-feed, e-commerce, case-study]
+tags: [article, vespa, personalization, wand, homepage-feed, e-commerce, case-study, medium]
 source: "https://medium.com/berlin-tech-blog/from-elasticsearch-to-vespa-rebuilding-the-kleinanzeigen-homepage-feed-part-1-b6164e366ab8"
 author:
   - "[[Andre Charton]]"

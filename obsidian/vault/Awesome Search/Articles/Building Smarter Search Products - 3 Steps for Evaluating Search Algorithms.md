@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, evaluation, ab-testing, shopify, offline-metrics, annotation]
+tags: [article, evaluation, ab-testing, shopify, offline-metrics, annotation, company-blog]
 source: "https://shopify.engineering/evaluating-search-algorithms"
 author: [[[Jodi Sloan]]]
 company: [Shopify]

@@ -7,6 +7,7 @@ tags:
   - search-evaluation
   - human-judgment
   - annotation
+  - medium
 concepts:
   - Judgment Lists
   - Search Evaluation

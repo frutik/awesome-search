@@ -9,6 +9,7 @@ tags:
   - bedrock
   - rag
   - semantic-search
+  - company-blog
 concepts:
   - RAG
   - Dense Vector Retrieval

@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Why A/B testing alone is insufficient for search evaluation — human judgment is an essential counterbalance that reveals why changes work, not just what users did."
 tags:
   - clippings
+  - medium
 ---
 # Measuring Search, A Human Approach
 

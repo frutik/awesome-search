@@ -5,7 +5,7 @@ arxiv: "2605.05242"
 author: []
 published: 2026-05-08
 institution: "TIGER-Lab"
-tags: [agentic-search, direct-corpus-interaction, retrieval, grep, multi-hop-QA, BEIR, BRIGHT]
+tags: [agentic-search, direct-corpus-interaction, retrieval, grep, multi-hop-QA, BEIR, BRIGHT, company-blog]
 ---
 
 # Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction

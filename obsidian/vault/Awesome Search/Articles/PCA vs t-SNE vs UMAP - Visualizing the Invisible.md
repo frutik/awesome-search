@@ -5,7 +5,7 @@ source: "https://medium.com/@laakhanbukkawar/pca-vs-t-sne-vs-umap-visualizing-th
 author:
   - "[[Lakhan Bukkawar]]"
 published: 2025-05-05
-tags: [article, dimensionality-reduction, PCA, t-SNE, UMAP, visualization, embeddings]
+tags: [article, dimensionality-reduction, PCA, t-SNE, UMAP, visualization, embeddings, medium]
 concepts:
   - Dimensionality Reduction
   - PCA

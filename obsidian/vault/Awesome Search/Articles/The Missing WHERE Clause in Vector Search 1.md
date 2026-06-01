@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Why metadata filtering in vector search is hard, two traditional approaches (pre-filtering, post-filtering), and Pinecone's single-stage solution merging vector and metadata indexes."
 tags:
   - clippings
+  - company-blog
 ---
 # The Missing WHERE Clause in Vector Search
 

@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "A bag-of-documents approach to query embedding: represent queries as distributions over relevant documents, distilling a complex hybrid+reranking pipeline into a single fine-tuned encoder."
 tags:
   - clippings
+  - medium
 ---
 # Distilling Retrieval Pipelines to a Single Embedding Model
 

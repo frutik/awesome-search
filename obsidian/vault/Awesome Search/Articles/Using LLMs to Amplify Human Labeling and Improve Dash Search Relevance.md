@@ -4,7 +4,7 @@ source: "https://dropbox.tech/machine-learning/llm-human-labeling-improving-sear
 author: "[[Dmitriy Meyerzon]]"
 published: 2026-02-26
 company: "[[Dropbox]]"
-tags: [LLM-as-judge, relevance-labeling, search-ranking, RAG, DSPy, human-labeling, enterprise-search]
+tags: [LLM-as-judge, relevance-labeling, search-ranking, RAG, DSPy, human-labeling, enterprise-search, company-blog]
 ---
 
 # Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance

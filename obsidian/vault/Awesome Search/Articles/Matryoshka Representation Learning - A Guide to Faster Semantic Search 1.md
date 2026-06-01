@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Practical guide to MRL-powered semantic search: two-phase filtering with shortened embeddings achieves ~10x speedup on a 45K movie dataset."
 tags:
   - clippings
+  - medium
 ---
 # Matryoshka Representations: A Guide to Faster Semantic Search
 

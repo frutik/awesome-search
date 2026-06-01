@@ -6,6 +6,7 @@ tags:
   - search
   - evaluation
   - metrics
+  - medium
 source: "https://medium.com/towards-data-science/click-residual-a-query-success-metric"
 author: "Ted Underwood"
 created: 2026-05-15

@@ -8,6 +8,7 @@ tags:
   - matryoshka
   - huggingface
   - machine-learning
+  - company-blog
 concepts:
   - Matryoshka Embeddings
   - Embedding Fine-tuning

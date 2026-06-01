@@ -6,6 +6,7 @@ tags:
   - search-team
   - process
   - evaluation
+  - medium
 source: "https://jamesrubinstein.medium.com/the-launch-review-bringing-it-all-together-2f7e4cfbf86e"
 author: "James Rubinstein"
 created: 2026-05-15

@@ -5,6 +5,7 @@ tags:
   - search
   - spelling-correction
   - case-study
+  - company-blog
 source: "https://codeascraft.com/2017/05/01/modeling-spelling-correction-for-search-at-etsy/"
 author: "Etsy Engineering"
 created: 2026-05-15

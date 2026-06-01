@@ -3,7 +3,7 @@ title: "Wormhole Vectors: Beyond Hybrid Search in OpenSearch"
 source: "https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors"
 author: "[[Dima Kan]]"
 published: 2025-12-15
-tags: [hybrid-search, wormhole-vectors, semantic-knowledge-graph, opensearch, vector-search]
+tags: [hybrid-search, wormhole-vectors, semantic-knowledge-graph, opensearch, vector-search, company-blog]
 ---
 
 # Wormhole Vectors: Beyond Hybrid Search in OpenSearch

@@ -8,6 +8,7 @@ tags:
   - ndcg
   - err
   - metrics
+  - company-blog
 concepts:
   - NDCG
   - Search Evaluation

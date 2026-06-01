@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "How MMR solves the keyphrase redundancy problem — selecting keyphrases that are both query-relevant and novel relative to already-selected phrases."
 tags:
   - clippings
+  - medium
 ---
 # Maximal Marginal Relevance for Keyphrase Extraction
 

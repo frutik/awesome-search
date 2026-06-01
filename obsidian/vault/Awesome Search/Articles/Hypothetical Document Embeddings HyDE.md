@@ -8,6 +8,7 @@ tags:
   - rag
   - embeddings
   - query-expansion
+  - company-blog
 concepts:
   - Hypothetical Document Embeddings
   - RAG

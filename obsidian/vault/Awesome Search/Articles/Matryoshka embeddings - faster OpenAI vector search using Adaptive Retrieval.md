@@ -9,6 +9,7 @@ created: 2026-05-15
 description: "How OpenAI's text-embedding-3 models use MRL to support shortened embeddings, and how Adaptive Retrieval achieves 99% accuracy with significant speed gains using pgvector."
 tags:
   - clippings
+  - company-blog
 ---
 # Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval
 

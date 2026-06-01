@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "A framework dividing query understanding into three stages: holistic understanding, reductionist understanding, and resolution."
 tags:
   - clippings
+  - medium
 ---
 
 # Query Understanding, Divided into Three Parts

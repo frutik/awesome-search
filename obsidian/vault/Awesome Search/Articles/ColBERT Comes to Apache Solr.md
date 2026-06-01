@@ -4,7 +4,7 @@ source: "https://sease.io/2026/04/late-interaction-comes-to-solr-implementation-
 author: "[[Nicolò Rinaldi]]"
 published: 2026-04-02
 company: "[[Sease]]"
-tags: [colbert, solr, late-interaction, reranking, neural-ir]
+tags: [colbert, solr, late-interaction, reranking, neural-ir, company-blog]
 ---
 
 # ColBERT Comes to Apache Solr: Implementation and Tutorial of Late Interaction Model Reranking

@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "How Carousell migrated from a custom Lucene-based vector search engine (Carolene) to Elasticsearch with dense vector support — architecture, pitfalls, and production results."
 tags:
   - clippings
+  - medium
 ---
 # Migrating to Elasticsearch with dense vector for Carousell Spotlight
 

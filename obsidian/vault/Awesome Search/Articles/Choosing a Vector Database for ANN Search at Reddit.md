@@ -10,6 +10,7 @@ tags:
   - ann
   - case-study
   - evaluation
+  - medium
 concepts:
   - HNSW
   - Hybrid Search

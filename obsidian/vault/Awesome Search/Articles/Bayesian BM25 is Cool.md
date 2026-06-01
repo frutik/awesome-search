@@ -6,6 +6,7 @@ tags:
   - search
   - ranking
   - bm25
+  - company-blog
 source: "https://opensourceconnections.com/blog/2021/09/02/bayesian-bm25-is-cool/"
 author: "Doug Turnbull"
 created: 2026-05-15

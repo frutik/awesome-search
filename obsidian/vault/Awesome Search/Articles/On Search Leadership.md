@@ -5,6 +5,7 @@ tags:
   - search
   - search-team
   - leadership
+  - medium
 source: "https://dtunkelang.medium.com/on-search-leadership-815b36c15df1"
 author: "Daniel Tunkelang"
 created: 2026-05-15

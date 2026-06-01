@@ -7,6 +7,7 @@ tags:
   - agentic-search
   - search
   - ai-agents
+  - medium
 concepts:
   - Agentic Search
   - Bag-of-Documents Model

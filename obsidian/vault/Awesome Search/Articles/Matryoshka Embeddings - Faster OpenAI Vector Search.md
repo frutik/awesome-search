@@ -8,6 +8,7 @@ tags:
   - matryoshka
   - vector-search
   - performance
+  - company-blog
 concepts:
   - Matryoshka Embeddings
   - Dense Vector Retrieval

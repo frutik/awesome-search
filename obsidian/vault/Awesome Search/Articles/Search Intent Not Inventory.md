@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Argues that e-commerce search should center on understanding customer intent rather than matching inventory, contrasting physical retail interactions with inventory-centric digital search."
 tags:
   - clippings
+  - medium
 ---
 
 # Search: Intent, Not Inventory

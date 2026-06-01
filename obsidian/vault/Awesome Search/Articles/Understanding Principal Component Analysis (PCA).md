@@ -5,7 +5,7 @@ source: "https://medium.com/@roshmitadey/understanding-principal-component-analy
 author:
   - "[[Roshmita Dey]]"
 published: 2023-10-06
-tags: [article, dimensionality-reduction, PCA, linear-algebra, machine-learning]
+tags: [article, dimensionality-reduction, PCA, linear-algebra, machine-learning, medium]
 concepts:
   - PCA
   - Dimensionality Reduction

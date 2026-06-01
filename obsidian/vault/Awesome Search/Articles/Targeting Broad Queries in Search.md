@@ -5,6 +5,7 @@ tags:
   - search
   - query-understanding
   - case-study
+  - company-blog
 source: "https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/"
 author: "Etsy Engineering"
 created: 2026-05-15

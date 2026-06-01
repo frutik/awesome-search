@@ -6,7 +6,7 @@ author:
   - "[[Alexander Shereshevsky]]"
 published: 2026-04-11
 created: 2026-05-17
-tags: [article, obsidian, knowledge-graph, claude-code, graph-analysis]
+tags: [article, obsidian, knowledge-graph, claude-code, graph-analysis, medium]
 concepts:
   - "[[Knowledge Graph Search]]"
   - "[[Graph Centrality]]"

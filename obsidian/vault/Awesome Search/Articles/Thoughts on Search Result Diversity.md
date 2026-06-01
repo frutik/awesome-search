@@ -1,12 +1,15 @@
 ---
-title: "Thoughts on Search Result Diversity"
-aliases: ["Search Result Diversity", "Tunkelang Diversity"]
+title: Thoughts on Search Result Diversity
+aliases:
+  - Search Result Diversity
+  - Tunkelang Diversity
 tags:
   - clippings
   - search
   - diversity
-source: "https://queryunderstanding.com/thoughts-on-search-result-diversity-a6d2f2de1a99"
-author: "Daniel Tunkelang"
+  - medium
+source: https://dtunkelang.medium.com/thoughts-on-search-result-diversity-1df54cb5bf4a
+author: Daniel Tunkelang
 created: 2026-05-15
 concepts:
   - Diversity Metrics
@@ -16,7 +19,7 @@ concepts:
 
 # Thoughts on Search Result Diversity
 
-**Source:** https://queryunderstanding.com/thoughts-on-search-result-diversity-a6d2f2de1a99
+**Source:** https://dtunkelang.medium.com/thoughts-on-search-result-diversity-1df54cb5bf4a
 **Author:** [[Daniel Tunkelang]]
 
 ## Summary

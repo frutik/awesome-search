@@ -23,6 +23,7 @@ tags:
   - search-evaluation
   - e-commerce
   - zalando
+  - company-blog
 ---
 
 # Search Quality Assurance with AI as a Judge

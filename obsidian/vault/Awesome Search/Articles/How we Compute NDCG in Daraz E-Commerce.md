@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Daraz's (Alibaba Group) NDCG implementation for e-commerce search — using purchase/cart/click relevance weights, top-10 evaluation, and Python/SQL implementation."
 tags:
   - clippings
+  - medium
 ---
 # How we Compute NDCG in Daraz (E-Commerce)
 

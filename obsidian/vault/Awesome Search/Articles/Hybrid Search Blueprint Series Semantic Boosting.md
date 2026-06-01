@@ -14,6 +14,7 @@ tags:
   - semantic-boosting
   - vector-search
   - mongodb
+  - medium
 concepts:
   - Semantic Boosting
   - Hybrid Search

@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "How to build domain-specific retrieval evaluation datasets using calibrated LLM judges — covering query sampling, document pooling, LLM calibration against human labels, and scaling to thousands of judgments."
 tags:
   - clippings
+  - company-blog
 ---
 # Improving Retrieval with LLM-as-a-Judge
 

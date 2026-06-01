@@ -6,6 +6,7 @@ tags:
   - ranking
   - diversity
   - case-study
+  - company-blog
 source: "https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/"
 author: "Etsy Engineering"
 created: 2026-05-15

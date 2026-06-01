@@ -8,6 +8,7 @@ tags:
   - rag
   - task-aware
   - retrieval
+  - medium
 concepts:
   - Task-Aware Embeddings
   - RAG

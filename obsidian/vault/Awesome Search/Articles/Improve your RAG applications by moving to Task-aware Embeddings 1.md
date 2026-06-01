@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Task-aware embeddings use instruction-following LLMs to encode both task and query, making query embeddings dynamic while keeping passage embeddings static — enabling a single model for multiple tasks."
 tags:
   - clippings
+  - medium
 ---
 # Improve your RAG applications by moving to Task-aware Embeddings
 

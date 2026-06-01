@@ -7,6 +7,7 @@ tags:
   - bert
   - dense-retrieval
   - embeddings
+  - company-blog
 source: "https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/"
 author: "Max Irwin"
 created: 2026-05-15

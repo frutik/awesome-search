@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Details the Crocodile Model—a BiLSTM-CRF architecture for search query tagging—and its deployment using TensorFlow Serving."
 tags:
   - clippings
+  - medium
 ---
 
 # Understanding the Search Query — Part II

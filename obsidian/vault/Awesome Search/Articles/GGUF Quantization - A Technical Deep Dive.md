@@ -3,7 +3,7 @@ title: "GGUF Optimization: A Technical Deep Dive (Parts 1 & 2)"
 source: "https://medium.com/@michael.hannecke/gguf-optimization-a-technical-deep-dive-for-practitioners-ce84c8987944"
 author: "[[Michael Hannecke]]"
 published: 2025-12-05
-tags: [GGUF, quantization, LLM, llama-cpp, local-inference, model-compression]
+tags: [GGUF, quantization, LLM, llama-cpp, local-inference, model-compression, medium]
 ---
 
 # GGUF Quantization: A Technical Deep Dive

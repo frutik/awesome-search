@@ -5,6 +5,7 @@ tags:
   - search
   - case-study
   - ranking
+  - company-blog
 source: "https://slack.engineering/search-at-slack-431f8c80619e"
 author: "[[Isabella Tromba]], John Gallagher, Jason Liszka"
 created: 2026-05-15

@@ -5,7 +5,7 @@ source: "https://medium.com/@fraidoonomarzai99/principal-component-analysis-pca-
 author:
   - "[[Fraidoon Omarzai]]"
 published: 2024-07-20
-tags: [article, dimensionality-reduction, PCA, linear-algebra, covariance-matrix, eigenvectors]
+tags: [article, dimensionality-reduction, PCA, linear-algebra, covariance-matrix, eigenvectors, medium]
 concepts:
   - PCA
   - Dimensionality Reduction

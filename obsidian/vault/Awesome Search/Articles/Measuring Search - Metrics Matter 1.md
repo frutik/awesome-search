@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "A guide to search evaluation metrics: Recall, Precision, P@K, MRR, MAP, CG, DCG, nDCG — with guidance on when to use each based on query type and user task."
 tags:
   - clippings
+  - medium
 ---
 # Measuring Search: Metrics Matter
 

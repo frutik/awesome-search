@@ -5,6 +5,7 @@ tags:
   - search
   - case-study
   - ranking
+  - medium
 source: "https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7"
 author: "Sergey Feldman"
 created: 2026-05-15

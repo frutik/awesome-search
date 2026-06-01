@@ -7,6 +7,7 @@ tags:
   - query-understanding
   - search
   - framework
+  - medium
 concepts:
   - Query Understanding
   - Search Intent

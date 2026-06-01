@@ -6,6 +6,7 @@ tags:
   - search
   - autocomplete
   - ranking
+  - medium
 source: "https://medium.com/@dtunkelang/autosuggest-ranking"
 author: "Giovanni Fernandez-Kincade"
 created: 2026-05-15

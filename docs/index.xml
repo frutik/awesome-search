@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:32:31 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 17:44:57 GMT</pubDate>
   </item><item>
-    <title>The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production</title>
-    <link>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</guid>
-    <description><![CDATA[ The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production A comprehensive production guide to fine-tuning embedding models for domain-specific applications. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:23:15 GMT</pubDate>
-  </item><item>
-    <title>Milvus - Unlocking Your Data&#039;s Hidden Relationships</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</guid>
-    <description><![CDATA[ Milvus - Unlocking Your Data’s Hidden Relationships An introductory overview of Milvus as a vector database for scalable similarity search and AI applications. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:22:46 GMT</pubDate>
-  </item><item>
-    <title>Fine Tuning an Embedding Model for Semantic Search</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</guid>
-    <description><![CDATA[ Fine Tuning an Embedding Model for Semantic Search A practical hands-on introduction to fine-tuning embedding models for semantic search using the Sentence Transformers library. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:22:34 GMT</pubDate>
-  </item><item>
-    <title>Exploring Vector Databases with Milvus</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</guid>
-    <description><![CDATA[ Exploring Vector Databases with Milvus A deep technical dive into the Milvus vector database system architecture, closely following the 2021 SIGMOD paper “Milvus: A Purpose-Built Vector Data Management System.” Covers the Query Engine, GPU Engine, Storage Engine, and distributed architecture. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:22:16 GMT</pubDate>
+    <title>Building Search-Based Apps With Typesense: From Zero to Hero</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Building-Search-Based-Apps-With-Typesense</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Building-Search-Based-Apps-With-Typesense</guid>
+    <description><![CDATA[ Building Search-Based Apps With Typesense: From Zero to Hero Author: Paul Karikari Source: medium.com/@paulkarikari/building-search-based-apps-with-typesense-from-zero-to-hero-79f84d142aed Summary A hands-on tutorial walking through building a search-based application using Typesense — an open-sourc... ]]></description>
+    <pubDate>Mon, 01 Jun 2026 17:41:06 GMT</pubDate>
   </item><item>
     <title>Choosing a Vector Database for ANN Search at Reddit</title>
     <link>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</guid>
     <description><![CDATA[ Choosing a Vector Database for ANN Search at Reddit Reddit’s 2025 engineering evaluation of vector databases for ANN search, concluding with the selection of Milvus over Qdrant and others after rigorous qualitative and quantitative testing at Reddit-scale workloads (~340M vectors). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 16:21:47 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
   </item><item>
-    <title>Relevance Feedback</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</guid>
-    <description><![CDATA[ Relevance Feedback Definition Using signals about which results are relevant (or not) to iteratively refine a search query and improve subsequent retrieval. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 08:53:03 GMT</pubDate>
+    <title>Exploring Vector Databases with Milvus</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</guid>
+    <description><![CDATA[ Exploring Vector Databases with Milvus A deep technical dive into the Milvus vector database system architecture, closely following the 2021 SIGMOD paper “Milvus: A Purpose-Built Vector Data Management System.” Covers the Query Engine, GPU Engine, Storage Engine, and distributed architecture. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
   </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <title>Fine Tuning an Embedding Model for Semantic Search</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</guid>
+    <description><![CDATA[ Fine Tuning an Embedding Model for Semantic Search A practical hands-on introduction to fine-tuning embedding models for semantic search using the Sentence Transformers library. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
+  </item><item>
+    <title>Milvus - Unlocking Your Data&#039;s Hidden Relationships</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</guid>
+    <description><![CDATA[ Milvus - Unlocking Your Data’s Hidden Relationships An introductory overview of Milvus as a vector database for scalable similarity search and AI applications. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
+  </item><item>
+    <title>The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production</title>
+    <link>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</guid>
+    <description><![CDATA[ The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production A comprehensive production guide to fine-tuning embedding models for domain-specific applications. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
+  </item><item>
+    <title>Embedding Fine-tuning</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
+    <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
+  </item><item>
+    <title>HNSW</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/HNSW</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/HNSW</guid>
+    <description><![CDATA[ HNSW — Hierarchical Navigable Small World Graph-based approximate nearest neighbor (ANN) index. Malkov &amp; Yashunin, 2018 (arXiv:1603.09320). ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://frutik.github.io/awesome-search/</link>
+    <guid>https://frutik.github.io/awesome-search/</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 06:18:34 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 06:18:34 GMT</pubDate>
-  </item><item>
-    <title>Agentic Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
-    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 16:33:24 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -8,6 +8,7 @@ tags:
   - uber-eats
   - case-study
   - food-search
+  - company-blog
 concepts:
   - Query Understanding
   - Search Intent

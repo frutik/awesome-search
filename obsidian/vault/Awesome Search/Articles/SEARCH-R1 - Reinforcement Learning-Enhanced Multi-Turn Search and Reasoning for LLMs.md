@@ -18,6 +18,7 @@ tags:
   - reinforcement-learning
   - multi-turn-reasoning
   - rag
+  - medium
 ---
 
 # SEARCH-R1: Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs

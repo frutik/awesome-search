@@ -3,7 +3,7 @@ title: "How to Really Scale Autocomplete"
 source: "https://bonsai.io/blog/how-to-really-scale-autocomplete/"
 author: "bonsai.io"
 published: 2025-07-18
-tags: [autocomplete, elasticsearch, opensearch, scaling, aggregations]
+tags: [autocomplete, elasticsearch, opensearch, scaling, aggregations, company-blog]
 ---
 
 # How to Really Scale Autocomplete

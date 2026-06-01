@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - ranking
+  - medium
 source: "https://medium.com/better-ml/multi-stage-ranking-e0dacd81ac4"
 author: "Jaideep Ray"
 created: 2026-05-15

@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, vespa, ann, two-tower, recommendations, e-commerce]
+tags: [article, vespa, ann, two-tower, recommendations, e-commerce, company-blog]
 source: "https://vinted.engineering/2023/10/09/adopting-vespa-for-recommendation-retrieval/"
 author: []
 company: [Vinted]

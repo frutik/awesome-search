@@ -9,6 +9,7 @@ tags:
   - embedding
   - fine-tuning
   - production
+  - medium
 concepts:
   - Embedding Fine-tuning
   - Matryoshka Embeddings

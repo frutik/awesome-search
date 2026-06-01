@@ -6,6 +6,7 @@ tags:
   - search
   - product-management
   - search-architecture
+  - medium
 source: "https://medium.com/@JamesRubinstein/search-product-management-the-most-misunderstood-role-b2e7f4c9d1a3"
 author: "James Rubinstein"
 created: 2026-05-15

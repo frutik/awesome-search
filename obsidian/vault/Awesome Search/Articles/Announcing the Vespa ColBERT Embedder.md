@@ -8,6 +8,7 @@ tags:
   - vespa
   - embeddings
   - search
+  - company-blog
 concepts:
   - ColBERT
   - Late Interaction

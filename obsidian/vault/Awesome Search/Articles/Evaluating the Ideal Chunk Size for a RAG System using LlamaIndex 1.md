@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "How to determine optimal chunk sizes for RAG systems using LlamaIndex's Response Evaluation module — faithfulness, relevancy, and response time metrics."
 tags:
   - clippings
+  - company-blog
 ---
 # Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex
 

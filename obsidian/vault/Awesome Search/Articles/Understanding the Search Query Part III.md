@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Covers Docker and Kubernetes deployment strategies for a search query understanding system with containerized ML model serving."
 tags:
   - clippings
+  - medium
 ---
 
 # Understanding the Search Query — Part III

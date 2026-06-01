@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "How to fine-tune CLIP for domain-specific multimodal retrieval — adapting general-purpose models to YouTube video data with Python code."
 tags:
   - clippings
+  - medium
 ---
 # Fine-tuning Multimodal Embedding Models
 

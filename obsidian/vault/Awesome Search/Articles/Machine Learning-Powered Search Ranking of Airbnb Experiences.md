@@ -5,6 +5,7 @@ tags:
   - search
   - ranking
   - case-study
+  - medium
 source: "https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789"
 author: "Mihajlo Grbovic, Eric Wu, Pai Liu, Chun How Tan, Liang Wu, Bo Yu, Alex Tian"
 created: 2026-05-15

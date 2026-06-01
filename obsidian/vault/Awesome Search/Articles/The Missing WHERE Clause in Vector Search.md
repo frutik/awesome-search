@@ -8,6 +8,7 @@ tags:
   - filtering
   - metadata
   - pinecone
+  - company-blog
 concepts:
   - Vector Filtering
   - Dense Vector Retrieval

@@ -7,6 +7,7 @@ tags:
   - query-expansion
   - embeddings
   - case-study
+  - company-blog
 source: "https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79"
 author: "Grubhub Engineering"
 created: 2026-05-15

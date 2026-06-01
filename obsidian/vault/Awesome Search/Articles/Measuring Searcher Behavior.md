@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - evaluation
+  - medium
 source: "https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0"
 author: "Daniel Tunkelang"
 created: 2026-05-15

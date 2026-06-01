@@ -5,6 +5,7 @@ tags:
   - search
   - query-understanding
   - ux
+  - company-blog
 source: "https://baymard.com/blog/ecommerce-search-query-types"
 author: "Baymard Institute"
 created: 2026-05-15

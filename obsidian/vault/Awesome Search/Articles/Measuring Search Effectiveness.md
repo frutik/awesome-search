@@ -6,6 +6,7 @@ tags:
   - clippings
   - search-evaluation
   - metrics
+  - medium
 concepts:
   - Search Evaluation
   - NDCG

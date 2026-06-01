@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, ann, hnsw, vespa, e-commerce, image-similarity, prefiltering]
+tags: [article, ann, hnsw, vespa, e-commerce, image-similarity, prefiltering, company-blog]
 source: "https://blog.vespa.ai/image-similarity-search/"
 author: [Jo Kristian Bergum]
 company: [Vespa]

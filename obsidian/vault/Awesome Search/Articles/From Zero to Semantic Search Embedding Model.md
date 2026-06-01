@@ -5,6 +5,7 @@ tags:
   - search
   - embeddings
   - semantic-search
+  - company-blog
 source: "https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61"
 author: "Metarank"
 created: 2026-05-15

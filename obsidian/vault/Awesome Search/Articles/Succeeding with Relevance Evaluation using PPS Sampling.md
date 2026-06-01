@@ -7,6 +7,7 @@ tags:
   - search-evaluation
   - sampling
   - judgment-lists
+  - company-blog
 concepts:
   - Judgment Lists
   - Search Evaluation

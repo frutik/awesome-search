@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Explores how to recognize when different search queries represent the same underlying intent, and how this recognition improves search through rewriting, analytics, and ML."
 tags:
   - clippings
+  - medium
 ---
 
 # Mapping Search Queries To Search Intents

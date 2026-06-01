@@ -8,6 +8,7 @@ tags:
   - hybrid-search
   - sparse-retrieval
   - neural-retrieval
+  - medium
 concepts:
   - SPLADE
   - Hybrid Search

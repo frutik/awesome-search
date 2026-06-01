@@ -7,6 +7,7 @@ tags:
   - case-study
   - scalability
   - architecture
+  - company-blog
 source: "https://blog.x.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search"
 author: "Twitter/X Engineering"
 created: 2026-05-15

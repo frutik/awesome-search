@@ -8,6 +8,7 @@ tags:
   - sparse-search
   - pinecone
   - neural-retrieval
+  - company-blog
 concepts:
   - SPLADE
   - Sparse Vector Retrieval

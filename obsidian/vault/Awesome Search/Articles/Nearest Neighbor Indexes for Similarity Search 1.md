@@ -7,6 +7,7 @@ created: 2026-05-15
 description: "A guide to FAISS index types — Flat, LSH, HNSW, and IVF — with benchmarks on Sift1M to guide index selection by memory, speed, and recall requirements."
 tags:
   - clippings
+  - company-blog
 ---
 # Nearest Neighbor Indexes for Similarity Search
 

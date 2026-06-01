@@ -3,7 +3,7 @@ title: "Multilingual Embedding Model: Hybrid Search Reranking"
 source: "https://www.elastic.co/search-labs/blog/multilingual-embedding-model-hybrid-search-reranking"
 author: "[[Quynh Nguyen]]"
 published: 2025-10-30
-tags: [multilingual, embeddings, hybrid-search, reranking, elasticsearch, E5]
+tags: [multilingual, embeddings, hybrid-search, reranking, elasticsearch, E5, company-blog]
 ---
 
 # Multilingual Embedding Model: Hybrid Search Reranking

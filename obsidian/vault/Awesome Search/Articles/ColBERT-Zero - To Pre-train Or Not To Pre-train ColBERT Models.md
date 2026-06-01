@@ -8,7 +8,7 @@ author:
   - "[[Florent Krzakala]]"
 published: 2026-02-19
 company: "[[LightOn AI]]"
-tags: [colbert, multi-vector, pretraining, knowledge-distillation, contrastive-learning, BEIR]
+tags: [colbert, multi-vector, pretraining, knowledge-distillation, contrastive-learning, BEIR, company-blog]
 ---
 
 # ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT Models?

@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - spelling-correction
+  - medium
 source: "https://wolfgarbe.medium.com/1000x-faster-spelling-correction-algorithm-2012-8701fcd87a5f"
 author: "Wolf Garbe"
 created: 2026-05-15

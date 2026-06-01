@@ -3,7 +3,7 @@ title: "You Say Search, I Say Recs: A Scalable Agentic Approach to Query Underst
 source: "https://research.atspotify.com/publications/you-say-search--i-say-recs-a-scalable-agentic-approach-to-query-understanding-and-exploratory-search-at-spotify"
 author: "Spotify Research"
 published: 2025
-tags: [agentic-search, query-understanding, exploratory-search, spotify, recommendations, LLM]
+tags: [agentic-search, query-understanding, exploratory-search, spotify, recommendations, LLM, company-blog]
 ---
 
 # You Say Search, I Say Recs: Spotify Agentic Query Understanding

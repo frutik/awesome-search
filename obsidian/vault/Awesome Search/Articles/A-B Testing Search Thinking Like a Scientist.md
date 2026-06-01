@@ -5,6 +5,7 @@ tags:
   - search
   - evaluation
   - experimentation
+  - medium
 source: "https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e"
 author: "James Rubinstein"
 created: 2026-05-15

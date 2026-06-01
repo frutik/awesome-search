@@ -7,6 +7,7 @@ tags:
   - case-study
   - elasticsearch
   - indexing
+  - medium
 source: "https://netflixtechblog.medium.com/elasticsearch-indexing-strategy-in-information-retrieval-b9adcc3d2c4a"
 author: "Netflix Technology Blog"
 created: 2026-05-15

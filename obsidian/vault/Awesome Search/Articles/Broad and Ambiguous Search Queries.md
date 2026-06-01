@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - query-understanding
+  - medium
 source: "https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc"
 author: "Daniel Tunkelang"
 created: 2026-05-15

@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, vespa, e-commerce, ltr, facets, vocabulary-mismatch, recommendations]
+tags: [article, vespa, e-commerce, ltr, facets, vocabulary-mismatch, recommendations, company-blog]
 source: "https://blog.vespa.ai/e-commerce-search-and-recommendation-with-vespaai/"
 author: [Jo Kristian Bergum]
 company: [Vespa]

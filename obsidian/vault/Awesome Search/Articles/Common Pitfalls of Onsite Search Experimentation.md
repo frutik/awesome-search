@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, ab-testing, experimentation, randomization, carry-over]
+tags: [article, ab-testing, experimentation, randomization, carry-over, company-blog]
 source: "https://www.searchhub.io/en/common-pitfalls-of-search-experimentation/"
 author: [Andreas Wagner]
 company: [searchHub]

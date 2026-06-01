@@ -5,6 +5,7 @@ tags:
   - search
   - autocomplete
   - ux
+  - medium
 source: "https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb"
 author: "Giovanni Fernandez-Kincade"
 created: 2026-05-15

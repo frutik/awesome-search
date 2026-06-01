@@ -5,7 +5,7 @@ source: "https://medium.com/data-science/t-sne-clearly-explained-d84c537f53a"
 author:
   - "[[Kemal Erdem]]"
 published: 2020-04-13
-tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, CNN, visualization]
+tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, CNN, visualization, medium]
 concepts:
   - t-SNE
   - Dimensionality Reduction

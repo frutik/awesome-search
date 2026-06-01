@@ -8,6 +8,7 @@ tags:
   - elasticsearch
   - opensearch
   - platform-comparison
+  - medium
 created: 2026-06-01
 ---
 

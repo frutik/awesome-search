@@ -8,6 +8,7 @@ tags:
   - fine-tuning
   - domain-specific
   - search
+  - medium
 concepts:
   - Embedding Fine-tuning
   - Bi-Encoder

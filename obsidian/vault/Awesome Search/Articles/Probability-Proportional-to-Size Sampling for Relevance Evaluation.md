@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Practical guide to explicit relevance evaluation: why PPTSS beats simple random sampling, how many queries to start with (50), and timeline expectations."
 tags:
   - clippings
+  - company-blog
 ---
 # Explicit Relevance Evaluation with Probability-Proportional-to-Size Sampling
 

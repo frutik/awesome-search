@@ -8,6 +8,7 @@ tags:
   - distillation
   - embeddings
   - search
+  - medium
 concepts:
   - Retrieval Pipeline
   - Embedding Fine-tuning

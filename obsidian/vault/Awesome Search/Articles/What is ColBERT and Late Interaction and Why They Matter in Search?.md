@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Jina AI's ColBERT on Hugging Face has set Twitter abuzz, bringing a fresh perspective to search with its 8192-token capability. This article unpacks the nuances of ColBERT and ColBERTv2, showcasing their innovative designs and why their late interaction feature is a game-changer for search."
 tags:
   - "clippings"
+  - company-blog
 ---
 Last Friday, the release of the [ColBERT model by Jina AI on Hugging Face](https://huggingface.co/jinaai/jina-colbert-v1-en) sparked significant excitement across the AI community, particularly on Twitter/X. While many are familiar with the groundbreaking BERT model, the buzz around ColBERT has left some wondering: What makes ColBERT stand out in the crowded field of information retrieval technologies? Why the AI community is excited about 8192-length ColBERT? This article delves into the intricacies of ColBERT and ColBERTv2, highlighting their design, improvements, and the surprising effectiveness of ColBERT's late interaction.
 

@@ -9,6 +9,7 @@ created: 2026-05-15
 description: "SPLADE predicts sparse keyword representations compatible with inverted indexes, achieving BERT-level ranking quality with efficient first-stage retrieval."
 tags:
   - clippings
+  - company-blog
 ---
 # SPLADE – Sparse Lexical and Expansion Model for First-Stage Ranking
 

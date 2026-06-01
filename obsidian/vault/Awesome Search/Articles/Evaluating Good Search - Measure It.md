@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - evaluation
+  - medium
 source: "https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6"
 author: "Daniel Tunkelang"
 created: 2026-05-15

@@ -5,6 +5,7 @@ tags:
   - search
   - autocomplete
   - ux
+  - company-blog
 source: "https://baymard.com/blog/autocomplete-design"
 author: "Edward Scott (Baymard Institute)"
 created: 2026-05-15

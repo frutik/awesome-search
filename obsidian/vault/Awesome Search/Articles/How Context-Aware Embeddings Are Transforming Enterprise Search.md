@@ -8,6 +8,7 @@ tags:
   - enterprise-search
   - context-aware
   - rag
+  - medium
 concepts:
   - Task-Aware Embeddings
   - RAG

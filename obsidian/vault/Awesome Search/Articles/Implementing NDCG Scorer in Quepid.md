@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Step-by-step guide to implementing a custom NDCG@10 scorer in Quepid using JavaScript — with the DCG, ideal DCG, and nDCG calculation approach."
 tags:
   - clippings
+  - company-blog
 ---
 # Implementing NDCG Scorer in Quepid
 

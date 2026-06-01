@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, llm, fine-tuning, qlora, lora, peft, quantization]
+tags: [article, llm, fine-tuning, qlora, lora, peft, quantization, medium]
 source: "https://dassum.medium.com/fine-tune-large-language-model-llm-on-a-custom-dataset-with-qlora-fb60abdeba07"
 author: [Suman Das]
 company: []

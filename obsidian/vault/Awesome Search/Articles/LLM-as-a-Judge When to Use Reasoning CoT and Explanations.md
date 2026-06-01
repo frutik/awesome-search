@@ -3,7 +3,7 @@ title: "LLM-as-a-Judge: When to Use Reasoning, CoT, and Explanations"
 source: "https://medium.com/data-science-collective/llm-as-a-judge-when-to-use-reasoning-cot-and-explanations-964ad82ebc3d"
 author: "[[Aparna Dhinakaran]]"
 published: 2025-08-20
-tags: [LLM-as-judge, evaluation, chain-of-thought, reasoning-models, search-evaluation]
+tags: [LLM-as-judge, evaluation, chain-of-thought, reasoning-models, search-evaluation, medium]
 ---
 
 # LLM-as-a-Judge: When to Use Reasoning, CoT, and Explanations

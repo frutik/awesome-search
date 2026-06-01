@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "4 approaches to improving search with LLMs: naive synonym expansion, semantic search, query-time LLM synonym expansion (winner: Claude v2), and neural sparse retrieval."
 tags:
   - clippings
+  - company-blog
 ---
 # Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock
 

@@ -11,6 +11,7 @@ tags:
   - ann
   - vector-search
   - vespa
+  - company-blog
 ---
 
 # Exploring Hierarchical Navigable Small World

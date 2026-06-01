@@ -9,6 +9,7 @@ tags:
   - search-quality
   - retrieval
   - agentic-search
+  - medium
 created: 2026-06-01
 ---
 

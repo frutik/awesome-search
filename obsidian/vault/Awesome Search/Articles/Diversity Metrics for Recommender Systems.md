@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Three diversity metrics for recommender systems: Coverage, Effective Catalog Size (ECS from Netflix), and Gini-Simpson Diversity Index."
 tags:
   - clippings
+  - medium
 ---
 # Diversity Metrics for Recommender Systems
 

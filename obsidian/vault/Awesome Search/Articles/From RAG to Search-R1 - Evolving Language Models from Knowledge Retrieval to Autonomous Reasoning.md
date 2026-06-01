@@ -18,6 +18,7 @@ tags:
   - search-r1
   - agentic-search
   - reinforcement-learning
+  - medium
 ---
 
 # From RAG to Search-R1: Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning

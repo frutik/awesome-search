@@ -8,6 +8,7 @@ tags:
   - late-interaction
   - search
   - embeddings
+  - company-blog
 concepts:
   - ColBERT
   - Late Interaction

@@ -16,6 +16,7 @@ tags:
   - rabitq
   - simd
   - performance
+  - company-blog
 concepts:
   - Vector Quantization
   - TurboQuant

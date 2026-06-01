@@ -9,6 +9,7 @@ created: 2026-05-15
 description: "ELSER is Elastic's pre-trained sparse encoder for zero-shot retrieval, built on SPLADE architecture — 17% average NDCG@10 improvement over BM25 across BEIR benchmarks."
 tags:
   - clippings
+  - company-blog
 ---
 # Elastic Learned Sparse Encoder (ELSER)
 

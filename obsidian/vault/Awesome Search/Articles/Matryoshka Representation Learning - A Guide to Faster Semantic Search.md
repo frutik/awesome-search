@@ -8,6 +8,7 @@ tags:
   - matryoshka
   - semantic-search
   - performance
+  - medium
 concepts:
   - Matryoshka Embeddings
   - Dense Vector Retrieval

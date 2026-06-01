@@ -7,6 +7,7 @@ tags:
   - embeddings
   - search
   - neural-retrieval
+  - medium
 concepts:
   - Bi-Encoder
   - Cross-Encoder

@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, ab-testing, metrics, ctr, conversion, directionality, sensitivity]
+tags: [article, ab-testing, metrics, ctr, conversion, directionality, sensitivity, company-blog]
 source: "https://www.algolia.com/blog/engineering/a-b-testing-metrics-evaluating-the-best-metrics-for-your-search"
 author: []
 company: [Algolia]

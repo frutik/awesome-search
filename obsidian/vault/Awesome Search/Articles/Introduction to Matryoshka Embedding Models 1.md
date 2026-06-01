@@ -10,6 +10,7 @@ created: 2026-05-15
 description: "Introduction to Matryoshka Embedding Models — trained to produce useful embeddings at multiple dimensionalities for speed/accuracy trade-offs."
 tags:
   - clippings
+  - company-blog
 ---
 # 🪆 Introduction to Matryoshka Embedding Models
 

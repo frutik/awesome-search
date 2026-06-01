@@ -3,7 +3,7 @@ title: "The Day Our Own Queries DoS'ed Us: Inside Zalando Search"
 source: "https://engineering.zalando.com/posts/2025/12/we-hacked-ourselves-so-you-dont-have-to.html"
 author: "[[Maryna Kryvko]]"
 published: 2025-12-17
-tags: [search-architecture, elasticsearch, incident, faceted-search, case-study, zalando]
+tags: [search-architecture, elasticsearch, incident, faceted-search, case-study, zalando, company-blog]
 ---
 
 # The Day Our Own Queries DoS'ed Us: Inside Zalando Search

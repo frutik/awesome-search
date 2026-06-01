@@ -8,6 +8,7 @@ tags:
   - naver-labs
   - research
   - sparse-retrieval
+  - company-blog
 concepts:
   - SPLADE
   - Sparse Vector Retrieval

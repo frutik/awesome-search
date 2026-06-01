@@ -12,6 +12,7 @@ tags:
   - elasticsearch
   - elastic
   - vector-search
+  - company-blog
 ---
 
 # Late Interaction Models: How to Scale & Optimize in Elasticsearch

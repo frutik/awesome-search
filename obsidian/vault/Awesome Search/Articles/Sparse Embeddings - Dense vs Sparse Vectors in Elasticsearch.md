@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, sparse-vectors, elser, splade, elasticsearch, semantic-search]
+tags: [article, sparse-vectors, elser, splade, elasticsearch, semantic-search, company-blog]
 source: "https://www.elastic.co/search-labs/blog/sparse-vector-embedding"
 author: [Dai Sugimori]
 company: [Elastic]

@@ -5,7 +5,7 @@ source: "https://medium.com/swlh/t-sne-explained-math-and-intuition-94599ab164cf
 author:
   - "[[Achinoam Soroker]]"
 published: 2020-08-04
-tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, visualization]
+tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, visualization, medium]
 concepts:
   - t-SNE
   - Dimensionality Reduction

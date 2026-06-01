@@ -68,6 +68,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Broad-and-Ambiguous-Search-Queries</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Building-Search-Based-Apps-With-Typesense</loc>
+    <lastmod>2026-06-01T17:41:06.194Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -87,7 +90,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</loc>
-    <lastmod>2026-06-01T16:21:47.353Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Choosing-the-best-model-for-semantic-search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -177,7 +180,7 @@
     <lastmod>2026-05-22T09:52:40.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</loc>
-    <lastmod>2026-06-01T16:22:16.530Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Facets---Constraints-or-Preferences</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -207,7 +210,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</loc>
-    <lastmod>2026-06-01T16:22:34.767Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Fine-tuning-Multimodal-Embedding-Models-1</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -402,7 +405,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</loc>
-    <lastmod>2026-06-01T16:22:46.637Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Mirror-Mirror---All-About-Search-Suggestions</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -657,7 +660,7 @@
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</loc>
-    <lastmod>2026-06-01T16:23:15.010Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/The-Day-Our-Own-Queries-DoSed-Us---Zalando-Search</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -999,7 +1002,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Embeddings</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1011,7 +1014,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/HNSW</loc>
-    <lastmod>2026-05-22T09:52:40.000Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Hit-Rate-at-K</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1335,7 +1338,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T16:32:31.224Z</lastmod>
+    <lastmod>2026-06-01T17:44:57.286Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1629,5 +1632,5 @@
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/</loc>
-    <lastmod>2026-06-01T05:41:46.000Z</lastmod>
+    <lastmod>2026-06-01T16:33:24.000Z</lastmod>
   </url></urlset>

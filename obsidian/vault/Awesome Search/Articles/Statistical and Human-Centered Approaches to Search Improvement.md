@@ -5,6 +5,7 @@ tags:
   - search
   - evaluation
   - process
+  - medium
 source: "https://jamesrubinstein.medium.com/statistical-and-human-centered-approaches-to-search-engine-improvement-52af0e98f38f"
 author: "James Rubinstein"
 created: 2026-05-15

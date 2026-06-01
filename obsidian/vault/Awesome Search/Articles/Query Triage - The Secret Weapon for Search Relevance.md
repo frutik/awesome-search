@@ -6,6 +6,7 @@ tags:
   - search-team
   - process
   - evaluation
+  - medium
 source: "https://jamesrubinstein.medium.com/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed"
 author: "James Rubinstein"
 created: 2026-05-15

@@ -4,6 +4,7 @@ tags:
   - clippings
   - search
   - evaluation
+  - medium
 source: "https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed"
 author: "Daniel Tunkelang"
 created: 2026-05-15

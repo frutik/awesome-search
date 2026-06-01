@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, elasticsearch, retail, analyzers, query-relaxation, e-commerce]
+tags: [article, elasticsearch, retail, analyzers, query-relaxation, e-commerce, company-blog]
 source: "https://www.searchhub.io/en/my-journey-building-elasticsearch-for-retail/"
 author: [Rudolf Batt]
 company: [searchHub]

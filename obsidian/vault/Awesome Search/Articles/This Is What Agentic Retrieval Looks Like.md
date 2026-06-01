@@ -22,6 +22,7 @@ tags:
   - bm25
   - query-understanding
   - hornet
+  - company-blog
 ---
 
 # This Is What Agentic Retrieval Looks Like

@@ -3,7 +3,7 @@ title: "Mutually Assured Distraction"
 source: "https://hornet.dev/blog/mutually-assured-distraction"
 author: "[[Lester Solbakken]]"
 published: 2026-01-30
-tags: [agentic-search, retrieval, evaluation, distractor, RAG]
+tags: [agentic-search, retrieval, evaluation, distractor, RAG, company-blog]
 ---
 
 # Mutually Assured Distraction

@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, ab-testing, experimentation, basket-attribution, kpi]
+tags: [article, ab-testing, experimentation, basket-attribution, kpi, company-blog]
 source: "https://www.searchhub.io/en/common-pitfalls-of-onsite-search-experimentation-part-2/"
 author: [Siegfried Schüle]
 company: [searchHub]

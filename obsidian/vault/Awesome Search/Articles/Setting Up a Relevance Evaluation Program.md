@@ -5,6 +5,7 @@ tags:
   - search
   - evaluation
   - process
+  - medium
 source: "https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e"
 author: "James Rubinstein"
 created: 2026-05-15

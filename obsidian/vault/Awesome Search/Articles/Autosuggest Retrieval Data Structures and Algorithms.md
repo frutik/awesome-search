@@ -6,6 +6,7 @@ tags:
   - search
   - autocomplete
   - data-structures
+  - medium
 source: "https://medium.com/@dtunkelang/autosuggest-retrieval-data-structures-algorithms"
 author: "Giovanni Fernandez-Kincade"
 created: 2026-05-15

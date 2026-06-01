@@ -7,6 +7,7 @@ created: 2026-05-15
 description: "HyDE improves retrieval by generating hypothetical documents for a query, embedding them, and averaging to create a retrieval vector — useful when domain data differs from retriever training data."
 tags:
   - clippings
+  - company-blog
 ---
 # Hypothetical Document Embeddings (HyDE)
 

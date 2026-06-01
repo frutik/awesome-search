@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Vespa releases a native ColBERT embedder with token-level vector representations and 32x compression via asymmetric binarization."
 tags:
   - clippings
+  - company-blog
 ---
 # Announcing the Vespa ColBERT embedder
 

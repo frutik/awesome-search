@@ -8,6 +8,7 @@ tags:
   - dense-vectors
   - case-study
   - e-commerce-search
+  - medium
 concepts:
   - Dense Vector Retrieval
   - Semantic Search

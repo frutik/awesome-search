@@ -5,6 +5,7 @@ tags:
   - search
   - evaluation
   - search-quality
+  - company-blog
 source: "https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-2-discovery-inspiration"
 author: "Andreas Wagner"
 created: 2026-05-15

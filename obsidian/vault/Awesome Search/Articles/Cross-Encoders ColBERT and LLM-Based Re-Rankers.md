@@ -5,6 +5,7 @@ tags:
   - search
   - ranking
   - reranking
+  - medium
 source: "https://medium.com/@aimichael/cross-encoders-colbert-and-llm-based-re-rankers-a-practical-guide-a23570d88548"
 author: "Michael Ryaboy"
 created: 2026-05-15

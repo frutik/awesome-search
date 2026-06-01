@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, cross-encoder, bi-encoder, reranking, two-stage-ranking, weaviate]
+tags: [article, cross-encoder, bi-encoder, reranking, two-stage-ranking, weaviate, company-blog]
 source: "https://weaviate.io/blog/cross-encoders-as-reranker"
 author: [Laura Ham]
 company: [Weaviate]

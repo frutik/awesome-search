@@ -7,7 +7,7 @@ author:
   - "[[Taylor Roy]]"
 published: 2026-04-08
 company: "[[Elastic]]"
-tags: [ecommerce-search, search-governance, control-plane, intent-routing, retrieval]
+tags: [ecommerce-search, search-governance, control-plane, intent-routing, retrieval, company-blog]
 series: "Governed Search Patterns (Part 1)"
 ---
 

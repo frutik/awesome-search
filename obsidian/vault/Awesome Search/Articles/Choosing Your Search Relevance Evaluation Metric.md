@@ -8,6 +8,7 @@ tags:
   - metrics
   - ndcg
   - mrr
+  - company-blog
 concepts:
   - Search Evaluation
   - NDCG

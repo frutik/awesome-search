@@ -7,7 +7,7 @@ author:
   - "[[Taylor Roy]]"
 published: 2026-05-11
 company: "[[Elastic]]"
-tags: [ecommerce-search, personalization, purchase-history, cohort-search, search-governance]
+tags: [ecommerce-search, personalization, purchase-history, cohort-search, search-governance, company-blog]
 series: "Governed Search Patterns (Part 6)"
 ---
 

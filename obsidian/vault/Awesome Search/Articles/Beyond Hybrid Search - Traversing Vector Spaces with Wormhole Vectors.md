@@ -8,6 +8,7 @@ tags:
   - wormhole-vectors
   - vector-search
   - search
+  - company-blog
 concepts:
   - Wormhole Vectors
   - Hybrid Search

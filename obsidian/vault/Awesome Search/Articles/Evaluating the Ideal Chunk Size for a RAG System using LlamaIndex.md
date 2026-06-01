@@ -8,6 +8,7 @@ tags:
   - rag
   - evaluation
   - llamaindex
+  - company-blog
 concepts:
   - Text Chunking
   - RAG

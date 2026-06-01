@@ -7,7 +7,7 @@ author:
   - "[[Taylor Roy]]"
 published: 2026-04-27
 company: "[[Elastic]]"
-tags: [ecommerce-search, search-governance, zero-deploy, policies-as-data, merchandising]
+tags: [ecommerce-search, search-governance, zero-deploy, policies-as-data, merchandising, company-blog]
 series: "Governed Search Patterns (Part 2)"
 ---
 

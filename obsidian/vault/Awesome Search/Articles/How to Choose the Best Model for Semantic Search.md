@@ -8,6 +8,7 @@ tags:
   - embeddings
   - model-selection
   - search
+  - company-blog
 concepts:
   - Semantic Search
   - Bi-Encoder

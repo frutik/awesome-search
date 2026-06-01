@@ -5,6 +5,7 @@ tags:
   - search
   - synonyms
   - query-understanding
+  - medium
 source: "https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741"
 author: "Daniel Tunkelang"
 created: 2026-05-15

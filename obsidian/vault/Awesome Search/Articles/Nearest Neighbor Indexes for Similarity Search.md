@@ -8,6 +8,7 @@ tags:
   - ann
   - faiss
   - infrastructure
+  - company-blog
 concepts:
   - Dense Vector Retrieval
   - Semantic Search

@@ -5,6 +5,7 @@ tags:
   - search
   - evaluation
   - experimentation
+  - medium
 source: "https://dtunkelang.medium.com/a-b-testing-for-search-is-different-f6b0f6f4d0f5"
 author: "Daniel Tunkelang"
 created: 2026-05-15

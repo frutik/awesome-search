@@ -5,7 +5,7 @@ source: "https://medium.com/data-science-explained/t-sne-explained-visualising-h
 author:
   - "[[Billy Chan]]"
 published: 2025-12-26
-tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, visualization, Student-t]
+tags: [article, dimensionality-reduction, t-SNE, KL-divergence, perplexity, visualization, Student-t, medium]
 concepts:
   - t-SNE
   - Dimensionality Reduction

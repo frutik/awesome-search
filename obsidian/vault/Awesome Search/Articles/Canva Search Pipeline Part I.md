@@ -5,6 +5,7 @@ tags:
   - search
   - architecture
   - case-study
+  - company-blog
 source: "https://canvatechblog.com/search-pipeline-part-i-faa6c543aef1"
 author: "Stuart Cam"
 created: 2026-05-15

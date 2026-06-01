@@ -8,6 +8,7 @@ tags:
   - multimodal
   - fine-tuning
   - clip
+  - medium
 concepts:
   - Multimodal Embeddings
   - Embedding Fine-tuning

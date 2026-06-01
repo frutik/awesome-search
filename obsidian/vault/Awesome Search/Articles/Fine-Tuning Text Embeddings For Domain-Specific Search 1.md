@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "Why general-purpose embedding models may perform poorly on domain-specific tasks and how to fine-tune them — demonstrated with AI job posting retrieval."
 tags:
   - clippings
+  - medium
 ---
 # Fine-Tuning Text Embeddings For Domain-Specific Search
 

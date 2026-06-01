@@ -1,6 +1,6 @@
 ---
 type: article
-tags: [article, spotify, team-structure, organization, search-platform]
+tags: [article, spotify, team-structure, organization, search-platform, company-blog]
 source: "https://engineering.atspotify.com/2021/4/rethinking-spotify-search"
 author: [Hugo Galvão, Daniel Doro]
 company: [Spotify]

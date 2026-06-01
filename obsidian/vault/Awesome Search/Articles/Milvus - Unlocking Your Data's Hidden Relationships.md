@@ -9,6 +9,7 @@ tags:
   - vector-database
   - milvus
   - embeddings
+  - medium
 concepts:
   - Embeddings
   - Dense Vector Retrieval

@@ -8,6 +8,7 @@ tags:
   - splade
   - elasticsearch
   - sparse-retrieval
+  - company-blog
 concepts:
   - ELSER
   - SPLADE

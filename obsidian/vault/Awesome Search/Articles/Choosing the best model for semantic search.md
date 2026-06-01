@@ -8,6 +8,7 @@ created: 2026-05-15
 description: "A guide to selecting embedding models for semantic search — comparing Cohere, OpenAI, Mistral, VoyageAI, Jina ColBERT, and open-source options across relevancy, latency, indexing, and cost."
 tags:
   - clippings
+  - company-blog
 ---
 # How to choose the best model for semantic search
 

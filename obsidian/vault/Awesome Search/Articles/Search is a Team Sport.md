@@ -5,6 +5,7 @@ tags:
   - search
   - search-team
   - leadership
+  - medium
 source: "https://medium.com/search-in-21st-century/search-is-a-team-sport-400eecdfe736"
 author: "Unknown"
 created: 2026-05-15

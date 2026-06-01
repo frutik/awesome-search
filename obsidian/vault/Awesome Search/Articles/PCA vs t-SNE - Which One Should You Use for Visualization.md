@@ -5,7 +5,7 @@ source: "https://medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d"
 author:
   - "[[Namratesh Shrivastav]]"
 published: 2019-12-28
-tags: [article, dimensionality-reduction, PCA, t-SNE, visualization, MNIST]
+tags: [article, dimensionality-reduction, PCA, t-SNE, visualization, MNIST, medium]
 concepts:
   - Dimensionality Reduction
   - PCA

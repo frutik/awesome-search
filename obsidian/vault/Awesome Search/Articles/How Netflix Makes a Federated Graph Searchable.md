@@ -6,6 +6,7 @@ tags:
   - case-study
   - knowledge-graph
   - architecture
+  - company-blog
 source: "https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf"
 author: "Netflix Technology Blog"
 created: 2026-05-15

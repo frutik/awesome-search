@@ -5,6 +5,7 @@ tags:
   - search
   - faceted-search
   - ux
+  - medium
 source: "https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592"
 author: "Daniel Tunkelang"
 created: 2026-05-15
