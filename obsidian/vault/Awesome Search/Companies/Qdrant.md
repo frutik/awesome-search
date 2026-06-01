@@ -27,5 +27,7 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 ## Articles
 - [[TurboQuant in Qdrant]]
 
+- [[Choosing a Vector Database for ANN Search at Reddit]] — qualitative score 292 vs Milvus 281; better raw latency but lost on Go ecosystem fit and automatic rebalancing
+
 ## Tools
 - [[Qdrant Vector DB]]

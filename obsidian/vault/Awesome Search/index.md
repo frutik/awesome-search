@@ -53,7 +53,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Tools
 
-[[Quepid]] · [[Querqy]] · [[Elasticsearch]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]]
+[[Quepid]] · [[Querqy]] · [[Elasticsearch]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[Milvus Vector DB]]
 
 ## Companies
 
@@ -61,24 +61,25 @@ Practice-oriented guides — how to DO or deal with something in search.
 [[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]]
 
 **End Users**
-[[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]]
+[[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Reddit]]
 
 ## Case Studies
 
-[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Message Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]]
+[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Message Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]] · [[Reddit - Vector Database Selection]]
 
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]]
 
 ## Stats
-- **~136+** article notes
+
+- **~141+** article notes
 - **~82** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
 - **16** topic notes (incl. Dimensionality Reduction vs Quantization, Elasticsearch vs OpenSearch)
-- **~49** people notes (incl. Geoffrey Hinton, Laurens van der Maaten)
-- **8** case study notes
-- **28** company nodes
-- **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)
+- **~53** people notes (incl. Geoffrey Hinton, Laurens van der Maaten, Chris Fournie, Ritik Jain)
+- **9** case study notes (incl. Reddit - Vector Database Selection)
+- **29** company nodes (incl. Reddit)
+- **6** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB)
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

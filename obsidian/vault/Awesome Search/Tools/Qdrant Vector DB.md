@@ -57,6 +57,8 @@ Key capabilities:
 ## Articles
 - [[TurboQuant in Qdrant]]
 
+- [[Choosing a Vector Database for ANN Search at Reddit]] — head-to-head vs. Milvus at 340M vectors; Qdrant showed better raw latency at RF=1 but lost on scaling and organizational fit
+
 ## People
 - [[Ivan Pleshkov]] — TurboQuant implementation
 - [[Jonas Schulz]] — TurboQuant co-author

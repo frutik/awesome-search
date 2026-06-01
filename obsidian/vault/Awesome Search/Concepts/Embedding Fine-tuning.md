@@ -103,3 +103,5 @@ Use general model when:
 
 
 - [[Shaw Talebi]] — Fine-tuning text and multimodal embedding models
+- [[Fine-Tuning an Embedding Model for Semantic Search]] — practical Sentence Transformers fine-tuning; MNR Loss; catastrophic forgetting warning
+- [[The Complete Guide to Fine-Tuning Embedding Models]] — comprehensive guide: 6 dataset types, 5 loss functions (MNRL/CoSENT/Triplet/CachedMNRL/Matryoshka), evaluation metrics

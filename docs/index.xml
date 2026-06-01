@@ -10,7 +10,43 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 08:52:30 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 16:32:31 GMT</pubDate>
+  </item><item>
+    <title>The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production</title>
+    <link>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/The-Complete-Guide-to-Fine-Tuning-Embedding-Models</guid>
+    <description><![CDATA[ The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production A comprehensive production guide to fine-tuning embedding models for domain-specific applications. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:23:15 GMT</pubDate>
+  </item><item>
+    <title>Milvus - Unlocking Your Data&#039;s Hidden Relationships</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Milvus---Unlocking-Your-Data's-Hidden-Relationships</guid>
+    <description><![CDATA[ Milvus - Unlocking Your Data’s Hidden Relationships An introductory overview of Milvus as a vector database for scalable similarity search and AI applications. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:22:46 GMT</pubDate>
+  </item><item>
+    <title>Fine Tuning an Embedding Model for Semantic Search</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-an-Embedding-Model-for-Semantic-Search</guid>
+    <description><![CDATA[ Fine Tuning an Embedding Model for Semantic Search A practical hands-on introduction to fine-tuning embedding models for semantic search using the Sentence Transformers library. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:22:34 GMT</pubDate>
+  </item><item>
+    <title>Exploring Vector Databases with Milvus</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Exploring-Vector-Databases-with-Milvus</guid>
+    <description><![CDATA[ Exploring Vector Databases with Milvus A deep technical dive into the Milvus vector database system architecture, closely following the 2021 SIGMOD paper “Milvus: A Purpose-Built Vector Data Management System.” Covers the Query Engine, GPU Engine, Storage Engine, and distributed architecture. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:22:16 GMT</pubDate>
+  </item><item>
+    <title>Choosing a Vector Database for ANN Search at Reddit</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</guid>
+    <description><![CDATA[ Choosing a Vector Database for ANN Search at Reddit Reddit’s 2025 engineering evaluation of vector databases for ANN search, concluding with the selection of Milvus over Qdrant and others after rigorous qualitative and quantitative testing at Reddit-scale workloads (~340M vectors). ]]></description>
+    <pubDate>Mon, 01 Jun 2026 16:21:47 GMT</pubDate>
+  </item><item>
+    <title>Relevance Feedback</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Relevance-Feedback</guid>
+    <description><![CDATA[ Relevance Feedback Definition Using signals about which results are relevant (or not) to iteratively refine a search query and improve subsequent retrieval. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 08:53:03 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
@@ -29,42 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
     <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
     <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
-  </item><item>
-    <title>RAG</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/RAG</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/RAG</guid>
-    <description><![CDATA[ RAG (Retrieval-Augmented Generation) Definition RAG combines a retrieval system with a generative language model. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
-  </item><item>
-    <title>Conversational and Agentic Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Conversational-and-Agentic-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Conversational-and-Agentic-Search</guid>
-    <description><![CDATA[ Conversational and Agentic Search Search is shifting from single-turn keyword queries toward multi-turn dialogue and autonomous agent-driven retrieval. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
-  </item><item>
-    <title>index</title>
-    <link>https://frutik.github.io/awesome-search/</link>
-    <guid>https://frutik.github.io/awesome-search/</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
-  </item><item>
-    <title>Elasticsearch vs. OpenSearch (2025): The Definitive Showdown</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Elasticsearch-vs.-OpenSearch-(2025)-The-Definitive-Showdown</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Elasticsearch-vs.-OpenSearch-(2025)-The-Definitive-Showdown</guid>
-    <description><![CDATA[ Elasticsearch vs. OpenSearch (2025): The Definitive Showdown Summary An Elasticsearch-favorable comparison of the two platforms in 2025. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning</title>
-    <link>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</guid>
-    <description><![CDATA[ From RAG to Search-R1: Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning An accessible comparison of RAG and Search-R1 — tracing the evolution from single-pass retrieval toward autonomous, multi-turn search-and-reasoning agents trained with reinforcement learning. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Observability for AI Workloads: A New Paradigm for a New Era</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Observability-for-AI-Workloads-A-New-Paradigm-for-a-New-Era</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Observability-for-AI-Workloads-A-New-Paradigm-for-a-New-Era</guid>
-    <description><![CDATA[ Observability for AI Workloads: A New Paradigm for a New Era Summary A 2026 retrospective on how AI workloads changed observability requirements. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

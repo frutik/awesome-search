@@ -84,3 +84,5 @@ Four strategies ranked by filter selectivity:
 ## Articles
 
 - [[Exploring Hierarchical Navigable Small World]] — Vespa intern deep-dive; covers graph quality metrics, disconnected components, edge density, dimensionality reduction, and ACORN-1 comparison
+- [[Choosing a Vector Database for ANN Search at Reddit]] — Reddit's benchmark of Milvus vs Qdrant at 340M vectors; HNSW M=16, efConstruction=100 was the primary tested index configuration
+- [[Exploring Vector Databases with Milvus]] — deep dive into HNSW and quantization-based indexing in Milvus; n_probe tradeoffs; filtering strategies A–E

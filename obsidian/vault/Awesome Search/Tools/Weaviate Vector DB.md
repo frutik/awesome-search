@@ -60,5 +60,7 @@ This separates scalability (stage 1) from accuracy (stage 2).
 ## Articles
 - [[Using Cross-Encoders as Reranker in Multistage Vector Search]]
 
+- [[Choosing a Vector Database for ANN Search at Reddit]] — Reddit qualitatively scored Weaviate; not tested quantitatively due to time constraints; single-node-type architecture noted as a concern
+
 ## People
 - [[Laura Ham]] — cross-encoder pipeline explainer
