@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-06-01T05:37:31.104Z</lastmod>
+    <lastmod>2026-06-01T06:18:34.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1145,6 +1145,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Intent</loc>
     <lastmod>2026-05-22T09:52:40.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Search-Observability</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Team</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -1230,7 +1233,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-06-01T04:52:31.000Z</lastmod>
+    <lastmod>2026-06-01T06:18:34.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Achinoam-Soroker</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
@@ -1293,7 +1296,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T06:11:12.438Z</lastmod>
+    <lastmod>2026-06-01T08:42:30.269Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1540,6 +1543,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Search-Consultancy</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Search-Observability</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Search-Platforms</loc>
     <lastmod>2026-05-30T22:00:00.000Z</lastmod>
