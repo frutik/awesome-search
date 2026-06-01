@@ -16,23 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Character filtering normalizes raw query text before tokenization. Users enter queries with inconsistencies — mixed case, punctuation, accents, special characters — that must be handled before meaningful processing can occur.
-
-## Key Concepts
-
-**Common character filtering operations**
-- Case normalization (lowercasing)
-- Accent/diacritic normalization (é → e, ü → u)
-- Unicode normalization (NFC/NFD/NFKC forms)
-- Punctuation handling (remove, replace, or keep based on context)
-- Special character handling (e.g., C++ keeps "++" meaningful)
-- HTML entity decoding
-- Whitespace normalization
-
-**Tradeoffs**
-- Aggressive normalization improves recall but can lose meaning
-- "C#" and "C++" need special treatment in programming searches
-- Brand names may use unconventional characters
+Character filtering is the first normalization step applied to raw query text before any higher-level processing can take place. Users enter queries in inconsistent ways — varying capitalization, punctuation, accents, and special characters — and the search system must reconcile these variations into a consistent representation. The core challenge is deciding how aggressively to normalize: stripping accents and lowercasing improves matching across spelling variations, but some characters carry meaning and should be preserved. A term that includes punctuation as part of its identity means something very different if that punctuation is removed. The right approach depends heavily on the domain and the kinds of queries users actually submit.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

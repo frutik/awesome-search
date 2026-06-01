@@ -16,48 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-How results are presented is as important as which results are returned. Presentation affects what users notice, click, and ultimately find useful.
-
-## Key Dimensions of Results Presentation
-
-**Layout**
-- List vs. grid view (list for informational, grid for product browsing)
-- Number of results per page
-- Above-the-fold visibility
-
-**Result components**
-- Title (most important for click decision)
-- Snippet / description (context for relevance)
-- Thumbnail / image (critical for product search)
-- Metadata (price, rating, availability, brand)
-- Highlighted query terms (shows why this result matches)
-
-**Result types**
-- Organic results vs. ads vs. featured snippets
-- Knowledge panels for entities
-- Rich results (structured data cards)
-- Direct answers (question answering)
-
-## Position Bias
-
-Users heavily favor top results regardless of quality (position bias). This creates:
-- Training feedback loops (clicked = relevant assumption)
-- Responsibility to get top results right
-- Need for counterfactual correction in learning
-
-## Adaptive Presentation
-
-- Show thumbnails when query has visual intent ("red dress")
-- Show text-heavy snippets for informational queries
-- Show comparison tables for comparison queries ("iPhone vs Samsung")
-- Mobile-optimized layouts for small screens
-
-## UX Best Practices
-
-- Match result format to query intent
-- Highlight matching terms in snippets
-- Show trust signals (ratings, reviews, recency)
-- Clear distinction between ads and organic results
+Which results a system returns and how those results are displayed are equally important to search quality, because what users perceive and click on is determined by both. Presentation choices — layout, which metadata fields to show, how text excerpts are generated, how query matches are highlighted — all shape whether users can quickly identify the result they need. Different query types call for different formats: visual browsing favors image-forward layouts, informational queries favor text-heavy excerpts, comparison queries favor side-by-side displays. A persistent challenge is position bias: users disproportionately interact with results near the top of the list regardless of quality, which creates feedback loops in learning systems and puts special pressure on the accuracy of the top few results.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

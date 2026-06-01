@@ -16,45 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Chatbots that help users find information must integrate query understanding with dialogue management. Unlike traditional search, chatbot search requires managing conversation state, understanding references across turns, and generating natural language responses.
-
-## Chatbot Search Architecture
-
-**Components**
-1. **Natural Language Understanding (NLU)**: Intent classification + entity extraction from user utterance
-2. **Dialogue State Tracking**: Maintain context across conversation turns
-3. **Query Construction**: Build search query from dialogue state + current utterance
-4. **Search Execution**: Retrieve results from search backend
-5. **Response Generation**: Convert results to natural language response
-
-## Dialogue Challenges
-
-**Reference resolution**
-- "Show me that in blue" → resolve "that" to previously mentioned product
-- "What about a cheaper option?" → maintain category/attribute context
-
-**Ellipsis handling**
-- "What about in size L?" → ellipsis of implicit subject (the product just discussed)
-
-**Intent switching**
-- User abandons current search intent mid-conversation
-- System must detect and handle gracefully
-
-## NLU for Chatbot Search
-
-- **Intent classification**: What does user want to do? (search, filter, compare, buy)
-- **Entity extraction**: What entities did they mention? (product, brand, attribute, value)
-- **Slot filling**: Progressively fill required search parameters
-
-## Modern Chatbot Search
-
-LLM-powered chatbots (ChatGPT plugins, Perplexity, Bing Chat) have simplified some of these challenges by using the LLM itself for:
-- Intent understanding
-- Multi-turn context management
-- Natural language query-to-retrieval translation
-- Response synthesis
-
-But challenges remain around hallucination, attribution, and latency.
+Chatbots that help users find information face all the challenges of conversational search — context tracking, reference resolution, intent switching — while also needing to generate natural language responses rather than returning a results page. The query understanding problem in chatbots is embedded within a dialogue management problem: at each turn the system must understand what the user just said, decide what information it still needs, construct an appropriate retrieval query from the accumulated context, and translate the retrieved results back into a response that feels natural in a conversational exchange. Recent language model advances have simplified some of this by handling multi-turn context natively, but correctness, attribution, and latency remain ongoing challenges regardless of the underlying approach.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

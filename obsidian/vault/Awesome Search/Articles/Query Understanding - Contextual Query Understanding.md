@@ -16,43 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Context dramatically changes how a query should be interpreted. The same query "jacket" means different things to a user in Alaska in December vs. a user in Florida in July. Contextual query understanding uses signals beyond the query text to infer intent.
-
-## Types of Context
-
-**Session context**
-- Prior queries in the current session reveal evolving intent
-- "men's shoes" followed by "blue" → user is looking for blue men's shoes
-
-**Geographical context**
-- User location affects relevant results
-- "pizza" → local restaurants; "weather" → local forecast
-
-**Temporal/Seasonal context**
-- Time of year affects relevance
-- "costumes" in October → Halloween; "flowers" in February → Valentine's Day
-
-**Personalization**
-- User history, demographics, preferences
-- Past purchases, browsed categories
-
-**Device context**
-- Mobile vs. desktop affects presentation and possibly intent
-- Voice vs. text input changes query characteristics
-
-## Implementation Challenges
-
-- Privacy tradeoffs with personalization
-- Cold start problem for new users
-- Balancing context signals against explicit query intent
-- Avoiding filter bubbles from over-personalization
-
-## Relationship to Other QU Topics
-
-Contextual understanding is layered on top of:
-- Query Segmentation and Entity Recognition (what the query contains)
-- Query Scoping (where to search)
-- It feeds into: Personalization, Seasonality, Location, Session Context (covered in subsequent articles)
+The meaning of a query cannot be fully determined from the words alone — context shapes interpretation significantly. The same query means something different depending on where the user is, what time of year it is, what they searched for earlier in the session, and what their personal history suggests about their preferences. Contextual query understanding draws on signals from the user's environment, history, and current session to resolve ambiguity and personalize the search experience. The challenge is weighting these signals appropriately: context should inform but not override explicit user intent, and over-reliance on any single signal can produce results that feel narrow or presumptuous. This overview introduces the contextual dimension covered in more depth by the individual articles on location, seasonality, session context, and personalization.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

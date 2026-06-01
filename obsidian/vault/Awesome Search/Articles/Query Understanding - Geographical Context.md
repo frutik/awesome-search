@@ -16,50 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-User location is one of the most powerful contextual signals for search. Many queries have strong geographic intent — even when location isn't explicitly mentioned.
-
-## Types of Geographic Queries
-
-**Implicitly local queries**
-- "pizza" → nearby restaurants
-- "weather" → local forecast
-- "gas stations" → nearby stations
-- "best dentist" → local providers
-
-**Explicitly geographic queries**
-- "Paris hotels"
-- "California wine"
-- "NYC apartments"
-
-**Location-insensitive queries**
-- "how to tie a tie" — location irrelevant
-- "history of Rome" — no local intent
-
-## Location Signals
-
-- IP address geolocation (coarse, city-level)
-- GPS/device location (precise, requires permission)
-- User profile settings (home, work locations)
-- Query-embedded location terms
-
-## Implementation
-
-**Geosearch indexes**
-- Elasticsearch geo_point queries
-- Filtering by distance or bounding box
-- Boosting proximity in scoring
-
-**Query understanding**
-- Detect implicit local intent (query classification)
-- Extract explicit locations (NER)
-- Resolve to canonical geo-entities (city, region, country)
-
-## Challenges
-
-- Privacy concerns with precise location tracking
-- International queries need timezone awareness
-- "Paris" might mean Paris, TX vs. Paris, France
-- Roaming users (searching local to destination, not current location)
+Many queries carry geographic intent even when no location is explicitly mentioned — a search for a restaurant, a weather forecast, or a nearby service implicitly means "near me." Geographic context allows the search system to interpret these queries appropriately and surface locally relevant results. The system draws on several signals to determine location: device location where available, coarser network-based estimates, and location terms embedded in the query itself. The main challenges are handling ambiguous place names that could refer to multiple locations, respecting privacy expectations around location data, and correctly recognizing when a query has local intent versus when it is genuinely location-independent.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

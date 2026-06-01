@@ -14,50 +14,9 @@ tags:
 
 Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
-## Taxonomy
+## Overview
 
-A **taxonomy** is a hierarchical classification system.
-
-**In search:**
-- Product category trees (Electronics → Computers → Laptops → Gaming Laptops)
-- Content type hierarchies
-- Enables navigation, filtering, and query scoping
-
-**Key properties:**
-- Strictly hierarchical (tree structure)
-- Each node has one parent (except root)
-- Used for browse navigation and faceted filtering
-
-## Ontology
-
-An **ontology** is a richer knowledge structure including relationships, attributes, and rules — not just hierarchy.
-
-**In search:**
-- Semantic relationships ("running shoes" IS-A "athletic footwear")
-- Part-of relationships ("lens" IS-PART-OF "camera")
-- Compatibility (iPhone 15 COMPATIBLE-WITH "Lightning cables" vs "USB-C")
-- Equivalences ("sofa" SAME-AS "couch" SAME-AS "settee")
-
-## Applications in Query Understanding
-
-**Query expansion via taxonomy**
-- "boots" → expand to include "ankle boots", "knee-high boots", "cowboy boots"
-- Navigate up/down hierarchy for recall/precision tradeoff
-
-**Query scoping**
-- Map query to taxonomy node to determine search scope
-
-**Entity resolution**
-- Map extracted entities to canonical knowledge base entries with IDs
-
-**Facet generation**
-- Taxonomy drives which facets to show for a given query/category
-
-## Building Taxonomies
-
-- Manual curation (expensive but high quality)
-- Semi-automated from product catalogs
-- Machine learning-based taxonomy induction from text
+Taxonomies and ontologies are two types of structured knowledge representation that help search systems understand the relationships between concepts. A taxonomy organizes concepts into a strict hierarchy — a tree of categories where each concept belongs to one parent — and is the basis for catalog navigation and for scoping queries to the right part of a collection. An ontology is richer: it captures not just hierarchical relationships but also equivalences, part-whole relationships, compatibility constraints, and other semantic connections between concepts. Both allow the system to reason about what a user probably means beyond the literal words they typed — inferring related categories, finding synonymous terms, or understanding that one thing is a subtype of another. Maintaining these structures as a catalog evolves is an ongoing operational challenge.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

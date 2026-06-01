@@ -16,55 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Traditional search is a one-shot interaction: user types query, gets results. Conversational search reimagines this as a dialogue where the system and user jointly refine the search through multiple turns.
-
-## The Conversational Search Model
-
-```
-User: "I'm looking for a gift for my mom"
-System: "What's the occasion, and what's your budget?"
-User: "Her birthday, around $50"
-System: "What are her interests?"
-User: "She loves gardening"
-System: [Shows gardening gift options $40-60]
-```
-
-## Why Conversational Search Matters
-
-- Reduces cognitive load of formulating precise queries
-- Handles complex, multi-faceted information needs
-- More natural for voice interfaces
-- Enables progressive disclosure of intent
-
-## Key Techniques
-
-**Clarification questions**
-- Ask for missing information (occasion, budget, recipient)
-- System must know when to ask vs. when to show results
-
-**Reference resolution**
-- "Show me that in red" — resolve "that" to previous result
-- Track entities across turns
-
-**Intent tracking**
-- Maintain dialogue state across turns
-- Detect when user switches to a new intent
-
-## Comparison to Traditional Search
-
-| Aspect | Traditional Search | Conversational Search |
-|---|---|---|
-| Turns | Single | Multiple |
-| Initiative | User-driven | Mixed |
-| Query formulation | User's burden | Shared burden |
-| Context | Stateless | Stateful |
-| Interface | Results page | Dialogue + results |
-
-## Modern Implementations
-
-- Alexa, Google Assistant, Siri for voice
-- ChatGPT-style interfaces with search grounding
-- Shopping assistants (Shopify, Amazon)
+Traditional search compresses an often complex information need into a single query, placing the full burden of formulation on the user. Conversational search distributes that burden across multiple turns, allowing the system to ask for missing information, confirm its understanding, and progressively refine its response as the user's intent becomes clearer. This is particularly natural for voice interfaces and for complex information needs that are hard to express in a single query. The system must maintain the context of what has been said across turns, resolve references to things mentioned earlier in the conversation, and detect when the user has shifted to a new topic. The result is a fundamentally different relationship between user and system than the one-shot query model implies.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

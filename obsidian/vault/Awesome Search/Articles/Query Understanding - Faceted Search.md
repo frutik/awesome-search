@@ -16,46 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Faceted search (also: faceted navigation, guided navigation) allows users to filter search results by structured attributes (facets) such as category, price, brand, color, and size. It's one of the most effective UX patterns for exploratory e-commerce search.
-
-## What Facets Are
-
-Facets are structured attributes of items in the index:
-- Category / subcategory
-- Brand
-- Price range
-- Color, size, material (product attributes)
-- Rating, reviews
-- Availability, shipping speed
-- New/used condition
-
-## Faceted Search vs. Keyword Search
-
-| Keyword Search | Faceted Search |
-|---|---|
-| User-initiated | System-initiated |
-| Recall problem (find the right query) | Precision problem (narrow to right item) |
-| Good for known-item search | Good for exploratory browse |
-
-## Query Understanding + Facets
-
-Faceted search is informed by query understanding:
-- **Query scoping** determines which facets to show (running shoes → show surface type, not heel height)
-- **Entity recognition** can pre-populate filters ("red Nike running shoes" → Brand=Nike, Color=Red)
-- **Personalization** determines default facet values and ordering
-
-## Facet Relevance
-
-Not all facets are equally useful. Showing too many facets overwhelms users:
-- Show only facets relevant to the current query and category
-- Rank facets by usefulness/discriminating power
-- Dynamically generate facet values based on results
-
-## Implementation
-
-- Elasticsearch aggregations for facet counts
-- Pre-compute facet counts at index time for performance
-- Facet selection updates results and remaining facet counts
+Faceted search allows users to narrow down a result set by applying structured filters to attributes of the items — category, price range, brand, color, size, and so on. It is particularly effective for exploratory search, where users are browsing a space rather than looking for a specific known item. The system's job in faceted search is not just to display relevant facets but to show the right ones: facets should be chosen based on what attributes are actually discriminating for the current query and category, and their order and prominence should reflect their usefulness. Query understanding connects to faceted search by pre-populating filters when attributes are mentioned in the query, determining which facet set is appropriate for a given query scope, and personalizing the default ordering based on user preferences.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

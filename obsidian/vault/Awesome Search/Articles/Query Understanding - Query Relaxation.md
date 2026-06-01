@@ -16,37 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Query relaxation addresses queries that return too few or zero results by progressively removing or softening constraints. It's a key strategy for handling "zero results" pages.
-
-## Relaxation Strategies
-
-**Term dropping**
-Remove the least important or rarest terms from the query. Example: "blue vintage leather motorcycle jacket size XL" → "vintage leather motorcycle jacket" → "leather motorcycle jacket".
-
-**AND-to-OR conversion**
-Switch from requiring all terms to requiring any terms, with ranking to prioritize documents matching more terms.
-
-**Attribute relaxation**
-In structured e-commerce search, relax specific facet constraints:
-- Size: "XL" → any size
-- Color: "navy blue" → any blue → any color
-- Brand: relax to category
-
-**Semantic relaxation**
-Move up the taxonomy hierarchy:
-- "Nike Air Max 2024" → "Nike running shoes" → "running shoes"
-
-## Implementation
-
-- Waterfall approach: try progressively relaxed queries until results found
-- Present "No exact results, but we found..." messaging
-- Machine learning to predict best relaxation order
-
-## Tradeoffs
-
-- Too aggressive relaxation → irrelevant results and user frustration
-- Too conservative → empty result pages (equally bad)
-- Order of relaxation matters: preserve intent as long as possible
+Query relaxation handles the situation where a query is too specific to return meaningful results. Rather than showing an empty page, the system progressively loosens constraints until it can surface something useful. This might mean dropping the least important terms, widening category constraints, or softening specific attribute requirements. The art is in choosing the right order of relaxation — removing constraints that don't change the core intent first — and in communicating to the user that the results shown are approximations rather than exact matches. Both extremes are bad: relaxing too aggressively produces irrelevant results, while relaxing too conservatively leaves users with empty pages.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

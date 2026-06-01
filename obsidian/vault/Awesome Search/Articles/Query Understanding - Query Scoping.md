@@ -16,43 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Query scoping determines the appropriate "scope" or domain for a query — which category of the product catalog, which index, or which subset of documents should be searched.
-
-## What Scoping Does
-
-- Maps queries to product categories or taxonomic nodes
-- Routes queries to specialized search indexes
-- Pre-filters the search space before ranking
-- Informs which features/facets to show
-
-## Example
-
-Query: "running shoes"
-- Scope: Sports & Outdoors → Footwear → Athletic Shoes → Running Shoes
-- Shows running-specific facets: surface type (road/trail), pronation, cushioning
-- Doesn't show unrelated footwear facets: heel height, formal occasion
-
-## Approaches
-
-**Category classification**
-- Train a classifier to map queries to taxonomy nodes
-- Hierarchical classification (coarse to fine)
-- Multi-label for ambiguous queries
-
-**Query-to-category mapping**
-- Use historical click data: queries → categories clicked
-- Taxonomy-aware query expansion
-
-**Neural approaches**
-- Fine-tuned BERT classifiers achieve strong performance
-- Embedding-based nearest-neighbor to category exemplars
-
-## Challenges
-
-- Ambiguous queries ("apple" → electronics or food?)
-- Tail queries with little training data
-- Taxonomy changes require retraining
-- Multi-category queries ("gift for her under $50")
+Query scoping determines which part of a catalog or content collection a query should be searched against. Many queries implicitly target a specific domain or category, and restricting the search space accordingly improves both relevance and the usefulness of refinement options shown to the user. Scoping is typically achieved by classifying queries against a category taxonomy, using historical behavior to learn associations between query language and catalog segments. The hard cases are ambiguous queries that could reasonably belong to multiple categories, and rare queries where there isn't enough historical data to make a confident prediction. Getting scope right also determines which facets and filters are shown — a well-scoped query surfaces attributes meaningful to that category rather than a generic set.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

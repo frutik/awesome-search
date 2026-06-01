@@ -16,31 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Tokenization splits raw query text into discrete units (tokens) for further processing. It appears simple but has significant impact on search quality, especially for technical terms, brand names, and non-English languages.
-
-## Key Concepts
-
-**Word tokenization**
-- Whitespace splitting as a baseline
-- Language-specific rules for compound words (German: "Donaudampfschifffahrtsgesellschaft")
-- Hyphenation handling ("e-commerce" → ["e", "commerce"] or keep as one?)
-
-**Subword tokenization**
-- BPE (Byte Pair Encoding) — used by GPT, many NLP models
-- WordPiece — used by BERT
-- Handles rare/OOV words by splitting into known subwords
-
-**Character-level tokenization**
-- Character n-grams for fuzzy matching
-
-**Domain-specific considerations**
-- Product codes, SKUs (need to keep intact)
-- Measurements ("5kg", "32GB")
-- URLs and email addresses
-
-**Search-specific issues**
-- Query segmentation relates to tokenization (multiword tokens)
-- Mismatch between query tokenization and index tokenization causes recall failures
+Tokenization splits raw query text into discrete units for further processing. While splitting on whitespace works as a baseline, real-world queries require more nuanced decisions: whether to keep hyphenated terms together or apart, how to handle compound words in languages that form long concatenated strings, and what to do with product codes, measurements, or other domain-specific tokens that should be kept intact. A subtler but critical consideration is consistency — the way queries are tokenized must match the way documents were tokenized at index time, because a mismatch silently kills recall. Modern approaches can also break unknown words into smaller recognizable fragments, which helps when users search with rare or specialized terms.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

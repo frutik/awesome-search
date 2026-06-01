@@ -16,32 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Spelling correction is one of the highest-impact query understanding tasks. Misspelled queries return poor or zero results; effective correction dramatically improves recall and user satisfaction.
-
-## Key Concepts
-
-**Types of spelling errors**
-- Typographic errors (transpositions, substitutions, insertions, deletions)
-- Phonetic errors (sounds right but spelled wrong: "nife" → "knife")
-- Cognitive errors (confusion between similar words)
-- Domain-specific errors (brand misspellings, technical terms)
-
-**Correction approaches**
-- Edit distance (Levenshtein, Damerau-Levenshtein)
-- Noisy channel model (Peter Norvig's classic approach)
-- N-gram language model re-ranking
-- Neural models (sequence-to-sequence)
-- SymSpell for fast candidate generation
-
-**Context-aware correction**
-- Single-word vs. context-aware (surrounding words matter)
-- "I saw the dessert" vs. "I crossed the desert" — same sound, different spelling needed
-
-**Search-specific considerations**
-- Query frequency as prior (popular queries are probably correct)
-- Index-based correction (suggest based on what's indexed)
-- "Did you mean?" vs. silent auto-correction
-- Correction of product names and brand terms
+Spelling correction is one of the highest-impact query understanding tasks because misspelled queries frequently return poor or zero results, and users rarely realize their error is the cause. The challenge is recognizing that a submitted query is probably a mistake and finding the most likely intended query — a problem that requires both understanding common error patterns and knowing what queries and terms actually exist in the domain. Search-specific correction differs from generic spell checking: the index itself is a valuable source of truth (if the corrected term doesn't appear in the catalog, the correction isn't useful), and brand names or product identifiers need careful handling to avoid mangling valid queries. The decision of whether to silently auto-correct or present a suggestion also involves real user experience tradeoffs around trust and transparency.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

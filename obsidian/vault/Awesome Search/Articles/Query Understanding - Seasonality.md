@@ -16,47 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Time of year, day of week, and time of day all influence what users want from their searches. A seasonality-aware search system interprets the same query differently based on temporal context.
-
-## Types of Seasonal Effects
-
-**Calendar-driven seasonality**
-- "costumes" → Halloween in October, costume parties rest of year
-- "flowers" → Valentine's Day, Mother's Day, Christmas
-- "swimsuit" → summer intent vs. vacation planning in winter
-
-**Holiday-driven**
-- "gifts for men" → Father's Day, Christmas, Valentine's
-- "turkey recipes" → Thanksgiving
-- Black Friday / Cyber Monday product searches
-
-**Sports seasons**
-- "jersey" → NFL season vs. MLB season
-- "sneakers" → back-to-school August peak
-
-**Time of day effects**
-- "lunch" → different results at 11am vs. 3pm
-- News queries → morning browsing patterns
-
-## Implementation
-
-**Time-based ranking boosts**
-- Boost seasonally relevant products/content for the current date
-- Decay functions for recency in news search
-
-**Seasonal intent classifiers**
-- Detect when a query has strong seasonal associations
-- Adjust top-of-funnel content seasonally
-
-**Trend detection**
-- Real-time trending topics (Google Trends style)
-- Spike detection in query logs
-
-## E-commerce Applications
-
-- Seasonal catalog surfacing (sunscreen in summer, jackets in fall)
-- Marketing alignment: show promotional content for current season
-- Inventory planning: anticipate seasonal demand spikes
+The same query can carry very different intent depending on when it is submitted. Search systems that are aware of temporal context can interpret these variations correctly and surface more relevant results. Seasonal awareness operates at multiple timescales — time of year, day of week, and even time of day can all shift what the most relevant interpretation of a query is. Beyond improving relevance, seasonal signals are also useful for surfacing timely content and aligning results with promotional calendars. Detecting seasonal intent requires learning which queries have strong temporal associations, as opposed to queries whose meaning is stable year-round, and then acting on those associations without over-fitting to historical patterns that may not repeat exactly.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

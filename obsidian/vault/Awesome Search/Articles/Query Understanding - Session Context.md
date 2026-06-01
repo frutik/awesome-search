@@ -16,43 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-A search session consists of multiple queries by the same user pursuing a goal. Later queries in a session provide context for understanding earlier and current queries. Session context enables more relevant results by tracking how user intent evolves.
-
-## Why Sessions Matter
-
-Single queries are often ambiguous. Sessions reveal:
-- Refinements: "shoes" → "running shoes" → "Nike running shoes"
-- Corrections: user reformulates after unsatisfying results
-- Related facets: "red dress" → "red heels" (coordinating outfit)
-- Progressive intent: "flights to Paris" → "hotels in Paris" → "Paris restaurants"
-
-## Approaches
-
-**Rule-based session modeling**
-- Carry over key entities from previous queries
-- Detect query reformulations vs. new search
-
-**Statistical session models**
-- Model query sequences as Markov chains
-- Hidden Markov Models for session state
-
-**Neural session models**
-- RNN/LSTM to encode session history
-- Transformer-based session encoders
-- BERT fine-tuned on session sequences
-
-## Implementation Challenges
-
-- Session boundaries: when does a new search intent begin?
-- Balance session context vs. new explicit intent
-- Privacy: session data is sensitive
-- Latency: session modeling adds overhead
-
-## Applications
-
-- Conversational search refinement
-- Query auto-completion personalized to session
-- "You searched for X earlier — do you want Y?"
+A user's current query rarely exists in isolation — it typically follows other queries in the same session, and those prior queries reveal a great deal about what the user is actually trying to accomplish. Session context uses this history to resolve ambiguity and anticipate needs. A sequence of queries that progressively narrows in on a topic tells the system something different than a sudden shift in direction. Applying session context well requires knowing when earlier queries are still relevant and when the user has genuinely moved on to a new intent. It also introduces privacy considerations, since session data is necessarily tied to individual user behavior, and latency considerations, since incorporating session state adds overhead to each query.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

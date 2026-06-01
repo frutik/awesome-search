@@ -16,49 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Search results clustering groups results into thematic categories at query time, giving users an overview of the result landscape and enabling faster navigation of diverse or ambiguous result sets.
-
-## When Clustering Helps
-
-- Ambiguous queries: "jaguar" clusters into cars, animals, sports teams, software
-- Broad queries: "camera" clusters into DSLRs, mirrorless, point-and-shoot, accessories
-- Long-tail queries returning many heterogeneous results
-
-## Clustering Approaches
-
-**Pre-defined taxonomy clustering**
-- Map results to known categories/topics
-- Fast, consistent, but requires taxonomy maintenance
-
-**Dynamic clustering (data-driven)**
-- Cluster result documents at query time
-- k-means or hierarchical clustering on document embeddings
-- Agglomerative clustering for small result sets
-
-**Snippet-based clustering**
-- Cluster based on extracted phrases from snippets
-- Suffix Tree Clustering (STC) — classic approach
-- Lingo algorithm for labeled clusters
-
-## Challenges
-
-- Cluster quality varies with query type
-- Latency: clustering adds response time
-- Labeling: automatic cluster labels are often poor quality
-- User adoption: users don't always interact with clusters
-
-## Use Cases
-
-- Faceted navigation (static version of clustering)
-- "Results by type" disambiguation pages
-- Enterprise search over heterogeneous content types
-- News search grouping by story/event
-
-## Tools
-
-- Carrot2 (open-source clustering search engine)
-- Solr's clustering component
-- Elasticsearch + custom clustering pipeline
+Search results clustering groups the results of a query into thematic categories at display time, giving users an overview of the diversity in the result set and allowing them to navigate to the cluster most relevant to their needs. It is most useful for ambiguous or broad queries where a single ranked list obscures the fact that the results represent multiple distinct interpretations or subtopics. The main practical challenges are generating cluster labels that are accurate and descriptive enough to be useful, maintaining low enough latency that clustering doesn't degrade the search experience, and designing a presentation that users will actually interact with — clusters that go unnoticed don't help anyone.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

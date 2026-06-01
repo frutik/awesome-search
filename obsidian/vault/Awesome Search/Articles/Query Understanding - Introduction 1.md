@@ -14,51 +14,9 @@ tags:
 
 Part of the **Query Understanding** series by Daniel Tunkelang on [queryunderstanding.com](https://queryunderstanding.com).
 
-## Series Overview
+## Overview
 
-Query understanding is the process by which a search system interprets user queries to return more relevant results. It bridges the gap between what users type and what they actually want.
-
-The series covers the full pipeline from raw text processing through contextual understanding:
-
-**Text Processing**
-- Language Identification
-- Character Filtering
-- Tokenization
-- Spelling Correction
-- Stemming and Lemmatization
-
-**Query Transformation**
-- Query Rewriting
-- Query Expansion
-- Query Relaxation
-- Query Segmentation
-- Query Scoping
-- Entity Recognition
-- Taxonomies and Ontologies
-
-**User Interface**
-- Autocomplete
-- Autocomplete and User Experience
-
-**Contextual Understanding**
-- Session Context
-- Location as Context
-- Seasonality
-- Personalization
-
-**Conversational Search**
-- Search as a Conversation
-- Clarification Dialogues
-- Relevance Feedback
-
-**Results**
-- Faceted Search
-- Search Results Presentation
-- Search Result Snippets
-- Search Results Clustering
-- Question Answering
-- Voice Interfaces
-- Chatbots
+Query understanding is the body of work concerned with how a search system interprets what a user wants from the words they submit. It sits between the user and the retrieval engine, transforming raw text into a representation the system can act on more intelligently. This series covers the full pipeline: from the earliest stages of text normalization — cleaning up characters, identifying languages, splitting text into tokens — through the linguistic techniques that reduce vocabulary variation, the structural techniques that identify entities and phrases, the contextual signals that shape interpretation, and the output formats that present answers back to users. Together these topics describe the machinery that separates a search system that responds to words from one that responds to intent.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 

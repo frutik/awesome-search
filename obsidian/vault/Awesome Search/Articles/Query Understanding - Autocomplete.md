@@ -16,48 +16,7 @@ Part of the **Query Understanding** series by [[Daniel Tunkelang]].
 
 ## Overview
 
-Autocomplete (also: search suggestions, search-as-you-type, typeahead) predicts the full query a user is typing and presents completions as a dropdown. It improves search efficiency and guides users toward queries that return results.
-
-## Types of Suggestions
-
-**Query completions**: Complete the current partial query
-- "run" → "running shoes", "running jacket", "running watch"
-
-**Query suggestions**: Alternative queries (not just completions)
-- "red dress" → "red cocktail dress", "red maxi dress"
-
-**Product/entity suggestions**: Jump directly to a product or category
-- "iphone 1" → shows iPhone 15, iPhone 14 cards
-
-## Data Sources
-
-**Query logs** (most important)
-- Frequent past queries as candidates
-- CTR and conversion rate as quality signals
-- Personalization: user's own history
-
-**Catalog/index**
-- Index-based autocomplete from product names, categories
-- Ensures suggestions lead to results
-
-**Curated/editorial**
-- Hand-picked suggestions for head queries
-- Holiday and promotional suggestions
-
-## Ranking Autocomplete Suggestions
-
-Factors to rank:
-1. Query frequency (popularity)
-2. Conversion rate
-3. Contextual relevance to typed prefix
-4. Recency (trending queries)
-5. Personalization signals
-
-## Implementation
-
-- Trie-based indexes for prefix matching (fast, memory-efficient)
-- Inverted index with prefix queries
-- Redis for real-time trending suggestions
+Autocomplete predicts the rest of a query as a user types and presents completion suggestions in real time. It serves two purposes simultaneously: reducing the effort required to formulate a query, and steering users toward queries that are likely to return good results. Suggestions can be completions of the partial query, alternative related queries, or direct links to specific products or categories. The quality of suggestions depends on both relevance — do they reflect what this user probably wants? — and feasibility — will the suggested query actually return results? Suggestions are typically ranked by a combination of historical query frequency, correlation with successful search outcomes, and contextual signals specific to the current user or session.
 
 > Note: Article content behind Medium paywall — accessible at source URL with Medium account.
 
