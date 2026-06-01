@@ -126,4 +126,4 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 | 2026-05-16 | ~49 | ~249 |
 | 2026-05-15 | ~200 | ~200 |
 
-See [[Home]] for current vault totals.
+See [[All about Information Retrieval & Search]] for current vault totals.

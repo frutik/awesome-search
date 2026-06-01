@@ -1,4 +1,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
+    <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
+    <lastmod>2026-06-01T05:37:31.104Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -879,7 +882,7 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</loc>
-    <lastmod>2026-05-29T06:28:26.000Z</lastmod>
+    <lastmod>2026-06-01T05:41:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Asymmetric-Semantic-Search</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1092,7 +1095,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/RAG</loc>
-    <lastmod>2026-05-29T06:28:26.000Z</lastmod>
+    <lastmod>2026-06-01T05:41:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/RaBitQ</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1229,9 +1232,6 @@
     <loc>https://frutik.github.io/awesome-search/History</loc>
     <lastmod>2026-06-01T04:52:31.000Z</lastmod>
   </url><url>
-    <loc>https://frutik.github.io/awesome-search/Home</loc>
-    <lastmod>2026-06-01T05:17:11.000Z</lastmod>
-  </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Achinoam-Soroker</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
@@ -1293,7 +1293,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T05:41:06.752Z</lastmod>
+    <lastmod>2026-06-01T06:11:12.438Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1497,7 +1497,7 @@
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Conversational-and-Agentic-Search</loc>
-    <lastmod>2026-05-31T16:39:23.000Z</lastmod>
+    <lastmod>2026-06-01T05:41:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Dimensionality-Reduction-vs-Quantization</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
@@ -1563,5 +1563,5 @@
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/</loc>
-    <lastmod>2026-05-17T11:49:24.000Z</lastmod>
+    <lastmod>2026-06-01T05:41:46.000Z</lastmod>
   </url></urlset>

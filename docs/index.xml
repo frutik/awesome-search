@@ -10,13 +10,37 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:41:06 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 06:11:12 GMT</pubDate>
   </item><item>
-    <title>Home</title>
-    <link>https://frutik.github.io/awesome-search/Home</link>
-    <guid>https://frutik.github.io/awesome-search/Home</guid>
+    <title>Agentic Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
+    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
+  </item><item>
+    <title>RAG</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/RAG</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/RAG</guid>
+    <description><![CDATA[ RAG (Retrieval-Augmented Generation) Definition RAG combines a retrieval system with a generative language model. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
+  </item><item>
+    <title>Conversational and Agentic Search</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Conversational-and-Agentic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Conversational-and-Agentic-Search</guid>
+    <description><![CDATA[ Conversational and Agentic Search Search is shifting from single-turn keyword queries toward multi-turn dialogue and autonomous agent-driven retrieval. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://frutik.github.io/awesome-search/</link>
+    <guid>https://frutik.github.io/awesome-search/</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:17:11 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 05:37:31 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</link>
     <guid>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</guid>
     <description><![CDATA[ PCA vs t-SNE vs UMAP: Visualizing the Invisible in Your Data Author: Lakhan Bukkawar Source: medium.com/@laakhanbukkawar/pca-vs-t-sne-vs-umap-visualizing-the-invisible-in-your-data-92cb2baebdbb Summary Side-by-side comparison of PCA, t-SNE, and UMAP with Python implementations on the Iris dataset. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Principal Component Analysis (PCA) In Depth</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis-(PCA)-In-Depth</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis-(PCA)-In-Depth</guid>
-    <description><![CDATA[ Principal Component Analysis (PCA) In Depth Author: Fraidoon Omarzai Source: medium.com/@fraidoonomarzai99/principal-component-analysis-pca-in-depth-93c871f25dfa Summary Step-by-step walkthrough of the PCA algorithm from linear algebra foundations through Python implementation. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs</title>
-    <link>https://frutik.github.io/awesome-search/Articles/SEARCH-R1---Reinforcement-Learning-Enhanced-Multi-Turn-Search-and-Reasoning-for-LLMs</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/SEARCH-R1---Reinforcement-Learning-Enhanced-Multi-Turn-Search-and-Reasoning-for-LLMs</guid>
-    <description><![CDATA[ SEARCH-R1: Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs A technical walkthrough of the Search-R1 framework (arxiv: 2503.09516) — an RL-based approach that trains LLMs to interleave multi-turn search queries with chain-of-thought reasoning, without requiring human-labeled ... ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Understanding Principal Component Analysis (PCA)</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</guid>
-    <description><![CDATA[ Understanding Principal Component Analysis (PCA) Author: Roshmita Dey Source: medium.com/@roshmitadey/understanding-principal-component-analysis-pca-d4bb40e12d33 Summary Comprehensive guide covering why dimensionality reduction is needed, the mathematics of PCA, and applications across domains. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>t-SNE clearly explained</title>
-    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</guid>
-    <description><![CDATA[ t-SNE clearly explained Author: Kemal Erdem Source: medium.com/data-science/t-sne-clearly-explained-d84c537f53a Summary Intuitive explanation of t-SNE including comparison with PCA, the math of the probability distributions, and two optimization tricks (early compression, early exaggeration). ]]></description>
     <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
