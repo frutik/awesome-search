@@ -79,8 +79,12 @@ Key capabilities:
 - [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]]
 - [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]]
 
+- [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] — [[Jagadeesh Chandra]]; 2025 performance comparison (Elasticsearch-favorable; cites Elastic benchmarks)
+- [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced licensing and performance comparison
+
 ## People
 - [[Thomas Veasey]] — Principal Engineer; BBQ/OSQ quantization benchmarks
 - [[Alexander Marquardt]] — Elastic Services Engineering
 - [[Honza Král]] — Elastic
 - [[Taylor Roy]] — Elastic
+- [[Shay Banon]] — creator of Elasticsearch (2010); founder of [[Elastic]]

@@ -152,6 +152,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Elasticsearch-Personalized-Search-in-Ecommerce---Improve-Relevance</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Elasticsearch-vs.-OpenSearch-(2025)-The-Definitive-Showdown</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Evaluating-Good-Search---Measure-It</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -416,8 +419,14 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Netflix-Elasticsearch-Indexing-Strategy-in-AMP</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Observability-for-AI-Workloads-A-New-Paradigm-for-a-New-Era</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/On-Search-Leadership</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/OpenSearch-vs.-Elasticsearch-A-Comprehensive-Comparison-in-2025</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Optimizing-Search-at-Uber-Eats</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -553,6 +562,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Real-Talk-About-Synonyms-and-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-(Wikipedia)</loc>
+    <lastmod>2026-05-30T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Rethinking-Spotify-Search</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1295,8 +1307,11 @@
     <loc>https://frutik.github.io/awesome-search/People/Dmitriy-Meyerzon</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Dotan-Horovits</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T08:42:30.269Z</lastmod>
+    <lastmod>2026-06-01T08:52:30.869Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1308,6 +1323,9 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Fraidoon-Omarzai</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Frank-Goortani</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Geoffrey-Hinton</loc>
@@ -1333,6 +1351,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Ivan-Pleshkov</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Jagadeesh-Chandra</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Jaideep-Ray</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1441,6 +1462,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Shaw-Talebi</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Shay-Banon</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Siegfried-Sch%C3%BCle</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>

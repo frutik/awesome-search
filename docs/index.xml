@@ -10,7 +10,7 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 08:42:30 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 08:52:30 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
@@ -48,22 +48,22 @@
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
     <pubDate>Mon, 01 Jun 2026 05:41:46 GMT</pubDate>
   </item><item>
+    <title>Elasticsearch vs. OpenSearch (2025): The Definitive Showdown</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Elasticsearch-vs.-OpenSearch-(2025)-The-Definitive-Showdown</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Elasticsearch-vs.-OpenSearch-(2025)-The-Definitive-Showdown</guid>
+    <description><![CDATA[ Elasticsearch vs. OpenSearch (2025): The Definitive Showdown Summary An Elasticsearch-favorable comparison of the two platforms in 2025. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning</title>
     <link>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</link>
     <guid>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</guid>
     <description><![CDATA[ From RAG to Search-R1: Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning An accessible comparison of RAG and Search-R1 — tracing the evolution from single-pass retrieval toward autonomous, multi-turn search-and-reasoning agents trained with reinforcement learning. ]]></description>
     <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>PCA vs t-SNE: which one should you use for visualization</title>
-    <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE---Which-One-Should-You-Use-for-Visualization</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE---Which-One-Should-You-Use-for-Visualization</guid>
-    <description><![CDATA[ PCA vs t-SNE: which one should you use for visualization Author: Namratesh Shrivastav Source: medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d Summary Practical comparison of PCA and t-SNE on the MNIST dataset (60K training images, 784 dimensions per sample). ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>PCA vs t-SNE vs UMAP: Visualizing the Invisible in Your Data</title>
-    <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</guid>
-    <description><![CDATA[ PCA vs t-SNE vs UMAP: Visualizing the Invisible in Your Data Author: Lakhan Bukkawar Source: medium.com/@laakhanbukkawar/pca-vs-t-sne-vs-umap-visualizing-the-invisible-in-your-data-92cb2baebdbb Summary Side-by-side comparison of PCA, t-SNE, and UMAP with Python implementations on the Iris dataset. ]]></description>
+    <title>Observability for AI Workloads: A New Paradigm for a New Era</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Observability-for-AI-Workloads-A-New-Paradigm-for-a-New-Era</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Observability-for-AI-Workloads-A-New-Paradigm-for-a-New-Era</guid>
+    <description><![CDATA[ Observability for AI Workloads: A New Paradigm for a New Era Summary A 2026 retrospective on how AI workloads changed observability requirements. ]]></description>
     <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

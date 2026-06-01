@@ -273,3 +273,44 @@ SQA without observability: you evaluate carefully but never know what production
 - [[Zero Results]] — the clearest failure signal in the behavioral plane
 - [[Intent Drift]] — the quality problem observability is designed to detect early
 - [[Understaffed Search Team]] — prioritisation: zero-result monitoring and bad-query review as minimum viable observability
+# Observability for AI-Augmented Search
+
+As search systems increasingly incorporate RAG pipelines and agentic retrieval, observability must extend to cover two new layers.
+
+### RAG and Vector Database Layer
+
+Retrieval-augmented search adds its own observable layer between query and answer:
+
+| Signal | What it measures |
+|---|---|
+| **Retrieval latency** | P50/P99 for vector/semantic retrieval steps separately from LLM steps |
+| **Retrieval accuracy / relevance scoring** | Are retrieved chunks actually relevant? Requires quality eval beyond infrastructure metrics |
+| **Semantic similarity quality** | Whether vector retrieval returns semantically appropriate results |
+| **Index freshness** | Staleness in the RAG index degrades answer quality; same concern as classic search indexing lag |
+| **Context assembly effectiveness** | Are retrieved chunks sufficient and ordered usefully for generation? |
+
+These mirror the three observability planes (user behavior, system health, quality trends) but each metric must be tracked at the retrieval step independently of the generation step — otherwise a slow or low-quality retrieval is invisible beneath the overall request latency.
+
+### Agentic Search Observability
+
+For search systems using agentic retrieval (query planning, multi-step tool calls, result synthesis), standard request-level logging is insufficient. Each agent turn should emit a trace capturing:
+- Which queries were issued at each step
+- Which documents were retrieved and at what scores
+- How context was assembled before synthesis
+
+Practically this means extending the [[Search Event]] schema with a `query_plan` and a per-step `retrieval_log`.
+
+### Scale Inversion for AI-Augmented Workloads
+
+Traditional search observability is tuned for high-throughput, low-latency, small-payload requests. RAG-augmented search inverts this:
+- **Lower throughput** — hundreds to thousands of requests/minute rather than millions/second
+- **Higher latency** — end-to-end calls take 2–30 seconds; P99 alert thresholds must be recalibrated
+- **Larger payloads** — prompts + retrieved context reach tens of kilobytes
+
+Existing dashboards and alerting thresholds built for keyword search will generate constant false positives when applied to RAG-augmented endpoints. Separate observability stacks or separate alert tiers are needed.
+
+### Standardization via OpenTelemetry
+
+The OpenTelemetry Generative AI SIG is defining semantic conventions for AI telemetry. For RAG search, this means traces that capture query text, retrieved document IDs and scores, assembled context, and model parameters — extending the structured event log search teams already maintain.
+
+**Source:** [[Observability for AI Workloads A New Paradigm for a New Era]] — [[Dotan Horovits]]

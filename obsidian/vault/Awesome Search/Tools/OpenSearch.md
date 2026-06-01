@@ -118,6 +118,9 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 - [[Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock]] — RAG pipeline on AWS with code
 - [[How to Really Scale Autocomplete]] — `significant_terms`-based autocomplete patterns
 
+- [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] — [[Jagadeesh Chandra]]; 2025 performance comparison
+- [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced licensing and performance comparison
+
 ## Comparison
 
 - [[Elasticsearch vs OpenSearch]] — licensing, performance, feature differences, and when to choose each

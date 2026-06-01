@@ -67,6 +67,8 @@ Moves the query vector toward relevant documents and away from non-relevant ones
 - [[Query Understanding - Relevance Feedback]] — [[Daniel Tunkelang]]; explicit, pseudo, and implicit types
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; relevance feedback as query feedback (point 55)
 
+- [[Relevance Feedback (Wikipedia)]] — Wikipedia; foundational IR reference covering explicit, implicit, and pseudo-relevance feedback with the Rocchio algorithm
+
 ## People
 
 - [[Daniel Tunkelang]] — queryunderstanding.com series
