@@ -57,6 +57,9 @@ Adapted from classic project management:
 - [[Query Understanding]] — understanding intent is especially critical in agentic workflows
 - [[Context Engineering]] — agentic search is ~80% of context engineering; the curation arrow maps to search tools
 
+- [[Search-R1]] — RL-trained multi-turn search-and-reasoning agent; concrete implementation of agentic search
+- [[Reinforcement Learning for Search]] — training paradigm that enables autonomous search strategy learning
+
 ## Articles
 
 - [[Agentic Search as an Agile Engineering Process]] — [[Daniel Tunkelang]] & [[Asif Makhani]]
@@ -66,6 +69,9 @@ Adapted from classic project management:
 - [[Mutually Assured Distraction]] — [[Lester Solbakken]]; better retrievers → better distractors; MAD dynamic; abstention as control signal
 - [[You Say Search I Say Recs - Spotify Agentic Query Understanding]] — LLM router; +115% similar artists
 - [[Incremental AI Adoption for E-commerce Search]] — 4 levels from traditional to conversational AI
+
+- [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — RL-based multi-turn search framework; token-level loss masking; +26% on Qwen2.5-7B
+- [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — [[Lakshmi Devi Prakash]]; accessible RAG vs Search-R1 comparison
 
 ## People
 

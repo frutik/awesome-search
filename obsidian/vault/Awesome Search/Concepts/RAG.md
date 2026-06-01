@@ -52,6 +52,11 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - Multi-step reasoning with multiple retrieval rounds
 - Tools beyond text search (calculators, APIs, databases)
 
+
+### Search-R1: RL-Trained Multi-Turn Retrieval
+
+[[Search-R1]] takes agentic RAG further by training the model via [[Reinforcement Learning for Search]] — no human-labeled trajectories needed. The model learns to interleave `<think>`, `<search>`, and `<information>` tokens, iteratively querying a live search engine during reasoning. This contrasts with standard RAG's static index and single-turn retrieval pattern.
+
 ## Related Concepts
 - [[Embeddings]] — the retrieval component of RAG uses embeddings to find relevant context
 - [[Dense Embeddings]] — typically the retrieval representation in RAG pipelines
@@ -63,6 +68,9 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - [[Agentic Search]] — agentic extension of RAG
 - [[Task-Aware Embeddings]] — improves RAG by task-conditioning queries
 
+- [[Search-R1]] — RL-trained evolution of RAG; multi-turn live-web retrieval interleaved with reasoning
+- [[Reinforcement Learning for Search]] — training paradigm that replaces supervised trajectory labeling
+
 ## Articles
 
 - [[Chunking Strategies for LLM Applications]]
@@ -71,3 +79,5 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - [[Hypothetical Document Embeddings HyDE]]
 - [[Agentic Search as an Agile Engineering Process]]
 - [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; traces evolution RAG → agentic RAG → context engineering; articulates where single-pass RAG breaks
+- [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — [[Lakshmi Devi Prakash]]; traces evolution from RAG to RL-based multi-turn search
+- [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — technical breakdown of Search-R1 framework

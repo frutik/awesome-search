@@ -212,6 +212,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/From-Elasticsearch-to-Vespa---Rebuilding-the-Kleinanzeigen-Homepage-Feed-Part-1</loc>
     <lastmod>2026-05-25T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/From-Zero-to-Semantic-Search-Embedding-Model</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -550,6 +553,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Rethinking-Spotify-Search</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/SEARCH-R1---Reinforcement-Learning-Enhanced-Multi-Turn-Search-and-Reasoning-for-LLMs</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/SPLADE---Sparse-Bi-Encoder-BERT-Model-for-First-Stage-Ranking</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1094,6 +1100,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Reciprocal-Rank-Fusion</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Reinforcement-Learning-for-Search</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Relative-Score-Fusion</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
@@ -1135,6 +1144,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Team</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Search-R1</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Semantic-Boosting</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1218,7 +1230,7 @@
     <lastmod>2026-06-01T04:52:31.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Home</loc>
-    <lastmod>2026-05-31T16:39:23.000Z</lastmod>
+    <lastmod>2026-06-01T05:17:11.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Achinoam-Soroker</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
@@ -1281,7 +1293,7 @@
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T05:15:44.954Z</lastmod>
+    <lastmod>2026-06-01T05:41:06.752Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1347,6 +1359,9 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Lakhan-Bukkawar</loc>
+    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Lakshmi-Devi-Prakash</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Laura-Ham</loc>
@@ -1546,4 +1561,7 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Understaffed-Search-Team</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/</loc>
+    <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url></urlset>

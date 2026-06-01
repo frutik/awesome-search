@@ -10,13 +10,25 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 05:15:44 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 05:41:06 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://frutik.github.io/awesome-search/Home</link>
+    <guid>https://frutik.github.io/awesome-search/Home</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 05:17:11 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
     <pubDate>Mon, 01 Jun 2026 04:52:31 GMT</pubDate>
+  </item><item>
+    <title>From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning</title>
+    <link>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/From-RAG-to-Search-R1---Evolving-Language-Models-from-Knowledge-Retrieval-to-Autonomous-Reasoning</guid>
+    <description><![CDATA[ From RAG to Search-R1: Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning An accessible comparison of RAG and Search-R1 — tracing the evolution from single-pass retrieval toward autonomous, multi-turn search-and-reasoning agents trained with reinforcement learning. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>PCA vs t-SNE: which one should you use for visualization</title>
     <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE---Which-One-Should-You-Use-for-Visualization</link>
@@ -36,6 +48,12 @@
     <description><![CDATA[ Principal Component Analysis (PCA) In Depth Author: Fraidoon Omarzai Source: medium.com/@fraidoonomarzai99/principal-component-analysis-pca-in-depth-93c871f25dfa Summary Step-by-step walkthrough of the PCA algorithm from linear algebra foundations through Python implementation. ]]></description>
     <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
+    <title>SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs</title>
+    <link>https://frutik.github.io/awesome-search/Articles/SEARCH-R1---Reinforcement-Learning-Enhanced-Multi-Turn-Search-and-Reasoning-for-LLMs</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/SEARCH-R1---Reinforcement-Learning-Enhanced-Multi-Turn-Search-and-Reasoning-for-LLMs</guid>
+    <description><![CDATA[ SEARCH-R1: Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs A technical walkthrough of the Search-R1 framework (arxiv: 2503.09516) — an RL-based approach that trains LLMs to interleave multi-turn search queries with chain-of-thought reasoning, without requiring human-labeled ... ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>Understanding Principal Component Analysis (PCA)</title>
     <link>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</guid>
@@ -46,24 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</link>
     <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</guid>
     <description><![CDATA[ t-SNE clearly explained Author: Kemal Erdem Source: medium.com/data-science/t-sne-clearly-explained-d84c537f53a Summary Intuitive explanation of t-SNE including comparison with PCA, the math of the probability distributions, and two optimization tricks (early compression, early exaggeration). ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>T-SNE Explained — Math and Intuition</title>
-    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Math-and-Intuition</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Math-and-Intuition</guid>
-    <description><![CDATA[ T-SNE Explained — Math and Intuition Author: Achinoam Soroker Source: medium.com/swlh/t-sne-explained-math-and-intuition-94599ab164cf Summary Three-stage derivation of the t-SNE algorithm, building intuition before introducing math. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>t-SNE Explained: Visualising High-Dimensional Data</title>
-    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Visualising-High-Dimensional-Data</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Visualising-High-Dimensional-Data</guid>
-    <description><![CDATA[ t-SNE Explained: Visualising High-Dimensional Data Author: Billy Chan Source: medium.com/data-science-explained/t-sne-explained-visualising-high-dimensional-data-4f556041a80e Summary Most detailed step-by-step walkthrough of the t-SNE algorithm, working through a toy 5-point dataset numerically at e... ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>PCA</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/PCA</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/PCA</guid>
-    <description><![CDATA[ PCA (Principal Component Analysis) Definition PCA is a linear dimensionality reduction technique that projects data onto a new coordinate system whose axes (principal components) are ordered by the amount of variance they explain. ]]></description>
     <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

@@ -9,6 +9,8 @@ articles:
   - "[[You Say Search I Say Recs - Spotify Agentic Query Understanding]]"
   - "[[Superintelligent Retrieval Agent SIRA]]"
   - "[[Incremental AI Adoption for E-commerce Search]]"
+  - "[[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]]"
+  - "[[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]]"
 companies: [Spotify, Elastic, Cohere]
 people: []
 ---
@@ -143,3 +145,6 @@ As search becomes conversational, it overlaps with recommendations:
 - [[Personalization in Search]] — session-aware personalization
 - [[Autocomplete and Autosuggest]] — conversational entry points
 - [[RAG]] — retrieval-augmented generation as the synthesis layer
+- [[Search-R1]] — RL-trained multi-turn search-and-reasoning agent; the current frontier of agentic retrieval
+- [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — technical paper breakdown; token-level loss masking; PPO vs GRPO
+- [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — accessible RAG vs Search-R1 comparison
