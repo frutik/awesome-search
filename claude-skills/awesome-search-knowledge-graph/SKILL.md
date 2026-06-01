@@ -40,6 +40,30 @@ When asked to read/process articles, follow these steps in order:
 ### 1. Download the article
 Fetch the full article content from the provided URL using WebFetch. No confirmation needed.
 
+### 1a. Detect paywall
+After fetching, determine whether the full article body is accessible:
+
+**Paywall signals** (any of these → treat as paywalled):
+- Fetched text is significantly shorter than expected for an article (< ~300 words of body content)
+- Content is cut off mid-sentence or ends with a subscription/login prompt
+- Text contains phrases like "Subscribe to read", "Members only", "Sign in to continue", "This content is for subscribers", "Create a free account to read"
+- Only a lede or first few paragraphs are present with no further detail
+
+**If paywalled — aggressive summary mode:**
+1. Work only from the content that was retrieved (title, lede, abstract, visible snippets).
+2. Write a dense, information-maximising summary: core thesis, key claims, named entities, and any specific techniques or findings that are visible — no padding, no hedging.
+3. Add frontmatter field `paywall: true` to the article note.
+4. Add a prominent notice at the top of the note body:
+   ```
+   > [!warning] Paywall
+   > Full text unavailable. Summary based on publicly visible content only.
+   > Original article: <URL>
+   ```
+5. Still extract whatever entities, concepts, and links are inferable from the visible content.
+6. Skip steps that require full article body (e.g. detailed section breakdown), but complete all other workflow steps normally.
+
+**If not paywalled** — proceed normally through the rest of the workflow.
+
 ### 2. Save the article note
 Save to `Awesome Search/Articles/<Title>.md` using the standard note structure (see below).
 
@@ -124,7 +148,7 @@ Use Obsidian-compatible Markdown. Preserve source URLs in frontmatter (`source:`
 
 | Entity type | Key frontmatter fields |
 |---|---|
-| Article | `type: article`, `source:`, `author:`, `published:`, `concepts:`, `topics:` |
+| Article | `type: article`, `source:`, `author:`, `published:`, `concepts:`, `topics:`, `paywall: true` (only when paywalled) |
 | Concept | `type: concept`, `aliases:`, `tags:` |
 | Topic | `type: topic`, `aliases:`, `related_concepts:`, `related_topics:`, `articles:`, `website:` |
 | Person | `type: person`, `aliases:`, `website:` or `blog:`, `affiliation:` |
