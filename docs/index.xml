@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 04:51:50 GMT</pubDate>
-  </item><item>
-    <title>OpenSearch</title>
-    <link>https://frutik.github.io/awesome-search/Tools/OpenSearch</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/OpenSearch</guid>
-    <description><![CDATA[ OpenSearch Open-source distributed search and analytics engine forked from Elasticsearch 7.10.2 in 2021 by AWS, after Elastic changed its license from Apache 2.0 to SSPL/Elastic License. ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Elasticsearch vs OpenSearch</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Elasticsearch-vs-OpenSearch</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Elasticsearch-vs-OpenSearch</guid>
-    <description><![CDATA[ Elasticsearch vs OpenSearch Origin: The 2021 Fork OpenSearch was born in 2021 when AWS forked Elasticsearch 7.10.2 — the last version under Apache 2.0 — after Elastic changed its license to SSPL/Elastic License to protect against cloud providers (primarily AWS) running Elasticsearch as a managed ser... ]]></description>
-    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 05:15:44 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:46:35 GMT</pubDate>
+    <pubDate>Mon, 01 Jun 2026 04:52:31 GMT</pubDate>
   </item><item>
-    <title>Hornet</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Hornet</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Hornet</guid>
-    <description><![CDATA[ Hornet What They Build Hornet (hornet.dev) is a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>PCA vs t-SNE: which one should you use for visualization</title>
+    <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE---Which-One-Should-You-Use-for-Visualization</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE---Which-One-Should-You-Use-for-Visualization</guid>
+    <description><![CDATA[ PCA vs t-SNE: which one should you use for visualization Author: Namratesh Shrivastav Source: medium.com/analytics-vidhya/pca-vs-t-sne-17bcd882bf3d Summary Practical comparison of PCA and t-SNE on the MNIST dataset (60K training images, 784 dimensions per sample). ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Zalando</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Zalando</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Zalando</guid>
-    <description><![CDATA[ Zalando Search Context Zalando is Europe’s largest fashion platform. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>PCA vs t-SNE vs UMAP: Visualizing the Invisible in Your Data</title>
+    <link>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/PCA-vs-t-SNE-vs-UMAP---Visualizing-the-Invisible</guid>
+    <description><![CDATA[ PCA vs t-SNE vs UMAP: Visualizing the Invisible in Your Data Author: Lakhan Bukkawar Source: medium.com/@laakhanbukkawar/pca-vs-t-sne-vs-umap-visualizing-the-invisible-in-your-data-92cb2baebdbb Summary Side-by-side comparison of PCA, t-SNE, and UMAP with Python implementations on the Iris dataset. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>LLM as Judge</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/LLM-as-Judge</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/LLM-as-Judge</guid>
-    <description><![CDATA[ LLM as Judge Definition Using a large language model (LLM) to evaluate the relevance of search results — as a cheaper, faster alternative to human annotators for creating Judgment Lists or running automated quality checks. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>Principal Component Analysis (PCA) In Depth</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis-(PCA)-In-Depth</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis-(PCA)-In-Depth</guid>
+    <description><![CDATA[ Principal Component Analysis (PCA) In Depth Author: Fraidoon Omarzai Source: medium.com/@fraidoonomarzai99/principal-component-analysis-pca-in-depth-93c871f25dfa Summary Step-by-step walkthrough of the PCA algorithm from linear algebra foundations through Python implementation. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Learning to Rank</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
-    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>Understanding Principal Component Analysis (PCA)</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Understanding-Principal-Component-Analysis-(PCA)</guid>
+    <description><![CDATA[ Understanding Principal Component Analysis (PCA) Author: Roshmita Dey Source: medium.com/@roshmitadey/understanding-principal-component-analysis-pca-d4bb40e12d33 Summary Comprehensive guide covering why dimensionality reduction is needed, the mathematics of PCA, and applications across domains. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Listwise Relevance Evaluation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Listwise-Relevance-Evaluation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Listwise-Relevance-Evaluation</guid>
-    <description><![CDATA[ Listwise Relevance Evaluation Definition A relevance judgment method where an evaluator receives a full list of candidates for a query and produces a ranked ordering or set of grades over all items simultaneously. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>t-SNE clearly explained</title>
+    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Clearly-Explained</guid>
+    <description><![CDATA[ t-SNE clearly explained Author: Kemal Erdem Source: medium.com/data-science/t-sne-clearly-explained-d84c537f53a Summary Intuitive explanation of t-SNE including comparison with PCA, the math of the probability distributions, and two optimization tricks (early compression, early exaggeration). ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Pairwise Relevance Evaluation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Pairwise-Relevance-Evaluation</guid>
-    <description><![CDATA[ Pairwise Relevance Evaluation Definition A relevance judgment method where an evaluator (human or LLM) is shown two candidates side-by-side — conventionally called LHS (left-hand side) and RHS (right-hand side) — and asked which is more relevant to a given query. ]]></description>
-    <pubDate>Sun, 31 May 2026 16:39:23 GMT</pubDate>
+    <title>T-SNE Explained — Math and Intuition</title>
+    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Math-and-Intuition</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Math-and-Intuition</guid>
+    <description><![CDATA[ T-SNE Explained — Math and Intuition Author: Achinoam Soroker Source: medium.com/swlh/t-sne-explained-math-and-intuition-94599ab164cf Summary Three-stage derivation of the t-SNE algorithm, building intuition before introducing math. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>t-SNE Explained: Visualising High-Dimensional Data</title>
+    <link>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Visualising-High-Dimensional-Data</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/t-SNE-Explained---Visualising-High-Dimensional-Data</guid>
+    <description><![CDATA[ t-SNE Explained: Visualising High-Dimensional Data Author: Billy Chan Source: medium.com/data-science-explained/t-sne-explained-visualising-high-dimensional-data-4f556041a80e Summary Most detailed step-by-step walkthrough of the t-SNE algorithm, working through a toy 5-point dataset numerically at e... ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>PCA</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/PCA</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/PCA</guid>
+    <description><![CDATA[ PCA (Principal Component Analysis) Definition PCA is a linear dimensionality reduction technique that projects data onto a new coordinate system whose axes (principal components) are ordered by the amount of variance they explain. ]]></description>
+    <pubDate>Sun, 31 May 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

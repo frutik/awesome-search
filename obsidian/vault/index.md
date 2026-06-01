@@ -35,7 +35,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
 
 ### Embeddings
-[[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]]
+[[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
 
 ### Ranking
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
@@ -50,10 +50,9 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Search Architecture]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]
 
 ## Topics
-
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]]
 
 ## Tools
 
@@ -69,18 +68,17 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Case Studies
 
-[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]]
+[[Uber Eats - Scaling Search for Food Delivery]] · [[Airbnb - ML-Powered Experiences Ranking]] · [[Zalando - Self-DoS via Facet Aggregation]] · [[Slack - Enterprise Message Search with LTR]] · [[Etsy - Search Quality and Query Understanding]] · [[Skyscanner - Learning to Rank for Flights]] · [[Netflix - Content Search Architecture]] · [[Canva - Search Pipeline Modernization]]
 
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]]
 
 ## Stats
-
-- **~127+** article notes
-- **~77** concept notes (incl. Signal Downboosting, MMR, APD, Clicks Residual, Query Sampling, TurboQuant, RaBitQ, HNSW, IVF, SQ, BQ, LoRA, QLoRA, PEFT, Semantic Boosting, Relative Score Fusion)
-- **15** topic notes (incl. Understaffed Search Team)
-- **~39** people notes
+- **~134+** article notes
+- **~80** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ)
+- **16** topic notes (incl. Dimensionality Reduction vs Quantization, Elasticsearch vs OpenSearch)
+- **~48** people notes (incl. Geoffrey Hinton, Laurens van der Maaten)
 - **8** case study notes
 - **28** company nodes
 - **5** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB)
