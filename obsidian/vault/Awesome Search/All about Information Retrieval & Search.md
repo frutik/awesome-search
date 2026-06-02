@@ -13,7 +13,7 @@ This knowledge graph maps many of the resources that have influenced my thinking
 
 ⭐ Star us on GitHub — it helps!
 
-Semantic knowledge graph built from the [Awesome Search](https://github.com/frutik/awesome-search) curated list. Contains article notes, concept notes, topic notes, people notes, case study notes, and company nodes connected by wikilinks.
+Semantic knowledge graph built from the [Awesome Search](https://github.com/frutik/awesome-search) curated list. Contains article notes (for paywalled articles, only summaries and key concepts are included), concept notes, topic notes, people notes, case study notes, and company notes, all interconnected through wikilinks.
 
 ## Maps of Content (Entry Points)
 

@@ -10,7 +10,43 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 19:25:12 GMT</pubDate>
+    <pubDate>Tue, 02 Jun 2026 17:41:37 GMT</pubDate>
+  </item><item>
+    <title>Adrien Grand</title>
+    <link>https://frutik.github.io/awesome-search/People/Adrien-Grand</link>
+    <guid>https://frutik.github.io/awesome-search/People/Adrien-Grand</guid>
+    <description><![CDATA[ Adrien Grand Principal engineer at Elastic, core Apache Lucene committer. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:37:09 GMT</pubDate>
+  </item><item>
+    <title>Joon-Pil (JP) Hwang</title>
+    <link>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</link>
+    <guid>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</guid>
+    <description><![CDATA[ Joon-Pil (JP) Hwang Search engineer at Weaviate. Co-implemented Weaviate’s Block-Max WAND keyword search optimization (v1.29 technical preview). ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:37:07 GMT</pubDate>
+  </item><item>
+    <title>André Mourão</title>
+    <link>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</link>
+    <guid>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</guid>
+    <description><![CDATA[ André Mourão Search and IR engineer at Weaviate. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:37:04 GMT</pubDate>
+  </item><item>
+    <title>Block-Max WAND</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
+    <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:37:01 GMT</pubDate>
+  </item><item>
+    <title>BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search</title>
+    <link>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</guid>
+    <description><![CDATA[ BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search Authors: André Mourão, Joon-Pil (JP) Hwang (Weaviate) Published: 2025-02-26 Weaviate implemented Block-Max WAND as a technical preview in v1.29, achieving p50 query speedups of 5–10x and index size reductions of 50–90% over their existin... ]]></description>
+    <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Faster-Retrieval-of-Top-Hits-in-Elasticsearch-with-Block-Max-WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Faster-Retrieval-of-Top-Hits-in-Elasticsearch-with-Block-Max-WAND</guid>
+    <description><![CDATA[ Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND Author: Adrien Grand (Elastic) Published: 2019-02-05 Block-Max WAND was introduced into Lucene 8.0 and Elasticsearch 7.0 by Adrien Grand, delivering 3x–15x speedups for top-k retrieval. ]]></description>
+    <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>Adopting Vespa for Recommendation Retrieval at Vinted</title>
     <link>https://frutik.github.io/awesome-search/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</link>
@@ -28,42 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Articles/Beyond-Semantic-Similarity---Rethinking-Retrieval-for-Agentic-Search-via-Direct-Corpus-Interaction</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Beyond-Semantic-Similarity---Rethinking-Retrieval-for-Agentic-Search-via-Direct-Corpus-Interaction</guid>
     <description><![CDATA[ Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction Authors: TIGER-Lab (Zhuofeng Li et al.) Abstract Modern retrieval systems — whether lexical or semantic — expose a corpus through a fixed similarity interface compressing access into a single top-k retr... ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Building Search-Based Apps With Typesense: From Zero to Hero</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Building-Search-Based-Apps-With-Typesense</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Building-Search-Based-Apps-With-Typesense</guid>
-    <description><![CDATA[ Building Search-Based Apps With Typesense: From Zero to Hero Author: Paul Karikari Source: medium.com/@paulkarikari/building-search-based-apps-with-typesense-from-zero-to-hero-79f84d142aed Summary A hands-on tutorial walking through building a search-based application using Typesense — an open-sourc... ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Building Smarter Search Products - 3 Steps for Evaluating Search Algorithms</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Building-Smarter-Search-Products---3-Steps-for-Evaluating-Search-Algorithms</guid>
-    <description><![CDATA[ Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms Shopify describes their three-step framework for evaluating new search algorithms (specifically: Query-specific Pagerank vs. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Choosing a Vector Database for ANN Search at Reddit</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Choosing-a-Vector-Database-for-ANN-Search-at-Reddit</guid>
-    <description><![CDATA[ Choosing a Vector Database for ANN Search at Reddit Reddit’s 2025 engineering evaluation of vector databases for ANN search, concluding with the selection of Milvus over Qdrant and others after rigorous qualitative and quantitative testing at Reddit-scale workloads (~340M vectors). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>ColBERT Comes to Apache Solr: Implementation and Tutorial of Late Interaction Model Reranking</title>
-    <link>https://frutik.github.io/awesome-search/Articles/ColBERT-Comes-to-Apache-Solr</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/ColBERT-Comes-to-Apache-Solr</guid>
-    <description><![CDATA[ ColBERT Comes to Apache Solr: Implementation and Tutorial of Late Interaction Model Reranking Author: Nicolò Rinaldi (Sease) Summary Tutorial and implementation guide for adding ColBERT-style late interaction reranking to Apache Solr. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT Models?</title>
-    <link>https://frutik.github.io/awesome-search/Articles/ColBERT-Zero---To-Pre-train-Or-Not-To-Pre-train-ColBERT-Models</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/ColBERT-Zero---To-Pre-train-Or-Not-To-Pre-train-ColBERT-Models</guid>
-    <description><![CDATA[ ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT Models? Authors: Antoine Chaffin, Luca Arnaboldi, Amélie Chatelain, Florent Krzakala (LightOn AI / EPFL) Summary State-of-the-art ColBERT models are conventionally built by taking a strong dense model and adding a small Knowledge Distillation st... ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Common Pitfalls of Onsite Search Experimentation Part 2</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</guid>
-    <description><![CDATA[ Common Pitfalls of Onsite Search Experimentation Part 2 Siegfried Schüle (searchHub) exposes the basket attribution trap in search A/B testing. ]]></description>
     <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
   </item>
     </channel>

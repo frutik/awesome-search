@@ -51,13 +51,14 @@ A `relations` document extends the model: token similarity groups with propagati
 - The corpus is large enough that full scan is prohibitive
 
 ## Related Concepts
-
+- [[Block-Max WAND]] — enhancement dividing posting lists into blocks with per-block max scores; Lucene 8/ES 7 and Weaviate v1.29
 - [[Sparse Vector Retrieval]] — broader category; WAND is a retrieval algorithm within it
 - [[SPLADE]] — learned sparse vectors that also benefit from WAND-style retrieval
 - [[Dense Vector Retrieval]] — complementary approach using ANN over dense embeddings
 - [[Retrieval Pipeline]] — WAND typically serves as a first-stage retrieval method
 
 ## Related Notes
-
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]]
 - [[E-commerce Search and Recommendation with Vespa]]
+- [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]]
+- [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]

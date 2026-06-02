@@ -62,6 +62,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Bi-encoder-vs-Cross-encoder-When-to-Use-Which-One</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</loc>
+    <lastmod>2026-06-01T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Bootstrapping-Autosuggest</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -190,6 +193,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Facets,-But-Which-Ones</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Faster-Retrieval-of-Top-Hits-in-Elasticsearch-with-Block-Max-WAND</loc>
+    <lastmod>2026-06-01T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Finding-the-Relevance-Cutoff---When-to-Stop-Showing-Search-Results</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -947,6 +953,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Binary-Quantization</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</loc>
+    <lastmod>2026-06-02T17:37:01.702Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Clean-Context</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -1274,6 +1283,9 @@
     <loc>https://frutik.github.io/awesome-search/People/Achinoam-Soroker</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Adrien-Grand</loc>
+    <lastmod>2026-06-02T17:37:09.441Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Alexander-Marquardt</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
   </url><url>
@@ -1288,6 +1300,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Andreas-Wagner</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</loc>
+    <lastmod>2026-06-02T17:37:04.741Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Antoine-Chaffin</loc>
     <lastmod>2026-05-17T11:49:24.000Z</lastmod>
@@ -1338,7 +1353,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-01T19:25:12.799Z</lastmod>
+    <lastmod>2026-06-02T17:41:37.582Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1405,6 +1420,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Jonas-Schulz</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</loc>
+    <lastmod>2026-06-02T17:37:07.427Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Karthik-Ramasamy</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>

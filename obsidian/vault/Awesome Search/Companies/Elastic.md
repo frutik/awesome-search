@@ -21,6 +21,8 @@ Elastic makes **Elasticsearch** — the dominant open-source distributed search 
 - **[[ELSER]]** (Elastic Learned Sparse Encoder) — production-grade sparse retrieval model based on [[SPLADE]]. Achieves +17% NDCG@10 over BM25 on BEIR benchmarks with zero-shot performance
 - **[[BBQ]]** (Better Binary Quantization) — scalar + binary quantization approach for Elasticsearch dense vector fields; competitive with TurboQuant at fraction of the cost
 
+- **[[Block-Max WAND]]** — introduced in Lucene 8.0 / Elasticsearch 7.0 (2019) by [[Adrien Grand]]; 3x–15x speedup for top-k retrieval; required API change (`hits.total` now object with `value`+`relation`, controlled by `track_total_hits`)
+
 ### Search Features
 - `function_score` query — the primary [[Results Boosting]] mechanism in Elasticsearch
 - `kNN` + pre-filter pipeline — [[Vector Filtering]] support in dense vector search
@@ -43,6 +45,8 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 - [[Thomas Veasey]] — Principal Engineer, Elastic
 - [[Leonie Monigatti]] — Developer Advocate / ML Engineer; writes on agentic search and context engineering
 
+- [[Adrien Grand]] — Principal Engineer, Elastic; core Lucene committer; implemented [[Block-Max WAND]]
+
 ## Articles
 
 - [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]
@@ -52,9 +56,11 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 - [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
 - [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; three search tool patterns for context engineering
 
-## Concepts
+- [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]
 
-[[ELSER]] · [[BBQ]] · [[BM25]] · [[Results Boosting]] · [[Hybrid Search]]
+## Concepts
+[[ELSER]] · [[BBQ]] · [[BM25]] · [[Block-Max WAND]] · [[WAND]] · [[Results Boosting]] · [[Hybrid Search]]
+
 
 ### Governed Ecommerce Search Series (2026)
 
