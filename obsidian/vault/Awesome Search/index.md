@@ -73,10 +73,10 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Stats
 
-- **~141+** article notes
+- **~142+** article notes
 - **~82** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
 - **16** topic notes (incl. Dimensionality Reduction vs Quantization, Elasticsearch vs OpenSearch)
-- **~53** people notes (incl. Geoffrey Hinton, Laurens van der Maaten, Chris Fournie, Ritik Jain)
+- **~54** people notes (incl. Geoffrey Hinton, Laurens van der Maaten, Chris Fournie, Ritik Jain, Jithendrasaikilaru)
 - **9** case study notes (incl. Reddit - Vector Database Selection)
 - **29** company nodes (incl. Reddit)
 - **6** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB)

@@ -76,3 +76,4 @@ Combined, Weaviate reports **50–90% index size reduction** on standard BEIR da
 - [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]]
 - [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]
 - [[Mirror Mirror - All About Search Suggestions]] — mentions block-max WAND in the context of `search_as_you_type`
+- [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] — [[Jithendrasaikilaru]]; introductory comparison of WAND and BMW with algorithm lineage from MaxScore

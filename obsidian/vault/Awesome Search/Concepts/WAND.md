@@ -62,3 +62,4 @@ A `relations` document extends the model: token similarity groups with propagati
 - [[E-commerce Search and Recommendation with Vespa]]
 - [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]]
 - [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]
+- [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] — [[Jithendrasaikilaru]]; introductory overview of WAND and BMW for top-k retrieval

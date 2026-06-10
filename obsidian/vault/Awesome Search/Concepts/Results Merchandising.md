@@ -3,6 +3,7 @@ title: Results Merchandising
 aliases:
   - results merchandising
   - search merchandising
+  - searchandising
   - visual merchandising in search
   - search curation
 tags:

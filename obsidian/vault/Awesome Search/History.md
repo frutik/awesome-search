@@ -8,6 +8,14 @@ tags:
 Chronological log of notes added to this knowledge graph. Newest first.
 
 ## 2026-06-01 — History Audit & Comprehensive Catch-Up (~175 notes)
+## 2026-06-02 — WAND & Block-Max WAND Article (2 notes)
+
+**Articles** — [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] ([[Jithendrasaikilaru]], Medium, 2025-10-31). Paywalled; content from public summary. Introductory overview of dynamic pruning algorithms for top-k retrieval, covering WAND (Broder et al. 2003), Block-Max WAND (Ding & Suel 2011), MaxScore lineage, and DAAT context.
+
+**People** — [[Jithendrasaikilaru]] (Medium writer, IR/AI/cybersecurity).
+
+**Updated** — [[WAND]], [[Block-Max WAND]] concept notes linked to new article.
+
 
 Catch-up log — notes present in the vault but not individually recorded in prior entries (initial import, May 16 batch, and later additions).
 

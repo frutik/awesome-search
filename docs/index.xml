@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:41:37 GMT</pubDate>
+    <pubDate>Wed, 10 Jun 2026 13:14:04 GMT</pubDate>
   </item><item>
-    <title>Adrien Grand</title>
-    <link>https://frutik.github.io/awesome-search/People/Adrien-Grand</link>
-    <guid>https://frutik.github.io/awesome-search/People/Adrien-Grand</guid>
-    <description><![CDATA[ Adrien Grand Principal engineer at Elastic, core Apache Lucene committer. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:37:09 GMT</pubDate>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
   </item><item>
-    <title>Joon-Pil (JP) Hwang</title>
-    <link>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</link>
-    <guid>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</guid>
-    <description><![CDATA[ Joon-Pil (JP) Hwang Search engineer at Weaviate. Co-implemented Weaviate’s Block-Max WAND keyword search optimization (v1.29 technical preview). ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:37:07 GMT</pubDate>
+    <title>Elastic</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Elastic</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Elastic</guid>
+    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
   </item><item>
-    <title>André Mourão</title>
-    <link>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</link>
-    <guid>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</guid>
-    <description><![CDATA[ André Mourão Search and IR engineer at Weaviate. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:37:04 GMT</pubDate>
+    <title>Weaviate</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Weaviate</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Weaviate</guid>
+    <description><![CDATA[ Weaviate Open-source vector database company providing semantic and hybrid search infrastructure. Competes with Pinecone, Qdrant, Milvus. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
   </item><item>
     <title>Block-Max WAND</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
     <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:37:01 GMT</pubDate>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+  </item><item>
+    <title>WAND</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/WAND</guid>
+    <description><![CDATA[ WAND (Weighted AND) Definition WAND (Weak AND / Weighted AND) is a top-k retrieval algorithm for sparse vector inner-product scoring that avoids scoring every document in an inverted index. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+  </item><item>
+    <title>Adrien Grand</title>
+    <link>https://frutik.github.io/awesome-search/People/Adrien-Grand</link>
+    <guid>https://frutik.github.io/awesome-search/People/Adrien-Grand</guid>
+    <description><![CDATA[ Adrien Grand Principal engineer at Elastic, core Apache Lucene committer. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+  </item><item>
+    <title>André Mourão</title>
+    <link>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</link>
+    <guid>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</guid>
+    <description><![CDATA[ André Mourão Search and IR engineer at Weaviate. ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+  </item><item>
+    <title>Joon-Pil (JP) Hwang</title>
+    <link>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</link>
+    <guid>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</guid>
+    <description><![CDATA[ Joon-Pil (JP) Hwang Search engineer at Weaviate. Co-implemented Weaviate’s Block-Max WAND keyword search optimization (v1.29 technical preview). ]]></description>
+    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
   </item><item>
     <title>BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search</title>
     <link>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</link>
     <guid>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</guid>
     <description><![CDATA[ BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search Authors: André Mourão, Joon-Pil (JP) Hwang (Weaviate) Published: 2025-02-26 Weaviate implemented Block-Max WAND as a technical preview in v1.29, achieving p50 query speedups of 5–10x and index size reductions of 50–90% over their existin... ]]></description>
     <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Faster-Retrieval-of-Top-Hits-in-Elasticsearch-with-Block-Max-WAND</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Faster-Retrieval-of-Top-Hits-in-Elasticsearch-with-Block-Max-WAND</guid>
-    <description><![CDATA[ Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND Author: Adrien Grand (Elastic) Published: 2019-02-05 Block-Max WAND was introduced into Lucene 8.0 and Elasticsearch 7.0 by Adrien Grand, delivering 3x–15x speedups for top-k retrieval. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Adopting Vespa for Recommendation Retrieval at Vinted</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Adopting-Vespa-for-Recommendation-Retrieval-at-Vinted</guid>
-    <description><![CDATA[ Adopting Vespa for Recommendation Retrieval at Vinted Vinted (Europe’s largest second-hand fashion marketplace) migrated from FAISS to Vespa for serving personalized homepage recommendations. ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Agentic Search for Context Engineering</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Agentic-Search-for-Context-Engineering</guid>
-    <description><![CDATA[ Agentic Search for Context Engineering Long-form write-up of the workshop given at AI Engineer Europe 2026 (London, April 8, 2026). ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
-  </item><item>
-    <title>Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Beyond-Semantic-Similarity---Rethinking-Retrieval-for-Agentic-Search-via-Direct-Corpus-Interaction</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Beyond-Semantic-Similarity---Rethinking-Retrieval-for-Agentic-Search-via-Direct-Corpus-Interaction</guid>
-    <description><![CDATA[ Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction Authors: TIGER-Lab (Zhuofeng Li et al.) Abstract Modern retrieval systems — whether lexical or semantic — expose a corpus through a fixed similarity interface compressing access into a single top-k retr... ]]></description>
-    <pubDate>Mon, 01 Jun 2026 17:45:45 GMT</pubDate>
   </item>
     </channel>
   </rss>
