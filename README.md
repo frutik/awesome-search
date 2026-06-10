@@ -6,7 +6,7 @@ I've been building e-commerce search applications for 15+ years. Below is a list
 
 :star: Star us on GitHub — it helps!
 
-Also check my other collections [awesome e-commerce](https://github.com/frutik/awesome-e-commerce), [awesome knowledge graphs](https://github.com/frutik/awesome-knowledge-graphs), [awesome cloud apps](https://github.com/frutik/awesome-cloud-apps) 
+Also you can explore this information as a [Knowledge Graph](https://frutik.github.io/awesome-search/)
 
 *Topics*
 
