@@ -34,7 +34,7 @@ Score each document independently. Treat as regression/classification.
 For each query, learn that doc A should rank above doc B.
 - Input: (query, doc_A, doc_B, which_is_better)
 - Loss: hinge loss / logistic loss on pairwise preferences
-- **RankNet** (2005): foundational pairwise approach
+- **[[RankNet]]** (2005): foundational pairwise approach
 
 ### Listwise
 Optimize a ranking metric directly (NDCG, MAP) over the full ranked list.
@@ -84,8 +84,9 @@ The first stage uses simple fast signals; LTR adds expensive-to-compute features
 
 More recent: neural rerankers replace LambdaMART:
 - [[Cross-Encoder]]: joint query-document encoding, listwise softmax loss
-- MonoT5: T5-based pointwise ranker
-- RankLLaMA: LLaMA fine-tuned for ranking
+- [[MonoT5]]: T5-based pointwise ranker
+- [[RankLLaMA]]: LLaMA fine-tuned for ranking
+- [[RankGPT]]: listwise LLM permutation reranker
 
 ## Training Data
 
@@ -112,10 +113,20 @@ Unbiased training data → significantly better LTR models.
 - [[BM25]] — feature in LTR model
 - [[Dense Vector Retrieval]] — embedding cosine as LTR feature
 - [[Personalization]] — personalized LTR uses user features
+- [[LambdaMART]] — dominant production LTR algorithm
+- [[RankNet]] — foundational pairwise approach
+- [[Ranking Objectives]] — pointwise/pairwise/listwise losses
+- **Implementations**: [[LightGBM]], [[XGBoost]], [[CatBoost]], [[RankLib]]
+- **Serving**: [[Metarank]] — open-source LambdaMART secondary re-ranker
+- [[Feature Store]] — where ranking features are persisted/served
+- [[Implicit Judgments]] — behavioral labels for training
 
 ## Articles
 
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; accessible LTR primer covering SVMRank, LambdaMART, feature orthogonality, multi-stage reranking
+- [[Learn-to-Rank with OpenSearch and Metarank]] — [[Roman Grebennikov]]; LambdaMART secondary re-ranking on OpenSearch
+- [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]]; LTR as multi-retriever fusion
+- [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; Metarank repo review
 
 ## People
 

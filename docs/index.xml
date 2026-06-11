@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Wed, 10 Jun 2026 13:14:04 GMT</pubDate>
+    <pubDate>Thu, 11 Jun 2026 09:20:02 GMT</pubDate>
   </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>pgvector</title>
+    <link>https://frutik.github.io/awesome-search/Tools/pgvector</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/pgvector</guid>
+    <description><![CDATA[ pgvector Open-source PostgreSQL extension adding a vector column type and approximate-nearest-neighbor indexing for vector search inside Postgres. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 09:17:32 GMT</pubDate>
   </item><item>
-    <title>Elastic</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Elastic</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Elastic</guid>
-    <description><![CDATA[ Elastic What They Build Elastic makes Elasticsearch — the dominant open-source distributed search engine built on Apache Lucene. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>Full-Text Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Full-Text-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Full-Text-Search</guid>
+    <description><![CDATA[ Full-Text Search Definition Full-text search (FTS) retrieves documents by matching query terms against the words in a document, typically over an inverted index, and scores matches by term-frequency-based relevance. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 09:08:44 GMT</pubDate>
   </item><item>
-    <title>Weaviate</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Weaviate</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Weaviate</guid>
-    <description><![CDATA[ Weaviate Open-source vector database company providing semantic and hybrid search infrastructure. Competes with Pinecone, Qdrant, Milvus. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>ParadeDB</title>
+    <link>https://frutik.github.io/awesome-search/Tools/ParadeDB</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/ParadeDB</guid>
+    <description><![CDATA[ ParadeDB Open-source PostgreSQL extension (and distribution) that brings Elasticsearch-style search to Postgres — most notably BM25 ranking, which native Postgres Full-Text Search lacks. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 09:08:30 GMT</pubDate>
   </item><item>
-    <title>Block-Max WAND</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
-    <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>PostgreSQL</title>
+    <link>https://frutik.github.io/awesome-search/Tools/PostgreSQL</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/PostgreSQL</guid>
+    <description><![CDATA[ PostgreSQL Open-source relational database that doubles as a capable search platform. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 09:08:09 GMT</pubDate>
   </item><item>
-    <title>WAND</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/WAND</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/WAND</guid>
-    <description><![CDATA[ WAND (Weighted AND) Definition WAND (Weak AND / Weighted AND) is a top-k retrieval algorithm for sparse vector inner-product scoring that avoids scoring every document in an inverted index. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>LambdaMART</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/LambdaMART</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaMART</guid>
+    <description><![CDATA[ LambdaMART Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 08:57:17 GMT</pubDate>
   </item><item>
-    <title>Adrien Grand</title>
-    <link>https://frutik.github.io/awesome-search/People/Adrien-Grand</link>
-    <guid>https://frutik.github.io/awesome-search/People/Adrien-Grand</guid>
-    <description><![CDATA[ Adrien Grand Principal engineer at Elastic, core Apache Lucene committer. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>LightGBM</title>
+    <link>https://frutik.github.io/awesome-search/Tools/LightGBM</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/LightGBM</guid>
+    <description><![CDATA[ LightGBM Stub. Created as a placeholder — expand with vault-sourced content. What it is Microsoft’s gradient-boosted decision tree library. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 08:57:11 GMT</pubDate>
   </item><item>
-    <title>André Mourão</title>
-    <link>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</link>
-    <guid>https://frutik.github.io/awesome-search/People/Andr%C3%A9-Mour%C3%A3o</guid>
-    <description><![CDATA[ André Mourão Search and IR engineer at Weaviate. ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>XGBoost</title>
+    <link>https://frutik.github.io/awesome-search/Tools/XGBoost</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/XGBoost</guid>
+    <description><![CDATA[ XGBoost Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 08:57:02 GMT</pubDate>
   </item><item>
-    <title>Joon-Pil (JP) Hwang</title>
-    <link>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</link>
-    <guid>https://frutik.github.io/awesome-search/People/Joon-Pil-(JP)-Hwang</guid>
-    <description><![CDATA[ Joon-Pil (JP) Hwang Search engineer at Weaviate. Co-implemented Weaviate’s Block-Max WAND keyword search optimization (v1.29 technical preview). ]]></description>
-    <pubDate>Tue, 02 Jun 2026 17:42:39 GMT</pubDate>
+    <title>CatBoost</title>
+    <link>https://frutik.github.io/awesome-search/Tools/CatBoost</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/CatBoost</guid>
+    <description><![CDATA[ CatBoost Stub. Created as a placeholder — expand with vault-sourced content. What it is Yandex’s gradient-boosted decision tree library. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 08:56:59 GMT</pubDate>
   </item><item>
-    <title>BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search</title>
-    <link>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/BlockMax-WAND---How-Weaviate-Achieved-10x-Faster-Keyword-Search</guid>
-    <description><![CDATA[ BlockMax WAND: How Weaviate Achieved 10x Faster Keyword Search Authors: André Mourão, Joon-Pil (JP) Hwang (Weaviate) Published: 2025-02-26 Weaviate implemented Block-Max WAND as a technical preview in v1.29, achieving p50 query speedups of 5–10x and index size reductions of 50–90% over their existin... ]]></description>
-    <pubDate>Mon, 01 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Implicit Judgments</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Implicit-Judgments</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Implicit-Judgments</guid>
+    <description><![CDATA[ Implicit Judgments Definition Implicit judgments are relevance labels derived from observed user behavior — clicks, add-to-cart, purchases, dwell time, and (as negative signals) impressions without interaction — rather than from explicit human annotation. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 08:56:20 GMT</pubDate>
   </item>
     </channel>
   </rss>

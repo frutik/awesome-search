@@ -95,6 +95,7 @@ These datasets are useful for: initial model benchmarking, transfer learning bas
 - [[MRR]] — uses binary judgments from list
 - [[Search Evaluation]] — how judgment lists feed into evaluation
 - [[LLM as Judge]] — automated alternative
+- [[Implicit Judgments]] — behavioral (click-derived) counterpart to explicit judgments
 - [[Sampling Strategies]] — how queries are selected for judgment
 
 ## People

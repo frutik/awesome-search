@@ -13,7 +13,7 @@ Cloud file storage and collaboration platform. Operates **Dropbox Dash**, an ent
 ## Search Products
 
 - **Dropbox Dash** — enterprise search with RAG, retrieves from millions/billions of documents
-  - Search ranking model trained with XGBoost on human + LLM-labeled data
+  - Search ranking model trained with [[XGBoost]] on human + LLM-labeled data
   - Uses LLM-as-judge workflow for scalable relevance labeling
 
 ## Articles
@@ -29,5 +29,6 @@ Cloud file storage and collaboration platform. Operates **Dropbox Dash**, an ent
 - [[LLM as Judge]]
 - [[Judgment Lists]]
 - [[Learning to Rank]]
+- [[XGBoost]]
 - [[RAG]]
 - [[Search Evaluation]]

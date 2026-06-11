@@ -43,6 +43,11 @@ Requires score normalization (scores from different systems aren't comparable).
 ### Re-ranking
 Retrieve N candidates from each system → merge → re-rank with [[Cross-Encoder]].
 
+### Learning-to-Rank Fusion
+Treat each retriever's score (BM25, cosine) as an input feature to a [[LambdaMART]] / [[Learning to Rank|LTR]] model trained on click feedback — the model learns the optimal combination, and decision trees handle missing scores when a document came from only one retriever. [[Metarank]] is an open-source secondary re-ranker built for exactly this; [[Interleaving]] provides the cold-start baseline ranking used to collect the initial click data.
+
+- See: [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]] ([[Pinecone]])
+
 ## Common Implementations
 
 ### SPLADE + Bi-Encoder
@@ -54,6 +59,12 @@ Retrieve N candidates from each system → merge → re-rank with [[Cross-Encode
 - BM25 for lexical baseline (no ML required)
 - Dense encoder for semantic lift
 - Popular in production (Elasticsearch, OpenSearch)
+
+### PostgreSQL (single datastore)
+- Lexical: native [[Full-Text Search]] (`ts_rank`) or [[ParadeDB]] [[BM25]]
+- Semantic: [[pgvector]] ([[HNSW]])
+- Fusion: [[Reciprocal Rank Fusion|RRF]] expressed directly in SQL
+- See [[Search using PostgreSQL]]
 
 ### Vespa Hybrid
 - Native [[ColBERT]] + BM25 hybrid in Vespa
@@ -96,6 +107,11 @@ GET /products/_search
 - [[ColBERT]] — alternative dense component with late interaction
 - [[Wormhole Vectors]] — advanced multi-space traversal
 - [[RAG]] — downstream use of hybrid retrieval
+- [[Interleaving]] — score-free merge + cold-start baseline
+- [[Learning to Rank]] / [[LambdaMART]] — learned fusion of retriever scores
+- [[Metarank]] — open-source LTR re-ranker for multi-retriever fusion
+- [[Full-Text Search]] — the lexical leg
+- [[PostgreSQL]] / [[pgvector]] / [[ParadeDB]] — hybrid search in a single datastore
 
 ## People
 

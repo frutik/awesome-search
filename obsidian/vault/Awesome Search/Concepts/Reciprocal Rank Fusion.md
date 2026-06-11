@@ -37,6 +37,8 @@ Where `c` is a constant (typically 60) that dampens the impact of high-ranked do
 
 ## In Hybrid Search
 
+RRF is also implementable directly in SQL — see [[Search using PostgreSQL]] for a [[PostgreSQL]] hybrid query fusing [[Full-Text Search|FTS]] and [[pgvector]] results.
+
 RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 - [[BM25]] (lexical) scores
 - [[Dense Vector Retrieval]] (semantic) scores
@@ -45,7 +47,8 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 ## Alternatives
 
 - **Linear combination**: `α * dense_score + (1-α) * sparse_score` — requires score normalization
-- **Learned fusion**: train a model to optimally weight retrieval paths per query type
+- **Learned fusion**: train a model to optimally weight retrieval paths per query type (e.g. [[LambdaMART]] via [[Metarank]])
+- **[[Interleaving]]**: zip-merge ranked lists; a simple cold-start baseline and online-eval method
 - **[[Wormhole Vectors]]**: bridge across representation spaces at embedding level
 
 ## Related Concepts

@@ -16,8 +16,8 @@ Otto (otto.de) is one of Germany's largest e-commerce companies, transitioning f
 ## Search & Ranking Work
 
 **LTR implementation** — motivated by marketplace expansion making manual ranking rules unscalable:
-- Model: **LambdaMART** (pairwise + NDCG-weighted listwise)
-- Training framework: **RankyMcRankFace** (fork of RankLib)
+- Model: **[[LambdaMART]]** (pairwise + NDCG-weighted listwise)
+- Training framework: **[[RankLib|RankyMcRankFace]]** (fork of RankLib)
 - Infrastructure: **Solr** with LTR plugin + feature store
 - Labels: derived from customer interaction data (clicks, add-to-basket, orders, dwell time)
 - Evaluation: custom Offline Metrics Analyzer computing NDCG at multiple configurations

@@ -52,6 +52,9 @@ Use a large language model ([[LLM as Judge]]) to score or listwise-rank candidat
 ### ColBERT Late Interaction
 [[ColBERT]] / [[Late Interaction]] sits between bi-encoder speed and cross-encoder quality — efficient enough for first-stage in some setups, but also used as a reranker.
 
+### Feature-Based (LTR) Re-ranker
+A [[Learning to Rank|LTR]] model ([[LambdaMART]]) rescores the top-N using tabular features — BM25 components, popularity/CTR, price, freshness. Often deployed as an **external secondary re-ranker** outside the search engine, agnostic to retrieval. [[Metarank]] is the canonical open-source example; it trains on [[Implicit Judgments]] and serves with a ~20–30 ms latency budget. See [[Learn-to-Rank with OpenSearch and Metarank]].
+
 ## Reranking in RAG
 
 In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, so only the top 3–5 chunks are included. A reranker narrows 50–100 retrieved chunks down to the best ones before LLM generation.
@@ -97,3 +100,8 @@ Retrieval (engineering) and reranking (ML/data science) are owned by different t
 - [[LLM as Judge]] — LLM-based reranking
 - [[RAG]] — key use case for reranking
 - [[Learning to Rank]] — related family of ranking approaches
+- [[MonoT5]] — T5 pointwise neural reranker
+- [[RankLLaMA]] — LLaMA fine-tuned reranker
+- [[RankGPT]] — listwise LLM reranker
+- [[LambdaMART]] / [[Metarank]] — feature-based external secondary re-ranker
+- [[Feature Store]] — serves the features an LTR re-ranker consumes

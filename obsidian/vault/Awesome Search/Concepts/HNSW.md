@@ -10,7 +10,7 @@ tags:
 
 # HNSW — Hierarchical Navigable Small World
 
-Graph-based approximate nearest neighbor (ANN) index. **Malkov & Yashunin, 2018** (arXiv:1603.09320). The dominant ANN index structure for high-recall, low-latency dense vector search. Used by Elasticsearch, Qdrant, Weaviate, pgvector, FAISS, and most production vector stores.
+Graph-based approximate nearest neighbor (ANN) index. **Malkov & Yashunin, 2018** (arXiv:1603.09320). The dominant ANN index structure for high-recall, low-latency dense vector search. Used by Elasticsearch, Qdrant, Weaviate, [[pgvector]], FAISS, and most production vector stores.
 
 ## Structure
 
@@ -80,6 +80,7 @@ Four strategies ranked by filter selectivity:
 - [[Vector Filtering]] — metadata-aware HNSW traversal
 - [[ACORN-1]] — HNSW extension for aggressive filtered ANN search using multi-hop neighborhoods
 - [[ANN]] — parent concept
+- [[pgvector]] — exposes HNSW indexing inside [[PostgreSQL]]; see [[Search using PostgreSQL]]
 
 ## Articles
 

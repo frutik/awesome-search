@@ -78,3 +78,4 @@ Query vector
 - [[Scalar Quantization]] — used in IVF-SQ variant
 - [[Binary Quantization]] — can be used inside IVF lists
 - [[ANN]] — parent concept
+- [[pgvector]] — its IVFFlat index is the IVF-Flat variant inside [[PostgreSQL]]; see [[Search using PostgreSQL]]

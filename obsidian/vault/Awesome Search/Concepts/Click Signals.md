@@ -80,6 +80,7 @@ Click data is the primary training signal for [[Learning to Rank]] models:
 - [[Search Evaluation]] — click signals as online evaluation
 - [[Session-Based Evaluation]] — clicks as session signals
 - [[Judgment Lists]] — offline alternative
+- [[Implicit Judgments]] — click signals aggregated into relevance labels for LTR
 - [[NDCG]] — offline metric complementing click signals
 - [[Diversity Metrics]] — click diversity as diversity signal
 

@@ -97,6 +97,8 @@ The key insight: user preferences are encoded in their past interactions, not in
 - [[Click Signals]] — behavioral personalization signals
 - [[Session-Based Evaluation]] — personalization evaluated at session level
 - [[Search Intent]] — personalization refines intent interpretation
+- [[Metarank]] — open-source real-time click-based personalization / re-ranking service
+- [[Implicit Judgments]] — behavioral labels that drive personalized LTR
 
 ## People
 
@@ -119,6 +121,7 @@ Two mechanisms extending a governance control plane without replacing it:
 
 - [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — [[Alexander Marquardt]], [[Honza Král]], [[Taylor Roy]]
 - [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]] (Dropbox Dash enterprise search)
+- [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; real-time click personalization service
 
 ## People (additional)
 

@@ -27,7 +27,7 @@ How AI2 built an ML reranker on top of Elasticsearch for Semantic Scholar (190M+
 ## Technical Architecture
 
 - **First stage**: Elasticsearch retrieval (190M papers indexed)
-- **Reranking layer**: LightGBM with LambdaRank optimization
+- **Reranking layer**: [[LightGBM]] with [[LambdaMART|LambdaRank]] optimization
 - **Features**: 22 engineered features — query text matching across title, abstract, venue, author fields; KenLM language model scoring
 - Training data: human-annotated judgment lists
 
@@ -56,6 +56,8 @@ Rule-based fixes for known model errors: boost exact year matches, boost quoted 
 ## Related Concepts
 
 - [[Learning to Rank]]
+- [[LambdaMART]]
+- [[LightGBM]]
 - [[Search Evaluation]]
 - [[Judgment Lists]]
 - [[NDCG]]

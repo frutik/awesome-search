@@ -109,3 +109,4 @@ Both engines support hybrid BM25 + vector search, which is where most modern sea
 
 - [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced overview
 - [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] — [[Jagadeesh Chandra]]; Elasticsearch-favorable; cites Elastic's own benchmarks heavily
+- [[OpenSearch vs. Elasticsearch in 2025 - What's Changed and What Hasn't]] — Dattell; vendor-neutral (supports both); licensing (SSPL vs Apache 2.0), feature divergence, plugin incompatibility, ecosystem

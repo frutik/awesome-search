@@ -54,6 +54,12 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - [[Machine Learning-Powered Search Ranking of Airbnb Experiences]] — 4-stage ML progression
 - [[Learning to Rank for Flight Itinerary Search]] — Skyscanner LTR case study
 - [[Building a Better Search Engine for Semantic Scholar]] — LightGBM + LambdaRank
+- **Algorithms**: [[LambdaMART]] · [[RankNet]] · [[MonoT5]] · [[RankLLaMA]] · [[RankGPT]] · [[Ranking Objectives]]
+- **Implementations**: [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]]
+- **Serving**: [[Metarank]] — open-source LambdaMART secondary re-ranker; [[Feature Store]] · [[Implicit Judgments]] · [[Interleaving]]
+- [[Learn-to-Rank with OpenSearch and Metarank]] — [[Roman Grebennikov]]; external LTR re-ranking on OpenSearch
+- [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]]; LTR as multi-retriever fusion
+- [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; Metarank repo review
 
 ## Personalization
 

@@ -100,6 +100,7 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 ## Related Tools
 
 - **[[Elasticsearch]]** — upstream project; faster but proprietary-licensed above 7.10
+- **[[Metarank]]** — external LambdaMART secondary re-ranker that integrates with OpenSearch (Remote Ranker Plugin RFC)
 - **OpenSearch Dashboards** — visualization layer (Kibana fork)
 
 ## Related Concepts
@@ -117,9 +118,11 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 - [[Wormhole Vectors Beyond Hybrid Search in OpenSearch]] — [[Dima Kan]]; SKG traversal beyond RRF
 - [[Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock]] — RAG pipeline on AWS with code
 - [[How to Really Scale Autocomplete]] — `significant_terms`-based autocomplete patterns
+- [[Learn-to-Rank with OpenSearch and Metarank]] — [[Roman Grebennikov]]; LambdaMART secondary re-ranking on top of OpenSearch via [[Metarank]]; Remote Ranker Plugin RFC
 
 - [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] — [[Jagadeesh Chandra]]; 2025 performance comparison
 - [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced licensing and performance comparison
+- [[OpenSearch vs. Elasticsearch in 2025 - What's Changed and What Hasn't]] — Dattell; licensing (SSPL vs Apache 2.0), features, plugins, ecosystem
 
 ## Comparison
 

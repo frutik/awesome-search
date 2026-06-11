@@ -85,6 +85,12 @@ Some platforms are not general-purpose search engines but focus on a specific do
 - **Empathy.co** — e-commerce search and discovery platform; SaaS, focused on search UX, analytics, and personalization.
 - **Constructor.io** — SaaS product discovery platform for e-commerce; combines search, recommendations, and browse with ML-driven ranking.
 
+## Database-Embedded Search (SQL)
+
+Search run inside an existing database rather than a dedicated engine — increasingly viable for small-to-medium workloads, eliminating a separate search cluster.
+
+- **[[PostgreSQL]]** — native [[Full-Text Search]] (`tsvector`, GIN, `ts_rank`), plus [[pgvector]] for vector search and [[ParadeDB]] for [[BM25]]; supports [[Hybrid Search]] + [[Reciprocal Rank Fusion|RRF]] in SQL. See [[Search using PostgreSQL]].
+
 ## Key Trade-offs When Choosing a Platform
 
 | Dimension | Open Source / Self-Hosted | SaaS / Proprietary |
@@ -102,3 +108,4 @@ Some platforms are not general-purpose search engines but focus on a specific do
 - [[Hybrid Search Blueprint Series Semantic Boosting]] — hybrid retrieval patterns that span Lucene and vector platforms
 - [[From Elasticsearch to Vespa Rebuilding the Kleinanzeigen Homepage Feed — Part 1]] — real migration case study
 - [[Conversational and Agentic Search]] — agentic workloads impose distinct retrieval requirements; Hornet is built specifically for this use case
+- [[Search using PostgreSQL]] — running modern search inside Postgres (FTS + pgvector + ParadeDB + RRF)
