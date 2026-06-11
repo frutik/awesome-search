@@ -22,7 +22,7 @@ Open-source relational database that doubles as a capable search platform. Nativ
 
 - **Native FTS** — `tsvector`, `tsquery`, `websearch_to_tsquery`, GIN indexes, `ts_rank`/`ts_rank_cd`. Stemming and language analyzers; phrase & boolean queries. Ranking is local term-statistics based, **not [[BM25]]**.
 - **Vector search** — via [[pgvector]] (HNSW / IVFFlat).
-- **BM25 + faceting** — via [[ParadeDB]].
+- **BM25 + faceting** — via [[ParadeDB]] (`pg_search`) or [[psql_bm25s]] (native BM25 index access method).
 - **Hybrid + RRF** — composable in SQL.
 
 ## Strengths vs. dedicated engines
@@ -32,6 +32,6 @@ Single datastore, simpler infra, mature SQL ecosystem, strong transactional guar
 ## Related
 
 - [[Search using PostgreSQL]] — the full topic
-- [[pgvector]] · [[ParadeDB]] — search extensions
+- [[pgvector]] · [[ParadeDB]] · [[psql_bm25s]] — search extensions
 - [[Full-Text Search]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[BM25]]
 - [[Search Platforms]] · [[Elasticsearch vs OpenSearch]]

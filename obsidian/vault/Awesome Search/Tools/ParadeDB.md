@@ -35,6 +35,11 @@ ParadeDB BM25  +  pgvector  +  RRF   →  relevance close to Elasticsearch/OpenS
 
 The lexical/BM25 leg of a PostgreSQL search stack for product catalogs and e-commerce, where native FTS ranking is insufficient.
 
+## Alternatives
+
+- **[[psql_bm25s]]** — BM25 as a native WAL-logged Postgres index access method; benchmarks against ParadeDB's `pg_search`
+- **vchord_bm25** — another Postgres BM25 extension
+
 ## Related
 
 - [[Search using PostgreSQL]] · [[PostgreSQL]] · [[pgvector]]

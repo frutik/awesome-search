@@ -127,9 +127,15 @@ LIMIT 20;
 
 ---
 
-## 5. BM25 Inside PostgreSQL — ParadeDB
+## 5. BM25 Inside PostgreSQL — ParadeDB / psql_bm25s / vchord_bm25
 
-PostgreSQL's native FTS does not provide [[BM25]]. [[ParadeDB]] adds BM25 ranking, hybrid search, faceting, search-oriented indexes, and search aggregations:
+PostgreSQL's native FTS does not provide [[BM25]]. Several extensions add it:
+
+- **[[ParadeDB]]** (`pg_search`) — BM25 + hybrid + faceting, on a Tantivy/Lucene-style engine.
+- **[[psql_bm25s]]** — BM25 as a native, WAL-logged Postgres index access method (Apache-2.0, Intelligent-Internet); transactional, replication-safe, with field-aware retrieval and BM25/vector late-fusion. Benchmarks ~4× the Python `bm25s` library on BEIR and compares against pg_search and vchord_bm25.
+- **vchord_bm25** — another Postgres BM25 extension (used as a benchmark baseline).
+
+[[ParadeDB]] specifically adds BM25 ranking, hybrid search, faceting, search-oriented indexes, and search aggregations:
 
 ```text
 ParadeDB BM25  +  pgvector  +  RRF
@@ -210,5 +216,5 @@ For many product catalogs and internal search systems this is sufficient and can
 
 - [[Search Platforms]] — where PostgreSQL fits among search engines
 - [[Elasticsearch vs OpenSearch]] — the dedicated-engine alternative
-- [[PostgreSQL]] · [[pgvector]] · [[ParadeDB]] — the tools
+- [[PostgreSQL]] · [[pgvector]] · [[ParadeDB]] · [[psql_bm25s]] — the tools
 - [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Full-Text Search]] · [[Reranking]]
