@@ -135,13 +135,13 @@ PostgreSQL's native FTS does not provide [[BM25]]. Several extensions add it:
 - **[[psql_bm25s]]** — BM25 as a native, WAL-logged Postgres index access method (Apache-2.0, Intelligent-Internet); transactional, replication-safe, with field-aware retrieval and BM25/vector late-fusion. Benchmarks ~4× the Python `bm25s` library on BEIR and compares against pg_search and vchord_bm25.
 - **vchord_bm25** — another Postgres BM25 extension (used as a benchmark baseline).
 
-[[ParadeDB]] specifically adds BM25 ranking, hybrid search, faceting, search-oriented indexes, and search aggregations:
+**What overlaps vs. what's distinctive:** all three provide BM25 ranking; ParadeDB and [[psql_bm25s]] both also do BM25/vector hybrid. Where ParadeDB stands apart is **scope** — it aims to be a full Elasticsearch replacement, adding **faceting and search aggregations** on top of search, not just a BM25 scorer. psql_bm25s focuses on being a native, replication-safe BM25 index (with field-aware retrieval, late-fusion, highlighting); vchord_bm25 focuses on BM25 ranking alongside the VectorChord vector stack.
 
 ```text
 ParadeDB BM25  +  pgvector  +  RRF
 ```
 
-This produces relevance behavior much closer to Elasticsearch/OpenSearch.
+For relevance behavior close to Elasticsearch/OpenSearch — including faceting/aggregations — ParadeDB is the closest fit; for a lean BM25 index inside Postgres, psql_bm25s is lighter-weight.
 
 ---
 
