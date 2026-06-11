@@ -28,7 +28,7 @@ created: 2026-06-11
 
 PostgreSQL has evolved into a surprisingly capable search platform (2026). **Everything below runs inside PostgreSQL via SQL** — [[Full-Text Search]], [[Dense Vector Retrieval|vector search]] ([[pgvector]]), [[BM25]] (extensions), [[Hybrid Search]], [[Reciprocal Rank Fusion]] (RRF), and business-signal scoring.
 
-Two things are **not** done in SQL and must happen outside Postgres: **generating embeddings** (model inference — you store/pass in the vector) and **cross-encoder / LLM reranking**. See [[#What runs outside PostgreSQL]].
+Two tasks are **not** part of core PostgreSQL search: **embedding inference** and **neural reranking** (cross-encoder / LLM). In practice these usually run outside the database — though PostgreSQL can *orchestrate* external inference from SQL, and PL/Python can run model code in-process. See [[#What runs outside PostgreSQL]].
 
 It also still differs from dedicated engines like [[Elasticsearch]] / [[OpenSearch]] in faceting, typo tolerance, analyzers, merchandising, and relevance tooling — see [[#Weaknesses compared to Elasticsearch and OpenSearch]].
 
@@ -45,7 +45,18 @@ WHERE search_vector @@ websearch_to_tsquery('english', 'wireless keyboard')
 ORDER BY ts_rank(search_vector, websearch_to_tsquery('english', 'wireless keyboard')) DESC;
 ```
 
-**Advantages:** no extra infrastructure, fast GIN indexes, stemming, language-specific analyzers, phrase and boolean queries.
+**Advantages:** no extra infrastructure, fast GIN indexes, language-specific text search configurations (dictionaries and stemmers), phrase and boolean queries.
+
+**Terminology note (Postgres vs. the wider search world):** what Lucene-based engines ([[Elasticsearch]] / [[OpenSearch]]) call an **analyzer** — one pipeline doing char-filtering → tokenization → token filters (lowercase, stemming, stopwords, synonyms) — PostgreSQL splits into separately named objects:
+
+| Lucene/ES term | PostgreSQL equivalent |
+|---|---|
+| Tokenizer | **parser** — splits text into tokens and labels each token's *type* (`asciiword`, `word`, `numword`, `email`, `url`, …); default `pg_catalog.default` |
+| Token filters (stemming, stopwords, synonyms, thesaurus) | **dictionaries** — normalize a token into a *lexeme* or drop it; types include `snowball` (stemmer), `simple`, `synonym`, `thesaurus`, `ispell` |
+| Stemmer | the **Snowball dictionary** inside a configuration |
+| **Analyzer** (the whole pipeline, e.g. the "english" analyzer) | **text search configuration** — the named bundle mapping each token type → an ordered dictionary chain; e.g. `to_tsvector('english', …)` |
+
+So Postgres has no object literally called an "analyzer"; the closest single analog is a **text search configuration**, which is itself composed of a parser plus dictionaries (including the stemmer). This article uses the Postgres terms.
 
 **Limitation — not [[BM25]]:** `ts_rank` scores using local term statistics and does **not** implement the global corpus-based relevance model of Elasticsearch/OpenSearch. Often fine for simple apps; usually insufficient for sophisticated e-commerce relevance (use a BM25 extension — see §5).
 
@@ -68,8 +79,8 @@ LIMIT 20;
 
 **Index types:**
 
-- **[[HNSW]]** — recommended default. High recall, excellent latency. Builds incrementally as rows are inserted, so it needs no upfront clustering step and works even on an initially empty table.
-- **[[IVF|IVFFlat]]** — smaller indexes, faster builds, lower recall. Requires a one-time **k-means clustering pass at `CREATE INDEX`** (computing the `lists` cell centroids) over the rows already in the table — so you must **load data before building the index**, and **REINDEX** if the data distribution later shifts. This "training" is unsupervised clustering, not model training.
+- **[[HNSW]]** — often the stronger pgvector choice when you want a better speed–recall trade-off than IVFFlat, at the cost of slower builds and higher memory use. Builds incrementally as rows are inserted, so it needs no upfront clustering step and works even on an initially empty table.
+- **[[IVF|IVFFlat]]** — smaller indexes, faster builds, lower recall. Builds via a one-time **k-means clustering pass at `CREATE INDEX`** (computing the `lists` cell centroids) over the rows already in the table, so index quality depends on clustering quality and on the amount/shape of data present when the index is built — **load representative data before building**, and a rebuild may be advisable if the corpus changes substantially. This "training" is unsupervised clustering, not model training.
 
 **Distance/types:** cosine / L2 / inner-product operators; `halfvec`, `sparsevec`, binary vector indexing (see [[Binary Quantization]]).
 
@@ -132,12 +143,14 @@ LIMIT 20;
 PostgreSQL's native FTS does not provide [[BM25]]. Several extensions add it (and are queried in SQL):
 
 - **[[ParadeDB]]** (`pg_search`) — BM25 + hybrid + faceting, on a Tantivy/Lucene-style engine.
-- **[[psql_bm25s]]** — BM25 as a native, WAL-logged Postgres index access method (Apache-2.0, Intelligent-Internet); transactional, replication-safe, with field-aware retrieval and BM25/vector late-fusion. Benchmarks ~4× the Python `bm25s` library on BEIR and compares against pg_search and vchord_bm25.
+- **[[psql_bm25s]]** — BM25 as a native, WAL-logged Postgres index access method (Apache-2.0, Intelligent-Internet); transactional, replication-safe, with field-aware retrieval and BM25/vector late-fusion. Its repository reports a median **~3.97× QPS** advantage over the Python `bm25s` reference on its own PG18 15-dataset BEIR benchmark matrix (self-reported, workload-dependent), and also compares against pg_search and vchord_bm25.
 - **vchord_bm25** — another Postgres BM25 extension (used as a benchmark baseline).
 
 **What overlaps vs. what's distinctive:** all three provide BM25 ranking; ParadeDB and [[psql_bm25s]] both also do BM25/vector hybrid. Where ParadeDB stands apart is **scope** — it aims to be a full Elasticsearch replacement, adding **faceting and search aggregations** on top of search, not just a BM25 scorer. psql_bm25s focuses on being a native, replication-safe BM25 index (with field-aware retrieval, late-fusion, highlighting); vchord_bm25 focuses on BM25 ranking alongside the VectorChord vector stack.
 
-For relevance behavior close to Elasticsearch/OpenSearch — including faceting/aggregations — ParadeDB is the closest fit; for a lean BM25 index inside Postgres, psql_bm25s is lighter-weight.
+Among the PostgreSQL options named here, **ParadeDB most explicitly targets Elasticsearch-like search features** — BM25, hybrid search, facets, and aggregations; for a lean BM25 index inside Postgres, [[psql_bm25s]] is lighter-weight.
+
+**Licensing** (decision-critical for commercial/enterprise use): [[ParadeDB]] is **AGPL-3.0 / commercial**, [[psql_bm25s]] is **Apache-2.0**, and vchord_bm25 is **dual-licensed under AGPLv3 or ELv2**.
 
 ---
 
@@ -188,7 +201,7 @@ These steps are part of a realistic search pipeline but are **not SQL** — they
 
 - **Embedding generation** — turning text/images into vectors is **model inference, not SQL**. The resulting vector is stored in a `vector` column or passed into the query. Three patterns:
   - **App layer** (most common) — generate embeddings in your service and `INSERT` them.
-  - **PL/Python / `pgsql-http` / `pgai` / `pg_vectorize` calling an inference endpoint** — the *function* runs in Postgres; the inference runs in a model server **outside the DB process**, which can be **co-located on the same infrastructure** (a localhost sidecar, or an internal service like TEI / Ollama / vLLM / Triton in the same VPC/cluster) — not necessarily a third-party API. Often the best production pattern: the model is loaded once on dedicated/GPU hardware and shared across all backends (no per-connection load), while data and latency stay in-house. Orchestration is in SQL even though the math isn't.
+  - **PL/Python / `pgsql-http` / `pg_vectorize` calling an inference endpoint** — the *function* runs in Postgres; the inference runs in a model server **outside the DB process**, which can be **co-located on the same infrastructure** (a localhost sidecar, or an internal service like TEI / Ollama / vLLM / Triton in the same VPC/cluster) — not necessarily a third-party API. Often the best production pattern: the model is loaded once on dedicated/GPU hardware and shared across all backends (no per-connection load), while data and latency stay in-house. Orchestration is in SQL even though the math isn't.
   - **PL/Python with a local model in-process** (`plpython3u` + sentence-transformers) — inference genuinely runs **inside the Postgres backend process**, so it *is* technically doable in a function. Rarely used in production: the model loads per backend connection (heavy memory), runs CPU-bound in the DB process, needs torch + weights installed server-side, and `plpython3u` is an untrusted superuser-only language that most managed Postgres (RDS, Cloud SQL, Supabase) disallow.
   
   Either way the *embedding math* is Python/model code, not the relational engine — which is why this sits on the boundary rather than in the SQL body above.
