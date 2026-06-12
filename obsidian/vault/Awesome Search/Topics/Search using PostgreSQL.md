@@ -26,7 +26,7 @@ created: 2026-06-11
 
 ## Overview
 
-PostgreSQL has evolved into a surprisingly capable search platform (2026). **Everything below runs inside PostgreSQL via SQL** — [[Full-Text Search]], [[Dense Vector Retrieval|vector search]] ([[pgvector]]), [[BM25]] (extensions), [[Hybrid Search]], [[Reciprocal Rank Fusion]] (RRF), and business-signal scoring.
+PostgreSQL has evolved into a surprisingly capable search platform by 2026. **Everything below runs inside PostgreSQL via SQL** — [[Full-Text Search]], [[Dense Vector Retrieval|vector search]] ([[pgvector]]), [[BM25]] (extensions), [[Hybrid Search]], [[Reciprocal Rank Fusion]] (RRF), and business-signal scoring.
 
 Two tasks are **not** part of core PostgreSQL search: **embedding inference** and **neural reranking** (cross-encoder / LLM). In practice these usually run outside the database — though PostgreSQL can *orchestrate* external inference from SQL, and PL/Python can run model code in-process. See [[#What runs outside PostgreSQL]].
 
@@ -82,7 +82,26 @@ LIMIT 20;
 - **[[HNSW]]** — often the stronger pgvector choice when you want a better speed–recall trade-off than IVFFlat, at the cost of slower builds and higher memory use. Builds incrementally as rows are inserted, so it needs no upfront clustering step and works even on an initially empty table.
 - **[[IVF|IVFFlat]]** — smaller indexes, faster builds, lower recall. Builds via a one-time **k-means clustering pass at `CREATE INDEX`** (computing the `lists` cell centroids) over the rows already in the table, so index quality depends on clustering quality and on the amount/shape of data present when the index is built — **load representative data before building**, and a rebuild may be advisable if the corpus changes substantially. This "training" is unsupervised clustering, not model training.
 
-**Distance/types:** cosine / L2 / inner-product operators; `halfvec`, `sparsevec`, binary vector indexing (see [[Binary Quantization]]).
+**Distance/types:** cosine / L2 / inner-product / L1 operators; `halfvec` (half-precision, halves storage), `bit` (see [[Binary Quantization]]), and `sparsevec` — see below.
+
+### Learned sparse retrieval with `sparsevec` (pgvector ≥ 0.7.0)
+
+pgvector also indexes **sparse vectors**, which adds a third retrieval family to Postgres: [[Sparse Vector Retrieval|learned sparse retrieval]] ([[SPLADE]]-style). A SPLADE model expands a text into weighted vocabulary terms — a ~30k-dimensional vector with typically 50–300 non-zeros — often beating both classic BM25 and dense vectors on out-of-domain queries. Only non-zero elements are stored (`'{term_id:weight, …}/30522'`, 1-based indices), and HNSW indexes them directly:
+
+```sql
+ALTER TABLE products ADD COLUMN splade_embedding sparsevec(30522);  -- vocab-sized dims
+
+CREATE INDEX products_splade_hnsw
+ON products USING hnsw (splade_embedding sparsevec_ip_ops);  -- SPLADE relevance = inner product
+
+SELECT id,
+       (splade_embedding <#> :query_splade) * -1 AS score   -- <#> is the NEGATIVE inner product
+FROM products                                                  -- (index scans are ASC),
+ORDER BY splade_embedding <#> :query_splade                  -- so ASC = best match first
+LIMIT 20;
+```
+
+As with dense vectors, the sparse embedding is **model inference computed outside the SQL engine** (see [[#What runs outside PostgreSQL]]); one in-database option is [pg_bestmatch.rs](https://github.com/tensorchord/pg_bestmatch.rs), which generates BM25-statistics sparse vectors for `sparsevec`. **Limits:** HNSW indexes sparse vectors with up to **1,000 non-zero elements** — fine for SPLADE/BM25-expansion vectors, not for naive bag-of-words TF-IDF over long documents.
 
 **Scale-up options:** for higher throughput or larger corpora, [[pgvectorscale]] and [[VectorChord]] are drop-in replacements/complements that add faster index types (DiskANN-style, RaBitQ quantization) on top of the same SQL interface.
 
@@ -103,6 +122,8 @@ Query
                         ▼
                      Results
 ```
+
+With `sparsevec`, a third leg — [[Sparse Vector Retrieval|learned sparse retrieval]] — drops into the same pattern and the same RRF fusion (§4): three CTEs instead of two, ranks fused identically.
 
 ---
 
@@ -212,7 +233,7 @@ Weaker typo tolerance · fewer analyzers · less mature faceting, search analyti
 
 These steps are part of a realistic search pipeline but are **not SQL** — they are external model inference (or a different engine). Postgres consumes their *output*:
 
-- **Embedding generation** — turning text/images into vectors is **model inference, not SQL**. The resulting vector is stored in a `vector` column or passed into the query. Three patterns:
+- **Embedding generation** — turning text/images into vectors (dense *or* [[SPLADE]]-style sparse) is **model inference, not SQL**. The resulting vector is stored in a `vector` column or passed into the query. Three patterns:
   - **App layer** (most common) — generate embeddings in your service and `INSERT` them.
   - **PL/Python / `pgsql-http` / `pg_vectorize` calling an inference endpoint** — the *function* runs in Postgres; the inference runs in a model server **outside the DB process**, which can be **co-located on the same infrastructure** (a localhost sidecar, or an internal service like TEI / Ollama / vLLM / Triton in the same VPC/cluster) — not necessarily a third-party API. Often the best production pattern: the model is loaded once on dedicated/GPU hardware and shared across all backends (no per-connection load), while data and latency stay in-house. Orchestration is in SQL even though the math isn't.
   - **PL/Python with a local model in-process** (`plpython3u` + sentence-transformers) — inference genuinely runs **inside the Postgres backend process**, so it *is* technically doable in a function. Rarely used in production: the model loads per backend connection (heavy memory), runs CPU-bound in the DB process, needs torch + weights installed server-side, and `plpython3u` is an untrusted superuser-only language that most managed Postgres (RDS, Cloud SQL, Supabase) disallow.

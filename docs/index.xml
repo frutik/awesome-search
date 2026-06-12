@@ -10,12 +10,18 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 12 Jun 2026 08:14:57 GMT</pubDate>
+    <pubDate>Fri, 12 Jun 2026 08:42:22 GMT</pubDate>
   </item><item>
     <title>Tiger Data</title>
     <link>https://frutik.github.io/awesome-search/Companies/Tiger-Data</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Tiger-Data</guid>
     <description><![CDATA[ Tiger Data Database infrastructure company, formerly known as Timescale. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Learned Sparse Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</guid>
+    <description><![CDATA[ Learned Sparse Retrieval Definition Learned Sparse Retrieval (LSR) is the family of neural retrieval methods that represent queries and documents as sparse vectors in vocabulary space — where weights are produced by a trained model rather than counted from term frequencies. ]]></description>
     <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>VectorChord</title>
@@ -58,12 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Tools/PostgreSQL</link>
     <guid>https://frutik.github.io/awesome-search/Tools/PostgreSQL</guid>
     <description><![CDATA[ PostgreSQL Open-source relational database that doubles as a capable search platform. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
-  </item><item>
-    <title>psql_bm25s</title>
-    <link>https://frutik.github.io/awesome-search/Tools/psql_bm25s</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/psql_bm25s</guid>
-    <description><![CDATA[ psql_bm25s PostgreSQL extension implementing BM25-family lexical retrieval as a native index access method. ]]></description>
     <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
   </item>
     </channel>

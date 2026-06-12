@@ -32,7 +32,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Core Concepts by Domain
 
 ### Retrieval
-[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
+[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
 
 ### Embeddings
 [[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]

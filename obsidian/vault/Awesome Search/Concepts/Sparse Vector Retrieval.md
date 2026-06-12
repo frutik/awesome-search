@@ -1,6 +1,6 @@
 ---
 title: "Sparse Vector Retrieval"
-aliases: ["sparse retrieval", "learned sparse retrieval", "sparse embeddings", "sparse vectors"]
+aliases: ["sparse retrieval", "sparse embeddings", "sparse vectors"]
 tags:
   - concept
   - search
@@ -76,6 +76,7 @@ Retrieval uses standard posting list intersection + scoring — benefiting from 
 - [[Embeddings]] — parent concept; dense vs sparse overview
 - [[Sparse Embeddings]] — the representation type this retrieval method indexes
 
+- [[Learned Sparse Retrieval]] — the training paradigm; SPLADE/ELSER are its implementations
 - [[SPLADE]] — primary learned sparse model
 - [[ELSER]] — Elastic's production sparse model
 - [[Hybrid Search]] — sparse + dense combination
