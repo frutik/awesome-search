@@ -10,7 +10,37 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 11 Jun 2026 10:53:04 GMT</pubDate>
+    <pubDate>Fri, 12 Jun 2026 08:14:57 GMT</pubDate>
+  </item><item>
+    <title>Tiger Data</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Tiger-Data</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Tiger-Data</guid>
+    <description><![CDATA[ Tiger Data Database infrastructure company, formerly known as Timescale. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>VectorChord</title>
+    <link>https://frutik.github.io/awesome-search/Tools/VectorChord</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/VectorChord</guid>
+    <description><![CDATA[ VectorChord PostgreSQL extension for high-performance vector search by TensorChord. Uses RaBitQ quantization for compressed ANN indexes. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>pg_textsearch</title>
+    <link>https://frutik.github.io/awesome-search/Tools/pg_textsearch</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/pg_textsearch</guid>
+    <description><![CDATA[ pg_textsearch BM25 extension for PostgreSQL by Tiger Data (formerly Timescale). ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>pg_trgm</title>
+    <link>https://frutik.github.io/awesome-search/Tools/pg_trgm</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/pg_trgm</guid>
+    <description><![CDATA[ pg_trgm Built-in PostgreSQL extension providing trigram-based similarity matching via similarity(), word_similarity(), and GIN/GiST indexes. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>pgvectorscale</title>
+    <link>https://frutik.github.io/awesome-search/Tools/pgvectorscale</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/pgvectorscale</guid>
+    <description><![CDATA[ pgvectorscale PostgreSQL extension by Tiger Data (formerly Timescale) that complements pgvector with a faster DiskANN-style index (StreamingDiskANN) designed for high-throughput vector search on larger corpora. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>BM25</title>
     <link>https://frutik.github.io/awesome-search/Concepts/BM25</link>
@@ -35,36 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Tools/psql_bm25s</guid>
     <description><![CDATA[ psql_bm25s PostgreSQL extension implementing BM25-family lexical retrieval as a native index access method. ]]></description>
     <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
-  </item><item>
-    <title>Dropbox</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Dropbox</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Dropbox</guid>
-    <description><![CDATA[ Dropbox About Cloud file storage and collaboration platform. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:20:46 GMT</pubDate>
-  </item><item>
-    <title>Otto</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Otto</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Otto</guid>
-    <description><![CDATA[ Otto Otto (otto.de) is one of Germany’s largest e-commerce companies, transitioning from a catalogue retailer to a marketplace with millions of products from multiple sellers. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:20:46 GMT</pubDate>
-  </item><item>
-    <title>Pinecone</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Pinecone</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Pinecone</guid>
-    <description><![CDATA[ Pinecone Company behind Pinecone Vector DB, a managed vector database for dense and hybrid retrieval. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:20:46 GMT</pubDate>
-  </item><item>
-    <title>Click Signals</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Click-Signals</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Click-Signals</guid>
-    <description><![CDATA[ Click Signals Definition Click signals are behavioral data collected from user interactions with search results — clicks, dwell time, reformulations, and conversions. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:20:46 GMT</pubDate>
-  </item><item>
-    <title>Feature Store</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Feature-Store</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Feature-Store</guid>
-    <description><![CDATA[ Feature Store Definition A feature store is the system that persists and serves the ranking features an LTR model consumes — BM25 components, popularity/CTR counters, item metadata (price, category), user/profile signals — keeping training-time and serving-time feature values consistent. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:20:46 GMT</pubDate>
   </item>
     </channel>
   </rss>

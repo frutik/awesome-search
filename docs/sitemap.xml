@@ -908,6 +908,9 @@
     <loc>https://frutik.github.io/awesome-search/Companies/The-Search-Juggler</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Companies/Tiger-Data</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Twitter</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -1401,7 +1404,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-11T10:53:04.241Z</lastmod>
+    <lastmod>2026-06-12T08:14:57.070Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1649,14 +1652,26 @@
     <loc>https://frutik.github.io/awesome-search/Tools/RankLib</loc>
     <lastmod>2026-06-11T09:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/VectorChord</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/Weaviate-Vector-DB</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/XGBoost</loc>
     <lastmod>2026-06-11T09:20:46.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/pg_textsearch</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/pg_trgm</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/pgvector</loc>
     <lastmod>2026-06-11T09:20:46.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/pgvectorscale</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/psql_bm25s</loc>
     <lastmod>2026-06-11T09:26:27.000Z</lastmod>

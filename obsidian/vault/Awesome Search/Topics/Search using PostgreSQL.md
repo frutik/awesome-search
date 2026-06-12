@@ -45,16 +45,16 @@ WHERE search_vector @@ websearch_to_tsquery('english', 'wireless keyboard')
 ORDER BY ts_rank(search_vector, websearch_to_tsquery('english', 'wireless keyboard')) DESC;
 ```
 
-**Advantages:** no extra infrastructure, fast GIN indexes, language-specific text search configurations (dictionaries and stemmers), phrase and boolean queries.
+**Advantages:** no extra infrastructure, fast GIN indexes, language-specific text search configurations (dictionaries and stemmers), phrase and boolean queries, and `ts_headline` for native result snippet highlighting.
 
 **Terminology note (Postgres vs. the wider search world):** what Lucene-based engines ([[Elasticsearch]] / [[OpenSearch]]) call an **analyzer** — one pipeline doing char-filtering → tokenization → token filters (lowercase, stemming, stopwords, synonyms) — PostgreSQL splits into separately named objects:
 
-| Lucene/ES term | PostgreSQL equivalent |
-|---|---|
-| Tokenizer | **parser** — splits text into tokens and labels each token's *type* (`asciiword`, `word`, `numword`, `email`, `url`, …); default `pg_catalog.default` |
-| Token filters (stemming, stopwords, synonyms, thesaurus) | **dictionaries** — normalize a token into a *lexeme* or drop it; types include `snowball` (stemmer), `simple`, `synonym`, `thesaurus`, `ispell` |
-| Stemmer | the **Snowball dictionary** inside a configuration |
-| **Analyzer** (the whole pipeline, e.g. the "english" analyzer) | **text search configuration** — the named bundle mapping each token type → an ordered dictionary chain; e.g. `to_tsvector('english', …)` |
+| Lucene/ES term                                                 | PostgreSQL equivalent                                                                                                                                 |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tokenizer                                                      | **parser** — splits text into tokens and labels each token's *type* (`asciiword`, `word`, `numword`, `email`, `url`, …); default `pg_catalog.default` |
+| Token filters (stemming, stopwords, synonyms, thesaurus)       | **dictionaries** — normalize a token into a *lexeme* or drop it; types include `snowball` (stemmer), `simple`, `synonym`, `thesaurus`, `ispell`       |
+| Stemmer                                                        | the **Snowball dictionary** inside a configuration                                                                                                    |
+| **Analyzer** (the whole pipeline, e.g. the "english" analyzer) | **text search configuration** — the named bundle mapping each token type → an ordered dictionary chain; e.g. `to_tsvector('english', …)`              |
 
 So Postgres has no object literally called an "analyzer"; the closest single analog is a **text search configuration**, which is itself composed of a parser plus dictionaries (including the stemmer). This article uses the Postgres terms.
 
@@ -83,6 +83,8 @@ LIMIT 20;
 - **[[IVF|IVFFlat]]** — smaller indexes, faster builds, lower recall. Builds via a one-time **k-means clustering pass at `CREATE INDEX`** (computing the `lists` cell centroids) over the rows already in the table, so index quality depends on clustering quality and on the amount/shape of data present when the index is built — **load representative data before building**, and a rebuild may be advisable if the corpus changes substantially. This "training" is unsupervised clustering, not model training.
 
 **Distance/types:** cosine / L2 / inner-product operators; `halfvec`, `sparsevec`, binary vector indexing (see [[Binary Quantization]]).
+
+**Scale-up options:** for higher throughput or larger corpora, [[pgvectorscale]] and [[VectorChord]] are drop-in replacements/complements that add faster index types (DiskANN-style, RaBitQ quantization) on top of the same SQL interface.
 
 ---
 
@@ -114,12 +116,14 @@ WITH lexical AS (
         row_number() OVER (ORDER BY ts_rank(search_vector, q) DESC) AS rank
     FROM products, websearch_to_tsquery('english', :query) q
     WHERE search_vector @@ q
+    ORDER BY ts_rank(search_vector, q) DESC
     LIMIT 100
 ),
 semantic AS (
     SELECT id,
         row_number() OVER (ORDER BY embedding <=> :query_embedding) AS rank
     FROM products
+    ORDER BY embedding <=> :query_embedding
     LIMIT 100
 ),
 rrf AS (
@@ -129,28 +133,27 @@ rrf AS (
 )
 SELECT p.*, SUM(rrf.score) AS hybrid_score
 FROM rrf JOIN products p USING (id)
-GROUP BY p.id
+GROUP BY p.id  -- id should be a PRIMARY KEY
 ORDER BY hybrid_score DESC
 LIMIT 20;
 ```
 
-**Why RRF:** lexical and vector scores use different scales, so no normalization is needed; more robust than weighted score addition; widely adopted (Elasticsearch, OpenSearch, Azure AI Search, modern retrieval pipelines).
+**Why RRF:** lexical and vector scores live on different, query-dependent scales (BM25 is unbounded and grows with query length; cosine distance sits in [0, 2]), so naive weighted addition lets whichever leg produces larger numbers dominate. RRF fuses **ranks, not scores**, making it invariant to each leg's scale — no normalization, no calibration. The trade-off: ranks discard score *magnitudes* (a runaway top hit and a marginal one are both just "rank 1"), so tuned normalized fusion — per-leg min-max/z-score normalization plus weights fitted on relevance judgments — can outperform RRF, but it requires labeled data and an offline eval loop that most teams don't have on day one. RRF's single parameter `k` controls how steeply contribution decays with rank; `k = 60` — from Cormack, Clarke, and Büttcher (SIGIR 2009) — is the standard default, chosen because RRF is famously insensitive to the exact value. At `k = 60` adjacent ranks contribute almost equally, so RRF behaves as a cross-list consensus signal rather than "trust each leg's #1". Widely adopted: Elasticsearch, OpenSearch, Azure AI Search, and most modern retrieval pipelines ship it as the hybrid default.
 
 ---
 
-## 5. BM25 Inside PostgreSQL — ParadeDB / psql_bm25s / vchord_bm25
+## 5. BM25 Inside PostgreSQL — ParadeDB / pg_textsearch / psql_bm25s / vchord_bm25
 
 PostgreSQL's native FTS does not provide [[BM25]]. Several extensions add it (and are queried in SQL):
 
 - **[[ParadeDB]]** (`pg_search`) — BM25 + hybrid + faceting, on a Tantivy/Lucene-style engine.
+- **[[pg_textsearch]]** ([[Tiger Data]] / formerly Timescale) — BM25 as a native index access method (`CREATE INDEX … USING bm25`), queried via a pgvector-style distance operator (`ORDER BY content <@> 'search terms' LIMIT k`), with [[Block-Max WAND]] top-k, parallel index builds, partitioned-table support, expression/partial indexes, and hybrid pairing with [[pgvector]] / [[pgvectorscale]]. Open-sourced in late 2025, past v1.0 and self-declared production-ready (v1.4.0-dev), young relative to ParadeDB. One operational caveat: requires `shared_preload_libraries`, which limits availability on managed Postgres (RDS, Cloud SQL, Supabase) until providers add support.
 - **[[psql_bm25s]]** — BM25 as a native, WAL-logged Postgres index access method (Apache-2.0, Intelligent-Internet); transactional, replication-safe, with field-aware retrieval and BM25/vector late-fusion. Its repository reports a median **~3.97× QPS** advantage over the Python `bm25s` reference on its own PG18 15-dataset BEIR benchmark matrix (self-reported, workload-dependent), and also compares against pg_search and vchord_bm25.
 - **vchord_bm25** — another Postgres BM25 extension (used as a benchmark baseline).
 
-**What overlaps vs. what's distinctive:** all three provide BM25 ranking; ParadeDB and [[psql_bm25s]] both also do BM25/vector hybrid. Where ParadeDB stands apart is **scope** — it aims to be a full Elasticsearch replacement, adding **faceting and search aggregations** on top of search, not just a BM25 scorer. psql_bm25s focuses on being a native, replication-safe BM25 index (with field-aware retrieval, late-fusion, highlighting); vchord_bm25 focuses on BM25 ranking alongside the VectorChord vector stack.
+**What overlaps vs. what's distinctive:** all four provide BM25 ranking; ParadeDB, [[pg_textsearch]], and [[psql_bm25s]] all support BM25/vector hybrid. Where ParadeDB stands apart is **scope** — it aims to be a full Elasticsearch replacement, adding **faceting and search aggregations** on top of search, not just a BM25 scorer. [[pg_textsearch]] and psql_bm25s both take the opposite bet — a lean, native Postgres index access method rather than an embedded search engine — differing mainly in license and feature focus (psql_bm25s: field-aware retrieval, late-fusion, highlighting; pg_textsearch: [[Block-Max WAND]] performance and a pgvector-style operator interface). vchord_bm25 focuses on BM25 ranking alongside the [[VectorChord]] vector stack.
 
-Among the PostgreSQL options named here, **ParadeDB most explicitly targets Elasticsearch-like search features** — BM25, hybrid search, facets, and aggregations; for a lean BM25 index inside Postgres, [[psql_bm25s]] is lighter-weight.
-
-**Licensing** (decision-critical for commercial/enterprise use): [[ParadeDB]] is **AGPL-3.0 / commercial**, [[psql_bm25s]] is **Apache-2.0**, and vchord_bm25 is **dual-licensed under AGPLv3 or ELv2**.
+**Licensing** (decision-critical for commercial/enterprise use), from most to least permissive: **pg_textsearch** is **PostgreSQL-licensed** (the same license as Postgres itself — use it anywhere, for anything), [[psql_bm25s]] is **Apache-2.0**, vchord_bm25 is **dual-licensed under AGPLv3 or ELv2**, and [[ParadeDB]] is **AGPL-3.0 / commercial**. Note the trade-off runs roughly opposite to feature scope — the most permissive licenses currently sit on the leanest/youngest extensions.
 
 ---
 
@@ -174,14 +177,22 @@ Typical signals: popularity, CTR, conversion rate, margin, freshness, inventory 
 
 ## 7. Recommended PostgreSQL Architectures
 
-In-Postgres stacks (no separate search cluster):
+If you want to keep search entirely inside PostgreSQL and avoid running a separate search cluster, the following combinations work well in practice:
 
-| Use case | Stack (all in Postgres) |
-|---|---|
-| **Small RAG / docs / KB** | PostgreSQL FTS + [[pgvector]] |
-| **Medium product catalog** | [[ParadeDB]] / [[psql_bm25s]] BM25 + [[pgvector]] + RRF |
+**Small RAG, Documentation, and Knowledge Bases**
+Stack: PostgreSQL Full-Text Search + [[pgvector]]
 
-For **large-scale e-commerce** a dedicated engine ([[OpenSearch]] / [[Elasticsearch]] + vector + RRF + external reranking) is still preferable — but that moves outside Postgres; see [[#What runs outside PostgreSQL]].
+For smaller document collections, PostgreSQL's built-in Full-Text Search provides strong lexical retrieval, while pgvector adds semantic search capabilities. This combination is often sufficient for internal documentation, knowledge bases, and lightweight RAG applications.
+
+**Medium-Sized Product Catalogs**
+Stack: [[ParadeDB]] or pg_textsearch or [[psql_bm25s]] BM25 + [[pgvector]] + RRF
+
+For e-commerce catalogs and larger search workloads, BM25-based retrieval typically provides better lexical ranking than PostgreSQL's native Full-Text Search. Combining BM25 retrieval with vector search and merging the results using RRF often delivers significantly better relevance than either approach alone.
+
+**Large-Scale Search Systems**
+Stack: Consider [[OpenSearch]] or [[Elasticsearch]]
+
+While PostgreSQL can handle surprisingly large workloads, dedicated search engines become attractive when dealing with tens of millions of documents, very high query volumes, advanced search features, or teams that require independent scaling of search infrastructure.
 
 ---
 
@@ -192,6 +203,8 @@ Single datastore · simpler infrastructure · mature SQL ecosystem · strong tra
 ## Weaknesses compared to Elasticsearch and OpenSearch
 
 Weaker typo tolerance · fewer analyzers · less mature faceting, search analytics, and relevance tooling · fewer merchandising features · limited explainability.
+
+**Mitigations worth knowing:** typo tolerance can be partially addressed with [[pg_trgm]] (trigram similarity indexes, `similarity()` / `word_similarity()`) plus `unaccent` for accent-insensitive matching — not as seamless as Elasticsearch's built-in fuzziness, but often sufficient. Faceting is possible as plain `GROUP BY` queries — doable, but slower and more verbose than a dedicated faceting engine.
 
 ---
 
@@ -214,6 +227,6 @@ These steps are part of a realistic search pipeline but are **not SQL** — they
 
 - [[Search Platforms]] — where PostgreSQL fits among search engines
 - [[Elasticsearch vs OpenSearch]] — the dedicated-engine alternative
-- [[PostgreSQL]] · [[pgvector]] · [[ParadeDB]] · [[psql_bm25s]] — the tools
+- [[PostgreSQL]] · [[pgvector]] · [[ParadeDB]] · [[psql_bm25s]] · [[pg_textsearch]] — the tools
 - [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Full-Text Search]] · [[BM25]]
 - External steps: [[Reranking]] · [[Cross-Encoder]]
