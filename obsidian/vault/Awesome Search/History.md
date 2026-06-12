@@ -7,33 +7,57 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
-## 2026-06-01 — History Audit & Comprehensive Catch-Up (~175 notes)
-## 2026-06-02 — WAND & Block-Max WAND Article (2 notes)
+## 2026-06-12 — PostgreSQL Search Extensions (~7 notes)
 
-**Articles** — [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] ([[Jithendrasaikilaru]], Medium, 2025-10-31). Paywalled; content from public summary. Introductory overview of dynamic pruning algorithms for top-k retrieval, covering WAND (Broder et al. 2003), Block-Max WAND (Ding & Suel 2011), MaxScore lineage, and DAAT context.
+**Concepts** — [[Search Results Explainability]] (ability to reason about and explain why documents rank as they do), [[Learned Sparse Retrieval]] (family of models learning term weights for sparse retrieval — SPLADE, ELSER, etc.).
 
-**People** — [[Jithendrasaikilaru]] (Medium writer, IR/AI/cybersecurity).
+**Tools** — [[pg_trgm]] (PostgreSQL built-in trigram similarity extension for fuzzy text search), [[pg_textsearch]] ([[BM25]] for PostgreSQL by [[Tiger Data]]), [[pgvectorscale]] (high-performance ANN vector search extension for PostgreSQL by [[Tiger Data]]), [[VectorChord]] (PostgreSQL vector search extension by TensorChord).
 
-**Updated** — [[WAND]], [[Block-Max WAND]] concept notes linked to new article.
+**Companies** — [[Tiger Data]] (formerly Timescale; builds PostgreSQL-native search and vector search extensions).
 
+---
 
-Catch-up log — notes present in the vault but not individually recorded in prior entries (initial import, May 16 batch, and later additions).
+## 2026-06-11 — Metarank / LTR Cluster (~8 notes)
+
+**Articles** — [[Hybrid Search and Learning-to-Rank with Metarank]] (by [[Vsevolod Goloviznin]], Pinecone blog, 2023-06-30). Fusing BM25 + vector retrievers via [[LambdaMART]] as a statistically-valid fusion mechanism; cold-start via [[Interleaving]]. [[Learn-to-Rank with OpenSearch and Metarank]] (by [[Roman Grebennikov]], OpenSearch blog, 2022-10-25). LambdaMART secondary re-ranking on top of [[OpenSearch]]; multi-stage ranking pattern; Remote Ranker Plugin RFC. [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] (by [[Florian Narr]], Codeline, 2025-12-15). Code-level repo review of Metarank's Scala/fs2 architecture (FeatureMapping, MetarankFlow, RankApi). [[OpenSearch vs. Elasticsearch in 2025 - What's Changed and What Hasn't]] (Dattell, 2025-04-03). Balanced licensing/features comparison (SSPL vs. Apache 2.0, plugin incompatibility, performance differences, ecosystem divergence).
+
+**Tools** — [[Metarank]] — open-source [[LambdaMART]] re-ranker and personalization service (Scala + Redis) by [[Roman Grebennikov]] and [[Vsevolod Goloviznin]].
+
+**People** — [[Roman Grebennikov]] (Metarank co-creator), [[Vsevolod Goloviznin]] (Metarank co-creator, Pinecone author), [[Florian Narr]] (Codeline author).
+
+---
+
+## 2026-06-02 — Block-Max WAND Cluster (~7 notes)
+
+**Articles** — [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] ([[Jithendrasaikilaru]], Medium, 2025-10-31). Paywalled; content from public summary. Introductory overview of dynamic pruning for top-k retrieval, covering WAND (Broder et al. 2003), Block-Max WAND (Ding & Suel 2011), MaxScore lineage, and DAAT context. [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]] (by [[André Mourão]] and [[Joon-Pil (JP) Hwang]], [[Weaviate]] blog, 2025-02-26). Technical implementation in Weaviate v1.29 (technical preview): 5–10× p50 latency speedup over plain WAND, 50–91% index size reduction via variable-length block encoding and delta compression of doc IDs; MS MARCO and Fever benchmark results. [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]] (by [[Adrien Grand]], Elastic blog, 2019-02-05). Original integration into Lucene 8.0 / Elasticsearch 7.0; lineage from MAXSCORE (1995) through WAND (2003); 3×–15× speedup; breaking API changes (non-negative scores, approximate hit counts via `track_total_hits`).
+
+**People** — [[Jithendrasaikilaru]] (Medium writer, IR/AI/cybersecurity), [[André Mourão]] ([[Weaviate]]), [[Joon-Pil (JP) Hwang]] ([[Weaviate]]), [[Adrien Grand]] ([[Elastic]], core Lucene committer).
+
+**Updated** — [[WAND]], [[Block-Max WAND]] concept notes linked to new articles.
+
+---
+
+## 2026-06-01 — History Audit & Comprehensive Catch-Up (~212 notes)
+
+Catch-up log — notes present in the vault but not individually recorded in prior entries (initial import, May 16 batch, and later additions). Also includes post-catchup articles added later the same day.
 
 **Articles** — [[RRF is Not Enough]] (by [[Doug Turnbull]], 2024-11-03), [[Agentic search models]] (by [[Doug Turnbull]], 2026-05-11), [[Agents turn simple keyword search into compelling search experiences]] (by [[Doug Turnbull]]), [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] (TIGER-Lab, 2026-05-08), [[Superintelligent Retrieval Agent SIRA]] (Meta / Rice University, 2026), [[You Say Search I Say Recs - Spotify Agentic Query Understanding]] (Spotify Research, 2025), [[Qwen3 Embedding Series]] (Alibaba Qwen Team, 2025-06-05), [[Fine-Tuning Qwen3 Embeddings for Product Category Classification]], [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] (by [[Aparna Dhinakaran]], 2025-08-20), [[Incremental AI Adoption for E-commerce Search]] (2026-01-18), [[On Search Leadership]] (by [[Daniel Tunkelang]]), [[Canva Search Pipeline Part I]], [[Bayesian BM25 is Cool]], [[Can BM25 be a Probability]], [[Broad and Ambiguous Search Queries]], [[Click Residual - A Query Success Metric]], [[Deconstructing E-Commerce Search - The 12 Query Types]], [[Diversity Metrics for Recommender Systems]], [[Ecommerce Search Governance - Move Faster Not Slower]], [[How Context-Aware Embeddings Are Transforming Enterprise Search]], [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]], [[LLM-Powered Query Extraction for Autocomplete]], [[Metadata - The 3rd Kind of Retrieval]], [[Mirror Mirror - All About Search Suggestions]], [[Mutually Assured Distraction]], [[My Journey Building Elasticsearch for Retail]], [[Patterns for Personalization]], [[Probability-Proportional-to-Size Sampling for Relevance Evaluation]], [[Real Talk About Synonyms and Search]], [[Searching for Goldilocks]], [[Session vs Query based Search Evals]], [[Statistical and Human-Centered Approaches to Search Improvement]], [[Three Pillars of Search Quality - Findability]], [[Three Pillars of Search Quality - Discovery and Inspiration]], [[Autosuggest Ranking]], [[Autosuggest Retrieval Data Structures and Algorithms]].
+
+**Post-catchup articles (same day)** — [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] (by [[QvickRead]], Medium, 2025-03-19). RL-based multi-turn search framework; token-level loss masking; PPO and GRPO training; +10–26% on QA benchmarks. [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] (by [[Lakshmi Devi Prakash]], Medium, 2025-04-11). Accessible comparison of RAG vs. Search-R1 architectures. [[Observability for AI Workloads A New Paradigm for a New Era]] (by [[Dotan Horovits]], 2026). Observability patterns for AI/search workloads; OpenTelemetry framing. [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] (by [[Jagadeesh Chandra]], Medium). ES vs. OS feature/ecosystem comparison. [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] (by [[Frank Goortani]], Medium). Balanced architecture and licensing comparison. Plus 7 dimensionality reduction articles: [[t-SNE Clearly Explained]] ([[Kemal Erdem]]), [[t-SNE Explained - Math and Intuition]] ([[Achinoam Soroker]]), [[t-SNE Explained - Visualising High-Dimensional Data]] ([[Billy Chan]]), [[PCA vs t-SNE - Which One Should You Use for Visualization]] ([[Namratesh Shrivastav]]), [[PCA vs t-SNE vs UMAP - Visualizing the Invisible]] ([[Lakhan Bukkawar]]), [[Understanding Principal Component Analysis (PCA)]] ([[Roshmita Dey]]), [[Principal Component Analysis (PCA) In Depth]] ([[Fraidoon Omarzai]]).
 
 **New Section — Case Studies** (9 notes) — [[Airbnb - ML-Powered Experiences Ranking]], [[Canva - Search Pipeline Modernization]], [[Etsy - Search Quality and Query Understanding]], [[Kleinanzeigen - Vespa Migration for Homepage Feed]], [[Netflix - Content Search Architecture]], [[Skyscanner - Learning to Rank for Flights]], [[Slack - Enterprise Message Search with LTR]], [[Uber Eats - Scaling Search for Food Delivery]], [[Zalando - Self-DoS via Facet Aggregation]]. Structured use-case notes synthesising engineering lessons from each company's published work.
 
 **New Section — Datasets** (4 notes) — [[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[WANDS Dataset]]. Benchmark datasets for search relevance evaluation.
 
-**Concepts** — [[Bag-of-Documents Model]], [[Clean Context]], [[Click Signals]], [[Direct Corpus Interaction]], [[GGUF]], [[Hit Rate at K]], [[Intent Drift]], [[IVF]], [[LoRA]], [[PEFT]], [[QLoRA]], [[SIRA]], [[Session-Based Evaluation]], [[Task-Aware Embeddings]], [[Token Pooling]], [[UDCG]], [[WAND]].
+**Concepts** — [[Bag-of-Documents Model]], [[Clean Context]], [[Click Signals]], [[Direct Corpus Interaction]], [[GGUF]], [[Hit Rate at K]], [[Intent Drift]], [[IVF]], [[LoRA]], [[PEFT]], [[QLoRA]], [[SIRA]], [[Session-Based Evaluation]], [[Task-Aware Embeddings]], [[Token Pooling]], [[UDCG]], [[WAND]], [[UMAP]], [[Search Observability]], [[PCA]], [[t-SNE]], [[Reinforcement Learning for Search]], [[Search-R1]].
 
-**People** — [[Omar Khattab]] (Stanford, ColBERT author), [[Aparna Dhinakaran]] (Arize AI), [[Thibault Formal]] (SPLADE co-author), [[Stéphane Clinchant]] (SPLADE co-author), [[Antoine Chaffin]], [[Florent Krzakala]], [[Han Xiao]] (Jina AI), [[James Briggs]], [[Shaw Talebi]], [[Matei Zaharia]] (Databricks / MLflow), [[Laura Ham]] (Weaviate), [[Marianne Haugvaldstad]], [[Lester Solbakken]], [[Brage Vik]], [[Rudolf Batt]], [[Nicolò Rinaldi]], [[Luca Arnaboldi]], [[Hugo Galvão]], [[Honza Král]], [[Jodi Sloan]], [[Michael Ryaboy]], [[Michael Hannecke]], [[Peter Straßer]], [[Siegfried Schüle]], [[Andrea Schütt]], [[Andreas Wagner]], [[Alexander Marquardt]], [[Amélie Chatelain]], [[Asif Makhani]], [[Benjamin Trent]], [[Dai Sugimori]], [[Daniel Doro]], [[David Argüello Sánchez]], [[Dima Kan]], [[Dmitriy Meyerzon]], [[Jaideep Ray]], [[Maryna Kryvko]], [[Prateek Chandra Jha]], [[Ravindra Harige]], [[Taylor Roy]], [[Trey Grainger]].
+**People** — [[Omar Khattab]] (Stanford, ColBERT author), [[Aparna Dhinakaran]] (Arize AI), [[Thibault Formal]] (SPLADE co-author), [[Stéphane Clinchant]] (SPLADE co-author), [[Antoine Chaffin]], [[Florent Krzakala]], [[Han Xiao]] (Jina AI), [[James Briggs]], [[Shaw Talebi]], [[Matei Zaharia]] (Databricks / MLflow), [[Laura Ham]] (Weaviate), [[Marianne Haugvaldstad]], [[Lester Solbakken]], [[Brage Vik]], [[Rudolf Batt]], [[Nicolò Rinaldi]], [[Luca Arnaboldi]], [[Hugo Galvão]], [[Honza Král]], [[Jodi Sloan]], [[Michael Ryaboy]], [[Michael Hannecke]], [[Peter Straßer]], [[Siegfried Schüle]], [[Andrea Schütt]], [[Andreas Wagner]], [[Alexander Marquardt]], [[Amélie Chatelain]], [[Asif Makhani]], [[Benjamin Trent]], [[Dai Sugimori]], [[Daniel Doro]], [[David Argüello Sánchez]], [[Dima Kan]], [[Dmitriy Meyerzon]], [[Jaideep Ray]], [[Maryna Kryvko]], [[Prateek Chandra Jha]], [[Ravindra Harige]], [[Taylor Roy]], [[Trey Grainger]], [[Jagadeesh Chandra]], [[Frank Goortani]], [[Shay Banon]] (Elasticsearch creator), [[Dotan Horovits]] (observability), [[Lakshmi Devi Prakash]], [[QvickRead]], [[Kemal Erdem]], [[Achinoam Soroker]], [[Billy Chan]], [[Namratesh Shrivastav]], [[Lakhan Bukkawar]], [[Roshmita Dey]], [[Fraidoon Omarzai]], [[Geoffrey Hinton]] (t-SNE co-creator), [[Laurens van der Maaten]] (t-SNE co-creator), [[Chris Fournie]] (Reddit), [[Ritik Jain]], [[Venkat Ram Rao]], [[Freddy Domínguez]].
 
-**Companies** — [[Empathy]], [[Jina AI]], [[LightOn AI]], [[Meta]], [[Sease]], [[searchHub]], [[Shopify]].
+**Companies** — [[Empathy]], [[Jina AI]], [[LightOn AI]], [[Meta]], [[Sease]], [[searchHub]], [[Shopify]], [[Reddit]].
 
 **Topics** — [[Elasticsearch vs OpenSearch]], [[Multilingual Search]], [[Personalization in Search]], [[Relevance Program Setup]], [[Search Platforms]], [[Search UX]], [[Spelling Correction in Search]].
 
-**Tools** — [[OpenSearch]].
+**Tools** — [[OpenSearch]], [[Milvus Vector DB]].
 
 ---
 
@@ -125,7 +149,10 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
-| 2026-06-01 | ~175 | ~468 |
+| 2026-06-12 | ~7 | ~527 |
+| 2026-06-11 | ~8 | ~520 |
+| 2026-06-02 | ~7 | ~512 |
+| 2026-06-01 | ~212 | ~505 |
 | 2026-05-31 | ~20 | ~293 |
 | 2026-05-28 | 1 | ~273 |
 | 2026-05-26 | 2 | ~272 |

@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-06-02T17:42:39.000Z</lastmod>
+    <lastmod>2026-06-12T08:43:11.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1247,6 +1247,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Observability</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</loc>
+    <lastmod>2026-06-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Team</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
@@ -1269,7 +1272,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-06-12T08:43:11.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Spelling-Correction</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1407,7 +1410,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-12T08:42:22.136Z</lastmod>
+    <lastmod>2026-06-12T10:10:33.799Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1761,5 +1764,5 @@
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/</loc>
-    <lastmod>2026-06-10T13:15:18.000Z</lastmod>
+    <lastmod>2026-06-12T08:43:11.000Z</lastmod>
   </url></urlset>

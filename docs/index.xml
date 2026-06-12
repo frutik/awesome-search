@@ -10,7 +10,25 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 12 Jun 2026 08:42:22 GMT</pubDate>
+    <pubDate>Fri, 12 Jun 2026 10:10:33 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
+  </item><item>
+    <title>Sparse Vector Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</guid>
+    <description><![CDATA[ Sparse Vector Retrieval Definition Sparse vector retrieval represents documents and queries as high-dimensional vectors where most values are zero — only a small fraction of dimensions are non-zero. ]]></description>
+    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
+  </item><item>
+    <title>index</title>
+    <link>https://frutik.github.io/awesome-search/</link>
+    <guid>https://frutik.github.io/awesome-search/</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
   </item><item>
     <title>Tiger Data</title>
     <link>https://frutik.github.io/awesome-search/Companies/Tiger-Data</link>
@@ -22,6 +40,12 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</guid>
     <description><![CDATA[ Learned Sparse Retrieval Definition Learned Sparse Retrieval (LSR) is the family of neural retrieval methods that represent queries and documents as sparse vectors in vocabulary space — where weights are produced by a trained model rather than counted from term frequencies. ]]></description>
+    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Search Results Explainability</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</guid>
+    <description><![CDATA[ Search Results Explainability Definition Search results explainability is the ability to provide human-understandable justifications for why a document was retrieved and ranked at a given position. ]]></description>
     <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>VectorChord</title>
@@ -41,30 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Tools/pg_trgm</guid>
     <description><![CDATA[ pg_trgm Built-in PostgreSQL extension providing trigram-based similarity matching via similarity(), word_similarity(), and GIN/GiST indexes. ]]></description>
     <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>pgvectorscale</title>
-    <link>https://frutik.github.io/awesome-search/Tools/pgvectorscale</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/pgvectorscale</guid>
-    <description><![CDATA[ pgvectorscale PostgreSQL extension by Tiger Data (formerly Timescale) that complements pgvector with a faster DiskANN-style index (StreamingDiskANN) designed for high-throughput vector search on larger corpora. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>BM25</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/BM25</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/BM25</guid>
-    <description><![CDATA[ BM25 Definition BM25 (Best Match 25) is the dominant lexical retrieval algorithm — the scoring function behind Elasticsearch’s default relevance, Solr, Lucene, and most production search engines. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
-  </item><item>
-    <title>ParadeDB</title>
-    <link>https://frutik.github.io/awesome-search/Tools/ParadeDB</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/ParadeDB</guid>
-    <description><![CDATA[ ParadeDB Open-source PostgreSQL extension (and distribution) that brings Elasticsearch-style search to Postgres — most notably BM25 ranking, which native Postgres Full-Text Search lacks. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
-  </item><item>
-    <title>PostgreSQL</title>
-    <link>https://frutik.github.io/awesome-search/Tools/PostgreSQL</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/PostgreSQL</guid>
-    <description><![CDATA[ PostgreSQL Open-source relational database that doubles as a capable search platform. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 09:26:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
