@@ -29,6 +29,8 @@ This tradeoff is central to multi-stage / secondary re-ranking: an external re-r
 - [[Learning to Rank]] · [[LambdaMART]] · [[Reranking]] · [[Retrieval Pipeline]]
 - [[Click Signals]] · [[Personalization]] — common feature sources
 
+- [[LTR Feature Engineering]] — which features to store and serve; the "what" to the Feature Store's "how"
+
 ## Articles
 
 - [[Learn-to-Rank with OpenSearch and Metarank]] — feature store vs. in-index features tradeoff

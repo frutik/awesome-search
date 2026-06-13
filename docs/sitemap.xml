@@ -1041,7 +1041,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</loc>
-    <lastmod>2026-06-13T07:23:02.000Z</lastmod>
+    <lastmod>2026-06-13T08:02:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</loc>
     <lastmod>2026-06-01T16:33:24.000Z</lastmod>
@@ -1100,6 +1100,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/LLM-as-Judge</loc>
     <lastmod>2026-05-31T16:39:23.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/LTR-Feature-Engineering</loc>
+    <lastmod>2026-06-12T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/LambdaMART</loc>
     <lastmod>2026-06-11T09:20:46.000Z</lastmod>
   </url><url>
@@ -1110,7 +1113,7 @@
     <lastmod>2026-06-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</loc>
-    <lastmod>2026-06-13T07:23:02.000Z</lastmod>
+    <lastmod>2026-06-13T08:02:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Linear-Score-Combination</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1422,7 +1425,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-13T08:01:58.933Z</lastmod>
+    <lastmod>2026-06-13T09:57:56.908Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1680,7 +1683,7 @@
     <lastmod>2026-06-11T09:20:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/eland</loc>
-    <lastmod>2026-06-13T07:23:02.000Z</lastmod>
+    <lastmod>2026-06-13T08:02:46.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/pg_textsearch</loc>
     <lastmod>2026-06-11T22:00:00.000Z</lastmod>

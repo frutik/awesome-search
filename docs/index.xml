@@ -10,19 +10,25 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 13 Jun 2026 08:01:58 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 09:57:56 GMT</pubDate>
   </item><item>
     <title>Elasticsearch Learning to Rank</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</guid>
     <description><![CDATA[ Elasticsearch Learning to Rank In-engine LTR: running a learned ranking model inside Elasticsearch as a second-stage rescorer, rather than in an external service. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
   </item><item>
     <title>Learning to Rank</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
     <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
+  </item><item>
+    <title>eland</title>
+    <link>https://frutik.github.io/awesome-search/Tools/eland</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/eland</guid>
+    <description><![CDATA[ eland Elastic’s Python client for loading and managing machine-learning models in Elasticsearch. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
@@ -40,12 +46,6 @@
     <link>https://frutik.github.io/awesome-search/Tools/RankLib</link>
     <guid>https://frutik.github.io/awesome-search/Tools/RankLib</guid>
     <description><![CDATA[ RankLib Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
-  </item><item>
-    <title>eland</title>
-    <link>https://frutik.github.io/awesome-search/Tools/eland</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/eland</guid>
-    <description><![CDATA[ eland Elastic’s Python client for loading and managing machine-learning models in Elasticsearch. ]]></description>
     <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
   </item><item>
     <title>Learning To Rank (LTR) - Elasticsearch Native</title>

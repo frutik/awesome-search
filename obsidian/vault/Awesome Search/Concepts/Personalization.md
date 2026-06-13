@@ -62,6 +62,9 @@ Add user features to the [[Learning to Rank]] model:
 - Session recency signals
 
 
+
+See [[LTR Feature Engineering]] for a full taxonomy of user affinity features and selection strategy.
+
 ### In-Engine Click Profile Matching (Kleinanzeigen / Vespa)
 
 [[Kleinanzeigen]] moved user behavioral profiles entirely inside [[Vespa]], eliminating the external orchestration layer. Click events fire as Vespa document updates, processed in-process by a document processor. Profiles decay over time, are L2-normalized, and are stored as Vespa documents keyed `{userId}:category:{categoryId}`. At query time: read profile → expand tokens via a `relations` similarity graph → fire a [[WAND]] query. No external profile store. No service hop.

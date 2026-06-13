@@ -141,6 +141,8 @@ Unbiased training data → significantly better LTR models.
 - [[Implicit Judgments]] — behavioral labels for training
 - [[Elasticsearch Learning to Rank]] — in-engine LTR in Elasticsearch; the OSC-plugin-vs-native split
 
+- [[LTR Feature Engineering]] — taxonomy of ranking features (product attributes, query×doc interactions, personalization signals, behavioral features) and selection strategy
+
 ## Articles
 
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; accessible LTR primer covering SVMRank, LambdaMART, feature orthogonality, multi-stage reranking
