@@ -61,6 +61,7 @@ A real LTR solution is "a tremendous amount of work" — studying users, analyti
 
 - [[Learning To Rank (LTR) - Elasticsearch Native]] — Elastic's later first-party module
 - [[Search using LTR - Elastic Docs]]
+- [[How LambdaMART Works]] — [[Doug Turnbull]]'s explainer of the model this plugin trains via RankLib
 - [[Learn-to-Rank with OpenSearch and Metarank]] — the external-re-ranker alternative
 
 ## People

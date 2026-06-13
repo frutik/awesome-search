@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "Incremental AI Adoption for E-commerce"
 source: "https://arcturus-labs.com/blog/2026/01/18/incremental-ai-adoption-for-e-commerce/"
 author: "arcturus-labs.com"

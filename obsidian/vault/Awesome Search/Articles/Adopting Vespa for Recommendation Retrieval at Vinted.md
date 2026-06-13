@@ -1,8 +1,9 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, vespa, ann, two-tower, recommendations, e-commerce, company-blog]
 source: "https://vinted.engineering/2023/10/09/adopting-vespa-for-recommendation-retrieval/"
-author: []
+author: ["Vinted"]
 company: [Vinted]
 concepts: [Dense Vector Retrieval, ANN, Embeddings, Hybrid Search]
 topics: [Personalization in Search, E-commerce Search]

@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Can BM25 be a Probability?"
 source: "https://softwaredoug.com/blog/2026/03/06/probabilistic-bm25-utopia"
 author: "[[Doug Turnbull]]"

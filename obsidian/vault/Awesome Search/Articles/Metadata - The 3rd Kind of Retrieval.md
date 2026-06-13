@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Metadata: The 3rd Kind of Retrieval"
 source: "https://softwaredoug.com/blog/2026/04/21/metadata-the-3rd-kind-of-retrieval"
 author: "[[Doug Turnbull]]"

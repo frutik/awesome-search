@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, sparse-vectors, elser, splade, elasticsearch, semantic-search, company-blog]
 source: "https://www.elastic.co/search-labs/blog/sparse-vector-embedding"

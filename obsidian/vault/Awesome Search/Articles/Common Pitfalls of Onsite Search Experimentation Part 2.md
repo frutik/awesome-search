@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, ab-testing, experimentation, basket-attribution, kpi, company-blog]
 source: "https://www.searchhub.io/en/common-pitfalls-of-onsite-search-experimentation-part-2/"

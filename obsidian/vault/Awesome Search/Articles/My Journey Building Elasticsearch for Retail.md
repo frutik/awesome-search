@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, elasticsearch, retail, analyzers, query-relaxation, e-commerce, company-blog]
 source: "https://www.searchhub.io/en/my-journey-building-elasticsearch-for-retail/"

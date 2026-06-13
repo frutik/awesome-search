@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "Qwen3 Embedding Series"
 source: "https://qwen.ai/blog?id=qwen3-embedding"
 author: "Qwen Team (Alibaba)"

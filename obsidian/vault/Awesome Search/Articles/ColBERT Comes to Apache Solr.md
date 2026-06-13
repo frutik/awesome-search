@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "ColBERT Comes to Apache Solr: Implementation and Tutorial of Late Interaction Model Reranking"
 source: "https://sease.io/2026/04/late-interaction-comes-to-solr-implementation-and-tutorial.html"
 author: "[[Nicolò Rinaldi]]"

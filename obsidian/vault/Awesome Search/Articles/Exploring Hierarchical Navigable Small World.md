@@ -1,4 +1,5 @@
 ---
+created: 2026-05-21
 title: "Exploring Hierarchical Navigable Small World"
 source: "https://blog.vespa.ai/exploring-hierarchical-navigable-small-world/"
 authors:

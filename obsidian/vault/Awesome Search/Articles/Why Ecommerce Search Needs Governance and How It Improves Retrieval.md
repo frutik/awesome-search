@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Why Ecommerce Search Needs Governance & How It Improves Retrieval"
 source: "https://www.elastic.co/search-labs/blog/ecommerce-search-governance-improve-retrieval"
 author:

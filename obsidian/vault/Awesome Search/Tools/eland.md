@@ -1,8 +1,10 @@
 ---
-title: "eland"
-aliases: ["eland", "Eland"]
-website: "https://eland.readthedocs.io/"
-repo: "https://github.com/elastic/eland"
+title: eland
+aliases:
+  - eland
+  - Eland
+website: https://eland.readthedocs.io/
+repo: https://github.com/elastic/eland
 maintainer: "[[Elastic]]"
 tags:
   - tool
@@ -10,6 +12,7 @@ tags:
   - machine-learning
   - learning-to-rank
   - python
+type: tool
 ---
 
 # eland

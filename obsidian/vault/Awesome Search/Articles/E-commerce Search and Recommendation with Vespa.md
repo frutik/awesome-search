@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, vespa, e-commerce, ltr, facets, vocabulary-mismatch, recommendations, company-blog]
 source: "https://blog.vespa.ai/e-commerce-search-and-recommendation-with-vespaai/"

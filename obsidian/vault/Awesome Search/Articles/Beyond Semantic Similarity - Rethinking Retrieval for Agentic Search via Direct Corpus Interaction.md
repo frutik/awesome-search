@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Beyond Semantic Similarity: Rethinking Retrieval for Agentic Search via Direct Corpus Interaction"
 source: "https://huggingface.co/papers/2605.05242"
 arxiv: "2605.05242"

@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "You Say Search, I Say Recs: A Scalable Agentic Approach to Query Understanding and Exploratory Search at Spotify"
 source: "https://research.atspotify.com/publications/you-say-search--i-say-recs-a-scalable-agentic-approach-to-query-understanding-and-exploratory-search-at-spotify"
 author: "Spotify Research"

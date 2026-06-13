@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "The Mathematics of Google's TurboQuant"
 source: "https://prateekchandrajha.github.io/turboquant-math.html"
 author: "[[Prateek Chandra Jha]]"

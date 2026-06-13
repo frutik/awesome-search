@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Elasticsearch Personalized Search in Ecommerce: Improve Relevance"
 source: "https://www.elastic.co/search-labs/blog/elasticsearch-personalized-search-governed-ecommerce"
 author:

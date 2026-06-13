@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, ltr, lambdamart, e-commerce, otto, ranking, evaluation, company-blog]
 source: "https://www.otto.de/jobs/en/blogs/techblog/1-learning-to-rank-for-e-commerce-search/"

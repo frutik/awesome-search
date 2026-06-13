@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, ann, hnsw, vespa, e-commerce, image-similarity, prefiltering, company-blog]
 source: "https://blog.vespa.ai/image-similarity-search/"

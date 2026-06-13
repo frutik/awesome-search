@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, llm, fine-tuning, unsloth, ollama, gguf]
 source: "https://pub.towardsai.net/fine-tuning-llms-from-zero-to-hero-with-python-ollama-52258966bb6d"

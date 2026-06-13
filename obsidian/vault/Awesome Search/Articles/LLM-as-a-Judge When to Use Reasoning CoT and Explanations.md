@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "LLM-as-a-Judge: When to Use Reasoning, CoT, and Explanations"
 source: "https://medium.com/data-science-collective/llm-as-a-judge-when-to-use-reasoning-cot-and-explanations-964ad82ebc3d"
 author: "[[Aparna Dhinakaran]]"

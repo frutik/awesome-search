@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 type: article
 title: "Fine Tuning an Embedding Model for Semantic Search"
 source: "https://medium.com/@venkat.ramrao/fine-tuning-a-sentence-transformer-for-semantic-search-7c7a57f4db2f"

@@ -1,4 +1,5 @@
 ---
+created: 2026-05-29
 title: "Agentic Search for Context Engineering"
 source: "https://medium.com/@iamleonie/agentic-search-for-context-engineering-268b5a1bbc0b"
 author: "[[Leonie Monigatti]]"

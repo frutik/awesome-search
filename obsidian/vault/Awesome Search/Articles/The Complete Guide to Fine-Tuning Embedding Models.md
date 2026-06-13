@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 type: article
 title: "The Complete Guide to Fine-Tuning Embedding Models: From Theory to Production"
 source: "https://ritikjain51.medium.com/the-complete-guide-to-fine-tuning-embedding-models-from-theory-to-production-0e3495eaa06e"

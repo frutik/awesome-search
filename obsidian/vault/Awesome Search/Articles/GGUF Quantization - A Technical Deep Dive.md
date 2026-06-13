@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "GGUF Optimization: A Technical Deep Dive (Parts 1 & 2)"
 source: "https://medium.com/@michael.hannecke/gguf-optimization-a-technical-deep-dive-for-practitioners-ce84c8987944"
 author: "[[Michael Hannecke]]"

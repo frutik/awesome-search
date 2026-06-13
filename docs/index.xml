@@ -10,19 +10,43 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:21:39 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 08:01:58 GMT</pubDate>
   </item><item>
     <title>Elasticsearch Learning to Rank</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</guid>
     <description><![CDATA[ Elasticsearch Learning to Rank In-engine LTR: running a learned ranking model inside Elasticsearch as a second-stage rescorer, rather than in an external service. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:20:31 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+  </item><item>
+    <title>Learning to Rank</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
+    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+  </item><item>
+    <title>Metarank</title>
+    <link>https://frutik.github.io/awesome-search/Tools/Metarank</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/Metarank</guid>
+    <description><![CDATA[ Metarank Open-source, real-time secondary re-ranker and personalization service written in Scala. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+  </item><item>
+    <title>RankLib</title>
+    <link>https://frutik.github.io/awesome-search/Tools/RankLib</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/RankLib</guid>
+    <description><![CDATA[ RankLib Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
   </item><item>
     <title>eland</title>
     <link>https://frutik.github.io/awesome-search/Tools/eland</link>
     <guid>https://frutik.github.io/awesome-search/Tools/eland</guid>
     <description><![CDATA[ eland Elastic’s Python client for loading and managing machine-learning models in Elasticsearch. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:15:42 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
   </item><item>
     <title>Learning To Rank (LTR) - Elasticsearch Native</title>
     <link>https://frutik.github.io/awesome-search/Articles/Learning-To-Rank-(LTR)---Elasticsearch-Native</link>
@@ -41,30 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Articles/We're-Bringing-Learning-to-Rank-to-Elasticsearch</guid>
     <description><![CDATA[ We’re Bringing Learning to Rank to Elasticsearch Source: opensourceconnections.com/blog/2017/02/14/elasticsearch-learning-to-rank/ Author: OpenSource Connections (announced by the team behind Relevant Search; Doug Turnbull) Published: 2017-02-14 The launch of the o19s/elasticsearch-learning-to-rank ... ]]></description>
     <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Vector Similarity Metrics</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics</guid>
-    <description><![CDATA[ Vector Similarity Metrics Definition Similarity (or distance) functions that measure how “close” two vectors are in embedding space. ]]></description>
-    <pubDate>Fri, 12 Jun 2026 10:24:49 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Fri, 12 Jun 2026 10:24:49 GMT</pubDate>
-  </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
-  </item><item>
-    <title>Sparse Vector Retrieval</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</guid>
-    <description><![CDATA[ Sparse Vector Retrieval Definition Sparse vector retrieval represents documents and queries as high-dimensional vectors where most values are zero — only a small fraction of dimensions are non-zero. ]]></description>
-    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
   </item>
     </channel>
   </rss>

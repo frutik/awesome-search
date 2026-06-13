@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, evaluation, metrics, progressive-scroll, precision, recall]
 source: "https://softwaredoug.com/blog/2021/05/05/finding-the-cutoff-when-search-results-stop-being-relevant.html"

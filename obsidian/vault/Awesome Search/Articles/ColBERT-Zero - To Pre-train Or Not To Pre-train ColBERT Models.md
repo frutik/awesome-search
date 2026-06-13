@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "ColBERT-Zero: To Pre-train Or Not To Pre-train ColBERT Models?"
 source: "https://huggingface.co/blog/lightonai/colbert-zero"
 author:

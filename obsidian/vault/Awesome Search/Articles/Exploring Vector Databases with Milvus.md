@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 type: article
 title: "Exploring Vector Databases with Milvus"
 source: "https://medium.com/@hsinhungw/exploring-vector-databases-with-milvus-dbf917d9ab00"

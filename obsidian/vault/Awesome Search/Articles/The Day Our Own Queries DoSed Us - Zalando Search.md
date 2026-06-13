@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "The Day Our Own Queries DoS'ed Us: Inside Zalando Search"
 source: "https://engineering.zalando.com/posts/2025/12/we-hacked-ourselves-so-you-dont-have-to.html"
 author: "[[Maryna Kryvko]]"

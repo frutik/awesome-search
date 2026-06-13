@@ -50,10 +50,12 @@ The objective function (DCG, Precision, business-specific metric) matters more t
 
 - [[LambdaMART]]
 - [[Learning to Rank]]
+- [[RankNet]] — the lineage (RankNet → LambdaRank → LambdaMART) behind the lambda gradients
 - [[Ranking Objectives]]
 - [[NDCG]]
 - [[Position Bias]]
 - [[Search Evaluation]]
+- [[Elasticsearch Learning to Rank]] — where this LambdaMART model is served in-engine (via [[RankLib]] in the OSC plugin, or [[XGBoost]] in native ES LTR)
 - **Implementations**: [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]]
 
 ## People
@@ -64,3 +66,4 @@ The objective function (DCG, Precision, business-specific metric) matters more t
 
 - [[Building a Better Search Engine for Semantic Scholar]]
 - [[Machine Learning-Powered Search Ranking of Airbnb Experiences]]
+- [[We're Bringing Learning to Rank to Elasticsearch]] — Turnbull/OSC plugin that trains this LambdaMART model with [[RankLib]] and serves it in [[Elasticsearch]]

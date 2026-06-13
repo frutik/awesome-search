@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "Multilingual Embedding Model: Hybrid Search Reranking"
 source: "https://www.elastic.co/search-labs/blog/multilingual-embedding-model-hybrid-search-reranking"
 author: "[[Quynh Nguyen]]"

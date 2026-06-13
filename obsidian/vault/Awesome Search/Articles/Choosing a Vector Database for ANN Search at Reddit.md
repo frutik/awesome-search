@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 type: article
 title: "Choosing a Vector Database for ANN Search at Reddit"
 source: "https://milvusio.medium.com/choosing-a-vector-database-for-ann-search-at-reddit-1c9464518c96"

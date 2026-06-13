@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, ranking, query-understanding, relevance, personalization, medium]
 source: "https://dtunkelang.medium.com/putting-search-ranking-in-perspective-1b3094e38105"

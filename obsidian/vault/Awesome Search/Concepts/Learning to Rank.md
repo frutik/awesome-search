@@ -153,4 +153,4 @@ Unbiased training data → significantly better LTR models.
 
 ## People
 
-- [[Doug Turnbull]] — "How LambdaMART works" post; LTR in production
+- [[Doug Turnbull]] — [[How LambdaMART Works]]; LTR in production

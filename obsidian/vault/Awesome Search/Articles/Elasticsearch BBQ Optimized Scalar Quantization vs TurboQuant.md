@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "Elasticsearch BBQ: Optimized Scalar Quantization vs. TurboQuant"
 source: "https://www.elastic.co/search-labs/blog/elasticsearch-bbq-osq-vs-turbo"
 author: "[[Thomas Veasey]]"

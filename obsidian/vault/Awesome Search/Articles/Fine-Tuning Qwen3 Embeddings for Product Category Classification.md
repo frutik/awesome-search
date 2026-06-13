@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Fine-Tuning Qwen3 Embeddings for Product Category Classification"
 source: "https://blog.ivan.digital/fine-tuning-qwen3-embeddings-for-product-category-classification-on-the-large-scale-product-corpus-3a0919506bc8"
 author: "Ivan"

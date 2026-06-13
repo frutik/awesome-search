@@ -1,8 +1,9 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, autocomplete, autosuggest, radix-tree, fst, lucene, data-structures]
 source: "https://spinscale.de/posts/2023-01-18-mirror-mirror-what-am-i-typing-next.html"
-author: []
+author: ["Alexander Reelsen"]
 company: []
 concepts: [Autocomplete]
 topics: [Autocomplete and Autosuggest]

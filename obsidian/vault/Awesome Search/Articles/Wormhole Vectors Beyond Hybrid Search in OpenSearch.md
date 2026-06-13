@@ -1,4 +1,5 @@
 ---
+created: 2026-05-15
 title: "Wormhole Vectors: Beyond Hybrid Search in OpenSearch"
 source: "https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors"
 author: "[[Dima Kan]]"

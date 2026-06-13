@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, evaluation, ab-testing, shopify, offline-metrics, annotation, company-blog]
 source: "https://shopify.engineering/evaluating-search-algorithms"

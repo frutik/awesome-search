@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: "Building Search-Based Apps With Typesense: From Zero to Hero"
 source: "https://medium.com/@paulkarikari/building-search-based-apps-with-typesense-from-zero-to-hero-79f84d142aed"
 author: "[[Paul Karikari]]"

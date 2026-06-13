@@ -1,12 +1,17 @@
 ---
-title: "Elasticsearch Learning to Rank"
-aliases: ["Elasticsearch LTR", "ES LTR", "in-engine LTR", "native LTR"]
+title: Elasticsearch Learning to Rank
+aliases:
+  - Elasticsearch LTR
+  - ES LTR
+  - in-engine LTR
+  - native LTR
 tags:
   - concept
   - ranking
   - learning-to-rank
   - elasticsearch
   - search
+type: concept
 ---
 
 # Elasticsearch Learning to Rank

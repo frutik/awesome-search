@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, spotify, team-structure, organization, search-platform, company-blog]
 source: "https://engineering.atspotify.com/2021/4/rethinking-spotify-search"

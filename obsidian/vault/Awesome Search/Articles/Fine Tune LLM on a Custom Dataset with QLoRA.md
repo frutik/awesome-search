@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, llm, fine-tuning, qlora, lora, peft, quantization, medium]
 source: "https://dassum.medium.com/fine-tune-large-language-model-llm-on-a-custom-dataset-with-qlora-fb60abdeba07"

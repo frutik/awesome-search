@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Optimizing Search at Uber Eats"
 source: "https://www.infoq.com/presentations/optimization-search-uber/"
 author: "Janani Narayanan, Karthik Ramasamy"

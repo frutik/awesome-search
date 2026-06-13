@@ -1,8 +1,9 @@
 ---
+created: 2026-05-16
 type: article
 tags: [article, ab-testing, metrics, ctr, conversion, directionality, sensitivity, company-blog]
 source: "https://www.algolia.com/blog/engineering/a-b-testing-metrics-evaluating-the-best-metrics-for-your-search"
-author: []
+author: ["Algolia"]
 company: [Algolia]
 concepts: [A-B Testing, Click Signals]
 topics: [A-B Testing for Search, Search Quality Assurance]

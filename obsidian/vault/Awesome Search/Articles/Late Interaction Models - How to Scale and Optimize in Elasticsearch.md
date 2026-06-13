@@ -1,4 +1,5 @@
 ---
+created: 2026-05-21
 title: "Late Interaction Models: How to Scale & Optimize in Elasticsearch"
 source: "https://www.elastic.co/search-labs/blog/late-interaction-model-colpali-scale"
 authors:

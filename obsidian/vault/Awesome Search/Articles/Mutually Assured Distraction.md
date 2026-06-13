@@ -1,4 +1,5 @@
 ---
+created: 2026-05-16
 title: "Mutually Assured Distraction"
 source: "https://hornet.dev/blog/mutually-assured-distraction"
 author: "[[Lester Solbakken]]"
