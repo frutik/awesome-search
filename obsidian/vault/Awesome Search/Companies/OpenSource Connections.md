@@ -28,7 +28,8 @@ Search consulting firm and tooling company. Authors of many foundational search 
 
 Multiple foundational articles from OSC team:
 - [[What is a Relevant Search Result]] · [[Choosing Your Search Relevance Evaluation Metric]] · [[Implementing NDCG Scorer in Quepid]] · [[Bayesian BM25 is Cool]] · [[Succeeding with Relevance Evaluation using PPS Sampling]]
+- [[We're Bringing Learning to Rank to Elasticsearch]] — the o19s `elasticsearch-learning-to-rank` plugin (2017)
 
 ## Related Concepts
 
-- [[Search Evaluation]] · [[Judgment Lists]] · [[NDCG]] · [[Learning to Rank]]
+- [[Search Evaluation]] · [[Judgment Lists]] · [[NDCG]] · [[Learning to Rank]] · [[Elasticsearch Learning to Rank]]

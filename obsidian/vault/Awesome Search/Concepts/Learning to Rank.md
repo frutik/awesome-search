@@ -80,6 +80,25 @@ LTR reranker (LambdaMART or neural) → top-20
 
 The first stage uses simple fast signals; LTR adds expensive-to-compute features.
 
+## Where LTR Runs: In-Engine vs External Re-ranker
+
+Independent of the algorithm, a learned ranker can be served in two architectures:
+
+- **In-engine LTR** — the model runs *inside* the search engine as a rescore phase over the top-N, with features computed from the engine's own queries and fields. Examples: Solr LTR, [[Elasticsearch Learning to Rank]] (both the OSC plugin and Elastic's native module), [[OpenSearch]], Vespa. Lighter integration, no extra service — but tied to a single engine's index.
+- **External secondary re-ranker** — the model runs as a *separate service downstream* of the engine: the application retrieves candidates, then calls the re-ranker. Engine-agnostic, so it can fuse results from multiple independent retrievers and ingest behavioral events directly — at the cost of an extra network hop and a stateful service to operate. Canonical example: [[Metarank]].
+
+| | In-engine LTR | External re-ranker |
+|---|---|---|
+| Where it runs | Inside the search cluster, as a rescore phase | Separate service downstream of the engine |
+| Feature computation | The engine's own query/field signals | Own feature pipeline + [[Feature Store]] |
+| Retriever scope | Tied to one engine's index | Retrieval-agnostic — can fuse multiple retrievers ([[Hybrid Search]]) |
+| Behavioral events | You build [[Judgment Lists]] / [[Implicit Judgments]] yourself | Ingests clicks/impressions directly; synthesizes negatives |
+| Network hops | None — single search request | Extra hop; app multi-queries then calls the re-ranker |
+| Ops cost | No new service | A stateful service to run and scale |
+| Examples | Solr LTR, [[Elasticsearch Learning to Rank]], [[OpenSearch]], Vespa | [[Metarank]] |
+
+Rule of thumb: in-engine LTR is the lighter integration when all candidates live in one engine's index; an external re-ranker earns its keep for real-time personalization from behavioral events or fusing multiple independent retrievers. See [[Learn-to-Rank with OpenSearch and Metarank]] (the OpenSearch Remote Ranker Plugin RFC is a convergence point between the two) and [[Reranking]].
+
 ## Neural LTR
 
 More recent: neural rerankers replace LambdaMART:
@@ -120,6 +139,7 @@ Unbiased training data → significantly better LTR models.
 - **Serving**: [[Metarank]] — open-source LambdaMART secondary re-ranker
 - [[Feature Store]] — where ranking features are persisted/served
 - [[Implicit Judgments]] — behavioral labels for training
+- [[Elasticsearch Learning to Rank]] — in-engine LTR in Elasticsearch; the OSC-plugin-vs-native split
 
 ## Articles
 
@@ -127,6 +147,9 @@ Unbiased training data → significantly better LTR models.
 - [[Learn-to-Rank with OpenSearch and Metarank]] — [[Roman Grebennikov]]; LambdaMART secondary re-ranking on OpenSearch
 - [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]]; LTR as multi-retriever fusion
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; Metarank repo review
+- [[We're Bringing Learning to Rank to Elasticsearch]] — [[OpenSource Connections]]; the 2017 RankLib-based ES plugin
+- [[Learning To Rank (LTR) - Elasticsearch Native]] — Elastic native LTR (8.12+); GBDT/XGBoost via eland
+- [[Search using LTR - Elastic Docs]] — native LTR as rescorer / retriever
 
 ## People
 

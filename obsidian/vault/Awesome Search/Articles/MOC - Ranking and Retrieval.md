@@ -60,6 +60,10 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - [[Learn-to-Rank with OpenSearch and Metarank]] — [[Roman Grebennikov]]; external LTR re-ranking on OpenSearch
 - [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]]; LTR as multi-retriever fusion
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; Metarank repo review
+- **In-engine LTR**: [[Elasticsearch Learning to Rank]] — external (Metarank) vs internal, and the two ES modules (OSC plugin vs native 8.12+)
+- [[We're Bringing Learning to Rank to Elasticsearch]] — [[OpenSource Connections]]; the 2017 RankLib-based plugin
+- [[Learning To Rank (LTR) - Elasticsearch Native]] — Elastic native LTR; GBDT/XGBoost via [[eland]]
+- [[Search using LTR - Elastic Docs]] — native LTR rescorer / retriever
 
 ## Personalization
 

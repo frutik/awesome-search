@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-13 — Elasticsearch In-Engine LTR (~6 notes)
+
+Filled the Elasticsearch-internal side of the LTR cluster, complementing the existing external/[[Metarank]] coverage.
+
+**Concepts** — [[Elasticsearch Learning to Rank]] — hub note covering two distinctions: external re-ranker (Metarank) vs. in-engine LTR, and the two ES modules — the [[OpenSource Connections]] plugin (RankLib-based, 2017) vs. Elastic **native** LTR (8.12+, GBDT/XGBoost via [[eland]]).
+
+**Articles** — [[We're Bringing Learning to Rank to Elasticsearch]] (by [[OpenSource Connections]] / [[Doug Turnbull]], 2017-02-14). Launch of the o19s `elasticsearch-learning-to-rank` plugin; integrates [[RankLib]]; custom `ltr` query + `ranklib` script; applied via `rescore`. [[Learning To Rank (LTR) - Elasticsearch Native]] (Elastic docs). Native LTR overview — judgment lists, three feature categories, `query_extractor` templated features, GBDT/LambdaMART inference with training outside ES. [[Search using LTR - Elastic Docs]] (Elastic docs). Applying a deployed model as a `learning_to_rank` rescorer (8.12+) or `rescorer` retriever (9.1+); mandatory `window_size`.
+
+**Tools** — [[eland]] — Elastic's Python client; uploads the trained XGBoost ranker into Elasticsearch for native LTR inference.
+
+**Updated** — [[Learning to Rank]], [[Metarank]], [[Elasticsearch]], [[RankLib]], [[OpenSource Connections]], [[MOC - Ranking and Retrieval]] cross-linked to the new cluster.
+
+---
+
 ## 2026-06-12 — PostgreSQL Search Extensions (~7 notes)
 
 **Concepts** — [[Search Results Explainability]] (ability to reason about and explain why documents rank as they do), [[Learned Sparse Retrieval]] (family of models learning term weights for sparse retrieval — SPLADE, ELSER, etc.).
@@ -149,6 +163,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-13 | ~6 | ~533 |
 | 2026-06-12 | ~7 | ~527 |
 | 2026-06-11 | ~8 | ~520 |
 | 2026-06-02 | ~7 | ~512 |

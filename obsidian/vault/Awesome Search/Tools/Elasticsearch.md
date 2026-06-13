@@ -71,6 +71,7 @@ Key capabilities:
 - [[Results Boosting]] — `function_score` patterns
 - [[Vector Filtering]] — kNN + predicate support
 - [[Reciprocal Rank Fusion]] — fusion strategy for hybrid search
+- [[Elasticsearch Learning to Rank]] — in-engine LTR rescoring (OSC plugin & native 8.12+)
 
 ## Articles
 - [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]
@@ -81,6 +82,10 @@ Key capabilities:
 
 - [[Elasticsearch vs. OpenSearch (2025) The Definitive Showdown]] — [[Jagadeesh Chandra]]; 2025 performance comparison (Elasticsearch-favorable; cites Elastic benchmarks)
 - [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced licensing and performance comparison
+
+- [[We're Bringing Learning to Rank to Elasticsearch]] — [[OpenSource Connections]] LTR plugin (RankLib-based)
+- [[Learning To Rank (LTR) - Elasticsearch Native]] — native LTR (8.12+)
+- [[Search using LTR - Elastic Docs]] — LTR rescorer / retriever usage
 
 ## People
 - [[Thomas Veasey]] — Principal Engineer; BBQ/OSQ quantization benchmarks

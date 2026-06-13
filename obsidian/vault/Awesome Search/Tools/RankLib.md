@@ -28,3 +28,4 @@ Java learning-to-rank library (originally part of the Lemur project) implementin
 ## Related
 
 - [[LambdaMART]] · [[RankNet]] · [[Learning to Rank]]
+- [[Elasticsearch Learning to Rank]] · [[We're Bringing Learning to Rank to Elasticsearch]] — the o19s ES LTR plugin integrates RankLib

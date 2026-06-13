@@ -10,7 +10,49 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 12 Jun 2026 10:10:33 GMT</pubDate>
+    <pubDate>Sat, 13 Jun 2026 07:21:39 GMT</pubDate>
+  </item><item>
+    <title>Elasticsearch Learning to Rank</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</guid>
+    <description><![CDATA[ Elasticsearch Learning to Rank In-engine LTR: running a learned ranking model inside Elasticsearch as a second-stage rescorer, rather than in an external service. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:20:31 GMT</pubDate>
+  </item><item>
+    <title>eland</title>
+    <link>https://frutik.github.io/awesome-search/Tools/eland</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/eland</guid>
+    <description><![CDATA[ eland Elastic’s Python client for loading and managing machine-learning models in Elasticsearch. ]]></description>
+    <pubDate>Sat, 13 Jun 2026 07:15:42 GMT</pubDate>
+  </item><item>
+    <title>Learning To Rank (LTR) - Elasticsearch Native</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Learning-To-Rank-(LTR)---Elasticsearch-Native</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Learning-To-Rank-(LTR)---Elasticsearch-Native</guid>
+    <description><![CDATA[ Learning To Rank (LTR) - Elasticsearch Native Source: www.elastic.co/docs/solutions/search/ranking/learning-to-rank-ltr Author: Elastic (official docs) Overview page for Elasticsearch’s native LTR, introduced in version 8.12.0 (subscription-gated). ]]></description>
+    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Search using LTR - Elastic Docs</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Search-using-LTR---Elastic-Docs</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Search-using-LTR---Elastic-Docs</guid>
+    <description><![CDATA[ Search using LTR - Elastic Docs Source: www.elastic.co/docs/solutions/search/ranking/learning-to-rank-search-usage Author: Elastic (official docs) How to apply a deployed native Elasticsearch LTR model at search time (8.12.0+, subscription-gated). ]]></description>
+    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>We&#039;re Bringing Learning to Rank to Elasticsearch</title>
+    <link>https://frutik.github.io/awesome-search/Articles/We're-Bringing-Learning-to-Rank-to-Elasticsearch</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/We're-Bringing-Learning-to-Rank-to-Elasticsearch</guid>
+    <description><![CDATA[ We’re Bringing Learning to Rank to Elasticsearch Source: opensourceconnections.com/blog/2017/02/14/elasticsearch-learning-to-rank/ Author: OpenSource Connections (announced by the team behind Relevant Search; Doug Turnbull) Published: 2017-02-14 The launch of the o19s/elasticsearch-learning-to-rank ... ]]></description>
+    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Vector Similarity Metrics</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics</guid>
+    <description><![CDATA[ Vector Similarity Metrics Definition Similarity (or distance) functions that measure how “close” two vectors are in embedding space. ]]></description>
+    <pubDate>Fri, 12 Jun 2026 10:24:49 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Fri, 12 Jun 2026 10:24:49 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
@@ -23,48 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Concepts/Sparse-Vector-Retrieval</guid>
     <description><![CDATA[ Sparse Vector Retrieval Definition Sparse vector retrieval represents documents and queries as high-dimensional vectors where most values are zero — only a small fraction of dimensions are non-zero. ]]></description>
     <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
-  </item><item>
-    <title>index</title>
-    <link>https://frutik.github.io/awesome-search/</link>
-    <guid>https://frutik.github.io/awesome-search/</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Fri, 12 Jun 2026 08:43:11 GMT</pubDate>
-  </item><item>
-    <title>Tiger Data</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Tiger-Data</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Tiger-Data</guid>
-    <description><![CDATA[ Tiger Data Database infrastructure company, formerly known as Timescale. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Learned Sparse Retrieval</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Learned-Sparse-Retrieval</guid>
-    <description><![CDATA[ Learned Sparse Retrieval Definition Learned Sparse Retrieval (LSR) is the family of neural retrieval methods that represent queries and documents as sparse vectors in vocabulary space — where weights are produced by a trained model rather than counted from term frequencies. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Search Results Explainability</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</guid>
-    <description><![CDATA[ Search Results Explainability Definition Search results explainability is the ability to provide human-understandable justifications for why a document was retrieved and ranked at a given position. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>VectorChord</title>
-    <link>https://frutik.github.io/awesome-search/Tools/VectorChord</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/VectorChord</guid>
-    <description><![CDATA[ VectorChord PostgreSQL extension for high-performance vector search by TensorChord. Uses RaBitQ quantization for compressed ANN indexes. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>pg_textsearch</title>
-    <link>https://frutik.github.io/awesome-search/Tools/pg_textsearch</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/pg_textsearch</guid>
-    <description><![CDATA[ pg_textsearch BM25 extension for PostgreSQL by Tiger Data (formerly Timescale). ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>pg_trgm</title>
-    <link>https://frutik.github.io/awesome-search/Tools/pg_trgm</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/pg_trgm</guid>
-    <description><![CDATA[ pg_trgm Built-in PostgreSQL extension providing trigram-based similarity matching via similarity(), word_similarity(), and GIN/GiST indexes. ]]></description>
-    <pubDate>Thu, 11 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

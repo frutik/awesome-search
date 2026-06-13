@@ -47,6 +47,7 @@ Open-source, real-time **secondary re-ranker** and personalization service writt
 - [[Learning to Rank]] · [[LambdaMART]] · [[Reranking]] · [[Retrieval Pipeline]] · [[Personalization]] · [[Feature Store]] · [[Implicit Judgments]] · [[Interleaving]]
 - Implementations it builds on: [[XGBoost]] · [[LightGBM]]
 - [[OpenSearch]] · [[Pinecone Vector DB]]
+- [[Elasticsearch Learning to Rank]] — the in-engine alternative; Metarank is the external, retrieval-agnostic re-ranker by contrast
 
 ## People
 
