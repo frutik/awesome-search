@@ -97,7 +97,7 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 | [[Daniel Tunkelang]] | QueryUnderstanding.com | Agentic Search, Bag-of-Documents, Pipeline Distillation |
 | [[Omar Khattab]] | Stanford | ColBERT creator |
 | [[Matei Zaharia]] | Stanford/Databricks | ColBERT co-creator |
-| [[Jo Kristian Bergum]] | Vespa | ColBERT 32x compression |
+| [[Jo Kristian Bergum]] | Hornet (co-founder); ex-Vespa | ColBERT 32x compression; agentic query workload |
 | [[Han Xiao]] | Jina AI | jina-colbert-v1-en (8192 tokens) |
 | [[Trey Grainger]] | — | Wormhole Vectors, "AI-Powered Search" |
 | [[Stéphane Clinchant]] | NAVER LABS | SPLADE co-inventor |
@@ -107,6 +107,7 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 | [[Asif Makhani]] | Infino AI | Co-authored Agentic Search with Tunkelang |
 | [[Dima Kan]] | Aiven | Wormhole Vectors implementation |
 | [[Lester Solbakken]] | hornet.dev | MAD framework, defensive retrieval |
+| [[Skip Everling]] | hornet.dev | Scaling dimensions of keyword search; agentic query workload |
 | [[Thomas Veasey]] | Elastic | BBQ/OSQ quantization benchmarks |
 | [[Ivan Pleshkov]] | Qdrant | TurboQuant + RaBitQ implementation in Qdrant 1.18 |
 | [[Piotr Mazurek]] | tensoreconomics.com | Embeddings economics, FLOPS/dollar analysis |
@@ -126,6 +127,10 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 - [[You Say Search I Say Recs - Spotify Agentic Query Understanding]] — LLM router; +115% similar artists, +91% new music releases
 - [[Incremental AI Adoption for E-commerce Search]] — 4-level progression: traditional → conversational AI
 - [[This Is What Agentic Retrieval Looks Like]] — [[Jo Kristian Bergum]]; GPT-5 BrowseComp-Plus analysis; median 24 searches/session; phrase quotes in 98%; agent queries at 99th percentile of human length
+- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]] ([[Hornet]]); serving-side cost of long agent queries; Block-Max WAND degrades past ~7 terms
+- [[Agentic Search Models with OpenSearch and Elasticsearch]] — [[Bonsai]]; [[SID-1]] purpose-built agentic search/rerank model dropped into OpenSearch
+
+**Frontier topic:** [[Current Frontier of Search]] — two converging fronts: search systems for agents + [[Purpose-Built Agentic Search Models]]. Underlying shift: [[Agentic Query Workload]].
 
 ### ColBERT / Late Interaction
 - [[Announcing the Vespa ColBERT embedder 1|Announcing the Vespa ColBERT Embedder]]

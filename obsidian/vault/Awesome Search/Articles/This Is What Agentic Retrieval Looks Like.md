@@ -14,6 +14,7 @@ concepts:
   - "[[BrowseComp-Plus]]"
 topics:
   - "[[Agentic Search]]"
+  - "[[Current Frontier of Search]]"
 companies:
   - "[[Hornet]]"
 tags:
@@ -92,10 +93,12 @@ Poor retrieval compounds across a session. A missed document on turn 3 means tur
 - [[Query Operators]] — phrase quotes, `site:`, `filetype:`, `OR`, negation; GPT-5 uses them fluently
 - [[Distribution Shift]] — neural retrievers trained on MS MARCO fail on long agent queries
 - [[Agentic Search]] — broader context; retrieval is the bottleneck
+- [[Agentic Query Workload]] — the canonical concept this article characterizes (query side)
 - [[BrowseComp-Plus]] — benchmark used; 830 multi-hop questions, 100K-page corpus
 
 ## Related Articles
 
+- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]]; the serving-side companion (this is the query side)
 - [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] — complementary agentic retrieval research
 - [[Agentic Search for Context Engineering]] — agentic search design patterns
 - [[Agentic Search as an Agile Engineering Process]] — engineering framing of agentic search

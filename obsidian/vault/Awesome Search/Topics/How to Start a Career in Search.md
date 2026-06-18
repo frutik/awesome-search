@@ -117,7 +117,7 @@ Search has a small, unusually open community. Following the right people gives y
 - [[Doug Turnbull]] — *Relevant Search* author, relevance methodology, prolific blogger
 - [[Trey Grainger]] — *AI-Powered Search* author, neural/semantic search
 - [[Charlie Hull]] — vendor-neutral strategy, Haystack organizer, community builder
-- [[Jo Kristian Bergum]] — deep, practical retrieval and ranking writing ([[Vespa]])
+- [[Jo Kristian Bergum]] — deep, practical retrieval and ranking writing (co-founder of [[Hornet]]; formerly [[Vespa]])
 - [[James Rubinstein]] — search evaluation and metrics
 - [[Giovanni Fernandez-Kincade]] · [[Atita Arora]] · [[Nikhil Dandekar]] · [[Eugene Yan]] — applied search & ML
 

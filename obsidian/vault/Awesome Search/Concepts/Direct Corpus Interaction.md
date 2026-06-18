@@ -70,6 +70,10 @@ DCI is a natural extension of [[Agentic Search]] — rather than calling a fixed
 - [[Agentic Search]] — the broader paradigm DCI extends
 - [[Retrieval Pipeline]] — DCI replaces the traditional pre-indexed pipeline
 - [[RAG]] — DCI provides an alternative retrieval mechanism for RAG
+- [[Purpose-Built Agentic Search Models]] — the competing frontier bet: train a retrieval model rather than remove the retriever
+- [[Agentic Query Workload]] — why the fixed similarity interface is a bottleneck for agents
+
+See the topic [[Current Frontier of Search]] for how DCI fits the broader agentic-retrieval landscape.
 
 ## Articles
 

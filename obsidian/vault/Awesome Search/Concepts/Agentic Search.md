@@ -84,3 +84,8 @@ Adapted from classic project management:
 
 - [[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]] — TIGER-Lab; DCI (grep/bash) outperforms all traditional retrievers on agentic tasks
 - [[Metadata - The 3rd Kind of Retrieval]] — [[Doug Turnbull]]; attribute-based retrieval as alternative to embeddings in agentic context
+- [[Agentic Search Models with OpenSearch and Elasticsearch]] — [[Bonsai]]; drop-in [[SID-1]] purpose-built agentic search/rerank model over OpenSearch
+- [[Agentic search models]] — [[Doug Turnbull]]; the case for [[Purpose-Built Agentic Search Models]]
+- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]]; serving-side cost of the [[Agentic Query Workload]]
+
+See also the topic [[Current Frontier of Search]] and concepts [[Purpose-Built Agentic Search Models]] and [[Agentic Query Workload]].

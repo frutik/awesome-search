@@ -105,3 +105,8 @@ Retrieval (engineering) and reranking (ML/data science) are owned by different t
 - [[RankGPT]] — listwise LLM reranker
 - [[LambdaMART]] / [[Metarank]] — feature-based external secondary re-ranker
 - [[Feature Store]] — serves the features an LTR re-ranker consumes
+
+## Topics
+
+- [[Reasoning Reranking]] — the frontier of LLM / generative / reasoning rerankers
+- [[Current Frontier of Search]]

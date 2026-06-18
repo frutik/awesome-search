@@ -26,17 +26,20 @@ Their work challenges the assumption that better retrieval always means better e
 
 - [[Jo Kristian Bergum]] — Co-founder; former Vespa AI Chief Scientist; agentic retrieval workload research
 - [[Lester Solbakken]] — Co-founder; author of the MAD framework and defensive retrieval principles
+- [[Skip Everling]] — scaling dimensions of keyword search; agentic query workload on the serving side
 
 ## Articles
 
 - [[Mutually Assured Distraction]] — why better retrieval and better reasoning can make agentic systems less reliable
 - [[This Is What Agentic Retrieval Looks Like]] — GPT-5 query behavior: 24 calls/session, 10-term median, phrase quotes in 98% of sessions
+- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]]; Block-Max WAND degrades on long agent queries; the serving-side case for a retrieval engine built for agents
 
 ## Concepts
 
-[[Agentic Search]] · [[Agentic Retrieval]] · [[Clean Context]] · [[UDCG]] · [[Retrieval Pipeline]] · [[LLM as Judge]] · [[Search Evaluation]] · [[BM25]] · [[Query Operators]]
+[[Agentic Search]] · [[Agentic Retrieval]] · [[Clean Context]] · [[UDCG]] · [[Retrieval Pipeline]] · [[LLM as Judge]] · [[Search Evaluation]] · [[BM25]] · [[Query Operators]] · [[Agentic Query Workload]] · [[Block-Max WAND]]
 
 ## Topics
 
 - [[Conversational and Agentic Search]]
+- [[Current Frontier of Search]]
 - [[Search Quality Assurance]]

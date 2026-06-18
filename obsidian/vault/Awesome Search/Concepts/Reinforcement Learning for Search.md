@@ -61,3 +61,8 @@ When retrieved content is inserted into the model's context, those tokens should
 
 - [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]]
 - [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]]
+
+## Topics
+
+- [[RL-Trained Search Agents]]
+- [[Current Frontier of Search]]

@@ -76,3 +76,8 @@ Evaluated on 7 QA datasets (NQ, TriviaQA, HotpotQA, 2WikiMultiHopQA, and others)
 
 - [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — technical paper breakdown
 - [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — accessible comparison overview
+
+## Topics
+
+- [[RL-Trained Search Agents]] — the topic this framework anchors
+- [[Current Frontier of Search]]

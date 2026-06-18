@@ -36,7 +36,7 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 
 ## People
 
-- [[Jo Kristian Bergum]] — Chief Scientist, Vespa AI; author of ColBERT embedder and LLM-as-judge work
+- [[Jo Kristian Bergum]] — former Chief Scientist, Vespa AI (now co-founder of [[Hornet]]); author of the ColBERT embedder and LLM-as-judge work
 - [[Marianne Haugvaldstad]] — Developer Intern; HNSW exploration and tooling
 - [[Brage Vik]] — Developer Intern; HNSW exploration and tooling
 

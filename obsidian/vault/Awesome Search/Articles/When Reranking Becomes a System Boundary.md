@@ -14,6 +14,7 @@ concepts:
   - "[[Search Architecture]]"
 topics:
   - "[[Search Quality Assurance]]"
+  - "[[Reasoning Reranking]]"
 ---
 
 # When Reranking Becomes a System Boundary

@@ -29,3 +29,7 @@ RankLLaMA is a LLaMA-based **pointwise** [[Reranking|reranker]] (from the RepLLa
 ## Related
 
 - [[Reranking]] · [[LLM as Judge]] · [[RankGPT]] · [[MonoT5]] · [[Learning to Rank]]
+
+## Topics
+
+- [[Reasoning Reranking]] · [[Current Frontier of Search]]

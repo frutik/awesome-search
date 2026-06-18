@@ -10,7 +10,31 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 18 Jun 2026 18:44:00 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 19:36:00 GMT</pubDate>
+  </item><item>
+    <title>Agentic Query Workload</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</guid>
+    <description><![CDATA[ Agentic Query Workload Definition The agentic query workload is the distinct shape of demand that autonomous agents place on retrieval systems — qualitatively different from the human search workload that current infrastructure was tuned for. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:15:13 GMT</pubDate>
+  </item><item>
+    <title>Purpose-Built Agentic Search Models</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Purpose-Built-Agentic-Search-Models</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Purpose-Built-Agentic-Search-Models</guid>
+    <description><![CDATA[ Purpose-Built Agentic Search Models Definition Purpose-built agentic search models are LLMs trained specifically on the search task — the rewrite / retrieve / rerank loop — rather than general-purpose models (GPT-5, Sonnet, Gemini) that happen to be able to call a search tool. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:14:59 GMT</pubDate>
+  </item><item>
+    <title>Bonsai</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
+    <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:14:29 GMT</pubDate>
+  </item><item>
+    <title>SID.ai</title>
+    <link>https://frutik.github.io/awesome-search/Companies/SID.ai</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/SID.ai</guid>
+    <description><![CDATA[ SID.ai SID.ai builds purpose-built agentic LLMs for search and reranking — smaller, specialized models trained specifically on the rewrite / retrieve / rerank loop rather than general-purpose tool use. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:14:25 GMT</pubDate>
   </item><item>
     <title>Trey Grainger</title>
     <link>https://frutik.github.io/awesome-search/People/Trey-Grainger</link>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
     <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
-  </item><item>
-    <title>LambdaLoss</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</guid>
-    <description><![CDATA[ LambdaLoss Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
-  </item><item>
-    <title>LambdaMART</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/LambdaMART</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaMART</guid>
-    <description><![CDATA[ LambdaMART Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
-  </item><item>
-    <title>Ranking Objectives</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Ranking-Objectives</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Ranking-Objectives</guid>
-    <description><![CDATA[ Ranking Objectives The objective (loss) function a Learning to Rank model optimizes. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
-  </item><item>
-    <title>Zero Results</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Zero-Results</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Zero-Results</guid>
-    <description><![CDATA[ Zero Results Definition A zero-results query returns no documents to the user. ]]></description>
     <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
   </item>
     </channel>

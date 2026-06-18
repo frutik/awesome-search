@@ -51,3 +51,4 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 - [[Can BM25 be a Probability]] — BB25 framework; calibrating BM25 as probability for principled hybrid fusion
 - [[Metadata - The 3rd Kind of Retrieval]] — attribute-based retrieval as a third paradigm beyond lexical + embeddings
 - [[Classic ML to Cope with Dumb LLM Judges]] — combining many dumb LLM judges via decision tree to improve precision
+- [[Agentic search models]] — the case for [[Purpose-Built Agentic Search Models]] for "the last 20%"; see topic [[Current Frontier of Search]]
