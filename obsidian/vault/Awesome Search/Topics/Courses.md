@@ -10,6 +10,8 @@ related_concepts:
   - "[[Hybrid Search]]"
   - "[[RAG]]"
   - "[[Agentic Search]]"
+  - "[[LLM as Judge]]"
+  - "[[Late Interaction]]"
 related_topics:
   - "[[How to Start a Career in Search]]"
   - "[[Books]]"
@@ -21,6 +23,7 @@ people:
   - "[[Trey Grainger]]"
 companies:
   - "[[OpenSource Connections]]"
+  - "[[Vespa]]"
 created: 2026-06-18
 ---
 
@@ -62,6 +65,22 @@ The advanced, applied counterpart — building production AI search and retrieva
 🔗 https://maven.com/search-school/ai-powered-search
 
 The natural next step after *Cheat at Search Essentials* or the foundational reading in [[Books]].
+
+---
+
+### The Frontier of AI Search
+**Instructors:** [[Trey Grainger]] and [[Doug Turnbull]] (authors of *AI-Powered Search*), with guests Kevin Butler (Sr. Search & AI Engineer, KMW Technology), Radu Gheorghe ([[Vespa]]), Jon Handler ([[OpenSearch]] at AWS), and Matt Overstreet (PM, IBM OpenSearch).
+
+A free, multi-instructor survey of the cutting edge of AI search — broader and more advanced than the two courses above, drawing on practitioners across the ecosystem.
+
+- **Format:** 10 live virtual (Zoom) sessions with Q&A, ~10 hours total
+- **Dates:** June 15–30, 2026
+- **Price:** Free
+- **Covers:** [[Agentic Search]] · adaptive relevance pipelines · control vectors · PageIndex · modern [[RAG]] · scaling vector search for production · [[LLM as Judge]] · [[Late Interaction]]
+
+🔗 https://maven.com/lls/f48679
+
+Good breadth-first exposure to where the field is heading; pairs well with the hands-on depth of the paid cohort.
 
 ---
 
