@@ -7,6 +7,38 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-18 — Search Problem Archetypes (~4 notes)
+
+Processed [[Atita Arora]]'s archetype article into a new **Topic** hub. Decision: this article earned a dedicated topic note — it is a self-slotting diagnostic taxonomy spanning ten domains, not a single concept.
+
+**Topics** — [[Search Problem Archetypes]] — the 10 recurring search-problem patterns (Uniqueness, Complexity Machine, Precision Mandate, Firehose, Extraction, Media Vault, Knowledge Graph, Geospatial, Q-commerce, Code Search); diagnosis-before-solution framing (Ackoff); "same symptom, opposite prescription" ([[Zero Results]]); agentic retrieval as a consumption pattern, not an archetype.
+
+**Articles** — [[Before You Fix Your Search, Know What's Actually Broken]] (by [[Atita Arora]], Unscripted AI Substack, 2026-06-16). Argues most search failures are misdiagnoses — teams solve the wrong problem (and skip defining relevance / [[Judgment Lists|judgment lists]]) before reaching for LTR or vectors.
+
+**People** — [[Atita Arora]] (search relevance consultant; Unscripted AI), [[Udi Manber]] (search leader at Amazon/Yahoo/Google/YouTube; "search is essentially a solved problem" misperception).
+
+**Updated** — [[Zero Results]] and [[Agentic Search]] cross-linked to [[Search Problem Archetypes]]; [[index|index.md]] Topics/People/Stats refreshed.
+
+---
+
+## 2026-06-16 — Ranking Objectives & LTR Cluster (~10 notes)
+
+Expanded the [[Ranking Objectives]] stub into a full concept note from Clippings sources: the three families (pointwise / pairwise / listwise), the objective-encodes-business-goals framing, the LambdaMART lambda-swap bridge from pairwise training to a listwise metric, and a per-library objective table ([[LightGBM]] / [[XGBoost]] / [[CatBoost]]).
+
+**Articles** — [[Pointwise vs Pairwise vs Listwise Learning to Rank]] (by [[Nikhil Dandekar]], Medium, 2016-09-29). Canonical taxonomy of LTR approaches by how many documents the loss considers; names RankNet/LambdaRank/LambdaMART (pairwise) and SoftRank/AdaRank/ListNet/ListMLE (listwise).
+
+[[LambdaMART Explained - The Workhorse of Learning-to-Rank]] (by [[Tullie Murrell]] at [[Shaped]], 2025-07-30). RankNet → LambdaRank → LambdaMART lineage, the boosting loop, advantages/limits, library objective strings. [[Learning to Rank - A Complete Guide to Ranking using Machine Learning]] (by [[Francesco Casalegno]], TDS, 2022-02-28). Full objective landscape — MAP/NDCG metrics, pointwise/pairwise/listwise, SoftRank, ListNet, and the [[LambdaLoss]] generalization. [[Building a Large-Scale Recommendation System - People You May Know]] ([[LinkedIn]] Engineering, 2024-02-06). Production multi-stage funnel (L0 recall → L1 light ranker → L2 rich ranker → fairness/diversity re-ranker).
+
+**Concepts** — [[LambdaLoss]] (stub) — generalized listwise framework unifying RankNet/LambdaRank/SoftRank/ListNet.
+
+**People** — [[Nikhil Dandekar]] (search / LTR / NLP practitioner), [[Tullie Murrell]] ([[Shaped]]), [[Francesco Casalegno]] (LTR writer).
+
+**Companies** — [[LinkedIn]], [[Shaped]].
+
+**Updated** — [[Ranking Objectives]] promoted from stub to full note (three families, business-goal framing, lambda-swap bridge, per-library objective table, LambdaLoss); [[LambdaMART]] cross-linked to the two new LTR articles.
+
+---
+
 ## 2026-06-13 — Elasticsearch In-Engine LTR (~6 notes)
 
 Filled the Elasticsearch-internal side of the LTR cluster, complementing the existing external/[[Metarank]] coverage.
@@ -163,6 +195,8 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-18 | ~4 | ~547 |
+| 2026-06-16 | ~10 | ~543 |
 | 2026-06-13 | ~6 | ~533 |
 | 2026-06-12 | ~7 | ~527 |
 | 2026-06-11 | ~8 | ~520 |

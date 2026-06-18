@@ -49,7 +49,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]] · [[Search Problem Archetypes]]
 
 ## Tools
 
@@ -69,14 +69,14 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Key People
 
-[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]]
+[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Atita Arora]] · [[Udi Manber]]
 
 ## Stats
 
-- **~142+** article notes
+- **~143+** article notes
 - **~82** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
-- **16** topic notes (incl. Dimensionality Reduction vs Quantization, Elasticsearch vs OpenSearch)
-- **~54** people notes (incl. Geoffrey Hinton, Laurens van der Maaten, Chris Fournie, Ritik Jain, Jithendrasaikilaru)
+- **17** topic notes (incl. Search Problem Archetypes, Dimensionality Reduction vs Quantization)
+- **~56** people notes (incl. Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
 - **9** case study notes (incl. Reddit - Vector Database Selection)
 - **29** company nodes (incl. Reddit)
 - **6** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB)

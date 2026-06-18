@@ -26,6 +26,8 @@ LambdaMART (Burges, 2010) is the dominant production [[Learning to Rank]] algori
 - [[Learn-to-Rank with OpenSearch and Metarank]] — Metarank implements LambdaMART as an external re-ranker
 - [[Hybrid Search and Learning-to-Rank with Metarank]] — LambdaMART for multi-retriever fusion
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — LambdaMART via YAML config
+- [[LambdaMART Explained - The Workhorse of Learning-to-Rank]] — Tullie Murrell / Shaped; lineage, boosting loop, advantages/limits
+- [[Learning to Rank - A Complete Guide to Ranking using Machine Learning]] — Casalegno; LambdaMART positioned between pairwise and listwise, up to [[LambdaLoss]]
 
 ## TODO
 

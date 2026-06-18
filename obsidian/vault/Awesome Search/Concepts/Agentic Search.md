@@ -60,6 +60,9 @@ Adapted from classic project management:
 - [[Search-R1]] — RL-trained multi-turn search-and-reasoning agent; concrete implementation of agentic search
 - [[Reinforcement Learning for Search]] — training paradigm that enables autonomous search strategy learning
 
+
+- [[Search Problem Archetypes]] — agentic retrieval is a *consumption pattern* sitting on top of an archetype, not its own archetype; what changes is the evaluation contract
+
 ## Articles
 
 - [[Agentic Search as an Agile Engineering Process]] — [[Daniel Tunkelang]] & [[Asif Makhani]]

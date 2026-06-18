@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 13 Jun 2026 09:57:56 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 11:05:20 GMT</pubDate>
   </item><item>
-    <title>Elasticsearch Learning to Rank</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Elasticsearch-Learning-to-Rank</guid>
-    <description><![CDATA[ Elasticsearch Learning to Rank In-engine LTR: running a learned ranking model inside Elasticsearch as a second-stage rescorer, rather than in an external service. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
+    <title>Udi Manber</title>
+    <link>https://frutik.github.io/awesome-search/People/Udi-Manber</link>
+    <guid>https://frutik.github.io/awesome-search/People/Udi-Manber</guid>
+    <description><![CDATA[ Udi Manber Search leader who has led search at Amazon, Yahoo, Google, and YouTube. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:03:22 GMT</pubDate>
   </item><item>
-    <title>Learning to Rank</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
-    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
+    <title>Atita Arora</title>
+    <link>https://frutik.github.io/awesome-search/People/Atita-Arora</link>
+    <guid>https://frutik.github.io/awesome-search/People/Atita-Arora</guid>
+    <description><![CDATA[ Atita Arora Search and relevance practitioner who consults across search and retrieval (and increasingly AI-boosted features) in e-commerce, health, media, finance, legal, enterprise, government, geospatial, and marketplace systems. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:03:20 GMT</pubDate>
   </item><item>
-    <title>eland</title>
-    <link>https://frutik.github.io/awesome-search/Tools/eland</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/eland</guid>
-    <description><![CDATA[ eland Elastic’s Python client for loading and managing machine-learning models in Elasticsearch. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 08:02:46 GMT</pubDate>
+    <title>Before You Fix Your Search, Know What&#039;s Actually Broken</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Before-You-Fix-Your-Search,-Know-What's-Actually-Broken</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Before-You-Fix-Your-Search,-Know-What's-Actually-Broken</guid>
+    <description><![CDATA[ Before You Fix Your Search, Know What’s Actually Broken Atita Arora argues that most search engagements fail not because the team picked the wrong engine or model, but because they are solving the wrong problem entirely. ]]></description>
+    <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+    <title>Search Problem Archetypes</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes</guid>
+    <description><![CDATA[ Search Problem Archetypes A diagnostic framework for naming the search problem you actually have before choosing a solution. ]]></description>
+    <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Metarank</title>
-    <link>https://frutik.github.io/awesome-search/Tools/Metarank</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/Metarank</guid>
-    <description><![CDATA[ Metarank Open-source, real-time secondary re-ranker and personalization service written in Scala. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+    <title>LambdaLoss</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</guid>
+    <description><![CDATA[ LambdaLoss Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Tue, 16 Jun 2026 20:30:48 GMT</pubDate>
   </item><item>
-    <title>RankLib</title>
-    <link>https://frutik.github.io/awesome-search/Tools/RankLib</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/RankLib</guid>
-    <description><![CDATA[ RankLib Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Sat, 13 Jun 2026 07:23:02 GMT</pubDate>
+    <title>Shaped</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Shaped</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Shaped</guid>
+    <description><![CDATA[ Shaped Recommendation and ranking platform (shaped.ai). Exposes ranking models like LambdaMART through a policy-config system (e.g. ]]></description>
+    <pubDate>Tue, 16 Jun 2026 20:30:43 GMT</pubDate>
   </item><item>
-    <title>Learning To Rank (LTR) - Elasticsearch Native</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Learning-To-Rank-(LTR)---Elasticsearch-Native</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Learning-To-Rank-(LTR)---Elasticsearch-Native</guid>
-    <description><![CDATA[ Learning To Rank (LTR) - Elasticsearch Native Source: www.elastic.co/docs/solutions/search/ranking/learning-to-rank-ltr Author: Elastic (official docs) Overview page for Elasticsearch’s native LTR, introduced in version 8.12.0 (subscription-gated). ]]></description>
-    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+    <title>LinkedIn</title>
+    <link>https://frutik.github.io/awesome-search/Companies/LinkedIn</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/LinkedIn</guid>
+    <description><![CDATA[ LinkedIn Professional social network (&gt;1 billion members). ]]></description>
+    <pubDate>Tue, 16 Jun 2026 20:30:39 GMT</pubDate>
   </item><item>
-    <title>Search using LTR - Elastic Docs</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Search-using-LTR---Elastic-Docs</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Search-using-LTR---Elastic-Docs</guid>
-    <description><![CDATA[ Search using LTR - Elastic Docs Source: www.elastic.co/docs/solutions/search/ranking/learning-to-rank-search-usage Author: Elastic (official docs) How to apply a deployed native Elasticsearch LTR model at search time (8.12.0+, subscription-gated). ]]></description>
-    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Francesco Casalegno</title>
+    <link>https://frutik.github.io/awesome-search/People/Francesco-Casalegno</link>
+    <guid>https://frutik.github.io/awesome-search/People/Francesco-Casalegno</guid>
+    <description><![CDATA[ Francesco Casalegno Data scientist / ML writer. ]]></description>
+    <pubDate>Tue, 16 Jun 2026 20:30:36 GMT</pubDate>
   </item><item>
-    <title>We&#039;re Bringing Learning to Rank to Elasticsearch</title>
-    <link>https://frutik.github.io/awesome-search/Articles/We're-Bringing-Learning-to-Rank-to-Elasticsearch</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/We're-Bringing-Learning-to-Rank-to-Elasticsearch</guid>
-    <description><![CDATA[ We’re Bringing Learning to Rank to Elasticsearch Source: opensourceconnections.com/blog/2017/02/14/elasticsearch-learning-to-rank/ Author: OpenSource Connections (announced by the team behind Relevant Search; Doug Turnbull) Published: 2017-02-14 The launch of the o19s/elasticsearch-learning-to-rank ... ]]></description>
-    <pubDate>Fri, 12 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Tullie Murrell</title>
+    <link>https://frutik.github.io/awesome-search/People/Tullie-Murrell</link>
+    <guid>https://frutik.github.io/awesome-search/People/Tullie-Murrell</guid>
+    <description><![CDATA[ Tullie Murrell Practitioner at Shaped writing on ranking and recommendation systems. Author of a detailed LambdaMART explainer. ]]></description>
+    <pubDate>Tue, 16 Jun 2026 20:30:32 GMT</pubDate>
   </item>
     </channel>
   </rss>

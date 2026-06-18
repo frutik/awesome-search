@@ -95,6 +95,9 @@ Track by:
 
 - [[Query Specificity]] — over-specific queries are the dominant cause of zero results in the tail
 
+
+- [[Search Problem Archetypes]] — the same zero-results metric means opposite things across archetypes (wasted real estate in e-commerce vs. correct behavior under a precision mandate)
+
 ## People
 
 - [[Daniel Tunkelang]] — zero results in e-commerce search context
