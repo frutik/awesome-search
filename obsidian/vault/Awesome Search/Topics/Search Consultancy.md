@@ -90,6 +90,7 @@ Key principle ([[Charlie Hull]]): *"Even the most sophisticated search system wi
 - Actively maintain a network of specialists to refer work to and receive overflow from
 - Contribute to the community (conferences, Slack groups, open source) — this is pipeline, not altruism
 - Haystack, Berlin Buzzwords, and London Search & AI Meetup are core gathering points
+- The OSC-run Relevance Slack (`#jobs` / `#jobs-eu`) surfaces both contract leads and subcontracting overflow — see [[How to Start a Career in Search]]
 
 ### What Makes a Good Search Consultant
 - Understand that search is a *product problem* as much as a *technical problem*
@@ -107,3 +108,4 @@ Key principle ([[Charlie Hull]]): *"Even the most sophisticated search system wi
 - [[The Search Juggler]] — Charlie Hull's solo practice; vendor-neutral model
 - [[Sease]] — Italian firm; neural IR and Solr specialist
 - [[Managing a Search Team]] — organizational context consultants work within
+- [[How to Start a Career in Search]] — the consultancy track vs. the employed track, and how to reach this point

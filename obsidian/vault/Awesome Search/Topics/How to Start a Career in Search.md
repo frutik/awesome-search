@@ -237,6 +237,19 @@ Know which job you are aiming for — the skills overlap but the emphasis differ
 
 **Easiest entry points** for someone breaking in: starting as a backend engineer on a team that owns search, a judgment/annotation role that grows into relevance engineering, or an ML role adjacent to ranking. The annotator and data-science paths are often underrated doors into the field.
 
+### Two Career Tracks: Employment vs. Consultancy
+
+The roles above describe an **employed** track — you join a team that owns search. There is a second track: **independent consulting / advisory**, where you sell search expertise to many clients. It's covered in depth in [[Search Consultancy]].
+
+| | Employment | Consultancy |
+|---|---|---|
+| **Where the work comes from** | `#jobs` / `#jobs-eu` in Relevance Slack, referrals, company boards ([up in step 8](#8-get-active-in-the-community)) | Inbound from your public profile, referrals, network overflow, RFPs |
+| **What you sell** | Your time to one employer | Diagnosis + roadmap + hands-on work to many clients |
+| **Prerequisite** | IR fundamentals + evaluation mindset | The above *plus* a track record and a visible reputation |
+| **Best first move** | Land an employed search role; build depth | Don't start here cold — most consultants build credibility employed first |
+
+Consulting is rarely a *starting* point — it's where experienced practitioners go after building a reputation. The path to it is the same community work in [step 8](#8-get-active-in-the-community): writing in public, speaking at [conferences](#6-attend-the-conferences), and contributing to open source are what generate inbound consulting leads. [[Search Consultancy]] details positioning, engagement models (day-rate → fixed-scope → retained), and using your network as pipeline.
+
 ---
 
 ## Related
