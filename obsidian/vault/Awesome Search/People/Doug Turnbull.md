@@ -36,6 +36,9 @@ Co-founder of OpenSource Connections (OSC); co-author of *Relevant Search* (O'Re
 
 - [[Shopify]] (current)
 
+## Teaching
+- [[Courses]] — teaches *Cheat at Search Essentials* (free intro) and co-teaches *AI-Powered Search* with [[Trey Grainger]]
+
 ## Key Concepts
 - [[BM25]]
 - [[Hybrid Search]]

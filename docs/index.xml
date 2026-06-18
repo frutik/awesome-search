@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:20 GMT</pubDate>
-  </item><item>
-    <title>Udi Manber</title>
-    <link>https://frutik.github.io/awesome-search/People/Udi-Manber</link>
-    <guid>https://frutik.github.io/awesome-search/People/Udi-Manber</guid>
-    <description><![CDATA[ Udi Manber Search leader who has led search at Amazon, Yahoo, Google, and YouTube. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:03:22 GMT</pubDate>
-  </item><item>
-    <title>Atita Arora</title>
-    <link>https://frutik.github.io/awesome-search/People/Atita-Arora</link>
-    <guid>https://frutik.github.io/awesome-search/People/Atita-Arora</guid>
-    <description><![CDATA[ Atita Arora Search and relevance practitioner who consults across search and retrieval (and increasingly AI-boosted features) in e-commerce, health, media, finance, legal, enterprise, government, geospatial, and marketplace systems. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:03:20 GMT</pubDate>
-  </item><item>
-    <title>Before You Fix Your Search, Know What&#039;s Actually Broken</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Before-You-Fix-Your-Search,-Know-What's-Actually-Broken</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Before-You-Fix-Your-Search,-Know-What's-Actually-Broken</guid>
-    <description><![CDATA[ Before You Fix Your Search, Know What’s Actually Broken Atita Arora argues that most search engagements fail not because the team picked the wrong engine or model, but because they are solving the wrong problem entirely. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Search Problem Archetypes</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes</guid>
-    <description><![CDATA[ Search Problem Archetypes A diagnostic framework for naming the search problem you actually have before choosing a solution. ]]></description>
-    <pubDate>Wed, 17 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>LambdaLoss</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</guid>
-    <description><![CDATA[ LambdaLoss Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Tue, 16 Jun 2026 20:30:48 GMT</pubDate>
-  </item><item>
-    <title>Shaped</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Shaped</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Shaped</guid>
-    <description><![CDATA[ Shaped Recommendation and ranking platform (shaped.ai). Exposes ranking models like LambdaMART through a policy-config system (e.g. ]]></description>
-    <pubDate>Tue, 16 Jun 2026 20:30:43 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 18:05:30 GMT</pubDate>
   </item><item>
     <title>LinkedIn</title>
     <link>https://frutik.github.io/awesome-search/Companies/LinkedIn</link>
     <guid>https://frutik.github.io/awesome-search/Companies/LinkedIn</guid>
     <description><![CDATA[ LinkedIn Professional social network (&gt;1 billion members). ]]></description>
-    <pubDate>Tue, 16 Jun 2026 20:30:39 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
   </item><item>
-    <title>Francesco Casalegno</title>
-    <link>https://frutik.github.io/awesome-search/People/Francesco-Casalegno</link>
-    <guid>https://frutik.github.io/awesome-search/People/Francesco-Casalegno</guid>
-    <description><![CDATA[ Francesco Casalegno Data scientist / ML writer. ]]></description>
-    <pubDate>Tue, 16 Jun 2026 20:30:36 GMT</pubDate>
+    <title>Shaped</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Shaped</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Shaped</guid>
+    <description><![CDATA[ Shaped Recommendation and ranking platform (shaped.ai). Exposes ranking models like LambdaMART through a policy-config system (e.g. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
   </item><item>
-    <title>Tullie Murrell</title>
-    <link>https://frutik.github.io/awesome-search/People/Tullie-Murrell</link>
-    <guid>https://frutik.github.io/awesome-search/People/Tullie-Murrell</guid>
-    <description><![CDATA[ Tullie Murrell Practitioner at Shaped writing on ranking and recommendation systems. Author of a detailed LambdaMART explainer. ]]></description>
-    <pubDate>Tue, 16 Jun 2026 20:30:32 GMT</pubDate>
+    <title>Agentic Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
+    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>LambdaLoss</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaLoss</guid>
+    <description><![CDATA[ LambdaLoss Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>LambdaMART</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/LambdaMART</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaMART</guid>
+    <description><![CDATA[ LambdaMART Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>Ranking Objectives</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Ranking-Objectives</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Ranking-Objectives</guid>
+    <description><![CDATA[ Ranking Objectives The objective (loss) function a Learning to Rank model optimizes. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>Zero Results</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Zero-Results</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Zero-Results</guid>
+    <description><![CDATA[ Zero Results Definition A zero-results query returns no documents to the user. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+  </item><item>
+    <title>Atita Arora</title>
+    <link>https://frutik.github.io/awesome-search/People/Atita-Arora</link>
+    <guid>https://frutik.github.io/awesome-search/People/Atita-Arora</guid>
+    <description><![CDATA[ Atita Arora Search and relevance practitioner who consults across search and retrieval (and increasingly AI-boosted features) in e-commerce, health, media, finance, legal, enterprise, government, geospatial, and marketplace systems. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
   </item>
     </channel>
   </rss>

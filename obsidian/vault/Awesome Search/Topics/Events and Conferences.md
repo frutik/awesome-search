@@ -144,3 +144,4 @@ Core ML conferences. Source of embedding architectures, [[Learning to Rank]] adv
 - [[Search Quality Assurance]] — TREC, Haystack evaluation talks
 - [[Conversational and Agentic Search]] — emerging topic at SIGIR and NeurIPS
 - [[Books]] — companion reading list
+- [[How to Start a Career in Search]] — where conferences fit in a learning path

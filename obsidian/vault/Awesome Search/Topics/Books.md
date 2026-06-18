@@ -61,3 +61,4 @@ Key books on search, information retrieval, NLP, and related fields. Organized b
 - [[Query Understanding in Practice]]
 - [[Search Quality Assurance]]
 - [[Fun and Philosophy]]
+- [[How to Start a Career in Search]] — where these books fit in a learning path

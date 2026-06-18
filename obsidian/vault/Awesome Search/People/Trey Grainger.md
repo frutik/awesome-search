@@ -24,6 +24,10 @@ Trey Grainger is the author of "AI-Powered Search" (Manning Publications) and a 
 - **Semantic Knowledge Graph** — statistical significant term analysis for vector space traversal
 - "AI-Powered Search" book — comprehensive guide to modern search systems
 
+## Teaching
+
+- [[Courses]] — co-teaches the *AI-Powered Search* cohort course with [[Doug Turnbull]]
+
 ## Concepts
 
 - [[Wormhole Vectors]]

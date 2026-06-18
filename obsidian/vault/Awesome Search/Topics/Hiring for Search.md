@@ -156,3 +156,4 @@ Hiring data scientists before you have an eval harness is premature — there's 
 - [[Managing a Search Team]] — how to structure the team once hired
 - [[Economics of Search]] — headcount is a major cost driver
 - [[Daniel Tunkelang]] — canonical writing on search team composition and leadership
+- [[How to Start a Career in Search]] — the candidate's-eye view: how to prepare for these roles
