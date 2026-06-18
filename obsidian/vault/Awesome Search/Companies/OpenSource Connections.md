@@ -30,6 +30,10 @@ Multiple foundational articles from OSC team:
 - [[What is a Relevant Search Result]] · [[Choosing Your Search Relevance Evaluation Metric]] · [[Implementing NDCG Scorer in Quepid]] · [[Bayesian BM25 is Cool]] · [[Succeeding with Relevance Evaluation using PPS Sampling]]
 - [[We're Bringing Learning to Rank to Elasticsearch]] — the o19s `elasticsearch-learning-to-rank` plugin (2017)
 
+## Community
+
+- **Relevance Slack** — OSC created and runs the field's central Slack community (Solr, Elasticsearch, [[Learning to Rank]], vector search, product management, and `#jobs` / `#jobs-eu` channels — the field's de-facto job board). Join: https://opensourceconnections.com/slack. See [[How to Start a Career in Search]] for how to use it.
+
 ## Related Concepts
 
 - [[Search Evaluation]] · [[Judgment Lists]] · [[NDCG]] · [[Learning to Rank]] · [[Elasticsearch Learning to Rank]]

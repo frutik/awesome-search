@@ -58,7 +58,8 @@ This note is a curated entry point into the rest of the vault. Each step links t
 5. **[Take a course](#5-take-a-course-even-a-free-one)** — even a free one builds structure
 6. **[Attend the conferences](#6-attend-the-conferences)** — practitioner events are where you meet the community
 7. **[Explore the tools](#7-explore-the-tools)** — get your hands dirty with real engines
-8. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
+8. **[Get active in the community](#8-get-active-in-the-community)** — don't just lurk; participate
+9. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
 
 > The single trait every search hire is screened for is an **evaluation mindset**: the instinct to measure whether a change actually improved things. See [[Hiring for Search]]. Build this habit from day one and you are ahead of most candidates.
 
@@ -187,6 +188,37 @@ Theory sticks only when you build. Stand up a real engine, index a dataset, writ
 - Even your existing database: [[Search using PostgreSQL]] with [[pgvector]] is a low-friction starting point
 
 **A good first project:** index a public dataset (products, Wikipedia, papers), build a small [[Judgment Lists|judgment list]], measure [[NDCG]] for a baseline [[BM25]] query, then try to beat it with synonyms, then with [[Hybrid Search]]. That single project demonstrates retrieval, ranking, *and* evaluation — exactly the [[Hiring for Search|take-home relevance task]] many teams use to hire.
+
+---
+
+## 8. Get Active in the Community
+
+Following people (step 3) is passive; *participating* is what actually builds a network, surfaces job leads, and accelerates learning. Search is small and welcoming enough that newcomers who ask good questions get noticed.
+
+### Relevance Slack — the central hub
+The **Relevance Slack** community, created and run by [[OpenSource Connections]], is the single best place to be active. Practitioners share tips across Solr, Elasticsearch, [[Learning to Rank]], vector search, and product management — and post jobs.
+
+🔗 Join: https://opensourceconnections.com/slack
+
+Notable channels:
+- `#jobs` — search-specific job opportunities (a real hiring channel, not a board)
+- `#jobs-eu` — Europe-focused search roles
+- `#blogs-papers-books` — curated resource sharing
+- `#es-learn-to-rank` — [[Elasticsearch Learning to Rank]] discussion
+- `#quepid` — questions about [[Quepid]]
+
+**Where to actually find a search job:** the `#jobs` and `#jobs-eu` channels in Relevance Slack are the field's de-facto job board — niche search/relevance roles get posted here that never reach LinkedIn. Lurk them, but also be active in the topic channels first: many openings are filled by referral from people who've seen you ask good questions.
+
+**Norms:** vendor pitches are discouraged; the tone is polite and supportive, oriented toward weighing the pros and cons of technical options. Background: ["Building the Search Community with Relevance Slack"](https://opensourceconnections.com/blog/2021/07/06/building-the-search-community-with-relevance-slack/).
+
+### Ways to actually participate
+- **Answer questions** in Slack on things you've just learned — teaching cements knowledge and builds reputation
+- **Write in public** — blog your first-project results ([from step 7](#7-explore-the-tools)); a single honest "I measured [[BM25]] vs [[Hybrid Search]] and here's what happened" post is more credible than a résumé line
+- **Show up at meetups** — London Search & AI Meetup and local equivalents; talks from [[Events and Conferences]] often have associated communities
+- **Contribute to open source** — issues and docs for [[Quepid]], [[Querqy]], [[Elasticsearch]], or a vector DB are low-barrier entry points
+- **Go to [conferences](#6-attend-the-conferences)** and talk to people — [[Charlie Hull]], [[Doug Turnbull]] and other organizers are notably approachable
+
+> Building in public + being genuinely helpful in Slack is, for many people, how the first search job actually arrives — through the `#jobs` channel or a referral, not a cold application.
 
 ---
 
