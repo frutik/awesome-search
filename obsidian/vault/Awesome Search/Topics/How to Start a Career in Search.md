@@ -55,11 +55,12 @@ This note is a curated entry point into the rest of the vault. Each step links t
 2. **[Move to the concepts](#2-move-to-the-concepts)** — learn the IR fundamentals that underpin everything
 3. **[Follow the people and companies](#3-follow-people-and-companies)** — the field is small and publishes in the open
 4. **[Read the books](#4-read-the-books)** — a handful of canonical texts, several free
-5. **[Take a course](#5-take-a-course-even-a-free-one)** — even a free one builds structure
-6. **[Attend the conferences](#6-attend-the-conferences)** — practitioner events are where you meet the community
-7. **[Explore the tools](#7-explore-the-tools)** — get your hands dirty with real engines
-8. **[Get active in the community](#8-get-active-in-the-community)** — don't just lurk; participate
-9. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
+5. **[Read the case studies](#5-read-the-case-studies)** — learn how the industry leaders actually built it
+6. **[Take a course](#6-take-a-course-even-a-free-one)** — even a free one builds structure
+7. **[Attend the conferences](#7-attend-the-conferences)** — practitioner events are where you meet the community
+8. **[Explore the tools](#8-explore-the-tools)** — get your hands dirty with real engines
+9. **[Get active in the community](#9-get-active-in-the-community)** — don't just lurk; participate
+10. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
 
 > The single trait every search hire is screened for is an **evaluation mindset**: the instinct to measure whether a change actually improved things. See [[Hiring for Search]]. Build this habit from day one and you are ahead of most candidates.
 
@@ -143,7 +144,28 @@ Read *Relevant Search* for intuition, *Introduction to IR* for rigor, *AI-Powere
 
 ---
 
-## 5. Take a Course (Even a Free One)
+## 5. Read the Case Studies
+
+Books and courses teach the principles; **case studies show how the industry leaders actually applied them** — with the constraints, dead-ends, and tradeoffs textbooks omit. The [[Awesome Search/Case Studies|Case Studies]] folder collects how real teams built and fixed search at scale. Read each like a field report and ask: *what was the problem, what did they try, how did they measure success, and what would I have done differently?*
+
+| Case study | Company | What to learn from it |
+|---|---|---|
+| [[Uber Eats - Scaling Search for Food Delivery]] | [[Uber]] | Geo-constrained retrieval and ranking at scale |
+| [[Airbnb - ML-Powered Experiences Ranking]] | [[Airbnb]] | ML ranking and the data flywheel |
+| [[Etsy - Search Quality and Query Understanding]] | [[Etsy]] | [[Query Understanding]] in a long-tail marketplace |
+| [[Skyscanner - Learning to Rank for Flights]] | [[Skyscanner]] | [[Learning to Rank]] in production |
+| [[Slack - Enterprise Message Search with LTR]] | [[Slack]] | Enterprise/personal search with LTR |
+| [[Netflix - Content Search Architecture]] | [[Netflix]] | [[Search Architecture]] for a content catalog |
+| [[Canva - Search Pipeline Modernization]] | [[Canva]] | Modernizing a legacy search pipeline |
+| [[Reddit - Vector Database Selection]] | [[Reddit]] | How to actually choose a vector database |
+| [[Kleinanzeigen - Vespa Migration for Homepage Feed]] | [[Kleinanzeigen]] | Migrating to [[Vespa]] for feed ranking |
+| [[Zalando - Self-DoS via Facet Aggregation]] | [[Zalando]] | A cautionary failure: facets that took search down |
+
+The [[Zalando - Self-DoS via Facet Aggregation|Zalando]] story is a reminder that the most instructive case studies are often the failures. Browse the full set via [[MOC - Case Studies]].
+
+---
+
+## 6. Take a Course (Even a Free One)
 
 A structured course gives you scaffolding the blog-and-book path lacks. Full annotated list: [[Courses]]. Strong options, many free:
 
@@ -155,11 +177,11 @@ A structured course gives you scaffolding the blog-and-book path lacks. Full ann
 - **Vector-DB academies** — free, hands-on intros from [[Weaviate]], [[Qdrant]], and [[Pinecone]]
 - **DeepLearning.AI short courses** — short, free modules on embeddings, RAG, and retrieval
 
-Pair any course with a small project (see [next section](#7-explore-the-tools)) — the course teaches concepts, the project builds the evaluation instinct interviewers test for.
+Pair any course with a small project (see [the tools step](#8-explore-the-tools)) — the course teaches concepts, the project builds the evaluation instinct interviewers test for.
 
 ---
 
-## 6. Attend the Conferences
+## 7. Attend the Conferences
 
 Conferences are where you meet the community and see the current state of the art. Full guide: [[Events and Conferences]].
 
@@ -175,7 +197,7 @@ You don't have to travel — many talks are posted free on YouTube, and there ar
 
 ---
 
-## 7. Explore the Tools
+## 8. Explore the Tools
 
 Theory sticks only when you build. Stand up a real engine, index a dataset, write some queries, and — crucially — measure your results. The [[Awesome Search/Tools|Tools]] folder covers the landscape; compare options in [[Search Platforms]].
 
@@ -191,7 +213,7 @@ Theory sticks only when you build. Stand up a real engine, index a dataset, writ
 
 ---
 
-## 8. Get Active in the Community
+## 9. Get Active in the Community
 
 Following people (step 3) is passive; *participating* is what actually builds a network, surfaces job leads, and accelerates learning. Search is small and welcoming enough that newcomers who ask good questions get noticed.
 
@@ -213,10 +235,10 @@ Notable channels:
 
 ### Ways to actually participate
 - **Answer questions** in Slack on things you've just learned — teaching cements knowledge and builds reputation
-- **Write in public** — blog your first-project results ([from step 7](#7-explore-the-tools)); a single honest "I measured [[BM25]] vs [[Hybrid Search]] and here's what happened" post is more credible than a résumé line
+- **Write in public** — blog your first-project results ([from step 8](#8-explore-the-tools)); a single honest "I measured [[BM25]] vs [[Hybrid Search]] and here's what happened" post is more credible than a résumé line
 - **Show up at meetups** — London Search & AI Meetup and local equivalents; talks from [[Events and Conferences]] often have associated communities
 - **Contribute to open source** — issues and docs for [[Quepid]], [[Querqy]], [[Elasticsearch]], or a vector DB are low-barrier entry points
-- **Go to [conferences](#6-attend-the-conferences)** and talk to people — [[Charlie Hull]], [[Doug Turnbull]] and other organizers are notably approachable
+- **Go to [conferences](#7-attend-the-conferences)** and talk to people — [[Charlie Hull]], [[Doug Turnbull]] and other organizers are notably approachable
 
 > Building in public + being genuinely helpful in Slack is, for many people, how the first search job actually arrives — through the `#jobs` channel or a referral, not a cold application.
 
@@ -243,12 +265,12 @@ The roles above describe an **employed** track — you join a team that owns sea
 
 | | Employment | Consultancy |
 |---|---|---|
-| **Where the work comes from** | `#jobs` / `#jobs-eu` in Relevance Slack, referrals, company boards ([up in step 8](#8-get-active-in-the-community)) | Inbound from your public profile, referrals, network overflow, RFPs |
+| **Where the work comes from** | `#jobs` / `#jobs-eu` in Relevance Slack, referrals, company boards ([up in step 9](#9-get-active-in-the-community)) | Inbound from your public profile, referrals, network overflow, RFPs |
 | **What you sell** | Your time to one employer | Diagnosis + roadmap + hands-on work to many clients |
 | **Prerequisite** | IR fundamentals + evaluation mindset | The above *plus* a track record and a visible reputation |
 | **Best first move** | Land an employed search role; build depth | Don't start here cold — most consultants build credibility employed first |
 
-Consulting is rarely a *starting* point — it's where experienced practitioners go after building a reputation. The path to it is the same community work in [step 8](#8-get-active-in-the-community): writing in public, speaking at [conferences](#6-attend-the-conferences), and contributing to open source are what generate inbound consulting leads. [[Search Consultancy]] details positioning, engagement models (day-rate → fixed-scope → retained), and using your network as pipeline.
+Consulting is rarely a *starting* point — it's where experienced practitioners go after building a reputation. The path to it is the same community work in [step 9](#9-get-active-in-the-community): writing in public, speaking at [conferences](#7-attend-the-conferences), and contributing to open source are what generate inbound consulting leads. [[Search Consultancy]] details positioning, engagement models (day-rate → fixed-scope → retained), and using your network as pipeline.
 
 ---
 
