@@ -51,4 +51,4 @@ This mirrors the classic [[Learning to Rank]] axis (see [[Pointwise vs Pairwise 
 ## Topics
 
 - [[Reasoning Reranking]]
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

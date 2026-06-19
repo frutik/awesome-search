@@ -77,4 +77,4 @@ Combined, Weaviate reports **50–90% index size reduction** on standard BEIR da
 - [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]
 - [[Mirror Mirror - All About Search Suggestions]] — mentions block-max WAND in the context of `search_as_you_type`
 - [[WAND and Block-Max WAND - Efficient Algorithms for Top-k Document Retrieval]] — [[Jithendrasaikilaru]]; introductory comparison of WAND and BMW with algorithm lineage from MaxScore
-- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]] ([[Hornet]]); BM-WAND can fall below exhaustive scoring past ~7 terms on the long, uniform-weight queries agents generate. See [[Agentic Query Workload]] and [[Current Frontier of Search]].
+- [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]] ([[Hornet]]); BM-WAND can fall below exhaustive scoring past ~7 terms on the long, uniform-weight queries agents generate. See [[Agentic Query Workload]] and [[Frontier of Search 2026]].

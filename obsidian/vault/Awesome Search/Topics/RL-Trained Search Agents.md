@@ -4,7 +4,7 @@ title: "RL-Trained Search Agents"
 aliases: ["Reinforcement Learning for Search Agents", "RL Search Agents", "RL for Retrieval"]
 tags: [topic, reinforcement-learning, agentic-search, llm, multi-turn-retrieval, frontier]
 related_concepts: [Reinforcement Learning for Search, Search-R1, Agentic Search, RAG, Purpose-Built Agentic Search Models]
-related_topics: [Current Frontier of Search, Conversational and Agentic Search]
+related_topics: [Frontier of Search 2026, Conversational and Agentic Search]
 articles:
   - "[[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]]"
   - "[[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]]"
@@ -51,7 +51,7 @@ Reported gains over baselines: +26% (Qwen2.5-7B), +21% (Qwen2.5-3B), +10% (LLaMA
 
 ## Where It Sits in the Frontier
 
-RL-trained agents and [[Purpose-Built Agentic Search Models]] are two bets on making the searcher smart: train the *search policy* with RL (Search-R1) vs. train a *task-specialized model* on the rewrite/retrieve/rerank outcome ([[SID-1]]). Both contrast with [[Direct Corpus Interaction]], which keeps a general agent but upgrades the *interface* to the corpus. All three are the live edge of [[Current Frontier of Search]].
+RL-trained agents and [[Purpose-Built Agentic Search Models]] are two bets on making the searcher smart: train the *search policy* with RL (Search-R1) vs. train a *task-specialized model* on the rewrite/retrieve/rerank outcome ([[SID-1]]). Both contrast with [[Direct Corpus Interaction]], which keeps a general agent but upgrades the *interface* to the corpus. All three are the live edge of [[Frontier of Search 2026]].
 
 ---
 
@@ -63,7 +63,7 @@ RL-trained agents and [[Purpose-Built Agentic Search Models]] are two bets on ma
 - [[Purpose-Built Agentic Search Models]] — the sibling "train the searcher" bet
 
 ## Related Topics
-- [[Current Frontier of Search]] — RL agents are one of its live fronts
+- [[Frontier of Search 2026]] — RL agents are one of its live fronts
 - [[Conversational and Agentic Search]] — multi-turn retrieval + reasoning
 
 ## Related Articles

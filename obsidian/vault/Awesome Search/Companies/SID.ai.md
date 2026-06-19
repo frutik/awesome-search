@@ -31,4 +31,4 @@ SID is cited as the first mover in the [[Purpose-Built Agentic Search Models]] c
 - [[Reranking]]
 
 ## Topics
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

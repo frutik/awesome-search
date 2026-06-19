@@ -14,7 +14,7 @@ concepts:
   - "[[BrowseComp-Plus]]"
 topics:
   - "[[Agentic Search]]"
-  - "[[Current Frontier of Search]]"
+  - "[[Frontier of Search 2026]]"
 companies:
   - "[[Hornet]]"
 tags:

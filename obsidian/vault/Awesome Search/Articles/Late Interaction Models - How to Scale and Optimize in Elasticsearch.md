@@ -18,7 +18,7 @@ tags:
 
 # Late Interaction Models: How to Scale & Optimize in Elasticsearch
 
-Part 2 of Elastic's ColPali series. Part 1 covered building visual search with ColPali; this article focuses on making [[ColPali]]'s [[Late Interaction]] vectors production-ready at scale in [[Elasticsearch]].
+Part 2 of Elastic's ColPali series. Part 1 ([[ColPali & Elasticsearch - How to Search Complex Documents]]) covered building visual search with ColPali; this article focuses on making [[ColPali]]'s [[Late Interaction]] vectors production-ready at scale in [[Elasticsearch]].
 
 Code: https://github.com/elastic/elasticsearch-labs/tree/main/supporting-blog-content/colpali
 
@@ -90,3 +90,8 @@ Uses Elasticsearch's **rescore retriever** (introduced in 8.18):
 ## Related Concepts
 
 [[Late Interaction]] · [[ColPali]] · [[Token Pooling]] · [[BBQ]] · [[HNSW]] · [[Bi-Encoder]] · [[Cross-Encoder]] · [[Reranking]] · [[Binary Quantization]]
+
+## Related Topics
+
+- [[Late Interaction in Elasticsearch]] — the topic this two-part series anchors
+- [[Frontier of Search 2025]]

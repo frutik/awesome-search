@@ -32,4 +32,4 @@ RankLLaMA is a LLaMA-based **pointwise** [[Reranking|reranker]] (from the RepLLa
 
 ## Topics
 
-- [[Reasoning Reranking]] · [[Current Frontier of Search]]
+- [[Reasoning Reranking]] · [[Frontier of Search 2026]]

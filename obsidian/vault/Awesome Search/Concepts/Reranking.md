@@ -109,4 +109,4 @@ Retrieval (engineering) and reranking (ML/data science) are owned by different t
 ## Topics
 
 - [[Reasoning Reranking]] — the frontier of LLM / generative / reasoning rerankers
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

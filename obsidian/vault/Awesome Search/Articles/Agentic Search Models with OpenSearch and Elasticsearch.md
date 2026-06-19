@@ -6,7 +6,7 @@ author: "Bonsai"
 published: 2026-06-05
 created: 2026-06-18
 concepts: [Purpose-Built Agentic Search Models, Agentic Search, Reranking, Query Understanding, RAG]
-topics: [Current Frontier of Search, Conversational and Agentic Search, Elasticsearch vs OpenSearch]
+topics: [Frontier of Search 2026, Conversational and Agentic Search, Elasticsearch vs OpenSearch]
 companies: [Bonsai, SID.ai]
 tags: [article, agentic-search, reranking, opensearch, llm]
 ---
@@ -79,5 +79,5 @@ GPT is general — it can call any tool and was trained on every task. SID is sp
 - [[SID.ai]]
 
 ## Topics
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Conversational and Agentic Search]]

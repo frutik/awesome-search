@@ -4,7 +4,7 @@ title: "Reasoning Reranking"
 aliases: ["LLM Reranking", "Generative Reranking", "LLM Rerankers", "Reasoning Rerankers"]
 tags: [topic, reranking, llm, ranking, neural-ir, frontier]
 related_concepts: [Reranking, Cross-Encoder, RankGPT, RankLLaMA, MonoT5, LLM as Judge, Late Interaction, Listwise Relevance Evaluation]
-related_topics: [Current Frontier of Search, Conversational and Agentic Search, Search Quality Assurance]
+related_topics: [Frontier of Search 2026, Conversational and Agentic Search, Search Quality Assurance]
 articles:
   - "[[When Reranking Becomes a System Boundary]]"
   - "[[Cross-Encoders ColBERT and LLM-Based Re-Rankers]]"
@@ -72,7 +72,7 @@ The more capable the LLM reranker, the easier it is to mask weak retrieval — m
 - [[Retrieval Pipeline]] — where reranking sits
 
 ## Related Topics
-- [[Current Frontier of Search]] — reranking is one front of the agentic-era shift
+- [[Frontier of Search 2026]] — reranking is one front of the agentic-era shift
 - [[Conversational and Agentic Search]] — agentic loops end with a rerank step
 - [[Search Quality Assurance]] — the evaluation split this topic surfaces
 

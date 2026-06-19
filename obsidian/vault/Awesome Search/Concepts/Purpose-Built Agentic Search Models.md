@@ -57,5 +57,5 @@ A specialized model converges in 2–3 turns where a general agent may take 7–
 
 ## Topics
 
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Conversational and Agentic Search]]

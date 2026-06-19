@@ -6,7 +6,7 @@ author: "[[Skip Everling]]"
 published: 2026-02-06
 created: 2026-06-18
 concepts: [Agentic Query Workload, Block-Max WAND, WAND, BM25, Sparse Vector Retrieval]
-topics: [Current Frontier of Search, Conversational and Agentic Search, Search Platforms]
+topics: [Frontier of Search 2026, Conversational and Agentic Search, Search Platforms]
 companies: [Hornet]
 people: [Skip Everling]
 tags: [article, agentic-search, bm25, block-max-wand, retrieval-efficiency]
@@ -77,5 +77,5 @@ The conclusion is not that dynamic pruning is broken, but that algorithms must *
 - [[Hornet]]
 
 ## Topics
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Conversational and Agentic Search]]

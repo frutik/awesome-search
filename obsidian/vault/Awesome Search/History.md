@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-19 — Frontier-of-Search Period Pages & Late Interaction in Elasticsearch (~4 notes)
+
+Made the "frontier" concept year-anchored and processed [[Elastic]]'s two-part ColPali series into a dedicated topic.
+
+**Topics** — [[Frontier of Search]] (new year-by-year index/TOC linking each period page), [[Frontier of Search 2025]] (new period page — late interaction goes multimodal & production-scale, embeddings as a commodity, vector quantization/ANN engineering, the keyword-efficiency renaissance, and the first RL/agentic seeds), [[Late Interaction in Elasticsearch]] (new — `rank_vectors` + `maxSimDotProduct` in ES 8.18, bit/average vectors, [[Token Pooling]], two-stage rescore).
+
+**Articles** — [[ColPali & Elasticsearch - How to Search Complex Documents]] (by [[Peter Straßer]] at [[Elastic]], 2025-03-16). Part 1 of the ColPali series — what [[ColPali]] is, the ViDoRe benchmark, the `rank_vectors` field, and `maxSimDotProduct` scoring. (Part 2, [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]], already existed.)
+
+**Renamed** — "Current Frontier of Search" → [[Frontier of Search 2026]] (future-proofing; all 25 wikilinks + frontmatter references updated). Dropped the now-ambiguous "Frontier of Search" alias since it is now a real index note.
+
+**Updated** — [[Late Interaction]], [[ColPali]], [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]], [[Peter Straßer]], [[Frontier of Search 2026]] cross-linked into the new cluster; [[index|index.md]] Topics + Stats refreshed.
+
+---
+
 ## 2026-06-18 (evening) — Agentic Search Frontier & Reasoning Reranking (~14 notes)
 
 Built out the "agents as the new user of search" cluster, spanning purpose-built retrieval models, the agentic query workload, and the shift of reranking toward LLMs.
@@ -21,7 +35,7 @@ Built out the "agents as the new user of search" cluster, spanning purpose-built
 
 **People** — [[Skip Everling]] ([[Hornet]]; retrieval infrastructure for agentic workloads).
 
-**Topics** — [[Current Frontier of Search]] (agents as first-class search users — converging product and research fronts), [[Reasoning Reranking]] (LLMs as rerankers: prompted, fine-tuned, or chain-of-thought), [[RL-Trained Search Agents]] (training the searcher policy with RL — complement to purpose-built models).
+**Topics** — [[Frontier of Search 2026]] (agents as first-class search users — converging product and research fronts), [[Reasoning Reranking]] (LLMs as rerankers: prompted, fine-tuned, or chain-of-thought), [[RL-Trained Search Agents]] (training the searcher policy with RL — complement to purpose-built models).
 
 **Updated** — [[This Is What Agentic Retrieval Looks Like]], [[When Reranking Becomes a System Boundary]], [[Agentic Search]], [[Reranking]], [[Block-Max WAND]], [[Direct Corpus Interaction]], [[Reinforcement Learning for Search]], [[Search-R1]], [[Doug Turnbull]], [[Vespa]], [[Conversational and Agentic Search]], [[MOC - Agentic Search and Embeddings]] cross-linked into the frontier cluster.
 
@@ -225,6 +239,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-19 | ~4 | ~567 |
 | 2026-06-18 (evening) | ~14 | ~563 |
 | 2026-06-18 (afternoon) | ~2 | ~549 |
 | 2026-06-18 (archetypes) | ~4 | ~547 |

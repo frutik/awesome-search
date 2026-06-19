@@ -66,4 +66,10 @@ Since late interaction stores many vectors per document, storage is a concern:
 
 - [[What is ColBERT and Late Interaction and Why They Matter in Search]]
 - [[Announcing the Vespa ColBERT Embedder]]
+- [[ColPali & Elasticsearch - How to Search Complex Documents]]
 - [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
+
+## Related Topics
+
+- [[Late Interaction in Elasticsearch]] — indexing, scoring, and scaling late interaction in Elasticsearch
+- [[Frontier of Search 2025]] — late interaction as a 2025 frontier theme

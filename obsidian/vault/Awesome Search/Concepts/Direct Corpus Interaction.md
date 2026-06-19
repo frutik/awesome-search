@@ -73,7 +73,7 @@ DCI is a natural extension of [[Agentic Search]] — rather than calling a fixed
 - [[Purpose-Built Agentic Search Models]] — the competing frontier bet: train a retrieval model rather than remove the retriever
 - [[Agentic Query Workload]] — why the fixed similarity interface is a bottleneck for agents
 
-See the topic [[Current Frontier of Search]] for how DCI fits the broader agentic-retrieval landscape.
+See the topic [[Frontier of Search 2026]] for how DCI fits the broader agentic-retrieval landscape.
 
 ## Articles
 

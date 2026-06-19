@@ -44,5 +44,5 @@ The response: query execution and scoring strategies that **adapt to query struc
 
 ## Topics
 
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Conversational and Agentic Search]]

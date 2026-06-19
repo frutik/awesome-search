@@ -88,4 +88,4 @@ Adapted from classic project management:
 - [[Agentic search models]] — [[Doug Turnbull]]; the case for [[Purpose-Built Agentic Search Models]]
 - [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]]; serving-side cost of the [[Agentic Query Workload]]
 
-See also the topic [[Current Frontier of Search]] and concepts [[Purpose-Built Agentic Search Models]] and [[Agentic Query Workload]].
+See also the topic [[Frontier of Search 2026]] and concepts [[Purpose-Built Agentic Search Models]] and [[Agentic Query Workload]].

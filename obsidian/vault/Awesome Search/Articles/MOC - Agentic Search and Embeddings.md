@@ -130,7 +130,7 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 - [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]] ([[Hornet]]); serving-side cost of long agent queries; Block-Max WAND degrades past ~7 terms
 - [[Agentic Search Models with OpenSearch and Elasticsearch]] — [[Bonsai]]; [[SID-1]] purpose-built agentic search/rerank model dropped into OpenSearch
 
-**Frontier topic:** [[Current Frontier of Search]] — two converging fronts: search systems for agents + [[Purpose-Built Agentic Search Models]]. Underlying shift: [[Agentic Query Workload]].
+**Frontier topic:** [[Frontier of Search 2026]] — two converging fronts: search systems for agents + [[Purpose-Built Agentic Search Models]]. Underlying shift: [[Agentic Query Workload]].
 
 ### ColBERT / Late Interaction
 - [[Announcing the Vespa ColBERT embedder 1|Announcing the Vespa ColBERT Embedder]]

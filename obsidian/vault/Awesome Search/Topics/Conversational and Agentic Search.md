@@ -2,7 +2,7 @@
 type: topic
 tags: [topic, conversational-search, agentic-search, llm, rag, multi-turn]
 related_concepts: [RAG, LLM, Query Understanding, Embeddings]
-related_topics: [Current Frontier of Search, Query Understanding in Practice, Personalization in Search, Autocomplete and Autosuggest, E-commerce Search]
+related_topics: [Frontier of Search 2026, Query Understanding in Practice, Personalization in Search, Autocomplete and Autosuggest, E-commerce Search]
 articles:
   - "[[Agentic Search for Context Engineering]]"
   - "[[Agentic Search as an Agile Engineering Process]]"
@@ -148,6 +148,6 @@ As search becomes conversational, it overlaps with recommendations:
 - [[Search-R1]] — RL-trained multi-turn search-and-reasoning agent; the current frontier of agentic retrieval
 - [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — technical paper breakdown; token-level loss masking; PPO vs GRPO
 - [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — accessible RAG vs Search-R1 comparison
-- [[Current Frontier of Search]] — companion topic: search systems built for agents + purpose-built agentic search/rerank models
+- [[Frontier of Search 2026]] — companion topic: search systems built for agents + purpose-built agentic search/rerank models
 - [[Agentic Query Workload]] — how agents query differently (long, structured, high-volume)
 - [[Purpose-Built Agentic Search Models]] — specialized models ([[SID-1]], Waldo) replacing the retrieval monolith

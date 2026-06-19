@@ -13,7 +13,8 @@ Engineer at [[Elastic]]. Co-authored articles on scaling late interaction models
 
 ## Articles
 
-- [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]] — with [[Benjamin Trent]]
+- [[ColPali & Elasticsearch - How to Search Complex Documents]] — Part 1 (visual document search with ColPali)
+- [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]] — Part 2, with [[Benjamin Trent]]
 
 ## Concepts
 

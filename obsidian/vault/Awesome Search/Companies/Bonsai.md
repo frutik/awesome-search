@@ -21,5 +21,5 @@ Bonsai (bonsai.io) is a managed [[OpenSearch]] / [[Elasticsearch]] hosting provi
 - [[Purpose-Built Agentic Search Models]]
 
 ## Topics
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Elasticsearch vs OpenSearch]]

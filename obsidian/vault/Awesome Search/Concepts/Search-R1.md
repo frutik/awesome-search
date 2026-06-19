@@ -80,4 +80,4 @@ Evaluated on 7 QA datasets (NQ, TriviaQA, HotpotQA, 2WikiMultiHopQA, and others)
 ## Topics
 
 - [[RL-Trained Search Agents]] — the topic this framework anchors
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

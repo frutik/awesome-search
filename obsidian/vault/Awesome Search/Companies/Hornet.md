@@ -41,5 +41,5 @@ Their work challenges the assumption that better retrieval always means better e
 ## Topics
 
 - [[Conversational and Agentic Search]]
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]
 - [[Search Quality Assurance]]

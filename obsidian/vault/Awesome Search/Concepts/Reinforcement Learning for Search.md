@@ -65,4 +65,4 @@ When retrieved content is inserted into the model's context, those tokens should
 ## Topics
 
 - [[RL-Trained Search Agents]]
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

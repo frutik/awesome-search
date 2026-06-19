@@ -31,4 +31,4 @@ MonoT5 is a T5-based **pointwise** neural [[Reranking|reranker]]: it frames rele
 
 ## Topics
 
-- [[Reasoning Reranking]] · [[Current Frontier of Search]]
+- [[Reasoning Reranking]] · [[Frontier of Search 2026]]

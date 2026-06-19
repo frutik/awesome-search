@@ -74,4 +74,10 @@ This makes ColPali viable for large-scale production workloads in Elasticsearch 
 
 ## Articles
 
+- [[ColPali & Elasticsearch - How to Search Complex Documents]]
 - [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
+
+## Related Topics
+
+- [[Late Interaction in Elasticsearch]] — ColPali indexing/scaling in Elasticsearch
+- [[Frontier of Search 2025]] — multimodal late interaction as a 2025 frontier theme

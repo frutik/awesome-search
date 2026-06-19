@@ -34,4 +34,4 @@ Specialization plus focused training on a single task (search rewrite/retrieve/r
 - [[Reranking]]
 
 ## Topics
-- [[Current Frontier of Search]]
+- [[Frontier of Search 2026]]

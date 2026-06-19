@@ -122,6 +122,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/ColBERT-Zero---To-Pre-train-Or-Not-To-Pre-train-ColBERT-Models</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/ColPali--and--Elasticsearch---How-to-Search-Complex-Documents</loc>
+    <lastmod>2026-06-18T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Common-Pitfalls-of-Onsite-Search-Experimentation-Part-2</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -1392,7 +1395,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-06-18T11:05:50.000Z</lastmod>
+    <lastmod>2026-06-19T07:26:44.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Achinoam-Soroker</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
@@ -1470,7 +1473,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-06-19T07:26:12.387Z</lastmod>
+    <lastmod>2026-06-19T07:48:18.744Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Erik-Hatcher</loc>
     <lastmod>2026-05-18T22:00:00.000Z</lastmod>
@@ -1778,9 +1781,6 @@
     <loc>https://frutik.github.io/awesome-search/Topics/Courses</loc>
     <lastmod>2026-06-17T22:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://frutik.github.io/awesome-search/Topics/Current-Frontier-of-Search</loc>
-    <lastmod>2026-06-17T22:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Dimensionality-Reduction-vs-Quantization</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
@@ -1799,6 +1799,15 @@
     <loc>https://frutik.github.io/awesome-search/Topics/Events-and-Conferences</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2025</loc>
+    <lastmod>2025-12-30T23:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026</loc>
+    <lastmod>2026-06-17T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Frontier-of-Search</loc>
+    <lastmod>2026-06-18T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Fun-and-Philosophy</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
@@ -1807,6 +1816,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/How-to-Start-a-Career-in-Search</loc>
     <lastmod>2026-06-17T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Late-Interaction-in-Elasticsearch</loc>
+    <lastmod>2026-06-18T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Managing-a-Search-Team</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>

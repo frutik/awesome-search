@@ -1,10 +1,10 @@
 ---
 type: topic
-title: "Current Frontier of Search"
-aliases: ["Frontier of Search", "Agentic Search Frontier", "The New User of Search"]
+title: "Frontier of Search 2026"
+aliases: ["Agentic Search Frontier", "The New User of Search"]
 tags: [topic, agentic-search, frontier, llm, retrieval, reranking]
 related_concepts: [Agentic Search, Direct Corpus Interaction, Purpose-Built Agentic Search Models, Agentic Query Workload, Reranking, Block-Max WAND]
-related_topics: [Conversational and Agentic Search, Reasoning Reranking, RL-Trained Search Agents, Elasticsearch vs OpenSearch, Search Platforms]
+related_topics: [Frontier of Search, Frontier of Search 2025, Conversational and Agentic Search, Reasoning Reranking, RL-Trained Search Agents, Elasticsearch vs OpenSearch, Search Platforms]
 articles:
   - "[[Agentic Search Models with OpenSearch and Elasticsearch]]"
   - "[[The Scaling Dimensions of Keyword Search]]"
@@ -16,7 +16,7 @@ people: [Jo Kristian Bergum, Skip Everling, Doug Turnbull]
 created: 2026-06-18
 ---
 
-# Current Frontier of Search
+# Frontier of Search 2026
 
 The frontier of search has shifted from *making humans better at searching* to *serving agents that search on their own*. Agents are now a first-class — and increasingly dominant — user of retrieval, and they search nothing like people do. This topic tracks two converging research-and-product fronts:
 
@@ -105,6 +105,8 @@ Two more live edges feed directly into this shift and have their own topic pages
 - [[Reranking]] — the terminal step agentic models specialize in
 
 ## Related Topics
+- [[Frontier of Search]] — year-by-year index of the search frontier
+- [[Frontier of Search 2025]] — the prior period (late interaction, embeddings economics, quantization)
 - [[Conversational and Agentic Search]] — the adoption spectrum and conversational layer
 - [[Elasticsearch vs OpenSearch]] — the backends agentic layers wrap
 - [[Search Platforms]] — the engines being adapted
