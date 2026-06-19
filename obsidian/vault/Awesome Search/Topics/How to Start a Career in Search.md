@@ -19,6 +19,7 @@ related_topics:
   - "[[Books]]"
   - "[[Events and Conferences]]"
   - "[[Courses]]"
+  - "[[Frontier of Search]]"
   - "[[Search Platforms]]"
   - "[[Relevance Program Setup]]"
   - "[[Economics of Search]]"
@@ -60,7 +61,8 @@ This note is a curated entry point into the rest of the vault. Each step links t
 7. **[Attend the conferences](#7-attend-the-conferences)** — practitioner events are where you meet the community
 8. **[Explore the tools](#8-explore-the-tools)** — get your hands dirty with real engines
 9. **[Get active in the community](#9-get-active-in-the-community)** — don't just lurk; participate
-10. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
+10. **[Monitor where the frontier is](#10-monitor-where-the-frontier-is)** — track the vault's year-by-year frontier index as the field moves
+11. **[Understand the roles](#roles-in-search)** — know which job you're actually aiming for
 
 > The single trait every search hire is screened for is an **evaluation mindset**: the instinct to measure whether a change actually improved things. See [[Hiring for Search]]. Build this habit from day one and you are ahead of most candidates.
 
@@ -241,6 +243,14 @@ Notable channels:
 - **Go to [conferences](#7-attend-the-conferences)** and talk to people — [[Charlie Hull]], [[Doug Turnbull]] and other organizers are notably approachable
 
 > Building in public + being genuinely helpful in Slack is, for many people, how the first search job actually arrives — through the `#jobs` channel or a referral, not a cold application.
+
+---
+
+## 10. Monitor Where the Frontier Is
+
+Steps 1–9 get you to today's baseline — but the baseline keeps shifting, and what's table-stakes one year is assumed knowledge the next. Staying current has to be a habit, not a one-off. This vault keeps the map: **[[Frontier of Search]]**, a year-by-year index of the leading edge, anchored in time so it reads as a dated snapshot rather than a vague buzzword. Start there and follow it into the period pages — **[[Frontier of Search 2025]]**, **[[Frontier of Search 2026]]**, and whatever year is current.
+
+Skim each year's page and diff it against the last. The skill you're training is the one interviewers and clients pay for: telling a durable shift from hype that won't outlast a news cycle.
 
 ---
 

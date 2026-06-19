@@ -20,4 +20,8 @@ A year-by-year index of what counts as the leading edge of search and retrieval.
 
 The frontier moves in two directions. It moves **up the stack**: **2025** made the neural retrieval substrate cheap, multimodal, and scalable; **2026** put an agent on top of it as the primary consumer. But it also moves **outward and downward** — each year's research edge *descends* into mainstream engines as a default feature, so the population that can use it grows by an order of magnitude. The headline (agents) and the quiet majority story (commoditization) are both the frontier.
 
+## Related
+
+- [[How to Start a Career in Search]] — uses this index as the "monitor where the frontier is" step: read the period pages like a trend report and diff year over year.
+
 > Add `Frontier of Search 2027` here when the next period page is created.
