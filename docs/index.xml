@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:18 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:26:44 GMT</pubDate>
-  </item><item>
-    <title>ColPali &amp; Elasticsearch: How to Search Complex Documents</title>
-    <link>https://frutik.github.io/awesome-search/Articles/ColPali--and--Elasticsearch---How-to-Search-Complex-Documents</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/ColPali--and--Elasticsearch---How-to-Search-Complex-Documents</guid>
-    <description><![CDATA[ ColPali &amp; Elasticsearch: How to Search Complex Documents Part 1 of Elastic’s ColPali series. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Frontier of Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Frontier-of-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Frontier-of-Search</guid>
-    <description><![CDATA[ Frontier of Search A year-by-year index of what counts as the leading edge of search and retrieval. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Late Interaction in Elasticsearch</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Late-Interaction-in-Elasticsearch</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Late-Interaction-in-Elasticsearch</guid>
-    <description><![CDATA[ Late Interaction in Elasticsearch How Late Interaction models — ColBERT for text, ColPali for document images — are indexed, scored, and scaled inside Elasticsearch. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 22:00:00 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:50:39 GMT</pubDate>
   </item><item>
     <title>Bonsai</title>
     <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
     <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
   </item><item>
     <title>Hornet</title>
     <link>https://frutik.github.io/awesome-search/Companies/Hornet</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Hornet</guid>
     <description><![CDATA[ Hornet What They Build Hornet (hornet.dev) is a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
   </item><item>
     <title>SID.ai</title>
     <link>https://frutik.github.io/awesome-search/Companies/SID.ai</link>
     <guid>https://frutik.github.io/awesome-search/Companies/SID.ai</guid>
     <description><![CDATA[ SID.ai SID.ai builds purpose-built agentic LLMs for search and reranking — smaller, specialized models trained specifically on the rewrite / retrieve / rerank loop rather than general-purpose tool use. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
-  </item><item>
-    <title>Vespa</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
-    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
   </item><item>
     <title>Agentic Query Workload</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</guid>
     <description><![CDATA[ Agentic Query Workload Definition The agentic query workload is the distinct shape of demand that autonomous agents place on retrieval systems — qualitatively different from the human search workload that current infrastructure was tuned for. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+  </item><item>
+    <title>Agentic Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
+    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+  </item><item>
+    <title>Block-Max WAND</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
+    <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+  </item><item>
+    <title>ColPali</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ColPali</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ColPali</guid>
+    <description><![CDATA[ ColPali Definition ColPali is a visual document retrieval model that applies Late Interaction (ColBERT-style MaxSim scoring) to document page images. ]]></description>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+  </item><item>
+    <title>Direct Corpus Interaction</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</guid>
+    <description><![CDATA[ Direct Corpus Interaction (DCI) Definition Direct Corpus Interaction (DCI) is a retrieval paradigm where an agent searches a raw text corpus directly using general-purpose terminal tools (grep, find, bash, shell pipelines, lightweight scripts) — without any embedding model, vector index, or retrieva... ]]></description>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+  </item><item>
+    <title>Late Interaction</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
+    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
+    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
   </item>
     </channel>
   </rss>
