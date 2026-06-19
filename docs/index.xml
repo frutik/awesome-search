@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:36:00 GMT</pubDate>
-  </item><item>
-    <title>Agentic Query Workload</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</guid>
-    <description><![CDATA[ Agentic Query Workload Definition The agentic query workload is the distinct shape of demand that autonomous agents place on retrieval systems — qualitatively different from the human search workload that current infrastructure was tuned for. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:15:13 GMT</pubDate>
-  </item><item>
-    <title>Purpose-Built Agentic Search Models</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Purpose-Built-Agentic-Search-Models</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Purpose-Built-Agentic-Search-Models</guid>
-    <description><![CDATA[ Purpose-Built Agentic Search Models Definition Purpose-built agentic search models are LLMs trained specifically on the search task — the rewrite / retrieve / rerank loop — rather than general-purpose models (GPT-5, Sonnet, Gemini) that happen to be able to call a search tool. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:14:59 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 07:26:12 GMT</pubDate>
   </item><item>
     <title>Bonsai</title>
     <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
     <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:14:29 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+  </item><item>
+    <title>Hornet</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Hornet</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Hornet</guid>
+    <description><![CDATA[ Hornet What They Build Hornet (hornet.dev) is a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
   </item><item>
     <title>SID.ai</title>
     <link>https://frutik.github.io/awesome-search/Companies/SID.ai</link>
     <guid>https://frutik.github.io/awesome-search/Companies/SID.ai</guid>
     <description><![CDATA[ SID.ai SID.ai builds purpose-built agentic LLMs for search and reranking — smaller, specialized models trained specifically on the rewrite / retrieve / rerank loop rather than general-purpose tool use. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 19:14:25 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
   </item><item>
-    <title>Trey Grainger</title>
-    <link>https://frutik.github.io/awesome-search/People/Trey-Grainger</link>
-    <guid>https://frutik.github.io/awesome-search/People/Trey-Grainger</guid>
-    <description><![CDATA[ Trey Grainger Background Trey Grainger is the author of “AI-Powered Search” (Manning Publications) and a leading practitioner in search and knowledge graph integration. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 18:05:58 GMT</pubDate>
+    <title>Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
+    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
   </item><item>
-    <title>index</title>
-    <link>https://frutik.github.io/awesome-search/</link>
-    <guid>https://frutik.github.io/awesome-search/</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 18:05:58 GMT</pubDate>
-  </item><item>
-    <title>LinkedIn</title>
-    <link>https://frutik.github.io/awesome-search/Companies/LinkedIn</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/LinkedIn</guid>
-    <description><![CDATA[ LinkedIn Professional social network (&gt;1 billion members). ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
-  </item><item>
-    <title>Shaped</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Shaped</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Shaped</guid>
-    <description><![CDATA[ Shaped Recommendation and ranking platform (shaped.ai). Exposes ranking models like LambdaMART through a policy-config system (e.g. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+    <title>Agentic Query Workload</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</guid>
+    <description><![CDATA[ Agentic Query Workload Definition The agentic query workload is the distinct shape of demand that autonomous agents place on retrieval systems — qualitatively different from the human search workload that current infrastructure was tuned for. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
   </item><item>
     <title>Agentic Search</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
     <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
-    <pubDate>Thu, 18 Jun 2026 11:05:50 GMT</pubDate>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+  </item><item>
+    <title>Block-Max WAND</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
+    <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+  </item><item>
+    <title>Direct Corpus Interaction</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</guid>
+    <description><![CDATA[ Direct Corpus Interaction (DCI) Definition Direct Corpus Interaction (DCI) is a retrieval paradigm where an agent searches a raw text corpus directly using general-purpose terminal tools (grep, find, bash, shell pipelines, lightweight scripts) — without any embedding model, vector index, or retrieva... ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
+  </item><item>
+    <title>MonoT5</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/MonoT5</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/MonoT5</guid>
+    <description><![CDATA[ MonoT5 Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
+    <pubDate>Thu, 18 Jun 2026 19:36:31 GMT</pubDate>
   </item>
     </channel>
   </rss>

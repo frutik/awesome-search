@@ -7,6 +7,36 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-18 (evening) — Agentic Search Frontier & Reasoning Reranking (~14 notes)
+
+Built out the "agents as the new user of search" cluster, spanning purpose-built retrieval models, the agentic query workload, and the shift of reranking toward LLMs.
+
+**Articles** — [[Agentic Search Models with OpenSearch and Elasticsearch]] (by [[Bonsai]], 2026-06-05). Hands-on integration of the [[SID-1]] model into a managed OpenSearch cluster as a drop-in relevance layer; tool-based rewrite/retrieve/rerank loop. [[The Scaling Dimensions of Keyword Search]] (by [[Skip Everling]] at [[Hornet]], 2026-02-06). Benchmark arguing document count is only one scaling dimension — query length and structure matter too, and [[Block-Max WAND]] pruning can fall *below* exhaustive scoring on the long queries agents emit.
+
+**Concepts** — [[Purpose-Built Agentic Search Models]] (LLMs trained specifically on the rewrite/retrieve/rerank loop — smaller/faster/cheaper than frontier models on domain retrieval), [[Agentic Query Workload]] ("agents are the new user of search" — long, structured, high-volume, out-of-distribution queries that strain serving infrastructure), [[RankGPT]] (listwise LLM reranker, sliding-window permutation, no fine-tuning), [[RankLLaMA]] (stub — LLaMA-based pointwise reranker), [[MonoT5]] (stub — T5 pointwise seq2seq reranker).
+
+**Companies** — [[Bonsai]] (managed OpenSearch/Elasticsearch hosting), [[SID.ai]] (purpose-built agentic search/reranking models).
+
+**Tools** — [[SID-1]] ([[SID.ai]]'s first agentic retrieval model; OpenAI-compatible API; ~1.9× over embedding-only search, ~24× faster than frontier agentic retrieval).
+
+**People** — [[Skip Everling]] ([[Hornet]]; retrieval infrastructure for agentic workloads).
+
+**Topics** — [[Current Frontier of Search]] (agents as first-class search users — converging product and research fronts), [[Reasoning Reranking]] (LLMs as rerankers: prompted, fine-tuned, or chain-of-thought), [[RL-Trained Search Agents]] (training the searcher policy with RL — complement to purpose-built models).
+
+**Updated** — [[This Is What Agentic Retrieval Looks Like]], [[When Reranking Becomes a System Boundary]], [[Agentic Search]], [[Reranking]], [[Block-Max WAND]], [[Direct Corpus Interaction]], [[Reinforcement Learning for Search]], [[Search-R1]], [[Doug Turnbull]], [[Vespa]], [[Conversational and Agentic Search]], [[MOC - Agentic Search and Embeddings]] cross-linked into the frontier cluster.
+
+---
+
+## 2026-06-18 (afternoon) — Career & Learning Paths (~2 notes)
+
+Added entry-point topics for people getting into search and curated learning resources.
+
+**Topics** — [[How to Start a Career in Search]] (learning path + the people, books, courses, and communities to follow), [[Courses]] (IR/search training and course resources).
+
+**Updated** — [[Books]], [[Events and Conferences]], [[Hiring for Search]], [[Search Consultancy]], [[Trey Grainger]], [[OpenSource Connections]] cross-linked into the career/learning cluster.
+
+---
+
 ## 2026-06-18 — Search Problem Archetypes (~4 notes)
 
 Processed [[Atita Arora]]'s archetype article into a new **Topic** hub. Decision: this article earned a dedicated topic note — it is a self-slotting diagnostic taxonomy spanning ten domains, not a single concept.
@@ -195,7 +225,9 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
-| 2026-06-18 | ~4 | ~547 |
+| 2026-06-18 (evening) | ~14 | ~563 |
+| 2026-06-18 (afternoon) | ~2 | ~549 |
+| 2026-06-18 (archetypes) | ~4 | ~547 |
 | 2026-06-16 | ~10 | ~543 |
 | 2026-06-13 | ~6 | ~533 |
 | 2026-06-12 | ~7 | ~527 |
