@@ -2,28 +2,32 @@
 type: topic
 title: "Frontier of Search 2026"
 aliases: ["Agentic Search Frontier", "The New User of Search"]
-tags: [topic, agentic-search, frontier, llm, retrieval, reranking]
-related_concepts: [Agentic Search, Direct Corpus Interaction, Purpose-Built Agentic Search Models, Agentic Query Workload, Reranking, Block-Max WAND]
-related_topics: [Frontier of Search, Frontier of Search 2025, Conversational and Agentic Search, Reasoning Reranking, RL-Trained Search Agents, Elasticsearch vs OpenSearch, Search Platforms]
+tags: [topic, agentic-search, frontier, llm, retrieval, reranking, commoditization, neural-ir]
+related_concepts: [Agentic Search, Direct Corpus Interaction, Purpose-Built Agentic Search Models, Agentic Query Workload, Reranking, Block-Max WAND, Late Interaction, ColPali, BBQ]
+related_topics: [Frontier of Search, Frontier of Search 2025, Late Interaction in Elasticsearch, Conversational and Agentic Search, Reasoning Reranking, RL-Trained Search Agents, Elasticsearch vs OpenSearch, Search Platforms]
 articles:
   - "[[Agentic Search Models with OpenSearch and Elasticsearch]]"
   - "[[The Scaling Dimensions of Keyword Search]]"
   - "[[This Is What Agentic Retrieval Looks Like]]"
   - "[[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]]"
   - "[[Agentic search models]]"
-companies: [Hornet, SID.ai, Bonsai]
+companies: [Hornet, SID.ai, Bonsai, Elastic, Weaviate, Vespa]
 people: [Jo Kristian Bergum, Skip Everling, Doug Turnbull]
 created: 2026-06-18
 ---
 
 # Frontier of Search 2026
 
-The frontier of search has shifted from *making humans better at searching* to *serving agents that search on their own*. Agents are now a first-class — and increasingly dominant — user of retrieval, and they search nothing like people do. This topic tracks two converging research-and-product fronts:
+The frontier of search in 2026 is moving in **two directions at once**, and it is a mistake to see only one of them.
+
+**Up the stack — agents become the user.** Retrieval is increasingly consumed by agents that search on their own, nothing like people do. This drives two converging research-and-product fronts:
 
 1. **Search systems built for the specific needs of agents** — infrastructure re-tuned for the agentic query workload.
 2. **Purpose-built agentic LLMs for searching and reranking** — specialized models that orchestrate retrieval instead of general-purpose frontier models.
 
-Both fronts react to the same observation: the assumptions of the human-search era (short queries, one-shot retrieval, a dumb client and a smart server) no longer describe the workload. See [[Agentic Query Workload]] for the underlying shift, and the broader [[Conversational and Agentic Search]] topic for the adoption spectrum that leads here.
+**Out to everyone — yesterday's frontier becomes commodity.** Just as importantly, the advanced neural retrieval that needed a research team a few years ago is now shipping as built-in features of mainstream engines. Ordinary teams get late interaction, multi-vector, learned sparse, quantization, and rerankers as *configuration*, not a project.
+
+These are not the same story. The agentic shift is about a *new consumer* of search; the commoditization shift is about *who can wield* the previous cutting edge — and for most teams the second one matters more day to day. This topic tracks both. See [[Agentic Query Workload]] for the agentic shift and [[Late Interaction in Elasticsearch]] for the clearest example of the commoditization one.
 
 ---
 
@@ -74,7 +78,7 @@ A multi-turn tool loop against an existing backend: write several query variants
 
 ---
 
-## Two Fronts, One Shift
+## The Agentic Shift: Two Fronts
 
 | | Search systems for agents | Purpose-built agentic models |
 |---|---|---|
@@ -83,7 +87,32 @@ A multi-turn tool loop against an existing backend: write several query variants
 | **Examples** | [[Hornet]], DCI, workload-adaptive pruning | [[SID-1]], Waldo, Charcoal |
 | **Key articles** | [[The Scaling Dimensions of Keyword Search]], [[This Is What Agentic Retrieval Looks Like]] | [[Agentic Search Models with OpenSearch and Elasticsearch]], [[Agentic search models]] |
 
-Both are responses to the same fact: **the new user of search is an agent.**
+Both fronts respond to the same fact: *within the agentic shift*, the new user of search is an agent. But that is only one of two shifts redrawing the frontier.
+
+---
+
+## Yesterday's Frontier Becomes a Built-In Feature
+
+The agentic headlines obscure a quieter — and arguably broader — shift: the **commoditization of neural retrieval**. Techniques that required a research team a few years ago now ship as supported, configurable features of mainstream engines ([[Elasticsearch]], [[OpenSearch]], [[Vespa]], [[Weaviate]], Solr), usable by teams with no ML specialists.
+
+- **Late interaction / ColPali as a feature.** [[ColBERT]]-style [[Late Interaction]] and visual [[ColPali]] retrieval are now first-class in Elasticsearch (8.18 `rank_vectors` + `maxSimDotProduct`) with a documented production playbook — bit vectors, average vectors, [[Token Pooling]], rescore retriever. A 2020 research artifact is a 2026 config option. See [[Late Interaction in Elasticsearch]].
+- **Quantization built in.** [[BBQ]] / scalar / binary quantization live inside the engine, so billion-vector indexes fit in RAM without a custom serving stack.
+- **Semantic & hybrid as defaults.** Learned sparse ([[ELSER]] / [[SPLADE]]), one-call semantic fields, hybrid retrieval with [[Reciprocal Rank Fusion|RRF]], and built-in reranker / inference endpoints turn yesterday's bespoke pipeline into checkboxes.
+
+The pattern: the frontier doesn't only advance — it **descends**. Each year's research edge becomes the next year's default, and the population that can use it grows by an order of magnitude. For many teams the most consequential 2026 change isn't an agent at all — it's that capabilities once out of reach are now a setting they can switch on.
+
+---
+
+## Two Shifts, Not One
+
+| | Agents become the user | Frontier becomes commodity |
+|---|---|---|
+| **Direction** | *Up the stack* — a new consumer of search | *Out to everyone* — the previous cutting edge as built-in features |
+| **Driven by** | LLM agents emitting long, structured, high-volume queries | Mainstream engines absorbing neural-retrieval research |
+| **Examples** | [[Hornet]], [[Direct Corpus Interaction]], [[SID-1]], purpose-built models | [[Late Interaction in Elasticsearch]], [[BBQ]], learned sparse, built-in rerankers |
+| **Who benefits** | Autonomous agents | Ordinary teams, no ML specialists required |
+
+The agentic story dominates the headlines, but it is only half the frontier. The other half is **democratization** — the lag between "research result" and "feature you can turn on" has collapsed to about a year. Watching only the agents misses where most of the practical value is actually landing.
 
 ---
 
@@ -103,6 +132,9 @@ Two more live edges feed directly into this shift and have their own topic pages
 - [[Purpose-Built Agentic Search Models]] — the specialized-model category
 - [[Block-Max WAND]] — the keyword-pruning optimization under stress
 - [[Reranking]] — the terminal step agentic models specialize in
+- [[Late Interaction]] — research-grade retrieval now shipping as an engine feature
+- [[ColPali]] — visual late interaction, commoditized in Elasticsearch 8.18
+- [[BBQ]] — built-in quantization that makes billion-vector indexes ordinary
 
 ## Related Topics
 - [[Frontier of Search]] — year-by-year index of the search frontier
@@ -110,6 +142,7 @@ Two more live edges feed directly into this shift and have their own topic pages
 - [[Conversational and Agentic Search]] — the adoption spectrum and conversational layer
 - [[Elasticsearch vs OpenSearch]] — the backends agentic layers wrap
 - [[Search Platforms]] — the engines being adapted
+- [[Late Interaction in Elasticsearch]] — the clearest case of the frontier becoming a built-in feature
 - [[RL-Trained Search Agents]] — training the search policy with RL (Search-R1)
 - [[Reasoning Reranking]] — LLM / generative / reasoning rerankers
 

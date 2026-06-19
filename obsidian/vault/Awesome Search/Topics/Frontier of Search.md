@@ -14,10 +14,10 @@ A year-by-year index of what counts as the leading edge of search and retrieval.
 ## By Year
 
 - **[[Frontier of Search 2025]]** — late interaction goes multimodal & production-scale ([[ColPali]]), embeddings become a commodity, vector quantization/ANN engineering, the keyword-efficiency renaissance ([[Block-Max WAND]]), and the first RL/agentic seeds ([[Search-R1]]).
-- **[[Frontier of Search 2026]]** — agents become the user of search: search systems re-tuned for the [[Agentic Query Workload|agentic query workload]], [[Purpose-Built Agentic Search Models|purpose-built agentic models]], [[Direct Corpus Interaction]], [[RL-Trained Search Agents]], and [[Reasoning Reranking]].
+- **[[Frontier of Search 2026]]** — *two shifts at once*: (1) **agents become the user** of search — [[Agentic Query Workload|agentic query workload]], [[Purpose-Built Agentic Search Models|purpose-built agentic models]], [[Direct Corpus Interaction]], [[RL-Trained Search Agents]], [[Reasoning Reranking]]; and (2) **the frontier becomes commodity** — mainstream engines absorb yesterday's research as switch-on features ([[Late Interaction in Elasticsearch|late interaction/ColPali in Elasticsearch]], [[BBQ]], learned sparse, built-in rerankers).
 
 ## The Through-Line
 
-The frontier moves up the stack each year: **2025** made the neural retrieval substrate cheap, multimodal, and scalable; **2026** put an agent on top of it as the primary consumer. The 2025 bridges — keyword efficiency, LLM-as-a-judge/rerankers, and Search-R1 — are exactly what the 2026 fronts build on.
+The frontier moves in two directions. It moves **up the stack**: **2025** made the neural retrieval substrate cheap, multimodal, and scalable; **2026** put an agent on top of it as the primary consumer. But it also moves **outward and downward** — each year's research edge *descends* into mainstream engines as a default feature, so the population that can use it grows by an order of magnitude. The headline (agents) and the quiet majority story (commoditization) are both the frontier.
 
 > Add `Frontier of Search 2027` here when the next period page is created.
