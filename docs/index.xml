@@ -10,7 +10,13 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 19 Jun 2026 15:57:28 GMT</pubDate>
+    <pubDate>Fri, 19 Jun 2026 16:00:21 GMT</pubDate>
+  </item><item>
+    <title>Index</title>
+    <link>https://frutik.github.io/awesome-search/Index</link>
+    <guid>https://frutik.github.io/awesome-search/Index</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Fri, 19 Jun 2026 15:58:00 GMT</pubDate>
   </item><item>
     <title>Bonsai</title>
     <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
@@ -58,12 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</guid>
     <description><![CDATA[ Direct Corpus Interaction (DCI) Definition Direct Corpus Interaction (DCI) is a retrieval paradigm where an agent searches a raw text corpus directly using general-purpose terminal tools (grep, find, bash, shell pipelines, lightweight scripts) — without any embedding model, vector index, or retrieva... ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
-  </item><item>
-    <title>Late Interaction</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
-    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
     <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
   </item>
     </channel>
