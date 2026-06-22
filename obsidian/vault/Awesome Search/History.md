@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-22 — Region-Based Embeddings & Generative Retrieval / Semantic IDs (~27 notes)
+
+Two related embedding-geometry clusters. First, the **region-based representation** lineage — words/items as *regions* (boxes, Gaussians, hyperbolic balls) rather than points — and its search payoff for set-theoretic/compositional queries. Second, the **generative retrieval** cluster — discrete [[Semantic IDs]] as the identifier scheme behind sequence-to-sequence retrieval, anchored to its IR-native origin [[Differentiable Search Index]] rather than framed as pure recsys.
+
+**Articles** — [[Express Words in a Box - Understanding Box Embedding from the Basics]] (by [[Shun Tsukagoshi]], Behitek / *State of AI Guide*, 2022-12-16; paywalled — processed from supplied text). From-the-basics tutorial on box embeddings as a [[Region-Based Representation]], walking the lineage from point embeddings to [[Word2Box]]. [[Answering Compositional Queries with Set-Theoretic Embeddings]] (by [[Shib Sankar Dasgupta]], [[Andrew McCallum]], [[Steffen Rendle]], [[Li Zhang]], arXiv:2306.04133, 2023-06-07). The search/IR payoff of box embeddings — representing item–attribute relations as "learnable Venn diagrams" answers AND/OR/NOT [[Compositional Queries]] better than dot-product vectors. [[Semantic IDs for Recommendation Systems]] (by [[Janu Verma]], *Incomplete Distillation*, 2025-08-04). Hands-on build of [[Semantic IDs]] from vector quantization through [[RQ-VAE]], reproducing a [[TIGER]]-style generative pipeline on Amazon Beauty.
+
+**Concepts** — region-based family: [[Box Embedding]], [[Region-Based Representation]], [[Gaussian Embedding]], [[Poincaré Embedding]], [[Word2Box]], [[Set-Theoretic Embeddings]], [[Compositional Embeddings]], [[Compositional Queries]]. Generative-retrieval family: [[Generative Retrieval]], [[Differentiable Search Index]], [[Semantic IDs]], [[RQ-VAE]], [[TIGER]]. Foundations & interpretability: [[Word2Vec]], [[Concept Vectors]], [[Steering Vectors]].
+
+**People** — [[Shib Sankar Dasgupta]] (Word2Box / set-theoretic embeddings lead author), [[Andrew McCallum]] (UMass; box-embedding line), [[Steffen Rendle]] and [[Li Zhang]] (compositional-queries co-authors), [[Luke Vilnis]] (box/order embeddings), [[Shun Tsukagoshi]] (Nagoya; box-embedding tutorial), [[Tomas Mikolov]] (Word2Vec), [[Janu Verma]] (*Incomplete Distillation*; semantic IDs).
+
+**Updated** — [[Embeddings]], [[Dense Embeddings]], [[Faceted Search]], [[Vector Quantization]] cross-linked into the two new clusters.
+
+---
+
 ## 2026-06-19 — Frontier-of-Search Period Pages & Late Interaction in Elasticsearch (~4 notes)
 
 Made the "frontier" concept year-anchored and processed [[Elastic]]'s two-part ColPali series into a dedicated topic.
@@ -239,6 +253,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-22 | ~27 | ~594 |
 | 2026-06-19 | ~4 | ~567 |
 | 2026-06-18 (evening) | ~14 | ~563 |
 | 2026-06-18 (afternoon) | ~2 | ~549 |

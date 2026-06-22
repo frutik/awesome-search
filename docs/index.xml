@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:22 GMT</pubDate>
+    <pubDate>Mon, 22 Jun 2026 15:56:20 GMT</pubDate>
   </item><item>
-    <title>Janu Verma</title>
-    <link>https://frutik.github.io/awesome-search/People/Janu-Verma</link>
-    <guid>https://frutik.github.io/awesome-search/People/Janu-Verma</guid>
-    <description><![CDATA[ Janu Verma Author of Incomplete Distillation, a Substack newsletter covering machine learning, recommendation systems, and retrieval. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:02:29 GMT</pubDate>
-  </item><item>
-    <title>TIGER</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/TIGER</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/TIGER</guid>
-    <description><![CDATA[ TIGER TIGER (Transformer Index for GEnerative Recommenders; Rajput et al., Google, 2023 — “Recommender Systems with Generative Retrieval”, arXiv:2305.05065) applies Generative Retrieval to recommendation. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:02:25 GMT</pubDate>
-  </item><item>
-    <title>Differentiable Search Index</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</guid>
-    <description><![CDATA[ Differentiable Search Index DSI (Tay et al., Google, 2022 — “Transformer Memory as a Differentiable Search Index”) is the seminal formulation of Generative Retrieval for document search. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:02:10 GMT</pubDate>
-  </item><item>
-    <title>Generative Retrieval</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Generative-Retrieval</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Generative-Retrieval</guid>
-    <description><![CDATA[ Generative Retrieval A retrieval paradigm in which a single sequence model generates the identifier of the target item or document directly from the query, rather than embedding the query and scoring it against a separately-indexed corpus. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:01:59 GMT</pubDate>
-  </item><item>
-    <title>RQ-VAE</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/RQ-VAE</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/RQ-VAE</guid>
-    <description><![CDATA[ RQ-VAE Residual-Quantized Variational Autoencoder — an autoencoder whose discrete bottleneck is a stack of vector-quantization codebooks applied to successive residuals. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:01:43 GMT</pubDate>
-  </item><item>
-    <title>Semantic IDs</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Semantic-IDs</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Semantic-IDs</guid>
-    <description><![CDATA[ Semantic IDs A semantic ID is a short sequence of discrete codes — derived from an item’s or document’s content embedding — that replaces the arbitrary atomic identifier (e.g. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:01:22 GMT</pubDate>
-  </item><item>
-    <title>Steering Vectors</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Steering-Vectors</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Steering-Vectors</guid>
-    <description><![CDATA[ Steering Vectors A direction in a model’s activation space that, when added to the hidden states at inference time, shifts the model’s behavior toward (or away from) a target attribute — tone, refusal, a topic, a style. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 10:37:41 GMT</pubDate>
-  </item><item>
-    <title>Concept Vectors</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</guid>
-    <description><![CDATA[ Concept Vectors A direction in a model’s representation (embedding or activation) space that corresponds to a human-interpretable concept. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 10:37:37 GMT</pubDate>
+    <title>Box Embedding</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Box-Embedding</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Box-Embedding</guid>
+    <description><![CDATA[ Box Embedding A Region-Based Representation that represents an object as an axis-aligned hyper-rectangle (a “box”) in d-dimensional space, defined by a pair of opposite corners — a minimum corner z and a maximum corner Z. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item><item>
     <title>Compositional Embeddings</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</guid>
     <description><![CDATA[ Compositional Embeddings Embedding approaches in which the representation of a complex object is built by combining the representations of its parts under well-defined operations, rather than learned as an opaque whole. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 10:33:43 GMT</pubDate>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Compositional Queries</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Queries</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Queries</guid>
+    <description><![CDATA[ Compositional Queries Queries that combine multiple attributes with logical operators — AND, OR, NOT — rather than asking about a single condition. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Concept Vectors</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</guid>
+    <description><![CDATA[ Concept Vectors A direction in a model’s representation (embedding or activation) space that corresponds to a human-interpretable concept. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Dense Embeddings</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Dense-Embeddings</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Dense-Embeddings</guid>
+    <description><![CDATA[ Dense Embeddings A vector representation where every dimension carries a value — no sparsity. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Differentiable Search Index</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</guid>
+    <description><![CDATA[ Differentiable Search Index DSI (Tay et al., Google, 2022 — “Transformer Memory as a Differentiable Search Index”) is the seminal formulation of Generative Retrieval for document search. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Embeddings</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Embeddings</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Embeddings</guid>
+    <description><![CDATA[ Embeddings A numerical representation of an object (text, image, product, user) as a fixed-length vector of real numbers, where geometric proximity corresponds to semantic similarity. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Faceted Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Faceted-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Faceted-Search</guid>
+    <description><![CDATA[ Faceted Search Definition Faceted search allows users to iteratively filter and narrow search results along multiple dimensions (facets) simultaneously — for example, filtering by brand, price range, color, and size at the same time. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
+  </item><item>
+    <title>Gaussian Embedding</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Gaussian-Embedding</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Gaussian-Embedding</guid>
+    <description><![CDATA[ Gaussian Embedding A Region-Based Representation (Vilnis &amp; McCallum, ICLR 2015, Word Representations via Gaussian Embedding) that represents each word as a Gaussian distribution rather than a point. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item>
     </channel>
   </rss>
