@@ -93,12 +93,17 @@ General-purpose models underperform on specialized domains. [[Embedding Fine-tun
 - [[Matryoshka Embeddings]] — MRL: one model, multiple dimensions
 - [[Task-Aware Embeddings]] — instruction-guided dense embeddings
 - [[Vector Quantization]] — compressing dense vectors for scale
+- [[Semantic IDs]] — dense content embeddings quantized into generatable identifiers
+- [[RQ-VAE]] — residual quantization of dense embeddings into discrete codes
 - [[Scalar Quantization]] — int8 per dimension; 4× compression
 - [[Binary Quantization]] — 1-bit per dimension; 32× compression
 - [[HNSW]] — the primary ANN index for dense vectors
 - [[IVF]] — cluster-based ANN index alternative
 - [[Embedding Fine-tuning]] — domain adaptation of dense models
 - [[Multilingual Search]] — multilingual dense models (E5, Qwen3)
+
+- [[Box Embedding]] — region-based alternative to point dense vectors (containment, set operations)
+- [[Region-Based Representation]] — the broader region-embedding family
 
 ## Articles
 - [[Why Are Embeddings So Cheap]] — [[Piotr Mazurek]]; FLOPS/dollar; compute-bound inference

@@ -76,6 +76,9 @@ Showing accurate counts per facet value is technically challenging:
 - [[Diversity Metrics]] — facets are a user-driven diversity mechanism
 - [[Zero Results]] — misconfigured facets cause empty result sets
 
+- [[Compositional Queries]] — AND/OR/NOT facet combinations; the query type faceting produces
+- [[Box Embedding]] — region/Venn-diagram embeddings that answer compositional facet queries (see [[Answering Compositional Queries with Set-Theoretic Embeddings]])
+
 ## People
 
 - [[Daniel Tunkelang]] — "Facets of Faceted Search", "Facets: Constraints or Preferences?", queryunderstanding.com faceted search

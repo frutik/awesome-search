@@ -49,6 +49,11 @@ Splits vectors into sub-vectors; each sub-vector quantized against a separate co
 - Used in FAISS IVF-PQ indexes
 - Higher encoder complexity than scalar methods
 
+### [[RQ-VAE|Residual Quantization]] (RQ)
+Staged refinement: quantize the first approximation, then quantize the *residual* error, and so on. Codes are hierarchical (coarse → fine) and combinatorially expressive (two 256-entry stages → 65,536 vectors).
+- Unlike SQ/PQ/binary, RQ-VAE's purpose is not compression for ANN but producing **generatable discrete tokens** — the basis of [[Semantic IDs]] for [[Generative Retrieval]]
+- See [[RQ-VAE]]
+
 ### K-Quants / I-Quants (GGUF)
 Block-level quantization used in the [[GGUF]] format for LLM weights.
 - **K-Quants** (Q4_K_M, Q5_K_S, etc.): mixed-precision per block; scale + min values stored separately
@@ -84,6 +89,9 @@ Quantized indexes are fast for candidate retrieval but imprecise. Standard pract
 - [[RaBitQ]]
 - [[GGUF]]
 - [[Hybrid Search]]
+- [[RQ-VAE]] — residual quantization for generatable tokens
+- [[Semantic IDs]] — quantization repurposed as content-derived identifiers
+- [[Generative Retrieval]] — downstream use of RQ-VAE codes
 
 ## Articles
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — [[Thomas Veasey]]; OSQ vs TurboQuant CPU benchmarks

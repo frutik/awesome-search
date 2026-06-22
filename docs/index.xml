@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Fri, 19 Jun 2026 16:00:21 GMT</pubDate>
+    <pubDate>Mon, 22 Jun 2026 11:09:22 GMT</pubDate>
   </item><item>
-    <title>Index</title>
-    <link>https://frutik.github.io/awesome-search/Index</link>
-    <guid>https://frutik.github.io/awesome-search/Index</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 15:58:00 GMT</pubDate>
+    <title>Janu Verma</title>
+    <link>https://frutik.github.io/awesome-search/People/Janu-Verma</link>
+    <guid>https://frutik.github.io/awesome-search/People/Janu-Verma</guid>
+    <description><![CDATA[ Janu Verma Author of Incomplete Distillation, a Substack newsletter covering machine learning, recommendation systems, and retrieval. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:02:29 GMT</pubDate>
   </item><item>
-    <title>Bonsai</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
-    <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>TIGER</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/TIGER</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/TIGER</guid>
+    <description><![CDATA[ TIGER TIGER (Transformer Index for GEnerative Recommenders; Rajput et al., Google, 2023 — “Recommender Systems with Generative Retrieval”, arXiv:2305.05065) applies Generative Retrieval to recommendation. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:02:25 GMT</pubDate>
   </item><item>
-    <title>Hornet</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Hornet</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Hornet</guid>
-    <description><![CDATA[ Hornet What They Build Hornet (hornet.dev) is a retrieval infrastructure company focused on high-precision context delivery for agentic AI systems. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Differentiable Search Index</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</guid>
+    <description><![CDATA[ Differentiable Search Index DSI (Tay et al., Google, 2022 — “Transformer Memory as a Differentiable Search Index”) is the seminal formulation of Generative Retrieval for document search. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:02:10 GMT</pubDate>
   </item><item>
-    <title>SID.ai</title>
-    <link>https://frutik.github.io/awesome-search/Companies/SID.ai</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/SID.ai</guid>
-    <description><![CDATA[ SID.ai SID.ai builds purpose-built agentic LLMs for search and reranking — smaller, specialized models trained specifically on the rewrite / retrieve / rerank loop rather than general-purpose tool use. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Generative Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Generative-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Generative-Retrieval</guid>
+    <description><![CDATA[ Generative Retrieval A retrieval paradigm in which a single sequence model generates the identifier of the target item or document directly from the query, rather than embedding the query and scoring it against a separately-indexed corpus. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:01:59 GMT</pubDate>
   </item><item>
-    <title>Agentic Query Workload</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Query-Workload</guid>
-    <description><![CDATA[ Agentic Query Workload Definition The agentic query workload is the distinct shape of demand that autonomous agents place on retrieval systems — qualitatively different from the human search workload that current infrastructure was tuned for. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>RQ-VAE</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/RQ-VAE</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/RQ-VAE</guid>
+    <description><![CDATA[ RQ-VAE Residual-Quantized Variational Autoencoder — an autoencoder whose discrete bottleneck is a stack of vector-quantization codebooks applied to successive residuals. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:01:43 GMT</pubDate>
   </item><item>
-    <title>Agentic Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Agentic-Search</guid>
-    <description><![CDATA[ Agentic Search Definition Agentic search refers to search systems that go beyond simple retrieval to plan, decompose, execute, verify, and refine — functioning more like engineering teams pursuing goals under uncertainty than simple lookup functions. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Semantic IDs</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Semantic-IDs</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Semantic-IDs</guid>
+    <description><![CDATA[ Semantic IDs A semantic ID is a short sequence of discrete codes — derived from an item’s or document’s content embedding — that replaces the arbitrary atomic identifier (e.g. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 11:01:22 GMT</pubDate>
   </item><item>
-    <title>Block-Max WAND</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Block-Max-WAND</guid>
-    <description><![CDATA[ Block-Max WAND Definition Block-Max WAND (BMW) is an enhancement of the WAND (Weak AND) algorithm that divides posting lists into fixed-size blocks, each with its own local maximum impact score. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Steering Vectors</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Steering-Vectors</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Steering-Vectors</guid>
+    <description><![CDATA[ Steering Vectors A direction in a model’s activation space that, when added to the hidden states at inference time, shifts the model’s behavior toward (or away from) a target attribute — tone, refusal, a topic, a style. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 10:37:41 GMT</pubDate>
   </item><item>
-    <title>ColPali</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/ColPali</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/ColPali</guid>
-    <description><![CDATA[ ColPali Definition ColPali is a visual document retrieval model that applies Late Interaction (ColBERT-style MaxSim scoring) to document page images. ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Concept Vectors</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</guid>
+    <description><![CDATA[ Concept Vectors A direction in a model’s representation (embedding or activation) space that corresponds to a human-interpretable concept. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 10:37:37 GMT</pubDate>
   </item><item>
-    <title>Direct Corpus Interaction</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Direct-Corpus-Interaction</guid>
-    <description><![CDATA[ Direct Corpus Interaction (DCI) Definition Direct Corpus Interaction (DCI) is a retrieval paradigm where an agent searches a raw text corpus directly using general-purpose terminal tools (grep, find, bash, shell pipelines, lightweight scripts) — without any embedding model, vector index, or retrieva... ]]></description>
-    <pubDate>Fri, 19 Jun 2026 07:48:48 GMT</pubDate>
+    <title>Compositional Embeddings</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</guid>
+    <description><![CDATA[ Compositional Embeddings Embedding approaches in which the representation of a complex object is built by combining the representations of its parts under well-defined operations, rather than learned as an opaque whole. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 10:33:43 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -109,6 +109,14 @@ See [[BBQ]] for Elasticsearch's implementation.
 - [[Matryoshka Embeddings]] — flexible-dimension embeddings
 - [[Vector Quantization]] — compressing embeddings for scale
 - [[Task-Aware Embeddings]] — instruction-guided representations
+- [[Semantic IDs]] — embeddings quantized into discrete, content-derived identifiers
+- [[Generative Retrieval]] — generating item/document IDs instead of scoring vectors
+
+- [[Region-Based Representation]] — region (not point) embeddings: boxes, Gaussians, hyperbolic
+- [[Box Embedding]] — words as axis-aligned boxes; containment & set operations
+- [[Word2Box]] — unsupervised box embeddings, CBOW-style
+- [[Set-Theoretic Embeddings]] — embeddings that support intersection/union/containment
+- [[Word2Vec]] — the foundational point-embedding method
 
 ## Articles
 - [[Why Are Embeddings So Cheap]] — [[Piotr Mazurek]]; economics of embedding inference
