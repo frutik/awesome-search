@@ -10,7 +10,13 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Tue, 23 Jun 2026 19:59:29 GMT</pubDate>
+    <pubDate>Tue, 23 Jun 2026 20:02:15 GMT</pubDate>
+  </item><item>
+    <title>Multilingual Search</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</guid>
+    <description><![CDATA[ Multilingual Search Serving search across multiple languages — or mixed-language queries — requires solutions at every layer of the stack: tokenization, retrieval, ranking, and evaluation. ]]></description>
+    <pubDate>Tue, 23 Jun 2026 20:00:00 GMT</pubDate>
   </item><item>
     <title>Federated Search</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Federated-Search</link>
@@ -58,12 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Differentiable-Search-Index</guid>
     <description><![CDATA[ Differentiable Search Index DSI (Tay et al., Google, 2022 — “Transformer Memory as a Differentiable Search Index”) is the seminal formulation of Generative Retrieval for document search. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
-  </item><item>
-    <title>Embeddings</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Embeddings</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Embeddings</guid>
-    <description><![CDATA[ Embeddings A numerical representation of an object (text, image, product, user) as a fixed-length vector of real numbers, where geometric proximity corresponds to semantic similarity. ]]></description>
     <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item>
     </channel>

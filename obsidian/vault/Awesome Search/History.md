@@ -7,6 +7,16 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-23 — Federated Search Concept (1 note)
+
+Added a dedicated concept note for **federated search** in its information-retrieval sense — distributed IR / metasearch — deliberately kept distinct from the "federated *graph*" data-unification sense (Netflix), which is entity modeling rather than a retrieval problem.
+
+**Concepts** — [[Federated Search]] — querying multiple independent collections/engines and merging results; the three sub-problems (resource/collection selection, query routing, results merging), cooperative vs. uncooperative environments, and its relationship to [[Hybrid Search]] (federation over representation spaces vs. over collections).
+
+**Updated** — [[Multilingual Search]] (per-language-index fan-out linked), [[Enterprise Search]] (multi-source retrieval linked), [[Search Architecture]] (Netflix "federated graph" disambiguated), [[Reciprocal Rank Fusion]] (added as the standard merger for fan-out), [[Knowledge Graph Search]] (callout disambiguating federated-graph vs. federated-search) cross-linked into the new note.
+
+---
+
 ## 2026-06-22 — Region-Based Embeddings & Generative Retrieval / Semantic IDs (~27 notes)
 
 Two related embedding-geometry clusters. First, the **region-based representation** lineage — words/items as *regions* (boxes, Gaussians, hyperbolic balls) rather than points — and its search payoff for set-theoretic/compositional queries. Second, the **generative retrieval** cluster — discrete [[Semantic IDs]] as the identifier scheme behind sequence-to-sequence retrieval, anchored to its IR-native origin [[Differentiable Search Index]] rather than framed as pure recsys.
@@ -253,6 +263,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-23 | 1 | ~595 |
 | 2026-06-22 | ~27 | ~594 |
 | 2026-06-19 | ~4 | ~567 |
 | 2026-06-18 (evening) | ~14 | ~563 |
