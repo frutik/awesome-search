@@ -66,7 +66,7 @@ Multi-stage pipelines must budget latency across stages:
 - **Canva**: two-phase search pipeline (Part I: retrieval, Part II: ranking)
 - **Carousell**: migrated from keyword to dense vector with Elasticsearch
 - **Slack**: full-text + entity-aware search at scale
-- **Netflix**: federated graph-based search — see [[Knowledge Graph Search]]
+- **Netflix**: federated graph-based search (distinct from [[Federated Search]] over multiple collections) — see [[Knowledge Graph Search]]
 
 - **Uber Eats**: geosharding (H3 hex grid), document layout optimization (60% latency cut), ETD range indexing — see [[Optimizing Search at Uber Eats]]
 - **Zalando**: layered architecture (Base Search → NER → Catalog API → Search API); self-DoS via facet aggregation — see [[The Day Our Own Queries DoSed Us - Zalando Search]]

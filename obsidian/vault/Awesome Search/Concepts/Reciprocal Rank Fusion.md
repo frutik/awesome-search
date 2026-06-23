@@ -59,6 +59,7 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 - [[Sparse Vector Retrieval]]
 - [[Learning to Rank]]
 - [[Retrieval Pipeline]]
+- [[Federated Search]] — RRF is the standard merger when fanning out across multiple collections/engines
 
 - **[[Relative Score Fusion]] (RSF)**: normalize scores to [0,1] and combine linearly; preserves score magnitude but requires calibration
 - **[[Semantic Boosting]]**: inject vector results as boost clauses into a lexical query; lexical engine produces the final output, enabling native facets/highlights/pagination

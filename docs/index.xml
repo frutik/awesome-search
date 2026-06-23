@@ -10,7 +10,19 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 22 Jun 2026 15:56:20 GMT</pubDate>
+    <pubDate>Tue, 23 Jun 2026 19:59:29 GMT</pubDate>
+  </item><item>
+    <title>Federated Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Federated-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Federated-Search</guid>
+    <description><![CDATA[ Federated Search Querying multiple independent collections or search engines from a single entry point, then merging their results into one ranked list. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Mon, 22 Jun 2026 15:56:55 GMT</pubDate>
   </item><item>
     <title>Box Embedding</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Box-Embedding</link>
@@ -52,18 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Embeddings</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Embeddings</guid>
     <description><![CDATA[ Embeddings A numerical representation of an object (text, image, product, user) as a fixed-length vector of real numbers, where geometric proximity corresponds to semantic similarity. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
-  </item><item>
-    <title>Faceted Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Faceted-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Faceted-Search</guid>
-    <description><![CDATA[ Faceted Search Definition Faceted search allows users to iteratively filter and narrow search results along multiple dimensions (facets) simultaneously — for example, filtering by brand, price range, color, and size at the same time. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
-  </item><item>
-    <title>Gaussian Embedding</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Gaussian-Embedding</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Gaussian-Embedding</guid>
-    <description><![CDATA[ Gaussian Embedding A Region-Based Representation (Vilnis &amp; McCallum, ICLR 2015, Word Representations via Gaussian Embedding) that represents each word as a Gaussian distribution rather than a point. ]]></description>
     <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item>
     </channel>

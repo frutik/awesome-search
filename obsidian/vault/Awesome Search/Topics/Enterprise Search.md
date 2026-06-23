@@ -19,7 +19,7 @@ Enterprise search is search applied to internal organizational content — docum
 
 **Authorization and permissions filtering.** Results must be filtered based on the user's access rights — a hard constraint absent from most consumer search. This makes pre-filtering and index segmentation critical design concerns.
 
-**Federated, multi-source retrieval.** Content lives across many systems: SharePoint, Confluence, Slack, Google Drive, Jira, email. Enterprise search must query and merge results from heterogeneous sources, often with different schemas, freshness SLAs, and relevance models.
+**Federated, multi-source retrieval.** Content lives across many systems: SharePoint, Confluence, Slack, Google Drive, Jira, email. Enterprise search must query and merge results from heterogeneous sources, often with different schemas, freshness SLAs, and relevance models — the classic [[Federated Search]] problem (collection selection, query routing, results merging).
 
 **Structured knowledge graph integration.** Organizations accumulate entity graphs (org charts, product catalogs, project hierarchies). Surfacing relationships — "who owns this project?", "what documents are connected to this customer?" — requires knowledge graph integration.
 

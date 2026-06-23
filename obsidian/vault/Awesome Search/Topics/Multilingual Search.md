@@ -35,7 +35,7 @@ Translate queries into a single canonical language (usually English), then searc
 **Pros**: Reuses existing monolingual infrastructure.  
 **Cons**: Translation latency; errors compound; loses rare-word precision.
 
-### 2. Per-Language Indexes + Federated Search
+### 2. Per-Language Indexes + [[Federated Search]]
 Maintain separate indexes per language, fan out the query, merge results.
 
 **Pros**: Each index is optimized for its language.  

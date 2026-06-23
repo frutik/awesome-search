@@ -45,8 +45,12 @@ Modern systems combine:
 - **LinkedIn**: entity graph for people/job/company search
 - **Google Knowledge Panel**: structured entity data surfacing
 
+> [!note] Not to be confused with [[Federated Search]]
+> "Federated *graph*" here means unifying heterogeneous entity types into one searchable structure — a data-modeling concern. [[Federated Search]] is the distinct IR problem of routing a query across multiple independent collections and merging the results.
+
 ## Related Concepts
 
+- [[Federated Search]]
 - [[Dense Vector Retrieval]]
 - [[Semantic Search]]
 - [[Faceted Search]]
