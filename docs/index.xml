@@ -10,13 +10,31 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:03:45 GMT</pubDate>
+    <pubDate>Thu, 25 Jun 2026 18:10:11 GMT</pubDate>
+  </item><item>
+    <title>Bi-Encoder</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</guid>
+    <description><![CDATA[ Bi-Encoder Definition A bi-encoder uses two independent encoders — one for queries, one for documents — producing separate dense vector embeddings. ]]></description>
+    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
+  </item><item>
+    <title>Cross-Encoder</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Cross-Encoder</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Cross-Encoder</guid>
+    <description><![CDATA[ Cross-Encoder Definition A cross-encoder processes the query and document jointly in a single encoder pass, producing a relevance score from their combined representation. ]]></description>
+    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
+  </item><item>
+    <title>Late Interaction</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
+    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
+    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Thu, 25 Jun 2026 17:40:17 GMT</pubDate>
+    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
   </item><item>
     <title>Audrey Lorberfeld</title>
     <link>https://frutik.github.io/awesome-search/People/Audrey-Lorberfeld</link>
@@ -47,24 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</guid>
     <description><![CDATA[ Multilingual Search Serving search across multiple languages — or mixed-language queries — requires solutions at every layer of the stack: tokenization, retrieval, ranking, and evaluation. ]]></description>
     <pubDate>Tue, 23 Jun 2026 20:00:00 GMT</pubDate>
-  </item><item>
-    <title>Federated Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Federated-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Federated-Search</guid>
-    <description><![CDATA[ Federated Search Querying multiple independent collections or search engines from a single entry point, then merging their results into one ranked list. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Box Embedding</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Box-Embedding</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Box-Embedding</guid>
-    <description><![CDATA[ Box Embedding A Region-Based Representation that represents an object as an axis-aligned hyper-rectangle (a “box”) in d-dimensional space, defined by a pair of opposite corners — a minimum corner z and a maximum corner Z. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
-  </item><item>
-    <title>Compositional Embeddings</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</guid>
-    <description><![CDATA[ Compositional Embeddings Embedding approaches in which the representation of a complex object is built by combining the representations of its parts under well-defined operations, rather than learned as an opaque whole. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item>
     </channel>
   </rss>

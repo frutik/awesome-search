@@ -9,7 +9,7 @@ Chronological log of notes added to this knowledge graph. Newest first.
 
 ## 2026-06-25 — Interaction Paradigms Topic (1 note)
 
-Extracted the broader idea behind the "Interaction Timeline Comparison" section of [[Late Interaction]] into a dedicated **Topic** hub. Decision: this is much broader than late interaction alone — the *no / late / early* spectrum organizes [[Bi-Encoder]], [[ColBERT]] / [[Late Interaction]], and [[Cross-Encoder]] as three points on one axis (when query and document are allowed to interact), with interaction *timing* as the master trade-off gating offline pre-computation.
+Extracted the broader idea behind the "Interaction Timeline Comparison" section of [[Late Interaction]] into a dedicated **Topic** hub spanning the *no / late / early* interaction spectrum, which organizes [[Bi-Encoder]], [[ColBERT]] / [[Late Interaction]], and [[Cross-Encoder]] as three points on one axis (when query and document are allowed to interact).
 
 **Topics** — [[Interaction Paradigms]] (new hub — the no/late/early interaction spectrum; both timeline diagrams; comparison table across bi-encoder / late-interaction / cross-encoder covering pre-encoding, granularity, speed, quality, pipeline role; an orthogonal sparse-vs-dense axis tying in [[Learned Sparse Retrieval]] / [[SPLADE]] / [[ELSER]] / [[Hybrid Search]]).
 
