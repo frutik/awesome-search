@@ -10,7 +10,13 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:10:11 GMT</pubDate>
+    <pubDate>Thu, 25 Jun 2026 18:14:18 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Thu, 25 Jun 2026 18:10:46 GMT</pubDate>
   </item><item>
     <title>Bi-Encoder</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</link>
@@ -28,12 +34,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
     <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
     <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
   </item><item>
     <title>Audrey Lorberfeld</title>
