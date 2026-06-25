@@ -10,12 +10,24 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 17:39:43 GMT</pubDate>
+    <pubDate>Thu, 25 Jun 2026 18:03:45 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Thu, 25 Jun 2026 17:40:17 GMT</pubDate>
   </item><item>
     <title>Audrey Lorberfeld</title>
     <link>https://frutik.github.io/awesome-search/People/Audrey-Lorberfeld</link>
     <guid>https://frutik.github.io/awesome-search/People/Audrey-Lorberfeld</guid>
     <description><![CDATA[ Audrey Lorberfeld A librarian-turned-software engineer working in search and information retrieval. ]]></description>
+    <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Interaction Paradigms</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Interaction-Paradigms</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Interaction-Paradigms</guid>
+    <description><![CDATA[ Interaction Paradigms Neural retrieval models can be organized along a single axis: when the query and the document are allowed to interact. ]]></description>
     <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>Search Communities</title>
@@ -29,12 +41,6 @@
     <guid>https://frutik.github.io/awesome-search/Topics/Women-of-Search</guid>
     <description><![CDATA[ Women of Search Women of Search (WoS) is an international community dedicated to empowering and celebrating women working in the search field. ]]></description>
     <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Tue, 23 Jun 2026 20:02:47 GMT</pubDate>
   </item><item>
     <title>Multilingual Search</title>
     <link>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</link>
@@ -58,12 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Embeddings</guid>
     <description><![CDATA[ Compositional Embeddings Embedding approaches in which the representation of a complex object is built by combining the representations of its parts under well-defined operations, rather than learned as an opaque whole. ]]></description>
-    <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
-  </item><item>
-    <title>Compositional Queries</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Compositional-Queries</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Compositional-Queries</guid>
-    <description><![CDATA[ Compositional Queries Queries that combine multiple attributes with logical operators — AND, OR, NOT — rather than asking about a single condition. ]]></description>
     <pubDate>Mon, 22 Jun 2026 11:09:58 GMT</pubDate>
   </item>
     </channel>

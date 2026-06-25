@@ -64,6 +64,7 @@ This pipeline gets the speed of [[Bi-Encoder]] retrieval with the quality of cro
 - [[Late Interaction]] — between bi-encoder (none) and cross-encoder (early) interaction
 - [[Retrieval Pipeline]] — cross-encoder as Stage 2 reranker
 - [[ELSER]] — distilled from a cross-encoder teacher
+- [[Interaction Paradigms]] — the no/late/early spectrum; cross-encoder is the early-interaction endpoint
 
 ## Articles
 

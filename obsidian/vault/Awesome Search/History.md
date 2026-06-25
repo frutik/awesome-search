@@ -7,6 +7,16 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-25 — Interaction Paradigms Topic (1 note)
+
+Extracted the broader idea behind the "Interaction Timeline Comparison" section of [[Late Interaction]] into a dedicated **Topic** hub. Decision: this is much broader than late interaction alone — the *no / late / early* spectrum organizes [[Bi-Encoder]], [[ColBERT]] / [[Late Interaction]], and [[Cross-Encoder]] as three points on one axis (when query and document are allowed to interact), with interaction *timing* as the master trade-off gating offline pre-computation.
+
+**Topics** — [[Interaction Paradigms]] (new hub — the no/late/early interaction spectrum; both timeline diagrams; comparison table across bi-encoder / late-interaction / cross-encoder covering pre-encoding, granularity, speed, quality, pipeline role; an orthogonal sparse-vs-dense axis tying in [[Learned Sparse Retrieval]] / [[SPLADE]] / [[ELSER]] / [[Hybrid Search]]).
+
+**Updated** — [[Late Interaction]] (pointer added under the comparison section + Related Topics entry), [[Bi-Encoder]] (backlink — the no-interaction endpoint), [[Cross-Encoder]] (backlink — the early-interaction endpoint).
+
+---
+
 ## 2026-06-25 — Search Communities & Women of Search (3 notes)
 
 Added a **community / careers** cluster, distinguishing standing people-networks from the events where they gather. Decision: [[Women of Search]] is a *community*, not a conference — it does not belong under [[Events and Conferences]]/Haystack, so a dedicated [[Search Communities]] hub was created as its parent.
@@ -275,6 +285,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-25 (interaction paradigms) | 1 | ~599 |
 | 2026-06-25 | 3 | ~598 |
 | 2026-06-23 | 1 | ~595 |
 | 2026-06-22 | ~27 | ~594 |

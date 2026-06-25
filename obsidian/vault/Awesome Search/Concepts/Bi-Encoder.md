@@ -66,6 +66,7 @@ Trained with **contrastive loss** (e.g., MultipleNegativesRankingLoss):
 - [[Hybrid Search]] — bi-encoder retrieval often combined with BM25
 - [[Semantic Search]] — bi-encoders enable semantic matching
 - [[Asymmetric Semantic Search]] — bi-encoders with asymmetric query/doc encoding (e.g., MS MARCO models)
+- [[Interaction Paradigms]] — the no/late/early spectrum; bi-encoder is the no-interaction endpoint
 
 ## Articles
 

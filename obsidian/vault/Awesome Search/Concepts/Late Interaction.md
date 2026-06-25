@@ -26,6 +26,8 @@ The **MaxSim** operator finds, for each query token, the document token most sim
 
 ## Interaction Timeline Comparison
 
+Late interaction is one point on a broader axis — *when* the query and document interact. See [[Interaction Paradigms]] for the full no/late/early spectrum.
+
 ```
 Early interaction  (Cross-Encoder):  [Q + D] → Encoder → score
 No interaction     (Bi-Encoder):     Q → enc → q; D → enc → d; score(q,d)
@@ -71,5 +73,6 @@ Since late interaction stores many vectors per document, storage is a concern:
 
 ## Related Topics
 
+- [[Interaction Paradigms]] — the no/late/early interaction spectrum this concept sits on
 - [[Late Interaction in Elasticsearch]] — indexing, scoring, and scaling late interaction in Elasticsearch
 - [[Frontier of Search 2025]] — late interaction as a 2025 frontier theme
