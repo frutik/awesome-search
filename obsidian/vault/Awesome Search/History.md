@@ -7,6 +7,18 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-25 — Search Communities & Women of Search (3 notes)
+
+Added a **community / careers** cluster, distinguishing standing people-networks from the events where they gather. Decision: [[Women of Search]] is a *community*, not a conference — it does not belong under [[Events and Conferences]]/Haystack, so a dedicated [[Search Communities]] hub was created as its parent.
+
+**Topics** — [[Search Communities]] (new hub — identity/mentorship communities, meetups, and Slack/online communities; why communities are the field's learning + hiring pipeline; explicitly distinct from [[Events and Conferences]]), [[Women of Search]] (new — international community for women in search, founded May 2021; mission, core leadership, mentorship program, Haystack talks; sourced from women-of-search.org).
+
+**People** — [[Audrey Lorberfeld]] (new — librarian-turned-software engineer; founder of [[Women of Search]]; AI-driven IR). Seven WoS leadership names ([[Erika Cardenas]], [[Atita Arora]], [[Elzbieta Jakubowska]], [[Meghan Boyd]], [[Olena Gorbatiuk]], [[Samdisha Kapoor]]) left as ready-to-fill wikilinks.
+
+**Updated** — [[Events and Conferences]] frontmatter repair; [[Weaviate]] referenced as employer of WoS core member [[Erika Cardenas]].
+
+---
+
 ## 2026-06-23 — Federated Search Concept (1 note)
 
 Added a dedicated concept note for **federated search** in its information-retrieval sense — distributed IR / metasearch — deliberately kept distinct from the "federated *graph*" data-unification sense (Netflix), which is entity modeling rather than a retrieval problem.
@@ -263,6 +275,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-25 | 3 | ~598 |
 | 2026-06-23 | 1 | ~595 |
 | 2026-06-22 | ~27 | ~594 |
 | 2026-06-19 | ~4 | ~567 |

@@ -1,7 +1,14 @@
 ---
 type: topic
-aliases: ["conferences", "search conferences", "IR conferences", "search events"]
-tags: [topic, events, conferences]
+aliases:
+  - conferences
+  - search conferences
+  - IR conferences
+  - search events
+tags:
+  - topic
+  - events
+  - conferences
 website: https://thesearchjuggler.com/conferences/
 related_concepts:
   - "[[Hybrid Search]]"
