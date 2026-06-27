@@ -29,6 +29,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Duality in Measuring Search]]
 - [[Query Understanding in Practice]]
 - [[Search UX]]
+- [[Search UX Research]]
 - [[Search Observability]]
 - [[Search Result Diversity]]
 - [[Spelling Correction in Search]]

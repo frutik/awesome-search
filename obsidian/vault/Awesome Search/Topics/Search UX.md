@@ -5,6 +5,7 @@ tags: [topic, ux, search-ux, query-understanding]
 related_concepts:
   - "[[Autocomplete]]"
   - "[[Faceted Search]]"
+  - "[[Search Scopes]]"
   - "[[Zero Results]]"
   - "[[Position Bias]]"
   - "[[Presentation Bias]]"
@@ -212,3 +213,6 @@ Session-level metrics are better than query-level for measuring UX: a user who s
 - [[E-commerce Search]] — UX patterns specific to product search
 - [[Search Result Diversity]] — the Discovery UX angle
 - [[Conversational and Agentic Search]] — the next evolution of search UX
+- [[MOC - Search UX and Discovery]] — link-out index for this whole family
+- [[Search Scopes]] — pre-query narrowing; scope-then-facet
+- [[Search UX Research]] — the independent research orgs (Baymard, NN/g) whose findings ground these patterns

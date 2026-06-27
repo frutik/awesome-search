@@ -10,13 +10,43 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 27 Jun 2026 12:24:57 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2026 15:00:25 GMT</pubDate>
+  </item><item>
+    <title>Nielsen Norman Group</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Nielsen-Norman-Group</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Nielsen-Norman-Group</guid>
+    <description><![CDATA[ Nielsen Norman Group UX research and consulting firm (NN/g), founded by Jakob Nielsen and Don Norman. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 13:33:15 GMT</pubDate>
+  </item><item>
+    <title>Heather Hedden</title>
+    <link>https://frutik.github.io/awesome-search/People/Heather-Hedden</link>
+    <guid>https://frutik.github.io/awesome-search/People/Heather-Hedden</guid>
+    <description><![CDATA[ Heather Hedden Taxonomist and author of The Accidental Taxonomist (book and blog), a long-running reference on practical taxonomy and metadata design. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 13:31:24 GMT</pubDate>
+  </item><item>
+    <title>Enterprise Knowledge LLC</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Enterprise-Knowledge-LLC</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Enterprise-Knowledge-LLC</guid>
+    <description><![CDATA[ Enterprise Knowledge LLC Consulting firm specializing in knowledge management, taxonomy/ontology design, and enterprise search &amp; findability. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 13:31:19 GMT</pubDate>
+  </item><item>
+    <title>Baymard Institute</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Baymard-Institute</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Baymard-Institute</guid>
+    <description><![CDATA[ Baymard Institute Independent UX research institute focused on e-commerce usability. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 13:26:30 GMT</pubDate>
+  </item><item>
+    <title>Elzbieta Jakubowska</title>
+    <link>https://frutik.github.io/awesome-search/People/Elzbieta-Jakubowska</link>
+    <guid>https://frutik.github.io/awesome-search/People/Elzbieta-Jakubowska</guid>
+    <description><![CDATA[ Elzbieta Jakubowska Software developer with 9+ years of search expertise, based in Kraków. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 13:22:15 GMT</pubDate>
   </item><item>
     <title>global_toc</title>
     <link>https://frutik.github.io/awesome-search/global_toc</link>
     <guid>https://frutik.github.io/awesome-search/global_toc</guid>
     <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 12:24:01 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2026 12:25:32 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
@@ -35,36 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Index</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
     <pubDate>Sat, 27 Jun 2026 08:41:47 GMT</pubDate>
-  </item><item>
-    <title>Bonsai</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
-    <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 06:48:56 GMT</pubDate>
-  </item><item>
-    <title>Autocomplete</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Autocomplete</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Autocomplete</guid>
-    <description><![CDATA[ Autocomplete Definition Autocomplete (also: autosuggest, search suggestions, typeahead) shows predicted query completions or related queries as the user types, before they submit the full search. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 06:48:56 GMT</pubDate>
-  </item><item>
-    <title>How to Really Design Search for a Database</title>
-    <link>https://frutik.github.io/awesome-search/Articles/How-to-Really-Design-Search-for-a-Database</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Really-Design-Search-for-a-Database</guid>
-    <description><![CDATA[ How to Really Design Search for a Database A prescriptive Bonsai tutorial by Max Irwin on building search over a relational database. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>How to Really Do Autocomplete</title>
-    <link>https://frutik.github.io/awesome-search/Articles/How-to-Really-Do-Autocomplete</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Really-Do-Autocomplete</guid>
-    <description><![CDATA[ How to Really Do Autocomplete Part 1 of Max Irwin’s Bonsai autocomplete series. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Query Sampling for Relevancy Testing</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</guid>
-    <description><![CDATA[ Query Sampling for Relevancy Testing A Bonsai piece by Nick Zadrozny arguing that relevance testing should not choose between frequent and infrequent queries — it should sample across all frequency tiers, because each tier exposes a different class of product problem. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

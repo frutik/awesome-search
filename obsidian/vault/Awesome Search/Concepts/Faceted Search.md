@@ -75,6 +75,7 @@ Showing accurate counts per facet value is technically challenging:
 - [[Vector Filtering]] — technical implementation of facet + vector search
 - [[Diversity Metrics]] — facets are a user-driven diversity mechanism
 - [[Zero Results]] — misconfigured facets cause empty result sets
+- [[Search Scopes]] — pre-query narrowing; the complement to post-query facets
 
 - [[Compositional Queries]] — AND/OR/NOT facet combinations; the query type faceting produces
 - [[Box Embedding]] — region/Venn-diagram embeddings that answer compositional facet queries (see [[Answering Compositional Queries with Set-Theoretic Embeddings]])

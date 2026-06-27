@@ -61,3 +61,7 @@ Most e-commerce sites optimize for category queries but fail on non-product, sym
 - [[Targeting Broad Queries in Search]]
 - [[Food Discovery with Uber Eats - Building a Query Understanding Engine]]
 - [[Query Understanding - Introduction]]
+
+## Publisher
+
+- [[Baymard Institute]] — e-commerce UX research institute that produced this study

@@ -12,7 +12,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Concepts
 
 ### Lexical & Sparse Retrieval
-[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[Sparse Embeddings]] · [[Stopwords]] · [[Synonyms]] · [[Collocations]]
+[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[Sparse Embeddings]] · [[Collocations]]
 
 ### Dense Retrieval & Embeddings
 [[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
@@ -33,19 +33,22 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]]
 
 ### Learning to Rank
-[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[Elasticsearch Learning to Rank]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]]
+[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[Elasticsearch Learning to Rank]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
 
 ### Hybrid Search & Score Fusion
 [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Semantic Boosting]]
 
 ### Query Understanding
-[[Query Understanding]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Spelling Correction]] · [[Compositional Queries]] · [[Autocomplete]]
+[[Query Understanding]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Compositional Queries]]
+
+### Lexical Query Operations
+[[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
 [[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
-[[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Position Bias]] · [[Presentation Bias]] · [[Signal Downboosting]] · [[Personalization]]
+[[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Position Bias]] · [[Presentation Bias]] · [[Signal Downboosting]] · [[Personalization]]
 
 ### Agentic, Generative & RAG
 [[Agentic Search]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]]
@@ -54,17 +57,17 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]]
 
 ### Search Architecture & Operations
-[[Search Architecture]] · [[Retrieval Pipeline]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]]
+[[Search Architecture]] · [[Retrieval Pipeline]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
 
-### Search Features & Result Presentation
-[[Faceted Search]] · [[Federated Search]] · [[Knowledge Graph Search]] · [[Results Boosting]] · [[Results Merchandising]] · [[Zero Results]] · [[MMR]]
+### Search UX & Discovery
+[[Faceted Search]] · [[Federated Search]] · [[Search Scopes]] · [[Zero Results]] · [[Results Merchandising]] · [[MMR]]
 
 ---
 
 ## Topics
 
 ### Retrieval & Ranking Techniques
-[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Dimensionality Reduction vs Quantization]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
+[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Dimensionality Reduction vs Quantization]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
 [[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Elasticsearch vs OpenSearch]]
@@ -79,7 +82,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Books]] · [[Courses]]
 
 ### Strategy & Meta
-[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Awesome Search/Topics/Economics of Search|Economics of Search]] · [[Search Problem Archetypes]] · [[Search UX]] · [[Fun and Philosophy]]
+[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Awesome Search/Topics/Economics of Search|Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]]
 
 ---
 
@@ -100,7 +103,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Bonsai]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Empathy]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
+[[Airbnb]] · [[Algolia]] · [[Baymard Institute]] · [[Bonsai]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
 
 ---
 
@@ -130,7 +133,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 **G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]]
 
-**H** — [[Han Xiao]] · [[Hassam Chundrigar]] · [[Honza Král]] · [[Hugo Galvão]]
+**H** — [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
 
 **I** — [[Isabella Tromba]] · [[Ivan Pleshkov]]
 

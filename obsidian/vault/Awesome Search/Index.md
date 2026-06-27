@@ -41,7 +41,13 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
-[[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Synonyms]] · [[Spelling Correction]] · [[Autocomplete]] · [[Faceted Search]] · [[Zero Results]] · [[Collocations]] · [[Query Relaxation]]
+[[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
+
+### Lexical Query Operations
+[[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
+
+### Search UX & Discovery
+[[Search UX]] · [[Faceted Search]] · [[Search Scopes]] · [[Federated Search]] · [[Zero Results]] · [[Presentation Bias]] · [[Results Merchandising]] · [[Search Result Diversity]] · [[MMR]]
 
 ### Architecture & RAG
 [[Search Architecture]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]

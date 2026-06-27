@@ -7,6 +7,26 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-27 — Search UX & Discovery, Click Models & UX Research Orgs (13 notes)
+
+A browseability + UX-research build-out, applying README-gap analysis and surfacing the **Search UX & Discovery** and **Lexical Query Operations** families across the indices.
+
+**Concepts** — [[Neural Click Models]] (NCM, CACM, GraphCM, two-tower; deep-learning successors to [[Click Models]]); [[Search Scopes]] (pre-query narrowing vs. post-query [[Faceted Search]]; the sticky-scope failure mode).
+
+**Topics** — [[Search UX Research]] (new hub for independent search-UX research organizations).
+
+**Companies** — [[Baymard Institute]], [[Nielsen Norman Group]], [[Enterprise Knowledge LLC]] (search-UX research orgs).
+
+**People** — [[Heather Hedden]] (*The Accidental Taxonomist*); [[Elzbieta Jakubowska]] (filled a [[Women of Search]] placeholder / dangling link).
+
+**Articles** — four [[Nielsen Norman Group]] studies: [[The Pinball Pattern - Complex Search-Results Pages Change Search Behavior]], [[Scoped Search - Dangerous but Sometimes Useful]], [[Good Abandonment on Search Results Pages]], [[Search-Log Analysis - The Most Overlooked Opportunity in UX Research]].
+
+**MOCs** — [[MOC - Case Studies]] (new curated map; resolved a long-standing dangling link); [[MOC - Search UX and Discovery]] rewritten to surface the full family.
+
+**Index restructuring** — split visible **Search UX & Discovery** and **Lexical Query Operations** families in [[global_toc]] and the home indices; moved [[Knowledge Graph Search]] and [[Results Boosting]] to coherent homes; relocated the [[Search UX]] topic out of Strategy & Meta. Fixed an inverted alias link in [[Neural Click Models]].
+
+---
+
 ## 2026-06-27 — Duality in Measuring Search Topic (1 note)
 
 Created a **Topic** hub for [[James Rubinstein]]'s recurring "qual + quant" thesis — that knowing whether search works needs two complementary signals and "it's not one-or-the-other, it's *yes, and!*" The hub organizes the duality under two lenses: *improving* search (statistical / metrics-driven vs. human-centered) and *measuring* search (online / log-based vs. offline / human-rated), reconciled at the [[The Launch Review|launch review]].

@@ -63,3 +63,7 @@ Autocomplete should reduce effort AND guide users toward successful searches —
 
 - [[Bootstrapping Autosuggest]]
 - [[Query Understanding - Introduction]]
+
+## Publisher
+
+- [[Baymard Institute]] — e-commerce UX research institute that produced this study

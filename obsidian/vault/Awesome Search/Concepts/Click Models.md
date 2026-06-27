@@ -54,6 +54,7 @@ Click models connect to [[Session-Based Evaluation]] — they model the full ses
 
 ## Related Concepts
 
+- [[Neural Click Models]] — deep-learning successors (NCM, CACM, GraphCM, two-tower) that learn representations instead of hand-set parameters
 - [[Click Signals]] — the raw data click models operate on
 - [[Position Bias]] — the primary bias click models correct for
 - [[Learning to Rank]] — downstream consumer of de-biased click signals
