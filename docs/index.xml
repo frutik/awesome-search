@@ -10,7 +10,31 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 27 Jun 2026 08:41:14 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2026 12:24:57 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 12:24:01 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 08:41:47 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 08:41:47 GMT</pubDate>
+  </item><item>
+    <title>Index</title>
+    <link>https://frutik.github.io/awesome-search/Index</link>
+    <guid>https://frutik.github.io/awesome-search/Index</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 08:41:47 GMT</pubDate>
   </item><item>
     <title>Bonsai</title>
     <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</guid>
     <description><![CDATA[ Query Sampling for Relevancy Testing A Bonsai piece by Nick Zadrozny arguing that relevance testing should not choose between frequent and infrequent queries — it should sample across all frequency tiers, because each tier exposes a different class of product problem. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Search Kōans</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Search-Koans</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Search-Koans</guid>
-    <description><![CDATA[ Search Kōans A short, reflective Bonsai piece by Max Irwin distilling ~15 years of search engineering into Zen-style kōans. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>What is Elasticsearch and Why You Should Use It</title>
-    <link>https://frutik.github.io/awesome-search/Articles/What-is-Elasticsearch-and-Why-You-Should-Use-It</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/What-is-Elasticsearch-and-Why-You-Should-Use-It</guid>
-    <description><![CDATA[ What is Elasticsearch and Why You Should Use It An introductory Bonsai explainer by Leo Schuster: what Elasticsearch is, its architecture, and when it earns a place in a developer’s toolkit. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>What is OpenSearch and Why You Should Use It</title>
-    <link>https://frutik.github.io/awesome-search/Articles/What-is-OpenSearch-and-Why-You-Should-Use-It</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/What-is-OpenSearch-and-Why-You-Should-Use-It</guid>
-    <description><![CDATA[ What is OpenSearch and Why You Should Use It An introductory Bonsai explainer by Leo Schuster on OpenSearch — what it is, why it exists, and when to choose it. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Bonsai - Designing Search for a Relational Database</title>
-    <link>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</link>
-    <guid>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</guid>
-    <description><![CDATA[ Bonsai — Designing Search for a Relational Database How Bonsai (via Max Irwin) makes every record type in a relational database universally findable by collapsing many tables into a single, denormalized Elasticsearch/OpenSearch index designed around user information needs rather than database struct... ]]></description>
     <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

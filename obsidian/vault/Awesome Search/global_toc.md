@@ -42,7 +42,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Query Understanding]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Spelling Correction]] · [[Compositional Queries]] · [[Autocomplete]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Relevance Feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Position Bias]] · [[Presentation Bias]] · [[Signal Downboosting]] · [[Personalization]]
@@ -122,7 +122,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
+**D** — [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
 
 **E** — [[Erik Hatcher]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]]
 
