@@ -33,6 +33,19 @@ Build a dense but meaningful semantic knowledge graph inside Obsidian. Prefer cr
 
 After every workflow run (or any operation that modifies `HOME.md`), read the current content of `HOME.md` and overwrite `index.md` with that exact content. These two files must always be identical. Do this as the final step before reporting completion.
 
+## Invariant: global_toc.md tracks every non-article note
+
+`global_toc.md` (at the vault root) is a categorized table of contents of **every note except articles** — it indexes Concepts, Topics, People, Tools, Companies, Case Studies, and Datasets, but never notes in `Awesome Search/Articles/`, `Clippings/`, or `raw_articles/`.
+
+Whenever a workflow run **creates or renames** a non-article entity note (Concept, Topic, Person, Company, Tool, Case Study, Dataset), add or update its `[[wikilink]]` in `global_toc.md` as part of the same run:
+
+- Place each note under its category section, and within Concepts/Topics/Tools under the most fitting thematic sub-heading (create a new sub-heading only if none fits).
+- Keep entries alphabetical within a group; People are grouped by the first letter of the name.
+- Use an explicit full-path wikilink (e.g. `[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]]`) only when the same basename exists in more than one folder; otherwise a plain `[[Note Name]]` is fine.
+- Update the counts line in the header to match.
+
+Do this before the index.md mirroring step. If `global_toc.md` does not exist, create it by indexing the full vault.
+
 ## Workflow
 
 When asked to read/process articles, follow these steps in order:
