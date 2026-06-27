@@ -10,7 +10,19 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sat, 27 Jun 2026 06:48:24 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2026 08:09:02 GMT</pubDate>
+  </item><item>
+    <title>Bonsai</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Bonsai</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Bonsai</guid>
+    <description><![CDATA[ Bonsai Bonsai (bonsai.io) is a managed OpenSearch / Elasticsearch hosting provider. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 06:48:56 GMT</pubDate>
+  </item><item>
+    <title>Autocomplete</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Autocomplete</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Autocomplete</guid>
+    <description><![CDATA[ Autocomplete Definition Autocomplete (also: autosuggest, search suggestions, typeahead) shows predicted query completions or related queries as the user types, before they submit the full search. ]]></description>
+    <pubDate>Sat, 27 Jun 2026 06:48:56 GMT</pubDate>
   </item><item>
     <title>How to Really Design Search for a Database</title>
     <link>https://frutik.github.io/awesome-search/Articles/How-to-Really-Design-Search-for-a-Database</link>
@@ -52,18 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</link>
     <guid>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</guid>
     <description><![CDATA[ Bonsai — Designing Search for a Relational Database How Bonsai (via Max Irwin) makes every record type in a relational database universally findable by collapsing many tables into a single, denormalized Elasticsearch/OpenSearch index designed around user information needs rather than database struct... ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Denormalization for Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Denormalization-for-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Denormalization-for-Search</guid>
-    <description><![CDATA[ Denormalization for Search Resolving relationships into flat, self-contained documents at index time instead of joining normalized data at query time. ]]></description>
-    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Unified Search Index</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Unified-Search-Index</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Unified-Search-Index</guid>
-    <description><![CDATA[ Unified Search Index The design principle of indexing records of many types into a single search index whose schema is shaped by user information needs, not by the source data model. ]]></description>
     <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
