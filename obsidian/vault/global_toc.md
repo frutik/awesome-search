@@ -70,7 +70,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Elasticsearch vs OpenSearch]]
 
 ### Quality & Operations
-[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
+[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Duality in Measuring Search]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
 
 ### Team, Career & Community
 [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Search Consultancy]] · [[Search Communities]] · [[Women of Search]] · [[Events and Conferences]]

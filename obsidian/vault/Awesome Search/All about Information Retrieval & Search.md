@@ -49,7 +49,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]]
 
 ## Tools
 

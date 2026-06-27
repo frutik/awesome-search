@@ -7,6 +7,16 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-27 — Duality in Measuring Search Topic (1 note)
+
+Created a **Topic** hub for [[James Rubinstein]]'s recurring "qual + quant" thesis — that knowing whether search works needs two complementary signals and "it's not one-or-the-other, it's *yes, and!*" The hub organizes the duality under two lenses: *improving* search (statistical / metrics-driven vs. human-centered) and *measuring* search (online / log-based vs. offline / human-rated), reconciled at the [[The Launch Review|launch review]].
+
+**Topics** — [[Duality in Measuring Search]] (new hub — two side-by-side comparison tables for the improvement and measurement lenses; why neither half suffices; how it fits the broader [[Search Evaluation]] / [[Relevance Program Setup]] / [[A-B Testing for Search]] stack; alias "Two Approaches to Measuring Search").
+
+**Updated** — [[Measuring Search - A Human Approach]] and [[Statistical and Human-Centered Approaches to Search Improvement]] (both normalized and marked as paywalled — `access: paywalled`, `paywalled` tag, `published` dates; the second's body left faithful to source; fabricated content in the former replaced with a faithful summary and its accidental duplicate removed). [[James Rubinstein]] (article list extended with the two posts + [[The Launch Review]]).
+
+---
+
 ## 2026-06-25 — Interaction Paradigms Topic (1 note)
 
 Extracted the broader idea behind the "Interaction Timeline Comparison" section of [[Late Interaction]] into a dedicated **Topic** hub spanning the *no / late / early* interaction spectrum, which organizes [[Bi-Encoder]], [[ColBERT]] / [[Late Interaction]], and [[Cross-Encoder]] as three points on one axis (when query and document are allowed to interact).

@@ -22,6 +22,8 @@ Search product manager and practitioner; advocate for rigorous evaluation method
 - [[Evaluating Search - Using Human Judgments]]
 - [[Setting Up a Relevance Evaluation Program]]
 - [[Statistical and Human-Centered Approaches to Search Improvement]]
+- [[Measuring Search - A Human Approach]]
+- [[The Launch Review]]
 - [[Search Product Management - The Most Misunderstood Role]]
 
 ## Key Concepts

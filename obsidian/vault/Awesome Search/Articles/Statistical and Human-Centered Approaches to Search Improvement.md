@@ -6,9 +6,12 @@ tags:
   - evaluation
   - process
   - medium
+  - paywalled
 source: "https://jamesrubinstein.medium.com/statistical-and-human-centered-approaches-to-search-engine-improvement-52af0e98f38f"
 author: "James Rubinstein"
+published: 2020-05-08
 created: 2026-05-15
+access: paywalled
 concepts:
   - Search Evaluation
   - Learning to Rank
