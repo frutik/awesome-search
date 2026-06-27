@@ -1,10 +1,17 @@
 ---
 created: 2026-05-15
-title: "How to Really Scale Autocomplete"
-source: "https://bonsai.io/blog/how-to-really-scale-autocomplete/"
-author: "bonsai.io"
+title: How to Really Scale Autocomplete
+source: https://bonsai.io/blog/how-to-really-scale-autocomplete/
+author: "[[Max Irwin]]"
 published: 2025-07-18
-tags: [autocomplete, elasticsearch, opensearch, scaling, aggregations, company-blog]
+tags:
+  - autocomplete
+  - elasticsearch
+  - opensearch
+  - scaling
+  - aggregations
+  - company-blog
+company: "[[Bonsai]]"
 ---
 
 # How to Really Scale Autocomplete
@@ -68,3 +75,13 @@ Useful for guiding discovery/navigation without manual curation.
 - [[Autocomplete]]
 - [[Search Architecture]]
 - [[Faceted Search]]
+
+## Related Articles
+- [[How to Really Do Autocomplete]] — Part 1; how to generate the suggestion vocabulary from document content (this article is Part 2: scaling it to 6M docs)
+- [[LLM-Powered Query Extraction for Autocomplete]] — LLM alternative for the suggestion vocabulary
+
+## People
+- [[Max Irwin]] — [[Bonsai]]
+
+## Related Topics
+- [[Autocomplete and Autosuggest]]

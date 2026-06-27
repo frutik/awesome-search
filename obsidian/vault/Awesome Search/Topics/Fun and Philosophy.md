@@ -1,7 +1,15 @@
 ---
 type: topic
-aliases: ["philosophy of search", "search philosophy", "search metaphors", "fun search"]
-tags: [topic, philosophy, opinion, metaphor]
+aliases:
+  - philosophy of search
+  - search philosophy
+  - search metaphors
+  - fun search
+tags:
+  - topic
+  - philosophy
+  - opinion
+  - metaphor
 related_concepts:
   - "[[Search Intent]]"
   - "[[Economics of Search]]"
@@ -30,10 +38,12 @@ articles:
   - "[[Thoughts on Search Result Diversity]]"
   - "[[Searching for Goldilocks]]"
   - "[[Rethinking Spotify Search]]"
+  - "[[Search Koans]]"
 people:
   - "[[Daniel Tunkelang]]"
   - "[[Doug Turnbull]]"
   - "[[Lester Solbakken]]"
+  - "[[Max Irwin]]"
 created: 2026-05-17
 ---
 	
@@ -120,6 +130,15 @@ Related: [[Diversity Metrics]], [[MMR]], [[Personalization]], [[Search Governanc
 > Spotify Engineering — [Rethinking Spotify Search](https://engineering.atspotify.com/2021/4/rethinking-spotify-search)
 
 ---
+
+
+## Kōans and the Craft
+
+Not every philosophical piece reaches for a grand metaphor — some just hold up a mirror to the daily contradictions of search work. [[Search Koans]] collects ~15 years of field stories as Zen-style kōans, each pivoting on an "identity of opposites": the irrelevant query no one searches, coverage that degrades relevance, better vectors that lose keyword highlighting, the search that breaks silently, and the child's question — *why can't the computer just do it?* The closing lesson is the discipline's deepest one: **relevance is human judgment and does not automate away.**
+
+> [[Max Irwin]] — [Search Kōans](https://bonsai.io/blog/search-koans/) · company: [[Bonsai]]
+
+Related: [[Search Problem Archetypes]], [[Search Quality Assurance]], [[Search Observability]]
 
 ## Key Voices
 

@@ -86,9 +86,25 @@ Best for: efficient use of annotation budget when you want your eval to reflect 
 - Refresh sampling periodically — query distributions shift with product changes, seasonality, and growth
 - Label a minimum of 100-300 queries before trusting NDCG trends; 1000+ for stable estimates
 
+
+## Per-Tier Handling (Not Just Sampling)
+
+Sampling decides *which* queries you look at; it doesn't decide what to *do* with each tier. [[Nick Zadrozny]] ([[Bonsai]]) argues each frequency tier calls for a different response — and that the response often lives **outside search**:
+
+- **Head** — worth manual, hand-tuned attention. But ask whether the fix belongs elsewhere: a frequent **navigational** query may be better solved by site navigation or a prominent feature than by ranking. A head query can signal an unmet product need, not a search bug.
+- **Torso** — build **generalizable models from first principles** instead of special-casing; sample representative torso queries so you don't over-fit to the head; align intent with index and request design during development.
+- **Tail** — keep in the test suite despite rarity; the tail is irreducibly hard (free-form expression), so scale with **ML and engagement signals** rather than human labels alone. Novel queries are a large share of traffic — Google has reported ~15% of daily queries are never-before-seen.
+
+The framing: *you are not optimizing search results, you are optimizing the end-user experience — a holistic product concern.* Stratified [[Query Sampling|sampling]] is what makes all three tiers visible at once.
+
 ## Related
 
 - [[Judgment Lists]] — the labels applied to the sampled queries
 - [[Search Evaluation]] — the broader offline evaluation framework
 - [[Search Quality Assurance]] — query sampling is one step in the full SQA practice
 - [[NDCG]], [[MAP]], [[MRR]] — metrics computed over the sampled query set
+
+## Articles
+- [[Query Sampling for Relevancy Testing]] — [[Nick Zadrozny]] / [[Bonsai]]; per-tier (head/torso/tail) handling strategy and the product-concern framing
+- [[Succeeding with Relevance Evaluation using PPS Sampling]] — the PPS technique in depth
+- [[Setting Up a Relevance Evaluation Program]] — weighted random sampling by query frequency

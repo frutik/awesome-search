@@ -1,17 +1,36 @@
 ---
 type: topic
-aliases: ["autocomplete", "autosuggest", "search suggestions", "typeahead"]
-tags: [topic, autocomplete, ux, query-understanding]
-related_concepts: ["[[Autocomplete]]", "[[Query Understanding]]", "[[Personalization]]", "[[Learning to Rank]]", "[[Zero Results]]"]
-related_topics: ["[[Query Understanding in Practice]]", "[[E-commerce Search]]", "[[Search Quality Assurance]]"]
-articles: [
-  "[[Autosuggest Retrieval Data Structures and Algorithms]]",
-  "[[Autosuggest Ranking]]",
-  "[[Bootstrapping Autosuggest]]",
-  "[[LLM-Powered Query Extraction for Autocomplete]]",
-  "[[How to Really Scale Autocomplete]]"
-]
-people: ["[[Giovanni Fernandez-Kincade]]", "[[David Albrecht]]"]
+aliases:
+  - autocomplete
+  - autosuggest
+  - search suggestions
+  - typeahead
+tags:
+  - topic
+  - autocomplete
+  - ux
+  - query-understanding
+related_concepts:
+  - "[[Autocomplete]]"
+  - "[[Query Understanding]]"
+  - "[[Personalization]]"
+  - "[[Learning to Rank]]"
+  - "[[Zero Results]]"
+related_topics:
+  - "[[Query Understanding in Practice]]"
+  - "[[E-commerce Search]]"
+  - "[[Search Quality Assurance]]"
+articles:
+  - "[[Autosuggest Retrieval Data Structures and Algorithms]]"
+  - "[[Autosuggest Ranking]]"
+  - "[[Bootstrapping Autosuggest]]"
+  - "[[LLM-Powered Query Extraction for Autocomplete]]"
+  - "[[How to Really Do Autocomplete]]"
+  - "[[How to Really Scale Autocomplete]]"
+people:
+  - "[[Giovanni Fernandez-Kincade]]"
+  - "[[David Albrecht]]"
+  - "[[Max Irwin]]"
 created: 2026-05-16
 ---
 
@@ -49,6 +68,15 @@ Simple prefix tree. Good for small vocabularies; doesn't scale to millions of su
 Use your search engine's native suggest feature (Elasticsearch's `search_as_you_type`, `completion` suggester) for most cases. Only build custom FST if you need custom ranking or multi-field matching.
 
 ---
+
+### Generating the Suggestion Vocabulary
+The structures above assume you already *have* suggestion strings — most tutorials skip where the vocabulary actually comes from. [[How to Really Do Autocomplete]] ([[Max Irwin]], [[Bonsai]]) generates it straight from document content in a single request:
+
+- **Page suggestions** — copy title/description into a `completion` field with an **edge-ngram** tokenizer for fast prefix hits.
+- **Word suggestions** — a prefix-filtered `significant_terms` aggregation surfaces terms that are statistically interesting in the matched subset vs. the whole corpus.
+- **Phrase suggestions** — a **shingles** field yields multi-word suggestions ("opensearch platform").
+
+This is the document-driven counterpart to the query-log and LLM vocabularies in **Cold Start** below.
 
 ## Ranking: Once You Have Candidates
 
@@ -108,6 +136,8 @@ The naive approach (significant_terms aggregation on shingles) collapses at mill
 At 6M+ docs: achieves 416 req/s at p99 ≤ 45ms.
 
 ---
+
+> Source: [[How to Really Scale Autocomplete]] ([[Max Irwin]], [[Bonsai]]) — the 6M-doc benchmark and the `significant_phrases` → `terms` swap above are from this Part 2 writeup. [[How to Really Do Autocomplete]] is Part 1 (vocabulary generation).
 
 ## Common Failure Modes
 

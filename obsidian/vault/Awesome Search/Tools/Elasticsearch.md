@@ -87,6 +87,8 @@ Key capabilities:
 - [[Learning To Rank (LTR) - Elasticsearch Native]] — native LTR (8.12+)
 - [[Search using LTR - Elastic Docs]] — LTR rescorer / retriever usage
 
+- [[What is Elasticsearch and Why You Should Use It]] — [[Leo Schuster]] / [[Bonsai]]; introductory explainer (architecture, Lucene, shards, when to use)
+
 ## People
 - [[Thomas Veasey]] — Principal Engineer; BBQ/OSQ quantization benchmarks
 - [[Alexander Marquardt]] — Elastic Services Engineering

@@ -124,6 +124,8 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 - [[OpenSearch vs. Elasticsearch A Comprehensive Comparison in 2025]] — [[Frank Goortani]]; balanced licensing and performance comparison
 - [[OpenSearch vs. Elasticsearch in 2025 - What's Changed and What Hasn't]] — Dattell; licensing (SSPL vs Apache 2.0), features, plugins, ecosystem
 
+- [[What is OpenSearch and Why You Should Use It]] — [[Leo Schuster]] / [[Bonsai]]; introductory explainer (the Elasticsearch fork, SSPL→Apache 2.0, plugins)
+
 ## Comparison
 
 - [[Elasticsearch vs OpenSearch]] — licensing, performance, feature differences, and when to choose each

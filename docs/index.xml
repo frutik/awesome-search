@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:14:18 GMT</pubDate>
+    <pubDate>Sat, 27 Jun 2026 06:48:24 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:10:46 GMT</pubDate>
+    <title>How to Really Design Search for a Database</title>
+    <link>https://frutik.github.io/awesome-search/Articles/How-to-Really-Design-Search-for-a-Database</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Really-Design-Search-for-a-Database</guid>
+    <description><![CDATA[ How to Really Design Search for a Database A prescriptive Bonsai tutorial by Max Irwin on building search over a relational database. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Bi-Encoder</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</guid>
-    <description><![CDATA[ Bi-Encoder Definition A bi-encoder uses two independent encoders — one for queries, one for documents — producing separate dense vector embeddings. ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
+    <title>How to Really Do Autocomplete</title>
+    <link>https://frutik.github.io/awesome-search/Articles/How-to-Really-Do-Autocomplete</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Really-Do-Autocomplete</guid>
+    <description><![CDATA[ How to Really Do Autocomplete Part 1 of Max Irwin’s Bonsai autocomplete series. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Cross-Encoder</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Cross-Encoder</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Cross-Encoder</guid>
-    <description><![CDATA[ Cross-Encoder Definition A cross-encoder processes the query and document jointly in a single encoder pass, producing a relevance score from their combined representation. ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
+    <title>Query Sampling for Relevancy Testing</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Query-Sampling-for-Relevancy-Testing</guid>
+    <description><![CDATA[ Query Sampling for Relevancy Testing A Bonsai piece by Nick Zadrozny arguing that relevance testing should not choose between frequent and infrequent queries — it should sample across all frequency tiers, because each tier exposes a different class of product problem. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Late Interaction</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
-    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
-    <pubDate>Thu, 25 Jun 2026 18:04:17 GMT</pubDate>
+    <title>Search Kōans</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Search-Koans</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Search-Koans</guid>
+    <description><![CDATA[ Search Kōans A short, reflective Bonsai piece by Max Irwin distilling ~15 years of search engineering into Zen-style kōans. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Audrey Lorberfeld</title>
-    <link>https://frutik.github.io/awesome-search/People/Audrey-Lorberfeld</link>
-    <guid>https://frutik.github.io/awesome-search/People/Audrey-Lorberfeld</guid>
-    <description><![CDATA[ Audrey Lorberfeld A librarian-turned-software engineer working in search and information retrieval. ]]></description>
-    <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+    <title>What is Elasticsearch and Why You Should Use It</title>
+    <link>https://frutik.github.io/awesome-search/Articles/What-is-Elasticsearch-and-Why-You-Should-Use-It</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/What-is-Elasticsearch-and-Why-You-Should-Use-It</guid>
+    <description><![CDATA[ What is Elasticsearch and Why You Should Use It An introductory Bonsai explainer by Leo Schuster: what Elasticsearch is, its architecture, and when it earns a place in a developer’s toolkit. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Interaction Paradigms</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Interaction-Paradigms</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Interaction-Paradigms</guid>
-    <description><![CDATA[ Interaction Paradigms Neural retrieval models can be organized along a single axis: when the query and the document are allowed to interact. ]]></description>
-    <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+    <title>What is OpenSearch and Why You Should Use It</title>
+    <link>https://frutik.github.io/awesome-search/Articles/What-is-OpenSearch-and-Why-You-Should-Use-It</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/What-is-OpenSearch-and-Why-You-Should-Use-It</guid>
+    <description><![CDATA[ What is OpenSearch and Why You Should Use It An introductory Bonsai explainer by Leo Schuster on OpenSearch — what it is, why it exists, and when to choose it. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Search Communities</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Search-Communities</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Search-Communities</guid>
-    <description><![CDATA[ Search Communities The people networks of the search and information-retrieval world: identity-based communities, meetups, Slack groups, and open-source communities where practitioners connect, mentor, share knowledge, and hire. ]]></description>
-    <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Bonsai - Designing Search for a Relational Database</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Bonsai---Designing-Search-for-a-Relational-Database</guid>
+    <description><![CDATA[ Bonsai — Designing Search for a Relational Database How Bonsai (via Max Irwin) makes every record type in a relational database universally findable by collapsing many tables into a single, denormalized Elasticsearch/OpenSearch index designed around user information needs rather than database struct... ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Women of Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Women-of-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Women-of-Search</guid>
-    <description><![CDATA[ Women of Search Women of Search (WoS) is an international community dedicated to empowering and celebrating women working in the search field. ]]></description>
-    <pubDate>Wed, 24 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Denormalization for Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Denormalization-for-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Denormalization-for-Search</guid>
+    <description><![CDATA[ Denormalization for Search Resolving relationships into flat, self-contained documents at index time instead of joining normalized data at query time. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Multilingual Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</guid>
-    <description><![CDATA[ Multilingual Search Serving search across multiple languages — or mixed-language queries — requires solutions at every layer of the stack: tokenization, retrieval, ranking, and evaluation. ]]></description>
-    <pubDate>Tue, 23 Jun 2026 20:00:00 GMT</pubDate>
+    <title>Unified Search Index</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Unified-Search-Index</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Unified-Search-Index</guid>
+    <description><![CDATA[ Unified Search Index The design principle of indexing records of many types into a single search index whose schema is shaped by user information needs, not by the source data model. ]]></description>
+    <pubDate>Fri, 26 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

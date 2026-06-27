@@ -99,3 +99,4 @@ Autocomplete is a first line of defense against zero results:
 - [[Autosuggest Retrieval Data Structures and Algorithms]]
 - [[Autosuggest Ranking]]
 - [[Affordances for Conversational Search]]
+- [[How to Really Do Autocomplete]] — [[Max Irwin]] / [[Bonsai]]; how to generate the suggestion vocabulary from document content (edge n-grams + significant_terms + shingles)
