@@ -10,13 +10,43 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:28:39 GMT</pubDate>
+    <pubDate>Sun, 28 Jun 2026 16:30:02 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+  </item><item>
+    <title>Judgment Lists</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</guid>
+    <description><![CDATA[ Judgment Lists Definition A judgment list (also called “qrels” in IR — short for “query relevance”) is a dataset of (query, document, relevance_grade) triples created by human annotators. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
   </item><item>
     <title>Vector Search Evaluation</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Vector-Search-Evaluation</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Vector-Search-Evaluation</guid>
     <description><![CDATA[ Vector Search Evaluation Definition Vector search evaluation is the practice of measuring the relevance quality of Dense Vector Retrieval (semantic, multimodal, hybrid) using the same IR machinery as lexical search — Judgment Lists and metrics like NDCG, MRR, and Precision and Recall — but adapted t... ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:21:02 GMT</pubDate>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+  </item><item>
+    <title>Index</title>
+    <link>https://frutik.github.io/awesome-search/Index</link>
+    <guid>https://frutik.github.io/awesome-search/Index</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
   </item><item>
     <title>Creating Judgement Lists with Quepid</title>
     <link>https://frutik.github.io/awesome-search/Articles/Creating-Judgement-Lists-with-Quepid</link>
@@ -35,36 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Articles/How-to-Evaluate-Image-Search-in-Qdrant-Using-Quepid-Part-2</guid>
     <description><![CDATA[ Part 2: wiring Qdrant into Quepid as a custom search endpoint via an unofficial API, injecting CLIP query vectors through query options, and the hacks (and a PR) needed to render image results in the rating UI. ]]></description>
     <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Oops, I Did It Again</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Oops,-I-Did-It-Again</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Oops,-I-Did-It-Again</guid>
-    <description><![CDATA[ The workaround to the vector-search-in-Quepid problem: generate a full Quepid case file with embeddings baked into query options, sidestepping per-query input limits. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Why Setting Up Quepid for Vector Search Evaluation Went Wrong</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Why-Setting-Up-Quepid-for-Vector-Search-Evaluation-Went-Wrong</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Why-Setting-Up-Quepid-for-Vector-Search-Evaluation-Went-Wrong</guid>
-    <description><![CDATA[ First attempt at configuring Quepid for vector search — and the three things that broke: query length limits, JSON-validity vs. valid-query catch-22, and unreadable vector queries. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Andrew Kornilov</title>
-    <link>https://frutik.github.io/awesome-search/People/Andrew-Kornilov</link>
-    <guid>https://frutik.github.io/awesome-search/People/Andrew-Kornilov</guid>
-    <description><![CDATA[ Andrew Kornilov Search practitioner and writer focused on e-commerce search, retrieval, and relevance evaluation. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Daniel Wrigley</title>
-    <link>https://frutik.github.io/awesome-search/People/Daniel-Wrigley</link>
-    <guid>https://frutik.github.io/awesome-search/People/Daniel-Wrigley</guid>
-    <description><![CDATA[ Daniel Wrigley Search relevance practitioner and writer on search quality measurement. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 15:01:01 GMT</pubDate>
   </item>
     </channel>
   </rss>

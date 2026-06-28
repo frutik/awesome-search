@@ -16,8 +16,8 @@ Search practitioner and writer focused on e-commerce search, retrieval, and rele
 
 ## Known For
 - A multi-part, hands-on series on adapting [[Quepid]] for [[Vector Search Evaluation]]
-- Building an unofficial HTTP API wrapper for Quepid (`frutik777/quepid-api-unofficial`) to script case/query creation
-- Contributing image-query rendering fixes back to Quepid (PR #1683)
+- Building an unofficial HTTP API wrapper for Quepid 
+- Contributing fixes to Quepid
 
 ## Articles
 - [[Why Setting Up Quepid for Vector Search Evaluation Went Wrong]]
