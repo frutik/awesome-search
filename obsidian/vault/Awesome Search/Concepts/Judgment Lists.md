@@ -97,6 +97,7 @@ These datasets are useful for: initial model benchmarking, transfer learning bas
 - [[LLM as Judge]] — automated alternative
 - [[Implicit Judgments]] — behavioral (click-derived) counterpart to explicit judgments
 - [[Sampling Strategies]] — how queries are selected for judgment
+- [[Vector Search Evaluation]] — applying judgment lists to vector/image/semantic search
 
 ## People
 

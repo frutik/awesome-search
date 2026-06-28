@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Position Bias]] · [[Presentation Bias]] · [[Signal Downboosting]] · [[Personalization]]
@@ -119,7 +119,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew McCallum]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 
@@ -163,4 +163,4 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 **V** — [[Venkat Ram Rao]] · [[Vsevolod Goloviznin]]
 
-**W** — [[Wolf Garbe]]
+**W** — [[Wolf Garbe]] · [[Daniel Wrigley]]

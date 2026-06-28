@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-28 — Quepid Practical Use Cases: Vector & Image Search Evaluation (8 notes)
+
+Added a cluster of practical, "what actually breaks" use cases for [[Quepid]] beyond the canonical lexical workflow — collaborative team judging, and the hacks needed to evaluate **vector** and **image** search. Anchored by a new [[Vector Search Evaluation]] concept that catalogs why judgment-list tooling built for text queries struggles with embeddings (query-length limits, JSON-validity catch-22, non-human-readable queries, non-text results) and the workarounds.
+
+**Concepts** — [[Vector Search Evaluation]] (new; ties together cross-modal, image-to-image, hybrid evaluation and the Quepid limitations/workarounds).
+
+**Articles** — [[Creating Judgement Lists with Quepid]] ([[Daniel Wrigley]], Elastic Search Labs; collaborative judging, information needs, books of judgements, v8 AI judgements); [[Why Setting Up Quepid for Vector Search Evaluation Went Wrong]], [[Oops, I Did It Again]], [[How to Evaluate Image Search in Qdrant Using Quepid Part 1]], [[How to Evaluate Image Search in Qdrant Using Quepid Part 2]] (all [[Andrew Kornilov]]; the vector/image series — dimension reduction to fit limits, query-option vector injection, Qdrant-as-endpoint, scorer hacks + upstream PR #1683).
+
+**People** — [[Andrew Kornilov]] (vault author; hands-on Quepid/vector series; unofficial Quepid API), [[Daniel Wrigley]] (Quepid judgement-lists guide).
+
+**Updated** — [[Quepid]] (new *Practical Use Cases* section + expanded Related Articles), [[global_toc]], [[Index]] / [[All about Information Retrieval & Search]] (Evaluation concepts + Key People + stats), [[MOC - Search Quality Assurance and Query Understanding]] (Judgment & Annotation + Key People).
+
+---
+
 ## 2026-06-27 — Search UX & Discovery, Click Models & UX Research Orgs (13 notes)
 
 A browseability + UX-research build-out, applying README-gap analysis and surfacing the **Search UX & Discovery** and **Lexical Query Operations** families across the indices.
@@ -315,6 +329,9 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-28 (Quepid vector/image eval) | 8 | ~621 |
+| 2026-06-27 (duality topic) | 1 | ~613 |
+| 2026-06-27 (search UX & click models) | 13 | ~612 |
 | 2026-06-25 (interaction paradigms) | 1 | ~599 |
 | 2026-06-25 | 3 | ~598 |
 | 2026-06-23 | 1 | ~595 |

@@ -38,7 +38,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
+[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
@@ -75,14 +75,14 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Key People
 
-[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Atita Arora]] · [[Udi Manber]]
+[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
 
 ## Stats
 
-- **~143+** article notes
-- **~82** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
+- **~148+** article notes
+- **~83** concept notes (incl. PCA, t-SNE, UMAP, Dimensionality Reduction, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
 - **17** topic notes (incl. Search Problem Archetypes, Dimensionality Reduction vs Quantization)
-- **~56** people notes (incl. Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
+- **~58** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
 - **9** case study notes (incl. Reddit - Vector Database Selection)
 - **29** company nodes (incl. Reddit)
 - **6** tool notes (Quepid, Querqy, Elasticsearch, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB)

@@ -78,6 +78,8 @@ How to build a representative query set for evaluation:
 |--------|------------------|
 | [[Daniel Tunkelang]] | Query Understanding series, Evaluating Search series, "Intent Not Inventory" |
 | [[Doug Turnbull]] | Flavors of NDCG, Judgment Lists, Quepid, Session eval |
+| [[Andrew Kornilov]] | Practical Quepid hacks for [[Vector Search Evaluation\|vector & image search evaluation]] |
+| [[Daniel Wrigley]] | Creating collaborative judgement lists with Quepid |
 | [[James Rubinstein]] | Measuring Search series (metrics + human approach) |
 | [[Andreas Wagner]] | Three Pillars: Findability, Relevance, Discovery |
 | [[Jo Kristian Bergum]] | LLM-as-a-judge for retrieval (Vespa) |
@@ -111,6 +113,13 @@ How to build a representative query set for evaluation:
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — [[Aparna Dhinakaran]]; explanation-first pattern; when CoT helps vs. hurts
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER query clustering; GPT-4o; ~$250/run; pre-launch market validation
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM outputs as decision tree features; 96.7% precision on 40% of pairs
+
+#### Quepid in Practice ([[Vector Search Evaluation]])
+- [[Creating Judgement Lists with Quepid]] — [[Daniel Wrigley]]; collaborative judging, information needs, books of judgements, v8 AI judgements
+- [[Why Setting Up Quepid for Vector Search Evaluation Went Wrong]] — [[Andrew Kornilov]]; vector queries break Quepid's text assumptions (length limits, JSON catch-22)
+- [[Oops, I Did It Again]] — [[Andrew Kornilov]]; case-file workaround for high-dimensional vectors
+- [[How to Evaluate Image Search in Qdrant Using Quepid Part 1]] — [[Andrew Kornilov]]; CLIP cross-modal data prep in [[Qdrant Vector DB]]
+- [[How to Evaluate Image Search in Qdrant Using Quepid Part 2]] — [[Andrew Kornilov]]; Qdrant-as-endpoint, query-option vector injection, image-rendering hacks + PR #1683
 
 ### Query Understanding
 - [[Query Understanding - Introduction 1]] — what is QU and why it matters
