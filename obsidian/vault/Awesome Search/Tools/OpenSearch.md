@@ -32,6 +32,7 @@ Key capabilities:
 - **Dense vector search** — k-NN plugin with HNSW; supports Faiss, nmslib, and native Lucene backends; up to 16,000 dimensions
 - **Hybrid search** — BM25 + kNN with normalization pipeline; native RRF support
 - **Neural sparse retrieval** — learned sparse encoding (open-source counterpart to [[ELSER]])
+- **Late interaction reranking** — native `lateInteractionScore` (3.3+) for [[ColBERT]]/[[ColPali]] multi-vector rerank; see [[Late Interaction in OpenSearch]]
 - **Search pipelines** — composable request/response processors for ML inference and score normalization
 - **Aggregations** — `significant_terms`, facets, histograms; foundational for [[Wormhole Vectors]] traversal
 - **PPL (Piped Processing Language)** — SQL-like analytics query language
@@ -111,6 +112,7 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 - [[HNSW]] — ANN index for dense vectors
 - [[Reciprocal Rank Fusion]] — fusion strategy used in normalization pipeline
 - [[Wormhole Vectors]] — advanced SKG traversal via OpenSearch primitives
+- [[Late Interaction]] — `lateInteractionScore` multi-vector rerank (3.3+); see [[Late Interaction in OpenSearch]]
 - [[RAG]] — common AWS-native use case via Bedrock
 
 ## Articles

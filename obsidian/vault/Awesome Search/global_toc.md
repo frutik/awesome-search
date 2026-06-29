@@ -27,13 +27,13 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]
 
 ### Late Interaction & Multi-Vector
-[[Late Interaction]] · [[ColBERT]] · [[ColPali]]
+[[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]]
 
 ### Reranking & Cross-Encoders
 [[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]]
 
 ### Learning to Rank
-[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[Elasticsearch Learning to Rank]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
+[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
 
 ### Hybrid Search & Score Fusion
 [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Semantic Boosting]]
@@ -67,7 +67,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Topics
 
 ### Retrieval & Ranking Techniques
-[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Dimensionality Reduction vs Quantization]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
+[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Dimensionality Reduction vs Quantization]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
 [[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Elasticsearch vs OpenSearch]]
@@ -100,6 +100,9 @@ A map of every note in the vault organized by category and theme.  This index tr
 ### Relevance & Query Tooling
 [[Querqy]] · [[Quepid]] · [[SID-1]]
 
+### ML & Model Serving
+[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]
+
 ---
 
 ## Companies
@@ -108,7 +111,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Case Studies
-[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Zalando - Self-DoS via Facet Aggregation]]
+[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
 
 ---
 
@@ -119,15 +122,15 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
 
-**E** — [[Erik Hatcher]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]]
+**E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]]
 
 **F** — [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
 
@@ -141,7 +144,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
 
-**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Ham]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
+**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
 
 **M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]]
 

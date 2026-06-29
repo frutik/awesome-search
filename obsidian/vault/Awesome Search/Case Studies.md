@@ -19,6 +19,7 @@ Field reports on how real teams built, scaled, and fixed search in production �
 - [[Skyscanner - Learning to Rank for Flights]] — Learning to Rank in production
 - [[Slack - Enterprise Message Search with LTR]] — enterprise/personal search with LTR
 - [[Uber Eats - Scaling Search for Food Delivery]] — geo-constrained retrieval and ranking at scale
+- [[Vinted - Migrating Search from Elasticsearch to Vespa]] — a billion-item search platform's ES→Vespa migration
 - [[Zalando - Self-DoS via Facet Aggregation]] — a cautionary failure: facets that took search down
 
 ## Related

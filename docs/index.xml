@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:30:02 GMT</pubDate>
+    <pubDate>Mon, 29 Jun 2026 13:21:16 GMT</pubDate>
   </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>Vinted - Migrating Search from Elasticsearch to Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</guid>
+    <description><![CDATA[ Vinted — Migrating Search from Elasticsearch to Vespa Field report from “Search Scaling Chapter 8: Goodbye Elasticsearch, Hello Vespa Search Engine” (Ernestas Poškus, Vinted Engineering, 2024-09-05). ]]></description>
+    <pubDate>Mon, 29 Jun 2026 13:17:49 GMT</pubDate>
   </item><item>
-    <title>Judgment Lists</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</guid>
-    <description><![CDATA[ Judgment Lists Definition A judgment list (also called “qrels” in IR — short for “query relevance”) is a dataset of (query, document, relevance_grade) triples created by human annotators. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>MUVERA</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/MUVERA</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/MUVERA</guid>
+    <description><![CDATA[ MUVERA Definition MUVERA (Multi-Vector Retrieval via Fixed Dimensional Encodings) collapses a Late Interaction multi-vector representation (e.g. ]]></description>
+    <pubDate>Mon, 29 Jun 2026 12:44:40 GMT</pubDate>
   </item><item>
-    <title>Vector Search Evaluation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Vector-Search-Evaluation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Vector-Search-Evaluation</guid>
-    <description><![CDATA[ Vector Search Evaluation Definition Vector search evaluation is the practice of measuring the relevance quality of Dense Vector Retrieval (semantic, multimodal, hybrid) using the same IR machinery as lexical search — Judgment Lists and metrics like NDCG, MRR, and Precision and Recall — but adapted t... ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>Dense Retrieval at Vinted</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Dense-Retrieval-at-Vinted</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Dense-Retrieval-at-Vinted</guid>
+    <description><![CDATA[ Dense Retrieval at Vinted Laurynas Jasiukėnas &amp; Dainius Jocas, Vinted Engineering, 2025-11-18. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>Optimizing Vespa Latency with Match-Features at Vinted</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Optimizing-Vespa-Latency-with-Match-Features-at-Vinted</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Optimizing-Vespa-Latency-with-Match-Features-at-Vinted</guid>
+    <description><![CDATA[ Optimizing Vespa Latency with Match-Features at Vinted Dainius Jocas, Vinted Engineering, 2025-11-06. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Index</title>
-    <link>https://frutik.github.io/awesome-search/Index</link>
-    <guid>https://frutik.github.io/awesome-search/Index</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>Aleksas Kateiva</title>
+    <link>https://frutik.github.io/awesome-search/People/Aleksas-Kateiva</link>
+    <guid>https://frutik.github.io/awesome-search/People/Aleksas-Kateiva</guid>
+    <description><![CDATA[ Aleksas Kateiva Engineer at Vinted; co-author of the Vinted Engineering post on adopting Vespa for recommendation retrieval (two-tower ANN with metadata prefiltering). ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>global_toc</title>
-    <link>https://frutik.github.io/awesome-search/global_toc</link>
-    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
-    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 16:29:13 GMT</pubDate>
+    <title>Dainius Jocas</title>
+    <link>https://frutik.github.io/awesome-search/People/Dainius-Jocas</link>
+    <guid>https://frutik.github.io/awesome-search/People/Dainius-Jocas</guid>
+    <description><![CDATA[ Dainius Jocas Search engineer at Vinted; a recurring author of the Vinted Engineering posts on Vespa — covering recommendation retrieval and low-latency ranking with match-features. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Creating Judgement Lists with Quepid</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Creating-Judgement-Lists-with-Quepid</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Creating-Judgement-Lists-with-Quepid</guid>
-    <description><![CDATA[ End-to-end guide to building collaborative relevance judgement lists in Quepid — cases, teams, books of judgements, explicit information needs, scorers, and the human rating workflow. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Ernestas Poškus</title>
+    <link>https://frutik.github.io/awesome-search/People/Ernestas-Po%C5%A1kus</link>
+    <guid>https://frutik.github.io/awesome-search/People/Ernestas-Po%C5%A1kus</guid>
+    <description><![CDATA[ Ernestas Poškus Search-platform engineer at Vinted. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>How to Evaluate Image Search in Qdrant Using Quepid Part 1 (No Hacks)</title>
-    <link>https://frutik.github.io/awesome-search/Articles/How-to-Evaluate-Image-Search-in-Qdrant-Using-Quepid-Part-1</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Evaluate-Image-Search-in-Qdrant-Using-Quepid-Part-1</guid>
-    <description><![CDATA[ Part 1 of evaluating image search: data preparation. Building a CLIP-based cross-modal image search over Amazon shopping products in Qdrant, before wiring up evaluation. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
+    <title>Laurynas Jasiukėnas</title>
+    <link>https://frutik.github.io/awesome-search/People/Laurynas-Jasiuk%C4%97nas</link>
+    <guid>https://frutik.github.io/awesome-search/People/Laurynas-Jasiuk%C4%97nas</guid>
+    <description><![CDATA[ Laurynas Jasiukėnas Engineer at Vinted; co-author of the Vinted Engineering post on dense retrieval — a multilingual-CLIP two-tower model serving hybrid semantic search on Vespa. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>How to Evaluate Image Search in Qdrant Using Quepid Part 2 (Hacks)</title>
-    <link>https://frutik.github.io/awesome-search/Articles/How-to-Evaluate-Image-Search-in-Qdrant-Using-Quepid-Part-2</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Evaluate-Image-Search-in-Qdrant-Using-Quepid-Part-2</guid>
-    <description><![CDATA[ Part 2: wiring Qdrant into Quepid as a custom search endpoint via an unofficial API, injecting CLIP query vectors through query options, and the hacks (and a PR) needed to render image results in the rating UI. ]]></description>
-    <pubDate>Sat, 27 Jun 2026 22:00:00 GMT</pubDate>
+    <title>ONNX</title>
+    <link>https://frutik.github.io/awesome-search/Tools/ONNX</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/ONNX</guid>
+    <description><![CDATA[ ONNX ONNX (Open Neural Network Exchange) is an open, framework-agnostic format for representing machine-learning models, with ONNX Runtime as the high-performance inference engine. ]]></description>
+    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

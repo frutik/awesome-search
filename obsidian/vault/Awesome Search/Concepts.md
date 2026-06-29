@@ -23,7 +23,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Diversity Metrics]]
 
 ## E
-- [[ELSER]] · [[Economics of Search]] · [[Elasticsearch Learning to Rank]] · [[Embedding Fine-tuning]] · [[Embeddings]]
+- [[ELSER]] · [[Economics of Search]] · [[Embedding Fine-tuning]] · [[Embeddings]]
 
 ## F
 - [[Faceted Search]] · [[Feature Store]] · [[Full-Text Search]]
@@ -47,7 +47,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[LLM as Judge]] · [[LTR Feature Engineering]] · [[LambdaLoss]] · [[LambdaMART]] · [[Late Interaction]] · [[Learned Sparse Retrieval]] · [[Learning to Rank]] · [[Linear Score Combination]] · [[Listwise Relevance Evaluation]] · [[LoRA]]
 
 ## M
-- [[MAP]] · [[MMR]] · [[MRR]] · [[Matryoshka Embeddings]] · [[Modality Gap]] · [[MonoT5]] · [[Multimodal Embeddings]]
+- [[MAP]] · [[MMR]] · [[MRR]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[Modality Gap]] · [[MonoT5]] · [[Multimodal Embeddings]]
 
 ## N
 - [[NDCG]]

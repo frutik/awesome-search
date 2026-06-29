@@ -60,6 +60,7 @@ Since late interaction stores many vectors per document, storage is a concern:
 - [[ColBERT]] — primary text-domain implementation of late interaction
 - [[ColPali]] — visual-domain late interaction (document page images)
 - [[Token Pooling]] — compression for multi-vector late interaction embeddings
+- [[MUVERA]] — fixed-dimensional single-vector approximation enabling ANN first-stage retrieval
 - [[Bi-Encoder]] — no interaction model (the baseline)
 - [[Cross-Encoder]] — early interaction (joint encoding)
 - [[Dense Vector Retrieval]] — late interaction uses multi-vector dense representations
@@ -75,4 +76,7 @@ Since late interaction stores many vectors per document, storage is a concern:
 
 - [[Interaction Paradigms]] — the no/late/early interaction spectrum this concept sits on
 - [[Late Interaction in Elasticsearch]] — indexing, scoring, and scaling late interaction in Elasticsearch
+- [[Late Interaction in OpenSearch]] — `lateInteractionScore` and the ml-inference rerank pipeline
+- [[Late Interaction in Qdrant]] — native multivector collections and single-call prefetch reranking
+- [[Late Interaction in Vespa]] — tensor-expression MaxSim, binary quantization, billion-scale ColPali
 - [[Frontier of Search 2025]] — late interaction as a 2025 frontier theme

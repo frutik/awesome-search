@@ -97,3 +97,4 @@ See: [[Asymmetric Semantic Search]]
 - [[Understanding BERT and Search Relevance]]
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — [[Thomas Veasey]]; OSQ 10-40x faster via integer SIMD
 - [[Why Are Embeddings So Cheap]] — [[Piotr Mazurek]]; compute-bound; ~$0.01/1M tokens at scale
+- [[Dense Retrieval at Vinted]] — [[Vinted]]; multilingual-CLIP two-tower, hybrid (ANN supplements lexical), HNSW on [[Vespa]] at billion scale

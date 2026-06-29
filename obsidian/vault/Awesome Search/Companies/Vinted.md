@@ -4,9 +4,9 @@ tags: [company, e-commerce, fashion, recommendations, vespa, ann]
 category: end-user
 industry: second-hand fashion marketplace
 products: [Vinted marketplace]
-search_domain: [product recommendations, personalized homepage retrieval]
-use_cases: []
-people: []
+search_domain: [item search, product recommendations, personalized homepage retrieval]
+use_cases: [Elasticsearch-to-Vespa search migration]
+people: ["[[Ernestas Poškus]]"]
 ---
 
 # Vinted
@@ -28,6 +28,13 @@ Europe's largest online second-hand fashion marketplace. Serves users across mul
 
 **ANN accuracy**: ~60–70% recall vs. exact search, but user satisfaction did not improve with exact search (latency cost not worth it).
 
-## Key Articles
+## Search Platform Migration
 
-- [[Adopting Vespa for Recommendation Retrieval at Vinted]]
+Vinted ran on [[Elasticsearch]] from 2015 until migrating its **billion-item, 20k-RPS** search platform to [[Vespa]] (item search Nov 2023, facets April 2024) — halving the server fleet and cutting change-visibility from 300s to 5s. See [[Vinted - Migrating Search from Elasticsearch to Vespa]].
+
+## Key Articles & Case Studies
+
+- [[Vinted - Migrating Search from Elasticsearch to Vespa]] — the ES→Vespa search-platform migration
+- [[Adopting Vespa for Recommendation Retrieval at Vinted]] — ANN recommendation retrieval on Vespa ([[Dainius Jocas]], [[Aleksas Kateiva]])
+- [[Optimizing Vespa Latency with Match-Features at Vinted]] — `match-features` for in-engine feature serving + P99 9ms→3ms ([[Dainius Jocas]])
+- [[Dense Retrieval at Vinted]] — multilingual-CLIP two-tower hybrid semantic retrieval on Vespa ([[Laurynas Jasiukėnas]], [[Dainius Jocas]])

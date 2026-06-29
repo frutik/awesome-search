@@ -30,6 +30,7 @@ Key capabilities:
 - **Filtered search** — predicates integrated into graph traversal (not post-filter), avoiding recall loss on selective filters
 - **Quantization** — [[Scalar Quantization]] (int8, 4×), [[Binary Quantization]] (1-bit, 32×), [[TurboQuant]] (rotation-based, 8×–32×, Qdrant 1.18+)
 - **Sparse + dense** — supports sparse vectors alongside dense for hybrid retrieval
+- **Multivectors / late interaction** — native `multivector_config` with `MultiVectorComparator.MAX_SIM` for [[ColBERT]]/[[ColPali]] rerank; see [[Late Interaction in Qdrant]]
 - **Payload filtering** — rich JSON payload per vector with indexed field filtering
 - **Collections** — top-level namespace; each collection has its own vector config and index
 
@@ -53,6 +54,8 @@ Key capabilities:
 - [[Dense Vector Retrieval]] — primary use case
 - [[Vector Filtering]] — Qdrant's predicate-in-graph approach
 - [[Hybrid Search]] — combining sparse and dense retrieval
+- [[Late Interaction]] — native multivector MaxSim reranking; see [[Late Interaction in Qdrant]]
+- [[MUVERA]] — fixed-dimensional approximation used as the late-interaction first stage
 
 ## Articles
 - [[TurboQuant in Qdrant]]

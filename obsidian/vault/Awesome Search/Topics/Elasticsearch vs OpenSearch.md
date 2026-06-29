@@ -65,6 +65,7 @@ Both share the same Lucene core and a largely compatible query DSL. Divergence h
 | Max vector dimensions | 4,096 | 16,000 |
 | Dense vector quantization | [[BBQ]] (32× binary), int8 scalar | int8 scalar |
 | Hybrid search | RRF + linear combination | Normalization pipeline + RRF |
+| Late interaction | `rank_vectors` + `maxSimDotProduct` (8.18+) | `object`+`float` + `lateInteractionScore` (3.3+) |
 | Search pipelines | Inference pipeline (Elastic stack) | Composable search pipelines |
 | Query language | ES DSL + SQL | ES DSL + PPL (Piped Processing Language) |
 | Visualization | Kibana | OpenSearch Dashboards |
@@ -100,6 +101,7 @@ Both engines support hybrid BM25 + vector search, which is where most modern sea
 ## Related Notes
 
 - [[Search Platforms]] — broader platform selection framework
+- [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] — how each engine does ColBERT/ColPali multi-vector reranking
 - [[Elasticsearch]] — tool page
 - [[OpenSearch]] — tool page
 - [[Wormhole Vectors Beyond Hybrid Search in OpenSearch]] — advanced OpenSearch retrieval pattern

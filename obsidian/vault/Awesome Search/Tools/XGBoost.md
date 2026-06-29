@@ -31,4 +31,4 @@ Gradient-boosted decision tree library with learning-to-rank objectives (`rank:n
 
 ## Related
 
-- [[LambdaMART]] · [[LightGBM]] · [[CatBoost]] · [[Learning to Rank]] · [[Ranking Objectives]] · [[Metarank]]
+- [[LambdaMART]] · [[LightGBM]] · [[CatBoost]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[Elasticsearch Learning to Rank]] · [[Ranking Objectives]] · [[Metarank]]

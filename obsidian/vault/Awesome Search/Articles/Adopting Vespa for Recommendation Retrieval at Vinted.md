@@ -3,7 +3,7 @@ created: 2026-05-16
 type: article
 tags: [article, vespa, ann, two-tower, recommendations, e-commerce, company-blog]
 source: "https://vinted.engineering/2023/10/09/adopting-vespa-for-recommendation-retrieval/"
-author: ["Vinted"]
+author: ["Dainius Jocas", "Aleksas Kateiva"]
 company: [Vinted]
 concepts: [Dense Vector Retrieval, ANN, Embeddings, Hybrid Search]
 topics: [Personalization in Search, E-commerce Search]
@@ -45,3 +45,7 @@ ANN prefiltering — combining vector similarity with metadata filters (size, pr
 ## Related Concepts
 
 [[Dense Vector Retrieval]] · [[ANN]] · [[Embeddings]] · [[Hybrid Search]] · [[Personalization in Search]] · [[E-commerce Search]]
+
+## People
+
+- [[Dainius Jocas]] · [[Aleksas Kateiva]] — [[Vinted]]

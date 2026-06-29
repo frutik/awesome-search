@@ -24,6 +24,7 @@ Curated map of real-world search builds, grouped by the problem each team was so
 - [[Canva - Search Pipeline Modernization]] — modernizing a legacy search pipeline
 - [[Bonsai - Designing Search for a Relational Database]] — building search on top of a relational store
 - [[Kleinanzeigen - Vespa Migration for Homepage Feed]] — the migration itself, and why
+- [[Vinted - Migrating Search from Elasticsearch to Vespa]] — billion-item ES→Vespa migration; operational wins, Lucene analyzers in Vespa
 
 ## Retrieval & Vector Search
 

@@ -65,7 +65,7 @@ Purpose-built for dense embedding retrieval. These engines index high-dimensiona
 
 Engines designed from the ground up with relevance, hybrid retrieval, and production scale as first-class concerns.
 
-- **Vespa** — open-source, self-hosted (or Vespa Cloud SaaS); uniquely combines BM25, dense vector, and structured attribute matching in a single engine with built-in ranking expressions. Strong choice for complex ranking pipelines. See [[From Elasticsearch to Vespa]].
+- **[[Vespa]]** — open-source, self-hosted (or Vespa Cloud SaaS); uniquely combines BM25, dense vector, and structured attribute matching in a single engine via a general **tensor ranking-expression** framework. Strong choice for complex ranking pipelines — it expresses [[Vespa Learning to Rank|GBDT/ONNX LTR]] and [[Late Interaction in Vespa|late-interaction MaxSim]] as ranking expressions rather than bolt-on subsystems. Production ES→Vespa migrations: [[Vinted - Migrating Search from Elasticsearch to Vespa]] (billion-item scale) and [[Kleinanzeigen - Vespa Migration for Homepage Feed]].
 - **Typesense** — open-source, self-hosted or Typesense Cloud; developer-friendly, fast, opinionated defaults; positioned as a simpler alternative to Elasticsearch for search-heavy apps.
 - **Meilisearch** — open-source, self-hosted or Meilisearch Cloud; optimized for instant search UX, typo tolerance, and ease of setup.
 
@@ -106,6 +106,6 @@ Search run inside an existing database rather than a dedicated engine — increa
 - [[E-commerce Search]] — platform choice is a recurring theme in ecommerce search case studies
 - [[Enterprise Search]] — enterprise teams frequently operate Elasticsearch or Vespa at scale
 - [[Hybrid Search Blueprint Series Semantic Boosting]] — hybrid retrieval patterns that span Lucene and vector platforms
-- [[From Elasticsearch to Vespa Rebuilding the Kleinanzeigen Homepage Feed — Part 1]] — real migration case study
+- [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] — real ES→Vespa migration case studies
 - [[Conversational and Agentic Search]] — agentic workloads impose distinct retrieval requirements; Hornet is built specifically for this use case
 - [[Search using PostgreSQL]] — running modern search inside Postgres (FTS + pgvector + ParadeDB + RRF)

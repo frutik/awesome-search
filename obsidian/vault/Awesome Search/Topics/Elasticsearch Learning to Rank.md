@@ -1,4 +1,5 @@
 ---
+type: topic
 title: Elasticsearch Learning to Rank
 aliases:
   - Elasticsearch LTR
@@ -6,12 +7,16 @@ aliases:
   - in-engine LTR
   - native LTR
 tags:
-  - concept
+  - topic
   - ranking
   - learning-to-rank
   - elasticsearch
   - search
-type: concept
+related_concepts: [Learning to Rank, LambdaMART, Reranking, Retrieval Pipeline, Feature Store, Judgment Lists, Implicit Judgments, Hybrid Search]
+related_topics: [Vespa Learning to Rank, Elasticsearch vs OpenSearch, Search Platforms]
+related_tools: ["[[Elasticsearch]]", "[[Metarank]]", "[[RankLib]]", "[[XGBoost]]", "[[eland]]", "[[OpenSearch]]"]
+companies: [Elastic, OpenSource Connections]
+created: 2026-06-13
 ---
 
 # Elasticsearch Learning to Rank
@@ -52,6 +57,7 @@ Both modules share the same shape — train a GBDT offline, store it, rescore th
 ## Related Concepts
 
 - [[Learning to Rank]] — the general technique this specializes
+- [[Vespa Learning to Rank]] — the parallel in-engine LTR note for Vespa (phased ranking, native GBDT/ONNX)
 - [[LambdaMART]] — the model both modules serve
 - [[Reranking]] — LTR is the rescoring stage
 - [[Retrieval Pipeline]] — first-pass retrieval → LTR rescore

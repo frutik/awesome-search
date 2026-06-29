@@ -30,4 +30,4 @@ Microsoft's gradient-boosted decision tree library. Its `lambdarank` objective i
 
 ## Related
 
-- [[LambdaMART]] · [[XGBoost]] · [[CatBoost]] · [[Learning to Rank]] · [[Ranking Objectives]] · [[Metarank]]
+- [[LambdaMART]] · [[XGBoost]] · [[CatBoost]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[Ranking Objectives]] · [[Metarank]]

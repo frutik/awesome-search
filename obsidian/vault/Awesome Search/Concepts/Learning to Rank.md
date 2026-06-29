@@ -84,7 +84,7 @@ The first stage uses simple fast signals; LTR adds expensive-to-compute features
 
 Independent of the algorithm, a learned ranker can be served in two architectures:
 
-- **In-engine LTR** — the model runs *inside* the search engine as a rescore phase over the top-N, with features computed from the engine's own queries and fields. Examples: Solr LTR, [[Elasticsearch Learning to Rank]] (both the OSC plugin and Elastic's native module), [[OpenSearch]], Vespa. Lighter integration, no extra service — but tied to a single engine's index.
+- **In-engine LTR** — the model runs *inside* the search engine as a rescore phase over the top-N, with features computed from the engine's own queries and fields. Examples: Solr LTR, [[Elasticsearch Learning to Rank]] (both the OSC plugin and Elastic's native module), [[OpenSearch]], [[Vespa Learning to Rank|Vespa]]. Lighter integration, no extra service — but tied to a single engine's index.
 - **External secondary re-ranker** — the model runs as a *separate service downstream* of the engine: the application retrieves candidates, then calls the re-ranker. Engine-agnostic, so it can fuse results from multiple independent retrievers and ingest behavioral events directly — at the cost of an extra network hop and a stateful service to operate. Canonical example: [[Metarank]].
 
 | | In-engine LTR | External re-ranker |
@@ -95,7 +95,7 @@ Independent of the algorithm, a learned ranker can be served in two architecture
 | Behavioral events | You build [[Judgment Lists]] / [[Implicit Judgments]] yourself | Ingests clicks/impressions directly; synthesizes negatives |
 | Network hops | None — single search request | Extra hop; app multi-queries then calls the re-ranker |
 | Ops cost | No new service | A stateful service to run and scale |
-| Examples | Solr LTR, [[Elasticsearch Learning to Rank]], [[OpenSearch]], Vespa | [[Metarank]] |
+| Examples | Solr LTR, [[Elasticsearch Learning to Rank]], [[OpenSearch]], [[Vespa Learning to Rank|Vespa]] | [[Metarank]] |
 
 Rule of thumb: in-engine LTR is the lighter integration when all candidates live in one engine's index; an external re-ranker earns its keep for real-time personalization from behavioral events or fusing multiple independent retrievers. See [[Learn-to-Rank with OpenSearch and Metarank]] (the OpenSearch Remote Ranker Plugin RFC is a convergence point between the two) and [[Reranking]].
 
@@ -140,6 +140,7 @@ Unbiased training data → significantly better LTR models.
 - [[Feature Store]] — where ranking features are persisted/served
 - [[Implicit Judgments]] — behavioral labels for training
 - [[Elasticsearch Learning to Rank]] — in-engine LTR in Elasticsearch; the OSC-plugin-vs-native split
+- [[Vespa Learning to Rank]] — in-engine LTR in Vespa; phased ranking with native GBDT/ONNX models
 
 - [[LTR Feature Engineering]] — taxonomy of ranking features (product attributes, query×doc interactions, personalization signals, behavioral features) and selection strategy
 

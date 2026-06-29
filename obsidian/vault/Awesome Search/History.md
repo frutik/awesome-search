@@ -7,6 +7,80 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-06-29 — Vinted Dense Retrieval & Billion-Scale (2 notes)
+
+Finished the Vinted Vespa arc from the "Search Scaling" series — importing only the Vespa-era, retrieval-relevant posts (all pre-Vespa/ops chapters deliberately skipped).
+
+**Articles** — [[Dense Retrieval at Vinted]] (new — [[Laurynas Jasiukėnas]] & [[Dainius Jocas]], 2025-11-18; frozen multilingual-CLIP two-tower query/item towers, 256-dim, hybrid ANN-supplements-lexical capped to top-K, contrastive training 7–10k negatives/positive over >100M pairs, HNSW on 30 content nodes/group × 3 market indices, 500ms budget w/ 350ms approx + 150ms exact fallback, GraalVM/ZGC, <0.02% error, ~50 A/B tests).
+
+**People** — [[Laurynas Jasiukėnas]] (new — Vinted; dense-retrieval co-author).
+
+**Folded in (no new note)** — Search Scaling Chapter 9 "Billion-Scale Search" ([[Dainius Jocas]], 2025-01-10; 1B docs by Nov 2024, ~10× since 2019, mean <20ms at data layer, ~2× headroom) added as a **Postscript** section to [[Vinted - Migrating Search from Elasticsearch to Vespa]].
+
+**Updated** — [[Dense Vector Retrieval]] (Vinted as a production example), [[Vinted]] + [[Dainius Jocas]] (article lists), [[global_toc]] (People L).
+
+---
+
+## 2026-06-29 — Vinted Vespa Match-Features (3 notes)
+
+Captured Vinted's [[Vespa]] `match-features` post — a sharp engineering result tying into [[Vespa Learning to Rank]]: using `match-features` as an in-engine feature store (replacing Redis round-trips) and, more surprisingly, to **cut latency** by skipping the document-summary `.fill()` fetch (two-phase scatter-gather → single round-trip; **P99 ~9ms→3ms**, mean ~430µs at 7.5k RPS). The companion 2023 recommendation-retrieval post was already in the vault — only its authorship was filled in.
+
+**Articles** — [[Optimizing Vespa Latency with Match-Features at Vinted]] (new — [[Dainius Jocas]], 2025-11-06; `match-features` declaration/tensors, Vespa-as-feature-store vs Redis, summary-fetch elimination, latency results).
+
+**People** — [[Dainius Jocas]] (new — Vinted; author of both Vinted Vespa posts), [[Aleksas Kateiva]] (new — Vinted; co-author of the recommendation post).
+
+**Updated** — [[Vespa Learning to Rank]] (`match-features` bullet → online-serving/latency note + link), [[Adopting Vespa for Recommendation Retrieval at Vinted]] (real authors + People section), [[Vinted]] (article list + people), [[global_toc]] (People A/D).
+
+---
+
+## 2026-06-29 — Vinted ES→Vespa Search Migration (2 notes)
+
+Processed Vinted Engineering's "Search Scaling Chapter 8: Goodbye Elasticsearch, Hello Vespa" into a case study — a rare concrete account of a **billion-item, 20k-RPS** production search platform moving off [[Elasticsearch]] to [[Vespa]]. Decisive wins were operational (shard toil eliminated, no hot nodes, change-visibility 300s→5s, server fleet halved to 60), enabled by porting Lucene text analyzers into Vespa.
+
+**Case Studies** — [[Vinted - Migrating Search from Elasticsearch to Vespa]] (new — scale, motivations, 60 content / 12 container / 3 config node topology, Flink + open-sourced Vespa Kafka Connect sink, Go "search contract" middleware with 12 query patterns, 3× ranking depth to 200k candidates, May 2023→Apr 2024 timeline, results).
+
+**People** — [[Ernestas Poškus]] (new — Vinted search-platform engineer; author of the Search Scaling series).
+
+**Updated** — [[Vinted]] (new Search Platform Migration section + frontmatter), [[Case Studies]], [[MOC - Case Studies]] (Architecture & Platform Migration), [[global_toc]] (Case Studies + People), [[Index]] / [[All about Information Retrieval & Search]] (Case Studies list + counts 9→10).
+
+---
+
+## 2026-06-29 — Vespa Learning to Rank (2 notes)
+
+Gave [[Vespa]] the same LTR coverage as [[Elasticsearch Learning to Rank]]. Framing: Vespa doesn't add a dedicated LTR subsystem — GBDT LTR, neural reranking, and MaxSim are all just expressions in its one tensor/ranking-expression engine, runnable across first/second/global phases and ensemble-able.
+
+**Topics** — [[Vespa Learning to Rank]] (new — phased ranking `first-phase`/`second-phase`(content-node, `rerank-count`)/`global-phase`(container, cross-hit); native GBDT import via `xgboost("model.ubj")` / `lightgbm("model.json")` and `onnx(...)` neural models in `models/`; rank features `bm25`/`nativeRank`/`fieldMatch`/`attribute`/`closeness` + tensor MaxSim; feature dumping via `match-features`/`summary-features`/`rank-features`; train-offline/serve-in-engine workflow; Vespa-vs-Elasticsearch LTR table).
+
+**Tools** — [[ONNX]] (new — Open Neural Network Exchange + ONNX Runtime; how neural rankers/cross-encoders are served in-engine, esp. Vespa `global-phase`).
+
+**Updated** — [[Learning to Rank]] and [[Elasticsearch Learning to Rank]] (sibling cross-links; Vespa examples linked), [[Vespa]] (company note: LTR capability + Concepts links), [[XGBoost]] / [[LightGBM]] (Related links to Vespa LTR), [[global_toc]] (new ML & Model Serving tools group), [[Concepts]], [[Index]] / [[All about Information Retrieval & Search]] indices.
+
+**Reclassification** — both engine-specific LTR notes ([[Elasticsearch Learning to Rank]], [[Vespa Learning to Rank]]) moved concept → **topic** (folder `Concepts/` → `Topics/`) to match the `Late Interaction in <engine>` topic pattern; indices and counts adjusted (−2 concepts, +2 topics).
+
+---
+
+## 2026-06-29 — Late Interaction in Vespa (1 note)
+
+Completed the four-engine late-interaction set, bringing [[Vespa]] to the same coverage as Elasticsearch / OpenSearch / Qdrant. Framing: Vespa is the **origin engine for production late interaction** ([[Jo Kristian Bergum]]'s native ColBERT embedder + the sign-bit binarization the field later adopted), and the only one that expresses MaxSim as a general **tensor ranking expression** rather than a dedicated field/function.
+
+**Topics** — [[Late Interaction in Vespa]] (new — mixed `tensor<int8>` storage for ColBERT tokens / long-context windows / ColPali patches; MaxSim written as `reduce(...,max,...)`+`sum` tensor expressions; `hamming` + `unpack_bits` 32× binary quantization; native multi-phase ranking with `nearestNeighbor`/BM25 first phase + query-token pruning; billion-scale ColPali by computing on content nodes — "speed of memory not network"; four-engine comparison table).
+
+**Updated** — [[Vespa]] (company note: ColBERT embedder → topic pointer + Concepts link), [[Late Interaction]] and the three sibling topics ([[Late Interaction in Elasticsearch]], [[Late Interaction in OpenSearch]], [[Late Interaction in Qdrant]]) cross-linked, [[global_toc]], [[Topics]], [[Index]] / [[All about Information Retrieval & Search]] indices.
+
+---
+
+## 2026-06-29 — Late Interaction in OpenSearch & Qdrant (3 notes)
+
+Extended the late-interaction cluster sideways from [[Late Interaction in Elasticsearch]] to the other two engines, so the vault now covers how [[ColBERT]]/[[ColPali]] multi-vector reranking is implemented across all three. Cross-engine takeaway: all three converge on late interaction as a **reranker** over a cheap first stage, differing mainly in packaging.
+
+**Topics** — [[Late Interaction in OpenSearch]] (new — native `lateInteractionScore` painless fn in OpenSearch 3.3+, `object`+`float` multi-vector storage, Lucene `LateInteractionField`/`LateInteractionRescorer` 10.3+, ml-inference ingest/search processors, two-phase retrieval, 10–100× storage); [[Late Interaction in Qdrant]] (new — first-class `multivector_config` with `MultiVectorComparator.MAX_SIM`, `hnsw_config m=0` for rerank-only vectors, single-call `prefetch`+`query` retrieve-then-rerank via the Query API, MUVERA/dense/sparse first stage).
+
+**Concepts** — [[MUVERA]] (new — Multi-Vector Retrieval via Fixed Dimensional Encodings; collapses a ColBERT multivector to one ANN-indexable vector for stage-1 retrieval; the Qdrant analogue of Elastic's "average vectors").
+
+**Updated** — [[Late Interaction in Elasticsearch]] and [[Late Interaction]] (sibling cross-links), [[OpenSearch]] and [[Qdrant Vector DB]] (late-interaction capability + links), [[Elasticsearch vs OpenSearch]] (late-interaction feature row + links), [[global_toc]], [[Topics]], [[Concepts]] indices.
+
+---
+
 ## 2026-06-28 — Quepid Practical Use Cases: Vector & Image Search Evaluation (8 notes)
 
 Added a cluster of practical, "what actually breaks" use cases for [[Quepid]] beyond the canonical lexical workflow — collaborative team judging, and the hacks needed to evaluate **vector** and **image** search. Anchored by a new [[Vector Search Evaluation]] concept that catalogs why judgment-list tooling built for text queries struggles with embeddings (query-length limits, JSON-validity catch-22, non-human-readable queries, non-text results) and the workarounds.
@@ -329,6 +403,12 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-06-29 (Vinted dense retrieval & billion-scale) | 2 | ~634 |
+| 2026-06-29 (Vinted match-features) | 3 | ~632 |
+| 2026-06-29 (Vinted ES→Vespa migration) | 2 | ~629 |
+| 2026-06-29 (Vespa learning to rank + ONNX) | 2 | ~627 |
+| 2026-06-29 (late interaction in Vespa) | 1 | ~625 |
+| 2026-06-29 (late interaction in OpenSearch & Qdrant) | 3 | ~624 |
 | 2026-06-28 (Quepid vector/image eval) | 8 | ~621 |
 | 2026-06-27 (duality topic) | 1 | ~613 |
 | 2026-06-27 (search UX & click models) | 13 | ~612 |

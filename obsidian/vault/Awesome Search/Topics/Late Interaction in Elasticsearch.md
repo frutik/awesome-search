@@ -4,7 +4,7 @@ title: "Late Interaction in Elasticsearch"
 aliases: ["ColPali in Elasticsearch", "rank_vectors", "Late Interaction Vectors in Elasticsearch"]
 tags: [topic, late-interaction, colpali, elasticsearch, vector-search, neural-ir, reranking]
 related_concepts: [Late Interaction, ColPali, ColBERT, Token Pooling, BBQ, HNSW, Dense Vector Retrieval, Bi-Encoder, Cross-Encoder, Reranking]
-related_topics: [Frontier of Search 2025, Search Platforms, Elasticsearch vs OpenSearch, Reasoning Reranking]
+related_topics: [Late Interaction in OpenSearch, Late Interaction in Qdrant, Frontier of Search 2025, Search Platforms, Elasticsearch vs OpenSearch, Reasoning Reranking]
 articles:
   - "[[ColPali & Elasticsearch - How to Search Complex Documents]]"
   - "[[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]"
@@ -72,6 +72,9 @@ Elastic's recommendation: use late-interaction models **for reranking the top-k,
 - [[Reranking]] — late interaction's primary role
 
 ## Related Topics
+- [[Late Interaction in OpenSearch]] — the parallel OpenSearch implementation (`lateInteractionScore`)
+- [[Late Interaction in Qdrant]] — the vector-DB take (native multivector + MUVERA prefetch)
+- [[Late Interaction in Vespa]] — tensor-expression MaxSim and the original 32× binarization
 - [[Frontier of Search 2025]] — late interaction as a 2025 frontier theme
 - [[Search Platforms]] · [[Elasticsearch vs OpenSearch]] — the engine landscape
 - [[Reasoning Reranking]] — the broader rerank-as-its-own-problem shift

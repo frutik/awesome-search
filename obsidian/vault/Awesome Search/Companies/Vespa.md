@@ -18,7 +18,7 @@ Vespa is particularly strong for use cases that mix retrieval, ranking, and ML i
 ## Search Contributions
 
 ### Models and Embeddings
-- **ColBERT embedder** — native integration of [[ColBERT]] late-interaction model into Vespa with asymmetric binarization (32x compression with minimal quality loss). Led by [[Jo Kristian Bergum]]
+- **ColBERT embedder** — native integration of [[ColBERT]] late-interaction model into Vespa with asymmetric binarization (32x compression with minimal quality loss). Led by [[Jo Kristian Bergum]]. See [[Late Interaction in Vespa]] for the indexing/scoring/scaling mechanics
 - Native HNSW approximate nearest neighbor for dense vector retrieval
 - BM25 + dense vector [[Hybrid Search]] as a built-in feature
 
@@ -26,7 +26,7 @@ Vespa is particularly strong for use cases that mix retrieval, ranking, and ML i
 - **LLM-as-Judge for retrieval evaluation** — demonstrated how to use LLMs to generate relevance labels and compute NDCG; showed strong correlation with human judgments (Spearman ρ ≈ 0.85–0.90). Early and influential demonstration of the [[LLM as Judge]] pattern for retrieval
 
 ### Architecture
-- Multi-phase ranking: cheap first-stage rankers → expensive ML models only on candidates
+- Multi-phase ranking: cheap first-stage rankers → expensive ML models only on candidates. Native [[Learning to Rank|LTR]] via GBDT ([[XGBoost]]/[[LightGBM]]) and [[ONNX]] models in ranking expressions — see [[Vespa Learning to Rank]]
 - Tensor computations at serving time without external ML serving infrastructure
 - Native support for structured filtering alongside dense vector search
 
@@ -50,4 +50,4 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 
 ## Concepts
 
-[[ColBERT]] · [[Late Interaction]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]]
+[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]]
