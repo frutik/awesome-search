@@ -10,7 +10,49 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Wed, 01 Jul 2026 11:26:54 GMT</pubDate>
+    <pubDate>Wed, 01 Jul 2026 11:37:11 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>Kleinanzeigen - Vespa Migration for Homepage Feed</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Kleinanzeigen---Vespa-Migration-for-Homepage-Feed</guid>
+    <description><![CDATA[ Kleinanzeigen — Vespa Migration for Homepage Feed Context Kleinanzeigen (Germany’s largest classifieds marketplace) migrated their homepage personalized feed from Elasticsearch to Vespa. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>Vinted - Migrating Search from Elasticsearch to Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</guid>
+    <description><![CDATA[ Vinted — Migrating Search from Elasticsearch to Vespa Field report from “Search Scaling Chapter 8: Goodbye Elasticsearch, Hello Vespa Search Engine” (Ernestas Poškus, Vinted Engineering, 2024-09-05). ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
+    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Note History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>Index</title>
+    <link>https://frutik.github.io/awesome-search/Index</link>
+    <guid>https://frutik.github.io/awesome-search/Index</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Wed, 01 Jul 2026 11:27:28 GMT</pubDate>
   </item><item>
     <title>Amazon OpenSearch Service now offers AI-assisted migrations</title>
     <link>https://frutik.github.io/awesome-search/Articles/Amazon-OpenSearch-Service-now-offers-AI-assisted-migrations</link>
@@ -23,48 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Articles/How-I-learned-Vespa-by-thinking-in-Solr</guid>
     <description><![CDATA[ How I learned Vespa by thinking in Solr Sujit Pal (Technology Research Director, Elsevier Labs) documents how he flattened Vespa’s notoriously steep learning curve by mapping each Solr operation onto its Vespa equivalent. ]]></description>
     <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Amazon Web Services</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Amazon-Web-Services</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Amazon-Web-Services</guid>
-    <description><![CDATA[ Amazon Web Services Amazon’s cloud platform. ]]></description>
-    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Elsevier</title>
-    <link>https://frutik.github.io/awesome-search/Companies/Elsevier</link>
-    <guid>https://frutik.github.io/awesome-search/Companies/Elsevier</guid>
-    <description><![CDATA[ Elsevier Global academic-publishing and information-analytics company. ]]></description>
-    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Sujit Pal</title>
-    <link>https://frutik.github.io/awesome-search/People/Sujit-Pal</link>
-    <guid>https://frutik.github.io/awesome-search/People/Sujit-Pal</guid>
-    <description><![CDATA[ Sujit Pal Technology Research Director at Elsevier Labs, the advanced-technology group within Elsevier. ]]></description>
-    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Apache Solr</title>
-    <link>https://frutik.github.io/awesome-search/Tools/Solr</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/Solr</guid>
-    <description><![CDATA[ Apache Solr Mature open-source enterprise search platform built on Apache Lucene. ]]></description>
-    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Migration between Search Engines</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines</guid>
-    <description><![CDATA[ Migration between Search Engines Moving a production search workload from one engine to another — Solr / Elasticsearch / OpenSearch / Vespa — is a recurring, high-risk theme in search engineering. ]]></description>
-    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 29 Jun 2026 13:21:50 GMT</pubDate>
-  </item><item>
-    <title>Vinted - Migrating Search from Elasticsearch to Vespa</title>
-    <link>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</link>
-    <guid>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</guid>
-    <description><![CDATA[ Vinted — Migrating Search from Elasticsearch to Vespa Field report from “Search Scaling Chapter 8: Goodbye Elasticsearch, Hello Vespa Search Engine” (Ernestas Poškus, Vinted Engineering, 2024-09-05). ]]></description>
-    <pubDate>Mon, 29 Jun 2026 13:21:50 GMT</pubDate>
   </item>
     </channel>
   </rss>
