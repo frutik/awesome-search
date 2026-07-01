@@ -62,15 +62,15 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Tools
 
-[[Quepid]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]]
+[[Quepid]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]]
 
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]] · [[Amazon Web Services]]
 
 **End Users**
-[[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]]
+[[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Elsevier]]
 
 ## Case Studies
 
@@ -83,11 +83,11 @@ Practice-oriented guides — how to DO or deal with something in search.
 ## Stats
 - **~134+** article notes
 - **~83** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ)
-- **27** topic notes (incl. Late Interaction in Elasticsearch/OpenSearch/Qdrant/Vespa, Elasticsearch Learning to Rank, Vespa Learning to Rank)
+- **28** topic notes (incl. Search Engine Migration, Late Interaction in Elasticsearch/OpenSearch/Qdrant/Vespa, Elasticsearch Learning to Rank, Vespa Learning to Rank)
 - **~48** people notes (incl. Geoffrey Hinton, Laurens van der Maaten)
 - **8** case study notes
-- **28** company nodes
-- **6** tool notes (Quepid, Querqy, Elasticsearch, OpenSearch, Qdrant Vector DB, Weaviate Vector DB)
+- **30** company nodes
+- **7** tool notes (Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB)
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

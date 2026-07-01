@@ -10,61 +10,61 @@
     <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
     <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
     <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Mon, 29 Jun 2026 13:21:16 GMT</pubDate>
+    <pubDate>Wed, 01 Jul 2026 11:26:54 GMT</pubDate>
+  </item><item>
+    <title>Amazon OpenSearch Service now offers AI-assisted migrations</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Amazon-OpenSearch-Service-now-offers-AI-assisted-migrations</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Amazon-OpenSearch-Service-now-offers-AI-assisted-migrations</guid>
+    <description><![CDATA[ Amazon OpenSearch Service now offers AI-assisted migrations Amazon Web Services announcement: Migration Assistant for Amazon OpenSearch Service now includes an AI-assisted experience that simplifies moving self-managed Solr, Elasticsearch, or OpenSearch deployments to OpenSearch Serverless or Manage... ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>How I learned Vespa by thinking in Solr</title>
+    <link>https://frutik.github.io/awesome-search/Articles/How-I-learned-Vespa-by-thinking-in-Solr</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/How-I-learned-Vespa-by-thinking-in-Solr</guid>
+    <description><![CDATA[ How I learned Vespa by thinking in Solr Sujit Pal (Technology Research Director, Elsevier Labs) documents how he flattened Vespa’s notoriously steep learning curve by mapping each Solr operation onto its Vespa equivalent. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Amazon Web Services</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Amazon-Web-Services</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Amazon-Web-Services</guid>
+    <description><![CDATA[ Amazon Web Services Amazon’s cloud platform. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Elsevier</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Elsevier</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Elsevier</guid>
+    <description><![CDATA[ Elsevier Global academic-publishing and information-analytics company. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Sujit Pal</title>
+    <link>https://frutik.github.io/awesome-search/People/Sujit-Pal</link>
+    <guid>https://frutik.github.io/awesome-search/People/Sujit-Pal</guid>
+    <description><![CDATA[ Sujit Pal Technology Research Director at Elsevier Labs, the advanced-technology group within Elsevier. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Apache Solr</title>
+    <link>https://frutik.github.io/awesome-search/Tools/Solr</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/Solr</guid>
+    <description><![CDATA[ Apache Solr Mature open-source enterprise search platform built on Apache Lucene. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Migration between Search Engines</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines</guid>
+    <description><![CDATA[ Migration between Search Engines Moving a production search workload from one engine to another — Solr / Elasticsearch / OpenSearch / Vespa — is a recurring, high-risk theme in search engineering. ]]></description>
+    <pubDate>Tue, 30 Jun 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Mon, 29 Jun 2026 13:21:50 GMT</pubDate>
   </item><item>
     <title>Vinted - Migrating Search from Elasticsearch to Vespa</title>
     <link>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</link>
     <guid>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</guid>
     <description><![CDATA[ Vinted — Migrating Search from Elasticsearch to Vespa Field report from “Search Scaling Chapter 8: Goodbye Elasticsearch, Hello Vespa Search Engine” (Ernestas Poškus, Vinted Engineering, 2024-09-05). ]]></description>
-    <pubDate>Mon, 29 Jun 2026 13:17:49 GMT</pubDate>
-  </item><item>
-    <title>MUVERA</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/MUVERA</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/MUVERA</guid>
-    <description><![CDATA[ MUVERA Definition MUVERA (Multi-Vector Retrieval via Fixed Dimensional Encodings) collapses a Late Interaction multi-vector representation (e.g. ]]></description>
-    <pubDate>Mon, 29 Jun 2026 12:44:40 GMT</pubDate>
-  </item><item>
-    <title>Dense Retrieval at Vinted</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Dense-Retrieval-at-Vinted</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Dense-Retrieval-at-Vinted</guid>
-    <description><![CDATA[ Dense Retrieval at Vinted Laurynas Jasiukėnas &amp; Dainius Jocas, Vinted Engineering, 2025-11-18. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Optimizing Vespa Latency with Match-Features at Vinted</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Optimizing-Vespa-Latency-with-Match-Features-at-Vinted</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Optimizing-Vespa-Latency-with-Match-Features-at-Vinted</guid>
-    <description><![CDATA[ Optimizing Vespa Latency with Match-Features at Vinted Dainius Jocas, Vinted Engineering, 2025-11-06. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Aleksas Kateiva</title>
-    <link>https://frutik.github.io/awesome-search/People/Aleksas-Kateiva</link>
-    <guid>https://frutik.github.io/awesome-search/People/Aleksas-Kateiva</guid>
-    <description><![CDATA[ Aleksas Kateiva Engineer at Vinted; co-author of the Vinted Engineering post on adopting Vespa for recommendation retrieval (two-tower ANN with metadata prefiltering). ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Dainius Jocas</title>
-    <link>https://frutik.github.io/awesome-search/People/Dainius-Jocas</link>
-    <guid>https://frutik.github.io/awesome-search/People/Dainius-Jocas</guid>
-    <description><![CDATA[ Dainius Jocas Search engineer at Vinted; a recurring author of the Vinted Engineering posts on Vespa — covering recommendation retrieval and low-latency ranking with match-features. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Ernestas Poškus</title>
-    <link>https://frutik.github.io/awesome-search/People/Ernestas-Po%C5%A1kus</link>
-    <guid>https://frutik.github.io/awesome-search/People/Ernestas-Po%C5%A1kus</guid>
-    <description><![CDATA[ Ernestas Poškus Search-platform engineer at Vinted. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Laurynas Jasiukėnas</title>
-    <link>https://frutik.github.io/awesome-search/People/Laurynas-Jasiuk%C4%97nas</link>
-    <guid>https://frutik.github.io/awesome-search/People/Laurynas-Jasiuk%C4%97nas</guid>
-    <description><![CDATA[ Laurynas Jasiukėnas Engineer at Vinted; co-author of the Vinted Engineering post on dense retrieval — a multilingual-CLIP two-tower model serving hybrid semantic search on Vespa. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>ONNX</title>
-    <link>https://frutik.github.io/awesome-search/Tools/ONNX</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/ONNX</guid>
-    <description><![CDATA[ ONNX ONNX (Open Neural Network Exchange) is an open, framework-agnostic format for representing machine-learning models, with ONNX Runtime as the high-performance inference engine. ]]></description>
-    <pubDate>Sun, 28 Jun 2026 22:00:00 GMT</pubDate>
+    <pubDate>Mon, 29 Jun 2026 13:21:50 GMT</pubDate>
   </item>
     </channel>
   </rss>

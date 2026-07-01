@@ -47,6 +47,7 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[Exploring Hierarchical Navigable Small World]]
 
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]
+- [[How I learned Vespa by thinking in Solr]] — [[Sujit Pal]] ([[Elsevier]]); onboarding to Vespa via Solr analogies
 
 ## Concepts
 

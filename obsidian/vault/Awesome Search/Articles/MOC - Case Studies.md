@@ -20,6 +20,10 @@ Curated map of real-world search builds, grouped by the problem each team was so
 
 ## Architecture & Platform Migration
 
+- [[Migration between Search Engines]] — topic hub: Solr/ES/OpenSearch/Vespa migration patterns (schema/analyzer parity, live-traffic sync, validation)
+- [[Amazon OpenSearch Service now offers AI-assisted migrations]] — AWS Migration Assistant; agentic Solr/ES/OpenSearch → OpenSearch
+- [[How I learned Vespa by thinking in Solr]] — cross-engine mental mapping (Solr → Vespa) as an onboarding aid
+
 - [[Netflix - Content Search Architecture]] — search architecture for a content catalog
 - [[Canva - Search Pipeline Modernization]] — modernizing a legacy search pipeline
 - [[Bonsai - Designing Search for a Relational Database]] — building search on top of a relational store

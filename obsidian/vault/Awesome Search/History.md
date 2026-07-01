@@ -7,6 +7,24 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-07-01 — Solr↔Vespa Onboarding & AI-Assisted Migration (7 notes)
+
+Processed two Clippings articles that both orbit **cross-engine migration** — and created a [[Migration between Search Engines]] topic to anchor them alongside the existing ES→Vespa case studies.
+
+**Articles** — [[How I learned Vespa by thinking in Solr]] (new — [[Sujit Pal]], [[Elsevier]] Labs, 2021-02-24; a Solr→Vespa mapping table — core≈application, `managed-schema`≈`.sd`, MLT≈`nearestNeighbor` ANN, YQL≈SQL — MVP on CORD-19 + SPECTER embeddings via [[HNSW]]); [[Amazon OpenSearch Service now offers AI-assisted migrations]] (new — [[Amazon Web Services]], 2026-06-23; Migration Assistant's agent-guided (Kiro / Claude Code) workflow for Solr/ES/OpenSearch → Amazon OpenSearch, now with live-traffic capture/replay for Solr).
+
+**Topics** — [[Migration between Search Engines]] (new hub — schema/analyzer parity, historical + live-traffic sync, relevance validation; groups the hand-built Vinted/Kleinanzeigen ES→Vespa migrations, AWS's tool-assisted OpenSearch migration, and Solr→Vespa mental mapping).
+
+**Tools** — [[Solr]] (new — Apache Lucene-based engine; cores, `managed-schema`/`solrconfig.xml`, MLT, function queries; common migration source).
+
+**People** — [[Sujit Pal]] (new — Technology Research Director, Elsevier Labs).
+
+**Companies** — [[Elsevier]] (new — Elsevier Labs), [[Amazon Web Services]] (new — Amazon OpenSearch Service / Migration Assistant).
+
+**Updated** — [[Vespa]] + [[OpenSearch]] (article lists), [[Vinted - Migrating Search from Elasticsearch to Vespa]] + [[Kleinanzeigen - Vespa Migration for Homepage Feed]] (linked to the migration topic), [[People]], [[global_toc]] (Tools/Companies/Topics/People), [[index|index.md]] (Tools/Companies/Stats: 7 tools, 30 companies, 28 topics).
+
+---
+
 ## 2026-06-29 — Vinted Dense Retrieval & Billion-Scale (2 notes)
 
 Finished the Vinted Vespa arc from the "Search Scaling" series — importing only the Vespa-era, retrieval-relevant posts (all pre-Vespa/ops chapters deliberately skipped).
@@ -403,6 +421,7 @@ The founding batch. Core articles, concept definitions, MOCs, and key people wer
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-07-01 (Solr↔Vespa onboarding & AI-assisted migration) | 7 | ~641 |
 | 2026-06-29 (Vinted dense retrieval & billion-scale) | 2 | ~634 |
 | 2026-06-29 (Vinted match-features) | 3 | ~632 |
 | 2026-06-29 (Vinted ES→Vespa migration) | 2 | ~629 |

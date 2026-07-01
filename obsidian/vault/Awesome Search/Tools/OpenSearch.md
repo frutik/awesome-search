@@ -127,6 +127,7 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 - [[OpenSearch vs. Elasticsearch in 2025 - What's Changed and What Hasn't]] — Dattell; licensing (SSPL vs Apache 2.0), features, plugins, ecosystem
 
 - [[What is OpenSearch and Why You Should Use It]] — [[Leo Schuster]] / [[Bonsai]]; introductory explainer (the Elasticsearch fork, SSPL→Apache 2.0, plugins)
+- [[Amazon OpenSearch Service now offers AI-assisted migrations]] — [[Amazon Web Services]]; agentic Migration Assistant moving Solr/ES/OpenSearch → Amazon OpenSearch; see [[Migration between Search Engines]]
 
 ## Comparison
 

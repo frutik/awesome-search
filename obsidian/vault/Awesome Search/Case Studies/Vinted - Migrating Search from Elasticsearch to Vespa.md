@@ -89,3 +89,4 @@ A rare, concrete account of a **billion-item, 20k-RPS production search platform
 - [[Adopting Vespa for Recommendation Retrieval at Vinted]] — Vinted's other Vespa use (recommendation retrieval / ANN)
 - [[Elasticsearch vs OpenSearch]] · [[Search Platforms]] — engine-selection context
 - [[Late Interaction in Vespa]] · [[Vespa Learning to Rank]] — what Vespa's ranking framework enables next
+- [[Migration between Search Engines]] — the broader platform-migration topic this case study anchors

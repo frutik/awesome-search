@@ -58,3 +58,4 @@ The `relations` document defines similarity groups: `color.red` and `color.blue`
 
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]]
 - [[Adopting Vespa for Recommendation Retrieval at Vinted]]
+- [[Migration between Search Engines]] — the broader platform-migration topic

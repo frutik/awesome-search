@@ -70,7 +70,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Dimensionality Reduction vs Quantization]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
-[[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Elasticsearch vs OpenSearch]]
+[[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]]
 
 ### Quality & Operations
 [[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Duality in Measuring Search]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
@@ -89,7 +89,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Tools
 
 ### Search & Vector Engines
-[[Elasticsearch]] · [[OpenSearch]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
+[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
@@ -106,7 +106,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Baymard Institute]] · [[Bonsai]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
+[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
 
 ---
 
@@ -158,7 +158,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 **R** — [[Ravindra Harige]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Rudolf Batt]]
 
-**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]]
+**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
 **T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 

@@ -65,7 +65,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Ravindra Harige]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Rudolf Batt]]
 
 ## S
-- [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Stuart Cam]] · [[Stéphane Clinchant]]
+- [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
 ## T
 - [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thomas Veasey]] · [[Trey Grainger]] · [[Tullie Murrell]]
