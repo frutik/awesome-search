@@ -12,7 +12,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Concepts
 
 ### Lexical & Sparse Retrieval
-[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[Sparse Embeddings]] · [[Collocations]]
+[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]]
 
 ### Dense Retrieval & Embeddings
 [[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
@@ -54,7 +54,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Agentic Search]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]]
 
 ### Model Fine-Tuning & Serving
-[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]]
+[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]]
 
 ### Search Architecture & Operations
 [[Search Architecture]] · [[Retrieval Pipeline]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
@@ -97,6 +97,9 @@ A map of every note in the vault organized by category and theme.  This index tr
 ### Ranking & ML Libraries
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[Metarank]] · [[eland]]
 
+### Embedding Training
+[[Sentence Transformers]] · [[qdrant-sparse-finetune]]
+
 ### Relevance & Query Tooling
 [[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[SID-1]]
 
@@ -126,6 +129,8 @@ Conference talks and recorded presentations.
 
 [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — [[Roman Grebennikov]], Findify; [[MICES]] 2019 talk on real-time LTR personalization — [[Position Bias]] feedback loops, shuffled [[Exploration vs Exploitation]] segments, cross-merchant generic models, purchase-weighted perfect rankings
 
+[[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[Evgeniya Sukhodolskaya]], [[Qdrant]]; [[MICES]] 2026 talk on making [[SPLADE]] fine-tuning approachable — why [[MS MARCO]]-trained sparse models misfire on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
+
 ---
 
 ## Conferences
@@ -148,7 +153,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
 
-**E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]]
+**E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 
 **F** — [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
 
@@ -178,7 +183,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
-**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
+**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 **U** — [[Udi Manber]]
 

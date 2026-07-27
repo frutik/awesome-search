@@ -33,7 +33,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Core Concepts by Domain
 
 ### Retrieval
-[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
+[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[miniCOIL]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
 
 ### Embeddings
 [[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
@@ -87,6 +87,8 @@ Conference talks and recorded presentations.
 
 [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — Findify @ MICES 2019; real-time LTR personalization, position-bias feedback loops, shuffled exploration segments, purchase-weighted perfect rankings
 
+[[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — Qdrant @ MICES 2026; why off-the-shelf [[SPLADE]] misfires on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
+
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Skip Everling]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
@@ -95,15 +97,15 @@ Conference talks and recorded presentations.
 
 Counted 2026-07-27.
 
-- **301** article notes
-- **159** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
+- **302** article notes
+- **161** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining)
 - **50** topic notes (incl. Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes)
-- **121** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
+- **123** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
 - **12** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
-- **29** tool notes (incl. Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector)
+- **31** tool notes (incl. Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune)
 - **5** dataset notes ([[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
-- **4** video notes · **4** conference notes
+- **5** video notes · **4** conference notes
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

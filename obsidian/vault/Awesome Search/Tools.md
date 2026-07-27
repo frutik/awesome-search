@@ -46,6 +46,10 @@ The software landscape for building and evaluating search — engines, vector da
 - [[VectorChord]]
 - [[ParadeDB]]
 
+## Embedding training & fine-tuning
+- [[Sentence Transformers]] — the standard library for training bi-encoders, cross-encoders, and (v5+) sparse encoders
+- [[qdrant-sparse-finetune]] — [[SPLADE]] fine-tuning on a product catalog, with synthetic query generation and hard-negative mining
+
 ## Other
 - [[SID-1]]
 

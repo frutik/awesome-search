@@ -30,6 +30,7 @@ created: 2026-07-05
 - **[[Rene Kriegler]]** — organizer; his talk [[Rene Kriegler - Query Relaxation]] reflects the MICES practitioner tradition ([[Query Relaxation]] as a query recommendation problem).
 - **[[Andreas Wagner]]** — MICES talk on diverse result sets and how result positioning shapes basket composition (see [[Search Result Diversity]]).
 - **[[Roman Grebennikov]]** (Findify, 2019) — [[Roman Grebennikov - Personalizing Search Results in Real-Time]]: learn-to-rank across ~1,500 merchants, [[Position Bias]] feedback loops, and shuffled [[Exploration vs Exploitation]] segments.
+- **[[Evgeniya Sukhodolskaya]]** ([[Qdrant]], 2026) — [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]]: [[SPLADE]] fine-tuning for catalogs, [[Hard Negative Mining]] with a search engine in the training loop.
 
 ## Related
 

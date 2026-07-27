@@ -6,11 +6,35 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+  </item><item>
     <title>MS MARCO</title>
     <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
     <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
     <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 13:32:55 GMT</pubDate>
+    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+  </item><item>
+    <title>Fine-Tuning Sparse Embeddings for E-Commerce Search (Parts 1–5)</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-Sparse-Embeddings-for-E-Commerce-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-Sparse-Embeddings-for-E-Commerce-Search</guid>
+    <description><![CDATA[ Fine-Tuning Sparse Embeddings for E-Commerce Search A five-part engineering series by Thierry Damiba (Qdrant) that fine-tunes a SPLADE sparse retriever on e-commerce catalog data, measures it against BM25 and off-the-shelf SPLADE, tests how far it transfers across catalogs, and packages the whole pi... ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>Principal Component Analysis: an embedding shrink-ray</title>
     <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</link>
@@ -18,53 +42,29 @@
     <description><![CDATA[ Principal Component Analysis: an embedding shrink-ray Author: Doug Turnbull A walkthrough of using PCA to reduce embedding dimensionality, with a recall experiment on MS MARCO quantifying what each level of compression costs. ]]></description>
     <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Learning to Rank</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
-    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
-    <pubDate>Sun, 19 Jul 2026 09:59:02 GMT</pubDate>
+    <title>Hard Negative Mining</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Hard-Negative-Mining</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Hard-Negative-Mining</guid>
+    <description><![CDATA[ Hard Negative Mining Definition Hard negative mining is the practice of selecting difficult irrelevant examples for contrastive retrieval training — documents that look relevant to the current model but are not. ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Sun, 19 Jul 2026 09:59:02 GMT</pubDate>
+    <title>miniCOIL</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/miniCOIL</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/miniCOIL</guid>
+    <description><![CDATA[ miniCOIL Definition miniCOIL is a lightweight Learned Sparse Retrieval model from Qdrant, introduced by Evgeniya Sukhodolskaya in May 2025. ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
+    <title>Evgeniya Sukhodolskaya</title>
+    <link>https://frutik.github.io/awesome-search/People/Evgeniya-Sukhodolskaya</link>
+    <guid>https://frutik.github.io/awesome-search/People/Evgeniya-Sukhodolskaya</guid>
+    <description><![CDATA[ Evgeniya Sukhodolskaya Senior Developer Advocate at Qdrant, based in Munich. ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>LambdaMART</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/LambdaMART</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/LambdaMART</guid>
-    <description><![CDATA[ LambdaMART Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>NDCG (Normalized Discounted Cumulative Gain)</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/NDCG</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/NDCG</guid>
-    <description><![CDATA[ NDCG (Normalized Discounted Cumulative Gain) Definition NDCG is the most widely used ranking quality metric in information retrieval. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>Position Bias</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Position-Bias</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Position-Bias</guid>
-    <description><![CDATA[ Position Bias Definition Position bias is the tendency for users to click on higher-ranked search results independent of their actual relevance — simply because they appear earlier. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>Roman Grebennikov</title>
-    <link>https://frutik.github.io/awesome-search/People/Roman-Grebennikov</link>
-    <guid>https://frutik.github.io/awesome-search/People/Roman-Grebennikov</guid>
-    <description><![CDATA[ Roman Grebennikov Engineer and co-creator/maintainer of Metarank, the open-source LTR secondary re-ranker. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>Personalization in Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Personalization-in-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Personalization-in-Search</guid>
-    <description><![CDATA[ Personalization in Search Personalization adapts search results to the individual user — their history, preferences, context, and intent — rather than returning the same ranked list for everyone. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
+    <title>Thierry Damiba</title>
+    <link>https://frutik.github.io/awesome-search/People/Thierry-Damiba</link>
+    <guid>https://frutik.github.io/awesome-search/People/Thierry-Damiba</guid>
+    <description><![CDATA[ Thierry Damiba Developer relations engineer at Qdrant. ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

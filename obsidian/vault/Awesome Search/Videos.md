@@ -15,5 +15,7 @@ Conference talks and recorded presentations on search & information retrieval �
 - [[Rene Kriegler - Query Relaxation]] — [[Rene Kriegler]] ([[OpenSource Connections]]); reframes [[Query Relaxation]] as a query *recommendation* problem and compares word-shape heuristics, term frequency, [[Word2Vec]] and a neural network for predicting which query term to drop. Companion to [[Query Relaxation]].
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — [[Roman Grebennikov]] (Findify); [[MICES]] 2019 war stories on real-time LTR personalization: [[Position Bias]] feedback loops, the ~1% shuffled exploration segment, one generic cross-merchant model, and purchase-weighted "perfect rankings" (the Stanley bong story). Companion to [[Exploration vs Exploitation]] and [[Position Bias]].
 
+- [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[Evgeniya Sukhodolskaya]] ([[Qdrant]]); [[MICES]] 2026 on making [[SPLADE]] fine-tuning approachable: why off-the-shelf sparse models trained on [[MS MARCO]] misfire on catalogs, the ANCE loop that puts a search engine inside training, and the specialize-vs-generalize trade. Companion to [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] and [[Hard Negative Mining]].
+
 ## Related
 - [[Case Studies]] · [[Topics]] · [[Concepts]] · [[Tools]] · [[People]]

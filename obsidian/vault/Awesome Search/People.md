@@ -23,7 +23,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
 
 ## E
-- [[Elzbieta Jakubowska]] · [[Erik Hatcher]] · [[Eugene Yan]]
+- [[Elzbieta Jakubowska]] · [[Erik Hatcher]] · [[Eugene Yan]] · [[Evgeniya Sukhodolskaya]]
 
 ## F
 - [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
@@ -68,7 +68,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
 ## T
-- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thomas Veasey]] · [[Trey Grainger]] · [[Tullie Murrell]]
+- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 ## U
 - [[Udi Manber]]

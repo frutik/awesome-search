@@ -55,6 +55,14 @@ Because it uses multi-class labels (not binary), it supports [[NDCG]] evaluation
 
 See [[ESCI-S Dataset]] for extended metadata built on top of this dataset.
 
+## Use as Training Data
+
+Beyond evaluation, ESCI is a practical fine-tuning corpus for retrieval models — 1.2M+ labeled pairs is enough to adapt a model to catalog language. The standard construction treats **Exact and Substitute as positives** and drops Complement, since a complementary product is a different intent rather than a relevance signal.
+
+[[Fine-Tuning Sparse Embeddings for E-Commerce Search]] trains [[SPLADE]] this way, reaching nDCG@10 0.389 vs [[BM25]]'s 0.305 on a 100k-product subsample. That work also documents the limits of ESCI-derived models: they **do not transfer** cleanly to other catalogs ([[WANDS Dataset]], [[Home Depot Product Search Relevance]]) and lose badly to BM25 on [[MS MARCO]].
+
+A caveat for training use: ESCI was crowdsourced before LLM labeling, so label noise should be expected.
+
 ## Related Concepts
 
 - [[Judgment Lists]] — ESCI is a large-scale public judgment list
@@ -62,6 +70,16 @@ See [[ESCI-S Dataset]] for extended metadata built on top of this dataset.
 - [[Learning to Rank]] — a primary use case for this dataset
 - [[Semantic Search]] — embedding models evaluated against ESCI
 - [[WANDS Dataset]] — comparable annotation dataset from Wayfair
+- [[Embedding Fine-tuning]] · [[Hard Negative Mining]] — ESCI as training rather than evaluation data
+- [[SPLADE]] · [[Learned Sparse Retrieval]] — models fine-tuned on it
+
+## Articles
+
+- [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — ESCI as a SPLADE training corpus
+
+## Videos
+
+- [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]]
 
 ## Source
 

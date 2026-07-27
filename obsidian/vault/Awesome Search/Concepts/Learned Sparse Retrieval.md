@@ -52,7 +52,12 @@ Without explicit constraints, transformer MLM heads produce dense activation pat
 - **L1 regularization**: directly penalizes the number of non-zero dimensions
 
 ### Contrastive Learning with Hard Negatives
-Effective LSR training mines **hard negatives** — documents that are superficially relevant but not truly relevant — to force the model to learn fine-grained term discrimination.
+Effective LSR training mines **hard negatives** — documents that are superficially relevant but not truly relevant — to force the model to learn fine-grained term discrimination. See [[Hard Negative Mining]]: the ANCE pattern re-mines negatives from a live index against each checkpoint, worth 5–10% on top of basic training and cheap to run because sparse retrieval mines at sub-millisecond per query.
+
+### Domain Fine-Tuning
+Public LSR checkpoints are overwhelmingly trained on [[MS MARCO]] — web queries against Wikipedia passages — which is a poor proxy for a product catalog or any specialized corpus. Fine-tuning on in-domain data is a large lever: [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] reports **+27.5% nDCG@10 over BM25** for a catalog-tuned SPLADE where the off-the-shelf model managed only +7.2%.
+
+The trade-off is generality. A model tuned on one catalog is not a general e-commerce model — it can lose to the off-the-shelf baseline on a neighboring retailer and collapse on general web search. Multi-domain training recovers consistency at the cost of peak in-domain accuracy. [[Sentence Transformers]] v5 and [[qdrant-sparse-finetune]] are the practical tooling.
 
 ---
 
@@ -67,6 +72,7 @@ Effective LSR training mines **hard negatives** — documents that are superfici
 | uniCOIL | Castorini Lab | Scalar weights per existing token only; no expansion; fast |
 | DeepImpact | Castorini Lab | Token-level importance without expansion |
 | Neural Sparse | OpenSearch/AWS | Open-source SPLADE-style model for OpenSearch |
+| [[miniCOIL]] | [[Qdrant]] | Extends the BM25 formula with a 4-dim semantic component per word; BM25 fallback for out-of-vocabulary terms |
 
 [[SPLADE]] and [[ELSER]] are the dominant production-grade LSR models. uniCOIL and DeepImpact trade effectiveness for speed.
 
@@ -133,6 +139,9 @@ LSR models are primarily evaluated on **BEIR** (Benchmarking IR) — 18 heteroge
 - [[Dense Vector Retrieval]] — complementary approach; combined in [[Hybrid Search]]
 - [[Cross-Encoder]] — often used as teacher model for LSR distillation
 - [[Hybrid Search]] — LSR as the sparse leg
+- [[miniCOIL]] — BM25-extending alternative built for generalization
+- [[Hard Negative Mining]] — how LSR training gets its negative signal
+- [[Embedding Fine-tuning]] — the dense-side counterpart
 
 ## Related Articles
 
@@ -140,9 +149,16 @@ LSR models are primarily evaluated on **BEIR** (Benchmarking IR) — 18 heteroge
 - [[Hybrid Search SPLADE Sparse Encoder]]
 - [[Elastic Learned Sparse Encoder (ELSER) Retrieval Performance]]
 - [[SPLADE - Sparse Bi-Encoder BERT Model for First-Stage Ranking]]
+- [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — domain adaptation with full benchmarks
+
+## Videos
+
+- [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026
 
 ## People
 
 - [[Thibault Formal]] — SPLADE co-inventor, NAVER LABS Europe
 - [[Stéphane Clinchant]] — SPLADE co-inventor, NAVER LABS Europe
 - [[Thomas Veasey]] — ELSER, Elastic
+- [[Evgeniya Sukhodolskaya]] — miniCOIL, sparse neural retrieval, [[Qdrant]]
+- [[Thierry Damiba]] — SPLADE domain fine-tuning, [[Qdrant]]

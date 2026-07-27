@@ -7,6 +7,20 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-07-27 — SPLADE domain fine-tuning: MICES talk + Qdrant's five-part series (8 notes)
+
+Processed [[Evgeniya Sukhodolskaya]]'s [[MICES]] 2026 talk [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] from YouTube captions, then followed it to its written source and captured that too — the talk deliberately quotes **no numbers**, so [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] ([[Thierry Damiba]], [[Qdrant]], Parts 1–5) carries the evidence and the video note carries the argument, each pointing at the other.
+
+The central claim: off-the-shelf [[SPLADE]] is trained on [[MS MARCO]] — web queries against Wikipedia passages — and catalogs are not web search. Fine-tuning on [[Amazon ESCI Dataset]] (Exact + Substitute as positives, from `distilbert-base-uncased`) reached **nDCG@10 0.389 vs BM25's 0.305 (+27.5%)** where the off-the-shelf model managed +7.2%. The **negative results matter as much**: the ESCI-tuned model *loses* to off-the-shelf SPLADE on [[Home Depot Product Search Relevance]] (0.384 vs 0.391) and collapses on MS MARCO (0.751 vs BM25's 0.915) — a model tuned on one catalog is not a general e-commerce model. Multi-domain training trades −4.4% in-domain for +6.8% Home Depot and +10.4% MS MARCO recovery.
+
+**Concepts** — [[Hard Negative Mining]] (new hub; the vault referenced hard negatives across 8+ notes with no note of its own — the ANCE loop that indexes each checkpoint into a live search engine, retrieves, and keeps what the model wrongly believes relevant; worth 5–10% on top of basic training, plus the false-negative risk conceded in Q&A). [[miniCOIL]] (new — Sukhodolskaya's BM25-extending sparse retriever, 4 dims per word, notable for the **BM25 fallback on out-of-vocabulary terms** that SPLADE structurally lacks; wins 4 of 5 BEIR datasets it wasn't trained on).
+
+**Tools** — [[Sentence Transformers]] (new — referenced by 20+ notes as plain text with no page; v5 sparse-encoder modules `MLMTransformer`/`SpladePooling` and `SpladeLoss`), [[qdrant-sparse-finetune]] (new — the framework the series produced; synthetic query generation via litellm, config defaults, CLI/Python/dashboard, and its author's own "slightly shaky" caveats including evaluation that runs on training data by default).
+
+**People** — [[Evgeniya Sukhodolskaya]] (new — Qdrant DevRel, Munich; miniCOIL), [[Thierry Damiba]] (new — Qdrant; the five-part series).
+
+**Updated** — [[SPLADE]] (new *Domain Fine-Tuning* section: the numbers, full vs inference-free for intent-heavy e-commerce, and the vocabulary limit), [[Learned Sparse Retrieval]] (ANCE + domain fine-tuning under Training Paradigms; miniCOIL added to the model family), [[Amazon ESCI Dataset]] (new *Use as Training Data* section — the E+S-as-positives convention and the transfer caveat), [[Sparse Embeddings]], [[Embedding Fine-tuning]], [[Qdrant]], [[MICES]], [[Videos]]. Registered in [[global_toc]] (Concepts, a new Tools › Embedding Training group, Videos, People), [[Concepts]], [[Tools]], [[People]], [[Index]], [[index|index.md]], and [[All about Information Retrieval & Search]].
+
 ## 2026-07-27 — PCA embedding compression, with the vault's first measured DR numbers (2 notes)
 
 Processed [[Doug Turnbull]]'s [[Principal Component Analysis - an embedding shrink-ray]] from the `Clippings/` capture — covariance matrix → eigendecomposition → truncation, framed for search people as "a series of 'scoring functions' of decreasing importance," with the food-embedding analogy (sweet-ness / fruit-ness / vegetable-ness) carrying the intuition. Created [[MS MARCO]], filling a long-standing gap: the corpus was referenced across ~15 existing article notes with no note of its own.
@@ -280,6 +294,8 @@ Entries for **2026-06-18 and earlier** have been archived to [[History-2]].
 
 | Date | Notes Added | Running Total (approx.) |
 |------|------------|------------------------|
+| 2026-07-27 (SPLADE fine-tuning: MICES talk + Qdrant series) | 8 | ~657 |
+| 2026-07-27 (PCA embedding shrink-ray) | 2 | ~649 |
 | 2026-07-12 (Grebennikov MICES 2019 personalization talk) | 2 | ~647 |
 | 2026-07-03 (relevance workbench, relevance studio & RRE) | 4 | ~645 |
 | 2026-07-01 (Solr↔Vespa onboarding & AI-assisted migration) | 7 | ~641 |

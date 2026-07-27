@@ -32,7 +32,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[GGUF]]
 
 ## H
-- [[HNSW]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
+- [[HNSW]] · [[Hard Negative Mining]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
 
 ## I
 - [[IVF]] · [[Implicit Judgments]] · [[Intent Drift]] · [[Interleaving]]
@@ -47,7 +47,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[LSH]] · [[LLM as Judge]] · [[LTR Feature Engineering]] · [[LambdaLoss]] · [[LambdaMART]] · [[Late Interaction]] · [[Learned Sparse Retrieval]] · [[Learning to Rank]] · [[Linear Score Combination]] · [[Listwise Relevance Evaluation]] · [[LoRA]]
 
 ## M
-- [[MAP]] · [[MMR]] · [[MRR]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[Modality Gap]] · [[MonoT5]] · [[Multimodal Embeddings]]
+- [[MAP]] · [[MMR]] · [[MRR]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[Modality Gap]] · [[MonoT5]] · [[Multimodal Embeddings]] · [[miniCOIL]]
 
 ## N
 - [[NDCG]]

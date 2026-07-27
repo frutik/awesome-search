@@ -29,7 +29,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Core Concepts by Domain
 
 ### Retrieval
-[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
+[[BM25]] · [[Dense Vector Retrieval]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[miniCOIL]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[SIRA]]
 
 ### Embeddings
 [[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
@@ -82,6 +82,8 @@ Conference talks and recorded presentations.
 [[Rene Kriegler - Query Relaxation]] — OpenSource Connections; query relaxation as a recommendation problem, comparing heuristic, term-frequency, word2vec and neural approaches to predicting which query term to drop
 
 [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — Findify @ MICES 2019; real-time LTR personalization, position-bias feedback loops, shuffled exploration segments, purchase-weighted perfect rankings
+
+[[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — Qdrant @ MICES 2026; why off-the-shelf [[SPLADE]] misfires on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
 
 ## Key People
 
