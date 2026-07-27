@@ -95,6 +95,7 @@ Conference talks and recorded presentations.
 - **10** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa)
 - **30** company nodes (incl. Amazon Web Services, Elsevier)
 - **7** tool notes (Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB)
+- **5** dataset notes ([[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

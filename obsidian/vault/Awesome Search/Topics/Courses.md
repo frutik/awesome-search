@@ -84,6 +84,23 @@ Good breadth-first exposure to where the field is heading; pairs well with the h
 
 ---
 
+### Build your own vector database
+**Instructor:** [[Doug Turnbull]]
+
+A build-it-yourself course on embedding retrieval internals — implementing the core pieces
+rather than consuming a vector database as a black box. Announced as upcoming in July 2026.
+
+- **Covers:** embeddings and indexing through to search and retrieval — "what makes embedding retrieval fast, relevant, and useful in real AI systems"
+- **Related concepts:** [[Embeddings]] · [[Dense Vector Retrieval]] · [[Approximate Nearest Neighbor Search]] · [[HNSW]] · [[Vector Quantization]] · [[Dimensionality Reduction]]
+
+🔗 https://maven.com/softwaredoug/vectordb
+
+The implementation-level counterpart to the conceptual courses above. Turnbull's public
+writing in this vein — e.g. [[Principal Component Analysis - an embedding shrink-ray]], built
+on his `vector-bench` experiments — gives a sense of the material.
+
+---
+
 ## University Courses & MOOCs
 
 Freely available academic material, good for rigor:

@@ -49,6 +49,8 @@ Both techniques compress embedding vectors to reduce memory and speed up ANN sea
 
 **[[PCA]]** — linear projection onto eigenvectors of maximum variance. One-time calibration on representative data; fast projection for new vectors. 2–4× compression is common; 6× starts introducing meaningful quality loss. Best when embedding dimensions have low-variance "dead zones."
 
+*Measured data point* ([[Principal Component Analysis - an embedding shrink-ray]], MiniLM on [[MS MARCO]]): 1.9× (384→200) → 0.879 recall; 3.8× (384→100) → 0.5714; 7.7× (384→50) → 0.2029. Degradation is steeply non-linear, and the usable ceiling here sits closer to 2× than 4× — confirming that the compression budget must be measured per model and corpus rather than assumed.
+
 **[[UMAP]] / [[t-SNE]]** — non-linear, cluster-preserving projections. Useful for *visualization* and exploratory analysis, but **not for search retrieval**: t-SNE is non-parametric (can't project new queries); UMAP can project new points but output isn't a meaningful distance space for ANN.
 
 **[[Matryoshka Embeddings]]** — training-time technique; model is trained so the first N dimensions already form a good representation. No projection needed — just truncate. **Dimension-flexible at inference time**: choose 64, 128, 256, 512 without re-encoding. Requires a model trained with MRL; cannot be retrofitted to arbitrary embeddings.
@@ -71,7 +73,7 @@ Both techniques compress embedding vectors to reduce memory and speed up ANN sea
 
 **Use BQ/BBQ** when you need aggressive compression and can absorb rescoring cost. Benchmark recall degradation first — isotropic models (e.g., text-embedding-3) work well; others may not.
 
-**Use PCA** when you're confident your embeddings have low-variance dimensions. Good empirical signal: explained-variance curve drops steeply after k components.
+**Use PCA** when you're confident your embeddings have low-variance dimensions. Good empirical signal: explained-variance curve drops steeply after k components. The inverse is the disqualifier — a flat eigenvalue spectrum ("1st eigenvalue is 15 and the 384th is 13") means an already-efficient model with no redundancy to harvest.
 
 **Combine DR + Quantization** for maximum compression. PCA 768→256 (3×) followed by SQ8 (4×) = 12× total reduction with modest quality loss — better than either alone at the same storage budget.
 
@@ -110,6 +112,7 @@ Quantization changes the *number of bits* needed to represent a coordinate, whic
 - [[t-SNE Clearly Explained]] — t-SNE with CNN application
 - [[Exploring Hierarchical Navigable Small World]] — PCA as ANN preprocessing
 - [[Introduction to Matryoshka Embedding Models]] — MRL training technique
+- [[Principal Component Analysis - an embedding shrink-ray]] — PCA walkthrough with a measured recall-vs-dimensions table on [[MS MARCO]]
 
 ### Quantization
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — OSQ vs TurboQuant benchmarks

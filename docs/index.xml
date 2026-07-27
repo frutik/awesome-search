@@ -6,11 +6,29 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Doug Turnbull</title>
-    <link>https://frutik.github.io/awesome-search/People/Doug-Turnbull</link>
-    <guid>https://frutik.github.io/awesome-search/People/Doug-Turnbull</guid>
-    <description><![CDATA[ Doug Turnbull Co-founder of OpenSource Connections (OSC); currently independent (previously Shopify, then Reddit); co-author of Relevant Search (O’Reilly). ]]></description>
-    <pubDate>Sun, 19 Jul 2026 09:58:27 GMT</pubDate>
+    <title>MS MARCO</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
+    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 13:32:55 GMT</pubDate>
+  </item><item>
+    <title>Principal Component Analysis: an embedding shrink-ray</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</guid>
+    <description><![CDATA[ Principal Component Analysis: an embedding shrink-ray Author: Doug Turnbull A walkthrough of using PCA to reduce embedding dimensionality, with a recall experiment on MS MARCO quantifying what each level of compression costs. ]]></description>
+    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Learning to Rank</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
+    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
+    <pubDate>Sun, 19 Jul 2026 09:59:02 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Sun, 19 Jul 2026 09:59:02 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
@@ -24,12 +42,6 @@
     <description><![CDATA[ LambdaMART Stub. Created as a placeholder — expand with vault-sourced content. ]]></description>
     <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
   </item><item>
-    <title>Learning to Rank</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</guid>
-    <description><![CDATA[ Learning to Rank Definition Learning to Rank (LTR) is the application of machine learning to the ranking problem in information retrieval — training models to produce optimal rankings given a query and a set of candidate documents, using labeled (query, document, relevance) training data. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
     <title>NDCG (Normalized Discounted Cumulative Gain)</title>
     <link>https://frutik.github.io/awesome-search/Concepts/NDCG</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/NDCG</guid>
@@ -40,18 +52,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Position-Bias</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Position-Bias</guid>
     <description><![CDATA[ Position Bias Definition Position bias is the tendency for users to click on higher-ranked search results independent of their actual relevance — simply because they appear earlier. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
-  </item><item>
-    <title>Index</title>
-    <link>https://frutik.github.io/awesome-search/Index</link>
-    <guid>https://frutik.github.io/awesome-search/Index</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
     <pubDate>Sun, 12 Jul 2026 08:27:57 GMT</pubDate>
   </item><item>
     <title>Roman Grebennikov</title>

@@ -7,7 +7,7 @@ tags:
   - person
   - search-practitioner
   - search-researcher
-created: 2026-05-152026-05-15
+created: 2026-05-15
 ---
 
 # Doug Turnbull
@@ -32,6 +32,8 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 
 - [[Getting Started on Search Relevance for the Understaffed Search Team]]
 
+- [[Principal Component Analysis - an embedding shrink-ray]] — PCA for embedding compression; measured recall vs. dimensions on [[MS MARCO]]
+
 ## Affiliations
 
 - Independent (current)
@@ -39,7 +41,7 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 - [[Shopify]] (former)
 
 ## Teaching
-- [[Courses]] — teaches *Cheat at Search Essentials* (free intro) and co-teaches *AI-Powered Search* with [[Trey Grainger]]
+- [[Courses]] — teaches *Cheat at Search Essentials* (free intro), co-teaches *AI-Powered Search* with [[Trey Grainger]], and teaches *Build your own vector database* (https://maven.com/softwaredoug/vectordb)
 
 ## Key Concepts
 - [[BM25]]

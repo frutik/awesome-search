@@ -1,8 +1,12 @@
 ---
+title: "Awesome Search — Knowledge Graph Home"
 tags:
+  - index
   - search
   - information-retrieval
+created: 2026-05-15
 ---
+
  # Awesome Search — Information Retrieval & Search Knowledge Graph
  
  Hello, I am [Andrew](https://www.linkedin.com/in/andriy-kornilov).
@@ -50,12 +54,12 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Search UX]] · [[Faceted Search]] · [[Search Scopes]] · [[Federated Search]] · [[Zero Results]] · [[Presentation Bias]] · [[Results Merchandising]] · [[Search Result Diversity]] · [[MMR]]
 
 ### Architecture & RAG
-[[Search Architecture]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]
+[[Search Architecture]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[Agentic Query Workload]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]
 
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Search Problem Archetypes]] · [[Migration between Search Engines]] · [[How to Start a Career in Search]] · [[Courses]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Courses]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Search Problem Archetypes]] · [[Migration between Search Engines]]
 
 ## Tools
 
@@ -64,7 +68,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[Amazon Web Services]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]] · [[Amazon Web Services]]
 
 **End Users**
 [[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Reddit]] · [[Elsevier]]
@@ -85,17 +89,21 @@ Conference talks and recorded presentations.
 
 ## Key People
 
-[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
+[[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Skip Everling]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
 
 ## Stats
 
-- **~150+** article notes
-- **~83** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
-- **24** topic notes (incl. Federated vs Unified Search, Search Engine Migration, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes)
-- **~58** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
-- **10** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
-- **31** company nodes (incl. Amazon Web Services, Elsevier)
-- **7** tool notes (Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB)
+Counted 2026-07-27.
+
+- **301** article notes
+- **159** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
+- **50** topic notes (incl. Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes)
+- **121** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten)
+- **12** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
+- **46** company nodes (incl. Amazon Web Services, Elsevier)
+- **29** tool notes (incl. Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector)
+- **5** dataset notes ([[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
+- **4** video notes · **4** conference notes
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

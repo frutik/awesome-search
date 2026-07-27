@@ -7,6 +7,14 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-07-27 — PCA embedding compression, with the vault's first measured DR numbers (2 notes)
+
+Processed [[Doug Turnbull]]'s [[Principal Component Analysis - an embedding shrink-ray]] from the `Clippings/` capture — covariance matrix → eigendecomposition → truncation, framed for search people as "a series of 'scoring functions' of decreasing importance," with the food-embedding analogy (sweet-ness / fruit-ness / vegetable-ness) carrying the intuition. Created [[MS MARCO]], filling a long-standing gap: the corpus was referenced across ~15 existing article notes with no note of its own.
+
+The substantive addition is **hard data**. [[PCA]] gained a *Measured Cost on Real Embeddings* section — MiniLM on MS MARCO at 384→200 dims holds 0.879 recall (88.5% eigenvalue coverage), 384→100 drops to 0.5714, 384→50 collapses to 0.2029 — the vault's first measured recall-vs-dimensions curve, where [[Dimensionality Reduction vs Quantization]] previously carried only rules of thumb. Also captured the **flat-spectrum diagnostic**: an already-efficient embedding model ("1st eigenvalue is 15 and the 384th is 13") has no redundancy to harvest, so inspect the explained-variance curve before committing to PCA. The measured 1.9× usable ceiling tempers that topic note's "2–4× compression is common" heuristic.
+
+Backlinked from [[Doug Turnbull]], [[PCA]], [[Dimensionality Reduction]], [[Dimensionality Reduction vs Quantization]]; [[Courses]] gained Turnbull's *Build your own vector database* (maven.com/softwaredoug/vectordb), announced in the article. Registered in [[global_toc]] (Datasets), [[Index]], and [[All about Information Retrieval & Search]] — both stats blocks gained a dataset-notes line, which neither previously had.
+
 ## 2026-07-19 — LTR concept enriched with Grebennikov's two training lessons (0 new notes)
 
 Enriched [[Learning to Rank]] with the two production lessons from [[Roman Grebennikov - Personalizing Search Results in Real-Time]] that previously lived only in the video note: a new section **"What the Model Optimizes Is a Business Decision"** (the Stanley bong story — raw clicks reward curiosity; weighting purchases in the [[NDCG]] perfect ranking encodes the business goal, and the same lever optimizes margin) and a new subsection **"Feedback Loops: Don't Train on Data Your Model Produced"** under Position Bias in LTR Training (the +8% → +6% degradation from training on the model's own clicks; fix via an [[Exploration vs Exploitation]] ~1% shuffled exploration segment, with IPS as the alternative). Also expanded the video's blurb in the note's Articles list to name both lessons.

@@ -545,6 +545,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis-(PCA)-In-Depth</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</loc>
+    <lastmod>2026-07-26T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Probability-Proportional-to-Size-Sampling-for-Relevance-Evaluation</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -1284,7 +1287,7 @@
     <lastmod>2026-06-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank</loc>
-    <lastmod>2026-07-12T08:27:57.000Z</lastmod>
+    <lastmod>2026-07-19T09:59:02.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Linear-Score-Combination</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1577,6 +1580,9 @@
     <loc>https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance</loc>
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</loc>
+    <lastmod>2026-07-27T13:32:55.984Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset</loc>
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
@@ -1584,10 +1590,10 @@
     <lastmod>2026-07-05T12:32:20.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-07-12T08:27:57.000Z</lastmod>
+    <lastmod>2026-07-19T09:59:02.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Index</loc>
-    <lastmod>2026-07-12T08:27:57.000Z</lastmod>
+    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People</loc>
     <lastmod>2026-06-18T22:00:00.000Z</lastmod>
@@ -1686,7 +1692,7 @@
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
-    <lastmod>2026-07-19T09:58:27.172Z</lastmod>
+    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Elzbieta-Jakubowska</loc>
     <lastmod>2026-06-27T15:01:01.000Z</lastmod>

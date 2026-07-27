@@ -30,6 +30,9 @@ Alternative: [[Vector Quantization]] reduces *precision* per dimension; dimensio
 [[PCA]] — linear projection onto axes of maximum variance. Fast, deterministic, reversible.
 - Good for: moderate compression, preserving global structure, ML preprocessing
 - Limitation: linear only — can't capture non-linear manifolds
+- Measured on [[MS MARCO]] with MiniLM: 384→200 dims retains 0.879 recall, but 384→50 collapses
+  to 0.2029 — see [[Principal Component Analysis - an embedding shrink-ray]]. Check the
+  eigenvalue spectrum first; a flat spectrum means there is nothing to compress.
 
 ### t-SNE (t-distributed Stochastic Neighbor Embedding)
 [[t-SNE]] — non-linear projection optimized for preserving *local* neighborhoods. Produces beautiful 2D/3D visualizations.
@@ -61,3 +64,7 @@ Alternative: [[Vector Quantization]] reduces *precision* per dimension; dimensio
 - [[Vector Quantization]] — complementary compression approach
 - [[Matryoshka Embeddings]] — built-in dimensionality flexibility
 - [[Dense Embeddings]] — primary target of dimensionality reduction
+
+## Articles
+
+- [[Principal Component Analysis - an embedding shrink-ray]] — [[Doug Turnbull]] on PCA end to end, with a recall-vs-dimensions table
