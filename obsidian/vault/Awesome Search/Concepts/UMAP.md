@@ -45,7 +45,7 @@ UMAP is a non-linear dimensionality reduction algorithm based on manifold learni
 
 ## Relevance to Search
 
-UMAP's parametric nature makes it more practical than t-SNE for embedding compression pipelines where new vectors must be projected at query time. However, PCA remains the default for linear compression due to its speed, reversibility, and interpretability.
+UMAP's parametric nature makes it more practical than t-SNE for embedding compression pipelines where new vectors must be projected at query time — t-SNE has no transform at all, so it cannot place a query in the indexed space. However, PCA remains the default for linear compression due to its speed, reversibility, and interpretability; UMAP's cross-entropy objective still carries a local-structure bias, and its `transform()` is a fitted kNN-graph lookup rather than a matmul. See [[PCA vs t-SNE for Retrieval]] for the three-way verdict.
 
 ## Key Parameters
 

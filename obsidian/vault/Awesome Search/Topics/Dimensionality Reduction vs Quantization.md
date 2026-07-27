@@ -97,7 +97,9 @@ Stacking is not free and not universal. PCA only earns its place when the spectr
 
 *Measured data point* ([[Principal Component Analysis - an embedding shrink-ray]], MiniLM on [[MS MARCO]]): 1.9× (384→200) → 0.879 recall; 3.8× (384→100) → 0.5714; 7.7× (384→50) → 0.2029. Degradation is steeply non-linear, and the usable ceiling here sits closer to 2× than 4× — confirming that the compression budget must be measured per model and corpus rather than assumed.
 
-**[[UMAP]] / [[t-SNE]]** — non-linear, cluster-preserving projections. Useful for *visualization* and exploratory analysis, but **not for search retrieval**: t-SNE is non-parametric (can't project new queries); UMAP can project new points but output isn't a meaningful distance space for ANN.
+**[[t-SNE]]** — non-linear, cluster-preserving projection. **Disqualified for retrieval**, on two independent grounds: it is non-parametric (there is no transform to apply to a new query), and its KL objective does not preserve distance. Visualization and exploratory analysis only.
+
+**[[UMAP]]** — non-linear but *parametric*, so it can project new points. Plausible for retrieval, rarely worth it: the cross-entropy objective keeps a local-structure bias, cluster spacing isn't a metric to rank on, and `transform()` is a kNN-graph lookup rather than a matmul. See [[PCA vs t-SNE for Retrieval]] for why the two verdicts differ.
 
 **[[Matryoshka Embeddings]]** — training-time technique; model is trained so the first N dimensions already form a good representation. No projection needed — just truncate. **Dimension-flexible at inference time**: choose 64, 128, 256, 512 without re-encoding. Requires a model trained with MRL; cannot be retrofitted to arbitrary embeddings.
 

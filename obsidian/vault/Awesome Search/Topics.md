@@ -57,6 +57,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Reasoning Reranking]]
 - [[RL-Trained Search Agents]]
 - [[Dimensionality Reduction vs Quantization]]
+- [[PCA vs t-SNE for Retrieval]]
 
 ## The frontier
 - [[Frontier of Search]]

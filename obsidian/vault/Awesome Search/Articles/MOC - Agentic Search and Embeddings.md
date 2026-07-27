@@ -83,6 +83,13 @@ Entry point for the semantic knowledge graph covering the **Agentic Search** and
 - [[Scalar Quantization]] — int8/int4 per coordinate; 4–8× compression; universal
 - [[Binary Quantization]] — 1-bit per coordinate; 32× compression; needs rescoring
 
+## Dimensionality Reduction
+
+- **Topic**: [[Dimensionality Reduction vs Quantization]] — two multipliers on `bytes = dims × bits/dim`; how to stack them
+- **Topic**: [[PCA vs t-SNE for Retrieval]] — why visualization DR and retrieval DR are different tasks
+- [[PCA]] — orthogonal linear projection; the retrieval-safe default
+- [[Matryoshka Embeddings]] — DR moved into model training; truncation free at query time
+
 ---
 
 ## Text Preparation

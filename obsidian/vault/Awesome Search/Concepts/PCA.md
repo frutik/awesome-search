@@ -88,6 +88,7 @@ Compressibility also depends on the corpus, not just the model.
 ## Related Topics
 
 - [[Dimensionality Reduction vs Quantization]] — how PCA compares to bit-level compression
+- [[PCA vs t-SNE for Retrieval]] — why PCA's orthogonality makes it retrieval-safe where t-SNE is disqualified
 
 ## Articles
 

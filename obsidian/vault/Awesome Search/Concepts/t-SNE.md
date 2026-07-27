@@ -41,7 +41,7 @@ A hyperparameter interpreted as the "effective number of neighbors." Controls σ
 | Slow | O(n²) naive; O(n log n) with Barnes-Hut approximation |
 | No inverse transform | Cannot reconstruct original vectors |
 
-**Not suitable for search/retrieval** — only for visualization and exploratory analysis.
+**Not suitable for search/retrieval** — only for visualization and exploratory analysis. Two independent disqualifiers: there is no transform to apply to a query (the optimization variables *are* the output coordinates), and the KL objective does not preserve distance, which is the one thing ranking depends on. See [[PCA vs t-SNE for Retrieval]] for the mechanism.
 
 ## Related Concepts
 

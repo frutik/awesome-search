@@ -55,7 +55,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Migration between Search Engines]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Migration between Search Engines]]
 
 ## Tools
 
@@ -92,7 +92,7 @@ Conference talks and recorded presentations.
 ## Stats
 - **~143+** article notes
 - **~83** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
-- **24** topic notes (incl. Federated vs Unified Search, Search Engine Migration, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Elasticsearch vs OpenSearch)
+- **25** topic notes (incl. PCA vs t-SNE for Retrieval, Federated vs Unified Search, Search Engine Migration, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Elasticsearch vs OpenSearch)
 - **~51** people notes (incl. Andrew Kornilov, Geoffrey Hinton, Laurens van der Maaten)
 - **10** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa)
 - **30** company nodes (incl. Amazon Web Services, Elsevier)
