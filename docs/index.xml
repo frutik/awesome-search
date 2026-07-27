@@ -10,24 +10,48 @@
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
   </item><item>
-    <title>MS MARCO</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
-    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+    <title>Embedding Fine-tuning</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
+    <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
+  </item><item>
+    <title>SPLADE</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/SPLADE</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/SPLADE</guid>
+    <description><![CDATA[ SPLADE Definition SPLADE (Sparse Lexical and Expansion / SParse Lexical AnD Expansion) is a neural sparse retrieval model that creates learned sparse embeddings via BERT’s Masked Language Model (MLM) head. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
+  </item><item>
+    <title>Sparse Embeddings</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Sparse-Embeddings</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Sparse-Embeddings</guid>
+    <description><![CDATA[ Sparse Embeddings A vector representation in vocabulary space where most dimensions are zero. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
+  </item><item>
+    <title>Amazon ESCI Dataset</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</guid>
+    <description><![CDATA[ Amazon ESCI Dataset Overview The Shopping Queries Dataset is a large-scale e-commerce search benchmark released by Amazon. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
   </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
   </item><item>
     <title>global_toc</title>
     <link>https://frutik.github.io/awesome-search/global_toc</link>
     <guid>https://frutik.github.io/awesome-search/global_toc</guid>
     <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
+  </item><item>
+    <title>MS MARCO</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
+    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
     <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
   </item><item>
     <title>Fine-Tuning Sparse Embeddings for E-Commerce Search (Parts 1–5)</title>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</guid>
     <description><![CDATA[ Principal Component Analysis: an embedding shrink-ray Author: Doug Turnbull A walkthrough of using PCA to reduce embedding dimensionality, with a recall experiment on MS MARCO quantifying what each level of compression costs. ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Hard Negative Mining</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Hard-Negative-Mining</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Hard-Negative-Mining</guid>
-    <description><![CDATA[ Hard Negative Mining Definition Hard negative mining is the practice of selecting difficult irrelevant examples for contrastive retrieval training — documents that look relevant to the current model but are not. ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>miniCOIL</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/miniCOIL</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/miniCOIL</guid>
-    <description><![CDATA[ miniCOIL Definition miniCOIL is a lightweight Learned Sparse Retrieval model from Qdrant, introduced by Evgeniya Sukhodolskaya in May 2025. ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Evgeniya Sukhodolskaya</title>
-    <link>https://frutik.github.io/awesome-search/People/Evgeniya-Sukhodolskaya</link>
-    <guid>https://frutik.github.io/awesome-search/People/Evgeniya-Sukhodolskaya</guid>
-    <description><![CDATA[ Evgeniya Sukhodolskaya Senior Developer Advocate at Qdrant, based in Munich. ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Thierry Damiba</title>
-    <link>https://frutik.github.io/awesome-search/People/Thierry-Damiba</link>
-    <guid>https://frutik.github.io/awesome-search/People/Thierry-Damiba</guid>
-    <description><![CDATA[ Thierry Damiba Developer relations engineer at Qdrant. ]]></description>
     <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
