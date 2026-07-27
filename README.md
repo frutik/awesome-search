@@ -963,6 +963,7 @@ Synonyms: autocomplete, search as you type, suggestions
 * Google
 * Bing
 * [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
+* [Mydentify](https://mydentify.com/) - Intent-led search engine for discovering and comparing software from structured, source-backed product evidence
 * Amazon
 * eBay
 
