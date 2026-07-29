@@ -73,6 +73,7 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Judgment Lists]] — MS MARCO qrels are a public judgment list
 - [[Dense Vector Retrieval]] — the paradigm MS MARCO largely trained
 - [[Cross-Encoder]] · [[Bi-Encoder]] — both architectures benchmark here
+- [[BEIR]] — the zero-shot suite MS MARCO-trained models are judged against; MS MARCO is also one of its 18 subsets
 - [[Search Evaluation]] — broader evaluation context
 
 ## Source

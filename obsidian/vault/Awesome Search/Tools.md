@@ -49,6 +49,7 @@ The software landscape for building and evaluating search — engines, vector da
 ## Embedding training & fine-tuning
 - [[Sentence Transformers]] — the standard library for training bi-encoders, cross-encoders, and (v5+) sparse encoders
 - [[qdrant-sparse-finetune]] — [[SPLADE]] fine-tuning on a product catalog, with synthetic query generation and hard-negative mining
+- [[qdrant-relevance-feedback]] — fits the scoring parameters for [[Qdrant]]'s index-native [[Relevance Feedback]] query
 
 ## Other
 - [[SID-1]]

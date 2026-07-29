@@ -89,6 +89,8 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — Qdrant @ MICES 2026; why off-the-shelf [[SPLADE]] misfires on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
 
+[[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — Qdrant @ [[Berlin Buzzwords]] 2026; index-native [[Relevance Feedback]] steering [[HNSW]] traversal, distilling a reranker into the index, and the case against black-box search engines
+
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Skip Everling]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
@@ -97,15 +99,15 @@ Conference talks and recorded presentations.
 
 Counted 2026-07-27.
 
-- **302** article notes
+- **304** article notes
 - **161** concept notes (incl. MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining)
 - **51** topic notes (incl. PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes)
 - **123** people notes (incl. Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
 - **12** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
-- **31** tool notes (incl. Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune)
-- **5** dataset notes ([[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
-- **5** video notes · **4** conference notes
+- **32** tool notes (incl. Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
+- **6** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
+- **6** video notes · **4** conference notes
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

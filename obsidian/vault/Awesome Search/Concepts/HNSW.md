@@ -70,6 +70,15 @@ Four strategies ranked by filter selectivity:
 3. **Pre-filter, check first** — skip distance computations for non-matching nodes; [[ACORN-1]] extends this with multi-hop neighborhoods to avoid getting stuck
 4. **Exact search fallback** — triggered when filtering fraction drops below a threshold
 
+## Steering the Traversal
+
+The hop-selection function is a seam, not a fixed part of the algorithm. Vanilla HNSW picks the next neighbour by similarity to the query vector alone; replacing that criterion changes which region of the graph the walk reaches, and therefore what the index can return at all — a stronger intervention than filtering or reranking the output.
+
+- [[Vector Filtering]] / [[ACORN-1]] — fold metadata predicates into the hop decision
+- **Relevance feedback** — [[Qdrant]] 1.17 scores each hop by a combination of query similarity and feedback from a previous retrieval round, distilling a reranker's judgement into the traversal itself. See [[Relevance Feedback]] and [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]].
+
+Both are only possible for engines that own their index — a recurring argument against treating search engines as black boxes.
+
 ## Related Concepts
 - [[Dense Vector Retrieval]] — HNSW is the dominant index used here
 - [[IVF]] — alternative cluster-based ANN index
@@ -90,3 +99,7 @@ Four strategies ranked by filter selectivity:
 - [[Choosing a Vector Database for ANN Search at Reddit]] — Reddit's benchmark of Milvus vs Qdrant at 340M vectors; HNSW M=16, efConstruction=100 was the primary tested index configuration
 - [[Exploring Vector Databases with Milvus]] — deep dive into HNSW and quantization-based indexing in Milvus; n_probe tradeoffs; filtering strategies A–E
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]] — James Briggs video benchmarking HNSW vs Flat, LSH, and IVF on Sift1M
+
+## Videos
+
+- [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Berlin Buzzwords]] 2026; modifying the hop-selection function to carry relevance feedback

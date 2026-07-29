@@ -6,6 +6,42 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Relevance Feedback in Informational Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Informational-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Informational-Retrieval</guid>
+    <description><![CDATA[ Relevance Feedback in Informational Retrieval 📄 Source: qdrant.tech/articles/search-feedback-loop/ Summary A survey of the Relevance Feedback literature, organised as a two-axis taxonomy, written to answer one question: the methods have existed for sixty years, so why is there no production-grade r... ]]></description>
+    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Relevance Feedback in Qdrant</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Qdrant</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Qdrant</guid>
+    <description><![CDATA[ Relevance Feedback in Qdrant 📄 Source: qdrant.tech/articles/relevance-feedback/ Summary The mechanism behind Qdrant 1.17’s RelevanceFeedbackQuery, and the evidence for it. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>BEIR</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/BEIR</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/BEIR</guid>
+    <description><![CDATA[ BEIR Overview BEIR (Benchmarking-IR) is a heterogeneous zero-shot retrieval benchmark spanning 9 task types — fact checking, question answering, bio-medical IR, argument retrieval, duplicate question detection, citation prediction, entity retrieval, news retrieval, and tweet retrieval. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>qdrant-relevance-feedback</title>
+    <link>https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback</guid>
+    <description><![CDATA[ qdrant-relevance-feedback Python package that fits the three parameters (a, b, c) of Qdrant’s index-native Relevance Feedback query — the scoring formula that guides HNSW traversal toward what a feedback model judged relevant. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Relevance Feedback Inside the Search Engine</title>
+    <link>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Relevance-Feedback-Inside-the-Search-Engine</link>
+    <guid>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Relevance-Feedback-Inside-the-Search-Engine</guid>
+    <description><![CDATA[ Relevance Feedback Inside the Search Engine 📺 Watch: www.youtube.com/watch Talk by Evgeniya Sukhodolskaya (Senior Developer Advocate, Qdrant) at Berlin Buzzwords 2026. ]]></description>
+    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>ESCI-S Dataset</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</guid>
+    <description><![CDATA[ ESCI-S Dataset Overview ESCI-S is a community-built extension of the Amazon ESCI Dataset that adds richer product metadata to the original query–product pairs. ]]></description>
+    <pubDate>Mon, 27 Jul 2026 18:47:44 GMT</pubDate>
+  </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
@@ -29,42 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
     <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
     <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
-  </item><item>
-    <title>SPLADE</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/SPLADE</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/SPLADE</guid>
-    <description><![CDATA[ SPLADE Definition SPLADE (Sparse Lexical and Expansion / SParse Lexical AnD Expansion) is a neural sparse retrieval model that creates learned sparse embeddings via BERT’s Masked Language Model (MLM) head. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
-  </item><item>
-    <title>Sparse Embeddings</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Sparse-Embeddings</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Sparse-Embeddings</guid>
-    <description><![CDATA[ Sparse Embeddings A vector representation in vocabulary space where most dimensions are zero. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
-  </item><item>
-    <title>Amazon ESCI Dataset</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</guid>
-    <description><![CDATA[ Amazon ESCI Dataset Overview The Shopping Queries Dataset is a large-scale e-commerce search benchmark released by Amazon. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
-  </item><item>
-    <title>MS MARCO</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
-    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 13:44:13 GMT</pubDate>
-  </item><item>
-    <title>Fine-Tuning Sparse Embeddings for E-Commerce Search (Parts 1–5)</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-Sparse-Embeddings-for-E-Commerce-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Fine-Tuning-Sparse-Embeddings-for-E-Commerce-Search</guid>
-    <description><![CDATA[ Fine-Tuning Sparse Embeddings for E-Commerce Search A five-part engineering series by Thierry Damiba (Qdrant) that fine-tunes a SPLADE sparse retriever on e-commerce catalog data, measures it against BM25 and off-the-shelf SPLADE, tests how far it transfers across catalogs, and packages the whole pi... ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Principal Component Analysis: an embedding shrink-ray</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Principal-Component-Analysis---an-embedding-shrink-ray</guid>
-    <description><![CDATA[ Principal Component Analysis: an embedding shrink-ray Author: Doug Turnbull A walkthrough of using PCA to reduce embedding dimensionality, with a recall experiment on MS MARCO quantifying what each level of compression costs. ]]></description>
-    <pubDate>Sun, 26 Jul 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

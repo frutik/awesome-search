@@ -674,6 +674,12 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-(Wikipedia)</loc>
     <lastmod>2026-05-30T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Informational-Retrieval</loc>
+    <lastmod>2026-07-28T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Qdrant</loc>
+    <lastmod>2026-07-28T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Rethinking-Spotify-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -1583,8 +1589,11 @@
     <loc>https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset</loc>
     <lastmod>2026-07-27T15:01:48.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Datasets/BEIR</loc>
+    <lastmod>2026-07-28T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</loc>
-    <lastmod>2026-05-26T07:37:19.000Z</lastmod>
+    <lastmod>2026-07-27T18:47:44.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance</loc>
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
@@ -2069,6 +2078,9 @@
     <loc>https://frutik.github.io/awesome-search/Tools/psql_bm25s</loc>
     <lastmod>2026-06-11T09:26:27.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback</loc>
+    <lastmod>2026-07-28T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Tools/qdrant-sparse-finetune</loc>
     <lastmod>2026-07-26T22:00:00.000Z</lastmod>
   </url><url>
@@ -2236,6 +2248,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Fine-Tuning-Sparse-Neural-Retrievers-for-E-Commerce</loc>
     <lastmod>2026-07-26T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Relevance-Feedback-Inside-the-Search-Engine</loc>
+    <lastmod>2026-07-28T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Videos/Max-Irwin---The-Search-Engine-Migration-Circus</loc>
     <lastmod>2026-07-05T09:22:30.000Z</lastmod>

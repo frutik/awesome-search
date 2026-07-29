@@ -85,6 +85,8 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — Qdrant @ MICES 2026; why off-the-shelf [[SPLADE]] misfires on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
 
+[[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — Qdrant @ [[Berlin Buzzwords]] 2026; index-native [[Relevance Feedback]] steering [[HNSW]] traversal, distilling a reranker into the index, and the case against black-box search engines
+
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Andrew Kornilov]]
@@ -97,7 +99,7 @@ Conference talks and recorded presentations.
 - **10** case study notes (incl. Vinted - Migrating Search from Elasticsearch to Vespa)
 - **30** company nodes (incl. Amazon Web Services, Elsevier)
 - **7** tool notes (Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB)
-- **5** dataset notes ([[Amazon ESCI Dataset]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
+- **6** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[WANDS Dataset]])
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

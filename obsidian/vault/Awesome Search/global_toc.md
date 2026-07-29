@@ -98,7 +98,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[Metarank]] · [[eland]]
 
 ### Embedding Training
-[[Sentence Transformers]] · [[qdrant-sparse-finetune]]
+[[Sentence Transformers]] · [[qdrant-sparse-finetune]] · [[qdrant-relevance-feedback]]
 
 ### Relevance & Query Tooling
 [[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[SID-1]]
@@ -131,6 +131,8 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[Evgeniya Sukhodolskaya]], [[Qdrant]]; [[MICES]] 2026 talk on making [[SPLADE]] fine-tuning approachable — why [[MS MARCO]]-trained sparse models misfire on catalogs, the ANCE [[Hard Negative Mining]] loop, full vs inference-free SPLADE, specialize vs generalize
 
+[[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Evgeniya Sukhodolskaya]], [[Qdrant]]; [[Berlin Buzzwords]] 2026 talk on index-native [[Relevance Feedback]] — model-generated feedback steering [[HNSW]] hop selection instead of reranking a top-k, [[Knowledge Distillation]] of a reranker into the index, and the case against black-box search engines
+
 ---
 
 ## Conferences
@@ -139,7 +141,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[BEIR]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[WANDS Dataset]]
 
 ---
 
