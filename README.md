@@ -1,3 +1,52 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Awesome Search — Knowledge Graph](#awesome-search--knowledge-graph)
+  - [Latest History](#latest-history)
+- [Global Table of Contents](#global-table-of-contents)
+  - [Maps of Content](#maps-of-content)
+  - [Concepts](#concepts)
+    - [Lexical & Sparse Retrieval](#lexical--sparse-retrieval)
+    - [Dense Retrieval & Embeddings](#dense-retrieval--embeddings)
+    - [Geometric & Set-Theoretic Embeddings](#geometric--set-theoretic-embeddings)
+    - [ANN Indexing & Quantization](#ann-indexing--quantization)
+    - [Dimensionality Reduction](#dimensionality-reduction)
+    - [Late Interaction & Multi-Vector](#late-interaction--multi-vector)
+    - [Reranking & Cross-Encoders](#reranking--cross-encoders)
+    - [Learning to Rank](#learning-to-rank)
+    - [Hybrid Search & Score Fusion](#hybrid-search--score-fusion)
+    - [Query Understanding](#query-understanding)
+    - [Lexical Query Operations](#lexical-query-operations)
+    - [Evaluation & Metrics](#evaluation--metrics)
+    - [Behavioral Signals & Bias](#behavioral-signals--bias)
+    - [Agentic, Generative & RAG](#agentic-generative--rag)
+    - [Model Fine-Tuning & Serving](#model-fine-tuning--serving)
+    - [Search Architecture & Operations](#search-architecture--operations)
+    - [Search UX & Discovery](#search-ux--discovery)
+  - [Topics](#topics)
+    - [Retrieval & Ranking Techniques](#retrieval--ranking-techniques)
+    - [Domains & Platforms](#domains--platforms)
+    - [Quality & Operations](#quality--operations)
+    - [Team, Career & Community](#team-career--community)
+    - [Learning Resources](#learning-resources)
+    - [Strategy & Meta](#strategy--meta)
+  - [Tools](#tools)
+    - [Search & Vector Engines](#search--vector-engines)
+    - [PostgreSQL Extensions](#postgresql-extensions)
+    - [Ranking & ML Libraries](#ranking--ml-libraries)
+    - [Embedding Training](#embedding-training)
+    - [Relevance & Query Tooling](#relevance--query-tooling)
+    - [ML & Model Serving](#ml--model-serving)
+  - [Companies](#companies)
+  - [Case Studies](#case-studies)
+  - [Videos](#videos)
+  - [Conferences](#conferences)
+  - [Datasets](#datasets)
+  - [People](#people)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Awesome Search — Knowledge Graph
 
 ## Latest History
