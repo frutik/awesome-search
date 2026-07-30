@@ -19,7 +19,7 @@ I've been building e-commerce search applications for 15+ years. Below is a list
 
 # Global Table of Contents
 
-A map of every note in the vault organized by category and theme.  This index tracks concepts, topics, people, tools, companies, case studies, conferences, and datasets.
+A map of every note organized by category and theme.  This index tracks concepts, topics, people, tools, companies, case studies, conferences, and datasets.
 
 ## Maps of Content
 
@@ -211,3 +211,7 @@ See the [Conferences](https://frutik.github.io/awesome-search/Conferences) MOC. 
 **V** — [Venkat Ram Rao](https://frutik.github.io/awesome-search/People/Venkat%20Ram%20Rao) · [Vsevolod Goloviznin](https://frutik.github.io/awesome-search/People/Vsevolod%20Goloviznin)
 
 **W** — [Wolf Garbe](https://frutik.github.io/awesome-search/People/Wolf%20Garbe) · [Daniel Wrigley](https://frutik.github.io/awesome-search/People/Daniel%20Wrigley)
+
+## Old List
+
+[README](README-PREV.md)
