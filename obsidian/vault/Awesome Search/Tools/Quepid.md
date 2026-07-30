@@ -49,7 +49,7 @@ This makes it straightforward to implement NDCG, DCG, or custom business metrics
 | Non-technical stakeholder review | Custom analysis across many system variants |
 
 ## Related Tools
-- **[[Search Relevance Workbench]]** — [[OpenSearch]]'s native, in-engine successor to this workflow (query sets / judgments / experiments); it can **import Quepid CSV judgments**, and adds UBI-based implicit judgments and hybrid-search auto-tuning
+- **[[Search Relevance Workbench]]** — [[OpenSearch]]'s native, in-engine successor to this workflow (query sets / judgments / experiments); it can **import Quepid CSV judgments**, and adds [[User Behavior Insights|UBI]]-based implicit judgments and hybrid-search auto-tuning
 - **[[Elasticsearch Relevance Studio]]** — Elastic's experimental, agentic in-house counterpart for [[Elasticsearch]]
 - **[[Rated Ranking Evaluator]]** (RRE) — CI/CD-oriented counterpart from [[Sease]]; a JVM/Maven library for batch, in-build evaluation
 - **SMUI / [[Querqy]]** — complementary tool for managing query rewriting rules

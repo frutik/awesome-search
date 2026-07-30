@@ -6,65 +6,65 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Just brute force your embeddings</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Just-brute-force-your-embeddings</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Just-brute-force-your-embeddings</guid>
-    <description><![CDATA[ Just brute force your embeddings Author: Doug Turnbull Summary Most teams reaching for a vector database don’t have the corpus size to justify one. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Three mistakes when introducing embeddings and vector search</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Three-mistakes-when-introducing-embeddings-and-vector-search</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Three-mistakes-when-introducing-embeddings-and-vector-search</guid>
-    <description><![CDATA[ Three mistakes when introducing embeddings and vector search Author: Jo Kristian Bergum · written while working on Vespa Summary Three failure modes teams hit when adopting embedding-based retrieval (EBR): shipping a pre-trained model with no task fine-tuning, trusting a single-vector model fine-tun... ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Vespa</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Vespa</guid>
+    <description><![CDATA[ Vespa What They Build Vespa is an open-source big data serving engine originally developed by Yahoo and now maintained as an independent open-source project (vespa.ai). ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Hybrid Fusion Failure - BM25 Displacing Reference Documents</title>
-    <link>https://frutik.github.io/awesome-search/Case-Studies/Hybrid-Fusion-Failure---BM25-Displacing-Reference-Documents</link>
-    <guid>https://frutik.github.io/awesome-search/Case-Studies/Hybrid-Fusion-Failure---BM25-Displacing-Reference-Documents</guid>
-    <description><![CDATA[ Hybrid Fusion Failure — BM25 Displacing Reference Documents A first-person production account from Davit Khachaturyan: adding a lexical branch to a working vector retriever made the exact query class it was meant to fix worse, by removing the correct document from the candidate set entirely. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Approximate Nearest Neighbor Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Approximate-Nearest-Neighbor-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Approximate-Nearest-Neighbor-Search</guid>
+    <description><![CDATA[ Approximate Nearest Neighbor Search (ANN) Approximate Nearest Neighbor (ANN) search finds vectors close to a query vector without comparing against every vector in the dataset. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Brute-Force Vector Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Brute-Force-Vector-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Brute-Force-Vector-Search</guid>
-    <description><![CDATA[ Brute-Force Vector Search Brute-force vector search compares the query vector against every document vector and keeps the top k. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>BM25</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/BM25</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/BM25</guid>
+    <description><![CDATA[ BM25 Definition BM25 (Best Match 25) is the dominant lexical retrieval algorithm — the scoring function behind Elasticsearch’s default relevance, Solr, Lucene, and most production search engines. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Zero-Shot Retrieval</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Zero-Shot-Retrieval</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Zero-Shot-Retrieval</guid>
-    <description><![CDATA[ Zero-Shot Retrieval Zero-shot retrieval is using a retrieval model on a corpus and query distribution it was never trained on — no in-domain labels, no fine-tuning pass. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>ColBERT</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ColBERT</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ColBERT</guid>
+    <description><![CDATA[ ColBERT Definition ColBERT (Colaborative BERT / Contextualized Late Interaction over BERT) is a neural retrieval model that represents queries and documents as sets of per-token vectors rather than single pooled vectors. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>SIFT1M</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/SIFT1M</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/SIFT1M</guid>
-    <description><![CDATA[ SIFT1M SIFT1M is a set of one million 128-dimensional vectors used as the default workload for benchmarking ANN algorithms. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Dense Vector Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Dense-Vector-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Dense-Vector-Retrieval</guid>
+    <description><![CDATA[ Dense Vector Retrieval Definition Dense vector retrieval uses dense numerical embeddings (produced by neural models) to represent queries and documents, then finds the most similar documents via approximate nearest neighbor (ANN) search. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Davit Khachaturyan</title>
-    <link>https://frutik.github.io/awesome-search/People/Davit-Khachaturyan</link>
-    <guid>https://frutik.github.io/awesome-search/People/Davit-Khachaturyan</guid>
-    <description><![CDATA[ Davit Khachaturyan By his own description, a “Senior AI Search and Retrieval Engineer focused on building and improving production search, RAG, and knowledge-driven AI systems.” No employer is named in the material held here. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Embedding Fine-tuning</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
+    <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Roy Keyes</title>
-    <link>https://frutik.github.io/awesome-search/People/Roy-Keyes</link>
-    <guid>https://frutik.github.io/awesome-search/People/Roy-Keyes</guid>
-    <description><![CDATA[ Roy Keyes Data science practitioner and writer; runs Zefs Data Science and has written a book on hiring data scientists and machine learning engineers. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>HNSW</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/HNSW</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/HNSW</guid>
+    <description><![CDATA[ HNSW — Hierarchical Navigable Small World Graph-based approximate nearest neighbor (ANN) index. Malkov &amp; Yashunin, 2018 (arXiv:1603.09320). ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>ann-benchmarks</title>
-    <link>https://frutik.github.io/awesome-search/Tools/ann-benchmarks</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/ann-benchmarks</guid>
-    <description><![CDATA[ ann-benchmarks ann-benchmarks is the standard open comparison of ANN algorithms and their implementations, run over a set of standard vector datasets on a common runtime. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Hybrid Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Hybrid-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Hybrid-Search</guid>
+    <description><![CDATA[ Hybrid Search Definition Hybrid search combines two or more retrieval signals — most commonly sparse (lexical/term-based) and dense (semantic/embedding-based) — to produce results that outperform either approach alone. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item><item>
-    <title>Vector Search Tradeoffs</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Vector-Search-Tradeoffs</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Vector-Search-Tradeoffs</guid>
-    <description><![CDATA[ Vector Search Tradeoffs There is no best vector index. ]]></description>
-    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
+    <title>IVF</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/IVF</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/IVF</guid>
+    <description><![CDATA[ IVF — Inverted File Index (Vectors) Cluster-based approximate nearest neighbor (ANN) index. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item>
     </channel>
   </rss>

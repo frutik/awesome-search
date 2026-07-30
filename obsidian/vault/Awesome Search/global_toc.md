@@ -101,7 +101,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Sentence Transformers]] · [[qdrant-sparse-finetune]] · [[qdrant-relevance-feedback]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[ann-benchmarks]] · [[SID-1]]
+[[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
 
 ### ML & Model Serving
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]

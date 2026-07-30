@@ -32,6 +32,7 @@ The software landscape for building and evaluating search — engines, vector da
 - [[Querqy]] — rules-based query rewriting
 - [[Quepid]] — judgment lists and relevance measurement
 - [[Search Relevance Workbench]] — OpenSearch-native relevance evaluation (query sets, judgments, experiments)
+- [[User Behavior Insights]] — open standard (UBI) + engine plugins for capturing queries and the user events that follow them
 - [[Elasticsearch Relevance Studio]] — Elastic's experimental agentic relevance-engineering tool
 - [[Rated Ranking Evaluator]] — CI/CD-oriented offline evaluation library for Solr/Elasticsearch (Sease)
 - [[ann-benchmarks]] — the standard recall-vs-QPS comparison across ANN implementations; blind to indexing cost and CRUD support

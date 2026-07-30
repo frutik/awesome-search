@@ -48,10 +48,10 @@ All four share the same core loop: define a **query set / scenarios**, attach **
 |---|---|---|---|---|
 | **Human (manual)** | ✅ Collaborative UI, books of judgements, information needs | ✅ CSV upload (~10k rows) | ✅ Drag-slider UI | ✅ Ratings authored as JSON files |
 | **LLM-as-judge** | ✅ (v8+) | ✅ Native (model ID + query set) | ✅ Agent-generated, human-reviewed | ➖ Not native |
-| **Implicit (clickstream)** | ➖ Not native | ✅ Via [[Implicit Judgments|UBI]] + COEC debiasing | ➖ Not native | ➖ Not native |
+| **Implicit (clickstream)** | ➖ Not native | ✅ Via [[User Behavior Insights|UBI]] + COEC debiasing | ➖ Not native | ➖ Not native |
 | **Import path** | — | ✅ Imports Quepid CSV | — | — |
 
-SRW is the only one of the four that natively derives **implicit judgments** from user behavior ([[Implicit Judgments|UBI]] clickstream, debiased with Clicks-Over-Expected-Clicks). Both SRW and ESRS report **unrated/uncovered documents** to expose gaps in ground truth — Quepid surfaces this less directly.
+SRW is the only one of the four that natively derives **implicit judgments** from user behavior ([[User Behavior Insights|UBI]] clickstream, debiased with Clicks-Over-Expected-Clicks). Both SRW and ESRS report **unrated/uncovered documents** to expose gaps in ground truth — Quepid surfaces this less directly.
 
 > [!note] Quepid's engine-agnosticism is real, not just theoretical
 > Because Quepid talks to a search engine over HTTP, practitioners have used it for relevance tracking well beyond ES/Solr/OpenSearch — including **[[Vespa]]**, **[[Qdrant Vector DB|Qdrant]]**, and arbitrary **custom search APIs** (registered as a custom endpoint). The vault's [[Vector Search Evaluation]] series ([[How to Evaluate Image Search in Qdrant Using Quepid Part 2]]) is a worked example of the Qdrant + custom-API case. This engine-neutrality is Quepid's main structural advantage over the two engine-locked native tools.
@@ -80,7 +80,7 @@ Only Quepid lets you write an arbitrary scorer in its UI; SRW, ESRS, and RRE shi
 ## How to Choose
 
 - **Engine-agnostic or multi-engine shop, mature team workflow, non-technical raters** → **[[Quepid]]**. It is the most battle-tested, works across engines (including hacks for [[Vector Search Evaluation|vector/image search]]), and its JavaScript scorers handle bespoke business metrics. It's also the right choice when you want judgments decoupled from the engine.
-- **All-in on [[OpenSearch]], want click-data-driven judgments and hybrid-search tuning with zero external infra** → **[[Search Relevance Workbench]]**. The [[Implicit Judgments|UBI]] integration and hybrid-optimization grid search are unique, and everything lives in Dashboards. You can seed it by importing existing Quepid judgments.
+- **All-in on [[OpenSearch]], want click-data-driven judgments and hybrid-search tuning with zero external infra** → **[[Search Relevance Workbench]]**. The [[User Behavior Insights|UBI]] integration and hybrid-optimization grid search are unique, and everything lives in Dashboards. You can seed it by importing existing Quepid judgments.
 - **All-in on [[Elasticsearch]], building [[Agentic Search|agentic]] pipelines, want AI agents to run the relevance loop** → **[[Elasticsearch Relevance Studio]]** — but note it's an experimental demonstrator, not a supported product, so weigh that for production use.
 - **JVM / Solr / Elasticsearch stack, want relevance regression tests running automatically in CI on every build, no UI required** → **[[Rated Ranking Evaluator]]**. It's a library first: immutable version-over-version deltas turn "did this change help or hurt?" into an automated build check. [[Sease]] offers **RRE Enterprise** if you later want a UI on top.
 

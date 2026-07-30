@@ -63,7 +63,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Tools
 
-[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[Milvus Vector DB]] · [[FAISS]] · [[ann-benchmarks]]
+[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[User Behavior Insights]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[Milvus Vector DB]] · [[FAISS]] · [[ann-benchmarks]]
 
 ## Companies
 
@@ -105,7 +105,7 @@ Counted 2026-07-30.
 - **125** people notes (incl. Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
 - **13** case study notes (incl. Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
-- **33** tool notes (incl. ann-benchmarks, Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
+- **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
 - **7** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[SIFT1M]], [[WANDS Dataset]])
 - **6** video notes · **4** conference notes
 - **6** Maps of Content

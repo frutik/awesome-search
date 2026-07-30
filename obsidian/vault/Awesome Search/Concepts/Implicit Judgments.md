@@ -25,6 +25,7 @@ Behavioral labels scale far beyond manual annotation and reflect real user inten
 
 - [[Judgment Lists]] — explicit, human-annotated counterpart
 - [[Click Signals]] · [[Click Models]] — the raw behavioral data
+- [[User Behavior Insights]] — open standard (UBI) for capturing the query/event stream these labels are derived from
 - [[Learning to Rank]] · [[LambdaMART]] — what they train
 - [[Position Bias]] · [[Presentation Bias]] — biases to correct for
 

@@ -59,7 +59,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 
 ## Tools
 
-[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[FAISS]] · [[ann-benchmarks]]
+[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[User Behavior Insights]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[FAISS]] · [[ann-benchmarks]]
 
 ## Companies
 
@@ -100,7 +100,7 @@ Counted 2026-07-30.
 - **125** people notes (incl. Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Geoffrey Hinton, Laurens van der Maaten)
 - **13** case study notes (incl. Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa)
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
-- **33** tool notes (incl. ann-benchmarks, Quepid, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, FAISS)
+- **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, FAISS)
 - **7** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[SIFT1M]], [[WANDS Dataset]])
 - **6** Maps of Content
 
