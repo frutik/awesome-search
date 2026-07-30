@@ -56,7 +56,7 @@ mistake land.
 - Output is one vector per input token — 512 × 768 floats for vanilla [[BERT]]. Unlike
   [[Word2Vec]], each token vector is contextualised by attention over the whole input.
 - Getting *one* vector per passage means either picking a single output vector or **pooling**
-  (e.g. average pooling across the 512 outputs) — see [[Token Pooling]].
+  (e.g. average pooling across the 512 outputs) — see [[Pooling]].
 
 That pooled single vector is what the first two mistakes are about.
 

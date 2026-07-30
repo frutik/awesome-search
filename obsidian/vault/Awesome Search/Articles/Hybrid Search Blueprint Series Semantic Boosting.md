@@ -30,8 +30,8 @@ topics: []
 **[[Erik Hatcher]]** ([[MongoDB]]) presents Semantic Boosting — a two-shot hybrid retrieval technique that runs a vector search first, then injects the results as boost clauses into a final lexical search — preserving full-text features like faceting, highlighting, and pagination.
 
 Third article in the series:
-1. Survey of the hybrid search landscape
-2. [[Reciprocal Rank Fusion]] (RRF) and [[Relative Score Fusion]] (RSF)
+1. [[Survey of the Hybrid Search Landscape]] — the landscape, techniques, and the measure/tune/repeat mantra
+2. [[Reciprocal Rank Fusion and Relative Score Fusion]] — [[Reciprocal Rank Fusion|RRF]] and [[Relative Score Fusion|RSF]] worked in full
 3. This article — [[Semantic Boosting]]
 
 ---
@@ -107,6 +107,8 @@ Uses [[Voyage AI]]'s `voyage-4-large` model (2048 dimensions, dot product simila
 - [[Linear Score Combination]] — another score-based combination approach
 
 ## Related Articles
+- [[Survey of the Hybrid Search Landscape]] — part 1 of this series
+- [[Reciprocal Rank Fusion and Relative Score Fusion]] — part 2 of this series
 - [[RRF is Not Enough]] — critiques RRF's limitations in hybrid contexts
 - [[Hybrid search > sum of its parts? Berlin Buzzwords 2022]]
 

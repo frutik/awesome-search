@@ -24,6 +24,29 @@ Part of the "classic hybrid search techniques" alongside RRF, as described in [[
 2. Normalize each system's scores to [0, 1] using min-max or other normalization
 3. Combine normalized scores: `final = α × score_lexical + (1 − α) × score_dense`
 
+## Normalization is the whole game
+
+The combination step is trivial; the [[Score Normalization]] step decides the outcome. Engines typically
+offer three modes:
+
+| Mode | Behavior | Risk |
+|---|---|---|
+| `none` | Raw scores combined as-is | Only safe when pipelines already share a scale |
+| `minMaxScaler` | Linear map of observed `[min, max]` to `[0, 1]` | One outlier stretches the range and flattens the rest |
+| `sigmoid` | Logistic squash into `(0, 1)` | Bounded for any input, but **saturates** — values far from the curve's center collapse to 0 or 1 |
+
+Saturation is the non-obvious failure. In [[Erik Hatcher]]'s worked example, one pipeline's scores
+span 0–100 and the other's span 0–5; sigmoid maps a raw 85.0 to exactly **1.0**, erasing every
+gradation within that pipeline, while the 0–5 pipeline retains its resolution. The fusion then
+averages a flattened signal against a live one. Knowing each pipeline's actual range is a
+prerequisite, not a refinement.
+
+## Combination
+
+Once normalized and weighted, values are combined either by **averaging** (the usual default) or by
+a custom expression. Note the ordering: normalize → weight → combine. Weights applied to
+un-normalized scores compound the scale mismatch instead of correcting it.
+
 ## RRF vs RSF
 
 | Property | RRF | RSF |
@@ -47,5 +70,17 @@ Part of the "classic hybrid search techniques" alongside RRF, as described in [[
 - [[Linear Score Combination]] — closely related approach
 - [[Semantic Boosting]] — alternative two-phase approach; avoids list merging entirely
 
+## In MongoDB
+
+`$scoreFusion` takes `input.normalization` (`none` / `sigmoid` / `minMaxScaler`) and
+`combination.method` (`avg` by default, or a custom expression). Where a pipeline doesn't naturally
+emit a score, the `$score` stage computes one into `$meta.score` — but `$search` and `$vectorSearch`
+already provide scores, so `$score` isn't used with them.
+
+The asymmetry that matters: `$vectorSearch` scores already sit in 0.0–1.0, whereas lexical `$search`
+[[BM25]] scores have no defined range at all. Normalizing the lexical leg is almost always warranted.
+
 ## Articles
+- [[Reciprocal Rank Fusion and Relative Score Fusion]] — RSF worked end-to-end with `$score`, `$scoreFusion` and score details
+- [[Survey of the Hybrid Search Landscape]] — introduces RSF as fusion by sensible score range normalization
 - [[Hybrid Search Blueprint Series Semantic Boosting]] — series that covers RSF alongside RRF and Semantic Boosting

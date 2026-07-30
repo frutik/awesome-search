@@ -26,7 +26,7 @@ The problem it targets: BM25 scores `bat` in "fruit bat" and "baseball bat" iden
 
 ## Mechanism
 
-Derived from **COIL** (Contextualized Inverted Lists), which stored per-term vectors in an inverted index rather than collapsing each term's meaning to one number. COIL's practical problems were specialized indexes, domain-specific training, and subword tokenization; miniCOIL works at **word level** instead.
+Derived from **COIL** (Contextualized Inverted Lists), which stored per-term vectors in an inverted index rather than collapsing each term's meaning to one number. COIL's practical problems were specialized indexes, domain-specific training, and subword [[Tokenization|tokenization]]; miniCOIL works at **word level** instead.
 
 ```
 Word → contextual embedding (jina-embeddings-v2-small-en, 512d)
@@ -40,7 +40,7 @@ Word → contextual embedding (jina-embeddings-v2-small-en, 512d)
 
 ## The Out-of-Vocabulary Fallback
 
-miniCOIL's distinguishing property: **a word with no miniCOIL training falls back to plain BM25 scoring within the same sparse vector.**
+miniCOIL's distinguishing property — and the vault's worked example of [[Out-of-Vocabulary]] as a design constraint: **a word with no miniCOIL training falls back to plain BM25 scoring within the same sparse vector.**
 
 This is the direct answer to a structural limit of SPLADE, raised in Q&A at [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — SPLADE's output dimensions *are* its base model's vocabulary, so terms outside that vocabulary simply cannot be represented, and SPLADE has no graceful degradation path. With SPLADE you must choose a base model that already knows your tokens.
 
@@ -74,6 +74,8 @@ Wins on four of five. The gains are deliberately modest — the point is general
 - [[SPLADE]] — the alternative learned-sparse approach
 - [[Learned Sparse Retrieval]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]]
 - [[Hybrid Search]] — miniCOIL is positioned as a BM25 replacement in the sparse leg
+- [[Out-of-Vocabulary]] — the constraint its BM25 fallback is designed around
+- [[Tokenization]] — word-level vs COIL's subword tokenization
 
 ## People
 

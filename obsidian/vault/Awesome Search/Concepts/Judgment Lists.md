@@ -63,8 +63,11 @@ How you sample queries determines what the judgment list measures:
 ## Pooling
 
 For large corpora it's infeasible to judge all documents. **Pooling**: run multiple systems, collect top-K from each, judge the union.
+
 - Documents outside the pool are treated as "unjudged" (not "irrelevant")
 - Unjudged docs can bias evaluation against new systems that retrieve non-pooled docs
+
+(Unrelated to the representation-level senses of the word — see [[Pooling]] for the disambiguation.)
 
 ## Tools
 

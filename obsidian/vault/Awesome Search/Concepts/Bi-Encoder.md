@@ -24,6 +24,16 @@ Doc    → Encoder_D → d_vec ──┘
 
 Documents are encoded **offline** (pre-computed and stored). At search time, only the query is encoded and compared against the index.
 
+### The pooling step
+
+The encoder does not emit one vector — it emits one vector *per token*. Collapsing that matrix into
+the single `d_vec` above is **sequence [[Pooling|pooling]]**, and the strategy is a real
+architectural choice: mean/average (the common default), CLS, max, or learned attention weights.
+
+This is the bi-encoder's defining lossy step. The model must decide *at training time* which
+distinctions survive the collapse, against the training query distribution — which is precisely what
+[[Late Interaction]] defers by keeping the per-token vectors.
+
 ## Key Properties
 
 | Property | Value |
@@ -67,6 +77,9 @@ Trained with **contrastive loss** (e.g., MultipleNegativesRankingLoss):
 - [[Semantic Search]] — bi-encoders enable semantic matching
 - [[Asymmetric Semantic Search]] — bi-encoders with asymmetric query/doc encoding (e.g., MS MARCO models)
 - [[Interaction Paradigms]] — the no/late/early spectrum; bi-encoder is the no-interaction endpoint
+- [[Pooling]] — the step that turns per-token vectors into the one vector a bi-encoder stores
+- [[Token Pooling]] — the partial alternative: fewer vectors rather than exactly one
+- [[Sentence Transformers]] — where the pooling strategy is configured as an explicit module
 
 ## Articles
 

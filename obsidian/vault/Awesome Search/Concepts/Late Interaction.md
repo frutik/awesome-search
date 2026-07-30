@@ -24,6 +24,8 @@ Score = Σᵢ max_j (qᵢ · dⱼ)    (MaxSim)
 
 The **MaxSim** operator finds, for each query token, the document token most similar to it, then sums these maximum similarities.
 
+The `max_j` is itself a [[Pooling|pooling]] step — but over the *similarity matrix*, not over representations. It collapses the `m × n` score matrix to `m` along the document-token axis, which is then summed to a scalar. Worth naming explicitly, because it is easily confused with the max pooling that a [[Bi-Encoder]] may use to build its single vector: that one pools **before** comparison and discards information permanently at index time, whereas MaxSim pools **after** comparison, at query time, with the full token vectors still in hand. Deferring that collapse is the whole point of late interaction.
+
 ## Interaction Timeline Comparison
 
 Late interaction is one point on a broader axis — *when* the query and document interact. See [[Interaction Paradigms]] for the full no/late/early spectrum.
@@ -60,6 +62,7 @@ Since late interaction stores many vectors per document, storage is a concern:
 - [[ColBERT]] — primary text-domain implementation of late interaction
 - [[ColPali]] — visual-domain late interaction (document page images)
 - [[Token Pooling]] — compression for multi-vector late interaction embeddings
+- [[Pooling]] — the single-vector collapse late interaction exists to defer; also home of the disambiguation, in which MaxSim is the score-level sense
 - [[MUVERA]] — fixed-dimensional single-vector approximation enabling ANN first-stage retrieval
 - [[Bi-Encoder]] — no interaction model (the baseline)
 - [[Cross-Encoder]] — early interaction (joint encoding)

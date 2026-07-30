@@ -12,10 +12,10 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Concepts
 
 ### Lexical & Sparse Retrieval
-[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]]
+[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]] · [[Out-of-Vocabulary]]
 
 ### Dense Retrieval & Embeddings
-[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
+[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Pooling]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
 
 ### Geometric & Set-Theoretic Embeddings
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
@@ -36,13 +36,13 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
 
 ### Hybrid Search & Score Fusion
-[[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Semantic Boosting]]
+[[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Score Normalization]] · [[Semantic Boosting]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Compositional Queries]]
 
 ### Lexical Query Operations
-[[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
+[[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
 [[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]

@@ -23,9 +23,11 @@ Tokenization splits raw query text into discrete units for further processing. W
 
 ## Related Concepts
 
+- [[Tokenization]] — the concept note this article anchors
 - [[Query Understanding]]
 - [[Query Segmentation]]
 - [[Spelling Correction]]
+- [[Out-of-Vocabulary]] — what subword decomposition of unknown words is working against
 
 ## People
 

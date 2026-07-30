@@ -14,7 +14,7 @@ created: 2026-05-19
 
 A two-shot hybrid retrieval technique that executes a vector search first, then injects the resulting document IDs and similarity scores as explicit boost clauses into a final full-text lexical query.
 
-Introduced (named) by [[Erik Hatcher]] at [[MongoDB]] in the context of MongoDB Atlas Search.
+Introduced (named) by [[Erik Hatcher]] at [[MongoDB]] in the context of MongoDB Atlas Search — the third technique in his hybrid search series, after [[Survey of the Hybrid Search Landscape|the landscape survey]] and the classic fusion mechanisms in [[Reciprocal Rank Fusion and Relative Score Fusion]].
 
 ---
 
@@ -34,6 +34,8 @@ Because the final result set comes from the lexical engine, all standard text se
 - **Pagination** — single result cursor
 
 This distinguishes Semantic Boosting from [[Reciprocal Rank Fusion]] and [[Relative Score Fusion]], which merge two separate ranked lists and require additional plumbing for pagination and facets.
+
+It also sidesteps [[Score Normalization]] entirely: there is only ever one ranked output, produced by the lexical engine, so there are never two incomparable score scales to reconcile — the vector score enters as a boost magnitude rather than as a competing ranking.
 
 ## Relationship to Signal Incorporation
 
@@ -62,6 +64,8 @@ The boost multiplier (e.g., `score × 10`) is the primary tuning knob. Calibrati
 
 ## Articles
 - [[Hybrid Search Blueprint Series Semantic Boosting]] — origin article
+- [[Reciprocal Rank Fusion and Relative Score Fusion]] — the fusion alternatives this technique is positioned against
+- [[Survey of the Hybrid Search Landscape]] — opens the series
 
 ## People
 - [[Erik Hatcher]] — named and described the technique

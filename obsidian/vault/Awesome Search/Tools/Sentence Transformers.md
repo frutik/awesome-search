@@ -37,7 +37,7 @@ Version 5 added first-class sparse embedding training, which is what makes [[SPL
 | Module | Role |
 |---|---|
 | `MLMTransformer` | Base encoder + MLM head — logits over the full vocabulary |
-| `SpladePooling` | Max over tokens, ReLU activation |
+| `SpladePooling` | Max over tokens, ReLU activation — vocabulary-axis [[Pooling\|pooling]] |
 
 Training uses `SpladeLoss`, combining `SparseMultipleNegativesRankingLoss` (in-batch negatives) with sparsity regularization under separately tunable query and document weights — in [[Fine-Tuning Sparse Embeddings for E-Commerce Search]], 5e-5 for queries and 3e-5 for documents, the asymmetry reflecting that product descriptions need more surviving terms than queries do.
 

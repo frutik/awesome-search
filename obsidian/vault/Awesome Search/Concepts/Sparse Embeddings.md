@@ -43,7 +43,7 @@ Neural models can produce explicit sparse vectors using the transformer's MLM (m
 **Key difference from BM25**: the model can assign weight to tokens *not in the original text* (query/document expansion). A document about "running" might get weight on "jogging", "marathon", "cardio" even if those words don't appear.
 
 ### miniCOIL
-[[Qdrant]]. Rather than replacing lexical weighting, [[miniCOIL]] adds a 4-dimension semantic component per word to the [[BM25]] formula, and falls back to plain BM25 for words it wasn't trained on — the graceful out-of-vocabulary path that [[SPLADE]] lacks.
+[[Qdrant]]. Rather than replacing lexical weighting, [[miniCOIL]] adds a 4-dimension semantic component per word to the [[BM25]] formula, and falls back to plain BM25 for words it wasn't trained on — the graceful [[Out-of-Vocabulary|out-of-vocabulary]] path that [[SPLADE]] lacks.
 
 ### SPLADE
 NAVER LABS. Trained with FLOPS regularization to enforce sparsity (otherwise the model learns dense representations). State-of-the-art learned sparse model on BEIR. See [[SPLADE]].

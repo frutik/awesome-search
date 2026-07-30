@@ -47,7 +47,7 @@ ORDER BY ts_rank(search_vector, websearch_to_tsquery('english', 'wireless keyboa
 
 **Advantages:** no extra infrastructure, fast GIN indexes, language-specific text search configurations (dictionaries and stemmers), phrase and boolean queries, and `ts_headline` for native result snippet highlighting.
 
-**Terminology note (Postgres vs. the wider search world):** what Lucene-based engines ([[Elasticsearch]] / [[OpenSearch]]) call an **analyzer** — one pipeline doing char-filtering → tokenization → token filters (lowercase, stemming, stopwords, synonyms) — PostgreSQL splits into separately named objects:
+**Terminology note (Postgres vs. the wider search world):** what Lucene-based engines ([[Elasticsearch]] / [[OpenSearch]]) call an **analyzer** — one pipeline doing char-filtering → [[Tokenization|tokenization]] → token filters (lowercase, stemming, stopwords, synonyms) — PostgreSQL splits into separately named objects:
 
 | Lucene/ES term                                                 | PostgreSQL equivalent                                                                                                                                 |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |

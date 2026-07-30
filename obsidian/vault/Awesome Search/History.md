@@ -7,6 +7,67 @@ tags:
 
 Chronological log of notes added to this knowledge graph. Newest first.
 
+## 2026-07-30 — Two notes disagreed about what Bayesian BM25 is (0 notes, 1 correction)
+
+Surfaced while grounding [[Out-of-Vocabulary]]. [[BM25]] carried a stub describing [[Bayesian BM25]] as treating *"BM25 parameters as priors"*, updating *"based on collection statistics"*, and being *"particularly useful for out-of-vocabulary and low-frequency terms"* — while the dedicated [[Bayesian BM25]] note described something else entirely: logistic calibration of the score into a probability. Both cannot be right, and the new OOV note had inherited the stub's version.
+
+Checked against both [[Doug Turnbull]] sources. [[Bayesian BM25 is Cool]] (2021) gives `BB25 = σ(a × BM25 + b) = P(R | BM25)` for principled fusion. [[Can BM25 be a Probability]] (2026) decomposes it explicitly: a **prior** from term frequency and field length, a **likelihood** from the BM25 score through a sigmoid, and a Bayesian **posterior**, with `ALPHA`/`BETA` learned from labels by gradient descent.
+
+Verdict on the stub: "priors" was garbled — there *is* a prior, but it comes from TF and field-length normalization, not from `k1`/`b`. "Collection statistics" was half-right — `BETA` is the corpus median BM25 score. **"Useful for out-of-vocabulary and low-frequency terms" appears in neither source and is not what BB25 does at all.** BB25 is about making a lexical score commensurable with probability-calibrated signals; rare-term handling is unrelated.
+
+The stub is rewritten to match the sources, and [[Bayesian BM25]] gained the 2026 formulation it was missing (it had only ever reflected the 2021 post, and didn't link the later article), the alternatives Turnbull weighs against it — rescaling the *other* signals à la Craswell, learning the boosts directly, scaling BM25 itself — plus `type: concept` and links to [[Score Normalization]] and [[Linear Score Combination]], the α-tuning problem it exists to remove. The ungrounded claim was isolated to that one stub; nothing else in the vault repeated it.
+
+**Updated** — [[BM25]] (stub corrected) · [[Bayesian BM25]] (2026 formulation, alternatives, frontmatter) · [[Out-of-Vocabulary]] (inherited claim removed)
+
+## 2026-07-30 — The vocabulary boundary: Tokenization and Out-of-Vocabulary (2 notes)
+
+Two gaps in very different states. **Tokenization** was referenced in ~40 notes and defined in none — load-bearing in [[Full-Text Search]] ("analysis"), [[Query Understanding in Practice]] (its whole Layer 1), [[Search using PostgreSQL]] (the parser≈tokenizer mapping), [[Multilingual Search]] (script diversity), [[Semantic Search Without Embeddings]] (the hierarchical-tokenizer trick *is* the article's mechanism) and [[Autocomplete]] (edge-ngram). The only note titled for it was [[Query Understanding - Tokenization]], a [[Daniel Tunkelang]] article note. **Out-of-vocabulary** was the opposite: already explained substantively in eight places — six concept notes ([[miniCOIL]], [[SPLADE]], [[Sparse Embeddings]], [[Learned Sparse Retrieval]], [[BM25]], [[Zero-Shot Retrieval]]) plus [[Three mistakes when introducing embeddings and vector search]] and the Q&A in [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — but with no node holding the argument the vault kept re-deriving.
+
+[[Tokenization]] carries the same two-senses-one-word structure as [[Pooling]], and the split is worth stating plainly: **analyzer** tokenization has an open vocabulary (whatever the corpus contains), is configurable per field, and fails by recall loss from mismatched analysis; **model** tokenization has a vocabulary fixed at pre-training, is not configurable at all, and fails by [[Out-of-Vocabulary]]. A [[Hybrid Search]] system runs both at once, and they do not agree on what a token is. Tunkelang's load-bearing point gets its own callout: query-time and index-time tokenization must agree, and a mismatch doesn't error — it silently returns fewer results.
+
+[[Out-of-Vocabulary]] frames why lexical search barely has the problem (an inverted index's vocabulary *is* the corpus; a rare term gets high IDF rather than no representation) against why neural retrieval has it acutely. One correction made deliberately: [[Three mistakes when introducing embeddings and vector search]] says unknown words "collapse to a single `UNK`", which is the common simplification. Subword schemes normally *fragment* an unfamiliar word into known pieces — true `[UNK]` is the residual case for input that can't be decomposed at all. The note states the accurate mechanism, and the article is left as a faithful record of its source. The practical problem is subtler than erasure anyway: decomposition is not understanding, so a novel brand name split into three familiar fragments yields a representation, just not a useful one.
+
+The [[SPLADE]]/[[miniCOIL]] contrast is now anchored where it belongs: SPLADE's output dimensions *are* its base model's vocabulary, so OOV terms are unrepresentable with no fallback; miniCOIL falls back to plain [[BM25]] inside the same sparse vector, and works at word level precisely to avoid the subword tokenization that made COIL impractical. Which makes keeping a lexical leg in [[Hybrid Search]] a *vocabulary* mitigation and not only a semantic one.
+
+**Concepts** — [[Tokenization]] (new) · [[Out-of-Vocabulary]] (new)
+**Updated** — [[SPLADE]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Learned Sparse Retrieval]] · [[BM25]] · [[Zero-Shot Retrieval]] · [[Full-Text Search]] · [[Query Understanding]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Search using PostgreSQL]] · [[Collocations]] · [[Query Segmentation]] · [[Query Understanding - Tokenization]] · [[Concepts]] · [[global_toc]]
+
+## 2026-07-30 — One word, six operations: splitting Pooling out of Token Pooling (1 note)
+
+The vault had exactly one pooling note — [[Token Pooling]], the ColPali multi-vector *compression* technique — and nothing at all on **sequence pooling**, the step where a transformer collapses its per-token output matrix into the single vector a [[Bi-Encoder]] stores. That gap showed up as plain-text mentions with no home in [[Vector Search Tradeoffs]], [[ColBERT]], [[Vector Similarity Metrics]] and elsewhere, and as a misdirected link in [[Three mistakes when introducing embeddings and vector search]] — "average pooling across the 512 outputs" pointing at the compression note. Same shape as the UBI → [[Implicit Judgments]] aliasing problem logged earlier today. [[Bi-Encoder]] itself never mentioned pooling at all, despite it being the architecture's defining lossy step.
+
+[[Pooling]] now owns the general concept and sense 1 in detail (mean/average, CLS, max, attention-weighted), and routes to the other five. The senses are genuinely unrelated beyond the name, and they pool along **different axes** — which is the part worth remembering:
+
+| Sense | Collapses | Axis | Home |
+|---|---|---|---|
+| Sequence pooling | Per-token vectors → one document vector | Sequence length | [[Pooling]] |
+| Token pooling | Many token vectors → fewer | Sequence length, partially | [[Token Pooling]] |
+| Vocabulary pooling | Per-token vocab distributions → one sparse vector | Vocabulary | [[SPLADE]] |
+| Judgment pooling | Many systems' top-k → one judged set | Result sets | [[Judgment Lists]] |
+| Behavioral pooling | Interaction history → one preference vector | Time / events | [[Personalization]] |
+| Similarity-matrix pooling | Query×document score matrix → one relevance score | Similarity scores | [[Late Interaction]] |
+
+Two distinctions actually mislead. [[SPLADE]]'s `SpladePooling` is max pooling, but over the *vocabulary* axis, so it emits a vocabulary-sized sparse vector rather than a dense one — not a variant of mean pooling. And MaxSim's `max_j` is max pooling over a *similarity matrix*: the cleanest way to separate it from sense 1 is **what** gets pooled, since senses 1–3 pool representations at index time while MaxSim pools scores at query time, after the comparison has already happened.
+
+The framing that ties it to the rest of the graph: sequence pooling forces the model to decide **at training time** which distinctions survive the collapse, against the training query distribution — which is exactly what [[Late Interaction]] defers by keeping per-token vectors, with [[Token Pooling]] as the tunable middle (average vectors being its `pool_factor = ∞` limiting case).
+
+**Concepts** — [[Pooling]] (new)
+**Updated** — [[Token Pooling]] (reverted to its narrow multi-vector-compression scope, gains a disambiguation callout) · [[Bi-Encoder]] (new `The pooling step` subsection — previously silent on it) · [[Personalization]] (new `Sequence Pooling over Behavioral History` subsection) · [[SPLADE]] · [[Judgment Lists]] · [[Late Interaction]] · [[ColBERT]] · [[Vector Similarity Metrics]] · [[Vector Search Tradeoffs]] · [[Sentence Transformers]] · [[Three mistakes when introducing embeddings and vector search]] (misdirected link repointed) · [[Patterns for Personalization]] · [[Concepts]] · [[global_toc]]
+
+## 2026-07-30 — The two missing thirds of the MongoDB hybrid search series (3 notes)
+
+The vault already held part 3 of [[Erik Hatcher]]'s MongoDB hybrid search series — [[Hybrid Search Blueprint Series Semantic Boosting]] — whose opening list named parts 1 and 2 in plain text, as neither existed. Both are now in.
+
+[[Survey of the Hybrid Search Landscape]] (2025-04-01) supplies the framing the other two lean on: hybrid defined experientially as *combining two or more search techniques to produce results better than any single technique alone*, with **better** as the word that makes measurement a precondition rather than a follow-up. It orders the available techniques by **rankability** — key/value matching has none intrinsically, vector search has geometric distance, lexical search has the richest scoring surface — and prescribes the logging practice (queries with context, clicks *with the position they were at*, zero-result and session-trail analysis) that must precede any tuning. It also reclaims "hybrid" for the older signals-loop pattern: collect signals → ML-aggregate into insights → look up per user/context/query → augment the request. Hatcher's tuning-surface analogy is a 747 cockpit; his closing test is whether information is *ambiently findable*.
+
+[[Reciprocal Rank Fusion and Relative Score Fusion]] (2025-11-20) is the arithmetic. Its methodological move is to drop lexical and vector entirely — nine restaurants with a distance and a rating, two independent variables — on the grounds that fusion is mathematically unconcerned with how the ranked lists were produced. Two findings worth having: the **weight-30 trick** (since 60 is a fixed built-in in the RRF denominator, a weight of 30 on each of two pipelines rescales the fused score into ~0.0–1.0, each contributing at most ~0.5), and that equal weights produce **structural ties** — rank 1 in list A and rank 1 in list B are indistinguishable to RRF, so breaking ties means differentiating weights.
+
+The RSF half motivated the one new concept. [[Score Normalization]] had been referenced inline across [[Hybrid Search]], [[Relative Score Fusion]], [[Linear Score Combination]], [[BM25]], [[OpenSearch]] and [[Elasticsearch]] without a note of its own. The article supplies the non-obvious failure: sigmoid **saturates**. With one pipeline on a 0–100 scale and the other on 0–5, a raw distance score of 85.0 normalizes to exactly 1.0 — erasing every gradation inside that pipeline — while the 0–5 pipeline keeps its resolution, and the fusion then averages a flattened signal against a live one. The companion asymmetry: `$vectorSearch` scores already arrive in 0.0–1.0, whereas lexical `$search` [[BM25]] scores have no defined range at all, so normalization pressure falls almost entirely on the lexical leg.
+
+**Articles** — [[Survey of the Hybrid Search Landscape]] (new) · [[Reciprocal Rank Fusion and Relative Score Fusion]] (new)
+**Concepts** — [[Score Normalization]] (new)
+**Updated** — [[Reciprocal Rank Fusion]] (weighting, ties, explainability) · [[Relative Score Fusion]] (`$scoreFusion`, the three normalization modes, saturation) · [[Hybrid Search]] (Hatcher's definition + the rankability spectrum) · [[Semantic Boosting]] (why it sidesteps normalization entirely) · [[Hybrid Search Blueprint Series Semantic Boosting]] (series list now links parts 1–2) · [[Erik Hatcher]] · [[MongoDB]] (fusion stage table) · [[MOC - Ranking and Retrieval]] · [[Concepts]] · [[global_toc]]
+
 ## 2026-07-30 — The clickstream standard the vault had been aliasing away (1 note)
 
 A broken link found in [[Search Relevance Workbench]]: every mention of **User Behavior Insights** was an aliased link pointing at [[Implicit Judgments]] — `[[Implicit Judgments|UBI]]` — because no UBI note existed. That conflates two different things: implicit judgments are *labels derived from behavior*, UBI is the *standard for capturing the behavior in the first place*.

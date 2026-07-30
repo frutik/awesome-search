@@ -18,7 +18,7 @@ Collocations are word combinations that appear together more frequently than cha
 ## Why They Matter for Search
 
 Without phrase awareness:
-- "New York" is tokenized as ["New", "York"] — "New" matches unrelated documents
+- "New York" is [[Tokenization|tokenized]] as ["New", "York"] — "New" matches unrelated documents
 - "hot dog" could match pages about warm canines
 - Query "machine learning jobs" could match documents mentioning machines and learning separately
 

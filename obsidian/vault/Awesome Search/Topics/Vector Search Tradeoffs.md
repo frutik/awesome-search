@@ -157,7 +157,7 @@ which is exactly why a strong published curve does not mean a system fits your w
 
 ## Axis 5 — One Vector per Document, or Many
 
-[[Bi-Encoder]] pooling gives one vector per document: cheapest to store, cheapest to index, and the
+[[Bi-Encoder]] [[Pooling|pooling]] gives one vector per document: cheapest to store, cheapest to index, and the
 weakest at surviving a change of domain (see [[Zero-Shot Retrieval]]). [[Late Interaction]] models
 like [[ColBERT]] keep per-token vectors and defer matching to query time — better quality and better
 transfer, at multiplied storage and a MaxSim comparison too expensive for first-stage retrieval.

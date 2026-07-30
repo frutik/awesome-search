@@ -37,7 +37,7 @@ Most production QU pipelines implement these sequentially, with each step inform
 
 ## Layer 1: Tokenization and Normalization
 
-- **Tokenization**: split query into tokens (language-specific rules for CJK, agglutinative languages)
+- **[[Tokenization]]**: split query into tokens (language-specific rules for CJK, agglutinative languages)
 - **Lowercasing**: standard; exceptions for acronyms (SQL, API)
 - **Stemming/lemmatization**: reduce morphological variants ("running" → "run") — be conservative; overstemming hurts precision
 - **Language detection**: essential for multilingual search; gate language-specific processing

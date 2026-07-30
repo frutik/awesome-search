@@ -61,7 +61,7 @@ better. This is an ordering by argument, not a measured ranking:
 Bergum's stated position is the first row: multi-vector representations *"generalize much
 better than single-vector representations."*
 
-Related caveat from within the vault: [[miniCOIL]]'s BM25 fallback on out-of-vocabulary terms is
+Related caveat from within the vault: [[miniCOIL]]'s BM25 fallback on [[Out-of-Vocabulary|out-of-vocabulary]] terms is
 the same instinct — preserve a signal that doesn't depend on having seen the domain.
 
 ## Closing the Gap

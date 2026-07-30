@@ -53,8 +53,11 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[NDCG]]
 - [[Neural Click Models]]
 
+## O
+- [[Out-of-Vocabulary]]
+
 ## P
-- [[PCA]] · [[PEFT]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
+- [[PCA]] · [[PEFT]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
 
 ## Q
 - [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
@@ -63,10 +66,10 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
 
 ## S
-- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Stopwords]] · [[Synonyms]]
+- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Stopwords]] · [[Synonyms]]
 
 ## T
-- [[Task-Aware Embeddings]] · [[Text Chunking]] · [[Token Pooling]] · [[TurboQuant]] · [[t-SNE]]
+- [[Task-Aware Embeddings]] · [[Text Chunking]] · [[Token Pooling]] · [[Tokenization]] · [[TurboQuant]] · [[t-SNE]]
 
 ## U
 - [[UDCG]] · [[UMAP]]

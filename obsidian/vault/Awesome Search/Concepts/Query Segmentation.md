@@ -15,7 +15,7 @@ Query segmentation splits a multi-word query into meaningful segments (phrases, 
 
 Example:
 - Input: `"new york times best seller list 2024"`
-- Naive tokenization: `["new", "york", "times", "best", "seller", "list", "2024"]`
+- Naive [[Tokenization|tokenization]]: `["new", "york", "times", "best", "seller", "list", "2024"]`
 - Correct segmentation: `["new york times"] ["best seller list"] ["2024"]`
 
 Without segmentation, the query would match documents about "New York" + "times" + "best" — not the newspaper's bestseller list.

@@ -18,7 +18,7 @@ Full-text search (FTS) retrieves documents by matching query terms against the w
 ## Core machinery
 
 - **Inverted index** — term → list of documents containing it
-- **Analysis** — tokenization, stemming/lemmatization, stopword removal, language analyzers
+- **Analysis** — [[Tokenization|tokenization]], stemming/lemmatization, stopword removal, language analyzers
 - **Scoring** — term frequency × inverse document frequency; the dominant model is [[BM25]]
 
 ## Scoring is not always BM25

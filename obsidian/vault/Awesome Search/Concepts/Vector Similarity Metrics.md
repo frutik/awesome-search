@@ -90,7 +90,7 @@ Different [[Dense Vector Retrieval|ANN indexes]] are optimized for specific metr
 
 ## Normalised Vectors: The Equivalence That Matters in Production
 
-When embeddings are L2-normalised to unit length (‖v‖ = 1), dot product and cosine similarity compute **identical rankings** — the denominator in the cosine formula becomes 1 and drops out. This is true of most modern dense retrieval models (OpenAI, E5, BGE, sentence-transformers with default pooling).
+When embeddings are L2-normalised to unit length (‖v‖ = 1), dot product and cosine similarity compute **identical rankings** — the denominator in the cosine formula becomes 1 and drops out. This is true of most modern dense retrieval models (OpenAI, E5, BGE, sentence-transformers with default [[Pooling|pooling]]).
 
 **Performance implication:** dot product skips the magnitude division, making it roughly **50% faster to compute** than cosine for the same vector dimensionality. For high-throughput search where vectors are unit-normalised, prefer dot product / inner product as the index metric.
 

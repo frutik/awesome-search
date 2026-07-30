@@ -23,7 +23,7 @@ Tunkelang divides query understanding into three parts:
 ### 1. Query Formulation Analysis
 What did the user type, and how should it be parsed?
 - **Spelling correction**: "iphne" → "iphone"
-- **Tokenization**: splitting compound terms
+- **[[Tokenization]]**: splitting compound terms
 - **Stemming/lemmatization**: "running shoes" → stem "run"
 - **[[Query Segmentation]]**: "new york times" → ["new york", "times"] vs. ["new", "york", "times"]
 

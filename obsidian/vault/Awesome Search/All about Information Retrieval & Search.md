@@ -29,10 +29,10 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Core Concepts by Domain
 
 ### Retrieval
-[[BM25]] · [[Dense Vector Retrieval]] · [[Brute-Force Vector Search]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[miniCOIL]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Zero-Shot Retrieval]] · [[SIRA]]
+[[BM25]] · [[Dense Vector Retrieval]] · [[Brute-Force Vector Search]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[miniCOIL]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Relative Score Fusion]] · [[Score Normalization]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Zero-Shot Retrieval]] · [[Out-of-Vocabulary]] · [[SIRA]]
 
 ### Embeddings
-[[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
+[[Bi-Encoder]] · [[Cross-Encoder]] · [[ColBERT]] · [[Late Interaction]] · [[MUVERA]] · [[Pooling]] · [[Token Pooling]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
 
 ### Ranking
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
@@ -44,7 +44,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
 
 ### Lexical Query Operations
-[[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
+[[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Search UX & Discovery
 [[Search UX]] · [[Faceted Search]] · [[Search Scopes]] · [[Federated Search]] · [[Zero Results]] · [[Presentation Bias]] · [[Results Merchandising]] · [[Search Result Diversity]] · [[MMR]]
@@ -94,8 +94,8 @@ Conference talks and recorded presentations.
 ## Stats
 Counted 2026-07-30.
 
-- **306** article notes
-- **163** concept notes (incl. Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
+- **308** article notes
+- **167** concept notes (incl. Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1)
 - **52** topic notes (incl. Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Elasticsearch vs OpenSearch)
 - **125** people notes (incl. Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Geoffrey Hinton, Laurens van der Maaten)
 - **13** case study notes (incl. Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa)

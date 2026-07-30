@@ -54,6 +54,17 @@ Airbnb's approach: learn user embeddings alongside listing embeddings in the sam
 - Personalized ANN search over listing embeddings
 - Published as "Listing Embeddings in Search Ranking"
 
+### Sequence Pooling over Behavioral History
+
+A user's interaction history is variable-length, but most ranking models want a fixed-size input. The
+simplest bridge is [[Pooling|pooling]] — mean, sum or max over the sequence of interacted items —
+which compresses the history into one preference vector at the cost of discarding order.
+
+Sequence models (RNNs, Transformers) are the order-preserving alternative. Alibaba's Behavioral
+Sequence Transformer reported **+4.5% CTR** over a mean-pooling baseline by modeling the sequence
+instead of collapsing it — the same fidelity-vs-cost tradeoff that pooling forces in embedding
+construction. See [[Patterns for Personalization]].
+
 ### Feature Engineering for Personalized LTR
 Add user features to the [[Learning to Rank]] model:
 - User's average purchase price range
@@ -102,6 +113,7 @@ The key insight: user preferences are encoded in their past interactions, not in
 - [[Search Intent]] — personalization refines intent interpretation
 - [[Metarank]] — open-source real-time click-based personalization / re-ranking service
 - [[Implicit Judgments]] — behavioral labels that drive personalized LTR
+- [[Pooling]] — collapsing a variable-length interaction history into one preference vector
 
 ## People
 

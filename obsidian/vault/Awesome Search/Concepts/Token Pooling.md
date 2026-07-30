@@ -1,11 +1,14 @@
 ---
 title: "Token Pooling"
-aliases: ["hierarchical token pooling", "vector pooling"]
+aliases: ["hierarchical token pooling", "vector pooling", "patch pooling"]
+type: concept
 tags:
   - concept
   - neural-ir
   - late-interaction
+  - embeddings
   - performance
+created: 2026-05-01
 ---
 
 # Token Pooling
@@ -15,6 +18,12 @@ tags:
 Token pooling is a compression technique for **multi-vector (late interaction) embeddings** that reduces the number of stored vectors per document by clustering semantically similar token/patch vectors and replacing each cluster with its mean.
 
 Originally proposed in the [[ColPali]] paper for visual document retrieval, applicable to any late interaction model including [[ColBERT]].
+
+> [!info] Not to be confused with the other kinds of pooling
+> "Pooling" names six unrelated operations in IR. This note covers **token pooling** —
+> multi-vector compression. For sequence pooling (mean/CLS/max collapse into one vector),
+> vocabulary pooling ([[SPLADE]]), judgment pooling ([[Judgment Lists]]), behavioral
+> pooling, or MaxSim's score-matrix pooling ([[Late Interaction]]), start at [[Pooling]].
 
 ## How It Works
 
@@ -56,6 +65,9 @@ Average vector = token pooling with pool_factor = ∞ (one vector for the entire
 - [[ColBERT]] — text-domain late interaction model, also benefits from pooling
 - [[HNSW]] — can index pooled vectors when count is reduced enough (~5–10 per doc)
 - [[Knowledge Distillation]] — adjacent compression strategy (model-level vs. representation-level)
+
+- [[Pooling]] — the parent concept and the other four senses of the word
+- [[Bi-Encoder]] — sequence pooling collapses to one vector; token pooling stops short of that
 
 ## Articles
 

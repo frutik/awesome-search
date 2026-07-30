@@ -10,7 +10,31 @@
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
+    <pubDate>Thu, 30 Jul 2026 07:54:54 GMT</pubDate>
+  </item><item>
+    <title>Implicit Judgments</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Implicit-Judgments</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Implicit-Judgments</guid>
+    <description><![CDATA[ Implicit Judgments Definition Implicit judgments are relevance labels derived from observed user behavior — clicks, add-to-cart, purchases, dwell time, and (as negative signals) impressions without interaction — rather than from explicit human annotation. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 07:54:54 GMT</pubDate>
+  </item><item>
+    <title>Search Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Search-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Search-Evaluation</guid>
+    <description><![CDATA[ Search Evaluation Definition Search evaluation is the systematic process of measuring how well a search system serves user information needs. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 07:54:54 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 07:54:54 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 07:54:54 GMT</pubDate>
   </item><item>
     <title>Vespa</title>
     <link>https://frutik.github.io/awesome-search/Companies/Vespa</link>
@@ -40,30 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Concepts/Dense-Vector-Retrieval</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Dense-Vector-Retrieval</guid>
     <description><![CDATA[ Dense Vector Retrieval Definition Dense vector retrieval uses dense numerical embeddings (produced by neural models) to represent queries and documents, then finds the most similar documents via approximate nearest neighbor (ANN) search. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
-  </item><item>
-    <title>Embedding Fine-tuning</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
-    <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
-  </item><item>
-    <title>HNSW</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/HNSW</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/HNSW</guid>
-    <description><![CDATA[ HNSW — Hierarchical Navigable Small World Graph-based approximate nearest neighbor (ANN) index. Malkov &amp; Yashunin, 2018 (arXiv:1603.09320). ]]></description>
-    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
-  </item><item>
-    <title>Hybrid Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Hybrid-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Hybrid-Search</guid>
-    <description><![CDATA[ Hybrid Search Definition Hybrid search combines two or more retrieval signals — most commonly sparse (lexical/term-based) and dense (semantic/embedding-based) — to produce results that outperform either approach alone. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
-  </item><item>
-    <title>IVF</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/IVF</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/IVF</guid>
-    <description><![CDATA[ IVF — Inverted File Index (Vectors) Cluster-based approximate nearest neighbor (ANN) index. ]]></description>
     <pubDate>Thu, 30 Jul 2026 06:54:31 GMT</pubDate>
   </item>
     </channel>

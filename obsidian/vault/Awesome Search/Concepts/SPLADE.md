@@ -43,7 +43,7 @@ For each token in the input, the MLM head predicts probability over the entire v
 | Version | Innovation |
 |---|---|
 | SPLADE v1 | Original: both query & document expansion |
-| SPLADE v2 | Max pooling; document-only expansion (faster queries) |
+| SPLADE v2 | Max [[Pooling|pooling]] over the vocabulary axis; document-only expansion (faster queries) |
 | SPLADE-V3 (2024) | Updated models; Hugging Face release |
 
 ## vs. BM25 and Dense Retrieval
@@ -70,7 +70,7 @@ The inference-free variant skips the encoder pass on the query side to save late
 
 ### Vocabulary limits
 
-SPLADE's output dimensions *are* the base model's vocabulary, so out-of-vocabulary terms cannot be represented and there is no fallback path — you must pick a base model that already knows your tokens. [[miniCOIL]] addresses this directly by reverting to a BM25 weight for untrained words.
+SPLADE's output dimensions *are* the base model's vocabulary, so [[Out-of-Vocabulary|out-of-vocabulary]] terms cannot be represented and there is no fallback path — you must pick a base model that already knows your tokens. [[miniCOIL]] addresses this directly by reverting to a BM25 weight for untrained words.
 
 Tooling: [[Sentence Transformers]] v5 (`MLMTransformer` + `SpladePooling`, `SpladeLoss`) and [[qdrant-sparse-finetune]].
 

@@ -19,7 +19,7 @@ Serving search across multiple languages — or mixed-language queries — requi
 | Challenge | Root Cause |
 |-----------|-----------|
 | Vocabulary mismatch | Query in Language A, document in Language B — BM25 scores zero |
-| Script diversity | Latin, CJK, Arabic, Devanagari need different tokenizers |
+| Script diversity | Latin, CJK, Arabic, Devanagari need different [[Tokenization\|tokenizers]] |
 | Mixed-language queries | "iPhone 13 price RM" mixes English brand + Malay currency |
 | Low-resource languages | Sparse training data; embeddings may not generalize |
 | Transliteration | Same word spelled multiple ways across scripts |

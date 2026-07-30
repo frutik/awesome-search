@@ -65,7 +65,7 @@ A further advantage, separate from peak quality: multi-vector representations tr
 across domains than pooled single vectors. [[Jo Kristian Bergum]]'s position in
 [[Three mistakes when introducing embeddings and vector search]] is that models like ColBERT
 *"generalize much better than single-vector representations"* — a [[Bi-Encoder]] must decide at
-training time which distinctions survive pooling into one vector, and that decision is made
+training time which distinctions survive [[Pooling|pooling]] into one vector, and that decision is made
 against the training query distribution. Deferring matching to query time keeps more of the
 signal available when the distribution shifts. See [[Zero-Shot Retrieval]].
 

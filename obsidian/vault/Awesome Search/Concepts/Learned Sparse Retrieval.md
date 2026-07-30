@@ -72,7 +72,7 @@ The trade-off is generality. A model tuned on one catalog is not a general e-com
 | uniCOIL | Castorini Lab | Scalar weights per existing token only; no expansion; fast |
 | DeepImpact | Castorini Lab | Token-level importance without expansion |
 | Neural Sparse | OpenSearch/AWS | Open-source SPLADE-style model for OpenSearch |
-| [[miniCOIL]] | [[Qdrant]] | Extends the BM25 formula with a 4-dim semantic component per word; BM25 fallback for out-of-vocabulary terms |
+| [[miniCOIL]] | [[Qdrant]] | Extends the BM25 formula with a 4-dim semantic component per word; BM25 fallback for [[Out-of-Vocabulary\|out-of-vocabulary]] terms |
 
 [[SPLADE]] and [[ELSER]] are the dominant production-grade LSR models. uniCOIL and DeepImpact trade effectiveness for speed.
 

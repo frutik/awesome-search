@@ -44,7 +44,7 @@ Learn direct user representations. Airbnb generates user-type embeddings for sea
 
 - **Cold-start problem**: handling new users/items with limited data
 - **Exploration vs. exploitation**: discovery vs. known preferences
-- **Pooling strategies**: mean/sum/max compress variable behavioral sequences
+- **[[Pooling|Pooling strategies]]**: mean/sum/max compress variable behavioral sequences
 - **Attention mechanisms**: weight history by relevance to current context
 
 ## Related Concepts

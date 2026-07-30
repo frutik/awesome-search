@@ -1,10 +1,12 @@
 ---
 title: "Hybrid Search"
 aliases: ["hybrid retrieval", "sparse-dense fusion", "multi-vector search"]
+type: concept
 tags:
   - concept
   - search
   - retrieval
+created: 2026-05-01
 ---
 
 # Hybrid Search
@@ -14,6 +16,25 @@ tags:
 Hybrid search combines two or more retrieval signals — most commonly sparse (lexical/term-based) and dense (semantic/embedding-based) — to produce results that outperform either approach alone.
 
 The intuition: sparse retrieval excels at exact keyword matching; dense retrieval excels at semantic understanding. Their failure modes are largely complementary.
+
+[[Erik Hatcher]] ([[MongoDB]]) offers a practitioner's definition that widens the frame beyond
+sparse+dense: *combining two or more search techniques to produce results better than any single
+technique alone*. The operative word is **better** — which makes measurement a precondition rather
+than a follow-up, and yields the series mantra **measure, tune, repeat**. On this reading "hybrid"
+is a mindset of blending rather than a prescriptive recipe, and it retroactively covers the older
+practice of folding behavioral signals and learned rules into a query, not just fusing two ranked
+lists. See [[Survey of the Hybrid Search Landscape]].
+
+### The rankability spectrum
+
+Hatcher orders the available techniques by **rankability** — how readily the query-document
+relationship can be given a numeric score:
+
+| Technique | Rankability |
+|---|---|
+| Key/value matching (B-Tree, exact + range) | None intrinsically — binary match; proximity can be computed |
+| [[Dense Vector Retrieval\|Vector search]] | Geometric distance; embedding model choice is the dominant relevancy factor |
+| [[Full-Text Search\|Lexical search]] | Richest — field weights, term and document frequencies, per-clause formulas |
 
 ## Why Combine?
 
@@ -155,3 +176,5 @@ GET /products/_search
 
 - See: [[Hybrid Search Blueprint Series Semantic Boosting]] — [[Erik Hatcher]] ([[MongoDB]])
 - See: [[Relative Score Fusion]] — score-normalization-based fusion, contrasted with RRF
+- See: [[Reciprocal Rank Fusion and Relative Score Fusion]] — RRF and RSF worked through with full arithmetic
+- See: [[Score Normalization]] — the step that decides whether score-based fusion works at all

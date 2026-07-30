@@ -30,9 +30,17 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 
 - **Concept**: [[Hybrid Search]] — sparse + dense combination
 - **Concept**: [[Reciprocal Rank Fusion]] — rank-based merging, score-agnostic fusion
+- **Concept**: [[Relative Score Fusion]] — score-based merging, magnitude-preserving
+- **Concept**: [[Score Normalization]] — the step that makes score fusion viable
 - [[RRF is Not Enough]] — why naive RRF fails; upstream quality matters; intent routing
 - [[SPLADE for Sparse Vector Search Explained]]
 - [[Hybrid Search SPLADE Sparse Encoder]]
+
+**MongoDB Hybrid Search series** — [[Erik Hatcher]] ([[MongoDB]]):
+
+- [[Survey of the Hybrid Search Landscape]] — techniques ordered by rankability; measure, tune, repeat
+- [[Reciprocal Rank Fusion and Relative Score Fusion]] — RRF and RSF worked through with full arithmetic
+- [[Hybrid Search Blueprint Series Semantic Boosting]] — two-phase alternative to list merging
 
 - [[Wormhole Vectors Beyond Hybrid Search in OpenSearch]] — [[Dima Kan]]; SKG traversal bridging sparse/dense/behavioral spaces
 - [[Hybrid search > sum of its parts? Berlin Buzzwords 2022]] — early hybrid search benchmarking
