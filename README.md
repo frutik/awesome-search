@@ -1,6 +1,13 @@
 # Awesome Search
 
-## Latest History
+<p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank">Support Ukrainian fight for the freedom</a> 
+  
+I've been building e-commerce search applications for 15+ years. Below is a list of some publications, conferences, and books that have inspired me, grouped by topic. If an item fits into multiple topics, it appears in multiple sections.
+
+:star: Star us on GitHub — it helps!
+
+
+## Latest Changes
 
 - [2026.31](https://frutik.github.io/awesome-search/History/2026.31)
 - [2026.29](https://frutik.github.io/awesome-search/History/2026.29)
