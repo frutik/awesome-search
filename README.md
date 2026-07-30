@@ -1,1234 +1,206 @@
-# Awesome Search
-
-<p align="center"> <a href="https://savelife.in.ua/en/about-foundation-en/" target="_blank">Support Ukrainian fight for the freedom</a> 
-  
-I've been building e-commerce search applications for 15+ years. Below is a list of some publications, conferences, and books that have inspired me, grouped by topic. If an item fits into multiple topics, it appears in multiple sections.
-
-:star: Star us on GitHub — it helps!
-
-Also you can explore this information as a [Knowledge Graph](https://frutik.github.io/awesome-search/)
-
-*Topics*
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [General, fun, philosophy](#general-fun-philosophy)
-- [Types of search](#types-of-search)
-  - [Classic/Lexical Search](#classiclexical-search)
-  - [Vectors/Semantic search](#vectorssemantic-search)
-    - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
-    - [Embeddings](#embeddings)
-      - [Encoder architecture](#encoder-architecture)
-        - [Bi-encoders / Two towers (no interaction)](#bi-encoders--two-towers-no-interaction)
-        - [Cross-encoders (early interaction)](#cross-encoders-early-interaction)
-        - [ColBERT (late interaction)](#colbert-late-interaction)
-      - [Vector types](#vector-types)
-        - [Dense vectors](#dense-vectors)
-        - [Sparse vectors](#sparse-vectors)
-        - [Constructed query vectors](#constructed-query-vectors)
-      - [Dimensionality handling](#dimensionality-handling)
-        - [Dimensionality reduction](#dimensionality-reduction)
-        - [Quantization](#quantization)
-      - [Finetuning](#finetuning)
-        - [Supervised finetuning](#supervised-finetuning)
-        - [Knowledge distillation](#knowledge-distillation)
-        - [Multimodal finetuning](#multimodal-finetuning)
-    - [Vector retrieval](#vector-retrieval)
-  - [Hybrid search](#hybrid-search)
-    - [Reciprocal rank fusion (RRF)](#reciprocal-rank-fusion-rrf)
-    - [Linear Score Combination](#linear-score-combination)
-  - [Multimodal search](#multimodal-search)
-    - [Multimodality Problems](#multimodality-problems)
-      - [Modality Gap](#modality-gap)
-      - [Contrastive Gap](#contrastive-gap)
-  - [Agentic search](#agentic-search)
-- [Search Quality Assurance](#search-quality-assurance)
-  - [Evaluation Paradigms](#evaluation-paradigms)
-    - [Session-based Evaluation](#session-based-evaluation)
-    - [Query-based Evaluation](#query-based-evaluation)
-      - [Random sampling](#random-sampling)
-      - [Stratified sampling](#stratified-sampling)
-      - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
-  - [Metrics](#metrics)
-    - [Focused on ranking quality](#focused-on-ranking-quality)
-    - [Focused on diversity of results](#focused-on-diversity-of-results)
-      - [MMR](#mmr)
-      - [Average Pairwise Distance, APD](#average-pairwise-distance-apd)
-      - [Entropy](#entropy)
-    - [Behavioral / Product / Performance](#behavioral--product--performance)
-      - [Clicks](#clicks)
-        - [Zero clicks](#zero-clicks)
-        - [Clicks residual](#clicks-residual)
-      - [Zero results](#zero-results)
-  - [Evaluation Modes](#evaluation-modes)
-    - [Offline](#offline)
-      - [Judgements](#judgements)
-        - [HUman judgements](#human-judgements)
-        - [Implicite judgements](#implicite-judgements)
-        - [Using LLM as judge](#using-llm-as-judge)
-    - [Online](#online)
-- [Areas of application](#areas-of-application)
-  - [Enterprise search](#enterprise-search)
-  - [e-Commerce search](#e-commerce-search)
-  - [Conversational search](#conversational-search)
-- [Search Results](#search-results)
-  - [Retrieval](#retrieval)
-    - [Relevance](#relevance)
-      - [Relevance Algorithms](#relevance-algorithms)
-        - [BM25](#bm25)
-        - [Bayesian BM25 (BB25)](#bayesian-bm25-bb25)
-  - [Ranking](#ranking)
-    - [Multi-stage ranking](#multi-stage-ranking)
-      - [Reranking](#reranking)
-    - [Learning to Rank](#learning-to-rank)
-      - [Click models for search](#click-models-for-search)
-  - [Bias](#bias)
-  - [Diversification](#diversification)
-    - [MMR](#mmr-1)
-  - [Personalisation](#personalisation)
-  - [Zero search results](#zero-search-results)
-- [Search UX](#search-ux)
-  - [Baymard Institute](#baymard-institute)
-  - [Nielsen Norman Group](#nielsen-norman-group)
-  - [Enterprise Knowledge LLC](#enterprise-knowledge-llc)
-  - [Facets](#facets)
-    - [Accidental Taxonomist](#accidental-taxonomist)
-  - [Other](#other)
-- [Spelling correction](#spelling-correction)
-- [Synonyms](#synonyms)
-- [Stopwords](#stopwords)
-- [Suggestions](#suggestions)
-- [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
-  - [Integrating Search and Knowledge Graphs (by Enterprise Knowledge)](#integrating-search-and-knowledge-graphs-by-enterprise-knowledge)
-- [Query expansion](#query-expansion)
-- [Query understanding](#query-understanding)
-  - [Search Intent](#search-intent)
-  - [Query segmentation](#query-segmentation)
-- [Algorithms](#algorithms)
-  - [BERT](#bert)
-  - [ColBERT](#colbert)
-  - [Collocations, common phrases](#collocations-common-phrases)
-  - [Other Algorithms](#other-algorithms)
-    - [Hashing](#hashing)
-    - [Sorting by average ratings](#sorting-by-average-ratings)
-    - [Keywords extraction](#keywords-extraction)
-- [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
-  - [Tools, platforms, helpers for search tracking](#tools-platforms-helpers-for-search-tracking)
-  - [Resources](#resources)
-- [Experiments](#experiments)
-  - [A/B testing, MABs](#ab-testing-mabs)
-- [Testing, metrics, KPIs](#testing-metrics-kpis)
-  - [KPIs](#kpis)
-  - [Evaluating Search (by Daniel Tunkelang)](#evaluating-search-by-daniel-tunkelang)
-  - [Measuring Search (by James Rubinstein)](#measuring-search-by-james-rubinstein)
-  - [Three Pillars of Search Relevancy (by Andreas Wagner)](#three-pillars-of-search-relevancy-by-andreas-wagner)
-- [Architecture](#architecture)
-- [Education and networking](#education-and-networking)
-  - [Events](#events)
-  - [Conferences](#conferences)
-  - [Trainings and courses](#trainings-and-courses)
-  - [Books](#books)
-  - [Blogs and Portals](#blogs-and-portals)
-  - [Papers](#papers)
-- [Search Team. Managment, composition, hiring](#search-team-managment-composition-hiring)
-  - [Job Interviews](#job-interviews)
-  - [Engineering](#engineering)
-- [Economics of Search](#economics-of-search)
-- [Blogposts series](#blogposts-series)
-  - [Search Optimization 101 (by Charlie Hull)](#search-optimization-101-by-charlie-hull)
-  - [Query Understanding (by Daniel Tunkelang)](#query-understanding-by-daniel-tunkelang)
-  - [Grid Dynamics](#grid-dynamics)
-  - [Considering Search: Search Topics (by Derek Sisson)](#considering-search-search-topics-by-derek-sisson)
-- [Industry players](#industry-players)
-  - [Personalies and influencers](#personalies-and-influencers)
-  - [Search Engines](#search-engines)
-  - [Products and services](#products-and-services)
-  - [Consulting companies](#consulting-companies)
-- [Case studies](#case-studies)
-  - [General search](#general-search)
-  - [E-commerce](#e-commerce)
-  - [Multisided markets](#multisided-markets)
-- [Videos](#videos)
-  - [Channels](#channels)
-  - [Featured](#featured)
-- [Datasets](#datasets)
-- [Tools](#tools)
-  - [Spacy](#spacy)
-  - [Word2Vec](#word2vec)
-  - [Libs](#libs)
-  - [Other](#other-1)
-- [Other awesome stuff](#other-awesome-stuff)
-- [Unsorted](#unsorted)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## General, fun, philosophy
-
-* [Falsehoods Programmers Believe About Search](https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/)
-* [Ethical Search: Designing an irresistible journey with a positive impact](https://medium.com/empathyco/fooddiscovery-2-ethical-search-designing-an-irresistible-journey-with-a-positive-impact-cc921c07a5a8)
-* [On Semantic Search](https://medium.com/modern-nlp/semantic-search-fuck-yeah-e371c0f639d)
-* [Feedback debt: what the segway teaches search teams](https://opensourceconnections.com/blog/2020/03/19/feedback-debt/)
-* [Supporting the Searcher’s Journey: When and How](https://medium.com/@dtunkelang/supporting-the-searchers-journey-when-and-how-568e9b68fe02)
-* [Shopping is Hard, Let’s go Searching!](https://medium.com/@dtunkelang/shopping-is-hard-lets-go-searching-f61f3d5764d3)
-* [An Introduction to Search Quality](https://opensourceconnections.com/blog/2018/11/19/an-introduction-to-search-quality/)
-* [On-Site Search Design Patterns for E-Commerce: Schema Structure, Data Driven Ranking & More](https://project-a.github.io/on-site-search-design-patterns-for-e-commerce/)
-* [In Search of Recall](https://www.linkedin.com/pulse/search-recall-daniel-tunkelang/)
-* [Balance Your Search Budget!](https://www.linkedin.com/pulse/balance-your-search-budget-daniel-tunkelang/)
-
-## Types of search
+# Awesome Search — Knowledge Graph
 
-* [Evolution of Search Technology: A Look Ahead](https://medium.com/@Ratnaparkhi/how-the-search-technology-is-evolving-88607f5efb9e)
-
-### Classic/Lexical Search
+## Latest History
 
-* Etsy. [Targeting Broad Queries in Search](https://codeascraft.com/2015/07/29/targeting-broad-queries-in-search/)
-* [How Etsy Uses Thermodynamics to Help You Search for “Geeky”](https://codeascraft.com/2015/08/31/how-etsy-uses-thermodynamics-to-help-you-search-for-geeky/)
-* [Broad and Ambiguous Search Queries](https://medium.com/@dtunkelang/broad-and-ambiguous-search-queries-1bbbe417dcc)
-* [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
+- [2026.31](https://frutik.github.io/awesome-search/History/2026.31)
+- [2026.29](https://frutik.github.io/awesome-search/History/2026.29)
+- [2026.28](https://frutik.github.io/awesome-search/History/2026.28)
+- [2026.27](https://frutik.github.io/awesome-search/History/2026.27)
+- [2026.26](https://frutik.github.io/awesome-search/History/2026.26)
 
-### Vectors/Semantic search
+---
 
-* [Migrating to Elasticsearch with dense vector for Carousell Spotlight search engine](https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc)
-* [From zero to semantic search embedding model](https://blog.metarank.ai/from-zero-to-semantic-search-embedding-model-592e16d94b61)
-* [Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock](https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc)
+# Global Table of Contents
 
-#### Symmetric and Asymmetric semantic search
+A map of every note in the vault organized by category and theme.  This index tracks concepts, topics, people, tools, companies, case studies, conferences, and datasets.
 
-  * [Symmetric vs. Asymmetric Semantic Search](https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search)
+## Maps of Content
 
-#### Embeddings
+- [All about Information Retrieval & Search](https://frutik.github.io/awesome-search/All%20about%20Information%20Retrieval%20%26%20Search) — top-level overview
+- [Concepts](https://frutik.github.io/awesome-search/Concepts) · [Topics](https://frutik.github.io/awesome-search/Topics) · [People](https://frutik.github.io/awesome-search/People) · [Tools](https://frutik.github.io/awesome-search/Tools) · [Case Studies](https://frutik.github.io/awesome-search/Case%20Studies) · [Videos](https://frutik.github.io/awesome-search/Videos) · [Conferences](https://frutik.github.io/awesome-search/Conferences) · [History](https://frutik.github.io/awesome-search/History) · [Index](https://frutik.github.io/awesome-search/Index)
 
-##### Encoder architecture
+---
 
-###### Bi-encoders / Two towers (no interaction)
+## Concepts
 
-* [Bi-encoder vs Cross encoder? When to use which one?](https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37)
+### Lexical & Sparse Retrieval
+[BM25](https://frutik.github.io/awesome-search/Concepts/BM25) · [Bayesian BM25](https://frutik.github.io/awesome-search/Concepts/Bayesian%20BM25) · [Bag-of-Documents Model](https://frutik.github.io/awesome-search/Concepts/Bag-of-Documents%20Model) · [Full-Text Search](https://frutik.github.io/awesome-search/Concepts/Full-Text%20Search) · [WAND](https://frutik.github.io/awesome-search/Concepts/WAND) · [Block-Max WAND](https://frutik.github.io/awesome-search/Concepts/Block-Max%20WAND) · [Sparse Vector Retrieval](https://frutik.github.io/awesome-search/Concepts/Sparse%20Vector%20Retrieval) · [Learned Sparse Retrieval](https://frutik.github.io/awesome-search/Concepts/Learned%20Sparse%20Retrieval) · [SPLADE](https://frutik.github.io/awesome-search/Concepts/SPLADE) · [ELSER](https://frutik.github.io/awesome-search/Concepts/ELSER) · [miniCOIL](https://frutik.github.io/awesome-search/Concepts/miniCOIL) · [Sparse Embeddings](https://frutik.github.io/awesome-search/Concepts/Sparse%20Embeddings) · [Collocations](https://frutik.github.io/awesome-search/Concepts/Collocations) · [Out-of-Vocabulary](https://frutik.github.io/awesome-search/Concepts/Out-of-Vocabulary)
 
-###### Cross-encoders (early interaction)
+### Dense Retrieval & Embeddings
+[Embeddings](https://frutik.github.io/awesome-search/Concepts/Embeddings) · [Dense Embeddings](https://frutik.github.io/awesome-search/Concepts/Dense%20Embeddings) · [Dense Vector Retrieval](https://frutik.github.io/awesome-search/Concepts/Dense%20Vector%20Retrieval) · [Semantic Search](https://frutik.github.io/awesome-search/Concepts/Semantic%20Search) · [Asymmetric Semantic Search](https://frutik.github.io/awesome-search/Concepts/Asymmetric%20Semantic%20Search) · [Bi-Encoder](https://frutik.github.io/awesome-search/Concepts/Bi-Encoder) · [Dense Passage Retriever](https://frutik.github.io/awesome-search/Concepts/Dense%20Passage%20Retriever) · [BERT](https://frutik.github.io/awesome-search/Concepts/BERT) · [Word2Vec](https://frutik.github.io/awesome-search/Concepts/Word2Vec) · [Word2Box](https://frutik.github.io/awesome-search/Concepts/Word2Box) · [Concept Vectors](https://frutik.github.io/awesome-search/Concepts/Concept%20Vectors) · [Matryoshka Embeddings](https://frutik.github.io/awesome-search/Concepts/Matryoshka%20Embeddings) · [Multimodal Embeddings](https://frutik.github.io/awesome-search/Concepts/Multimodal%20Embeddings) · [Compositional Embeddings](https://frutik.github.io/awesome-search/Concepts/Compositional%20Embeddings) · [Task-Aware Embeddings](https://frutik.github.io/awesome-search/Concepts/Task-Aware%20Embeddings) · [Embedding Fine-tuning](https://frutik.github.io/awesome-search/Concepts/Embedding%20Fine-tuning) · [Pooling](https://frutik.github.io/awesome-search/Concepts/Pooling) · [Zero-Shot Retrieval](https://frutik.github.io/awesome-search/Concepts/Zero-Shot%20Retrieval) · [Vector Similarity Metrics](https://frutik.github.io/awesome-search/Concepts/Vector%20Similarity%20Metrics) · [Contrastive Gap](https://frutik.github.io/awesome-search/Concepts/Contrastive%20Gap) · [Modality Gap](https://frutik.github.io/awesome-search/Concepts/Modality%20Gap)
 
-###### ColBERT (late interaction)
+### Geometric & Set-Theoretic Embeddings
+[Set-Theoretic Embeddings](https://frutik.github.io/awesome-search/Concepts/Set-Theoretic%20Embeddings) · [Box Embedding](https://frutik.github.io/awesome-search/Concepts/Box%20Embedding) · [Gaussian Embedding](https://frutik.github.io/awesome-search/Concepts/Gaussian%20Embedding) · [Poincaré Embedding](https://frutik.github.io/awesome-search/Concepts/Poincar%C3%A9%20Embedding) · [Region-Based Representation](https://frutik.github.io/awesome-search/Concepts/Region-Based%20Representation)
 
-- [Announcing the Vespa ColBERT embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
-- [What is ColBERT and Late Interaction and Why They Matter in Search?](https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/)
+### ANN Indexing & Quantization
+[ANN](https://frutik.github.io/awesome-search/Concepts/Approximate%20Nearest%20Neighbor%20Search) · [Brute-Force Vector Search](https://frutik.github.io/awesome-search/Concepts/Brute-Force%20Vector%20Search) · [HNSW](https://frutik.github.io/awesome-search/Concepts/HNSW) · [IVF](https://frutik.github.io/awesome-search/Concepts/IVF) · [LSH](https://frutik.github.io/awesome-search/Concepts/LSH) · [ACORN-1](https://frutik.github.io/awesome-search/Concepts/ACORN-1) · [Vector Filtering](https://frutik.github.io/awesome-search/Concepts/Vector%20Filtering) · [Wormhole Vectors](https://frutik.github.io/awesome-search/Concepts/Wormhole%20Vectors) · [Vector Quantization](https://frutik.github.io/awesome-search/Concepts/Vector%20Quantization) · [Scalar Quantization](https://frutik.github.io/awesome-search/Concepts/Scalar%20Quantization) · [Binary Quantization](https://frutik.github.io/awesome-search/Concepts/Binary%20Quantization) · [BBQ](https://frutik.github.io/awesome-search/Concepts/BBQ) · [RaBitQ](https://frutik.github.io/awesome-search/Concepts/RaBitQ) · [TurboQuant](https://frutik.github.io/awesome-search/Concepts/TurboQuant) · [Token Pooling](https://frutik.github.io/awesome-search/Concepts/Token%20Pooling)
 
-##### Vector types
+### Dimensionality Reduction
+[Dimensionality Reduction](https://frutik.github.io/awesome-search/Concepts/Dimensionality%20Reduction) · [PCA](https://frutik.github.io/awesome-search/Concepts/PCA) · [UMAP](https://frutik.github.io/awesome-search/Concepts/UMAP) · [t-SNE](https://frutik.github.io/awesome-search/Concepts/t-SNE)
 
-###### Dense vectors
+### Late Interaction & Multi-Vector
+[Late Interaction](https://frutik.github.io/awesome-search/Concepts/Late%20Interaction) · [ColBERT](https://frutik.github.io/awesome-search/Concepts/ColBERT) · [ColPali](https://frutik.github.io/awesome-search/Concepts/ColPali) · [MUVERA](https://frutik.github.io/awesome-search/Concepts/MUVERA)
 
-####### Input size limits
+### Reranking & Cross-Encoders
+[Reranking](https://frutik.github.io/awesome-search/Concepts/Reranking) · [Cross-Encoder](https://frutik.github.io/awesome-search/Concepts/Cross-Encoder) · [MonoT5](https://frutik.github.io/awesome-search/Concepts/MonoT5) · [RankGPT](https://frutik.github.io/awesome-search/Concepts/RankGPT) · [RankLLaMA](https://frutik.github.io/awesome-search/Concepts/RankLLaMA) · [Knowledge Distillation](https://frutik.github.io/awesome-search/Concepts/Knowledge%20Distillation)
 
-- [Chunking Strategies for LLM Applications](https://www.pinecone.io/learn/chunking-strategies/)
-- [Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex](https://blog.llamaindex.ai/evaluating-the-ideal-chunk-size-for-a-rag-system-using-llamaindex-6207e5d3fec5)
-- [How to Chunk Text Data — A Comparative Analysis](https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a)
+### Learning to Rank
+[Learning to Rank](https://frutik.github.io/awesome-search/Concepts/Learning%20to%20Rank) · [LambdaMART](https://frutik.github.io/awesome-search/Concepts/LambdaMART) · [LambdaLoss](https://frutik.github.io/awesome-search/Concepts/LambdaLoss) · [RankNet](https://frutik.github.io/awesome-search/Concepts/RankNet) · [LTR Feature Engineering](https://frutik.github.io/awesome-search/Concepts/LTR%20Feature%20Engineering) · [Ranking Objectives](https://frutik.github.io/awesome-search/Concepts/Ranking%20Objectives) · [Pointwise Relevance Evaluation](https://frutik.github.io/awesome-search/Concepts/Pointwise%20Relevance%20Evaluation) · [Pairwise Relevance Evaluation](https://frutik.github.io/awesome-search/Concepts/Pairwise%20Relevance%20Evaluation) · [Listwise Relevance Evaluation](https://frutik.github.io/awesome-search/Concepts/Listwise%20Relevance%20Evaluation) · [Feature Store](https://frutik.github.io/awesome-search/Concepts/Feature%20Store) · [Results Boosting](https://frutik.github.io/awesome-search/Concepts/Results%20Boosting)
 
-  - **Positional chunking**
-  - **Semantic chunking**
+### Hybrid Search & Score Fusion
+[Hybrid Search](https://frutik.github.io/awesome-search/Concepts/Hybrid%20Search) · [Reciprocal Rank Fusion](https://frutik.github.io/awesome-search/Concepts/Reciprocal%20Rank%20Fusion) · [Linear Score Combination](https://frutik.github.io/awesome-search/Concepts/Linear%20Score%20Combination) · [Relative Score Fusion](https://frutik.github.io/awesome-search/Concepts/Relative%20Score%20Fusion) · [Score Normalization](https://frutik.github.io/awesome-search/Concepts/Score%20Normalization) · [Semantic Boosting](https://frutik.github.io/awesome-search/Concepts/Semantic%20Boosting)
 
-####### Matryoshka embeddings
+### Query Understanding
+[Query Understanding](https://frutik.github.io/awesome-search/Concepts/Query%20Understanding) · [Query Segmentation](https://frutik.github.io/awesome-search/Concepts/Query%20Segmentation) · [Query Specificity](https://frutik.github.io/awesome-search/Concepts/Query%20Specificity) · [Query Types](https://frutik.github.io/awesome-search/Concepts/Query%20Types) · [Query Sampling](https://frutik.github.io/awesome-search/Concepts/Query%20Sampling) · [Search Intent](https://frutik.github.io/awesome-search/Concepts/Search%20Intent) · [Intent Drift](https://frutik.github.io/awesome-search/Concepts/Intent%20Drift) · [Keywords Extraction](https://frutik.github.io/awesome-search/Concepts/Keywords%20Extraction) · [Compositional Queries](https://frutik.github.io/awesome-search/Concepts/Compositional%20Queries)
 
-* [Matryoshka embeddings: faster OpenAI vector search using Adaptive Retrieval](https://supabase.com/blog/matryoshka-embeddings)
-* [Introduction to Matryoshka Embedding Models](https://huggingface.co/blog/matryoshka)
-* [Matryoshka representations. A guide to faster semantic search](https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530)
+### Lexical Query Operations
+[Tokenization](https://frutik.github.io/awesome-search/Concepts/Tokenization) · [Spelling Correction](https://frutik.github.io/awesome-search/Concepts/Spelling%20Correction) · [Synonyms](https://frutik.github.io/awesome-search/Concepts/Synonyms) · [Stopwords](https://frutik.github.io/awesome-search/Concepts/Stopwords) · [Autocomplete](https://frutik.github.io/awesome-search/Concepts/Autocomplete) · [Query Expansion](https://frutik.github.io/awesome-search/Concepts/Query%20Expansion) · [Query Relaxation](https://frutik.github.io/awesome-search/Concepts/Query%20Relaxation)
 
-####### Context-aware embeddings
+### Evaluation & Metrics
+[Search Evaluation](https://frutik.github.io/awesome-search/Concepts/Search%20Evaluation) · [NDCG](https://frutik.github.io/awesome-search/Concepts/NDCG) · [MAP](https://frutik.github.io/awesome-search/Concepts/MAP) · [MRR](https://frutik.github.io/awesome-search/Concepts/MRR) · [Precision and Recall](https://frutik.github.io/awesome-search/Concepts/Precision%20and%20Recall) · [Hit Rate at K](https://frutik.github.io/awesome-search/Concepts/Hit%20Rate%20at%20K) · [UDCG](https://frutik.github.io/awesome-search/Concepts/UDCG) · [Diversity Metrics](https://frutik.github.io/awesome-search/Concepts/Diversity%20Metrics) · [Judgment Lists](https://frutik.github.io/awesome-search/Concepts/Judgment%20Lists) · [Implicit Judgments](https://frutik.github.io/awesome-search/Concepts/Implicit%20Judgments) · [LLM as Judge](https://frutik.github.io/awesome-search/Concepts/LLM%20as%20Judge) · [A-B Testing for Search](https://frutik.github.io/awesome-search/Concepts/A-B%20Testing%20for%20Search) · [Interleaving](https://frutik.github.io/awesome-search/Concepts/Interleaving) · [Session-Based Evaluation](https://frutik.github.io/awesome-search/Concepts/Session-Based%20Evaluation) · [Vector Search Evaluation](https://frutik.github.io/awesome-search/Concepts/Vector%20Search%20Evaluation) · Relevance feedback · [APD](https://frutik.github.io/awesome-search/Concepts/APD)
 
-* [Improve your RAG applications by moving to Task-aware Embeddings](https://medium.com/@gal.peretz/improve-your-rag-applications-by-moving-to-task-aware-embeddings-09ebee62616f)
-* [How Context-Aware Embeddings Are Transforming Enterprise Search](https://medium.com/@sonakshi.sp/smarter-knowledge-retrieval-how-context-aware-embeddings-are-transforming-enterprise-search-802c29c4b9b5)
+### Behavioral Signals & Bias
+[Click Models](https://frutik.github.io/awesome-search/Concepts/Click%20Models) · [Neural Click Models](https://frutik.github.io/awesome-search/Concepts/Neural%20Click%20Models) · [Click Signals](https://frutik.github.io/awesome-search/Concepts/Click%20Signals) · [Clicks Residual](https://frutik.github.io/awesome-search/Concepts/Clicks%20Residual) · [Position Bias](https://frutik.github.io/awesome-search/Concepts/Position%20Bias) · [Presentation Bias](https://frutik.github.io/awesome-search/Concepts/Presentation%20Bias) · [Signal Downboosting](https://frutik.github.io/awesome-search/Concepts/Signal%20Downboosting) · [Personalization](https://frutik.github.io/awesome-search/Concepts/Personalization) · [Exploration vs Exploitation](https://frutik.github.io/awesome-search/Concepts/Exploration%20vs%20Exploitation)
 
-###### Sparse vectors
+### Agentic, Generative & RAG
+[Agentic Search](https://frutik.github.io/awesome-search/Concepts/Agentic%20Search) · [Agentic Query Workload](https://frutik.github.io/awesome-search/Concepts/Agentic%20Query%20Workload) · [Conversational Search](https://frutik.github.io/awesome-search/Concepts/Conversational%20Search) · [RAG](https://frutik.github.io/awesome-search/Concepts/RAG) · [Generative Retrieval](https://frutik.github.io/awesome-search/Concepts/Generative%20Retrieval) · [Differentiable Search Index](https://frutik.github.io/awesome-search/Concepts/Differentiable%20Search%20Index) · [Direct Corpus Interaction](https://frutik.github.io/awesome-search/Concepts/Direct%20Corpus%20Interaction) · [Purpose-Built Agentic Search Models](https://frutik.github.io/awesome-search/Concepts/Purpose-Built%20Agentic%20Search%20Models) · [SIRA](https://frutik.github.io/awesome-search/Concepts/SIRA) · [Search-R1](https://frutik.github.io/awesome-search/Concepts/Search-R1) · [Reinforcement Learning for Search](https://frutik.github.io/awesome-search/Concepts/Reinforcement%20Learning%20for%20Search) · [Semantic IDs](https://frutik.github.io/awesome-search/Concepts/Semantic%20IDs) · [TIGER](https://frutik.github.io/awesome-search/Concepts/TIGER) · [RQ-VAE](https://frutik.github.io/awesome-search/Concepts/RQ-VAE) · [Context Engineering](https://frutik.github.io/awesome-search/Concepts/Context%20Engineering) · [Clean Context](https://frutik.github.io/awesome-search/Concepts/Clean%20Context) · [Hypothetical Document Embeddings](https://frutik.github.io/awesome-search/Concepts/Hypothetical%20Document%20Embeddings) · [Steering Vectors](https://frutik.github.io/awesome-search/Concepts/Steering%20Vectors)
 
-####### SPLADE
+### Model Fine-Tuning & Serving
+[LoRA](https://frutik.github.io/awesome-search/Concepts/LoRA) · [QLoRA](https://frutik.github.io/awesome-search/Concepts/QLoRA) · [PEFT](https://frutik.github.io/awesome-search/Concepts/PEFT) · [GGUF](https://frutik.github.io/awesome-search/Concepts/GGUF) · [Hard Negative Mining](https://frutik.github.io/awesome-search/Concepts/Hard%20Negative%20Mining) · [Knowledge Distillation](https://frutik.github.io/awesome-search/Concepts/Knowledge%20Distillation) · [Synthetic Query Generation](https://frutik.github.io/awesome-search/Concepts/Synthetic%20Query%20Generation) · [Consistency Filtering](https://frutik.github.io/awesome-search/Concepts/Consistency%20Filtering) · [PROMPTAGATOR](https://frutik.github.io/awesome-search/Concepts/PROMPTAGATOR) · [FLAN-T5](https://frutik.github.io/awesome-search/Concepts/FLAN-T5)
 
-* [Hybrid Search: SPLADE (Sparse Encoder)](https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913)
-* [SPLADE for Sparse Vector Search Explained](https://www.pinecone.io/learn/splade/)
-* [Improving information retrieval in the Elastic Stack. Introducing Elastic Learned Sparse Encoder, our new retrieval model](https://www.elastic.co/search-labs/blog/elastic-learned-sparse-encoder-elser-retrieval-performance)
-* [SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking](https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/)
+### Search Architecture & Operations
+[Search Architecture](https://frutik.github.io/awesome-search/Concepts/Search%20Architecture) · [Retrieval Pipeline](https://frutik.github.io/awesome-search/Concepts/Retrieval%20Pipeline) · [Unified Search Index](https://frutik.github.io/awesome-search/Concepts/Unified%20Search%20Index) · [Denormalization for Search](https://frutik.github.io/awesome-search/Concepts/Denormalization%20for%20Search) · [Search Observability](https://frutik.github.io/awesome-search/Concepts/Search%20Observability) · [Search Governance](https://frutik.github.io/awesome-search/Concepts/Search%20Governance) · [Search Team](https://frutik.github.io/awesome-search/Concepts/Search%20Team) · [Economics of Search](https://frutik.github.io/awesome-search/Concepts/Economics%20of%20Search) · [Search Results Explainability](https://frutik.github.io/awesome-search/Concepts/Search%20Results%20Explainability) · [Text Chunking](https://frutik.github.io/awesome-search/Concepts/Text%20Chunking) · [Knowledge Graph Search](https://frutik.github.io/awesome-search/Concepts/Knowledge%20Graph%20Search)
 
-###### Constructed query vectors
+### Search UX & Discovery
+[Faceted Search](https://frutik.github.io/awesome-search/Concepts/Faceted%20Search) · [Federated Search](https://frutik.github.io/awesome-search/Concepts/Federated%20Search) · [Search Scopes](https://frutik.github.io/awesome-search/Concepts/Search%20Scopes) · [Zero Results](https://frutik.github.io/awesome-search/Concepts/Zero%20Results) · [Results Merchandising](https://frutik.github.io/awesome-search/Concepts/Results%20Merchandising) · [MMR](https://frutik.github.io/awesome-search/Concepts/MMR)
 
-####### Hypothetical Document Embeddings (HyDE)
+---
 
-* [HyDE](https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde)
+## Topics
 
-####### Bag-of-documents
+### Retrieval & Ranking Techniques
+[Reasoning Reranking](https://frutik.github.io/awesome-search/Topics/Reasoning%20Reranking) · [RL-Trained Search Agents](https://frutik.github.io/awesome-search/Topics/RL-Trained%20Search%20Agents) · [Late Interaction in Elasticsearch](https://frutik.github.io/awesome-search/Topics/Late%20Interaction%20in%20Elasticsearch) · [Late Interaction in OpenSearch](https://frutik.github.io/awesome-search/Topics/Late%20Interaction%20in%20OpenSearch) · [Late Interaction in Qdrant](https://frutik.github.io/awesome-search/Topics/Late%20Interaction%20in%20Qdrant) · [Late Interaction in Vespa](https://frutik.github.io/awesome-search/Topics/Late%20Interaction%20in%20Vespa) · [Elasticsearch Learning to Rank](https://frutik.github.io/awesome-search/Topics/Elasticsearch%20Learning%20to%20Rank) · [Vespa Learning to Rank](https://frutik.github.io/awesome-search/Topics/Vespa%20Learning%20to%20Rank) · [Vector Search Tradeoffs](https://frutik.github.io/awesome-search/Topics/Vector%20Search%20Tradeoffs) · [Dimensionality Reduction vs Quantization](https://frutik.github.io/awesome-search/Topics/Dimensionality%20Reduction%20vs%20Quantization) · [PCA vs t-SNE for Retrieval](https://frutik.github.io/awesome-search/Topics/PCA%20vs%20t-SNE%20for%20Retrieval) · [Search UX](https://frutik.github.io/awesome-search/Topics/Search%20UX) · [Search UX Research](https://frutik.github.io/awesome-search/Topics/Search%20UX%20Research) · [Search Result Diversity](https://frutik.github.io/awesome-search/Topics/Search%20Result%20Diversity) · [Multilingual Search](https://frutik.github.io/awesome-search/Topics/Multilingual%20Search) · [Personalization in Search](https://frutik.github.io/awesome-search/Topics/Personalization%20in%20Search) · [Query Understanding in Practice](https://frutik.github.io/awesome-search/Topics/Query%20Understanding%20in%20Practice) · [Spelling Correction in Search](https://frutik.github.io/awesome-search/Topics/Spelling%20Correction%20in%20Search) · [Synonyms and Vocabulary Management](https://frutik.github.io/awesome-search/Topics/Synonyms%20and%20Vocabulary%20Management) · [Autocomplete and Autosuggest](https://frutik.github.io/awesome-search/Topics/Autocomplete%20and%20Autosuggest) · [Conversational and Agentic Search](https://frutik.github.io/awesome-search/Topics/Conversational%20and%20Agentic%20Search) · [Interaction Paradigms](https://frutik.github.io/awesome-search/Topics/Interaction%20Paradigms)
 
-* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
+### Domains & Platforms
+[E-commerce Search](https://frutik.github.io/awesome-search/Topics/E-commerce%20Search) · [Enterprise Search](https://frutik.github.io/awesome-search/Topics/Enterprise%20Search) · [Search using PostgreSQL](https://frutik.github.io/awesome-search/Topics/Search%20using%20PostgreSQL) · [Search Platforms](https://frutik.github.io/awesome-search/Topics/Search%20Platforms) · [Migration between Search Engines](https://frutik.github.io/awesome-search/Topics/Migration%20between%20Search%20Engines) · [Elasticsearch vs OpenSearch](https://frutik.github.io/awesome-search/Topics/Elasticsearch%20vs%20OpenSearch) · [Federated vs Unified Search](https://frutik.github.io/awesome-search/Topics/Federated%20vs%20Unified%20Search)
 
-####### Wormhole vectors
+### Quality & Operations
+[A-B Testing for Search](https://frutik.github.io/awesome-search/Topics/A-B%20Testing%20for%20Search) · [Duality in Measuring Search](https://frutik.github.io/awesome-search/Topics/Duality%20in%20Measuring%20Search) · [NDCG Variants](https://frutik.github.io/awesome-search/Topics/NDCG%20Variants) · [Search Quality Assurance](https://frutik.github.io/awesome-search/Topics/Search%20Quality%20Assurance) · [Relevance Program Setup](https://frutik.github.io/awesome-search/Topics/Relevance%20Program%20Setup) · [Relevance Evaluation Tools Compared](https://frutik.github.io/awesome-search/Topics/Relevance%20Evaluation%20Tools%20Compared) · [Search Observability](https://frutik.github.io/awesome-search/Topics/Search%20Observability)
 
-* [Beyond Hybrid Search: Traversing Vector Spaces with Wormhole Vectors](https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors)
+### Team, Career & Community
+[Hiring for Search](https://frutik.github.io/awesome-search/Topics/Hiring%20for%20Search) · [How to Start a Career in Search](https://frutik.github.io/awesome-search/Topics/How%20to%20Start%20a%20Career%20in%20Search) · [Managing a Search Team](https://frutik.github.io/awesome-search/Topics/Managing%20a%20Search%20Team) · [Understaffed Search Team](https://frutik.github.io/awesome-search/Topics/Understaffed%20Search%20Team) · [Search Consultancy](https://frutik.github.io/awesome-search/Topics/Search%20Consultancy) · [Search Communities](https://frutik.github.io/awesome-search/Topics/Search%20Communities) · [Women of Search](https://frutik.github.io/awesome-search/Topics/Women%20of%20Search) · [Events and Conferences](https://frutik.github.io/awesome-search/Topics/Events%20and%20Conferences)
 
-##### Dimensionality handling
+### Learning Resources
+[Books](https://frutik.github.io/awesome-search/Topics/Books) · [Courses](https://frutik.github.io/awesome-search/Topics/Courses)
 
-###### Dimensionality reduction
+### Strategy & Meta
+[Frontier of Search](https://frutik.github.io/awesome-search/Topics/Frontier%20of%20Search) · [Frontier of Search 2025](https://frutik.github.io/awesome-search/Topics/Frontier%20of%20Search%202025) · [Frontier of Search 2026](https://frutik.github.io/awesome-search/Topics/Frontier%20of%20Search%202026) · [Economics of Search](https://frutik.github.io/awesome-search/Topics/Economics%20of%20Search) · [Search Problem Archetypes](https://frutik.github.io/awesome-search/Topics/Search%20Problem%20Archetypes) · [Fun and Philosophy](https://frutik.github.io/awesome-search/Topics/Fun%20and%20Philosophy)
 
-- PCA
-- t-SNE
+---
 
-###### Quantization
+## Tools
 
-- Scalar quantization
-- Binary quantization
-- Product quantization
-- Rotational quantization
+### Search & Vector Engines
+[Elasticsearch](https://frutik.github.io/awesome-search/Tools/Elasticsearch) · [OpenSearch](https://frutik.github.io/awesome-search/Tools/OpenSearch) · [Solr](https://frutik.github.io/awesome-search/Tools/Solr) · [FAISS](https://frutik.github.io/awesome-search/Tools/FAISS) · [Milvus Vector DB](https://frutik.github.io/awesome-search/Tools/Milvus%20Vector%20DB) · [Pinecone Vector DB](https://frutik.github.io/awesome-search/Tools/Pinecone%20Vector%20DB) · [Qdrant Vector DB](https://frutik.github.io/awesome-search/Tools/Qdrant%20Vector%20DB) · [Weaviate Vector DB](https://frutik.github.io/awesome-search/Tools/Weaviate%20Vector%20DB) · [PostgreSQL](https://frutik.github.io/awesome-search/Tools/PostgreSQL) · [ParadeDB](https://frutik.github.io/awesome-search/Tools/ParadeDB) · [VectorChord](https://frutik.github.io/awesome-search/Tools/VectorChord)
 
-##### Finetuning
+### PostgreSQL Extensions
+[pgvector](https://frutik.github.io/awesome-search/Tools/pgvector) · [pgvectorscale](https://frutik.github.io/awesome-search/Tools/pgvectorscale) · [pg_textsearch](https://frutik.github.io/awesome-search/Tools/pg_textsearch) · [pg_trgm](https://frutik.github.io/awesome-search/Tools/pg_trgm) · [psql_bm25s](https://frutik.github.io/awesome-search/Tools/psql_bm25s)
 
-###### Supervised finetuning
+### Ranking & ML Libraries
+[LightGBM](https://frutik.github.io/awesome-search/Tools/LightGBM) · [XGBoost](https://frutik.github.io/awesome-search/Tools/XGBoost) · [CatBoost](https://frutik.github.io/awesome-search/Tools/CatBoost) · [RankLib](https://frutik.github.io/awesome-search/Tools/RankLib) · [Metarank](https://frutik.github.io/awesome-search/Tools/Metarank) · [eland](https://frutik.github.io/awesome-search/Tools/eland)
 
-* [Fine-Tuning Text Embeddings For Domain-Specific Search](https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c)
-* [Is Fine-Tuning an Embedding Model Worth it?](https://pub.towardsai.net/is-fine-tuning-an-embedding-model-worth-it-9d5fe6875c32)
+### Embedding Training
+[Sentence Transformers](https://frutik.github.io/awesome-search/Tools/Sentence%20Transformers) · [qdrant-sparse-finetune](https://frutik.github.io/awesome-search/Tools/qdrant-sparse-finetune) · [qdrant-relevance-feedback](https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback)
 
-###### Knowledge distillation
+### Relevance & Query Tooling
+[Querqy](https://frutik.github.io/awesome-search/Tools/Querqy) · [Quepid](https://frutik.github.io/awesome-search/Tools/Quepid) · [Search Relevance Workbench](https://frutik.github.io/awesome-search/Tools/Search%20Relevance%20Workbench) · [Elasticsearch Relevance Studio](https://frutik.github.io/awesome-search/Tools/Elasticsearch%20Relevance%20Studio) · [Rated Ranking Evaluator](https://frutik.github.io/awesome-search/Tools/Rated%20Ranking%20Evaluator) · [User Behavior Insights](https://frutik.github.io/awesome-search/Tools/User%20Behavior%20Insights) · [ann-benchmarks](https://frutik.github.io/awesome-search/Tools/ann-benchmarks) · [SID-1](https://frutik.github.io/awesome-search/Tools/SID-1)
 
-* [Distilling Retrieval Pipelines to a Single Embedding Model](https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91)
+### ML & Model Serving
+[LightGBM](https://frutik.github.io/awesome-search/Tools/LightGBM) · [XGBoost](https://frutik.github.io/awesome-search/Tools/XGBoost) · [CatBoost](https://frutik.github.io/awesome-search/Tools/CatBoost) · [RankLib](https://frutik.github.io/awesome-search/Tools/RankLib) · [ONNX](https://frutik.github.io/awesome-search/Tools/ONNX) · [eland](https://frutik.github.io/awesome-search/Tools/eland)
 
-###### Multimodal finetuning
+---
 
-* [Fine-tuning Multimodal Embedding Models](https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5)
+## Companies
+[Airbnb](https://frutik.github.io/awesome-search/Companies/Airbnb) · [Algolia](https://frutik.github.io/awesome-search/Companies/Algolia) · [Amazon Web Services](https://frutik.github.io/awesome-search/Companies/Amazon%20Web%20Services) · [Baymard Institute](https://frutik.github.io/awesome-search/Companies/Baymard%20Institute) · [Bonsai](https://frutik.github.io/awesome-search/Companies/Bonsai) · [Canva](https://frutik.github.io/awesome-search/Companies/Canva) · [Carousell](https://frutik.github.io/awesome-search/Companies/Carousell) · [Cohere](https://frutik.github.io/awesome-search/Companies/Cohere) · [Dropbox](https://frutik.github.io/awesome-search/Companies/Dropbox) · [Elastic](https://frutik.github.io/awesome-search/Companies/Elastic) · [Elsevier](https://frutik.github.io/awesome-search/Companies/Elsevier) · [Empathy](https://frutik.github.io/awesome-search/Companies/Empathy) · [Enterprise Knowledge LLC](https://frutik.github.io/awesome-search/Companies/Enterprise%20Knowledge%20LLC) · [Etsy](https://frutik.github.io/awesome-search/Companies/Etsy) · [Grubhub](https://frutik.github.io/awesome-search/Companies/Grubhub) · [Hornet](https://frutik.github.io/awesome-search/Companies/Hornet) · [Jina AI](https://frutik.github.io/awesome-search/Companies/Jina%20AI) · [Kleinanzeigen](https://frutik.github.io/awesome-search/Companies/Kleinanzeigen) · [LightOn AI](https://frutik.github.io/awesome-search/Companies/LightOn%20AI) · [LinkedIn](https://frutik.github.io/awesome-search/Companies/LinkedIn) · [Meta](https://frutik.github.io/awesome-search/Companies/Meta) · [MongoDB](https://frutik.github.io/awesome-search/Companies/MongoDB) · [Netflix](https://frutik.github.io/awesome-search/Companies/Netflix) · [Nielsen Norman Group](https://frutik.github.io/awesome-search/Companies/Nielsen%20Norman%20Group) · [OpenSource Connections](https://frutik.github.io/awesome-search/Companies/OpenSource%20Connections) · [Otto](https://frutik.github.io/awesome-search/Companies/Otto) · [Pinecone](https://frutik.github.io/awesome-search/Companies/Pinecone) · [Qdrant](https://frutik.github.io/awesome-search/Companies/Qdrant) · [Reddit](https://frutik.github.io/awesome-search/Companies/Reddit) · [SID.ai](https://frutik.github.io/awesome-search/Companies/SID.ai) · [Sease](https://frutik.github.io/awesome-search/Companies/Sease) · [Shaped](https://frutik.github.io/awesome-search/Companies/Shaped) · [Shopify](https://frutik.github.io/awesome-search/Companies/Shopify) · [Skyscanner](https://frutik.github.io/awesome-search/Companies/Skyscanner) · [Slack](https://frutik.github.io/awesome-search/Companies/Slack) · [Spotify](https://frutik.github.io/awesome-search/Companies/Spotify) · [The Search Juggler](https://frutik.github.io/awesome-search/Companies/The%20Search%20Juggler) · [Tiger Data](https://frutik.github.io/awesome-search/Companies/Tiger%20Data) · [Twitter](https://frutik.github.io/awesome-search/Companies/Twitter) · [Uber](https://frutik.github.io/awesome-search/Companies/Uber) · [Vespa](https://frutik.github.io/awesome-search/Companies/Vespa) · [Vinted](https://frutik.github.io/awesome-search/Companies/Vinted) · [Voyage AI](https://frutik.github.io/awesome-search/Companies/Voyage%20AI) · [Weaviate](https://frutik.github.io/awesome-search/Companies/Weaviate) · [Zalando](https://frutik.github.io/awesome-search/Companies/Zalando) · [searchHub](https://frutik.github.io/awesome-search/Companies/searchHub)
 
-#### Vector retrieval
+---
 
-* [Choosing the best model for semantic search](https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search)
-* [Guidelines to choose an index](https://github.com/facebookresearch/faiss/wiki/Guidelines-to-choose-an-index)
-* [Nearest Neighbor Indexes for Similarity Search](https://www.pinecone.io/learn/series/faiss/vector-indexes/)
-* [The Missing WHERE Clause in Vector Search](https://www.pinecone.io/learn/vector-search-filtering/)
+## Case Studies
+[Airbnb - ML-Powered Experiences Ranking](https://frutik.github.io/awesome-search/Case%20Studies/Airbnb%20-%20ML-Powered%20Experiences%20Ranking) · [Bonsai - Designing Search for a Relational Database](https://frutik.github.io/awesome-search/Case%20Studies/Bonsai%20-%20Designing%20Search%20for%20a%20Relational%20Database) · [Canva - Search Pipeline Modernization](https://frutik.github.io/awesome-search/Case%20Studies/Canva%20-%20Search%20Pipeline%20Modernization) · [Etsy - Search Quality and Query Understanding](https://frutik.github.io/awesome-search/Case%20Studies/Etsy%20-%20Search%20Quality%20and%20Query%20Understanding) · [Hybrid Fusion Failure - BM25 Displacing Reference Documents](https://frutik.github.io/awesome-search/Case%20Studies/Hybrid%20Fusion%20Failure%20-%20BM25%20Displacing%20Reference%20Documents) · [Kleinanzeigen - Vespa Migration for Homepage Feed](https://frutik.github.io/awesome-search/Case%20Studies/Kleinanzeigen%20-%20Vespa%20Migration%20for%20Homepage%20Feed) · [Netflix - Content Search Architecture](https://frutik.github.io/awesome-search/Case%20Studies/Netflix%20-%20Content%20Search%20Architecture) · [Reddit - Vector Database Selection](https://frutik.github.io/awesome-search/Case%20Studies/Reddit%20-%20Vector%20Database%20Selection) · [Skyscanner - Learning to Rank for Flights](https://frutik.github.io/awesome-search/Case%20Studies/Skyscanner%20-%20Learning%20to%20Rank%20for%20Flights) · [Slack - Enterprise Message Search with LTR](https://frutik.github.io/awesome-search/Case%20Studies/Slack%20-%20Enterprise%20Message%20Search%20with%20LTR) · [Uber Eats - Scaling Search for Food Delivery](https://frutik.github.io/awesome-search/Case%20Studies/Uber%20Eats%20-%20Scaling%20Search%20for%20Food%20Delivery) · [Vespa - Ranking Without Labels on CORD-19](https://frutik.github.io/awesome-search/Case%20Studies/Vespa%20-%20Ranking%20Without%20Labels%20on%20CORD-19) · [Vinted - Migrating Search from Elasticsearch to Vespa](https://frutik.github.io/awesome-search/Case%20Studies/Vinted%20-%20Migrating%20Search%20from%20Elasticsearch%20to%20Vespa) · [Zalando - Self-DoS via Facet Aggregation](https://frutik.github.io/awesome-search/Case%20Studies/Zalando%20-%20Self-DoS%20via%20Facet%20Aggregation)
 
-
-### Hybrid search
-
-* [Hybrid search > sum of its parts?](https://pretalx.com/bbuzz22/talk/YEHRTE/)
-* [On Hybrid Search](https://qdrant.tech/articles/hybrid-search/#)
-* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
-
-#### Reciprocal rank fusion (RRF)
-
-* [Hybrid search with Re-ranking](https://medium.com/@sowmiyajaganathan/hybrid-search-with-re-ranking-ff120c8a426d)
-* [Reciprocal rank fusion](https://www.elastic.co/guide/en/elasticsearch/reference/current/rrf.html)
-* [RRF is Not Enough](https://softwaredoug.com/blog/2024/11/03/rrf-is-not-enough)
-
-#### Linear Score Combination
-
-* [Linear retriever](https://www.elastic.co/docs/reference/elasticsearch/rest-apis/retrievers/linear-retriever?utm_source=chatgpt.com)
-
-### Multimodal search
-
-* [Muves: Multimodal & multilingual vector search w/ Hardware Acceleration](https://www.youtube.com/watch?v=9OS8cMf2rwY)
-* [Model Selection for Multimodal Search](https://docs.marqo.ai/2.6/Cookbook/model_selection/multimodal_search/#convnext-models)
-
-#### Multimodality Problems
-
-##### Modality Gap
-
-- [Accept the modality gap: An exploration in the hyperbolic space](https://www.amazon.science/publications/accept-the-modality-gap-an-exploration-in-the-hyperbolic-space)
-
-##### Contrastive Gap
-
-- [Characterizing and Addressing the Contrastive Gap](https://arxiv.org/abs/2405.18570)
-
-### Agentic search
-
-- [Agentic Search as an Agile Engineering Process](https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e)
-- [Agents turn simple keyword search into compelling search experiences](https://softwaredoug.com/blog/2025/09/22/reasoning-agents-need-bad-search)
-- [Agentic search models](https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models)
-
-## Search Quality Assurance
-
-### Evaluation Paradigms
-
-#### Session-based Evaluation
-
-- [Session vs Query based search evals](https://softwaredoug.com/blog/2026/03/30/session-vs-query-based-search-evals)
-- [Measuring Search Effectiveness](https://dtunkelang.medium.com/measuring-search-effectiveness-a320bd6bdd7a)
-
-#### Query-based Evaluation
-
-##### Random sampling
-
-- [Simple random sample](https://en.wikipedia.org/wiki/Simple_random_sample)
-
-##### Stratified sampling
-
-- [Stratified sampling](https://en.wikipedia.org/wiki/Stratified_sampling)
-- [The 8 Most Common Search Query Types ](https://baymard.com/blog/ecommerce-search-query-types)
-
-##### Probability-proportional-to-size sampling
-
-- [How to succeed with explicit relevance evaluation using Probability-Proportional-to-Size sampling](https://opensourceconnections.com/blog/2022/10/13/how-to-succeed-with-explicit-relevance-evaluation-using-probability-proportional-to-size-sampling/)
-
-### Metrics
-
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [Visualizing search metrics](https://nathanday.shinyapps.io/rank-algo-app/)
-* [Choosing your search relevance evaluation metric](https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/)
-* [Measuring Search: Metrics Matter](https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c)
-
-#### Focused on ranking quality
-
-* [Discounted cumulative gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain)
-* [Flavors of NDCG - normalized to what!?](https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg)
-* [Mean reciprocal rank](https://en.wikipedia.org/wiki/Mean_reciprocal_rank)
-* [P@k](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Precision_at_K)
-* [Demystifying nDCG and ERR](https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/)
-* https://en.wikipedia.org/wiki/Precision_and_recall
-* https://en.wikipedia.org/wiki/F1_score
-
-#### Focused on diversity of results
-
-* [Diving into Diversity Metrics: Elevate Your Recommender Systems in a Snap!](https://shunya-vichaar.medium.com/diving-into-diversity-metrics-elevate-your-recommender-systems-in-a-snap-57637de380e1)
-
-##### MMR
-
-* [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
-* [Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction](https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5)
-
-##### Average Pairwise Distance, APD
-
-- edit distance
-- semantic distance
-
-##### Entropy
-
-- [How to measure Diversity of Search Results](https://docs.google.com/presentation/d/1uz15rpxcUipvJMSfXc8_DpEnqtrH9PPx6UmF_dbdG-o/edit?slide=id.p#slide=id.p)
-
-#### Behavioral / Product / Performance
-
-##### Clicks
-
-###### Zero clicks
-
-###### Clicks residual
-
-- [Click Residual: A Query Success Metric](https://observer.wunderwood.org/2022/08/08/click-residual-a-query-success-metric/)
-
-##### Zero results
-
-
-### Evaluation Modes
-
-#### Offline
-
-* [How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid](https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/)
-* [Compute Mean Reciprocal Rank (MRR) using Pandas](https://softwaredoug.com/blog/2021/04/21/compute-mrr-using-pandas.html)
-
-##### Judgements
-
-###### HUman judgements
-
-* [What Is a Judgment List?](https://softwaredoug.com/blog/2021/02/21/what-is-a-judgment-list)
-* [Evaluating Search: Using Human Judgments](https://dtunkelang.medium.com/evaluating-search-using-human-judgement-fbb2eeba37d9)
-* [Measuring Search, A Human Approach](https://jamesrubinstein.medium.com/measuring-search-a-human-approach-acf54e2cf33d)
-  
-###### Implicite judgements
-
-add something on clicks streams
-
-###### Using LLM as judge
-
-* [Improving retrieval with LLM-as-a-judge](https://blog.vespa.ai/improving-retrieval-with-llm-as-a-judge/)
-* [LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods](https://arxiv.org/abs/2412.05579)
-
-#### Online
-
-* [How we Compute NDCG in Daraz. E-Commerce](https://medium.com/@hassam.chundrigar520/how-we-compute-ndcg-in-daraz-e-commerce-9a103b444c9f)
-
-## Areas of application
-
-### Enterprise search
-
-* [GenAI Can Improve Enterprise Search, But Remains a Work In Progress](https://www.reworked.co/knowledge-findability/genai-can-improve-enterprise-search-but-remains-a-work-in-progress/)
-
-### e-Commerce search
-
-* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
-
-### Conversational search
-
-* [Search as a Conversation](https://queryunderstanding.com/search-as-a-conversation-bafa7cd0c9a5)
-* [Affordances for Conversational Search](https://dtunkelang.medium.com/affordances-for-conversational-search-2cc543eae83d)
-* [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
-
-## Search Results
-
-### Retrieval
-
-#### Relevance
-
-* [Humans Search for Things not for Strings](https://www.linkedin.com/pulse/humans-search-things-strings-andreas-wagner/)
-* [What is a ‘Relevant’ Search Result?](https://opensourceconnections.com/blog/2019/12/11/what-is-a-relevant-search-result/)
-* [How to Achieve Ecommerce Search Relevance](https://blog.searchhub.io/how-to-achieve-ecommerce-search-relevance?cn-reloaded=1&cn-reloaded=1)
-* [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
-
-##### Relevance Algorithms
-
-###### BM25
-
-* [Understanding the BM25 full text search algorithm](https://emschwartz.me/understanding-the-bm25-full-text-search-algorithm/)
-* Practical BM25: [How Shards Affect Relevance Scoring in Elasticsearch](https://www.elastic.co/blog/practical-bm25-part-1-how-shards-affect-relevance-scoring-in-elasticsearch), [The BM25 Algorithm and its Variables](https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables)
-* [The influence of TF-IDF algorithms in eCommerce search](https://medium.com/empathyco/the-influence-of-tf-idf-algorithms-in-ecommerce-search-e7cb9ab8e662)
-* [BM25 The Next Generation of Lucene Relevance](https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/)
-* [Lucene Similarities (BM25, DFR, DFI, IB, LM) Explained](https://sematext.com/blog/search-relevance-solr-elasticsearch-similarity/)
-
-###### Bayesian BM25 (BB25)
-
-- [Bayesian BM25 is cool](https://softwaredoug.com/blog/2026/03/16/bayesian-bm25-is-cool)
-- [Releasing bb25 0.2.0: Why Bayesian BM25 (bb25) extends well far-beyond search?](https://www.linkedin.com/pulse/releasing-bb25-020-why-bayesian-bm25-extends-well-sigrid-jin-axyzc/)
-
-
-### Ranking
-
-#### Multi-stage ranking
-
-* [Multi stage ranking](https://medium.com/better-ml/multi-stage-ranking-e0dacd81ac4)
-* [Cross-Encoders, ColBERT, and LLM-Based Re-Rankers](https://medium.com/@aimichael/cross-encoders-colbert-and-llm-based-re-rankers-a-practical-guide-a23570d88548)
-
-##### Reranking
-
-* [Drowning in Documents: Consequences of Scaling Reranker Inference](https://arxiv.org/pdf/2411.11767)
-
-#### Learning to Rank
-
-* [How is search different than other machine learning problems?](https://opensourceconnections.com/blog/2017/08/03/search-as-machine-learning-prob/)
-* [Reinforcement learning assisted search ranking](https://medium.com/sajari/reinforcement-learning-assisted-search-ranking-a594cdc36c29)
-* [E-commerce Search Re-Ranking as a Reinforcement Learning Problem](https://towardsdatascience.com/e-commerce-search-re-ranking-as-a-reinforcement-learning-problem-a9d1561edbd0)
-* [When to use a machine learned vs. score-based search ranker](https://towardsdatascience.com/when-to-use-a-machine-learned-vs-score-based-search-ranker-aa8762cd9aa9)
-* [What is Learning To Rank?](https://opensourceconnections.com/blog/2017/02/24/what-is-learning-to-rank/)
-* [Using AI and Machine Learning to Overcome Position Bias within Adobe Stock Search](https://medium.com/adobetech/evaluating-addressing-position-bias-in-adobe-stock-search-9807b11ee268)
-* [Train and Test Sets Split for Evaluating Learning To Rank Models](https://sease.io/2022/07/how-to-split-your-dataset-into-train-and-test-sets-for-evaluating-learning-to-rank-models.html)
-* [How LambdaMART works - optimizing product ranking goals](https://softwaredoug.com/blog/2021/11/28/how-lammbamart-works.html)
-
-##### Click models for search
-
-* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
-* [Click Modeling for eCommerce](https://tech.ebayinc.com/engineering/click-modeling-for-ecommerce/)
-* [Using Behavioral Data to Improve Search](https://tech.ebayinc.com/engineering/using-behavioral-data-to-improve-search/)
-
-### Bias
-  
-* [What is Presentation Bias in search?](https://softwaredoug.com/blog/2022/07/16/what-is-presentation-bias-in-search.html)
-* [Dealing with Position Bias in Recommendations and Search](https://www.kdnuggets.com/2023/03/dealing-position-bias-recommendations-search.html)
-  
-### Diversification
-
-* [Search Result Diversification using Causal Language Models](https://arxiv.org/pdf/2108.04026.pdf)
-* [Learning to Diversify for E-commerce Search with Multi-Armed Bandit](http://ceur-ws.org/Vol-2410/paper18.pdf)
-* [Search Quality for Discovery & Inspiration](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-2-discovery-inspiration)
-* [How to measure Diversity of Search Results](https://2021.berlinbuzzwords.de/session/how-measure-diversity-search-results)
-* [Searching for Goldilocks](https://dtunkelang.medium.com/searching-for-goldilocks-12cb21c7d036)
-* [Broad and Ambiguous Search Queries - Recognizing When Search Results Need Diversification](https://dtunkelang.medium.com/broad-and-ambiguous-search-queries-1bbbe417dcc)
-* [Thoughts on Search Result Diversity](https://dtunkelang.medium.com/thoughts-on-search-result-diversity-1df54cb5bf4a)
-
-#### MMR
-
-* [How to Calculate MMR?](https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr)
-* [Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction](https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5)
-
-### Personalisation
-
-* [Patterns for Personalization in Recommendations and Search](https://eugeneyan.com/writing/patterns-for-personalization/)
-* Daniel Tunkelang [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
-* Airbnb - [Real-time personalization in search](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
-* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
-* [Architecture of real world recommendation systems](https://fennel.ai/blog/real-world-recommendation-system/)
-* [Feature engineering for personalized search](https://fennel.ai/blog/feature-engineering-for-personalized-search/)
-
-### Zero search results
-
-* [Strategies for using alternative queries to mitigate zero results and their application to online marketplaces](https://haystackconf.com/files/slides/haystackEU2023/Jean_Ren%C3%A9_Strategies_for_using_alternative_queries_to_mitigate_zero_results.pdf)
-* [Semantic Equivalence of e-Commerce Queries](https://dtunkelang.medium.com/semantic-equivalence-of-e-commerce-queries-78630e5fab5d)
-
-
-## Search UX
-
-### Baymard Institute
-
-* [Deconstructing E-Commerce Search: The 12 Query Types](https://baymard.com/blog/ecommerce-search-query-types)
-* [Autodirect or Guide Users to Matching Category](https://baymard.com/blog/autodirect-searches-matching-category-scopes)
-* [13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)](https://baymard.com/blog/autocomplete-design)
-* [E-Commerce Search Needs to Support Users’ Non-Product Search Queries (15% Don’t)](https://baymard.com/blog/support-non-product-search)
-* [Search UX: 6 Essential Elements for ‘No Results’ Pages](https://baymard.com/blog/no-results-page)
-* [Product Thumbnails Should Dynamically Update to Match the Variation Searched For (54% Don’t)](https://baymard.com/blog/color-and-variation-searches)
-* [Faceted Sorting - A New Method for Sorting Search Results](https://baymard.com/blog/faceted-sorting)
-* [The Current State of E-Commerce Search](https://baymard.com/blog/external-article-state-of-ecommerce-search)
-* [E-Commerce Sites Need Multiple of These 5 ‘Search Scope’ Features](https://baymard.com/blog/search-scope)
-* [E-Commerce Search Field Design and Its Implications](https://baymard.com/blog/search-field-design)
-* [E-Commerce Sites Should Include Contextual Search Snippets (96% Get it Wrong)](https://baymard.com/blog/search-snippets)
-* [E-Commerce Search Usability: Report & Benchmark](https://baymard.com/blog/ecommerce-search-report-and-benchmark)
-* [Six ‘COVID-19’ Related E-Commerce UX Improvements to Make](https://baymard.com/blog/covid-19-ux-improvements)
-
-### Nielsen Norman Group
-
-* [The Love-at-First-Sight Gaze Pattern on Search-Results Pages](https://www.nngroup.com/articles/love-at-first-sight-pattern/)
-* [Good Abandonment on Search Results Pages](https://www.nngroup.com/articles/good-abandonment/)
-* [Complex Search-Results Pages Change Search Behavior: The Pinball Pattern](https://www.nngroup.com/articles/pinball-pattern-search-behavior/)
-* [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
-* [Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research](https://www.nngroup.com/articles/search-log-analysis/)
-* [Scoped Search: Dangerous, but Sometimes Useful](https://www.nngroup.com/articles/scoped-search/)
-* [3 Guidelines for Search Engine "No Results" Pages](https://www.nngroup.com/articles/search-no-results-serp/)
-
-### Enterprise Knowledge LLC
-
-* [Optimizing Your Search Experience: A Human-Centered Approach to Search Design](https://enterprise-knowledge.com/optimizing-your-search-experience-a-human-centered-approach-to-search-design/)
-
-### Facets
-
-* [Facets of Faceted Search](https://medium.com/@dtunkelang/facets-of-faceted-search-38c3e1043592)
-* [Coffee, Coffee, Coffee!](https://medium.com/@dtunkelang/coffee-coffee-coffee-de3121b797d1)
-* [Faceted Search](https://queryunderstanding.com/faceted-search-7d053cc4fada) (start here!)
-* [How to implement faceted search the right way](https://medium.com/empathyco/how-to-implement-faceted-search-the-right-way-4bfba2bd2adc)
-* [Metadata and Faceted Search](https://medium.com/searchblox/metadata-and-faceted-search-62ec6e4de353)
-* [Metacrap: Putting the torch to seven straw-men of the meta-utopia](https://people.well.com/user/doctorow/metacrap.htm)
-* [7 Filtering Implementations That Make Macy’s Best-in-Class](https://baymard.com/blog/macys-filtering-experience)
-* [Facet Search: The Most Comprehensive Guide. Best Practices, Design Patterns, Hidden Caveats, And Workarounds](https://hybrismart.com/2019/02/13/facet-search-the-most-comprehensible-guide-best-practices-design-patterns/#d5)
-* [Facets: Constraints or Preferences?](https://dtunkelang.medium.com/facets-constraints-or-preferences-8b8689903652)
-* [Facets, But Which Ones?](https://dtunkelang.medium.com/facets-but-which-ones-6589416ed4db)
-
-
-#### Accidental Taxonomist
-
-* [How Many Facets Should a Taxonomy Have](http://accidental-taxonomist.blogspot.com/2020/07/how-many-facets-in-taxonomy.html)
-* [When a Taxonomy Should not be Hierarchical](https://accidental-taxonomist.blogspot.com/2020/06/when-taxonomy-should-not-be-hierarchical.html)
-* [Customizing Taxonomy Facets](http://accidental-taxonomist.blogspot.com/2020/10/customizing-taxonomy-facets.html)
-
-### Other
-
-* [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
-* [Why is it so hard to sort by price?](https://medium.com/@dtunkelang/why-is-it-so-hard-to-sort-by-price-2a5e63899233)
-* [Faceted Sorting](https://baymard.com/blog/faceted-sorting)
-* [Google kills Instant Search](https://www.904labs.com/en/blog-google-kills-instant-search.html)
-
-## Spelling correction
-
-* Peter Norvig. ["How to Write a Spelling Corrector"](http://norvig.com/spell-correct.html). Classic publication.
-* Daniel Tunkelang. ["Spelling Correction"](https://queryunderstanding.com/spelling-correction-471f71b19880)
-* [A simple spell checker built from word vectors](https://blog.usejournal.com/a-simple-spell-checker-built-from-word-vectors-9f28452b6f26)
-* A closer look into the spell correction problem: [1](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-1-a6795bbf7112), [2](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-2-introducing-predict-8993ecab7226), [3](https://medium.com/@searchhub.io/a-closer-look-into-the-spell-correction-problem-part-3-the-bells-and-whistles-19697a34011b), [preDict](https://github.com/searchhub/preDict)
-* [Deep Spelling](https://machinelearnings.co/deep-spelling-9ffef96a24f6)
-* [Modeling Spelling Correction for Search at Etsy](https://codeascraft.com/2017/05/01/modeling-spelling-correction-for-search-at-etsy/)
-* Wolf Garbe. Author of [Sympell](https://github.com/wolfgarbe/symspell). [1000x Faster Spelling Correction algorithm](https://medium.com/@wolfgarbe/1000x-faster-spelling-correction-algorithm-2012-8701fcd87a5f), [Top highlight SymSpell vs. BK-tree: 100x faster fuzzy string search & spell checking](https://towardsdatascience.com/symspell-vs-bk-tree-100x-faster-fuzzy-string-search-spell-checking-c4f10d80a078), [Fast Word Segmentation of Noisy Text](https://towardsdatascience.com/fast-word-segmentation-for-noisy-text-2c2c41f9e8da)
-* [Chars2vec: character-based language model for handling real world texts with spelling errors and](https://hackernoon.com/chars2vec-character-based-language-model-for-handling-real-world-texts-with-spelling-errors-and-a3e4053a147d)
-* JamSpell, spelling correction taking into account surrounding context - [library](https://github.com/bakwc/JamSpell), (in russian) [Исправляем опечатки с учётом контекста](https://habr.com/ru/post/346618/)
-* [Embedding for spelling correction](https://towardsdatascience.com/embedding-for-spelling-correction-92c93f835d79)
-* [A simple spell checker built from word vectors](https://blog.usejournal.com/a-simple-spell-checker-built-from-word-vectors-9f28452b6f26)
-* [What are some algorithms of spelling correction that are used by search engines?](https://www.quora.com/String-Searching-Algorithms/What-are-some-algorithms-of-spelling-correction-that-are-used-by-search-engines-For-example-when-I-used-Google-to-search-Google-imeges-it-prompted-me-Did-you-mean-Google-images/answer/Wolf-Garbe)
-* [Moman](https://github.com/jpbarrette/moman) - lucene/solr/elasticsearch spell correction/autocorrect is (was?) actually powered by this library.
-* [Query Segmentation and Spelling Correction](https://towardsdatascience.com/query-segmentation-and-spelling-correction-483173008981)
-* [Applying Context Aware Spell Checking in Spark NLP](https://medium.com/spark-nlp/applying-context-aware-spell-checking-in-spark-nlp-3c29c46963bc)
-* [Autocorrect in Google, Amazon and Pinterest and how to write your own one](https://towardsdatascience.com/autocorrect-in-google-amazon-and-pinterest-and-how-to-write-your-own-one-6d23bc927c81)
-
-## Synonyms
-
-* [Boosting the power of Elasticsearch with synonyms](https://www.elastic.co/blog/boosting-the-power-of-elasticsearch-with-synonyms)
-* [Real Talk About Synonyms and Search](https://medium.com/@dtunkelang/real-talk-about-synonyms-and-search-bb5cf41a8741)
-* [Synonyms in Solr I — The good, the bad and the ugly](https://medium.com/empathyco/synonyms-in-solr-i-the-good-the-bad-and-the-ugly-efe8e437a940)
-* [Synonyms and Antonyms from WordNet](https://medium.com/@tameremil/synonyms-and-antonyms-from-wordnet-778f6274fb09)
-* [Synonyms and Antonyms in Python](https://towardsdatascience.com/synonyms-and-antonyms-in-python-a865a5e14ce8)
-* [Dive into WordNet with NLTK](https://medium.com/parrot-prediction/dive-into-wordnet-with-nltk-b313c480e788)
-* [Creating Better Searches Through Automatic Synonym Detection](https://lucidworks.com/post/search-automatic-synonym-detection/)
-* [Multiword synonyms in search using Querqy](https://sharing.luminis.eu/blog/multiword-synonyms-in-search-using-querqy/)
-* [How to Build a Smart Synonyms Model](https://blog.kensho.com/how-to-build-a-smart-synonyms-model-1d525971a4ee)
-* [The importance of Synonyms in eCommerce Search](https://blog.searchhub.io/the-importance-of-synonyms-in-ecommerce-search)
-
-## Stopwords
-
-- [Do all-stopword queries matter?](https://observer.wunderwood.org/2007/05/31/do-all-stopword-queries-matter/)
-
-## Suggestions
-
-Synonyms: autocomplete, search as you type, suggestions
-
-* Giovanni Fernandez-Kincade.
-[Bootstrapping Autosuggest](https://medium.com/related-works-inc/bootstrapping-autosuggest-c1ca3edaf1eb), [Building an Autosuggest Corpus, Part 1](https://medium.com/related-works-inc/building-an-autosuggest-corpus-part-1-3acd26056708), [Building an Autosuggest Corpus, Part 2](https://medium.com/related-works-inc/building-an-autosuggest-corpus-nlp-d21b0f25c31b), [Autosuggest Retrieval Data Structures & Algorithms](https://medium.com/related-works-inc/autosuggest-retrieval-data-structures-algorithms-3a902c74ffc8), [Autosuggest Ranking](https://medium.com/related-works-inc/autosuggest-ranking-d8a3242c2837)
-* [On two types of suggestions](https://web.archive.org/web/20181207194952/https://www.searchblox.com/autosuggest-search-query-based-vs-content-based)
-* [Improving Search Suggestions for eCommerce](https://medium.com/empathyco/improving-search-suggestions-for-ecommerce-cb1bc2946021)
-* [Autocomplete Search Best Practices to Increase Conversions](https://lucidworks.com/post/autocomplete-search-increase-conversions/)
-* [Why we’ve developed the searchhub smartSuggest module and why it might matter to you](https://www.linkedin.com/pulse/why-weve-developed-searchhub-smartsuggest-module-might-andreas-wagner/)
-* Nielsen Norman Group: [Site Search Suggestions](https://www.nngroup.com/articles/site-search-suggestions/)
-* [13 Design Patterns for Autocomplete Suggestions](https://baymard.com/blog/autocomplete-design)
-* [Autocomplete](https://queryunderstanding.com/autocomplete-69ed81bba245)
-* [Autocomplete and User Experience](https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000)
-* [IMPLEMENTING A LINKEDIN LIKE SEARCH AS YOU TYPE WITH ELASTICSEARCH](https://spinscale.de/posts/2020-05-29-implementing-a-linkedin-like-search-as-you-type-with-elasticsearch.html)
-* [Smart autocomplete best practices: improve search relevance and sales](https://blog.griddynamics.com/smart-autocomplete-best-practices/)
-* OLX: [Building Corpus for AutoSuggest (Part 1)](https://tech.olx.com/building-corpus-for-autosuggest-part-1-4f63512b1ea1), [AutoSuggest Retrieval & Ranking (Part 2)](https://tech.olx.com/autosuggest-retrieval-ranking-part-2-14a8f50fef34)
-* [Autocomplete, Live Search Suggestions, and Autocorrection: Best Practice Design Patterns](https://hybrismart.com/2019/01/08/autocomplete-live-search-suggestions-autocorrection-best-practice-design-patterns/)
-* [Mirror, Mirror, What Am I Typing Next? All About Search Suggestions](https://spinscale.de/posts/2023-01-18-mirror-mirror-what-am-i-typing-next.html)
-* [How we built the lightning fast autosuggest for otto.de](https://www.youtube.com/watch?v=02GLXE5EAGw)
-
-## Graphs/Taxonomies/Knowledge Graph
-
-* [Knowledge graphs applied in the retail industry](https://towardsdatascience.com/knowledge-graphs-applied-in-the-retail-industry-ecac4e7baf8)
-
-  Knowledge graphs are becoming increasingly popular in tech. We explore how they can be used in the retail industry to enrich data, widen search results and add value to a retail company.  
-
-* [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
-
-### Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
-
-* [Part 1: Displaying Relationships](https://enterprise-knowledge.com/integrating-search-and-knowledge-graphs-series-part-1-displaying-relationships/)
-* [Search query expansion with query embeddings](https://bytes.grubhub.com/search-query-embeddings-using-query2vec-f5931df27d79)
-
-
-## Query expansion
-
-- [Fundamentals of query rewriting (part 1): introduction to query expansion](https://opensourceconnections.com/blog/2021/10/19/fundamentals-of-query-rewriting-part-1-introduction-to-query-expansion/?utm_source=dlvr.it&utm_medium=linkedin)
-
-## Query understanding
-
-* Daniel Tunkelang [Query Understanding](https://queryunderstanding.com/introduction-c98740502103).
-* [Query Understanding, Divided into Three Parts](https://medium.com/@dtunkelang/query-understanding-divided-into-three-parts-d9cbc81a5d09)
-* [Search for Things not for Strings](https://blog.searchhub.io/humans-search-for-things-not-for-strings-2?cn-reloaded=1)
-* Understanding the Search Query. [Part 1](https://towardsdatascience.com/understanding-the-search-query-part-i-632d1b323b50), [Part 2](https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f), [Part 3](https://medium.com/@sonusharma.mnnit/understanding-the-search-query-part-iii-a0c5637a639)
-* [Food Discovery with Uber Eats: Building a Query Understanding Engine](https://eng.uber.com/uber-eats-query-understanding/)
-* [AI for Query Understanding](https://www.linkedin.com/pulse/ai-query-understanding-daniel-tunkelang)
-
-### Search Intent
-
-* [Mapping Search Queries To Search Intents](https://medium.com/@dtunkelang/search-queries-and-search-intent-1dec79ad155f)
-* [Search: Intent, Not Inventory](https://medium.com/@dtunkelang/search-intent-not-inventory-289386f28a21)
-
-### Query segmentation
-
-* Paper [Unsupervised Query Segmentation Using only Query Logs ](https://www.microsoft.com/en-us/research/wp-content/uploads/2011/01/pp0295-mishra.pdf)
-* Paper [Towards Semantic Query Segmentation](https://arxiv.org/pdf/1707.07835.pdf)
-
-## Algorithms
-
-### BERT
-
-* [Understanding BERT and Search Relevance](https://opensourceconnections.com/blog/2019/11/05/understanding-bert-and-search-relevance/)
-* [Google is improving web search with BERT – can we use it for enterprise search too?](https://www.linkedin.com/pulse/google-improving-web-search-bert-can-we-use-too-mickel-gr%C3%B6nroos/)
-
-### ColBERT
-
-* [Pretrained Transformer Language Models for Search - part 3](https://blog.vespa.ai/pretrained-transformer-language-models-for-search-part-3/#)
-
-### Collocations, common phrases
-
-* [Automatically detect common phrases – multi-word expressions / word n-grams – from a stream of sentences.]( https://radimrehurek.com/gensim/models/phrases.html)
-* [The Unreasonable Effectiveness of Collocations](https://opensourceconnections.com/blog/2019/05/16/unreasonable-effectiveness-of-collocations/)
-
-### Other Algorithms
-
-* [One hot encoding](https://medium.com/fintechexplained/nlp-text-data-to-numbers-d28d32294d2e)
-* [Writing a full-text search engine using Bloom filters](https://www.stavros.io/posts/bloom-filter-search-engine/)
-
-#### Hashing
-
-* [Locality Sensitive Hashing](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
-* [Locality Sensitive Hashing (LSH): The Practical and Illustrated Guide](https://www.pinecone.io/learn/locality-sensitive-hashing/)
-* [Minhash](http://ekzhu.com/datasketch/minhash.html)
-
-#### Sorting by average ratings
-
-* [Better than Average: Sort by Best Rating](https://www.elastic.co/blog/better-than-average-sort-by-best-rating-with-elasticsearch)
-* [How Not To Sort By Average Rating](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
-
-#### Keywords extraction
-
-* [Keyword Extraction using RAKE](https://codelingo.wordpress.com/2017/05/26/keyword-extraction-using-rake/)
-* [Yet Another Keyword Extractor (Yake)](https://github.com/LIAAD/yake)
-* [Keyword Extraction with BERT](https://towardsdatascience.com/keyword-extraction-with-bert-724efca412e)
-
-## Tracking, profiling, GDPR, Analysis
-
-### Tools, platforms, helpers for search tracking
-
-* [OpenSearch User Behavior Insights](https://github.com/opensearch-project/user-behavior-insights)
-* [Site Search tracking with Google Analytics 4](https://opensourceconnections.com/blog/2023/04/06/site-search-tracking-with-google-analytics-4/)
-* [Snowplow](https://snowplow.io/)
-* [search-colletor](https://github.com/searchhub/search-collector)
-* [OpenTelemetry with search additions](https://gist.github.com/binarymax/16ef2ed12d0aa446a6240c5fbb95e2c3)
-* [Pulse Query Analytics](https://pulse.support/)
-* [Tracking who's hot and who's not presents an algorithmic challenge](https://www.americanscientist.org/article/the-britney-spears-problem)
-
-### Resources
-
-* [Anonymisation: managing data protection risk (code of practice)](https://ico.org.uk/media/1061/anonymisation-code.pdf)
-* [The Anonymisation Decision-Making Framework](https://ukanon.net/wp-content/uploads/2015/05/The-Anonymisation-Decision-making-Framework.pdf)
-* [98 personal data points that facebook uses to target ads to you](https://www.washingtonpost.com/news/the-intersect/wp/2016/08/19/98-personal-data-points-that-facebook-uses-to-target-ads-to-you/)
-* [Opportunity Analysis for Search](https://www.linkedin.com/pulse/opportunity-analysis-search-daniel-tunkelang/)
-* [A Face Is Exposed for AOL Searcher No. 4417749](https://www.nytimes.com/2006/08/09/technology/09aol.html)
-* [AOL search data leak](https://en.wikipedia.org/wiki/AOL_search_data_leak)
-* [Personal data](https://en.wikipedia.org/wiki/Personal_data)
-
-## Experiments
-
-* [Common Pitfalls of Search Experimentation](https://www.searchhub.io/common-pitfalls-of-search-experimentation/)
-* [Improving Search @scale with efficient query experimentation](https://youtu.be/5p9Ss2vn7t4?si=42TBiIpwO5IxO1SZ)
-
-### A/B testing, MABs
-
-* [A/B Testing for Search is Different](https://medium.com/@dtunkelang/a-b-testing-for-search-is-different-f6b0f6f4d0f5)
-* [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
-
-## Testing, metrics, KPIs
-
-### KPIs
-
-* [5 Right Ways to Measure How Search Is Performing](https://opensourceconnections.com/blog/2020/05/11/5-right-ways-to-measure-search/)
-* E-commerce Site-Search KPIs. [Part 1 – Customers](https://opensourceconnections.com/blog/2020/08/28/e-commerce-site-search-kpis/), [Part 2 – Products](https://opensourceconnections.com/blog/2020/09/10/e-commerce-site-search-kpis-part-2/), [Part 3 - Queries](https://opensourceconnections.com/blog/2020/09/24/e-commerce-site-search-kpis-part-3-queries/)
-* [Learning from Friction to Improve the Search Experience](https://medium.com/@dtunkelang/learning-from-friction-to-improve-the-search-experience-8937c71ec97a)
-* [Behind the Wizardry of a Seamless Search Experience](https://enterprise-knowledge.com/if-i-only-had-an-enterprise-search-brain-behind-the-wizardry-of-a-seamless-search-experience/)
-* [Analyzing online search relevance metrics with the Elastic Stack](https://www.elastic.co/blog/analyzing-online-search-relevance-metrics-with-the-elastic-stack)
-* [How to Gain Insight From Search Analytics](https://www.searchblox.com/how-to-gain-insight-from-search-analytics/)
-
-### Evaluating Search (by Daniel Tunkelang)
-
-* [Measure It](https://medium.com/@dtunkelang/evaluating-good-search-part-i-measure-it-5507b2dbf4f6)
-* [Measuring Searcher Behavior](https://medium.com/@dtunkelang/evaluating-search-measuring-searcher-behavior-5f8347619eb0)
-* [Using Human Judgement](https://medium.com/@dtunkelang/evaluating-search-using-human-judgement-fbb2eeba37d9)
-* [When There’s No Conversion Rate](https://medium.com/@dtunkelang/when-theres-no-conversion-rate-67a372666fed)
-
-### Measuring Search (by James Rubinstein)
-
-* [Statistical and human-centered approaches to search engine improvement](https://medium.com/@jamesrubinstein/statistical-and-human-centered-approaches-to-search-engine-improvement-52af0e98f38f)
-* [A Human Approach](https://medium.com/@jamesrubinstein/measuring-search-a-human-approach-acf54e2cf33d)
-* [Setting up a relevance evaluation program](https://medium.com/@jamesrubinstein/setting-up-a-relevance-evaluation-program-c955d32fba0e)
-* [Metrics Matter](https://medium.com/@jamesrubinstein/measuring-search-metrics-matter-de124c2f6f8c)
-* [A/B Testing Search: thinking like a scientist](https://medium.com/@jamesrubinstein/a-b-testing-search-thinking-like-a-scientist-1cc34b88392e)
-* [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
-* [The Launch Review: bringing it all together…](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
-
-### Three Pillars of Search Relevancy (by Andreas Wagner)
-
-* [Part 1: Findability](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-1-findability)
-* [part 2: Search Quality For Discovery & Inspiration](https://blog.searchhub.io/three-pillars-of-search-quality-in-ecommerce-part-2-discovery-inspiration)
-
-## Architecture
-
-* [The Art Of Abstraction – Revisiting Webshop Architecture](https://blog.searchhub.io/the-art-of-abstraction-revisting-webshop-architecture)
-* Canva - Search Pipeline
-  * [Part One](https://canvatechblog.com/search-pipeline-part-i-faa6c543aef1) outline of the challenges faced
-  * [Part Two](https://canvatechblog.com/search-pipeline-part-ii-3b43978607cd) new search arcthitecture
-* [Event-Driven Architecture for Efficient Search Indexing](https://sasarun.medium.com/event-driven-architecture-for-efficient-search-indexing-f7af27192e98)
-
-## Education and networking
-
-### Events
-
-* [Search Conference Calendar - The Search Juggler](https://thesearchjuggler.com/conferences/)
-
-### Conferences
-
-* [Activate](https://www.activate-conf.com/)
-* [Berlin buzzword](berlinbuzzwords.de)
-* [Haystack](https://haystackconf.com/)
-* [Elastic{ON}](https://www.elastic.co/elasticon/)
-* [MIX-CAMP E-COMMERCE SEARCH](http://www.mices.co)
-* [SIGIR eCommerce](https://sigir-ecom.github.io/index.html)
-  - [2019](https://sigir-ecom.github.io/ecom2019/index.html)
-  - [2018](https://sigir-ecom.github.io/ecom2018/index.html)
-  - [2017](http://sigir-ecom.weebly.com/)
-
-### Trainings and courses
-
-* [Cheat at Search with LLMs. Doug Turnbull](http://maven.com/softwaredoug/cheat-at-search) Next: July 2025
-* [Relevant Search Masterclass by Doug Turnbull](http://maven.com/softwaredoug/relevant-search) Next: July 2025
-* OpenSource Connections
-  - [Elasticsearch "Think Like a Relevance Engineer"](https://opensourceconnections.com/training/elasticsearch-think-like-a-relevance-engineer-tlre/)
-  - [Solr "Think Like a Relevance Engingeer"](https://opensourceconnections.com/training/solr-think-like-a-relevance-engineer-tlre/)
-  - [Beyond Search Relevance: Understanding and Measuring Search Result Quality](https://opensourceconnections.com/training/beyond-search-relevance-understanding-and-measuring-search-result-quality/)
-  - [Hello LTR](https://opensourceconnections.com/training/hello-ltr-learning-to-rank/)
-* [Sease's trainings](https://sease.io/training)
-* [Search Fundamentals. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-fundamentals) Next: Feb 6, 2023  
-* [Search with Machine Learning. Daniel Tunkelang, Grant Ingersoll](https://corise.com/course/search-with-machine-learning)  Next: Feb 27, 2023  
-* [Search for Product Managers. Daniel Tunkelang](https://corise.com/course/search-for-product-managers) Next: Apr 3, 2023 
-* [Sematext's Solr, Elasticsearch, and OpenSearch trainings](https://sematext.com/training/)
-
-  Fall 2023
-
-* https://dtunkelang.medium.com/upcoming-search-classes-this-fall-58f877fe00ad
-
-### Books
-
-* [AI-powered search](https://www.manning.com/books/ai-powered-search)
-* [Relevant Search](https://www.manning.com/books/relevant-search)
-* [Deep Learning for search](https://www.manning.com/books/deep-learning-for-search)
-* [Interactions with search systems](https://www.cambridge.org/core/books/interactions-with-search-systems/5B3CF5920355A8B09088F2C409FFABDC)
-* [Embeddings in Natural Language Processing. Theory and Advances in Vector Representation of Meaning](http://josecamachocollados.com/book_embNLP_draft.pdf)
-* [Search User Interfaces](http://www.searchuserinterfaces.com)
-* [Search Patterns](https://searchpatterns.org/)
-* [Search Analytics for Your Site: Conversations with Your Customers](https://www.amazon.com/Search-Analytics-Your-Site-Conversations/dp/1933820209)
-* [Click Models for Web Search](https://www.amazon.com/Synthesis-Lectures-Information-Concepts-Retrieval/dp/1627056475/)
-* [Optimization Algorithms](https://www.manning.com/books/optimization-algorithms)
-* [Query Understanding for Search Engines](https://link.springer.com/book/10.1007/978-3-030-58334-7)
-
-### Blogs and Portals
-
-* [Searchnews](http://searchnews.org/)
-  
-  
-### Papers
-
-* [List of papers](PAPERS.md)
-
-## Search Team. Managment, composition, hiring
-
-* [Search is a Team Sport](https://medium.com/search-in-21st-century/search-is-a-team-sport-400eecdfe736)
-* [Thoughts about Managing Search Teams](https://medium.com/@dtunkelang/thoughts-about-managing-search-teams-f8d2f54fbed7)
-* [On Search Leadership](https://dtunkelang.medium.com/on-search-leadership-815b36c15df1)
-* [Building an Effective Search Team: the key to great search & relevancy](https://opensourceconnections.com/blog/2020/05/14/building-an-effective-search-team-the-key-to-great-search-relevancy/)
-* [Query Triage: The Secret Weapon for Search Relevance](https://medium.com/@jamesrubinstein/query-triage-the-secret-weapon-for-search-relevance-1a02cdd297ed)
-* [The Launch Review: bringing it all together ](https://medium.com/@jamesrubinstein/the-launch-review-bringing-it-all-together-2f7e4cfbf86e)
-* [The Role of Search Product Owners](https://enterprise-knowledge.com/the-role-of-search-product-owners/)
-* [Search Product Management: The Most Misunderstood Role in Search?](https://jamesrubinstein.medium.com/search-product-management-the-most-misunderstood-role-in-search-2b7569058638)
-* [Search relevance for understaffed teams](https://softwaredoug.com/blog/2023/05/29/guide-for-search-teams.html)
-
-### Job Interviews
-
-* [Interview Questions for Search Relevance Engineers, Data Scientists, and Product Managers](https://medium.com/@dtunkelang/interview-questions-for-search-relevance-engineers-and-product-managers-7a1b6b8cacea)
-* [Data Science Interviews: Ranking and search](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md#ranking-andsearch)
-  
-### Engineering
-
-* [Technical debt in search](https://twitter.com/gsingers/status/1655286486692970497?t=7HVu0Kc2vXT5NPHH_bB2uA&s=19)
-
-## Economics of Search
-
-## Blogposts series
-
-### Search Optimization 101 (by Charlie Hull)
-
-* [How do I know that my search is broken?](https://blog.supahands.com/2020/07/08/how-do-i-know-that-my-search-is-broken/)
-* [What does it mean if my search is ‘broken’?](https://blog.supahands.com/2020/07/20/search-optimization-101-what-does-it-mean-if-my-search-is-broken/)
-* [How do you fix a broken search?](https://blog.supahands.com/2020/08/04/search-optimization-101-how-do-you-fix-a-broken-search/)
-* [Reducing business risk by optimizing search
-](https://blog.supahands.com/2020/09/02/reducing-business-risks-by-optimizing-search/)
-
-### Query Understanding (by Daniel Tunkelang)
-   Better search through query understanding.
-
-* [An Introduction](https://queryunderstanding.com/introduction-c98740502103)
-* [Language Identification](https://queryunderstanding.com/language-identification-c1d2a072eda)
-* [Character Filtering](https://queryunderstanding.com/character-filtering-76ede1cf1a97)
-* [Tokenization](https://queryunderstanding.com/tokenization-c8cdd6aef7ff)
-* [Spelling Correction](https://queryunderstanding.com/spelling-correction-471f71b19880)
-* [Stemming and Lemmatization](https://queryunderstanding.com/stemming-and-lemmatization-6c086742fe45)
-* [Query Rewriting: An Overview](https://queryunderstanding.com/query-rewriting-an-overview-d7916eb94b83)
-* [Query Expansion](https://queryunderstanding.com/query-expansion-2d68d47cf9c8)
-* [Query Relaxation](https://queryunderstanding.com/query-relaxation-342bc37ad425)
-* [Query Segmentation](https://queryunderstanding.com/query-segmentation-2cf860ade503)
-* [Query Scoping](https://queryunderstanding.com/query-scoping-ed61b5ec8753)
-* [Entity Recognition](https://queryunderstanding.com/entity-recognition-763cae840a20)
-* [Taxonomies and Ontologies](https://queryunderstanding.com/taxonomies-and-ontologies-8e4812a79cb2)
-* [Autocomplete](https://queryunderstanding.com/autocomplete-69ed81bba245)
-* [Autocomplete and User Experience](https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000)
-* [Contextual Query Understanding: An Overview](https://queryunderstanding.com/contextual-query-understanding-65c78d792dd8)
-* [Session Context](https://queryunderstanding.com/session-context-4af0a355c94a)
-* [Location as Context](https://queryunderstanding.com/geographical-context-77ce4c773dc7)
-* [Seasonality](https://queryunderstanding.com/seasonality-5eef79d8bf1c)
-* [Personalization](https://queryunderstanding.com/personalization-3ed715e05ef)
-* [Search as a Conversation](https://queryunderstanding.com/search-as-a-conversation-bafa7cd0c9a5)
-* [Clarification Dialogues](https://queryunderstanding.com/clarification-dialogues-69420432f451)
-* [Relevance Feedback](https://queryunderstanding.com/relevance-feedback-c6999529b92c)
-* [Faceted Search](https://queryunderstanding.com/faceted-search-7d053cc4fada)
-* [Search Results Presentation](https://queryunderstanding.com/search-results-presentation-7d6c6c384ec1)
-* [Search Result Snippets](https://queryunderstanding.com/search-result-snippets-e8c447950219)
-* [Search Results Clustering](https://queryunderstanding.com/search-results-clustering-b2fa64c6c809)
-* [Question Answering](https://queryunderstanding.com/question-answering-94984185c203)
-* [Query Understanding and Voice Interfaces](https://queryunderstanding.com/query-understanding-and-voice-interfaces-6cd60d063fca)
-* [Query Understanding and Chatbots](https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f)
-
-### Grid Dynamics
-
-* [Not your father’s search engine: a brief history of retail search](https://blog.griddynamics.com/not-your-fathers-search-engine-a-brief-history-of-retail-search/)
-* [Semantic vector search: the new frontier in product discovery](https://blog.griddynamics.com/semantic-vector-search-the-new-frontier-in-product-discovery/)
-* [Boosting product discovery with semantic search](https://blog.griddynamics.com/boosting-product-discovery-with-semantic-search/)
-* [Semantic query parsing blueprint](https://blog.griddynamics.com/semantic-query-parsing-blueprint/)
-
-### Considering Search: Search Topics (by Derek Sisson)
-
-* [Intro](https://www.philosophe.com/archived_content/search_topics/search_topics.html)
-* [Assumptions About Search](https://www.philosophe.com/archived_content/search_topics/search_assumptions.html)
-* [Assumptions About User Search Behavior](https://www.philosophe.com/archived_content/search_topics/user_behavior.html)
-* [Types of Information Collections](https://www.philosophe.com/archived_content/search_topics/collections.html)
-* [A Structural Look at Search](https://www.philosophe.com/archived_content/search_topics/structure.html)
-* [Users and the Task of Information Retrieval](https://www.philosophe.com/archived_content/search_topics/search_tasks.html)
-* [Testing Search](https://www.philosophe.com/archived_content/search_topics/search_tests.html)
-* [Useful Search Links and References](https://www.philosophe.com/archived_content/search_topics/search_links.html)
-
-## Industry players
-
-### Personalies and influencers
-
-* [Daniel Tunkelang (he is God of Search)](https://medium.com/@dtunkelang)
-* [Max Irwin](https://twitter.com/binarymax)
-* [Doug Turnbull](https://twitter.com/softwaredoug)
-* [Charlie Hull](https://thesearchjuggler.com) - 25+ years in search. Founder of Flax, ex-Managing Consultant at OpenSource Connections. Runs The Search Juggler, a vendor-neutral search consultancy. Organizer of the Haystack conference and the London Search & AI Meetup.
-* [Baymard’s Institute](https://baymard.com/blog)
-
-### Search Engines
-
-* Google
-* Bing
-* [Not Human Search](https://nothumansearch.ai/) - Agent-first search engine for discovering AI tools and MCP servers
-* Amazon
-* eBay
-
-### Products and services
-
-* [Algolia](https://www.algolia.com/)
-* [Vespa] (https://vespa.ai/)
-* [Elasticsearch](https://github.com/elastic/elasticsearch) - Distributed search & analytics engine
-* [ParadeDB](https://github.com/paradedb/paradedb) - Modern Elasticsearch alternative built on Postgres. Built for real-time, update-heavy workloads.
-* [psql_bm25s](https://github.com/Intelligent-Internet/psql_bm25s) - PostgreSQL extension for BM25-family lexical retrieval with a native index access method and SQL top-k query APIs.
-* [Solr](https://solr.apache.org/) - Solr is the blazing-fast, open source, multi-modal search platform built on the full-text vector, and geospatial search capabilities of Apache Lucene
-* [Fess Enterprise Search Server](https://github.com/codelibs/fess)
-* [Typesense](https://github.com/typesense/typesense) - an opensource alternative to Algolia.
-* [TopK](https://topk.io/) - combines AI-powered query understanding with adaptive ranking to provide the most relevant results in your domain.
-* [SearchHub.io](https://www.searchhub.io/)
-* [Datafari](https://www.datafari.com/en/index.html) - an open source enterprise search solution. 
-* [Qdrant](https://qdrant.tech/) - an open source vector database.
-* [Awakari](https://awakari.com) - Real-Time search from unlimited sources like RSS, Fediverse, Telegram. Text keyword matching conditions, numeric conditions, condition groups. Reverse search index based.
-* [Meilisearch](https://www.github.com/meilisearch/meilisearch) - Open source search API that supports full-text, vector, geospatial & faceted search.
-* [Omnigraph](https://github.com/ModernRelay/omnigraph) - Typed graph database where agents branch and merge like Git. S3-native, Rust, traversal + vector + BM25 in one runtime.
-* [SearchPixel](https://searchpixel.pixelapi.dev) - Hybrid CLIP + BGE product-search API for Shopify and WooCommerce stores. Combines visual and semantic search, priced in INR (Indian rupees), and free during the open beta for the first 50 stores.
-
-### Consulting companies
-
-* [The Search Juggler](https://thesearchjuggler.com) — Charlie Hull's solo consultancy. Vendor-neutral strategy & audit, technology selection, relevance measurement, market positioning for search vendors, and event expertise (Haystack conference, London Search & AI Meetup).
-* [OpenSource Connections](https://www.opensourceconnections.com) — Search relevance consulting firm. Authors of Quepid (relevance evaluation SaaS) and Rated Ranking Evaluator (RRE). Doug Turnbull's practice.
-* [Sease](https://sease.io/) — Italian search engineering firm specializing in Apache Solr, Elasticsearch, Learning to Rank, and neural reranking (ColBERT, cross-encoders).
-* [BigData Boutique](https://bigdataboutique.com/services/elasticsearch-consulting) — Elasticsearch consulting.
-* [Sematext](https://sematext.com/)
-
-## Case studies
-
-* Airbnb - [Machine Learning-Powered Search Ranking of Airbnb Experiences](https://medium.com/airbnb-engineering/machine-learning-powered-search-ranking-of-airbnb-experiences-110b4b1a0789)
-* Airbnb - [Listing Embeddings in Search Ranking](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
-* Algolia - [The Architecture Of Algolia’s Distributed Search Network](http://highscalability.com/blog/2015/3/9/the-architecture-of-algolias-distributed-search-network.html)
-* Meituan - Exploration and practice of BERT in the core ranking of Meituan search (🇨🇳 [BERT在美团搜索核心排序的探索和实践](https://tech.meituan.com/2020/07/09/bert-in-meituan-search.html))
-* Netflix - How Netflix Content Engineering makes a federated graph searchable ([Part 1](https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-5c0c1c7d7eaf), [Part 2](https://netflixtechblog.com/how-netflix-content-engineering-makes-a-federated-graph-searchable-part-2-49348511c06c))
-* Netflix - [Elasticsearch Indexing Strategy in Asset Management Platform (AMP)](https://netflixtechblog.medium.com/elasticsearch-indexing-strategy-in-asset-management-platform-amp-99332231e541)
-* Skyscanner - [Learning to Rank for Flight Itinerary Search](https://hackernoon.com/learning-to-rank-for-flight-itinerary-search-8594761eb867)
-* Slack - [Search at Slack](https://slack.engineering/search-at-slack-431f8c80619e)
-* Twitter - [Stability and scalability for search](https://blog.twitter.com/engineering/en_us/topics/infrastructure/2022/stability-and-scalability-for-search)
-* [Amazon SEO Explained: How to Rank Your Products #1 in Amazon Search Results in 2020](https://crazylister.com/blog/amazon-seo-ultimate-guide/)
-* [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
-
-### General search
-
-* [How Bing Ranks Search Results: Core Algorithm & Blue Links](https://www.searchenginejournal.com/how-bing-ranks-search-results/357804/)
-* [How Google Search Ranking Works – Darwinism in Search](https://www.searchenginejournal.com/how-google-search-ranking-works/307591/)
-
-
-### E-commerce
-
-* [Searchandising](https://searchanise.io/blog/searchandising/)
-
-### Multisided markets
-
-* [Discover How Cassini (The eBay Search Engine) Works and Rank](https://crazylister.com/blog/ebay-search-engine-cassini/)
-
+---
 
 ## Videos
-[Apache Solr Short Tips](https://www.youtube.com/watch?v=YFoPWgja89o&list=PLT_fd32OFYpe7xXxUYtV8upGcZtgPY3cU)
+Conference talks and recorded presentations.
 
-### Channels
+[Max Irwin - The Search Engine Migration Circus](https://frutik.github.io/awesome-search/Videos/Max%20Irwin%20-%20The%20Search%20Engine%20Migration%20Circus) — [Max Irwin](https://frutik.github.io/awesome-search/People/Max%20Irwin), [OpenSource Connections](https://frutik.github.io/awesome-search/Companies/OpenSource%20Connections); Haystack Live talk on search-engine migration (playbook, "Hello Search", feature parity, the "damage" metric, war stories)
 
-* [Lucid Thoughts](https://www.youtube.com/c/LucidThoughts)
-* [Lucidworks](https://www.youtube.com/user/LucidWorksSearch)
-* [MIx-Camp E-commerce Search](https://www.youtube.com/channel/UCCxvMykUdtFFc1O_tIr9oxA)
-* [OpenSource Connections](https://www.youtube.com/channel/UCiuXt-f2Faan4Es37nADUdQ)
-* [SIGIR eCom](https://www.youtube.com/channel/UCd6PyC_9zrxgA7vmT05Mx4Q)
+[Choosing Indexes for Similarity Search (Faiss in Python)](https://frutik.github.io/awesome-search/Videos/Choosing%20Indexes%20for%20Similarity%20Search%20%28Faiss%20in%20Python%29) — [James Briggs](https://frutik.github.io/awesome-search/People/James%20Briggs), [Pinecone](https://frutik.github.io/awesome-search/Companies/Pinecone); hands-on [FAISS](https://frutik.github.io/awesome-search/Tools/FAISS) tutorial comparing Flat, [LSH](https://frutik.github.io/awesome-search/Concepts/LSH), [HNSW](https://frutik.github.io/awesome-search/Concepts/HNSW), and [IVF](https://frutik.github.io/awesome-search/Concepts/IVF) on Sift1M
 
-### Featured
+[Rene Kriegler - Query Relaxation](https://frutik.github.io/awesome-search/Videos/Rene%20Kriegler%20-%20Query%20Relaxation) — [Rene Kriegler](https://frutik.github.io/awesome-search/People/Rene%20Kriegler), [OpenSource Connections](https://frutik.github.io/awesome-search/Companies/OpenSource%20Connections); [Query Relaxation](https://frutik.github.io/awesome-search/Concepts/Query%20Relaxation) as a query recommendation problem — word-shape heuristics, term frequency, [Word2Vec](https://frutik.github.io/awesome-search/Concepts/Word2Vec) and a neural network compared for predicting which term to drop
 
-* [Relevant Facets](https://www.youtube.com/watch?v=W8DJYfAKKLA)
+[Roman Grebennikov - Personalizing Search Results in Real-Time](https://frutik.github.io/awesome-search/Videos/Roman%20Grebennikov%20-%20Personalizing%20Search%20Results%20in%20Real-Time) — [Roman Grebennikov](https://frutik.github.io/awesome-search/People/Roman%20Grebennikov), Findify; [MICES](https://frutik.github.io/awesome-search/Conferences/MICES) 2019 talk on real-time LTR personalization — [Position Bias](https://frutik.github.io/awesome-search/Concepts/Position%20Bias) feedback loops, shuffled [Exploration vs Exploitation](https://frutik.github.io/awesome-search/Concepts/Exploration%20vs%20Exploitation) segments, cross-merchant generic models, purchase-weighted perfect rankings
+
+[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce](https://frutik.github.io/awesome-search/Videos/Evgeniya%20Sukhodolskaya%20-%20Fine-Tuning%20Sparse%20Neural%20Retrievers%20for%20E-Commerce) — [Evgeniya Sukhodolskaya](https://frutik.github.io/awesome-search/People/Evgeniya%20Sukhodolskaya), [Qdrant](https://frutik.github.io/awesome-search/Companies/Qdrant); [MICES](https://frutik.github.io/awesome-search/Conferences/MICES) 2026 talk on making [SPLADE](https://frutik.github.io/awesome-search/Concepts/SPLADE) fine-tuning approachable — why [MS MARCO](https://frutik.github.io/awesome-search/Datasets/MS%20MARCO)-trained sparse models misfire on catalogs, the ANCE [Hard Negative Mining](https://frutik.github.io/awesome-search/Concepts/Hard%20Negative%20Mining) loop, full vs inference-free SPLADE, specialize vs generalize
+
+[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine](https://frutik.github.io/awesome-search/Videos/Evgeniya%20Sukhodolskaya%20-%20Relevance%20Feedback%20Inside%20the%20Search%20Engine) — [Evgeniya Sukhodolskaya](https://frutik.github.io/awesome-search/People/Evgeniya%20Sukhodolskaya), [Qdrant](https://frutik.github.io/awesome-search/Companies/Qdrant); [Berlin Buzzwords](https://frutik.github.io/awesome-search/Conferences/Berlin%20Buzzwords) 2026 talk on index-native [Relevance Feedback](https://frutik.github.io/awesome-search/Concepts/Relevance%20Feedback) — model-generated feedback steering [HNSW](https://frutik.github.io/awesome-search/Concepts/HNSW) hop selection instead of reranking a top-k, [Knowledge Distillation](https://frutik.github.io/awesome-search/Concepts/Knowledge%20Distillation) of a reranker into the index, and the case against black-box search engines
+
+---
+
+## Conferences
+See the [Conferences](https://frutik.github.io/awesome-search/Conferences) MOC. [Berlin Buzzwords](https://frutik.github.io/awesome-search/Conferences/Berlin%20Buzzwords) · [Haystack EU](https://frutik.github.io/awesome-search/Conferences/Haystack%20EU) · [Haystack US](https://frutik.github.io/awesome-search/Conferences/Haystack%20US) · [MICES](https://frutik.github.io/awesome-search/Conferences/MICES)
+
+---
 
 ## Datasets
-  
-* [Shopping Queries Dataset: A Large-Scale ESCI Benchmark for Improving Product Search](https://github.com/amazon-science/esci-data/tree/main)
-* [ESCI-S: extended metadata for Amazon ESCI dataset](https://github.com/shuttie/esci-s)  
-* [Home Depot Product Search Relevance](https://www.kaggle.com/competitions/home-depot-product-search-relevance/data)
-* [WANDS - Wayfair ANnotation Dataset](https://github.com/wayfair/WANDS)  
-  
-## Tools
-  
-### Spacy
+[Amazon ESCI Dataset](https://frutik.github.io/awesome-search/Datasets/Amazon%20ESCI%20Dataset) · [BEIR](https://frutik.github.io/awesome-search/Datasets/BEIR) · [ESCI-S Dataset](https://frutik.github.io/awesome-search/Datasets/ESCI-S%20Dataset) · [Home Depot Product Search Relevance](https://frutik.github.io/awesome-search/Datasets/Home%20Depot%20Product%20Search%20Relevance) · [MS MARCO](https://frutik.github.io/awesome-search/Datasets/MS%20MARCO) · [Natural Questions](https://frutik.github.io/awesome-search/Datasets/Natural%20Questions) · [SIFT1M](https://frutik.github.io/awesome-search/Datasets/SIFT1M) · [TREC-COVID](https://frutik.github.io/awesome-search/Datasets/TREC-COVID) · [WANDS Dataset](https://frutik.github.io/awesome-search/Datasets/WANDS%20Dataset)
 
-[Awesome Spacy](https://github.com/frutik/awesome-spacy) - Natural language upderstanding, content enrichment etc.
+---
 
-### Word2Vec
+## People
 
-* [Word2Vec For Phrases — Learning Embeddings For More Than One Word](https://towardsdatascience.com/word2vec-for-phrases-learning-embeddings-for-more-than-one-word-727b6cf723cf)
-* [Gensim Word2Vec Tutorial](http://kavita-ganesan.com/gensim-word2vec-tutorial-starter-code/#.XV-wnJMzbUL)
-* [How to incorporate phrases into Word2Vec – a text mining approach](http://kavita-ganesan.com/how-to-incorporate-phrases-into-word2vec-a-text-mining-approach/#.XV-wnJMzbUL)
-* [Word2Vec — a baby step in Deep Learning but a giant leap towards Natural Language Processing](https://medium.com/explore-artificial-intelligence/word2vec-a-baby-step-in-deep-learning-but-a-giant-leap-towards-natural-language-processing-40fe4e8602ba)
-* [How to Develop Word Embeddings in Python with Gensim](https://machinelearningmastery.com/develop-word-embeddings-python-gensim/)
+**A** — [Achinoam Soroker](https://frutik.github.io/awesome-search/People/Achinoam%20Soroker) · [Adrien Grand](https://frutik.github.io/awesome-search/People/Adrien%20Grand) · [Aleksas Kateiva](https://frutik.github.io/awesome-search/People/Aleksas%20Kateiva) · [Alexander Marquardt](https://frutik.github.io/awesome-search/People/Alexander%20Marquardt) · [Amélie Chatelain](https://frutik.github.io/awesome-search/People/Am%C3%A9lie%20Chatelain) · [Andre Charton](https://frutik.github.io/awesome-search/People/Andre%20Charton) · [Andrea Schütt](https://frutik.github.io/awesome-search/People/Andrea%20Sch%C3%BCtt) · [Andreas Wagner](https://frutik.github.io/awesome-search/People/Andreas%20Wagner) · [Andrew Kornilov](https://frutik.github.io/awesome-search/People/Andrew%20Kornilov) · [Andrew McCallum](https://frutik.github.io/awesome-search/People/Andrew%20McCallum) · [André Mourão](https://frutik.github.io/awesome-search/People/Andr%C3%A9%20Mour%C3%A3o) · [Antoine Chaffin](https://frutik.github.io/awesome-search/People/Antoine%20Chaffin) · [Aparna Dhinakaran](https://frutik.github.io/awesome-search/People/Aparna%20Dhinakaran) · [Asif Makhani](https://frutik.github.io/awesome-search/People/Asif%20Makhani) · [Atita Arora](https://frutik.github.io/awesome-search/People/Atita%20Arora) · [Audrey Lorberfeld](https://frutik.github.io/awesome-search/People/Audrey%20Lorberfeld)
 
-### Libs
+**B** — [Benjamin Trent](https://frutik.github.io/awesome-search/People/Benjamin%20Trent) · [Billy Chan](https://frutik.github.io/awesome-search/People/Billy%20Chan) · [Brage Vik](https://frutik.github.io/awesome-search/People/Brage%20Vik)
 
-* [Query Segmenter](https://github.com/soumyaxyz/query-segmenter)
-* [Tantivy](https://github.com/quickwit-oss/tantivy) - Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust
-* https://github.com/zentity-io/zentity
-* https://github.com/mammothb/symspellpy
-* https://github.com/searchhub/search-collector
-* [Kiri](https://github.com/kiri-ai/kiri) - State-of-the-art semantic search made easy.
-* [Haystack](https://github.com/deepset-ai/haystack) - End-to-end Python framework for building natural language search interfaces to data.
-* https://github.com/castorini/docTTTTTquery
-* https://github.com/AiDinho/ruosh - A full text search library  with Tantivy backend ,all the goodness of whoosh api powered by Tantivy
+**C** — [Charlie Hull](https://frutik.github.io/awesome-search/People/Charlie%20Hull) · [Chris Fournie](https://frutik.github.io/awesome-search/People/Chris%20Fournie)
 
-### Other
+**D** — [Dai Sugimori](https://frutik.github.io/awesome-search/People/Dai%20Sugimori) · [Dainius Jocas](https://frutik.github.io/awesome-search/People/Dainius%20Jocas) · [Daniel Doro](https://frutik.github.io/awesome-search/People/Daniel%20Doro) · [Daniel Tunkelang](https://frutik.github.io/awesome-search/People/Daniel%20Tunkelang) · David Albrecht · [David Argüello Sánchez](https://frutik.github.io/awesome-search/People/David%20Arg%C3%BCello%20S%C3%A1nchez) · [Davit Khachaturyan](https://frutik.github.io/awesome-search/People/Davit%20Khachaturyan) · [Dima Kan](https://frutik.github.io/awesome-search/People/Dima%20Kan) · [Dmitriy Meyerzon](https://frutik.github.io/awesome-search/People/Dmitriy%20Meyerzon) · [Dotan Horovits](https://frutik.github.io/awesome-search/People/Dotan%20Horovits) · [Doug Turnbull](https://frutik.github.io/awesome-search/People/Doug%20Turnbull)
 
-* [Chorus](https://github.com/querqy/chorus), [Smui](https://github.com/querqy/smui), [Querqy](https://github.com/querqy/querqy)
-* [DocKit](https://www.geekfun.club/products/dockit/) - Desktop GUI client for Elasticsearch, OpenSearch, and DynamoDB with AI-powered query generation
-* [Quepid](https://github.com/o19s/quepid)
-* [Rated Ranking Evaluator](https://github.com/SeaseLtd/rated-ranking-evaluator)
-* [Jina AI](https://github.com/jina-ai/jina) - A neural search framework
+**E** — [Erik Hatcher](https://frutik.github.io/awesome-search/People/Erik%20Hatcher) · [Ernestas Poškus](https://frutik.github.io/awesome-search/People/Ernestas%20Po%C5%A1kus) · [Eugene Yan](https://frutik.github.io/awesome-search/People/Eugene%20Yan) · [Elzbieta Jakubowska](https://frutik.github.io/awesome-search/People/Elzbieta%20Jakubowska) · [Evgeniya Sukhodolskaya](https://frutik.github.io/awesome-search/People/Evgeniya%20Sukhodolskaya)
 
-## Other awesome stuff
+**F** — [Florent Krzakala](https://frutik.github.io/awesome-search/People/Florent%20Krzakala) · [Florian Narr](https://frutik.github.io/awesome-search/People/Florian%20Narr) · [Fraidoon Omarzai](https://frutik.github.io/awesome-search/People/Fraidoon%20Omarzai) · [Francesco Casalegno](https://frutik.github.io/awesome-search/People/Francesco%20Casalegno) · [Frank Goortani](https://frutik.github.io/awesome-search/People/Frank%20Goortani) · [Freddy Domínguez](https://frutik.github.io/awesome-search/People/Freddy%20Dom%C3%ADnguez)
 
-* [Awesome Knowledge Graphs](https://github.com/frutik/awesome-knowledge-graphs)
-* [Awesome time series](https://github.com/frutik/awesome-timeseries)
-* [Awesome Spacy](https://github.com/frutik/awesome-spacy)
-* [Query-Understanding](https://github.com/sanazb/Query-Understanding)
-* [Click models](https://github.com/filipecasal/knowledge-repo/blob/master/click_models.md)
+**G** — [Geoffrey Hinton](https://frutik.github.io/awesome-search/People/Geoffrey%20Hinton) · [Giovanni Fernandez-Kincade](https://frutik.github.io/awesome-search/People/Giovanni%20Fernandez-Kincade)
 
-## Unsorted
+**H** — [Han Xiao](https://frutik.github.io/awesome-search/People/Han%20Xiao) · [Hassam Chundrigar](https://frutik.github.io/awesome-search/People/Hassam%20Chundrigar) · [Heather Hedden](https://frutik.github.io/awesome-search/People/Heather%20Hedden) · [Honza Král](https://frutik.github.io/awesome-search/People/Honza%20Kr%C3%A1l) · [Hugo Galvão](https://frutik.github.io/awesome-search/People/Hugo%20Galv%C3%A3o)
 
-- [IndexFox](https://indexfox.ai/) - AI-powered site search SaaS combining keyword and semantic search with instant AI-generated answers.
-- [sandbox Jun 2021](https://github.com/frutik/awesome-search/issues/19)
-- [sandbox May 2021](https://github.com/frutik/awesome-search/issues/18)
-- [sandbox April 2021](https://github.com/frutik/awesome-search/issues/17)
-- [sandbox Dec 2020](https://github.com/frutik/awesome-search/issues/10)
-- [sandbox Jan 2020](https://github.com/frutik/awesome-search/issues/1)
+**I** — [Isabella Tromba](https://frutik.github.io/awesome-search/People/Isabella%20Tromba) · [Ivan Pleshkov](https://frutik.github.io/awesome-search/People/Ivan%20Pleshkov)
 
-OLD TOC (to review)
+**J** — [Jagadeesh Chandra](https://frutik.github.io/awesome-search/People/Jagadeesh%20Chandra) · [Jaideep Ray](https://frutik.github.io/awesome-search/People/Jaideep%20Ray) · [James Briggs](https://frutik.github.io/awesome-search/People/James%20Briggs) · [James Rubinstein](https://frutik.github.io/awesome-search/People/James%20Rubinstein) · [Janani Narayanan](https://frutik.github.io/awesome-search/People/Janani%20Narayanan) · [Janu Verma](https://frutik.github.io/awesome-search/People/Janu%20Verma) · [Jithendrasaikilaru](https://frutik.github.io/awesome-search/People/Jithendrasaikilaru) · [Jo Kristian Bergum](https://frutik.github.io/awesome-search/People/Jo%20Kristian%20Bergum) · [Jodi Sloan](https://frutik.github.io/awesome-search/People/Jodi%20Sloan) · [Jonas Schulz](https://frutik.github.io/awesome-search/People/Jonas%20Schulz) · [Joon-Pil (JP) Hwang](https://frutik.github.io/awesome-search/People/Joon-Pil%20%28JP%29%20Hwang)
 
-- [General, fun, philosophy](#general-fun-philosophy)
-- [Types of search](#types-of-search)
-  - [Classic/Lexical search](#classic-lexical-search)
-  - [Vectors/Semantic search](#vectorssemantic-search)
-    -  [Embeddings](#embeddings)
-        - [Types of vectors](#types-of-vectors)
-          - [Dense vectors](#dense-vectors)
-            - [Size of input and Chunking](#size-of-input-and-chunking)
-              - [Positional chunking](#positional-chunking)
-              - [Semantic chunking](#semantic-chunking)
-            - [Matryoshka embeddings](#matryoshka-embeddings)
-          - [Sparse vectors](#sparse-vectors)
-            - [SPLADE](#splade)  
-        - [Vector retrieval](#vector-retrieval)
-          - Main architectures
-          - [Query/Document tokens interaction]()
-            - [No interactions - Two towers / Bi-encoders](#two-towers--bi-encoders)
-            - [Early interactions - Cross-encoders](#early-interactions---cross-encoders)
-            - [Late interactions - ColBERT](#late-interactions--colbert)
-        - [Handling high-dimension embeddings](#handling-high-dimension-embeddings)
-          - [Dimensionality reduction](#dimensionality-reduction)
-          - [Quantization](#quantization)
-            - [Scalar quantization](#scalar-quantization)
-            - [Binary quantization](#binary-quantization)
-            - [Product quantization](#product-quantization)
-            - [Rotational quantization](#rotational-quantization)
-        - [Finetuning models](#finetuning-models)
-    - [Symmetric and Asymmetric semantic search](#symmetric-and-asymmetric-semantic-search)
-  - [Hybrid search](#hybrid-search)
-    - [Reciprocal rank fusion - RRF](#reciprocal-rank-fusion-rrf)
-    - [Linear Score Combination](#linear-score-combination)
-  - [Multimodal search](#multimodal-search)
-    - [Multimodality Problems](#multimodality-problems)
-      - [Modality Gap](#modality-gap)
-      - [Contrastive Gap](#contrastive-gap)  
-  - [Federated search](#federated-search)
-- [Search Quality Assurance](#search-quality-assurance)
-  - [How to select queries](#how-to-select-queries)
-    - [Random sampling](#random-sampling)
-    - [Stratified sampling](#stratified-sampling)
-    - [Probability-proportional-to-size sampling](#probability-proportional-to-size-sampling)
-  - [Metrics](#metrics)
-    - [Focused on ranking quality](#focused-on-ranking-quality)
-    - [Focused on diversity of results](#focused-on-diversity-of-results)
-  - [Offline quality measuring](#offline-quality-measuring)
-    - [Judgements](#judgements)
-      - Explicite judgements, [HUman judgements](#human-judgements)
-      - [Implicite judgements](#implicite-judgements)
-      - [Using LLM as judge](#using-llm-as-judge)
-  - [Online quality measuring](#online-quality-measuring)
-- [Areas of application](#also-types-of-search)
-  - [Enterprise search](#enterprise-search)
-  - [e-Commerce search](#e-commerce-search)
-  - [Conversational search](#conversational-search)
-  - [Geo-Spatial Search]()
-  - [Medical and Healthcare Search]()
-  - [Social Media and User-Generated Content Search]()
-  - [Question Answering Systems]()
-  - [Personal Information Management]()
-- [Search Results](#search-results)
-  - [Retrieval](#retrieval)
-    - [Relevance](#relevance)
-      - [Relevance Algorithms](#relevance-algorithms)
-  - [Ranking](#ranking)
-    - [Multi stage ranking](#multi-stage-ranking)
-      - [Reranking](£reranking)  
-    - [Learning to Rank](#learning-to-rank)
-      - [Click models for search](#click-models-for-search)
-  - [Bias](#bias)
-  - [Diversification](#diversification)
-    - [MMR](#mmr)  
-  - [Personalisation](#personalisation)
-  - [Zero search results](#zero-search-results)
-- [Search UX](#search-ux)
-  - [Baymard Institute](#baymard-institute)
-  - [Nielsen Norman Group](#nielsen-norman-group)
-  - [Enterprise Knowledge LLC](#enterprise-knowledge-llc)
-  - [Facets](#facets)
-    - [Accidental Taxonomist](#accidental-taxonomist)
-  - [Other](#other)
-- [Spelling correction](#spelling-correction)
-- [Suggestions](#suggestions)
-- [Synonyms](#synonyms)
-- [Stopwords](#stopwords)
-- [Graphs/Taxonomies/Knowledge Graph](#graphstaxonomiesknowledge-graph)
-  - Integrating Search and Knowledge Graphs (by Enterprise Knowledge)
-- [Query expansion](#query-expansion)
-- [Query understanding](#query-understanding)
-  - [Search Intent](#search-intent)
-  - [Query segmentation](#query-segmentation)
-- [Algorithms](#algorithms)
-  - [BERT](#bert)
-  - [ColBERT](#colbert)
-  - [Collocations, common phrases](#collocations-common-phrases)
-  - [Other Algorithms](#other-algorithms)
-- [Tracking, profiling, GDPR, Analysis](#tracking-profiling-gdpr-analysis)
-- [Experiments](#experiments)
-  - A/B testing, MABs
-- Evaluating search
-  - MRR
-  - [Testing, metrics, KPIs](#testing-metrics-kpis)
-    - KPIs
-  - Evaluating Search (by Daniel Tunkelang)
-  - Measuring Search (by James Rubinstein)
-  - Three Pillars of Search Relevancy (by Andreas Wagner)
-- [Architecture](#architecture)  
-- [Vectors search](#vectors-search)
-- [Education and networking](#education-and-networking)
-  - [Conferences](#conferences)
-  - [Trainings and courses](#trainings-and-courses)
-  - [Books](#books)
-  - [Blogs and Portals, News](#blogs-and-portals)
-  - [Papers](#papers)
-- [Management, Search Team](#management-search-team)
-  - [Job Interviews](#job-interviews)
-  - [Engineering](#engineering)
-- [Industry players](#industry-players)
-  - Personalies and influencers
-  - Search Engines
-  - Products and services
-  - Consulting companies
-- [Blogposts series](#blogposts-series)
-  - Search Optimization 101 (by Charlie Hull)
-  - Query Understanding (by Daniel Tunkelang)
-  - Grid Dynamics
-  - Considering Search: Search Topics (by Derek Sisson)
-- [Videos](#videos)
-  - Channels
-  - Featured
-- [Case studies](#case-studies)
-  - [General search](#general-search)
-  - [Multisided markets](#multisided-markets)
-  - [E-commerce](#e-commerce) 
-- [Datasets](#datasets)
-- [Tools](#tools)
+**K** — [Karthik Ramasamy](https://frutik.github.io/awesome-search/People/Karthik%20Ramasamy) · [Kemal Erdem](https://frutik.github.io/awesome-search/People/Kemal%20Erdem)
+
+**L** — [Lakhan Bukkawar](https://frutik.github.io/awesome-search/People/Lakhan%20Bukkawar) · [Lakshmi Devi Prakash](https://frutik.github.io/awesome-search/People/Lakshmi%20Devi%20Prakash) · [Laura Ham](https://frutik.github.io/awesome-search/People/Laura%20Ham) · [Laurynas Jasiukėnas](https://frutik.github.io/awesome-search/People/Laurynas%20Jasiuk%C4%97nas) · [Laurens van der Maaten](https://frutik.github.io/awesome-search/People/Laurens%20van%20der%20Maaten) · [Leo Schuster](https://frutik.github.io/awesome-search/People/Leo%20Schuster) · [Leonie Monigatti](https://frutik.github.io/awesome-search/People/Leonie%20Monigatti) · [Lester Solbakken](https://frutik.github.io/awesome-search/People/Lester%20Solbakken) · [Li Zhang](https://frutik.github.io/awesome-search/People/Li%20Zhang) · [Luca Arnaboldi](https://frutik.github.io/awesome-search/People/Luca%20Arnaboldi) · [Luke Vilnis](https://frutik.github.io/awesome-search/People/Luke%20Vilnis)
+
+**M** — [Marianne Haugvaldstad](https://frutik.github.io/awesome-search/People/Marianne%20Haugvaldstad) · [Maryna Kryvko](https://frutik.github.io/awesome-search/People/Maryna%20Kryvko) · [Matei Zaharia](https://frutik.github.io/awesome-search/People/Matei%20Zaharia) · [Max Irwin](https://frutik.github.io/awesome-search/People/Max%20Irwin) · [Michael Hannecke](https://frutik.github.io/awesome-search/People/Michael%20Hannecke) · [Michael Ryaboy](https://frutik.github.io/awesome-search/People/Michael%20Ryaboy) · [Mihajlo Grbovic](https://frutik.github.io/awesome-search/People/Mihajlo%20Grbovic)
+
+**N** — [Namratesh Shrivastav](https://frutik.github.io/awesome-search/People/Namratesh%20Shrivastav) · [Neal Lathia](https://frutik.github.io/awesome-search/People/Neal%20Lathia) · [Nick Zadrozny](https://frutik.github.io/awesome-search/People/Nick%20Zadrozny) · [Nicolò Rinaldi](https://frutik.github.io/awesome-search/People/Nicol%C3%B2%20Rinaldi) · [Nikhil Dandekar](https://frutik.github.io/awesome-search/People/Nikhil%20Dandekar)
+
+**O** — [Omar Khattab](https://frutik.github.io/awesome-search/People/Omar%20Khattab)
+
+**P** — [Peter Straßer](https://frutik.github.io/awesome-search/People/Peter%20Stra%C3%9Fer) · [Piotr Mazurek](https://frutik.github.io/awesome-search/People/Piotr%20Mazurek) · [Prateek Chandra Jha](https://frutik.github.io/awesome-search/People/Prateek%20Chandra%20Jha)
+
+**Q** — [Quynh Nguyen](https://frutik.github.io/awesome-search/People/Quynh%20Nguyen)
+
+**R** — [Ravindra Harige](https://frutik.github.io/awesome-search/People/Ravindra%20Harige) · [Rene Kriegler](https://frutik.github.io/awesome-search/People/Rene%20Kriegler) · [Ritik Jain](https://frutik.github.io/awesome-search/People/Ritik%20Jain) · [Roman Grebennikov](https://frutik.github.io/awesome-search/People/Roman%20Grebennikov) · [Roshmita Dey](https://frutik.github.io/awesome-search/People/Roshmita%20Dey) · [Roy Keyes](https://frutik.github.io/awesome-search/People/Roy%20Keyes) · [Rudolf Batt](https://frutik.github.io/awesome-search/People/Rudolf%20Batt)
+
+**S** — [Sergey Feldman](https://frutik.github.io/awesome-search/People/Sergey%20Feldman) · [Shaw Talebi](https://frutik.github.io/awesome-search/People/Shaw%20Talebi) · [Shay Banon](https://frutik.github.io/awesome-search/People/Shay%20Banon) · [Shib Sankar Dasgupta](https://frutik.github.io/awesome-search/People/Shib%20Sankar%20Dasgupta) · [Shun Tsukagoshi](https://frutik.github.io/awesome-search/People/Shun%20Tsukagoshi) · [Siegfried Schüle](https://frutik.github.io/awesome-search/People/Siegfried%20Sch%C3%BCle) · [Skip Everling](https://frutik.github.io/awesome-search/People/Skip%20Everling) · [Steffen Rendle](https://frutik.github.io/awesome-search/People/Steffen%20Rendle) · [Stuart Cam](https://frutik.github.io/awesome-search/People/Stuart%20Cam) · [Stéphane Clinchant](https://frutik.github.io/awesome-search/People/St%C3%A9phane%20Clinchant) · [Sujit Pal](https://frutik.github.io/awesome-search/People/Sujit%20Pal)
+
+**T** — [Tao Ruangyam](https://frutik.github.io/awesome-search/People/Tao%20Ruangyam) · [Taylor Roy](https://frutik.github.io/awesome-search/People/Taylor%20Roy) · [Ted Underwood](https://frutik.github.io/awesome-search/People/Ted%20Underwood) · [Thibault Formal](https://frutik.github.io/awesome-search/People/Thibault%20Formal) · [Thierry Damiba](https://frutik.github.io/awesome-search/People/Thierry%20Damiba) · [Thomas Veasey](https://frutik.github.io/awesome-search/People/Thomas%20Veasey) · [Tomas Mikolov](https://frutik.github.io/awesome-search/People/Tomas%20Mikolov) · [Trey Grainger](https://frutik.github.io/awesome-search/People/Trey%20Grainger) · [Tullie Murrell](https://frutik.github.io/awesome-search/People/Tullie%20Murrell)
+
+**U** — [Udi Manber](https://frutik.github.io/awesome-search/People/Udi%20Manber)
+
+**V** — [Venkat Ram Rao](https://frutik.github.io/awesome-search/People/Venkat%20Ram%20Rao) · [Vsevolod Goloviznin](https://frutik.github.io/awesome-search/People/Vsevolod%20Goloviznin)
+
+**W** — [Wolf Garbe](https://frutik.github.io/awesome-search/People/Wolf%20Garbe) · [Daniel Wrigley](https://frutik.github.io/awesome-search/People/Daniel%20Wrigley)
