@@ -48,6 +48,32 @@ This pipeline gets the speed of [[Bi-Encoder]] retrieval with the quality of cro
 - MS MARCO is the standard training dataset
 - Can use knowledge distillation from larger cross-encoders
 
+### Training one without labels
+
+A cross-encoder needs query–document pairs, which is exactly what a new domain lacks. Those pairs can
+be manufactured: in [[Improving Search Ranking with Few-Shot Prompting of LLMs]] a 3B [[FLAN-T5]] model
+generated queries for a corpus, [[Consistency Filtering]] kept the 43% whose source document ranked #1,
+and two negatives per query were sampled from the retrieved top-100. A **22M-parameter 6-layer MiniLM
+cross-encoder** trained two epochs on the result reached **80.2 nDCG@10** on [[TREC-COVID]] — 4 points
+above the hybrid baseline it reranked, from a labeling budget of three queries.
+
+See [[Synthetic Query Generation]] and [[Hard Negative Mining]].
+
+## Why It's Often the Easier Model to Operate
+
+Quality is the usual reason given for choosing a cross-encoder over a [[Bi-Encoder]]. The operational
+reason is less discussed and sometimes decisive: **swapping a cross-encoder requires no re-processing of
+the document corpus.** A new bi-encoder means re-embedding and re-indexing everything, so model
+versioning is a data migration; a cross-encoder is stateless, so a new version is a deployment.
+
+This is the stated rationale in
+[[Improving Search Ranking with Few-Shot Prompting of LLMs]], alongside effectiveness.
+
+The cost — per-query inference over candidates — is managed by shrinking both the candidate set and the
+text. That article capped reranking depth at **30** documents and fed the model **query-contextual
+dynamic summaries** rather than full abstracts, so the sequence covers only the query-relevant span of
+each document. Both levers reduce work without touching the model.
+
 ## vs. Other Architectures
 
 | | Cross-Encoder | [[Bi-Encoder]] | [[ColBERT]] |
@@ -69,3 +95,11 @@ This pipeline gets the speed of [[Bi-Encoder]] retrieval with the quality of cro
 ## Articles
 
 - [[Bi-encoder vs Cross-encoder When to Use Which One]]
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]] ([[Vespa]]);
+  a 22M cross-encoder trained on synthetic data, and the versioning argument for the architecture
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[PROMPTAGATOR]]'s
+  cross-encoder as the strongest few-shot model in that comparison (0.528 avg nDCG@10)
+
+## Case Studies
+
+- [[Vespa - Ranking Without Labels on CORD-19]] — cross-encoder as the final stage over a 30-document shortlist

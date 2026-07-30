@@ -49,6 +49,20 @@ A concrete e-commerce example from the [[qdrant-sparse-finetune]] smoke test —
 
 All three look relevant to a lexical matcher and are wrong for the shopper. This is exactly the boundary an e-commerce retriever needs to learn.
 
+## Negatives for Synthetic Queries
+
+When the queries themselves are generated rather than logged ([[Synthetic Query Generation]]), the same
+principle applies with a shortcut: the retrieval pass that validates the query also produces the negatives.
+
+In [[Improving Search Ranking with Few-Shot Prompting of LLMs]], each generated query is run through the
+existing ranking model for [[Consistency Filtering]] anyway — keep the pair only if the source document
+ranks #1. Two negatives per query are then **sampled from that same retrieved top-100**, so mining costs
+nothing beyond a pass already being made. 14,156 surviving queries → 14,156 triplets with two negatives each.
+
+The generated-query setting also softens the false-negative problem described below, but only slightly: the
+source document is known to be positive by construction, so at least the intended answer is never mined
+against itself.
+
 ## The False-Negative Risk
 
 The method's structural weakness: **it assumes anything unlabeled is irrelevant.** A genuinely relevant product that was never labeled gets mined as a negative and actively trained against. In [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] this was raised in Q&A and conceded outright — the suggested mitigation is a side model acting as a relevance judge (possibly a dense one) before a candidate is accepted as a negative, at the cost of extra overhead in the loop.
@@ -61,6 +75,8 @@ The risk is worse the sparser your labels, which is the usual situation with cli
 - [[Learned Sparse Retrieval]] · [[SPLADE]] — where the ANCE loop was applied here
 - [[Contrastive Gap]] — hard negatives as a remedy for embedding-space geometry
 - [[Judgment Lists]] — the labels that determine what counts as a false negative
+- [[Synthetic Query Generation]] · [[Consistency Filtering]] — mining negatives from the validation pass
+- [[Cross-Encoder]] — the model trained on the resulting triplets in that pipeline
 
 ## Articles
 
@@ -68,6 +84,7 @@ The risk is worse the sparser your labels, which is the usual situation with cli
 - [[Fine-Tuning Text Embeddings For Domain-Specific Search]] — hard negatives in dense triplet construction
 - [[The Complete Guide to Fine-Tuning Embedding Models]] — loss functions that consume them
 - [[ColBERT-Zero - To Pre-train Or Not To Pre-train ColBERT Models]] — in-batch negatives as the cheaper alternative
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]]; negatives sampled from the top-100 of the consistency-check retrieval
 
 ## Videos
 

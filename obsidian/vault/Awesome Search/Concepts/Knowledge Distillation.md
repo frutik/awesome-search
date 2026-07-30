@@ -61,6 +61,42 @@ Used in SBERT, BGE, and most production-grade embedding models.
 
 Distillation can be combined with fine-tuning: fine-tune a cross-encoder on human labels first, then distill that teacher into a bi-encoder.
 
+## Distilling a Generative LLM Instead of a Ranker
+
+The teacher does not have to be a ranking model. In
+[[Improving Search Ranking with Few-Shot Prompting of LLMs]] a **3B generative model** ([[FLAN-T5]] xl)
+is the teacher and a **22M [[Cross-Encoder|cross-encoder]]** the student — but the transfer runs through
+generated *data* rather than through soft scores:
+
+```
+3B instruction-tuned LLM
+  │  generates a query per document (offline, once over the corpus)
+  ▼
+synthetic query–document pairs
+  │  filtered by round-trip retrievability (Consistency Filtering)
+  ▼
+22M cross-encoder trained on the survivors
+```
+
+Why this counts as distillation: nothing of the 3B model ships, and its knowledge — what a plausible
+question about this document looks like — ends up in a model ~136× smaller. The mechanism differs from
+soft-label distillation in one useful way: **the teacher runs once over the corpus rather than once per
+training example**, so a model too expensive to sit in a training loop is affordable here. Measured cost:
+~3,600 queries/hour on one A100 at ~$1/hour.
+
+See [[Synthetic Query Generation]].
+
+## Compression Costs More Out-of-Domain
+
+A caveat that in-domain benchmarks hide. [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]
+reports that a distilled 22M [[ColBERT]] underperformed full-sized variants, and states that compression and
+distillation show a **greater impact zero-shot than in-domain**. That model scored 0.363 average nDCG@10
+across 13 [[BEIR]] datasets against BM25's 0.453.
+
+The implication for evaluation: measuring a student against its teacher on the training distribution
+understates the loss. If the student will be deployed on a domain neither model was trained on, that is where
+the comparison has to be made. See [[Zero-Shot Retrieval]].
+
 ## Related Concepts
 
 - [[Embedding Fine-tuning]] — related training approach
@@ -69,3 +105,17 @@ Distillation can be combined with fine-tuning: fine-tune a cross-encoder on huma
 - [[Reranking]] — the task cross-encoders excel at
 - [[Dense Embeddings]] — output of distilled bi-encoders
 - [[BERT]] — backbone architecture for both teacher and student
+- [[Synthetic Query Generation]] — distillation via generated data rather than soft scores
+- [[Consistency Filtering]] — the quality gate on that generated data
+- [[FLAN-T5]] — an open generative teacher
+- [[Zero-Shot Retrieval]] — where the student's losses actually show up
+- [[ELSER]] — the vault's worked ensemble-teacher example (MiniLM + MonoT5-3B → 100M student)
+
+## Articles
+
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]] ([[Vespa]]);
+  3B generative teacher → 22M cross-encoder, via synthetic data
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — the out-of-domain cost of
+  compressing a multi-vector model
+- [[Distilling Retrieval Pipelines to a Single Embedding Model]] — distilling a whole pipeline rather
+  than a single teacher

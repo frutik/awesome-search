@@ -56,6 +56,8 @@ engineering constraints rather than afterthoughts.
 | [[Amazon ESCI Dataset]] | General e-commerce | Very large | 4-class (ESCI) |
 | [[WANDS Dataset]] | Home goods | ~42K pairs | 3-class |
 | [[Home Depot Product Search Relevance]] | Home improvement | ~74K pairs | Continuous 1–3 |
+| [[Natural Questions]] | Wikipedia QA | ~2.68M passages | Binary, sparse (~1.2/query) |
+| [[TREC-COVID]] | Biomedical | ~171K docs | Graded, deep (~493.5/query) |
 
 ## In This Vault
 
@@ -68,6 +70,10 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Three mistakes when introducing embeddings and vector search]] — MS MARCO fine-tuning beats
   [[BM25]] *"by a very large margin"* on MS MARCO itself, and frequently loses to it elsewhere;
   the canonical warning against adopting a model on its MS MARCO number alone
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — the MS MARCO / [[Natural Questions]] corpus
+  comparison (5.9 vs 9.2-word queries, 56.6 vs 76.0-word documents, 8.84M vs 2.68M documents) and
+  the [[Dense Passage Retriever]] result: NQ-trained dense retrieval losing to [[BM25]] here
+  zero-shot. BM25 is reported to trail neural approaches by 7–18 points on MS MARCO itself
 
 ## Related Concepts
 
@@ -78,6 +84,7 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Cross-Encoder]] · [[Bi-Encoder]] — both architectures benchmark here
 - [[BEIR]] — the zero-shot suite MS MARCO-trained models are judged against; MS MARCO is also one of its 18 subsets
 - [[Zero-Shot Retrieval]] — why a strong MS MARCO score predicts less than it appears to
+- [[Dense Passage Retriever]] — the model whose MS MARCO transfer failure is the standard illustration
 - [[Search Evaluation]] — broader evaluation context
 
 ## Source

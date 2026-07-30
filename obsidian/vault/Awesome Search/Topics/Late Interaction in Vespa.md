@@ -7,6 +7,7 @@ related_concepts: [Late Interaction, ColBERT, ColPali, Token Pooling, Binary Qua
 related_topics: [Late Interaction in Elasticsearch, Late Interaction in OpenSearch, Late Interaction in Qdrant, Interaction Paradigms, Search Platforms, Reasoning Reranking, Frontier of Search 2025]
 articles:
   - "[[Announcing the Vespa ColBERT Embedder]]"
+  - "[[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]"
 companies: [Vespa]
 people: [Jo Kristian Bergum]
 created: 2026-06-29
@@ -54,6 +55,19 @@ sum(reduce(1 / (1 + sum(hamming(query, page), v)), max, p), q)
 ```
 
 ---
+
+## Before Binarization: The Distilled 22M Model
+
+The native embedder was not the first late-interaction model Vespa shipped in anger. A year earlier,
+[[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] deployed a **distilled MiniLM ColBERT**:
+22M parameters (vs 110M), **32 dimensions per wordpiece** (vs 128), stored as bfloat16, caps of 32 query and
+180 document wordpieces, reranking the top 2,000 [[BM25]] hits.
+
+Dimension reduction rather than bit-packing, and the tradeoff landed differently: **0.363 average nDCG@10
+across 13 [[BEIR]] datasets, below BM25's 0.453.** It earned its keep only in fusion, where the hybrid reached
+**0.481**. Worth holding alongside the 32× binarization result below — dropping 128 dims to 32 cost real
+quality out-of-domain, while binarizing 128 dims to 128 bits cost under 1%. See
+[[Zero-Shot Retrieval]] for why compression is measured too optimistically in-domain.
 
 ## Binary Quantization (the original 32× trick)
 
@@ -119,12 +133,18 @@ All four converge on the same retrieve-then-rerank architecture. Vespa's distinc
 
 ## Related Articles
 - [[Announcing the Vespa ColBERT Embedder]] — the native ColBERT embedder and 32× binary quantization
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — the earlier distilled 22M model,
+  hybrid fusion with BM25, and distributed min-max [[Score Normalization|normalization]] at the dispatcher
+
+## Case Studies
+- [[Vespa - Ranking Without Labels on CORD-19]] — late interaction as one stage of a four-stage progression
 
 ## People
 - [[Jo Kristian Bergum]] — [[Vespa]] (now [[Hornet]]); author of the ColBERT embedder, binarization, and ColPali-scaling work
 
 ## Source
 - [Announcing the Vespa ColBERT Embedder](https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/)
+- [Improving Zero-Shot Ranking with Vespa Hybrid Search - part two](https://blog.vespa.ai/improving-zero-shot-ranking-with-vespa-part-two/)
 - [Announcing Vespa Long-Context ColBERT](https://blog.vespa.ai/announcing-long-context-colbert-in-vespa/)
 - [Scaling ColPali to billions of PDFs with Vespa](https://blog.vespa.ai/scaling-colpali-to-billions/)
 - [Transforming the Future of Information Retrieval with ColPali](https://blog.vespa.ai/Transforming-the-Future-of-Information-Retrieval-with-ColPali/)

@@ -17,16 +17,16 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[BBQ]] · [[BERT]] · [[BM25]] · [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[Brute-Force Vector Search]]
 
 ## C
-- [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[ColPali]] · [[Collocations]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Conversational Search]] · [[Cross-Encoder]]
+- [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[ColPali]] · [[Collocations]] · [[Consistency Filtering]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Conversational Search]] · [[Cross-Encoder]]
 
 ## D
-- [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Diversity Metrics]]
+- [[Dense Embeddings]] · [[Dense Passage Retriever]] · [[Dense Vector Retrieval]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Diversity Metrics]]
 
 ## E
 - [[ELSER]] · [[Economics of Search]] · [[Embedding Fine-tuning]] · [[Embeddings]]
 
 ## F
-- [[Faceted Search]] · [[Feature Store]] · [[Full-Text Search]]
+- [[FLAN-T5]] · [[Faceted Search]] · [[Feature Store]] · [[Full-Text Search]]
 
 ## G
 - [[GGUF]]
@@ -57,7 +57,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[Out-of-Vocabulary]]
 
 ## P
-- [[PCA]] · [[PEFT]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
+- [[PCA]] · [[PEFT]] · [[PROMPTAGATOR]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
 
 ## Q
 - [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
@@ -66,7 +66,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
 
 ## S
-- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Stopwords]] · [[Synonyms]]
+- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]]
 
 ## T
 - [[Task-Aware Embeddings]] · [[Text Chunking]] · [[Token Pooling]] · [[Tokenization]] · [[TurboQuant]] · [[t-SNE]]

@@ -47,6 +47,11 @@ Position bias is a specific manifestation of presentation bias. Both corrupt [[C
 - **[[A-B Testing for Search]]** — controlled experiments to break the feedback loop
 - **[[Judgment Lists]]** — human evaluators who see items independently of the system's choices
 - **Inverse propensity scoring (IPS)** — weight clicks by 1/(probability of being shown) to debias
+- **[[Synthetic Query Generation]]** — sidestep click data entirely: have an LLM write queries for your
+  documents, so every document gets a label whether or not it was ever shown. This is the motivation given
+  in [[Improving Search Ranking with Few-Shot Prompting of LLMs]], which names presentation bias and
+  survivorship bias as the reasons not to build a ranker on click-derived pseudo-labels. It trades these
+  biases for a different one — the generator's idea of a query rather than a user's.
 
 ## Related Concepts
 
@@ -62,6 +67,8 @@ Position bias is a specific manifestation of presentation bias. Both corrupt [[C
 - [[What is Presentation Bias in Search]] — [[Doug Turnbull]]; highway sign metaphor; self-reinforcing cycle
 - [[Query Understanding - Relevance Feedback]] — [[Daniel Tunkelang]]; implicit feedback biases
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; point 7 of the primer
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]]; click bias as
+  the argument for generated training data over pseudo-labels
 
 ## People
 

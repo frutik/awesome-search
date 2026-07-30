@@ -65,6 +65,29 @@ pipeline B ──→ raw scores ──→ normalize ──┘
 Normalization precedes weighting: weights applied to un-normalized scores compound the scale
 mismatch rather than correcting it.
 
+## Normalizing Across a Distributed Cluster
+
+Min-max is trivial arithmetic on one machine. It stops being trivial the moment the index is sharded,
+because **min and max are properties of a result set, and each node only sees its own shard**. Normalize
+locally and the same document scores differently depending on which node held it — the fusion weights
+then encode shard membership rather than relevance.
+
+[[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] resolves this with a custom searcher
+in [[Vespa]]'s query dispatcher, i.e. **after** the merge rather than during matching:
+
+1. Content nodes return **match-features** alongside their hits — the raw per-branch scores travel up with
+   each document
+2. The dispatcher computes the **global** min and max across everything the nodes returned
+3. All scores are scaled uniformly against those globals
+4. Linear weighting combines the normalized values
+
+The generalizable rule: score-based fusion belongs at the **first point in the topology that sees the whole
+candidate set**. Rank-based [[Reciprocal Rank Fusion|RRF]] avoids the problem for a second reason beyond
+ignoring magnitude — ranks are comparable across shards in a way that raw scores are not.
+
+A residual caveat this does not fix: even globally computed min and max are per-*query* extremes, so the
+same document still normalizes differently across queries.
+
 ## Engine support
 
 - **[[MongoDB]] Atlas** — `$scoreFusion` takes `input.normalization` of `none`, `sigmoid`, or
@@ -74,6 +97,9 @@ mismatch rather than correcting it.
   combination.
 - **[[Elasticsearch]]** — score normalization and fusion for BM25 + kNN combination; note that a
   plain `bool`/`should` query does **not** normalize.
+- **[[Vespa]]** — no built-in normalization stage; min-max is implemented as a custom searcher in the
+  query dispatcher, fed by match-features carried up from the content nodes. More work, and it puts the
+  normalization at the only place in a distributed topology where it is correct.
 
 ## The RRF alternative
 
@@ -99,3 +125,9 @@ to preserve.
 - [[Reciprocal Rank Fusion and Relative Score Fusion]] — normalization options worked through with numbers
 - [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] — the failure mode when it's skipped
 - [[RRF is Not Enough]] — the case for keeping score magnitude
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]];
+  distributed min-max via match-features, and the BEIR gain it delivered (0.453 → 0.481)
+
+## Case Studies
+
+- [[Vespa - Ranking Without Labels on CORD-19]] — where the distributed normalization was built

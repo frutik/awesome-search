@@ -44,6 +44,13 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 
 - [[Wormhole Vectors Beyond Hybrid Search in OpenSearch]] — [[Dima Kan]]; SKG traversal bridging sparse/dense/behavioral spaces
 - [[Hybrid search > sum of its parts? Berlin Buzzwords 2022]] — early hybrid search benchmarking
+
+**Vespa zero-shot ranking series** — [[Jo Kristian Bergum]] ([[Vespa]]):
+
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — why in-domain scores don't predict transfer; [[BEIR]] and [[Dense Passage Retriever]]
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — tuned [[BM25]] + distilled [[ColBERT]] with distributed min-max normalization; 0.453 → 0.481 on BEIR
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Synthetic Query Generation]] closing the remaining gap on [[TREC-COVID]]
+- [[Vespa - Ranking Without Labels on CORD-19]] — the series as a single case study
 - [[Multilingual Embedding Model Hybrid Search Reranking]] — [[Quynh Nguyen]]; cross-lingual E5 + RRF + Cohere reranker
 
 ## Multi-Stage Ranking

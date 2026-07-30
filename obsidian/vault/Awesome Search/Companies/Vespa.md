@@ -23,6 +23,7 @@ Vespa is particularly strong for use cases that mix retrieval, ranking, and ML i
 - BM25 + dense vector [[Hybrid Search]] as a built-in feature
 
 ### Methodology
+- **Zero-shot ranking without labels** — a three-post programme establishing that a tuned [[BM25]] baseline fused with a small distilled [[ColBERT]] reranker beats either component on [[BEIR]] (0.481 vs 0.453 avg nDCG@10), then that [[Synthetic Query Generation]] with a 3B open LLM closes the remaining gap on a specific domain. See [[Vespa - Ranking Without Labels on CORD-19]]
 - **LLM-as-Judge for retrieval evaluation** — demonstrated how to use LLMs to generate relevance labels and compute NDCG; showed strong correlation with human judgments (Spearman ρ ≈ 0.85–0.90). Early and influential demonstration of the [[LLM as Judge]] pattern for retrieval
 
 ### Architecture
@@ -50,6 +51,8 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[Improving Retrieval with LLM as a Judge]]
 - [[Exploring Hierarchical Navigable Small World]]
 - [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]], written while at Vespa; distributed exhaustive search as the alternative to ANN, and how to price the choice
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] · [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]]; the zero-shot hybrid ranking series and its BEIR results
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]]; synthetic training data from three labeled examples
 
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]
 - [[How I learned Vespa by thinking in Solr]] — [[Sujit Pal]] ([[Elsevier]]); onboarding to Vespa via Solr analogies
@@ -57,4 +60,12 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 
 ## Concepts
 
-[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]] · [[Brute-Force Vector Search]] · [[Zero-Shot Retrieval]]
+[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]] · [[Brute-Force Vector Search]] · [[Zero-Shot Retrieval]] · [[Score Normalization]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[Cross-Encoder]]
+
+## Case Studies
+
+- [[Vespa - Ranking Without Labels on CORD-19]] — ranking a 171K-document corpus with three labeled queries; live at cord19.vespa.ai
+
+## Datasets
+
+- [[BEIR]] · [[TREC-COVID]] — the benchmarks the zero-shot ranking work is measured on

@@ -53,6 +53,8 @@ Scale varies by three orders of magnitude, from NFCorpus (~3.6K documents) to MS
 |---|---|---|---|
 | BEIR | 9 tasks, 18 zero-shot corpora | 3.6K–8.8M docs | Zero-shot generalisation |
 | [[MS MARCO]] | Web search (Bing) | ~8.8M passages | In-domain training + eval |
+| [[TREC-COVID]] | Biomedical (COVID-19 papers) | ~171K docs, 50 queries | Deeply judged BEIR subset |
+| [[Natural Questions]] | Wikipedia QA | ~2.68M docs, 4,352 queries | Shallowly judged BEIR subset |
 | [[Amazon ESCI Dataset]] | General e-commerce | Very large | Graded product relevance |
 | [[WANDS Dataset]] | Home goods | ~42K pairs | E-commerce relevance judgments |
 
@@ -68,6 +70,9 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[psql_bm25s]] — the 15-dataset suite used for **throughput** rather than quality: median ~3.97× QPS
 - [[Announcing the Vespa ColBERT Embedder]] — compressed vs uncompressed [[ColBERT]] on BEIR
 - [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]] uses BEIR's headline finding as the argument against trusting single-vector models out-of-domain
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — [[Jo Kristian Bergum]]; what BEIR contains and why its per-dataset judgment depth varies by three orders of magnitude ([[TREC-COVID]] ~493.5 judgments/query vs [[Natural Questions]] ~1.2)
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — a **tuned BM25 baseline beating the BM25 numbers published with BEIR** (0.453 vs 0.440 avg), and hybrid BM25 + distilled [[ColBERT]] at **0.481**, winning 12 of 13 datasets
+- [[PROMPTAGATOR]] — the few-shot comparison point on the BEIR subset it reports
 
 ## Related Concepts
 
@@ -77,6 +82,8 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[Precision and Recall]] — the recall-oriented caveats above
 - [[MS MARCO]] — what BEIR models are typically trained on before zero-shot evaluation
 - [[Zero-Shot Retrieval]] — the concept BEIR was built to measure
+- [[Hybrid Search]] · [[Score Normalization]] — the fusion approach that lifted the BEIR average most in this vault
+- [[Synthetic Query Generation]] — how the remaining gap gets closed on a single BEIR subset
 
 ## Source
 

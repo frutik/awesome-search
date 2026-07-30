@@ -93,6 +93,27 @@ Treat each retriever's score (BM25, cosine) as an input feature to a [[LambdaMAR
 - Native [[ColBERT]] + BM25 hybrid in Vespa
 - [[Jo Kristian Bergum]]'s work on ColBERT embedder
 
+The measured zero-shot case, from
+[[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — tuned BM25 fused with a
+distilled 22M ColBERT reranker, min-max normalized and linearly weighted, across 13 [[BEIR]]
+datasets:
+
+| | Average nDCG@10 |
+|---|---|
+| BM25 alone | 0.453 |
+| ColBERT alone | 0.363 |
+| **Hybrid** | **0.481** (wins 12 of 13) |
+
+The instructive row is the middle one. **The neural component loses to BM25 standalone and still
+improves the combination** — fusion pays off because the two are wrong about different documents, not
+because the added retriever is better. On HotpotQA (0.298 vs 0.623) and FEVER (0.534 vs 0.751) ColBERT
+is far behind and the hybrid still edges past BM25. Do not screen a candidate retriever out of a hybrid
+on its standalone score.
+
+The one loss, CLIMATE-FEVER, is a truncation artifact: 20.2-word average queries against a 32-wordpiece
+limit drove ColBERT to 0.067, and fusing near-noise drags the result below BM25 alone. A fusion is only
+as safe as its weakest branch on your query distribution.
+
 ## Implementation in Elasticsearch
 
 ```python
@@ -178,3 +199,16 @@ GET /products/_search
 - See: [[Relative Score Fusion]] — score-normalization-based fusion, contrasted with RRF
 - See: [[Reciprocal Rank Fusion and Relative Score Fusion]] — RRF and RSF worked through with full arithmetic
 - See: [[Score Normalization]] — the step that decides whether score-based fusion works at all
+
+## Related Articles
+
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]];
+  BM25 + ColBERT with distributed min-max normalization, and the BEIR numbers above
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — part one; why hybrid is the default
+  answer when you have no labels
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — a hybrid model used as the
+  *filter* for generating its own successor's training data
+
+## Case Studies
+
+- [[Vespa - Ranking Without Labels on CORD-19]] — hybrid fusion as stage 3 of 4

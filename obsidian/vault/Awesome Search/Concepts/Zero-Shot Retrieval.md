@@ -68,10 +68,14 @@ the same instinct — preserve a signal that doesn't depend on having seen the d
 
 When zero-shot quality isn't good enough, the options in rough order of cost:
 
-- **Hybrid fusion** — add BM25 back; cheapest insurance, no training.
+- **Hybrid fusion** — add BM25 back; cheapest insurance, no training. Measured in
+  [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]: **0.453 → 0.481** average
+  nDCG@10 across 13 BEIR datasets, winning 12 of them.
 - **Domain fine-tuning** — [[Embedding Fine-tuning]] on in-domain labels; the single biggest
   lever, and the one that requires data you may not have.
-- **Synthetic in-domain labels** — generate queries for your own documents, then train.
+- **[[Synthetic Query Generation|Synthetic in-domain labels]]** — generate queries for your own
+  documents, filter them ([[Consistency Filtering]]), then train. On [[TREC-COVID]] this took the
+  hybrid model from 76.0 to **80.2** nDCG@10 on a budget of *three* human-labeled queries.
 - **[[Hard Negative Mining]]** — worth more once you are already fine-tuning in-domain.
 - **[[Knowledge Distillation]]** — teach a cheap retriever to rank like an expensive
   [[Cross-Encoder]] that you could never run over the full corpus.
@@ -81,6 +85,29 @@ another. The vault's worked example is [[Fine-Tuning Sparse Embeddings for E-Com
 where an [[Amazon ESCI Dataset]]-tuned SPLADE beat BM25 by 27.5% in-domain, yet lost to the
 off-the-shelf model on [[Home Depot Product Search Relevance]] and collapsed on MS MARCO. A
 model tuned for one catalogue is not a general model.
+
+## Two Things That Also Degrade Out-of-Domain
+
+The asymmetry is not only about architecture. Two further choices cost more zero-shot than
+in-domain evaluation would suggest:
+
+**Model compression.** [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] reports
+that a distilled 22M [[ColBERT]] underperformed full-sized variants, and states that compression and
+[[Knowledge Distillation|distillation]] show a *greater* impact zero-shot than in-domain. Shrinking a
+model on in-domain benchmarks understates what you lose when the domain moves.
+
+**Input length limits.** The same article's single BEIR loss was CLIMATE-FEVER, whose queries average
+**20.2 words** against the model's 32-wordpiece query limit — the neural component collapsed to 0.067
+nDCG@10 and dragged the fusion below plain BM25. A truncation limit that never binds on your training
+distribution can bind hard on someone else's.
+
+## The Baseline Is Also a Variable
+
+"BM25 is a strong out-of-domain baseline" understates it: *which* BM25 matters. Part two's tuned
+configuration — k1=0.9, b=0.4, title and text scored separately then combined linearly — beat the BM25
+numbers published with BEIR itself (**0.453 vs 0.440** average, and 0.393 vs 0.315 on ArguAna). Reported
+neural gains over "BM25" are therefore partly a claim about someone's lexical configuration. See
+[[BM25]] and [[Linear Score Combination]].
 
 ## How It's Measured
 
@@ -97,6 +124,9 @@ published "BEIR average" often covers 12–15 of them rather than the full suite
 - [[BM25]] — the parameter-free baseline that keeps winning out-of-domain
 - [[Hybrid Search]] — insurance against dense-side failure
 - [[Embedding Fine-tuning]] · [[Hard Negative Mining]] · [[Knowledge Distillation]] — the gap-closing toolkit
+- [[Synthetic Query Generation]] · [[Consistency Filtering]] — manufacturing the in-domain labels you lack
+- [[Dense Passage Retriever]] — the canonical model whose in-domain win fails to transfer
+- [[PROMPTAGATOR]] — the few-shot alternative to staying zero-shot
 - [[Search Evaluation]] — the parent practice
 
 ## Datasets
@@ -104,6 +134,7 @@ published "BEIR average" often covers 12–15 of them rather than the full suite
 - [[BEIR]] — the zero-shot benchmark
 - [[MS MARCO]] — the training corpus whose numbers mislead
 - [[Amazon ESCI Dataset]] · [[Home Depot Product Search Relevance]] — the in-domain / out-of-domain pair in the vault's worked example
+- [[Natural Questions]] · [[TREC-COVID]] — the training domain and the target domain in the DPR and Vespa examples respectively
 
 ## Articles
 
@@ -111,6 +142,16 @@ published "BEIR average" often covers 12–15 of them rather than the full suite
   out-of-domain failure as one of three adoption mistakes
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — measured evidence that domain tuning
   cuts both ways
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — [[Jo Kristian Bergum]]; the vault's
+  fullest statement of the problem, with the [[Dense Passage Retriever]] transfer failure as its case
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — the hybrid-fusion answer,
+  measured across 13 BEIR datasets
+- [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — leaving zero-shot behind cheaply,
+  via generated training data
+
+## Case Studies
+
+- [[Vespa - Ranking Without Labels on CORD-19]] — the full cost ladder walked in order on one corpus
 
 ## People
 

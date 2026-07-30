@@ -51,6 +51,24 @@ Asymmetric binarization by [[Jo Kristian Bergum]]:
 - Document vectors: int8 (compressed)
 - Result: **32x compression** with minimal accuracy loss
 
+### An earlier, more aggressive compression — and what it cost
+
+Before the binarized embedder, [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]
+deployed a distilled MiniLM ColBERT: **22M parameters** (vs 110M), **32 dimensions per wordpiece**
+(vs 128), stored as bfloat16, with query and document caps of 32 and 180 wordpieces. It reranked the
+top 2,000 BM25 hits.
+
+The result is a caution about compressing multi-vector models. This model scored **0.363 average
+nDCG@10 across 13 BEIR datasets — below BM25's 0.453** — and the article states that compression and
+distillation showed a *greater* impact zero-shot than in-domain. Two specific failures:
+
+- **Catastrophic on some domains**: HotpotQA 0.298 vs BM25's 0.623; FEVER 0.534 vs 0.751; CLIMATE-FEVER
+  0.067 vs 0.207
+- **The query length cap binds**: CLIMATE-FEVER queries average 20.2 words against the 32-wordpiece limit
+
+It still earned its place in a hybrid, which reached 0.481 — late interaction's value here was
+complementarity with BM25, not standalone quality. See [[Hybrid Search]] and [[Zero-Shot Retrieval]].
+
 ## vs. Other Architectures
 
 | Model | Interaction | Speed | Quality |
@@ -100,3 +118,4 @@ signal available when the distribution shifts. See [[Zero-Shot Retrieval]].
 
 - [[ColBERT-Zero - To Pre-train Or Not To Pre-train ColBERT Models]] — [[Antoine Chaffin]] et al.; multi-vector pre-training beats KD-only; SOTA on BEIR <150M
 - [[ColBERT Comes to Apache Solr]] — [[Nicolò Rinaldi]]; ColBERT reranking implementation in Apache Solr
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]]; a distilled 22M ColBERT losing to BM25 standalone and still lifting a hybrid to 0.481 on BEIR

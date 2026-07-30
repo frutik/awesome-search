@@ -15,7 +15,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]] · [[Out-of-Vocabulary]]
 
 ### Dense Retrieval & Embeddings
-[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Pooling]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
+[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[Dense Passage Retriever]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Pooling]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
 
 ### Geometric & Set-Theoretic Embeddings
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
@@ -54,7 +54,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Agentic Search]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]]
 
 ### Model Fine-Tuning & Serving
-[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]]
+[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Knowledge Distillation]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Search Architecture & Operations
 [[Search Architecture]] · [[Retrieval Pipeline]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
@@ -114,7 +114,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Case Studies
-[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
+[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vespa - Ranking Without Labels on CORD-19]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
 
 ---
 
@@ -141,7 +141,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[BEIR]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[SIFT1M]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[BEIR]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[Natural Questions]] · [[SIFT1M]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 

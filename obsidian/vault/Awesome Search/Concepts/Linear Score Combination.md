@@ -47,6 +47,11 @@ The choice of normalization significantly affects fusion quality.
 flattens every other document toward zero, so the normalization is hostage to one score. L2 is the
 steadier choice where the corpus produces occasional extreme lexical scores.
 
+**And in a sharded index, min and max have to be computed after the merge.** Per-node extremes make a
+document's normalized score depend on which shard held it. [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]
+handles this in [[Vespa]] with a custom searcher in the query dispatcher that collects match-features from
+the content nodes, derives global min and max, then scales and weights. See [[Score Normalization]].
+
 ## The Combining Operator
 
 The weighted sum is not the only option, and arithmetic addition has a specific weakness: a
@@ -74,6 +79,14 @@ call, it adds latency to *every* request, which is worth budgeting before commit
 - **Use RRF** when you can't normalize scores reliably or want a robust no-tuning baseline
 - **Use Linear Combination** when scores are well-calibrated and you need fine-grained control over the semantic/lexical tradeoff
 
+## Also Used Within a Single Retriever
+
+The method is not only for fusing across paradigms. Applying [[BM25]] independently to a title field and a
+text field and combining the two linearly is the same operation on two lexical branches — the configuration
+that beat the published BEIR BM25 baseline (0.453 vs 0.440 average nDCG@10) in
+[[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]. Compare BM25F, which folds multi-field
+weighting into the scoring function itself rather than combining separate scores after the fact.
+
 ## Related Concepts
 
 - [[Hybrid Search]] — the broader approach this is one implementation of
@@ -83,3 +96,9 @@ call, it adds latency to *every* request, which is worth budgeting before commit
 - [[BM25]] — typical sparse retriever input
 - [[Dense Vector Retrieval]] — typical dense retriever input
 - [[Search Evaluation]] — needed to tune α
+- [[Score Normalization]] — the prerequisite step, including the distributed case
+
+## Articles
+
+- [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]];
+  linear combination used twice over — across title/text fields, and across BM25 and [[ColBERT]]
