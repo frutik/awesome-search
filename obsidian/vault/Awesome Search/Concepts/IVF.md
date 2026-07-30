@@ -85,3 +85,7 @@ Query vector
 ## Articles
 
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]] — James Briggs video showing IVF's `nlist`/`nprobe` tuning and the edge problem on Sift1M
+
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — the umbrella hub; IVF's training cost and update story as one axis among several

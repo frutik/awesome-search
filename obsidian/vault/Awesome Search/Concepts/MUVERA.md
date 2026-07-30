@@ -40,3 +40,4 @@ This is the single-vector "approximation of the multivector" that plays the same
 
 - [[Late Interaction in Qdrant]] — where MUVERA is used as the prefetch stage
 - [[Late Interaction in Elasticsearch]] — "average vectors" play the analogous role there
+- [[Vector Search Tradeoffs]] — the one-vector-or-many axis, and why the multi-vector cost is moved to stage two

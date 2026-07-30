@@ -31,7 +31,7 @@ skill is tuning each index's knobs to land where the application needs on that c
 
 | Family | Approach | Note |
 |--------|----------|------|
-| Flat | Exhaustive brute force | Exact baseline, not an approximation |
+| [[Brute-Force Vector Search\|Flat]] | Exhaustive brute force | Exact baseline, not an approximation |
 | [[LSH]] | Hash similar vectors into shared buckets | Best at low dimensionality |
 | [[HNSW]] | Multi-layer proximity graph traversal | Dominant for high-recall, low-latency |
 | [[IVF]] | Cluster into Voronoi cells, probe nearest | Scales to very large corpora |
@@ -43,19 +43,48 @@ ANN quality is measured by **Recall@k** — the fraction of the true top-k neigh
 approximate search returns — reported alongside query latency and index size. See
 [[Vector Search Evaluation]].
 
+The same quantity is often called **`overlap@k`**: run the exact search, run the approximate
+search, and compute the overlap between the two result sets. The vocabularies are
+interchangeable, and both are measured against a [[Brute-Force Vector Search|brute-force]]
+baseline, which is why an exact scan remains useful even in systems that never serve one.
+
+## How Much Recall Loss Is Acceptable
+
+Tolerance is a property of the use case, not of the index. [[Jo Kristian Bergum]] frames the
+extremes: a billion-photo image search does not need perfect recall — *"there are many equally
+great cat photos"* — while a retina scan deciding building access needs excellent `overlap@1`.
+Academic ANN work separates these as **high-recall** and **low-recall** settings.
+
+The three axes to price before adopting ANN at all are the latency SLA, the anticipated peak
+throughput, and the accuracy loss the application can absorb — which together decide how many
+servers are needed, or whether servers are needed. See
+[[Three mistakes when introducing embeddings and vector search]].
+
 ## Related Concepts
 
 - [[HNSW]] · [[IVF]] · [[LSH]] — the main ANN index structures
+- [[Brute-Force Vector Search]] — the exact baseline ANN approximates, and often the right answer below ~1M vectors
 - [[Dense Vector Retrieval]] — the retrieval setting where ANN is applied
 - [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] — compression combined with ANN indexes
 - [[Vector Similarity Metrics]] — the distance functions ANN indexes optimize over
 - [[Vector Filtering]] — applying metadata predicates during ANN search
 
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — the umbrella hub: the axes this index choice sits on, and how they interact
+
 ## Tools
 
 - [[FAISS]] — reference library implementing all major ANN index families
+- [[ann-benchmarks]] — the standard recall-vs-QPS comparison across implementations
+
+## Datasets
+
+- [[SIFT1M]] — the conventional benchmark workload for these comparisons
 
 ## Articles
 
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]] — video comparing the four index families
 - [[Nearest Neighbor Indexes for Similarity Search]] — Pinecone companion write-up
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; how to price the exact-vs-approximate decision, and how to read the ann-benchmarks curves
+- [[Just brute force your embeddings]] — [[Doug Turnbull]]; the case for not reaching for an index at ~1m documents

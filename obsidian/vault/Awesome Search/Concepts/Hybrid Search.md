@@ -38,7 +38,9 @@ where k=60 is a constant that smooths rank differences.
 ```
 final_score = α × sparse_score + (1 − α) × dense_score
 ```
-Requires score normalization (scores from different systems aren't comparable).
+Requires score normalization (scores from different systems aren't comparable). Skipping the
+normalization step is a live production failure mode, not a theoretical one — see the warning
+under *Implementation in Elasticsearch* below.
 
 ### Re-ranking
 Retrieve N candidates from each system → merge → re-rank with [[Cross-Encoder]].
@@ -88,6 +90,29 @@ GET /products/_search
   }
 }
 ```
+
+> [!warning] A `bool`/`should` merge sums raw scores — it does not normalize
+> In a `bool` query, a document matching several `should` clauses scores the **sum** of those
+> clauses. The engine does not normalize across clauses; it adds whatever each one emits. So the
+> effective ranking function above is `BM25 + second_clause_score`, on whatever scales those two
+> happen to occupy.
+>
+> The mismatch is starkest when the second clause is a bounded **`knn`** clause: BM25 is unbounded —
+> it rises with term frequency, term rarity and shortness, with no ceiling — while cosine-derived
+> vector scores sit in a narrow band typically well under 1. Summed, the unbounded branch can decide
+> the ranking outright and the vector branch stops participating.
+>
+> Do not read the example above as safe merely because both clauses are term-based. [[ELSER]]
+> `text_expansion` scores are sums of learned term weights and are not bounded either, and two
+> unbounded scores are still not two *calibrated* scores — they need normalizing just as much, only
+> with a less dramatic failure when you skip it.
+>
+> This fails silently: the query compiles, returns a single `_score`, and looks correct. Prefer the
+> engine's purpose-built hybrid query with a normalization pipeline (see [[OpenSearch]]), or
+> normalize explicitly before weighting ([[Linear Score Combination]]).
+>
+> Worked example and diagnostics:
+> [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
 
 ## Wormhole Vectors as Hybrid Bridge
 

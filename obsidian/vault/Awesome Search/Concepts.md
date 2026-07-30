@@ -14,7 +14,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[A-B Testing for Search]] · [[ACORN-1]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
 
 ## B
-- [[BBQ]] · [[BERT]] · [[BM25]] · [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]]
+- [[BBQ]] · [[BERT]] · [[BM25]] · [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[Brute-Force Vector Search]]
 
 ## C
 - [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[ColPali]] · [[Collocations]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Conversational Search]] · [[Cross-Encoder]]
@@ -78,7 +78,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[WAND]] · [[Wormhole Vectors]]
 
 ## Z
-- [[Zero Results]]
+- [[Zero Results]] · [[Zero-Shot Retrieval]]
 
 ## Related
 - [[Topics]] · [[Tools]] · [[Case Studies]] · [[People]]

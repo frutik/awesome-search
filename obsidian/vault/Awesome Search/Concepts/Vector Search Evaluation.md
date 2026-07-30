@@ -34,6 +34,28 @@ Tools built for keyword search (notably [[Quepid]]) assume the query is human-re
 - The workflow is still: baseline → hypothesis → experiment → re-measure.
 - Public datasets like the [[Amazon ESCI Dataset]] / [[ESCI-S Dataset]] still seed query and product sets.
 
+## Two Different Things Called "Evaluation"
+
+Everything above measures **relevance quality** — do these results serve the user. There is a
+second, narrower question that shares the vocabulary and is easy to conflate with it:
+**approximation fidelity** — does the index return what an exhaustive scan would have returned.
+
+| | Approximation fidelity | Relevance quality |
+|---|---|---|
+| Question | Did the index find the true nearest neighbours? | Are the results any good? |
+| Ground truth | A [[Brute-Force Vector Search\|brute-force]] exact scan | [[Judgment Lists]] — human or [[LLM as Judge]] |
+| Metric | `recall@k` / `overlap@k` | [[NDCG]], [[MRR]], [[Precision and Recall]] |
+| What it can't tell you | Whether the true neighbours were relevant at all | Whether a recall loss or the embedding model caused a regression |
+
+The distinction matters because a model with poor relevance can have perfect `overlap@10`, and an
+index at 90% recall can be indistinguishable from exact in a user-facing metric. Measuring both
+separates *"the embedding model is wrong"* from *"the index is dropping results"* — otherwise ANN
+tuning and model selection get debugged as one problem.
+
+Fidelity is the axis [[ann-benchmarks]] plots, conventionally on [[SIFT1M]]; tolerance for
+fidelity loss is use-case dependent, as set out in
+[[Three mistakes when introducing embeddings and vector search]].
+
 ## Modes of Vector Evaluation
 
 - **Text → text (semantic)**: query embedding vs. document embeddings.
@@ -46,6 +68,8 @@ Tools built for keyword search (notably [[Quepid]]) assume the query is human-re
 - [[Judgment Lists]] — relevance grades the metrics consume
 - [[NDCG]] — primary metric
 - [[Dense Vector Retrieval]] — what's being evaluated
+- [[Brute-Force Vector Search]] — supplies the exact neighbours that `recall@k` / `overlap@k` are scored against
+- [[Approximate Nearest Neighbor Search]] — the source of fidelity loss being measured
 - [[Multimodal Embeddings]] — cross-modal and image search
 - [[Matryoshka Embeddings]] — dimension reduction to fit tooling limits
 - [[Hybrid Search]] — lexical + dense combination
@@ -54,12 +78,18 @@ Tools built for keyword search (notably [[Quepid]]) assume the query is human-re
 ## Tools
 - [[Quepid]] — judgment management and metric scoring; needs hacks for vector/image cases
 - [[Qdrant Vector DB]] · [[Elasticsearch]] — backends evaluated in the linked articles
+- [[ann-benchmarks]] — published recall-vs-QPS curves; the fidelity axis, not the quality one
+
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — how much fidelity loss a use case can absorb, alongside the other axes
 
 ## Articles
 - [[Why Setting Up Quepid for Vector Search Evaluation Went Wrong]]
 - [[Oops, I Did It Again]]
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 1]]
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 2]]
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; `overlap@k` against an exact scan, and why the tolerable loss is use-case dependent
 
 ## People
 - [[Andrew Kornilov]] — hands-on series adapting Quepid to vector and image search

@@ -22,6 +22,7 @@ Co-founder of [[Hornet]], a retrieval infrastructure company focused on agentic 
 - [[E-commerce Search and Recommendation with Vespa]]
 - [[Improving retrieval with LLM-as-a-judge]]
 - [[This Is What Agentic Retrieval Looks Like]] — Hornet; GPT-5 query behavior analysis on BrowseComp-Plus
+- [[Three mistakes when introducing embeddings and vector search]] — pre-trained models without fine-tuning, single-vector models out-of-domain, and unpriced ANN tradeoffs; source of *"an exhaustive search might be all you need"*
 
 ## Key Contributions
 
@@ -38,3 +39,5 @@ Co-founder of [[Hornet]], a retrieval infrastructure company focused on agentic 
 - [[Hybrid Search]]
 - [[Agentic Retrieval]]
 - [[LLM as Judge]]
+- [[Zero-Shot Retrieval]]
+- [[Brute-Force Vector Search]]

@@ -68,6 +68,18 @@ For image+text search, fine-tune [[CLIP]]-style models:
 - Cross-modal retrieval: text query → image results (or vice versa)
 - [[Shaw Talebi]] demonstrates CLIP fine-tuning for domain-specific multimodal search
 
+## The Non-Negotiable Case
+
+Before the cost/benefit question, there is a case where skipping fine-tuning is simply broken.
+Representations taken straight from a model that has *only* been pre-trained are not useful for
+any task: encoding queries and documents with vanilla [[BERT]] and ranking by cosine similarity
+gives *"next to random ranking results."* [[Jo Kristian Bergum]] files this as mistake number one
+in [[Three mistakes when introducing embeddings and vector search]] — pre-training optimises a
+masked-language-model objective, not a ranking one, and the two do not transfer.
+
+The corollary is mistake number two: fine-tuning on [[MS MARCO]] fixes this *for MS MARCO*, and
+in-domain gains do not predict out-of-domain gains. See [[Zero-Shot Retrieval]].
+
 ## When to Fine-tune vs. General Model
 
 Fine-tune when:
@@ -85,6 +97,7 @@ Use general model when:
 - [[Dense Embeddings]] — the representation type typically fine-tuned
 
 - [[Bi-Encoder]] — architecture typically fine-tuned
+- [[Zero-Shot Retrieval]] — what fine-tuning is trying to buy, and where it fails to transfer
 - [[Matryoshka Embeddings]] — fine-tuning strategy for flexible dimensions
 - [[Task-Aware Embeddings]] — lightweight adaptation via prompts
 - [[Multimodal Embeddings]] — cross-modal fine-tuning
@@ -105,5 +118,6 @@ Use general model when:
 - [[Shaw Talebi]] — Fine-tuning text and multimodal embedding models
 - [[Fine-Tuning an Embedding Model for Semantic Search]] — practical Sentence Transformers fine-tuning; MNR Loss; catastrophic forgetting warning
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — the same argument on the **sparse** side: [[SPLADE]] fine-tuned on catalog data, +27.5% nDCG@10 over BM25, with cross-domain transfer measured and found wanting
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; skipping fine-tuning entirely as mistake #1, and trusting it out-of-domain as mistake #2
 - [[Hard Negative Mining]] — the ANCE loop, and the false-negative risk it carries
 - [[The Complete Guide to Fine-Tuning Embedding Models]] — comprehensive guide: 6 dataset types, 5 loss functions (MNRL/CoSENT/Triplet/CachedMNRL/Matryoshka), evaluation metrics

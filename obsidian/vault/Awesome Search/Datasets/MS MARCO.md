@@ -65,6 +65,9 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Principal Component Analysis - an embedding shrink-ray]] — 9M records × 384 dims × 4 bytes
   ≈ 14GB, the memory problem that motivates [[PCA]]; recall measured at 50/100/200 dimensions
 - [[Flavors of NDCG]] — MS MARCO's NDCG conventions as one of the per-library variants
+- [[Three mistakes when introducing embeddings and vector search]] — MS MARCO fine-tuning beats
+  [[BM25]] *"by a very large margin"* on MS MARCO itself, and frequently loses to it elsewhere;
+  the canonical warning against adopting a model on its MS MARCO number alone
 
 ## Related Concepts
 
@@ -74,6 +77,7 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Dense Vector Retrieval]] — the paradigm MS MARCO largely trained
 - [[Cross-Encoder]] · [[Bi-Encoder]] — both architectures benchmark here
 - [[BEIR]] — the zero-shot suite MS MARCO-trained models are judged against; MS MARCO is also one of its 18 subsets
+- [[Zero-Shot Retrieval]] — why a strong MS MARCO score predicts less than it appears to
 - [[Search Evaluation]] — broader evaluation context
 
 ## Source

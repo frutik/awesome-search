@@ -54,3 +54,7 @@ a useful, simple option when dimensionality is low.
 
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]]
 - [[Nearest Neighbor Indexes for Similarity Search]]
+
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — the umbrella hub for choosing between index families

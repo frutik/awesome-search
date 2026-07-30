@@ -6,65 +6,65 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Relevance Feedback in Informational Retrieval</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Informational-Retrieval</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Informational-Retrieval</guid>
-    <description><![CDATA[ Relevance Feedback in Informational Retrieval 📄 Source: qdrant.tech/articles/search-feedback-loop/ Summary A survey of the Relevance Feedback literature, organised as a two-axis taxonomy, written to answer one question: the methods have existed for sixty years, so why is there no production-grade r... ]]></description>
-    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Just brute force your embeddings</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Just-brute-force-your-embeddings</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Just-brute-force-your-embeddings</guid>
+    <description><![CDATA[ Just brute force your embeddings Author: Doug Turnbull Summary Most teams reaching for a vector database don’t have the corpus size to justify one. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Relevance Feedback in Qdrant</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Qdrant</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Relevance-Feedback-in-Qdrant</guid>
-    <description><![CDATA[ Relevance Feedback in Qdrant 📄 Source: qdrant.tech/articles/relevance-feedback/ Summary The mechanism behind Qdrant 1.17’s RelevanceFeedbackQuery, and the evidence for it. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Three mistakes when introducing embeddings and vector search</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Three-mistakes-when-introducing-embeddings-and-vector-search</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Three-mistakes-when-introducing-embeddings-and-vector-search</guid>
+    <description><![CDATA[ Three mistakes when introducing embeddings and vector search Author: Jo Kristian Bergum · written while working on Vespa Summary Three failure modes teams hit when adopting embedding-based retrieval (EBR): shipping a pre-trained model with no task fine-tuning, trusting a single-vector model fine-tun... ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>BEIR</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/BEIR</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/BEIR</guid>
-    <description><![CDATA[ BEIR Overview BEIR (Benchmarking-IR) is a heterogeneous zero-shot retrieval benchmark spanning 9 task types — fact checking, question answering, bio-medical IR, argument retrieval, duplicate question detection, citation prediction, entity retrieval, news retrieval, and tweet retrieval. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Hybrid Fusion Failure - BM25 Displacing Reference Documents</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/Hybrid-Fusion-Failure---BM25-Displacing-Reference-Documents</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/Hybrid-Fusion-Failure---BM25-Displacing-Reference-Documents</guid>
+    <description><![CDATA[ Hybrid Fusion Failure — BM25 Displacing Reference Documents A first-person production account from Davit Khachaturyan: adding a lexical branch to a working vector retriever made the exact query class it was meant to fix worse, by removing the correct document from the candidate set entirely. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>qdrant-relevance-feedback</title>
-    <link>https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback</link>
-    <guid>https://frutik.github.io/awesome-search/Tools/qdrant-relevance-feedback</guid>
-    <description><![CDATA[ qdrant-relevance-feedback Python package that fits the three parameters (a, b, c) of Qdrant’s index-native Relevance Feedback query — the scoring formula that guides HNSW traversal toward what a feedback model judged relevant. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Brute-Force Vector Search</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Brute-Force-Vector-Search</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Brute-Force-Vector-Search</guid>
+    <description><![CDATA[ Brute-Force Vector Search Brute-force vector search compares the query vector against every document vector and keeps the top k. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Relevance Feedback Inside the Search Engine</title>
-    <link>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Relevance-Feedback-Inside-the-Search-Engine</link>
-    <guid>https://frutik.github.io/awesome-search/Videos/Evgeniya-Sukhodolskaya---Relevance-Feedback-Inside-the-Search-Engine</guid>
-    <description><![CDATA[ Relevance Feedback Inside the Search Engine 📺 Watch: www.youtube.com/watch Talk by Evgeniya Sukhodolskaya (Senior Developer Advocate, Qdrant) at Berlin Buzzwords 2026. ]]></description>
-    <pubDate>Tue, 28 Jul 2026 22:00:00 GMT</pubDate>
+    <title>Zero-Shot Retrieval</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Zero-Shot-Retrieval</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Zero-Shot-Retrieval</guid>
+    <description><![CDATA[ Zero-Shot Retrieval Zero-shot retrieval is using a retrieval model on a corpus and query distribution it was never trained on — no in-domain labels, no fine-tuning pass. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>ESCI-S Dataset</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset</guid>
-    <description><![CDATA[ ESCI-S Dataset Overview ESCI-S is a community-built extension of the Amazon ESCI Dataset that adds richer product metadata to the original query–product pairs. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 18:47:44 GMT</pubDate>
+    <title>SIFT1M</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/SIFT1M</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/SIFT1M</guid>
+    <description><![CDATA[ SIFT1M SIFT1M is a set of one million 128-dimensional vectors used as the default workload for benchmarking ANN algorithms. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 17:06:57 GMT</pubDate>
+    <title>Davit Khachaturyan</title>
+    <link>https://frutik.github.io/awesome-search/People/Davit-Khachaturyan</link>
+    <guid>https://frutik.github.io/awesome-search/People/Davit-Khachaturyan</guid>
+    <description><![CDATA[ Davit Khachaturyan By his own description, a “Senior AI Search and Retrieval Engineer focused on building and improving production search, RAG, and knowledge-driven AI systems.” No employer is named in the material held here. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of notes added to this knowledge graph. Newest first. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 17:06:57 GMT</pubDate>
+    <title>Roy Keyes</title>
+    <link>https://frutik.github.io/awesome-search/People/Roy-Keyes</link>
+    <guid>https://frutik.github.io/awesome-search/People/Roy-Keyes</guid>
+    <description><![CDATA[ Roy Keyes Data science practitioner and writer; runs Zefs Data Science and has written a book on hiring data scientists and machine learning engineers. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>global_toc</title>
-    <link>https://frutik.github.io/awesome-search/global_toc</link>
-    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
-    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 17:06:57 GMT</pubDate>
+    <title>ann-benchmarks</title>
+    <link>https://frutik.github.io/awesome-search/Tools/ann-benchmarks</link>
+    <guid>https://frutik.github.io/awesome-search/Tools/ann-benchmarks</guid>
+    <description><![CDATA[ ann-benchmarks ann-benchmarks is the standard open comparison of ANN algorithms and their implementations, run over a set of standard vector datasets on a common runtime. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Embedding Fine-tuning</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</guid>
-    <description><![CDATA[ Embedding Fine-tuning Definition Embedding fine-tuning adapts a pre-trained embedding model (trained on general web data) to perform better on a specific domain, task, or query distribution. ]]></description>
-    <pubDate>Mon, 27 Jul 2026 15:01:48 GMT</pubDate>
+    <title>Vector Search Tradeoffs</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Vector-Search-Tradeoffs</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Vector-Search-Tradeoffs</guid>
+    <description><![CDATA[ Vector Search Tradeoffs There is no best vector index. ]]></description>
+    <pubDate>Wed, 29 Jul 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

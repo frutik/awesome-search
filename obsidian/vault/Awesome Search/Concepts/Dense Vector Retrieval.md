@@ -34,9 +34,14 @@ Query → Encoder → query vector → ANN search → top-k similar docs
 
 ## Index Types (FAISS / ANN)
 
-| Index | Speed | Recall | Memory | Best For |
+Memory figures below are for **1M vectors at 128 dimensions in float32** — the Sift1M shape used in
+the FAISS index-comparison articles, where the raw vectors alone are 1M × 128 × 4 B = 512 MB. They
+do **not** transfer to typical text-embedding dimensionality: at 768 dims the payload is 3.07 GB
+before any index overhead, so scale the memory column by `d / 128`. See [[HNSW]] for the arithmetic.
+
+| Index | Speed | Recall | Memory (1M × 128-dim) | Best For |
 |---|---|---|---|---|
-| **Flat** (brute force) | Slowest | 100% | ~500MB/1M | Small datasets |
+| **[[Brute-Force Vector Search\|Flat]]** (brute force) | Slowest | 100% | ~500MB | Small datasets |
 | **HNSW** | Fastest | 95%+ | 600-1600MB | Quality-focused |
 | **IVF** | Fast | 70-95% | ~520MB | Balanced, scalable |
 | **LSH** | Variable | 40-85% | 20-600MB | Low-dimensional |
@@ -80,6 +85,8 @@ See: [[Asymmetric Semantic Search]]
 - [[Vector Filtering]] — adding metadata filters to ANN search
 - [[RAG]] — dense retrieval is core to RAG
 
+- [[Brute-Force Vector Search]] — the exact scan; frequently sufficient below ~1M vectors
+- [[Zero-Shot Retrieval]] — whether a dense model survives a change of domain
 - [[Vector Quantization]] — compressing embeddings for memory and speed
 - [[Scalar Quantization]] — int8/int4 per coordinate; 4–8× compression
 - [[Binary Quantization]] — 1-bit per coordinate; 32× compression; needs rescoring
@@ -98,3 +105,5 @@ See: [[Asymmetric Semantic Search]]
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — [[Thomas Veasey]]; OSQ 10-40x faster via integer SIMD
 - [[Why Are Embeddings So Cheap]] — [[Piotr Mazurek]]; compute-bound; ~$0.01/1M tokens at scale
 - [[Dense Retrieval at Vinted]] — [[Vinted]]; multilingual-CLIP two-tower, hybrid (ANN supplements lexical), HNSW on [[Vespa]] at billion scale
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; the three adoption mistakes — no fine-tuning, out-of-domain single-vector models, unpriced ANN tradeoffs
+- [[Just brute force your embeddings]] — [[Doug Turnbull]]; ~1m vectors scanned with one NumPy dot product

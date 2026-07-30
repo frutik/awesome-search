@@ -67,6 +67,7 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[Superintelligent Retrieval Agent SIRA]] — LLM-enriched BM25 beating agentic RAG on Recall@10 and NDCG@10
 - [[psql_bm25s]] — the 15-dataset suite used for **throughput** rather than quality: median ~3.97× QPS
 - [[Announcing the Vespa ColBERT Embedder]] — compressed vs uncompressed [[ColBERT]] on BEIR
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]] uses BEIR's headline finding as the argument against trusting single-vector models out-of-domain
 
 ## Related Concepts
 
@@ -75,6 +76,7 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[Dense Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[BM25]] — the three-way comparison BEIR usually adjudicates
 - [[Precision and Recall]] — the recall-oriented caveats above
 - [[MS MARCO]] — what BEIR models are typically trained on before zero-shot evaluation
+- [[Zero-Shot Retrieval]] — the concept BEIR was built to measure
 
 ## Source
 

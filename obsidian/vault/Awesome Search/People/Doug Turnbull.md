@@ -34,6 +34,8 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 
 - [[Principal Component Analysis - an embedding shrink-ray]] — PCA for embedding compression; measured recall vs. dimensions on [[MS MARCO]]
 
+- [[Just brute force your embeddings]] — measured NumPy scan throughput on 384-dim vectors; the case against adopting a vector database at ~1m documents
+
 ## Affiliations
 
 - Independent (current)

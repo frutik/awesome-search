@@ -57,3 +57,4 @@ Fusion is a downstream step; upstream retrieval quality is the real lever.
 
 - [[Hybrid Search SPLADE Sparse Encoder]]
 - [[SPLADE for Sparse Vector Search Explained]]
+- [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] — [[Davit Khachaturyan]]; the complementary failure, where score-based fusion is used *without* normalization and the lexical branch takes over entirely

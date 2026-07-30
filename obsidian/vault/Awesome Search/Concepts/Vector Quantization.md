@@ -100,3 +100,8 @@ Quantized indexes are fast for candidate retrieval but imprecise. Standard pract
 ## People
 - [[Thomas Veasey]] — Elastic; BBQ and OSQ design
 - [[Ivan Pleshkov]] — Qdrant; TurboQuant + RaBitQ hybrid implementation
+
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — the umbrella hub; quantization is the bits-per-dimension half of the bytes-per-vector axis
+- [[Dimensionality Reduction vs Quantization]] — that axis in full

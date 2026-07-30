@@ -46,6 +46,12 @@ Key capabilities:
 | Hybrid | `hybrid` + normalization pipeline | Built-in RRF and min-max normalization |
 | Neural sparse | `neural_sparse` | Requires a sparse encoding model |
 
+The `hybrid` query type matters more than it looks: it **normalizes each branch into a comparable
+range before combining**, which a hand-rolled `bool` query with two `should` clauses does not — that
+construct sums raw scores from incomparable scales. The intuitive path adds, the purpose-built path
+normalizes, and most teams don't discover the difference until retrieval quality breaks. See
+[[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
+
 ## Vector Search: k-NN Plugin Backends
 
 | Engine | Notes |

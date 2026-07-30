@@ -161,6 +161,10 @@ See [[A-B Testing for Search]] for the full treatment: interleaving, A/B splits,
 
 **Conflating offline and online results.** An offline improvement that doesn't show up in A/B testing isn't necessarily a bad metric — it may reveal a flawed label set. Investigate the gap rather than dismissing one or the other.
 
+**Aggregate metrics hiding a broken query class.** A regression confined to one class of query — exact-term lookups, parameter names, error codes, version strings — can be invisible in an average while being total for the users issuing those queries. Evaluate **by query class**, not only in aggregate; that is exactly what averages are bad at. Related: measure *presence in the candidate set* for classes where the answer lives in a single reference document, since a rank-based metric can't distinguish "ranked poorly" from "never retrieved." See [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
+
+**Silent retrieval failures.** Some of the worst failures raise nothing: no error, no latency spike, no failed request, and no user ticket — users read a fluent answer and conclude something. Anything that depends on a user noticing is not a detection mechanism.
+
 ---
 
 ## Public Evaluation Datasets

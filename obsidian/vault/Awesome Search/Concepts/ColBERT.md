@@ -59,9 +59,20 @@ Asymmetric binarization by [[Jo Kristian Bergum]]:
 | [[Cross-Encoder]] | Early (joint encoding) | Slow | Best |
 | ColBERT | Late (token-level) | Medium | Near cross-encoder |
 
+### Out-of-Domain Generalization
+
+A further advantage, separate from peak quality: multi-vector representations transfer better
+across domains than pooled single vectors. [[Jo Kristian Bergum]]'s position in
+[[Three mistakes when introducing embeddings and vector search]] is that models like ColBERT
+*"generalize much better than single-vector representations"* — a [[Bi-Encoder]] must decide at
+training time which distinctions survive pooling into one vector, and that decision is made
+against the training query distribution. Deferring matching to query time keeps more of the
+signal available when the distribution shifts. See [[Zero-Shot Retrieval]].
+
 ## Related Concepts
 - [[Embeddings]] — parent concept
 - [[Dense Embeddings]] — ColBERT produces per-token dense embeddings
+- [[Zero-Shot Retrieval]] — where late interaction's transfer advantage shows up
 
 - [[Late Interaction]] — the general principle ColBERT implements
 - [[Bi-Encoder]] — simpler alternative
@@ -78,6 +89,7 @@ Asymmetric binarization by [[Jo Kristian Bergum]]:
 
 - [[Announcing the Vespa ColBERT Embedder]] — [[Jo Kristian Bergum]]
 - [[What is ColBERT and Late Interaction and Why They Matter in Search]] — [[Han Xiao]]
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; recommends multi-vector models for out-of-domain robustness
 
 ## People
 

@@ -15,13 +15,13 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]]
 
 ### Dense Retrieval & Embeddings
-[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
+[[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
 
 ### Geometric & Set-Theoretic Embeddings
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
 
 ### ANN Indexing & Quantization
-[[Approximate Nearest Neighbor Search|ANN]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[Token Pooling]]
+[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[Token Pooling]]
 
 ### Dimensionality Reduction
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]
@@ -67,7 +67,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Topics
 
 ### Retrieval & Ranking Techniques
-[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
+[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
 [[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]]
@@ -101,7 +101,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Sentence Transformers]] · [[qdrant-sparse-finetune]] · [[qdrant-relevance-feedback]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[SID-1]]
+[[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[ann-benchmarks]] · [[SID-1]]
 
 ### ML & Model Serving
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]
@@ -114,7 +114,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Case Studies
-[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
+[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
 
 ---
 
@@ -141,7 +141,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[BEIR]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[BEIR]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[MS MARCO]] · [[SIFT1M]] · [[WANDS Dataset]]
 
 ---
 
@@ -153,7 +153,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 
@@ -181,7 +181,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **Q** — [[Quynh Nguyen]]
 
-**R** — [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Rudolf Batt]]
+**R** — [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
 **S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 

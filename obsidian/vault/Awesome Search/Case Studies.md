@@ -13,6 +13,7 @@ Field reports on how real teams built, scaled, and fixed search in production �
 - [[Airbnb - ML-Powered Experiences Ranking]] — ML ranking and the data flywheel
 - [[Canva - Search Pipeline Modernization]] — modernizing a legacy search pipeline
 - [[Etsy - Search Quality and Query Understanding]] — query understanding in a long-tail marketplace
+- [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] — a cautionary failure: unnormalized score fusion silently dropping the right document
 - [[Kleinanzeigen - Vespa Migration for Homepage Feed]] — migrating to Vespa for feed ranking
 - [[Netflix - Content Search Architecture]] — search architecture for a content catalog
 - [[Reddit - Vector Database Selection]] — how to actually choose a vector database

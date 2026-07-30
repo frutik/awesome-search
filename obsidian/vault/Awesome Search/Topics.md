@@ -56,6 +56,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Vespa Learning to Rank]]
 - [[Reasoning Reranking]]
 - [[RL-Trained Search Agents]]
+- [[Vector Search Tradeoffs]]
 - [[Dimensionality Reduction vs Quantization]]
 - [[PCA vs t-SNE for Retrieval]]
 

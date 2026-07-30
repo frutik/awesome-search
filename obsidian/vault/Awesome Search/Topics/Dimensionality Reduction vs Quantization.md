@@ -26,6 +26,7 @@ related_concepts:
   - "[[BBQ]]"
 related_topics:
   - "[[Search Platforms]]"
+  - "[[Vector Search Tradeoffs]]"
 created: 2026-06-01
 ---
 
@@ -146,6 +147,7 @@ PCA + SQ8 combined:        ~6–12% recall loss; 12–16× compression
 - [[Matryoshka Embeddings]] — training-time DR; dimension-flexible
 - [[BBQ]] — Elasticsearch's binary quantization
 - [[TurboQuant]] — rotation-based quantization; state of the art
+- [[Vector Search Tradeoffs]] — the parent hub; this note owns the bytes-per-vector axis, which interacts with index choice, filtering, and update cost
 
 ## Sources
 

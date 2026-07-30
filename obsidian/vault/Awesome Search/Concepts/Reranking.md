@@ -92,6 +92,21 @@ The system crosses a boundary when performance gains come from widening the rera
 
 Retrieval (engineering) and reranking (ML/data science) are owned by different teams with different metrics. Neither dashboard shows the full picture. The gap closes only when someone is accountable for the space between them.
 
+### What Reranking Cannot Fix
+
+A reranker re-scores the candidate set. It cannot reach outside it. If the correct document was
+never retrieved into the top-N, no reranker — and no downstream generator — recovers it; the
+document is simply gone, and the answer is produced from what remains.
+
+This makes reranking a natural but frequently wrong place to debug. Attention gravitates there
+because that is where the visible output is, while the damage may already have been done at
+**candidate selection**. Before tuning a reranker, verify that the correct document is *present in
+the candidate set at all* rather than checking its rank — a distinct measurement, and the one that
+Recall@K is for.
+
+A concrete instance where fusion arithmetic silently evicted the answer before reranking ran:
+[[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
+
 
 - [[Retrieval Pipeline]] — the multi-stage architecture reranking fits into
 - [[Cross-Encoder]] — primary reranking architecture

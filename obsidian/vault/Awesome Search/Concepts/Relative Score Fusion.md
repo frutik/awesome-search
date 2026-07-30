@@ -38,6 +38,8 @@ Part of the "classic hybrid search techniques" alongside RRF, as described in [[
 - Requires score normalization across systems with incompatible scales
 - Score distributions can differ per query, making normalization unstable
 - Needs α weight tuning, unlike RRF which is robust out of the box
+- Min-max normalization is only as stable as the extremes: one outlier lexical score stretches the range and flattens everything else. L2 is steadier on noisy corpora.
+- **Omitting the normalization step doesn't degrade gracefully** — it silently hands the ranking to whichever branch has the larger scale. See [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
 
 ## Related Concepts
 - [[Reciprocal Rank Fusion]] — rank-based alternative; simpler, more robust

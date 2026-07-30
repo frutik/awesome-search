@@ -29,6 +29,10 @@ Vespa is particularly strong for use cases that mix retrieval, ranking, and ML i
 - Multi-phase ranking: cheap first-stage rankers → expensive ML models only on candidates. Native [[Learning to Rank|LTR]] via GBDT ([[XGBoost]]/[[LightGBM]]) and [[ONNX]] models in ranking expressions — see [[Vespa Learning to Rank]]
 - Tensor computations at serving time without external ML serving infrastructure
 - Native support for structured filtering alongside dense vector search
+- Distributed **exact** nearest-neighbour search — an exhaustive scan can be spread across nodes
+  in parallel to hold latency down, and restricted to a subset by query-engine filtering, so
+  [[Brute-Force Vector Search|brute force]] stays viable further up the corpus-size curve than
+  it would in a single process
 
 ## Position in the Ecosystem
 
@@ -45,6 +49,7 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[Announcing the Vespa ColBERT Embedder]]
 - [[Improving Retrieval with LLM as a Judge]]
 - [[Exploring Hierarchical Navigable Small World]]
+- [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]], written while at Vespa; distributed exhaustive search as the alternative to ANN, and how to price the choice
 
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]
 - [[How I learned Vespa by thinking in Solr]] — [[Sujit Pal]] ([[Elsevier]]); onboarding to Vespa via Solr analogies
@@ -52,4 +57,4 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 
 ## Concepts
 
-[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]]
+[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]] · [[Brute-Force Vector Search]] · [[Zero-Shot Retrieval]]

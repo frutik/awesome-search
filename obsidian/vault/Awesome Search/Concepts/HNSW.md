@@ -36,7 +36,7 @@ Each node in layer 0 holds up to `M` bidirectional links to its nearest neighbor
 | `ef_construct` | Beam width during index build | 64–512 |
 | `ef_search` (efSearch) | Beam width at query time | 16–512 |
 
-- Higher `M`: better recall, more memory (each edge is a stored ID + distance)
+- Higher `M`: better recall, more memory (each link is typically a stored neighbour ID, ~4 bytes)
 - Higher `ef_construct`: better graph quality (slower build, same query memory)
 - Higher `ef_search`: better recall at query time, slower queries — the main runtime knob
 
@@ -47,8 +47,37 @@ Each node in layer 0 holds up to `M` bidirectional links to its nearest neighbor
 | Recall | 95–99%+ achievable with reasonable ef_search |
 | Query latency | Sub-millisecond on CPU for typical dims |
 | Build time | O(n log n) approximately |
-| Memory | ~600–1600 MB / 1M 768-dim float32 vectors (edge overhead on top of raw vectors) |
+| Memory | Raw vectors + graph links — see below |
 | Compression | Combine with [[Scalar Quantization]] or [[Binary Quantization]] / [[TurboQuant]] to reduce memory |
+
+### Memory, from first principles
+
+Quote memory only alongside a dimensionality — the vector payload dominates, and it scales with `d`:
+
+```
+bytes ≈ n × (d × bytes_per_component)   ← vectors
+      + n × (~2M × 4)                   ← graph links (one ~4-byte neighbour ID each)
+```
+
+Layer 0 holds up to `2M` links per node and higher layers `M`, so `~2M` links per node is the
+usual working estimate. Worked at float32:
+
+| Corpus | Vectors | Links (M=16) | Links (M=128) | Total |
+|---|---|---|---|---|
+| 1M × 128 dims | 512 MB | 128 MB | 1.02 GB | ~0.6–1.5 GB |
+| 1M × 768 dims | 3.07 GB | 128 MB | 1.02 GB | ~3.2–4.1 GB |
+
+The first row reproduces the measured 600–1600 MB range reported for Sift1M in
+[[Nearest Neighbor Indexes for Similarity Search 1]] (which attributes the ~1.6 GB top end to
+`M=128`), so the estimate is calibrated rather than theoretical.
+
+Two things fall out. **The graph is not the expensive part** at realistic dimensionality — at 768
+dims and a sane `M`, links are a few percent of the total, so "HNSW uses a lot of memory" is mostly
+a statement about storing float32 vectors at all. And **compression therefore dominates the memory
+question**:
+[[Scalar Quantization]] at int8 cuts the 3.07 GB payload to ~0.77 GB, [[Binary Quantization]] to
+~0.1 GB, while the link overhead is unchanged. See
+[[Dimensionality Reduction vs Quantization]] and [[Vector Search Tradeoffs]].
 
 ## vs. IVF
 
@@ -103,3 +132,7 @@ Both are only possible for engines that own their index — a recurring argument
 ## Videos
 
 - [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Berlin Buzzwords]] 2026; modifying the hop-selection function to carry relevance feedback
+
+## Related Topics
+
+- [[Vector Search Tradeoffs]] — where HNSW's recall/memory/update position sits among the other axes

@@ -102,6 +102,23 @@ The organizational mirror: retrieval owned by engineering (latency, indexing, re
 
 **Warning sign:** performance improves by widening the rerank window rather than by improving retrieval — the window is now load-bearing, and reranking has become compensatory.
 
+### The Candidate Set Is a Hard Ceiling
+
+The cascade's defining property is that each stage can only ever narrow. Stage 2 re-scores what
+Stage 1 handed it, so **whatever misses the candidate set is unrecoverable** — not ranked low, but
+absent, with every downstream stage operating on a set that no longer contains the answer.
+
+This is what makes first-stage recall the pipeline's ceiling rather than one metric among several,
+and it is why the asymmetric visibility above is dangerous in a specific direction: a healthy NDCG
+computed over a candidate set that never contained the right document looks like success. Worse, the
+failure is typically silent — no error, no latency spike, and a generator downstream will produce a
+fluent answer from the wrong documents without signalling that anything is missing.
+
+Practical consequence: for query classes where the answer lives in exactly one document, measure
+**presence in the candidate set**, not rank. See
+[[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] for a case where fusion arithmetic
+evicted the answer at Stage 1.
+
 
 - [[Daniel Tunkelang]] — pipeline distillation; QueryUnderstanding.com
 - [[Jo Kristian Bergum]] — Vespa multi-stage retrieval
