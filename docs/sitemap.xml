@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-07-30T09:42:35.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1095,7 +1095,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Vespa</loc>
-    <lastmod>2026-07-30T06:54:31.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Vinted</loc>
     <lastmod>2026-06-29T13:21:50.000Z</lastmod>
@@ -1146,7 +1146,7 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/BM25</loc>
-    <lastmod>2026-07-30T09:42:35.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Bag-of-Documents-Model</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -1182,7 +1182,7 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/ColBERT</loc>
-    <lastmod>2026-07-30T09:42:35.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/ColPali</loc>
     <lastmod>2026-06-19T07:48:48.000Z</lastmod>
@@ -1212,7 +1212,7 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Cross-Encoder</loc>
-    <lastmod>2026-06-25T18:04:17.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Denormalization-for-Search</loc>
     <lastmod>2026-06-26T22:00:00.000Z</lastmod>
@@ -1413,7 +1413,7 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Presentation-Bias</loc>
-    <lastmod>2026-05-31T16:39:23.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Purpose-Built-Agentic-Search-Models</loc>
     <lastmod>2026-06-19T07:48:48.000Z</lastmod>
@@ -1659,7 +1659,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</loc>
-    <lastmod>2026-07-30T06:54:31.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Datasets/Natural-Questions</loc>
     <lastmod>2026-07-29T22:00:00.000Z</lastmod>
@@ -1673,11 +1673,44 @@
     <loc>https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset</loc>
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
-    <loc>https://frutik.github.io/awesome-search/History-2</loc>
-    <lastmod>2026-07-05T12:32:20.000Z</lastmod>
-  </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-07-30T09:42:35.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.20</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.21</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.22</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.23</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.24</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.25</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.26</loc>
+    <lastmod>2026-07-30T12:23:09.619Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.27</loc>
+    <lastmod>2026-07-30T12:23:09.619Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.28</loc>
+    <lastmod>2026-07-30T12:23:09.619Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.29</loc>
+    <lastmod>2026-07-30T12:23:09.619Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.31</loc>
+    <lastmod>2026-07-30T12:31:37.496Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/History-Stats</loc>
+    <lastmod>2026-07-30T12:23:09.620Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Index</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -2346,5 +2379,5 @@
     <lastmod>2026-07-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/global_toc</loc>
-    <lastmod>2026-07-30T09:42:35.000Z</lastmod>
+    <lastmod>2026-07-30T11:24:43.000Z</lastmod>
   </url></urlset>

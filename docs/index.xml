@@ -6,65 +6,65 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.31</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.31</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.31</guid>
+    <description><![CDATA[ History — 2026 week 31 (Jul 27 – Aug 2, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:31:37 GMT</pubDate>
   </item><item>
-    <title>BM25</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/BM25</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/BM25</guid>
-    <description><![CDATA[ BM25 Definition BM25 (Best Match 25) is the dominant lexical retrieval algorithm — the scoring function behind Elasticsearch’s default relevance, Solr, Lucene, and most production search engines. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.20</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.20</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.20</guid>
+    <description><![CDATA[ History — 2026 week 20 (May 11 – May 17, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Bi-Encoder</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Bi-Encoder</guid>
-    <description><![CDATA[ Bi-Encoder Definition A bi-encoder uses two independent encoders — one for queries, one for documents — producing separate dense vector embeddings. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.21</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.21</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.21</guid>
+    <description><![CDATA[ History — 2026 week 21 (May 18 – May 24, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>ColBERT</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/ColBERT</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/ColBERT</guid>
-    <description><![CDATA[ ColBERT Definition ColBERT (Colaborative BERT / Contextualized Late Interaction over BERT) is a neural retrieval model that represents queries and documents as sets of per-token vectors rather than single pooled vectors. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.22</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.22</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.22</guid>
+    <description><![CDATA[ History — 2026 week 22 (May 25 – May 31, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Full-Text Search</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Full-Text-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Full-Text-Search</guid>
-    <description><![CDATA[ Full-Text Search Definition Full-text search (FTS) retrieves documents by matching query terms against the words in a document, typically over an inverted index, and scores matches by term-frequency-based relevance. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.23</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.23</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.23</guid>
+    <description><![CDATA[ History — 2026 week 23 (Jun 1 – Jun 7, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Judgment Lists</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Judgment-Lists</guid>
-    <description><![CDATA[ Judgment Lists Definition A judgment list (also called “qrels” in IR — short for “query relevance”) is a dataset of (query, document, relevance_grade) triples created by human annotators. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.24</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.24</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.24</guid>
+    <description><![CDATA[ History — 2026 week 24 (Jun 8 – Jun 14, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Late Interaction</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Late-Interaction</guid>
-    <description><![CDATA[ Late Interaction Definition Late interaction is a retrieval architecture where query and document representations are computed independently (like Bi-Encoder) but interact at the token level during scoring (unlike single-vector bi-encoders). ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.25</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.25</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.25</guid>
+    <description><![CDATA[ History — 2026 week 25 (Jun 15 – Jun 21, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Personalization</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Personalization</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Personalization</guid>
-    <description><![CDATA[ Personalization Definition Personalization adapts search results to individual user preferences, history, and context — returning different results for different users submitting the same query, based on signals like their browsing history, purchase behavior, location, and demographics. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>History Stats</title>
+    <link>https://frutik.github.io/awesome-search/History/History-Stats</link>
+    <guid>https://frutik.github.io/awesome-search/History/History-Stats</guid>
+    <description><![CDATA[ History Stats Approximate note counts over time (moved out of History on 2026-07-30; stale below the top rows). ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Query Segmentation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Query-Segmentation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Query-Segmentation</guid>
-    <description><![CDATA[ Query Segmentation Definition Query segmentation splits a multi-word query into meaningful segments (phrases, entities, concepts) that should be treated as atomic units rather than individual words. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.26</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.26</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.26</guid>
+    <description><![CDATA[ History — 2026 week 26 (Jun 22 – Jun 28, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item><item>
-    <title>Query Understanding</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Query-Understanding</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Query-Understanding</guid>
-    <description><![CDATA[ Query Understanding Definition Query understanding is the process of analyzing a user’s search query to determine what they actually want — their intent, the entities they’re referencing, the context of their search, and how to best translate their natural-language input into a retrieval strategy. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 09:42:35 GMT</pubDate>
+    <title>2026.27</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.27</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.27</guid>
+    <description><![CDATA[ History — 2026 week 27 (Jun 29 – Jul 5, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 30 Jul 2026 12:23:09 GMT</pubDate>
   </item>
     </channel>
   </rss>
