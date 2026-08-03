@@ -12,7 +12,7 @@ tags:
 
 ## Background
 
-Dima Kan is Product Director of Search at Aiven, a managed database platform. He authored the article introducing Wormhole Vectors and their implementation in OpenSearch, applying [[Trey Grainger]]'s research to production architecture.
+Dima Kan is Product Director of Search at Aiven, a managed database platform. He is the founder and host of [Vector Podcast](https://www.vectorpodcast.com/) ([YouTube](https://www.youtube.com/c/VectorPodcast)). He is known for spotting the vector database wave early and publishing ["Not All Vector Databases Are Made Equal"](https://dmitry-kan.medium.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696) on Medium (read over 120K times). He authored the article introducing Wormhole Vectors and their implementation in OpenSearch, applying [[Trey Grainger]]'s research to production architecture.
 
 ## Articles in This Vault
 
