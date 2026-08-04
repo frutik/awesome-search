@@ -70,3 +70,7 @@ Wormhole Vectors connect nodes across all three spaces.
 
 - [[Trey Grainger]] — invented the Wormhole Vectors concept; "AI-Powered Search" author
 - [[Dima Kan]] — Aiven; practical implementation of wormhole vectors
+
+## Media
+
+- [[Vector Podcast]] — Grainger presented Wormhole Vectors on the show in November 2025, hosted by [[Dima Kan]]

@@ -18,5 +18,9 @@ Conference talks and recorded presentations on search & information retrieval �
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[Evgeniya Sukhodolskaya]] ([[Qdrant]]); [[MICES]] 2026 on making [[SPLADE]] fine-tuning approachable: why off-the-shelf sparse models trained on [[MS MARCO]] misfire on catalogs, the ANCE loop that puts a search engine inside training, and the specialize-vs-generalize trade. Companion to [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] and [[Hard Negative Mining]].
 - [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Evgeniya Sukhodolskaya]] ([[Qdrant]]); [[Berlin Buzzwords]] 2026 on the one search component nobody adapts — the scoring function. Model-generated [[Relevance Feedback]] steers [[HNSW]] hop selection instead of reranking a top-k, distilling a reranker into the index. Companion to [[Relevance Feedback]] and [[HNSW]].
 
+## Podcasts
+
+- [[Vector Podcast]] — [[Dima Kan]] (Aiven); interview series running since October 2021, 38 episodes. A primary-source timeline of the vector search wave — the builders of [[Weaviate Vector DB|Weaviate]], [[Milvus Vector DB|Milvus]], [[Pinecone Vector DB|Pinecone]] and [[Qdrant Vector DB|Qdrant]] interviewed mid-build, plus HNSW co-author Yury Malkov and on-site batches from [[Berlin Buzzwords]]. Companion to [[Search Communities]].
+
 ## Related
 - [[Case Studies]] · [[Topics]] · [[Concepts]] · [[Tools]] · [[People]]

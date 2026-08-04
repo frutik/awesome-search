@@ -13,6 +13,7 @@ people:
   - "[[Audrey Lorberfeld]]"
   - "[[Charlie Hull]]"
   - "[[Doug Turnbull]]"
+  - "[[Dima Kan]]"
 created: 2026-06-25
 ---
 
@@ -33,6 +34,13 @@ International community empowering and celebrating women in search. Founded May 
 
 ### London Search & AI Meetup
 In-person meetup organized by **[[Charlie Hull]]** / [[The Search Juggler]]. A core gathering point for the European search community.
+
+## Podcasts
+
+### [[Vector Podcast]]
+Interview podcast founded and hosted by **[[Dima Kan]]** (Aiven) in October 2021, at the moment the vector database category was forming. Thirty-eight episodes of engineers and founders rather than analysts — [[Weaviate]], [[Milvus Vector DB|Milvus]], [[Pinecone]] and [[Qdrant]] people interviewed while their products were being built, [[HNSW]] co-author Yury Malkov, plus on-site batches from [[Berlin Buzzwords]] featuring [[Charlie Hull]], [[Trey Grainger]] and [[Doug Turnbull]].
+
+🔗 https://www.vectorpodcast.com/
 
 ## Slack & Online Communities
 
@@ -67,3 +75,4 @@ Search is a small, specialized field. Communities are where practitioners:
 - [[Audrey Lorberfeld]] — founder of [[Women of Search]]
 - [[Charlie Hull]] — London Search & AI Meetup organizer
 - [[Doug Turnbull]] — OpenSource Connections / Relevance Slack
+- [[Dima Kan]] — founder and host of [[Vector Podcast]]

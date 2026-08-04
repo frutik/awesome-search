@@ -133,6 +133,10 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Evgeniya Sukhodolskaya]], [[Qdrant]]; [[Berlin Buzzwords]] 2026 talk on index-native [[Relevance Feedback]] — model-generated feedback steering [[HNSW]] hop selection instead of reranking a top-k, [[Knowledge Distillation]] of a reranker into the index, and the case against black-box search engines
 
+### Podcasts
+
+[[Vector Podcast]] — [[Dima Kan]], Aiven; interview series running since October 2021 (38 episodes) covering vector search, search engines and the businesses around them — vector database founders interviewed mid-build, [[HNSW]] co-author Yury Malkov, and on-site batches from [[Berlin Buzzwords]]
+
 ---
 
 ## Conferences

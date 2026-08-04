@@ -94,6 +94,10 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — Qdrant @ [[Berlin Buzzwords]] 2026; index-native [[Relevance Feedback]] steering [[HNSW]] traversal, distilling a reranker into the index, and the case against black-box search engines
 
+## Podcasts
+
+[[Vector Podcast]] — [[Dima Kan]], Aiven; running since October 2021, a primary-source timeline of the vector search wave — vector database founders interviewed mid-build, [[HNSW]] co-author Yury Malkov, and on-site batches from [[Berlin Buzzwords]]
+
 ## Key People
 
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Skip Everling]] · [[Atita Arora]] · [[Udi Manber]] · [[Andrew Kornilov]]
@@ -110,7 +114,7 @@ Counted 2026-07-30.
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
 - **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
 - **9** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[Natural Questions]], [[SIFT1M]], [[TREC-COVID]], [[WANDS Dataset]])
-- **6** video notes · **4** conference notes
+- **6** video notes · **1** podcast note ([[Vector Podcast]]) · **4** conference notes
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.
