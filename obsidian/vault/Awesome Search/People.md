@@ -11,7 +11,7 @@ created: 2026-06-19
 The practitioners, researchers, and educators who shape the search and IR field. New to the community? See who to follow first in [[How to Start a Career in Search]].
 
 ## A
-- [[Achinoam Soroker]] · [[Adrien Grand]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]]
+- [[Achinoam Soroker]] · [[Adrien Grand]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Mende]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]]
 
 ## B
 - [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
@@ -38,7 +38,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Isabella Tromba]] · [[Ivan Pleshkov]]
 
 ## J
-- [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Joon-Pil (JP) Hwang]]
+- [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 ## K
 - [[Karthik Ramasamy]] · [[Kemal Erdem]]
@@ -62,13 +62,13 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Quynh Nguyen]]
 
 ## R
-- [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
+- [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
 ## S
-- [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
+- [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
 ## T
-- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Trey Grainger]] · [[Tullie Murrell]]
+- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 ## U
 - [[Udi Manber]]

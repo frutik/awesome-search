@@ -4,7 +4,7 @@ category: end-user
 industry: [travel, flight search, meta-search]
 products: [Skyscanner flight search, hotel search, car hire]
 search_domain: flight itinerary ranking and recommendation
-people: ["[[Neal Lathia]]"]
+people: ["[[Neal Lathia]]", "[[Jose Parreño]]"]
 use_cases: ["[[Skyscanner - LTR for Flight Search]]"]
 tags: [company, end-user, travel, learning-to-rank]
 created: 2026-05-16
@@ -33,6 +33,17 @@ Purchase completion is a better relevance signal than clicks. An LTR model optim
 
 - [[Learning to Rank for Flight Itinerary Search]] — full LTR workflow, feature engineering, A/B results
 
+## People
+
+- [[Neal Lathia]]
+- [[Jose Parreño]] — Sr. Data Science Manager; writes on ranking and target-variable definition
+
 ## Related Concepts
 
 - [[Learning to Rank]] · [[MRR]] · [[MAP]] · [[Search Evaluation]] · [[Click Signals]]
+- [[Ranking Signal Selection]] — purchase completion over clicks, the same tradeoff
+- [[Two-Sided Marketplace Ranking]] — travel meta-search as a marketplace problem
+
+## Related
+
+- [[Booking.com]] · [[Airbnb]] — adjacent travel ranking work

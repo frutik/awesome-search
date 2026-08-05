@@ -39,13 +39,13 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Bi-Encoder]] · [[Cross-Encoder]] · [[Dense Passage Retriever]] · [[ColBERT]] · [[Late Interaction]] · [[MUVERA]] · [[Pooling]] · [[Token Pooling]] · [[Matryoshka Embeddings]] · [[SPLADE]] · [[ELSER]] · [[Task-Aware Embeddings]] · [[Hypothetical Document Embeddings]] · [[Dimensionality Reduction]] · [[PCA]] · [[t-SNE]] · [[UMAP]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[TurboQuant]]
 
 ### Ranking
-[[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
+[[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Impression Bias]] · [[Ranking Signal Selection]] · [[Hashing Trick]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
 
 ### Model Training
 [[Embedding Fine-tuning]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Hard Negative Mining]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
+[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Session-Based Evaluation]] · [[Out-of-Time Validation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
@@ -62,7 +62,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Courses]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Search Problem Archetypes]] · [[Migration between Search Engines]] · [[Embedding Models Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Courses]] · [[Economics of Search]] · [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Search Problem Archetypes]] · [[Migration between Search Engines]] · [[Embedding Models Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]]
 
 ## Tools
 
@@ -74,7 +74,7 @@ Practice-oriented guides — how to DO or deal with something in search.
 [[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]] · [[Amazon Web Services]]
 
 **End Users**
-[[Uber]] · [[Airbnb]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Reddit]] · [[Elsevier]]
+[[Uber]] · [[Airbnb]] · [[Booking.com]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Reddit]] · [[Elsevier]]
 
 ## Case Studies
 
@@ -106,12 +106,12 @@ Conference talks and recorded presentations.
 
 Counted 2026-08-05.
 
-- **312** article notes
-- **175** concept notes (incl. Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5, Contrastive Learning, Staged Judging, Statistical Significance in Search Evaluation)
-- **55** topic notes (incl. Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes, Embedding Models Compared, Model Selection and Fine-Tuning Evaluation, Retrieval Benchmarks and Leaderboards)
-- **125** people notes (incl. Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
+- **314** article notes
+- **180** concept notes (incl. Ranking Signal Selection, Isolated Feedback Loops, Impression Bias, Out-of-Time Validation, Hashing Trick, Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5, Contrastive Learning, Staged Judging, Statistical Significance in Search Evaluation)
+- **56** topic notes (incl. Two-Sided Marketplace Ranking, Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes, Embedding Models Compared, Model Selection and Fine-Tuning Evaluation, Retrieval Benchmarks and Leaderboards)
+- **130** people notes (incl. Themis Mavridis, Soraya Hausl, Andrew Mende, Roberto Pagano, Jose Parreño, Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
 - **14** case study notes (incl. Vespa - Ranking Without Labels on CORD-19, Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
-- **46** company nodes (incl. Amazon Web Services, Elsevier)
+- **47** company nodes (incl. Booking.com, Amazon Web Services, Elsevier)
 - **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
 - **14** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[BRIGHT]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[LoTTE]], [[MIRACL]], [[MS MARCO]], [[MTEB]], [[Natural Questions]], [[RTEB]], [[SIFT1M]], [[TREC-COVID]], [[WANDS Dataset]])
 - **7** video notes · **1** podcast note ([[Vector Podcast]]) · **4** conference notes

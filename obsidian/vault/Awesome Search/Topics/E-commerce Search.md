@@ -127,6 +127,7 @@ Start at Level 1. Only move up if A/B test shows improvement.
 
 ## Related
 
+- [[Two-Sided Marketplace Ranking]] — when the catalog is supplied by independent sellers with their own commercial interests
 - [[Query Understanding in Practice]] — the pipeline that powers QU in e-commerce
 - [[Search Result Diversity]] — handling broad queries
 - [[Synonyms and Vocabulary Management]] — vocabulary gap solutions
@@ -134,3 +135,4 @@ Start at Level 1. Only move up if A/B test shows improvement.
 - [[Personalization in Search]] — user-specific ranking
 - [[Rene Kriegler - Query Relaxation]] — talk on handling zero-result e-commerce queries via ML-driven [[Query Relaxation]]
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 real-time LTR personalization for SMB stores (Findify, [[MICES]] 2019)
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — signal selection, bias, leakage and serving in a large accommodation marketplace

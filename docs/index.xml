@@ -6,64 +6,64 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+  </item><item>
+    <title>MS MARCO</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
+    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+  </item><item>
+    <title>2026.32</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
+    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+  </item><item>
+    <title>Beyond Algorithms: Ranking at Scale at Booking.com</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Beyond-Algorithms---Ranking-at-Scale-at-Booking.com</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Beyond-Algorithms---Ranking-at-Scale-at-Booking.com</guid>
+    <description><![CDATA[ Beyond Algorithms: Ranking at Scale at Booking.com A practitioner paper arguing that in a commercial ranking system the choice of algorithm is the least of the problems. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Paper Review — Ranking at Scale at Booking.com</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Paper-Review---Ranking-at-Scale-at-Booking.com</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Paper-Review---Ranking-at-Scale-at-Booking.com</guid>
+    <description><![CDATA[ Paper Review — Ranking at Scale at Booking.com Paywall Full text unavailable — this is a Medium member-only post. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>Towards Scalable Relevance Engineering</title>
     <link>https://frutik.github.io/awesome-search/Articles/Towards-Scalable-Relevance-Engineering</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Towards-Scalable-Relevance-Engineering</guid>
     <description><![CDATA[ Towards Scalable Relevance Engineering Source: www.linkedin.com/pulse/towards-scalable-relevance-engineering-andreas-wagner-s3akf/ Author: Andreas Wagner (searchHub) Summary Andreas Wagner addresses a problem the LLM as Judge literature mostly avoids: the approach is economically impossible at real ... ]]></description>
     <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
+    <title>Booking.com</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Booking.com</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Booking.com</guid>
+    <description><![CDATA[ Booking.com One of the world’s largest online travel companies, headquartered in Amsterdam. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>Contrastive Learning</title>
     <link>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</link>
     <guid>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</guid>
     <description><![CDATA[ Contrastive Learning Definition Contrastive learning is the training objective underneath essentially every modern embedding model. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Staged Judging</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Staged-Judging</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Staged-Judging</guid>
-    <description><![CDATA[ Staged Judging Definition Staged judging applies cascade architecture to relevance evaluation rather than to retrieval. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Statistical Significance in Search Evaluation</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Statistical-Significance-in-Search-Evaluation</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Statistical-Significance-in-Search-Evaluation</guid>
-    <description><![CDATA[ Statistical Significance in Search Evaluation Definition A ranking change moves your metric. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>BRIGHT</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/BRIGHT</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/BRIGHT</guid>
-    <description><![CDATA[ BRIGHT Overview BRIGHT is a retrieval benchmark of 1,385 real-world queries where finding the relevant document requires reasoning, not surface similarity. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>LoTTE</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/LoTTE</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/LoTTE</guid>
-    <description><![CDATA[ LoTTE Overview LoTTE (Long-Tail Topic-stratified Evaluation) is a retrieval benchmark introduced alongside ColBERTv2, built from StackExchange communities and deliberately stratified toward long-tail topics rather than the head-heavy distributions that dominate web-search corpora like MS MARCO. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>MIRACL</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/MIRACL</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/MIRACL</guid>
-    <description><![CDATA[ MIRACL Overview MIRACL (Multilingual Information Retrieval Across a Continuum of Languages) is a multilingual retrieval benchmark covering 18 languages over Wikipedia corpora, with queries written and relevance judged by native speakers of each language. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>MTEB</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/MTEB</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/MTEB</guid>
-    <description><![CDATA[ MTEB Overview MTEB (Massive Text Embedding Benchmark) is the aggregate benchmark and public leaderboard that the embedding model field competes on. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>RTEB</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/RTEB</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/RTEB</guid>
-    <description><![CDATA[ RTEB Overview RTEB (Retrieval Embedding Benchmark) is a retrieval-focused benchmark announced in beta on 1 October 2025 by the MTEB maintainers, built to attack one specific problem: the generalization gap between leaderboard scores and real-world retrieval accuracy. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Embedding Models Compared</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Embedding-Models-Compared</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Embedding-Models-Compared</guid>
-    <description><![CDATA[ Embedding Models Compared Overview The embedding model is the single most consequential choice in a dense retrieval stack. ]]></description>
     <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

@@ -40,6 +40,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 
 ## Verticals & applications
 - [[E-commerce Search]]
+- [[Two-Sided Marketplace Ranking]]
 - [[Enterprise Search]]
 - [[Multilingual Search]]
 - [[Conversational and Agentic Search]]

@@ -32,10 +32,10 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[GGUF]]
 
 ## H
-- [[HNSW]] · [[Hard Negative Mining]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
+- [[HNSW]] · [[Hard Negative Mining]] · [[Hashing Trick]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
 
 ## I
-- [[IVF]] · [[Implicit Judgments]] · [[Intent Drift]] · [[Interleaving]]
+- [[IVF]] · [[Implicit Judgments]] · [[Impression Bias]] · [[Intent Drift]] · [[Interleaving]] · [[Isolated Feedback Loops]]
 
 ## J
 - [[Judgment Lists]]
@@ -54,7 +54,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[Neural Click Models]]
 
 ## O
-- [[Out-of-Vocabulary]]
+- [[Out-of-Time Validation]] · [[Out-of-Vocabulary]]
 
 ## P
 - [[PCA]] · [[PEFT]] · [[PROMPTAGATOR]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
@@ -63,7 +63,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
 
 ## R
-- [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
+- [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
 
 ## S
 - [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]]

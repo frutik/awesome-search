@@ -15,6 +15,7 @@ Curated map of real-world search builds, grouped by the problem each team was so
 ## Ranking & Learning to Rank in Production
 
 - [[Airbnb - ML-Powered Experiences Ranking]] — ML ranking and the data flywheel
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — accommodation marketplace ranking; the work beyond algorithm choice (signals, leakage, sharded serving)
 - [[Skyscanner - Learning to Rank for Flights]] — LTR in production over flight inventory
 - [[Slack - Enterprise Message Search with LTR]] — enterprise/personal search; two-stage LTR, position-bias correction
 - [[Kleinanzeigen - Vespa Migration for Homepage Feed]] — feed ranking after migrating to Vespa

@@ -82,8 +82,22 @@ When evaluating search systems, position bias affects:
 - **NDCG from click labels**: biased toward top positions
 - **Session abandonment**: hard to distinguish "satisfied at rank 1" from "frustrated after rank 1"
 
+## Position bias vs impression bias
+
+A distinction worth keeping sharp. Position bias asks *given that an item was
+shown, did its rank inflate its clicks?* — a measurement problem inside the
+candidate set, correctable analytically by reweighting. [[Impression Bias]] asks
+*was the item ever shown at all?* — a coverage problem about which items enter
+the data, and no amount of rank-based reweighting fixes it, because there is no
+observation to reweight.
+
+In practice both operate together, along with **user bias** (heavy users generate
+disproportionate training rows, skewing the ranker toward their preferences when
+it should serve everyone equally).
+
 ## Related Concepts
 
+- [[Impression Bias]] — the coverage-side counterpart; which items got shown at all
 - [[Presentation Bias]] — the broader phenomenon; position bias is one specific form
 - [[Relevance Feedback]] — implicit feedback is corrupted by position bias
 - [[Click Signals]] — position bias is the main issue with click signals
@@ -96,6 +110,7 @@ When evaluating search systems, position bias affects:
 ## Related Articles
 - [[Getting Started on Search Relevance for the Understaffed Search Team]]
 - [[What is Presentation Bias in Search]]
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — position bias named alongside impression bias and user bias in a production marketplace ranker
 
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 position bias in the wild: click histograms identical for random vs real ranking; fixed with a shuffled [[Exploration vs Exploitation]] segment
 

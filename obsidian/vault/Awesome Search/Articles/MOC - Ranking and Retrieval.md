@@ -69,6 +69,8 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 - [[How LambdaMART Works]] — Turnbull explains lambda gradients and MART
 - [[Machine Learning-Powered Search Ranking of Airbnb Experiences]] — 4-stage ML progression
 - [[Learning to Rank for Flight Itinerary Search]] — Skyscanner LTR case study
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — signal selection, leakage, and serving beyond algorithm choice
+- **Concept**: [[Ranking Signal Selection]] — choosing the target variable before the model
 - [[Building a Better Search Engine for Semantic Scholar]] — LightGBM + LambdaRank
 - **Algorithms**: [[LambdaMART]] · [[RankNet]] · [[MonoT5]] · [[RankLLaMA]] · [[RankGPT]] · [[Ranking Objectives]]
 - **Implementations**: [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]]
@@ -92,8 +94,10 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 ## Bias and Diversity
 
 - **Concept**: [[Position Bias]] — rank confounder in click signals
+- **Concept**: [[Impression Bias]] — coverage confounder; which items were ever shown
 - **Concept**: [[Diversity Metrics]] — MMR, α-NDCG, APD, entropy
 - [[Search at Slack]] — how Slack handles position bias in LTR training
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — impression, position, and user bias named together in a production marketplace ranker
 - [[Diversity Metrics for Recommender Systems]] — diversity metrics from a RecSys perspective
 - [[Maximal Marginal Relevance for Keyphrase Extraction]] — MMR applied to keyphrase selection
 

@@ -33,7 +33,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]]
 
 ### Learning to Rank
-[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Ranking Objectives]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
+[[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Hashing Trick]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
 
 ### Hybrid Search & Score Fusion
 [[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Score Normalization]] · [[Semantic Boosting]]
@@ -45,10 +45,10 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
-[[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Position Bias]] · [[Presentation Bias]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
+[[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
 
 ### Agentic, Generative & RAG
 [[Agentic Search]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]]
@@ -70,7 +70,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
-[[E-commerce Search]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]]
+[[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]]
 
 ### Quality & Operations
 [[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[Embedding Models Compared]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
@@ -109,7 +109,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
+[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
 
 ---
 
@@ -151,7 +151,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 
@@ -169,7 +169,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **I** — [[Isabella Tromba]] · [[Ivan Pleshkov]]
 
-**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Joon-Pil (JP) Hwang]]
+**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
 
@@ -185,11 +185,11 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **Q** — [[Quynh Nguyen]]
 
-**R** — [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
+**R** — [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
-**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
+**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
 
-**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
+**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 **U** — [[Udi Manber]]
 

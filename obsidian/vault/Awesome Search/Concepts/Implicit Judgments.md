@@ -30,16 +30,33 @@ Partitioning query-document pairs by behavioral performance separates *easy posi
 
 The same bias caveat applies with more force here. When behavioral signals are distorted by [[Position Bias|position]] or [[Presentation Bias|presentation]], the distortion no longer merely skews training weights — it removes pairs from evaluation entirely, so the resulting blind spot is invisible to everything downstream.
 
+## Choosing Which Behavior Becomes the Label
+
+Saying "train on implicit feedback" leaves the real decision unmade: *which*
+behavior. Clicks, dwell-gated clicks, add-to-cart, purchase, and post-purchase
+satisfaction are all implicit judgments, and they trade off against each other on
+four axes — relation to user satisfaction, volume, delay to observe, and bias.
+The deeper the action, the stronger the signal and the sparser and slower it is.
+
+The usual resolution is layered rather than singular: a deep conversion action as
+the primary positive, with clicks as *secondary* positives so the model learns
+that several items could have satisfied the user even though only one converted.
+On the negative side, **skip-above** (everything ranked above a click was
+examined and passed over) is far stronger than a bare impression. See
+[[Ranking Signal Selection]] for the full tradeoff surface.
+
 ## Related Concepts
 
+- [[Ranking Signal Selection]] — which behavior to promote to a label, and why
 - [[Judgment Lists]] — explicit, human-annotated counterpart
 - [[Click Signals]] · [[Click Models]] — the raw behavioral data
 - [[User Behavior Insights]] — open standard (UBI) for capturing the query/event stream these labels are derived from
 - [[Learning to Rank]] · [[LambdaMART]] — what they train
-- [[Position Bias]] · [[Presentation Bias]] — biases to correct for
+- [[Position Bias]] · [[Presentation Bias]] · [[Impression Bias]] — biases to correct for
 
 ## Articles
 
 - [[Learn-to-Rank with OpenSearch and Metarank]] — events aggregated into implicit judgments
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]]
 - [[What Is a Judgment List]]
+- [[Beyond Algorithms - Ranking at Scale at Booking.com]] — positive/negative signal tables weighing satisfaction, volume, delay, and bias

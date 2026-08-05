@@ -44,3 +44,18 @@ Both are marketplace ranking problems — the goal is not just relevance but pro
 
 - [[Machine Learning-Powered Search Ranking of Airbnb Experiences]]
 - [[Listing Embeddings in Search Ranking]]
+
+## Compare With
+
+- [[Booking.com]] — the closest published counterpart. Both are accommodation
+  [[Two-Sided Marketplace Ranking|marketplaces]] that treat booking rather than
+  clicks as the true label, and both project listings into a latent space with
+  word2vec-style training over user action sequences instead of relying on
+  human-authored attributes. See
+  [[Beyond Algorithms - Ranking at Scale at Booking.com]].
+- [[Skyscanner]] — travel meta-search with purchase-completion labels
+
+## Related Concepts
+
+- [[Two-Sided Marketplace Ranking]] · [[Ranking Signal Selection]] · [[Impression Bias]]
+- [[Word2Vec]] · [[Embeddings]] · [[Learning to Rank]] · [[Personalization]]

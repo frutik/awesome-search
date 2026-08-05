@@ -1,10 +1,26 @@
 ---
 type: topic
-aliases: ["search experimentation", "search A/B tests", "online evaluation"]
-tags: [topic, experimentation, evaluation, search-quality]
-related_concepts: ["[[NDCG]]", "[[MAP]]", "[[Search Relevance]]", "[[Interleaving]]"]
-related_topics: ["[[Managing a Search Team]]", "[[Economics of Search]]"]
-articles: ["[[A-B Testing for Search is Different]]", "[[A-B Testing for Search]]"]
+aliases:
+  - search experimentation
+  - search A/B tests
+  - online evaluation
+tags:
+  - topic
+  - experimentation
+  - evaluation
+  - search-quality
+related_concepts:
+  - "[[NDCG]]"
+  - "[[MAP]]"
+  - "[[Search Evaluation]]"
+  - "[[Interleaving]]"
+  - "[[Isolated Feedback Loops]]"
+related_topics:
+  - "[[Managing a Search Team]]"
+  - "[[Economics of Search]]"
+articles:
+  - "[[A-B Testing for Search is Different]]"
+  - "[[A-B Testing for Search]]"
 created: 2026-05-16
 ---
 
@@ -57,8 +73,28 @@ Search metrics are noisy. DCG and conversion rate on search sessions have high v
 - Infer preference from which system's documents users clicked
 - Much more sensitive than A/B split — detects smaller differences faster
 - **Types**: team draft interleaving, balanced interleaving
-- **Limitation**: measures click preference, not business outcomes (conversion, revenue)
+- **Limitation**: measures click preference, not business outcomes (conversion, revenue); it also cannot estimate effect size, so a confirmatory RCT still follows
 - Best used for early-stage signal before committing to a full A/B test
+- **Why the sensitivity gain is so large**: in a user-split RCT, high-intent users convert almost regardless of ranking quality and therefore contribute noise, leaving only a thin band of "convincible" users carrying signal. Interleaving recovers evidence from high-intent users too, since they still pick the best-fitting item. Booking.com reported potential for a 10–100x speedup — see [[Interleaving]] and [[Beyond Algorithms - Ranking at Scale at Booking.com]]
+
+### Ranking Experiments Are Not Independent
+
+A constraint specific to ranking: **you cannot freely run ranking experiments in
+parallel**, because the independence assumption — that concurrent experiments do
+not affect each other's outcomes — fails. Ranking is self-learning, so the model
+under test shapes the data every other test reads.
+
+Two leakage paths corrupt an RCT even when it is run alone:
+
+- **Re-training leakage** — retraining mid-trial on pooled logs leaks preferences
+  between arms, converging the rankers and attenuating the measured effect
+- **Feature leakage** — time-dynamic features (recent CTR, bookings in the last
+  day) couple the arms through shared feature state even with no retraining
+
+The fix is [[Isolated Feedback Loops]] per group; freezing features to
+pre-experiment data is the cheaper alternative but assumes a stationary world.
+Note the failure mode is attenuation, not false positives — good rankers get
+rejected.
 
 ### Bucket Testing (Query-Level)
 - Assign queries to buckets deterministically (e.g., hash of query string)

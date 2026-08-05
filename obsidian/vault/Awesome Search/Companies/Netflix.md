@@ -36,6 +36,16 @@ Netflix's content catalog is a **federated graph** — different teams own diffe
 - [[How Netflix Makes a Federated Graph Searchable]] — distributed graph search architecture
 - [[Netflix Elasticsearch Indexing Strategy in AMP]] — indexing patterns for high-update corpus
 
+## Influence on Ranking Experimentation
+
+Outside its own search stack, Netflix's 2017 engineering write-up on
+[interleaving for personalization algorithms](https://medium.com/netflix-techblog/interleaving-in-online-experiments-at-netflix-a04ee392ec55)
+is a frequently cited reference point for [[Interleaving]] as an online
+evaluation method. [[Booking.com]] cites those reported results as the reason it
+investigated interleaving for search ranking — see
+[[Beyond Algorithms - Ranking at Scale at Booking.com]].
+
 ## Related Concepts
 
 - [[Knowledge Graph Search]] · [[Search Architecture]] · [[Dense Vector Retrieval]] · [[Retrieval Pipeline]]
+- [[Interleaving]] · [[A-B Testing for Search]] — via the interleaving work cited above
