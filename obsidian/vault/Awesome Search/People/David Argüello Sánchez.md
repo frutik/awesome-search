@@ -6,6 +6,7 @@ affiliation: Empathy
 role: Search Engineer
 articles: []
 key_contributions: [tf-idf-ecommerce-analysis, boolean-similarity]
+created: 2026-05-17
 ---
 
 # David Argüello Sánchez

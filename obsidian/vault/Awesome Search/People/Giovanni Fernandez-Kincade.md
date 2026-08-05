@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Giovanni Fernandez-Kincade"
 aliases: ["Giovanni", "Fernandez-Kincade"]
 tags:

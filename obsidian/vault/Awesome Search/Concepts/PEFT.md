@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "PEFT"
 aliases: ["Parameter-Efficient Fine-Tuning", "parameter efficient fine-tuning", "adapter methods"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - llm
   - embeddings
   - machine-learning
+created: 2026-05-16
 ---
 
 # PEFT — Parameter-Efficient Fine-Tuning

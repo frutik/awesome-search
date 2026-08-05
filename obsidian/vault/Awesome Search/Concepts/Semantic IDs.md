@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Semantic IDs"
 aliases: ["Semantic ID", "Semantic Identifiers", "content-aware IDs"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - embeddings
   - quantization
   - recommendation
+created: 2026-06-22
 ---
 
 # Semantic IDs

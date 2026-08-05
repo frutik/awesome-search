@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Three Pillars of Search Quality Part 2: Discovery & Inspiration"
 tags:
   - clippings

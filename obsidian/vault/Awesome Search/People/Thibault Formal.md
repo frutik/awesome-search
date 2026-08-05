@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Thibault Formal"
 aliases: []
 role: "Research Scientist"
@@ -6,6 +7,7 @@ affiliation: "NAVER LABS Europe"
 tags:
   - person
   - ml-research
+created: 2026-05-16
 ---
 
 # Thibault Formal

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "James Briggs"
 aliases: []
 role: "Technical Writer, Developer Advocate"
@@ -6,6 +7,7 @@ affiliation: "Pinecone"
 tags:
   - person
   - search
+created: 2026-05-16
 ---
 
 # James Briggs

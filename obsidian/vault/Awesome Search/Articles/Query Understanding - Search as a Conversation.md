@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search as a Conversation"
 source: "https://queryunderstanding.com/search-as-a-conversation-bafa7cd0c9a5"
 author:

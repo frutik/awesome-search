@@ -2,6 +2,7 @@
 type: person
 tags: [person, search-architecture, reranking, retrieval]
 blog: "https://www.searchplex.net"
+created: 2026-05-26
 ---
 
 # Ravindra Harige

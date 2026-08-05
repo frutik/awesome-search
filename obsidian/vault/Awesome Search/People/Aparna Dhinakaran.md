@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Aparna Dhinakaran"
 aliases: []
 affiliation: "Arize AI"
@@ -6,6 +7,7 @@ tags:
   - person
   - search
   - evaluation
+created: 2026-05-16
 ---
 
 # Aparna Dhinakaran

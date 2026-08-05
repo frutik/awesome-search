@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Chunking Strategies for LLM Applications"
 source: "https://www.pinecone.io/learn/chunking-strategies/"
 author: ["Pinecone"]

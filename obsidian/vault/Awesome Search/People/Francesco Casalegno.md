@@ -6,6 +6,7 @@ tags:
   - person
   - learning-to-rank
   - machine-learning
+created: 2026-06-18
 ---
 
 # Francesco Casalegno

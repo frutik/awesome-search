@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Bayesian BM25 is Cool"
 aliases: ["BB25", "Bayesian BM25", "Turnbull BB25"]
 tags:

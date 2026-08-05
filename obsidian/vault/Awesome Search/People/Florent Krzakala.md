@@ -1,7 +1,9 @@
 ---
+type: person
 name: Florent Krzakala
 institution: EPFL
 tags: [person, researcher, machine-learning]
+created: 2026-05-17
 ---
 
 # Florent Krzakala

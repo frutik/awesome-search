@@ -7,6 +7,7 @@ author: [Laura Ham]
 company: [Weaviate]
 concepts: [Cross-Encoder, Bi-Encoder, Dense Vector Retrieval, Retrieval Pipeline]
 topics: [Conversational and Agentic Search]
+title: "Using Cross-Encoders as Reranker in Multistage Vector Search"
 ---
 
 # Using Cross-Encoders as Reranker in Multistage Vector Search

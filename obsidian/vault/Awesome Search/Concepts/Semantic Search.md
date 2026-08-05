@@ -1,4 +1,5 @@
 ---
+type: concept
 title: Semantic Search
 aliases:
   - neural search
@@ -9,6 +10,7 @@ tags:
   - search
   - retrieval
   - nlp
+created: 2026-05-16
 ---
 
 # Semantic Search

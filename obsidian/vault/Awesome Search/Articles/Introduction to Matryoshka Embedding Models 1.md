@@ -1,4 +1,5 @@
 ---
+type: article
 title: "🪆 Introduction to Matryoshka Embedding Models"
 source: "https://huggingface.co/blog/matryoshka"
 author:

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Machine Learning-Powered Search Ranking of Airbnb Experiences"
 tags:
   - clippings

@@ -4,6 +4,7 @@ title: "Adrien Grand"
 aliases: ["adrien grand"]
 affiliation: "[[Elastic]]"
 tags: [person, elastic, lucene, search-engineering, retrieval]
+created: 2026-06-02
 ---
 
 # Adrien Grand

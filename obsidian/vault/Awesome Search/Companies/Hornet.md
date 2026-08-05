@@ -4,6 +4,8 @@ website: https://hornet.dev
 industry: search infrastructure
 category: technology-provider
 search_domain: high-precision context delivery for agentic AI systems
+tags: [company]
+created: 2026-05-17
 ---
 
 # Hornet

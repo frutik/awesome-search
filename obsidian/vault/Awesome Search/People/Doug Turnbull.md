@@ -1,4 +1,5 @@
 ---
+type: person
 title: Doug Turnbull
 aliases:
   - Turnbull

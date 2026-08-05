@@ -8,6 +8,7 @@ search_domain: [e-commerce search, behavioral ranking, relevance]
 use_cases: []
 people:
   - "[[David Argüello Sánchez]]"
+created: 2026-05-16
 ---
 
 # Empathy (EmpathyBroker)

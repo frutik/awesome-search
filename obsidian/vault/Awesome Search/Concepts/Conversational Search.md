@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Conversational Search"
 aliases: ["conversational search", "dialogue-based search", "multi-turn search", "conversational IR", "conversational information retrieval", "chat search"]
 tags:

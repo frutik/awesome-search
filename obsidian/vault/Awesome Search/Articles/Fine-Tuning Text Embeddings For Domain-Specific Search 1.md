@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Fine-Tuning Text Embeddings For Domain-Specific Search"
 source: "https://shawhin.medium.com/fine-tuning-text-embeddings-f913b882b11c"
 author:

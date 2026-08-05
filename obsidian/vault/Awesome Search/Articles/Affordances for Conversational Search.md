@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Affordances for Conversational Search"
 aliases: ["Conversational Search Affordances", "Tunkelang Conversational"]
 tags:

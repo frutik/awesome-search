@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Sparse Vector Retrieval"
 aliases: ["sparse retrieval", "sparse embeddings", "sparse vectors"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - retrieval
   - embeddings
+created: 2026-05-16
 ---
 
 # Sparse Vector Retrieval

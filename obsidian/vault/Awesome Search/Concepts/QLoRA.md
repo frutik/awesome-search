@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "QLoRA"
 aliases: ["Quantized LoRA", "quantized fine-tuning", "4-bit fine-tuning"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - llm
   - quantization
   - machine-learning
+created: 2026-05-16
 ---
 
 # QLoRA — Quantized Low-Rank Adaptation

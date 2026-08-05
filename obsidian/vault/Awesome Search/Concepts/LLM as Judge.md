@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "LLM as Judge"
 aliases: ["LLM judge", "LLM-as-a-judge", "automated relevance evaluation", "LLM evaluation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search-evaluation
   - llm
   - automation
+created: 2026-05-16
 ---
 
 # LLM as Judge
@@ -80,6 +82,16 @@ Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with hu
 4. **Hallucination**: LLM may recall facts not in the document and rate it highly
 5. **Calibration**: absolute scores are unreliable; relative pairwise comparisons are better
 6. **Cost at scale**: even cheaper than humans, still non-trivial at millions of judgments
+
+## The Economics Problem
+
+Limitation 6 above deserves its own treatment, because it is the constraint that decides whether an LLM judge is a research demo or a production system.
+
+Per-judgment cost is only cheap relative to humans. At e-commerce scale — billions of annual searches, hundreds of billions of query-document pairs — judging everything with a frontier model is not expensive, it is impossible. Most teams respond by **sampling**: judge a few thousand pairs and generalize. That is adequate for tracking aggregate quality and inadequate for anything requiring coverage, such as mining [[Hard Negative Mining|hard negatives]] across a full catalogue or catching per-query regressions in the tail.
+
+The architectural answer is [[Staged Judging]]: prune the pair space with [[Implicit Judgments|behavioral signals]], let cheap quantized judges settle the easy majority, escalate only disagreement to the LLM, and [[Knowledge Distillation|distill]] the LLM's judgments into a small production model. See [[Towards Scalable Relevance Engineering]] for a worked implementation.
+
+Note that this is an axis **orthogonal to judge quality**. Most of the literature — and most of the articles below — optimizes how closely a judge agrees with humans. A 95%-accurate judge you cannot afford to run produces no judgments at all, which is strictly worse than a 90% judge with full catalogue coverage.
 
 ## Best Practices
 

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Evaluating Search: Measuring Searcher Behavior"
 tags:
   - clippings

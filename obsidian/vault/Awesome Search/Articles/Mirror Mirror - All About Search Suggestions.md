@@ -7,6 +7,7 @@ author: ["Alexander Reelsen"]
 company: []
 concepts: [Autocomplete]
 topics: [Autocomplete and Autosuggest]
+title: "Mirror, Mirror: All About Search Suggestions"
 ---
 
 # Mirror, Mirror: All About Search Suggestions

@@ -2,6 +2,7 @@
 type: person
 tags: [person, vespa, e-commerce, personalization]
 company: "[[Kleinanzeigen]]"
+created: 2026-05-26
 ---
 
 # Andre Charton

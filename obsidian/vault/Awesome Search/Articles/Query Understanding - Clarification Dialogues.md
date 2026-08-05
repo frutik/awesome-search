@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Clarification Dialogues"
 source: "https://queryunderstanding.com/clarification-dialogues-69420432f451"
 author:

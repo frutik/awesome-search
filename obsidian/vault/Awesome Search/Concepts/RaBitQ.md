@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "RaBitQ"
 aliases: ["Random Bit Quantization", "Gao Long quantization"]
 tags:

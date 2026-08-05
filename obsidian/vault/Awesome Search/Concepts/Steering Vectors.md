@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Steering Vectors"
 aliases: ["steering vectors", "activation steering", "representation engineering", "activation addition"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - interpretability
   - representation-learning
   - llm
+created: 2026-06-22
 ---
 
 # Steering Vectors

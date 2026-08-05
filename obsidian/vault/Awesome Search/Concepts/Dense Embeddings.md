@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Dense Embeddings"
 aliases: ["dense vectors", "dense representations", "neural dense embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - vector-search
   - dense
+created: 2026-05-16
 ---
 
 # Dense Embeddings

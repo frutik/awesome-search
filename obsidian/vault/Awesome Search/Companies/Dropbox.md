@@ -1,7 +1,9 @@
 ---
+type: company
 name: Dropbox
 website: "https://dropbox.com"
 tags: [company, enterprise-search, RAG, file-storage]
+created: 2026-05-17
 ---
 
 # Dropbox

@@ -6,6 +6,7 @@ affiliation: KDB.AI
 role: Developer Advocate
 articles: []
 key_contributions: [cross-encoders-colbert-explainer, vector-search-reranking]
+created: 2026-05-16
 ---
 
 # Michael Ryaboy

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Flavors of NDCG — Normalized to What!?"
 source: "https://softwaredoug.com/blog/2024/05/22/flavors-of-ndcg"
 author: ["Doug Turnbull"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Multi-Stage Ranking"
 tags:
   - clippings

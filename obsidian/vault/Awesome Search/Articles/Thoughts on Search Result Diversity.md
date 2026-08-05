@@ -1,4 +1,5 @@
 ---
+type: article
 title: Thoughts on Search Result Diversity
 aliases:
   - Search Result Diversity

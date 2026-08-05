@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Bag-of-Documents Model"
 aliases: ["bag of documents", "document distribution model", "query as document distribution"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - information-retrieval
   - query-understanding
+created: 2026-05-16
 ---
 
 # Bag-of-Documents Model

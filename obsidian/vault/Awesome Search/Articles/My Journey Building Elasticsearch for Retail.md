@@ -7,6 +7,7 @@ author: [Rudolf Batt]
 company: [searchHub]
 concepts: [BM25, Query Understanding, Synonyms]
 topics: [E-commerce Search, Relevance Program Setup]
+title: "My Journey Building Elasticsearch for Retail"
 ---
 
 # My Journey Building Elasticsearch for Retail

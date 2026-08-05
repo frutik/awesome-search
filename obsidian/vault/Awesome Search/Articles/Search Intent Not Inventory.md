@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search: Intent, Not Inventory"
 source: "https://dtunkelang.medium.com/search-intent-not-inventory-289386f28a21"
 author:

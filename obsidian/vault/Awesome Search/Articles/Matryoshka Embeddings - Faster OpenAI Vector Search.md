@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Matryoshka Embeddings: Faster OpenAI Vector Search Using Adaptive Retrieval"
 source: "https://supabase.com/blog/matryoshka-embeddings"
 author: ["Supabase"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Elasticsearch Indexing Strategy in AMP"
 aliases: ["Netflix AMP Elasticsearch", "Netflix Indexing Strategy"]
 tags:

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Click Signals"
 aliases: ["click-through rate", "CTR", "click residual", "behavioral signals", "click data", "implicit feedback"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search-evaluation
   - behavioral
   - online-metrics
+created: 2026-05-16
 ---
 
 # Click Signals

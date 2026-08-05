@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Semantic Equivalence of e-Commerce Queries"
 aliases: ["Query Semantic Equivalence", "Tunkelang KDD 2023"]
 tags:

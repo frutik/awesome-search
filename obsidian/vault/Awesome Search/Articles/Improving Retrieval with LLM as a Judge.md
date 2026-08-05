@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Improving Retrieval with LLM-as-a-Judge"
 source: "https://blog.vespa.ai/improving-retrieval-with-llm-as-a-judge/"
 author: ["Vespa"]

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Karthik Ramasamy"
 aliases: []
 role: "Senior Staff Software Engineer"

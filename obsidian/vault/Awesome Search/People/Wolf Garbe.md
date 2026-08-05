@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Wolf Garbe"
 aliases: []
 tags:

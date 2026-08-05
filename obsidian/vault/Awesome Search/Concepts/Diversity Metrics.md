@@ -1,4 +1,5 @@
 ---
+type: concept
 title: Diversity Metrics
 aliases:
   - result diversity
@@ -12,6 +13,7 @@ tags:
   - search-evaluation
   - diversity
   - ranking
+created: 2026-05-16
 ---
 
 # Diversity Metrics

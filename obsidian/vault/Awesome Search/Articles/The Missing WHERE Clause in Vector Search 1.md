@@ -1,4 +1,5 @@
 ---
+type: article
 title: "The Missing WHERE Clause in Vector Search"
 source: "https://www.pinecone.io/learn/vector-search-filtering/"
 author:

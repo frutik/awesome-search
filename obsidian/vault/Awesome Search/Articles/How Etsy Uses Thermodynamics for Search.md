@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How Etsy Uses Thermodynamics to Help You Search for 'Geeky'"
 tags:
   - clippings

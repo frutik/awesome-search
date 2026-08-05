@@ -6,6 +6,7 @@ affiliation: Weaviate
 role: ML Engineer / Technical Writer
 articles: []
 key_contributions: [cross-encoder-reranker-explainer, bi-encoder-cross-encoder-pipeline]
+created: 2026-05-16
 ---
 
 # Laura Ham

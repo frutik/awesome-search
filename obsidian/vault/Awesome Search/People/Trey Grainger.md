@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Trey Grainger"
 aliases: []
 role: "Author, CTO"
@@ -6,6 +7,7 @@ affiliation: "Searchkernel / AI-Powered Search (book)"
 tags:
   - person
   - search
+created: 2026-05-16
 ---
 
 # Trey Grainger

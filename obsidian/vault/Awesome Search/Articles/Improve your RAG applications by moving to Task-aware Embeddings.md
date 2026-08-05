@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Improve Your RAG Applications by Moving to Task-Aware Embeddings"
 source: "https://medium.com/@gal.peretz/improve-your-rag-applications-by-moving-to-task-aware-embeddings-09ebee62616f"
 author: ["Gal Peretz"]

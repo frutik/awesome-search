@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Chunk Text Data — A Comparative Analysis"
 source: "https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a"
 author: []

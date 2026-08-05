@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search Results Presentation"
 source: "https://queryunderstanding.com/search-results-presentation-7d6c6c384ec1"
 author:

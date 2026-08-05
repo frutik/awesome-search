@@ -7,6 +7,7 @@ author: ["Dainius Jocas", "Aleksas Kateiva"]
 company: [Vinted]
 concepts: [Dense Vector Retrieval, ANN, Embeddings, Hybrid Search]
 topics: [Personalization in Search, E-commerce Search]
+title: "Adopting Vespa for Recommendation Retrieval at Vinted"
 ---
 
 # Adopting Vespa for Recommendation Retrieval at Vinted

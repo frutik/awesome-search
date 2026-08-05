@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Scoping"
 source: "https://queryunderstanding.com/query-scoping-ed61b5ec8753"
 author:

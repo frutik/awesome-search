@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search is a Team Sport"
 tags:
   - clippings

@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Search Intent"
 aliases: ["query intent", "user intent", "search intent classification", "informational", "navigational", "transactional"]
 tags:
   - concept
   - query-understanding
   - search
+created: 2026-05-16
 ---
 
 # Search Intent

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Autosuggest Ranking"
 aliases: ["Autocomplete Ranking", "Giovanni Autosuggest Ranking"]
 tags:

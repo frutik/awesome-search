@@ -6,6 +6,7 @@ affiliation: Shopify
 role: Data Scientist
 articles: []
 key_contributions: [search-evaluation-framework, offline-online-metrics]
+created: 2026-05-16
 ---
 
 # Jodi Sloan

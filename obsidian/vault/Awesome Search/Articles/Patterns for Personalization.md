@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Patterns for Personalization in Recommendations and Search"
 tags:
   - clippings

@@ -7,6 +7,7 @@ author: [[[Jodi Sloan]]]
 company: [Shopify]
 concepts: [NDCG, MAP, Search Evaluation, Judgment Lists]
 topics: [Relevance Program Setup, A-B Testing for Search, Search Quality Assurance]
+title: "Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms"
 ---
 
 # Building Smarter Search Products: 3 Steps for Evaluating Search Algorithms

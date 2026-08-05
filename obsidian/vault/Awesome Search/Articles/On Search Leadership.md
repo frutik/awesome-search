@@ -1,4 +1,5 @@
 ---
+type: article
 title: "On Search Leadership"
 tags:
   - clippings

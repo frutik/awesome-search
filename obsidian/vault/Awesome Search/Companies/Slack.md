@@ -6,6 +6,8 @@ products:
 search_domain: enterprise message and file search
 use_cases:
   - "[[Slack - Enterprise Message Search with LTR]]"
+tags: [company]
+created: 2026-05-16
 ---
 
 # Slack

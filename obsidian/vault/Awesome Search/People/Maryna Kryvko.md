@@ -1,10 +1,12 @@
 ---
+type: person
 title: "Maryna Kryvko"
 aliases: []
 affiliation: "Zalando Search & Browse Team"
 tags:
   - person
   - search
+created: 2026-05-16
 ---
 
 # Maryna Kryvko

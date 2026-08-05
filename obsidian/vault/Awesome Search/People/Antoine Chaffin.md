@@ -1,7 +1,9 @@
 ---
+type: person
 name: Antoine Chaffin
 company: "[[LightOn AI]]"
 tags: [person, researcher, colbert, multi-vector]
+created: 2026-05-17
 ---
 
 # Antoine Chaffin

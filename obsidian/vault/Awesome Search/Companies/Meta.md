@@ -8,6 +8,8 @@ products:
   - PyTorch
 category: technology-provider
 search_domain: large-scale retrieval research and open-source tooling
+tags: [company]
+created: 2026-05-16
 ---
 
 # Meta

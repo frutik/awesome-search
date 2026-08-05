@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Deconstructing E-Commerce Search: The 12 Query Types"
 tags:
   - clippings

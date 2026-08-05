@@ -9,6 +9,7 @@ use_cases: []
 people:
   - "[[Doug Turnbull]]"
   - "[[Jodi Sloan]]"
+created: 2026-05-16
 ---
 
 # Shopify

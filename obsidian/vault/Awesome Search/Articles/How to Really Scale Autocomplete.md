@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-15
 title: How to Really Scale Autocomplete
 source: https://bonsai.io/blog/how-to-really-scale-autocomplete/

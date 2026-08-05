@@ -11,6 +11,7 @@ tags:
   - bm25
   - full-text-search
   - open-source
+created: 2026-06-11
 ---
 
 # ParadeDB

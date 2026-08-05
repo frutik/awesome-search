@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Understanding the Search Query — Part III"
 source: "https://sonusharma-mnnit.medium.com/understanding-the-search-query-part-iii-a0c5637a639"
 author:

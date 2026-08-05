@@ -4,6 +4,7 @@ aliases: ["Atita Arora"]
 blog: "https://unscriptedai.substack.com/"
 affiliation: "Search relevance consultant"
 tags: [person, search-relevance, consultant]
+created: 2026-06-18
 ---
 
 # Atita Arora

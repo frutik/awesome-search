@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Symmetric vs. Asymmetric Semantic Search"
 source: "https://www.sbert.net/examples/applications/semantic-search/README.html#symmetric-vs-asymmetric-semantic-search"
 author: ["sentence-transformers / SBERT"]

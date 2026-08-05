@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Federated Search"
 aliases: ["distributed information retrieval", "distributed IR", "metasearch", "collection selection", "federated retrieval"]
 tags:

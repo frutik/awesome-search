@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Understanding the BM25 Full Text Search Algorithm"
 tags:
   - clippings

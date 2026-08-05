@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Retrieval Pipeline"
 aliases: ["multi-stage retrieval", "retrieval-reranking pipeline", "two-stage retrieval", "retrieve-then-rerank"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - retrieval
   - pipeline
+created: 2026-05-16
 ---
 
 # Retrieval Pipeline

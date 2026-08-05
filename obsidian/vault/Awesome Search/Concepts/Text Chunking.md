@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Text Chunking"
 aliases: ["Chunking", "Document Chunking", "Text Splitting", "Chunking Strategies"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - rag
   - embeddings
+created: 2026-05-16
 ---
 
 # Text Chunking

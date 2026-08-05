@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Bi-Encoder"
 aliases: ["Two-Tower Model", "Dual Encoder", "Bi-encoder Architecture", "Siamese Network"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - neural-ir
   - embedding-model
+created: 2026-05-16
 ---
 
 # Bi-Encoder

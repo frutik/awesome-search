@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Statistical and Human-Centered Approaches to Search Engine Improvement"
 tags:
   - clippings

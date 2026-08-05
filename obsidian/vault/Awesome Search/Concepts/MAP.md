@@ -1,4 +1,5 @@
 ---
+type: concept
 title: MAP (Mean Average Precision)
 aliases:
   - MAP
@@ -9,6 +10,7 @@ tags:
   - concept
   - search-evaluation
   - metrics
+created: 2026-05-16
 ---
 
 # MAP (Mean Average Precision)

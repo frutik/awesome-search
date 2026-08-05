@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "ColBERT"
 aliases: ["ColBERTv2", "Contextualized Late Interaction over BERT"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - neural-ir
   - embedding-model
+created: 2026-05-16
 ---
 
 # ColBERT

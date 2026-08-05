@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Keywords Extraction"
 aliases: ["keywords extraction", "keyword extraction", "keyphrase extraction", "RAKE", "YAKE", "KeyBERT", "key phrase extraction", "automatic keyword extraction"]
 tags:

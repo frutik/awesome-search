@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Building a Better Search Engine for Semantic Scholar"
 tags:
   - clippings

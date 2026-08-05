@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Neural Click Models"
 aliases: ["neural click model", "NCM", "CACM", "context-aware click model", "GraphCM", "deep click model", "neural examination model"]
 tags:

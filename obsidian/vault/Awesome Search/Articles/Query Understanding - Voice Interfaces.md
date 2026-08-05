@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Understanding and Voice Interfaces"
 source: "https://queryunderstanding.com/query-understanding-and-voice-interfaces-6cd60d063fca"
 author:

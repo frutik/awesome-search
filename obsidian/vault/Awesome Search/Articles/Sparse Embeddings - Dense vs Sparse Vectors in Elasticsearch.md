@@ -7,6 +7,7 @@ author: [Dai Sugimori]
 company: [Elastic]
 concepts: [Sparse Vector Retrieval, SPLADE, ELSER, Semantic Search, Hybrid Search]
 topics: []
+title: "Sparse Embeddings: Dense vs Sparse Vectors in Elasticsearch"
 ---
 
 # Sparse Embeddings: Dense vs Sparse Vectors in Elasticsearch

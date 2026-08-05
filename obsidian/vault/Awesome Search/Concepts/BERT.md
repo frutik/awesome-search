@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "BERT"
 aliases: ["BERT", "Bidirectional Encoder Representations from Transformers", "BERT model", "bert-base", "bert-large", "transformer encoder", "masked language model", "MLM"]
 tags:

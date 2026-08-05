@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Modality Gap"
 aliases: ["modality gap", "cross-modal gap", "embedding space gap", "CLIP modality gap", "modal gap"]
 tags:

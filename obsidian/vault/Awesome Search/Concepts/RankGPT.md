@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "RankGPT"
 aliases: ["RankGPT", "Rank GPT"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - reranking
   - llm
   - neural-ir
+created: 2026-06-11
 ---
 
 # RankGPT

@@ -22,11 +22,15 @@ related_concepts:
   - "[[Zero Results]]"
   - "[[Judgment Lists]]"
   - "[[LLM as Judge]]"
+  - "[[Staged Judging]]"
+  - "[[Statistical Significance in Search Evaluation]]"
   - "[[Session-Based Evaluation]]"
   - "[[Query Sampling]]"
 related_topics:
   - "[[A-B Testing for Search]]"
   - "[[Managing a Search Team]]"
+  - "[[Model Selection and Fine-Tuning Evaluation]]"
+  - "[[Retrieval Benchmarks and Leaderboards]]"
 articles:
   - "[[Session vs Query based search evals 1]]"
   - "[[Measuring Search Effectiveness 1]]"
@@ -180,6 +184,8 @@ Open datasets provide ready-made judgment lists for offline evaluation. Common i
 
 Use these to: benchmark models before investing in custom annotation, calibrate annotator guidelines, and run cross-domain transfer experiments.
 
+Beyond the e-commerce sets above, the academic benchmark suites ([[BEIR]], [[MTEB]], [[RTEB]], [[BRIGHT]], [[MIRACL]], [[LoTTE]]) and the libraries that run them are mapped in [[Retrieval Benchmarks and Leaderboards]]. They answer a different question — general model capability rather than your search quality — and should be used to shortlist candidates, never to select one.
+
 ---
 
 ## Related
@@ -189,6 +195,10 @@ Use these to: benchmark models before investing in custom annotation, calibrate 
 - [[Query Sampling]] — how to build a representative query set
 - [[Managing a Search Team]] — evaluation culture as a team practice
 - [[LLM as Judge]] — scaling annotation with LLMs
+- [[Staged Judging]] — making LLM judging affordable at catalogue scale
+- [[Model Selection and Fine-Tuning Evaluation]] — running model bake-offs and measuring fine-tuning without fooling yourself
+- [[Retrieval Benchmarks and Leaderboards]] — public benchmarks and benchmarking frameworks
+- [[Statistical Significance in Search Evaluation]] — telling a real improvement from noise
 
 ### LLM Judge Articles
 

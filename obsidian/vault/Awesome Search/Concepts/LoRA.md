@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "LoRA"
 aliases: ["Low-Rank Adaptation", "LoRA fine-tuning", "low-rank adapter"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - llm
   - embeddings
   - machine-learning
+created: 2026-05-16
 ---
 
 # LoRA — Low-Rank Adaptation

@@ -1,7 +1,9 @@
 ---
+type: company
 name: LightOn AI
 website: "https://www.lighton.ai"
 tags: [company, AI-research, multi-vector, ColBERT]
+created: 2026-05-17
 ---
 
 # LightOn AI

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Embeddings"
 aliases: ["embedding", "vector representation", "neural embeddings", "text embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - vector-search
   - foundations
+created: 2026-05-16
 ---
 
 # Embeddings
@@ -117,6 +119,11 @@ See [[BBQ]] for Elasticsearch's implementation.
 - [[Word2Box]] — unsupervised box embeddings, CBOW-style
 - [[Set-Theoretic Embeddings]] — embeddings that support intersection/union/containment
 - [[Word2Vec]] — the foundational point-embedding method
+
+## Related Topics
+- [[Embedding Models Compared]] — the current model landscape, with strengths and weaknesses of each
+- [[Model Selection and Fine-Tuning Evaluation]] — choosing between them on your own data
+- [[Retrieval Benchmarks and Leaderboards]] — the benchmarks that rank them
 
 ## Articles
 - [[Why Are Embeddings So Cheap]] — [[Piotr Mazurek]]; economics of embedding inference

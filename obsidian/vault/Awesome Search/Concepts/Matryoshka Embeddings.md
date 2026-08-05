@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Matryoshka Embeddings"
 aliases: ["MRL", "Matryoshka Representation Learning", "Adaptive Retrieval", "Truncatable Embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - embeddings
   - efficiency
+created: 2026-05-16
 ---
 
 # Matryoshka Embeddings

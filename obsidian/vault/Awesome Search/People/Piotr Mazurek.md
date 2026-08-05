@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Piotr Mazurek"
 aliases: []
 website: "tensoreconomics.com"

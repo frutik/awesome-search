@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Jonas Schulz"
 aliases: []
 tags:

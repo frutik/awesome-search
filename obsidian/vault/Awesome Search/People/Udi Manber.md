@@ -2,6 +2,7 @@
 type: person
 aliases: ["Udi Manber"]
 tags: [person, search-leadership]
+created: 2026-06-18
 ---
 
 # Udi Manber

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Compute Mean Reciprocal Rank (MRR) using Pandas"
 source: "https://softwaredoug.com/blog/2021/04/21/compute-mrr-using-pandas.html"
 author: ["Doug Turnbull"]

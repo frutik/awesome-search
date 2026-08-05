@@ -1,4 +1,5 @@
 ---
+type: company
 name: "The Search Juggler"
 website: "https://thesearchjuggler.com"
 tags: [company, search-consulting, solo-consultancy, open-source-search]

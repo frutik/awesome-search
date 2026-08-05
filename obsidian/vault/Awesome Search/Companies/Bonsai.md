@@ -7,6 +7,7 @@ industry: managed search hosting
 category: technology-provider
 search_domain: managed Elasticsearch / OpenSearch hosting
 tags: [company, opensearch, elasticsearch, managed-search]
+created: 2026-06-18
 ---
 
 # Bonsai

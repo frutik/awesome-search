@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Learned Sparse Retrieval"
 aliases: ["LSR", "neural sparse retrieval", "learned sparse encoding"]
 tags:

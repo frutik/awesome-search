@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "MOC — Ranking and Retrieval"
 tags:
   - moc

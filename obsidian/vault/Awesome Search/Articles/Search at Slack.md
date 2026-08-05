@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search at Slack"
 tags:
   - clippings

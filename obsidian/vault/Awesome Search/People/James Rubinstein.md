@@ -1,4 +1,5 @@
 ---
+type: person
 title: "James Rubinstein"
 aliases: ["Rubinstein", "JamesRubinstein"]
 tags:

@@ -3,6 +3,7 @@ title: "Purpose-Built Agentic Search Models"
 type: concept
 aliases: ["Agentic Search Models", "Agentic Retrieval Models", "Purpose-Built Search LLMs", "Tool-Based Retrieval Models"]
 tags: [concept, agentic-search, llm, reranking, neural-ir]
+created: 2026-06-18
 ---
 
 # Purpose-Built Agentic Search Models

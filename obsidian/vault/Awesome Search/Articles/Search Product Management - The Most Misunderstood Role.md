@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search Product Management: The Most Misunderstood Role"
 aliases: ["Search PM Role", "Rubinstein Search PM"]
 tags:

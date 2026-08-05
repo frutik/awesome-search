@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Session Context"
 source: "https://queryunderstanding.com/session-context-4af0a355c94a"
 author:

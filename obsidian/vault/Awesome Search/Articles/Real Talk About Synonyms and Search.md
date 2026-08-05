@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Real Talk About Synonyms and Search"
 tags:
   - clippings

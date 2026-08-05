@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "IVF"
 aliases: ["Inverted File Index", "IVF index", "IVF-Flat", "IVF-PQ", "IVF-SQ", "nlist", "nprobe"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - ann
   - performance
+created: 2026-05-16
 ---
 
 # IVF — Inverted File Index (Vectors)

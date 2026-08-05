@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Daniel Tunkelang"
 aliases: ["Tunkelang", "dtunkelang"]
 tags:

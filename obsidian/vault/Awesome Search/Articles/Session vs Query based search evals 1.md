@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Session vs Query based search evals"
 source: "https://softwaredoug.com/blog/2026/03/30/session-vs-query-based-search-evals"
 author:

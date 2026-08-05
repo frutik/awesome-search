@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Stability and Scalability for Search"
 aliases: ["Twitter Search Scalability", "Twitter Search Stability"]
 tags:

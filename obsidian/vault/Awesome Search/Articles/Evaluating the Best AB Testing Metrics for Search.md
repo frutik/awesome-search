@@ -7,6 +7,7 @@ author: ["Algolia"]
 company: [Algolia]
 concepts: [A-B Testing, Click Signals]
 topics: [A-B Testing for Search, Search Quality Assurance]
+title: "Evaluating the Best AB Testing Metrics for Search"
 ---
 
 # Evaluating the Best AB Testing Metrics for Search

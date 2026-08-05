@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Autosuggest Retrieval Data Structures & Algorithms"
 aliases: ["Autosuggest Retrieval", "Giovanni Autosuggest Retrieval"]
 tags:

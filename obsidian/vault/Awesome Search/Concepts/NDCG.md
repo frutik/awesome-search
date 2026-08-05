@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "NDCG (Normalized Discounted Cumulative Gain)"
 aliases: ["nDCG", "normalized discounted cumulative gain", "DCG", "discounted cumulative gain", "CG", "cumulative gain"]
 tags:
   - concept
   - search-evaluation
   - metrics
+created: 2026-05-16
 ---
 
 # NDCG (Normalized Discounted Cumulative Gain)

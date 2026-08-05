@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Three Pillars of Search Quality in E-Commerce — Part 1: Findability"
 tags:
   - clippings

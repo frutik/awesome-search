@@ -7,6 +7,7 @@ industry: agentic retrieval / AI search models
 category: technology-provider
 search_domain: purpose-built agentic search and reranking models
 tags: [company, agentic-search, llm, reranking]
+created: 2026-06-18
 ---
 
 # SID.ai

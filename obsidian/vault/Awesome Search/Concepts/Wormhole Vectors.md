@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Wormhole Vectors"
 aliases: ["wormhole embedding", "cross-space vectors", "traversal vectors"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - embeddings
   - hybrid-search
+created: 2026-05-16
 ---
 
 # Wormhole Vectors

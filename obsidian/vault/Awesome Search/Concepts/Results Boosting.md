@@ -1,4 +1,5 @@
 ---
+type: concept
 title: Results Boosting
 aliases:
   - results boosting
@@ -9,6 +10,7 @@ tags:
   - concept
   - ranking
   - e-commerce-search
+created: 2026-05-16
 ---
 
 # Results Boosting

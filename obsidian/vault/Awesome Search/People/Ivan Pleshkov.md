@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Ivan Pleshkov"
 aliases: ["Pleshkov"]
 tags:

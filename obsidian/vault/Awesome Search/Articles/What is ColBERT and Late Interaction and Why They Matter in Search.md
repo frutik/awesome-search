@@ -1,4 +1,5 @@
 ---
+type: article
 title: "What is ColBERT and Late Interaction and Why They Matter in Search?"
 source: "https://jina.ai/news/what-is-colbert-and-late-interaction-and-why-they-matter-in-search/"
 author: ["Han Xiao"]

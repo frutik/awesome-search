@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Vector Quantization"
 aliases: ["Quantization", "ANN Quantization", "Embedding Quantization"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - performance
   - embeddings
+created: 2026-05-16
 ---
 
 # Vector Quantization

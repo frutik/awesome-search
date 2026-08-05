@@ -1,4 +1,5 @@
 ---
+type: article
 title: "A/B Testing Search: Thinking Like a Scientist"
 tags:
   - clippings

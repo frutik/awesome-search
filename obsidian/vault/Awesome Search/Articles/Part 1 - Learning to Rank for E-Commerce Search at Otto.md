@@ -7,6 +7,7 @@ author: [Andrea Schütt]
 company: [Otto]
 concepts: [Learning to Rank, NDCG, Search Evaluation]
 topics: [E-commerce Search, Relevance Program Setup]
+title: "Part 1: Learning to Rank for E-Commerce Search at Otto"
 ---
 
 # Part 1: Learning to Rank for E-Commerce Search at Otto

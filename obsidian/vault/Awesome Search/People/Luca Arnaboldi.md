@@ -1,8 +1,10 @@
 ---
+type: person
 name: Luca Arnaboldi
 company: "[[LightOn AI]]"
 institution: EPFL
 tags: [person, researcher, colbert, multi-vector]
+created: 2026-05-17
 ---
 
 # Luca Arnaboldi

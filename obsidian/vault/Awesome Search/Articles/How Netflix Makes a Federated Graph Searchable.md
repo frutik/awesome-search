@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How Netflix Content Engineering Makes a Federated Graph Searchable"
 tags:
   - clippings

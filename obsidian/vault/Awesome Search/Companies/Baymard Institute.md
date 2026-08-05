@@ -3,6 +3,7 @@ type: company
 aliases: ["Baymard", "Baymard Institute"]
 website: "https://baymard.com"
 tags: [company, ux-research, e-commerce-search, search-ux]
+created: 2026-06-27
 ---
 
 # Baymard Institute

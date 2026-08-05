@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Query Relaxation"
 aliases: ["query softening", "constraint relaxation", "facet relaxation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - query-understanding
   - search-quality
   - zero-results
+created: 2026-05-16
 ---
 
 # Query Relaxation

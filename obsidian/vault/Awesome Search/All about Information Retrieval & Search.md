@@ -38,10 +38,10 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Learning to Rank]] · [[Personalization]] · [[Position Bias]] · [[Diversity Metrics]] · [[Retrieval Pipeline]] · [[Results Boosting]] · [[Results Merchandising]] · [[Signal Downboosting]]
 
 ### Model Training
-[[Embedding Fine-tuning]] · [[Knowledge Distillation]] · [[Hard Negative Mining]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
+[[Embedding Fine-tuning]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Hard Negative Mining]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
+[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Session-Based Evaluation]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
@@ -58,7 +58,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Migration between Search Engines]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[Economics of Search]] · [[E-commerce Search]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Migration between Search Engines]] · [[Embedding Models Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]]
 
 ## Tools
 
@@ -95,16 +95,16 @@ Conference talks and recorded presentations.
 [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[James Rubinstein]] · [[Omar Khattab]] · [[Jo Kristian Bergum]] · [[Trey Grainger]] · [[Andreas Wagner]] · [[Giovanni Fernandez-Kincade]] · [[Wolf Garbe]] · [[Eugene Yan]] · [[Andrew Kornilov]]
 
 ## Stats
-Counted 2026-07-30.
+Counted 2026-08-05.
 
-- **311** article notes
-- **172** concept notes (incl. Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5)
-- **52** topic notes (incl. Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Elasticsearch vs OpenSearch)
+- **312** article notes
+- **175** concept notes (incl. Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5, Contrastive Learning, Staged Judging, Statistical Significance in Search Evaluation)
+- **55** topic notes (incl. Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Elasticsearch vs OpenSearch, Embedding Models Compared, Model Selection and Fine-Tuning Evaluation, Retrieval Benchmarks and Leaderboards)
 - **125** people notes (incl. Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Geoffrey Hinton, Laurens van der Maaten)
 - **14** case study notes (incl. Vespa - Ranking Without Labels on CORD-19, Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa)
 - **46** company nodes (incl. Amazon Web Services, Elsevier)
 - **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, FAISS)
-- **9** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[MS MARCO]], [[Natural Questions]], [[SIFT1M]], [[TREC-COVID]], [[WANDS Dataset]])
+- **14** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[BRIGHT]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[LoTTE]], [[MIRACL]], [[MS MARCO]], [[MTEB]], [[Natural Questions]], [[RTEB]], [[SIFT1M]], [[TREC-COVID]], [[WANDS Dataset]])
 - **6** Maps of Content
 
 See [[History]] for the full note-addition log.

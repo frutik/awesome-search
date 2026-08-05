@@ -1,7 +1,9 @@
 ---
+type: person
 name: Taylor Roy
 company: "[[Elastic]]"
 tags: [person, search-engineer, ecommerce-search, search-governance]
+created: 2026-05-17
 ---
 
 # Taylor Roy

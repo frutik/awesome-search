@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Fine-tuning Multimodal Embedding Models"
 source: "https://medium.com/towards-data-science/fine-tuning-multimodal-embedding-models-bf007b1c5da5"
 author: ["Shaw Talebi"]

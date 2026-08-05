@@ -1,4 +1,5 @@
 ---
+type: article
 title: "What Is a Judgment List?"
 source: "https://softwaredoug.com/blog/2021/02/21/what-is-a-judgment-list"
 author:

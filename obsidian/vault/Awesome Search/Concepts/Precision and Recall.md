@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Precision and Recall"
 aliases: ["precision", "recall", "P@k", "Precision at K", "F1"]
 tags:
   - concept
   - search-evaluation
   - metrics
+created: 2026-05-16
 ---
 
 # Precision and Recall

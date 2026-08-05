@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "ColPali"
 aliases: ["ColPali model", "visual late interaction"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - neural-ir
   - multimodal
   - late-interaction
+created: 2026-05-22
 ---
 
 # ColPali

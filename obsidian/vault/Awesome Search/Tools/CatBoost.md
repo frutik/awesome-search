@@ -1,4 +1,5 @@
 ---
+type: tool
 title: "CatBoost"
 aliases: ["CatBoost", "catboost"]
 status: stub
@@ -7,6 +8,7 @@ tags:
   - ranking
   - learning-to-rank
   - machine-learning
+created: 2026-06-11
 ---
 
 # CatBoost

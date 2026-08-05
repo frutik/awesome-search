@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Binary Quantization"
 aliases: ["BQ", "1-bit quantization", "binarization", "Hamming distance search"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - quantization
   - performance
+created: 2026-05-16
 ---
 
 # Binary Quantization

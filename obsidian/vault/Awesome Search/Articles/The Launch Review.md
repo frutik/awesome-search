@@ -1,4 +1,5 @@
 ---
+type: article
 title: "The Launch Review: Bringing It All Together"
 tags:
   - clippings

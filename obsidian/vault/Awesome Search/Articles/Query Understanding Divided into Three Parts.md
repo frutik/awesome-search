@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Understanding, Divided into Three Parts"
 source: "https://dtunkelang.medium.com/query-understanding-divided-into-three-parts-d9cbc81a5d09"
 author:

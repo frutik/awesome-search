@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Intent Drift"
 aliases: ["query drift", "concept drift search", "relevance model staleness", "intent shift"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - query-understanding
   - search-quality
   - relevance
+created: 2026-05-22
 ---
 
 # Intent Drift

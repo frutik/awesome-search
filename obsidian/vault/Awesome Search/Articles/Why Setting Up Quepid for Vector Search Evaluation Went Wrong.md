@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Why Setting Up Quepid for Vector Search Evaluation Went Wrong"
 source: "https://frutik.medium.com/why-setting-up-quepid-for-vector-search-evaluation-went-wrong-5fd0a90621f4"
 author:

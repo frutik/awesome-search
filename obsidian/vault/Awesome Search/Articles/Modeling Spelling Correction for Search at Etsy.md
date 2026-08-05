@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Modeling Spelling Correction for Search at Etsy"
 tags:
   - clippings

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Choosing Your Search Relevance Evaluation Metric"
 source: "https://opensourceconnections.com/blog/2020/02/28/choosing-your-search-relevance-metric/"
 author: ["OpenSource Connections"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search Results Clustering"
 source: "https://queryunderstanding.com/search-results-clustering-b2fa64c6c809"
 author:

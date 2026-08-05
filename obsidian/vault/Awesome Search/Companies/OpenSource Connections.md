@@ -8,6 +8,7 @@ search_domain: search relevance consulting, evaluation tooling
 people: ["[[Doug Turnbull]]", "[[Giovanni Fernandez-Kincade]]"]
 tags: [company, technology-provider, consulting, evaluation-tooling]
 created: 2026-05-16
+website: https://opensourceconnections.com
 ---
 
 # OpenSource Connections

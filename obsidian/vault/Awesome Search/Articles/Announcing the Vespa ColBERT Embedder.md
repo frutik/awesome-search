@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Announcing the Vespa ColBERT Embedder"
 source: "https://blog.vespa.ai/announcing-colbert-embedder-in-vespa/"
 author: ["Jo Kristian Bergum"]

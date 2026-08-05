@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Collocations"
 aliases: ["collocations", "common phrases", "phrase detection", "multi-word expressions", "MWE", "bigrams", "n-grams", "shingles", "phrase queries"]
 tags:

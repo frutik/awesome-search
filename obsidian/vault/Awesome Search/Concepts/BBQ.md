@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "BBQ"
 aliases: ["Better Binary Quantization", "Binary Quantization", "OSQ", "Optimized Scalar Quantization"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - performance
   - elasticsearch
+created: 2026-05-16
 ---
 
 # BBQ — Better Binary Quantization

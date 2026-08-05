@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Cross-Encoder"
 aliases: ["Cross-encoder Reranker", "Interaction Model", "Early Interaction"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - neural-ir
   - reranking
+created: 2026-05-16
 ---
 
 # Cross-Encoder

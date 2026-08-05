@@ -71,6 +71,8 @@ The risk is worse the sparser your labels, which is the usual situation with cli
 
 ## Related Concepts
 
+- [[Contrastive Learning]] — the training objective whose outcome hard negatives dominate
+- [[Staged Judging]] — how teams afford the high-coverage judgments that mining at catalogue scale requires, and that sampling cannot supply
 - [[Embedding Fine-tuning]] — hard negatives are a core lever on the dense side too
 - [[Learned Sparse Retrieval]] · [[SPLADE]] — where the ANCE loop was applied here
 - [[Contrastive Gap]] — hard negatives as a remedy for embedding-space geometry

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "PCA"
 aliases: ["Principal Component Analysis", "principal component analysis", "PCA", "eigenvector projection"]
 tags:

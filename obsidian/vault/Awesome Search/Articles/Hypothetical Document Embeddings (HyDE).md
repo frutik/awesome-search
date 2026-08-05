@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Hypothetical Document Embeddings (HyDE)"
 source: "https://docs.haystack.deepset.ai/docs/hypothetical-document-embeddings-hyde"
 author: []

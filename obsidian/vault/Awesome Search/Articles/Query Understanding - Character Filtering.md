@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Character Filtering"
 source: "https://queryunderstanding.com/character-filtering-76ede1cf1a97"
 author:

@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Relevance Feedback"
 aliases: ["PRF", "pseudo-relevance feedback", "implicit feedback", "explicit feedback"]
 tags:
   - concept
   - search-evaluation
   - query-understanding
+created: 2026-05-31
 ---
 
 # Relevance Feedback

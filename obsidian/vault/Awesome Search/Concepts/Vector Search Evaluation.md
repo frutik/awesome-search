@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Vector Search Evaluation"
 aliases: ["evaluating vector search", "semantic search evaluation", "evaluating semantic retrieval", "image search evaluation"]
 tags:
   - concept
   - search-evaluation
   - vector-search
+created: 2026-06-28
 ---
 
 # Vector Search Evaluation

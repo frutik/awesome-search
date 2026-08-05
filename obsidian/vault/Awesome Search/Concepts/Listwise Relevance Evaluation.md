@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Listwise Relevance Evaluation"
 aliases: ["listwise evaluation", "listwise ranking", "list-level evaluation"]
 tags:
   - concept
   - search-evaluation
   - llm-judge
+created: 2026-05-31
 ---
 
 # Listwise Relevance Evaluation

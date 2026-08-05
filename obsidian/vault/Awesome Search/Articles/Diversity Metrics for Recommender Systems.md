@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Diving into Diversity Metrics: Elevate Your Recommender Systems in a Snap!"
 source: "https://shunya-vichaar.medium.com/diving-into-diversity-metrics-elevate-your-recommender-systems-in-a-snap-57637de380e1"
 author:

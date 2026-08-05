@@ -1,4 +1,5 @@
 ---
+type: article
 title: "AI for Query Understanding"
 source: "https://www.linkedin.com/pulse/ai-query-understanding-daniel-tunkelang"
 author: ["Daniel Tunkelang"]

@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Task-Aware Embeddings"
 aliases: ["task-specific embeddings", "instructed embeddings", "prompted embeddings", "instruction-tuned embeddings"]
 tags:
   - concept
   - embeddings
   - retrieval
+created: 2026-05-16
 ---
 
 # Task-Aware Embeddings

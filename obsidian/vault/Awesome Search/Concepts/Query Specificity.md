@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Query Specificity"
 aliases: ["specificity intent", "query precision", "query broadness"]
 tags:
   - concept
   - query-understanding
   - search-quality
+created: 2026-05-16
 ---
 
 # Query Specificity

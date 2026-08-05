@@ -1,4 +1,5 @@
 ---
+type: article
 title: "When There's No Conversion Rate"
 tags:
   - clippings

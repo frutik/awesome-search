@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Choose the Best Model for Semantic Search"
 source: "https://www.meilisearch.com/blog/choosing-the-best-model-for-semantic-search"
 author: ["Meilisearch"]

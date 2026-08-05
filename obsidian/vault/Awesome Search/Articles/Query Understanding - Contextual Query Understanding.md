@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Contextual Query Understanding: An Overview"
 source: "https://queryunderstanding.com/contextual-query-understanding-65c78d792dd8"
 author:

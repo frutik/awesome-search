@@ -1,4 +1,5 @@
 ---
+type: person
 title: "David Albrecht"
 aliases: ["dpalbrecht"]
 tags:

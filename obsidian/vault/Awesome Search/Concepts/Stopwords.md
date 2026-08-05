@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Stopwords"
 aliases: ["stop words", "stop word removal", "stopword filtering", "function words", "noise words"]
 tags:

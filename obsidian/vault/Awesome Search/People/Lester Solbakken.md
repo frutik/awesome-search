@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Lester Solbakken"
 aliases: []
 role: "Co-founder"
@@ -6,6 +7,7 @@ affiliation: "[[Hornet]] (hornet.dev)"
 tags:
   - person
   - search
+created: 2026-05-16
 ---
 q
 # Lester Solbakken

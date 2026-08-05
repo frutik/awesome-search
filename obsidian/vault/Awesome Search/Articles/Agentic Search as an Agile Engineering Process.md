@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Agentic Search as an Agile Engineering Process"
 source: "https://dtunkelang.medium.com/agentic-search-as-an-agile-engineering-process-5514b0790e8e"
 author: ["Daniel Tunkelang", "Asif Makhani"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Good Abandonment on Search Results Pages"
 tags: [article, search, ux, search-ux, evaluation]
 source: "https://www.nngroup.com/articles/good-abandonment/"

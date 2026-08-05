@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Word2Box"
 aliases: ["Word2Box", "word2box"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - region-based-embeddings
   - box-embedding
   - nlp
+created: 2026-06-22
 ---
 
 # Word2Box

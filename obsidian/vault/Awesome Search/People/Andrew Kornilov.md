@@ -1,4 +1,5 @@
 ---
+type: person
 title: Andrew Kornilov
 aliases:
   - Kornilov

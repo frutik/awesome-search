@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Position Bias"
 aliases: ["presentation bias", "rank bias", "click bias", "position effect"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search-evaluation
   - bias
   - ranking
+created: 2026-05-16
 ---
 
 # Position Bias

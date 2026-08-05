@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Facets of Faceted Search"
 tags:
   - clippings

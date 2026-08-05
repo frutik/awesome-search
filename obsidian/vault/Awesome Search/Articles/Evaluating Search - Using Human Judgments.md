@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Evaluating Search: Using Human Judgments"
 source: "https://dtunkelang.medium.com/evaluating-search-using-human-judgement-fbb2eeba37d9"
 author: ["Daniel Tunkelang"]

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Autocomplete"
 aliases: ["autosuggest", "search suggestions", "query suggestions", "search as you type", "typeahead"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search-ux
   - query-understanding
   - e-commerce-search
+created: 2026-05-16
 ---
 
 # Autocomplete

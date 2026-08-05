@@ -1,10 +1,12 @@
 ---
+type: person
 title: "Peter Straßer"
 tags:
   - person
   - elastic
 role: Engineer
 affiliation: "[[Elastic]]"
+created: 2026-05-17
 ---
 
 # Peter Straßer

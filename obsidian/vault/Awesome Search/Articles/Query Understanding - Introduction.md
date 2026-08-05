@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Understanding: Introduction"
 source: "https://queryunderstanding.com/introduction-c98740502103"
 author: ["Daniel Tunkelang"]

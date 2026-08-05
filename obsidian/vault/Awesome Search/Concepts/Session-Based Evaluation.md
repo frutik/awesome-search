@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Session-Based Evaluation"
 aliases: ["session evaluation", "multi-turn evaluation", "search session metrics"]
 tags:
   - concept
   - search-evaluation
   - sessions
+created: 2026-05-16
 ---
 
 # Session-Based Evaluation

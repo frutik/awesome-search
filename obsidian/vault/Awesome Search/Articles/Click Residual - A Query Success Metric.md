@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Click Residual: A Query Success Metric"
 aliases: ["Click Residual", "Underwood Click Residual"]
 tags:

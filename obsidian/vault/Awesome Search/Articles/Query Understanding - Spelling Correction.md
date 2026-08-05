@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Spelling Correction"
 source: "https://queryunderstanding.com/spelling-correction-471f71b19880"
 author:

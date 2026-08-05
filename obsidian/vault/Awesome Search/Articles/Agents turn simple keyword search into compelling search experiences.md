@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Agents turn simple keyword search into compelling search experiences"
 source: "https://softwaredoug.com/blog/2025/09/22/reasoning-agents-need-bad-search"
 author:

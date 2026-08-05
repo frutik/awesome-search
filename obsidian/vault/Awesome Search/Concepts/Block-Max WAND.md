@@ -3,6 +3,7 @@ title: "Block-Max WAND"
 aliases: ["BlockMax WAND", "BMW", "Block-Max Weak AND", "block-max indexes", "block-max WAND"]
 tags: [concept, retrieval, sparse-retrieval, efficiency, bm25, lucene]
 type: concept
+created: 2026-06-02
 ---
 
 # Block-Max WAND

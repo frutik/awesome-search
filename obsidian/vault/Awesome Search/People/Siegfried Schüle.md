@@ -6,6 +6,7 @@ affiliation: searchHub
 role: Search Analytics Engineer
 articles: []
 key_contributions: [basket-attribution-ab-testing, search-kpi-measurement]
+created: 2026-05-17
 ---
 
 # Siegfried Schüle

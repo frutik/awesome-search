@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Word2Vec"
 aliases: ["Word2Vec", "word2vec", "CBOW", "skip-gram", "continuous bag of words"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - nlp
   - representation-learning
+created: 2026-06-22
 ---
 
 # Word2Vec

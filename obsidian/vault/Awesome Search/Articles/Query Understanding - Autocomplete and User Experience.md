@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Autocomplete and User Experience"
 source: "https://queryunderstanding.com/autocomplete-and-user-experience-421df6ab3000"
 author:

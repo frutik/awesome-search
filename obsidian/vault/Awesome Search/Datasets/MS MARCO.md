@@ -87,6 +87,13 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[Dense Passage Retriever]] — the model whose MS MARCO transfer failure is the standard illustration
 - [[Search Evaluation]] — broader evaluation context
 
+## Related Benchmarks
+
+- [[BEIR]] · [[MTEB]] — where MS MARCO-trained models get judged
+- [[LoTTE]] — built explicitly against MS MARCO's head-heavy query distribution
+- [[BRIGHT]] · [[MIRACL]] · [[RTEB]] — the stress-test, multilingual, and anti-contamination benchmarks
+- [[Retrieval Benchmarks and Leaderboards]] — the landscape, and why MS MARCO's ubiquity is now a contamination risk
+
 ## Source
 
 - Official site: https://microsoft.github.io/msmarco/

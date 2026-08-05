@@ -1,4 +1,5 @@
 ---
+type: article
 title: "OpenSearch vs. Elasticsearch: A Comprehensive Comparison in 2025"
 author: "[[Frank Goortani]]"
 published: 2025-03-05

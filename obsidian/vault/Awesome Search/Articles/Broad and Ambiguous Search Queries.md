@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Broad and Ambiguous Search Queries"
 tags:
   - clippings

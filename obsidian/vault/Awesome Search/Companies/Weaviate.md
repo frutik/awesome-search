@@ -21,6 +21,7 @@ people:
   - "[[Laura Ham]]"
   - "[[André Mourão]]"
   - "[[Joon-Pil (JP) Hwang]]"
+created: 2026-05-16
 ---
 
 # Weaviate

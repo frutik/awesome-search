@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "RankLLaMA"
 aliases: ["RankLLaMA", "Rank LLaMA"]
 status: stub
@@ -8,6 +9,7 @@ tags:
   - reranking
   - neural-ir
   - llm
+created: 2026-06-11
 ---
 
 # RankLLaMA

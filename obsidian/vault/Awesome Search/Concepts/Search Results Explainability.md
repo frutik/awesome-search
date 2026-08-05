@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Search Results Explainability"
 aliases: ["retrieval explainability", "search interpretability", "ranking explainability", "result explanation"]
 tags:

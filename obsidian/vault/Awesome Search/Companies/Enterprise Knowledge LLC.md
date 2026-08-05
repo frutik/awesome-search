@@ -3,6 +3,7 @@ type: company
 aliases: ["Enterprise Knowledge", "Enterprise Knowledge LLC", "EK"]
 website: "https://enterprise-knowledge.com"
 tags: [company, knowledge-management, enterprise-search, taxonomy, search-ux]
+created: 2026-06-27
 ---
 
 # Enterprise Knowledge LLC

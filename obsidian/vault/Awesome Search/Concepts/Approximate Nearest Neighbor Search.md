@@ -10,6 +10,7 @@ tags:
   - concept
   - vector-search
   - ann
+created: 2026-07-05
 ---
 
 # Approximate Nearest Neighbor Search (ANN)

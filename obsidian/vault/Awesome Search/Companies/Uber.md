@@ -7,6 +7,8 @@ products:
 search_domain: geo-aware food and retail catalog search
 use_cases:
   - "[[Uber Eats - Scaling Search for Food Delivery]]"
+tags: [company]
+created: 2026-05-16
 ---
 
 # Uber

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Evaluate Image Search in Qdrant Using Quepid Part 2 (Hacks)"
 source: "https://frutik.medium.com/how-to-evaluate-image-search-in-qdrant-using-quepid-and-the-hacks-it-takes-part-2-hacks-39ed553cd97a"
 author:

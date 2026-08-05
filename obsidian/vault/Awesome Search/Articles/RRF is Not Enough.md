@@ -1,4 +1,5 @@
 ---
+type: article
 title: "RRF is Not Enough"
 tags:
   - clippings

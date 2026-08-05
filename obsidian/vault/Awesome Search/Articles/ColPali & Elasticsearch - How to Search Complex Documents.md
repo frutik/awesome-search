@@ -3,7 +3,7 @@ type: article
 created: 2026-06-19
 title: "ColPali & Elasticsearch: How to Search Complex Documents"
 source: "https://www.elastic.co/search-labs/blog/elastiacsearch-colpali-document-search"
-authors:
+author:
   - "[[Peter Straßer]]"
 published: 2025-03-16
 tags:

@@ -7,6 +7,7 @@ author: [Doug Turnbull]
 company: [Shopify]
 concepts: [Precision and Recall, Search Evaluation]
 topics: [Search Quality Assurance]
+title: "Finding the Relevance Cutoff: When to Stop Showing Search Results"
 ---
 
 # Finding the Relevance Cutoff: When to Stop Showing Search Results

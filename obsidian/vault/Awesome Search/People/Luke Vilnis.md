@@ -7,6 +7,7 @@ tags:
   - nlp
   - embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Luke Vilnis

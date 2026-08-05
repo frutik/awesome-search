@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Rewriting: An Overview"
 source: "https://queryunderstanding.com/query-rewriting-an-overview-d7916eb94b83"
 author:

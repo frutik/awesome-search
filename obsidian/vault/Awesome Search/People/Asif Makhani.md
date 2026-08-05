@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Asif Makhani"
 aliases: []
 role: "Co-founder"
@@ -6,6 +7,7 @@ affiliation: "Infino AI"
 tags:
   - person
   - search
+created: 2026-05-16
 ---
 
 # Asif Makhani

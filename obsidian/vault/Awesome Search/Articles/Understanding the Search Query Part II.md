@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Understanding the Search Query — Part II"
 source: "https://medium.com/analytics-vidhya/understanding-the-search-query-part-ii-44d18892283f"
 author:

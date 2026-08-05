@@ -7,6 +7,7 @@ products: [Algolia Search, Algolia Recommend, NeuralSearch, A/B testing]
 search_domain: [e-commerce search, SaaS search, A/B testing for search]
 use_cases: []
 people: []
+created: 2026-05-16
 ---
 
 # Algolia

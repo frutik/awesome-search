@@ -10,6 +10,7 @@ tags:
   - postgresql
   - ann
   - open-source
+created: 2026-06-11
 ---
 
 # pgvector

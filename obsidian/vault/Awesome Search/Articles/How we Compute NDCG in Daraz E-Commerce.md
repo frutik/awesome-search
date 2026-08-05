@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How we Compute NDCG in Daraz (E-Commerce)"
 source: "https://medium.com/@hassam.chundrigar520/how-we-compute-ndcg-in-daraz-e-commerce-9a103b444c9f"
 author:

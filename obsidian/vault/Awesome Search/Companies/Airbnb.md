@@ -7,6 +7,8 @@ products:
 search_domain: accommodation and experience discovery / ranking
 use_cases:
   - "[[Airbnb - ML-Powered Experiences Ranking]]"
+tags: [company]
+created: 2026-05-16
 ---
 
 # Airbnb

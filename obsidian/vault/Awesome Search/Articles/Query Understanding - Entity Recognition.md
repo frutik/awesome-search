@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Entity Recognition"
 source: "https://queryunderstanding.com/entity-recognition-763cae840a20"
 author:

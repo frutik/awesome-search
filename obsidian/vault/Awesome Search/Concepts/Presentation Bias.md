@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Presentation Bias"
 aliases: ["survivorship bias in search", "display bias"]
 tags:
   - concept
   - search-evaluation
   - click-data
+created: 2026-05-31
 ---
 
 # Presentation Bias

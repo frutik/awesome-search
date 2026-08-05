@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "MonoT5"
 aliases: ["MonoT5", "monoT5"]
 status: stub
@@ -7,6 +8,7 @@ tags:
   - ranking
   - reranking
   - neural-ir
+created: 2026-06-11
 ---
 
 # MonoT5

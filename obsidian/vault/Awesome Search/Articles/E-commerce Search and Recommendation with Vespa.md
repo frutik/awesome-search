@@ -7,6 +7,7 @@ author: [Jo Kristian Bergum]
 company: [Vespa]
 concepts: [BM25, Learning to Rank, Faceted Search, Embeddings, Query Understanding]
 topics: [E-commerce Search, Personalization in Search]
+title: "E-commerce Search and Recommendation with Vespa"
 ---
 
 # E-commerce Search and Recommendation with Vespa

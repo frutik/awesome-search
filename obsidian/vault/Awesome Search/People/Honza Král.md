@@ -1,7 +1,9 @@
 ---
+type: person
 name: Honza Král
 company: "[[Elastic]]"
 tags: [person, search-engineer, ecommerce-search, search-governance]
+created: 2026-05-17
 ---
 
 # Honza Král

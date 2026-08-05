@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Search Evaluation"
 aliases: ["search quality evaluation", "search quality assurance", "SQA", "IR evaluation"]
 tags:
   - concept
   - search-evaluation
   - quality
+created: 2026-05-16
 ---
 
 # Search Evaluation

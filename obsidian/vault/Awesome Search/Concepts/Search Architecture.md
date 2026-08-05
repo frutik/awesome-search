@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Search Architecture"
 aliases: ["search pipeline architecture", "search system design", "search infrastructure"]
 tags:

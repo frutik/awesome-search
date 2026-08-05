@@ -85,6 +85,15 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[Hybrid Search]] · [[Score Normalization]] — the fusion approach that lifted the BEIR average most in this vault
 - [[Synthetic Query Generation]] — how the remaining gap gets closed on a single BEIR subset
 
+## Related Benchmarks
+
+- [[MTEB]] — absorbed BEIR as its retrieval component; BEIR scores are now reported inside MTEB
+- [[RTEB]] — the private-data answer to the contamination BEIR increasingly suffers from
+- [[BRIGHT]] — reasoning-intensive retrieval, where BEIR-strong models collapse
+- [[MIRACL]] — the multilingual counterpart BEIR lacks
+- [[LoTTE]] — long-tail topic stratification rather than heterogeneity
+- [[Retrieval Benchmarks and Leaderboards]] — how these fit together, and how to use them without being misled
+
 ## Source
 
 - Repository and leaderboard: https://github.com/beir-cellar/beir

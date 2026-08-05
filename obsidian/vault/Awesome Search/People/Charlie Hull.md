@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Charlie Hull"
 aliases: ["hull", "thesearchjuggler"]
 tags:

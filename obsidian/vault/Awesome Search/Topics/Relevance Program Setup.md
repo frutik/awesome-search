@@ -6,6 +6,7 @@ related_topics: [Search Quality Assurance, A-B Testing for Search, Managing a Se
 articles: []
 companies: [OpenSource Connections]
 people: [Doug Turnbull]
+created: 2026-05-16
 ---
 
 # Relevance Program Setup

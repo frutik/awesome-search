@@ -1,10 +1,12 @@
 ---
+type: person
 title: "Janu Verma"
 aliases: ["Janu Verma"]
 tags:
   - person
   - author
 blog: "https://januverma.substack.com/"
+created: 2026-06-22
 ---
 
 # Janu Verma

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "SPLADE – a sparse bi-encoder BERT-based model achieves effective and efficient first-stage ranking"
 source: "https://europe.naverlabs.com/blog/splade-a-sparse-bi-encoder-bert-based-model-achieves-effective-and-efficient-first-stage-ranking/"
 author:

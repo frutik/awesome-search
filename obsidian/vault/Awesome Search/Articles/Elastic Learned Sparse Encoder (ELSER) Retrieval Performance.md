@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Improving information retrieval in the Elastic Stack: Introducing Elastic Learned Sparse Encoder (ELSER)"
 source: "https://www.elastic.co/search-labs/blog/elastic-learned-sparse-encoder-elser-retrieval-performance"
 author:

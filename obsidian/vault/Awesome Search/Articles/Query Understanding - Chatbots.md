@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Understanding and Chatbots"
 source: "https://queryunderstanding.com/query-understanding-and-chatbots-5fa0c154f"
 author:

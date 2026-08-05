@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "UMAP"
 aliases: ["Uniform Manifold Approximation and Projection", "uniform manifold approximation", "umap"]
 tags:

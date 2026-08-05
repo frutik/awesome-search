@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Thoughts about Managing Search Teams"
 aliases: ["Managing Search Teams", "Tunkelang Search Management"]
 tags:

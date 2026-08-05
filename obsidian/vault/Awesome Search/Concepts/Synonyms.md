@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Synonyms"
 aliases: ["synonym expansion", "query expansion", "lexical synonyms", "semantic synonyms"]
 tags:

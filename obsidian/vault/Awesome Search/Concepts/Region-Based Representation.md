@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Region-Based Representation"
 aliases: ["region-based representation", "region representation", "region embeddings", "region-based embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - region-based-embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Region-Based Representation

@@ -1,6 +1,8 @@
 ---
+type: person
 name: Prateek Chandra Jha
 tags: [person, blogger, researcher, vector-quantization]
+created: 2026-05-17
 ---
 
 # Prateek Chandra Jha

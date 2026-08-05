@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Differentiable Search Index"
 aliases: ["DSI", "Differentiable Search Index"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - generative-retrieval
   - retrieval
   - neural-ir
+created: 2026-06-22
 ---
 
 # Differentiable Search Index

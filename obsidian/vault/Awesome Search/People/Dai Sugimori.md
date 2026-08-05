@@ -6,6 +6,7 @@ affiliation: Elastic
 role: Software Engineer / Technical Writer
 articles: []
 key_contributions: [sparse-vectors-elasticsearch, elser-splade-explainer]
+created: 2026-05-16
 ---
 
 # Dai Sugimori

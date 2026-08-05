@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock"
 source: "https://bigdataboutique.com/blog/innovating-search-experience-with-amazon-opensearch-and-amazon-bedrock-d045bc"
 author: ["Big Data Boutique"]

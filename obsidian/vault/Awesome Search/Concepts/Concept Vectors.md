@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Concept Vectors"
 aliases: ["concept vectors", "concept activation vectors", "CAV", "concept directions"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - interpretability
   - representation-learning
+created: 2026-06-22
 ---
 
 # Concept Vectors

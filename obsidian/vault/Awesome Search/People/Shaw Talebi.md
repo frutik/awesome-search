@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Shaw Talebi"
 aliases: []
 role: "Data Scientist, Author"
@@ -6,6 +7,7 @@ affiliation: "Independent"
 tags:
   - person
   - ml-research
+created: 2026-05-16
 ---
 
 # Shaw Talebi

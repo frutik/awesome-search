@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to succeed with explicit relevance evaluation using Probability-Proportional-to-Size sampling"
 source: "https://opensourceconnections.com/blog/2022/10/13/how-to-succeed-with-explicit-relevance-evaluation-using-probability-proportional-to-size-sampling/"
 author:

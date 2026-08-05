@@ -102,6 +102,8 @@ Both Elastic and OpenSearch are absorbing the offline-evaluation loop that Quepi
 
 - [[Relevance Program Setup]] — how these tools fit an org's relevance program
 - [[Search Quality Assurance]] — the broader QA practice they serve
+- [[Retrieval Benchmarks and Leaderboards]] — the public-benchmark counterpart: `mteb`, `beir`, `pytrec_eval`, `ranx` and friends run academic suites, where the four tools here run *your* queries against *your* corpus
+- [[Model Selection and Fine-Tuning Evaluation]] — the methodology these tools operationalize
 
 ## Related Tools
 

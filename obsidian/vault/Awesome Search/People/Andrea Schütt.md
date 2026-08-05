@@ -6,6 +6,7 @@ affiliation: Otto
 role: ML/Search Engineer (Team Jarvis)
 articles: []
 key_contributions: [ltr-e-commerce, lambdamart-solr]
+created: 2026-05-17
 ---
 
 # Andrea Schütt

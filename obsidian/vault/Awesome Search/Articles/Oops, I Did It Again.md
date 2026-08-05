@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Oops, I Did It Again"
 source: "https://frutik.medium.com/oops-i-did-it-76ff089ac7e4"
 author:

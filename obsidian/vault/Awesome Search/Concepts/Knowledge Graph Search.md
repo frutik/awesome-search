@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Knowledge Graph Search"
 aliases: ["knowledge graph", "entity search", "graph-based search", "federated graph search"]
 tags:

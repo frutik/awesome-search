@@ -1,4 +1,5 @@
 ---
+type: article
 title: "What is a 'Relevant' Search Result?"
 aliases: ["Relevant Search Result", "OSC Relevance Definition", "Turnbull Relevance"]
 tags:

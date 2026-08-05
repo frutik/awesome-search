@@ -1,4 +1,5 @@
 ---
+type: article
 title: "TurboQuant in Qdrant"
 aliases: ["TurboQuant Qdrant", "Qdrant TurboQuant 1.18"]
 source: "https://qdrant.tech/articles/turboquant-quantization/"

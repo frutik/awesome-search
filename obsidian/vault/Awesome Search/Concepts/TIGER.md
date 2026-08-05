@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "TIGER"
 aliases: ["TIGER", "Transformer Index for GEnerative Recommenders", "Recommender Systems with Generative Retrieval"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - generative-retrieval
   - recommendation
   - quantization
+created: 2026-06-22
 ---
 
 # TIGER

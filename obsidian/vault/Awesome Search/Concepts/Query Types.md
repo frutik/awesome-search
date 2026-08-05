@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Query Types"
 aliases: ["search query types", "query classification", "e-commerce query types"]
 tags:
   - concept
   - query-understanding
   - e-commerce-search
+created: 2026-05-16
 ---
 
 # Query Types

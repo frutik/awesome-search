@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Mapping Search Queries To Search Intents"
 source: "https://dtunkelang.medium.com/search-queries-and-search-intent-1dec79ad155f"
 author:

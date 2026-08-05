@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-16
 title: "Semantic Search Without Embeddings"
 source: "https://softwaredoug.com/blog/2026/01/08/semantic-search-without-embeddings"

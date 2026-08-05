@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-15
 title: "LLM-Powered Query Extraction for Auto-Complete and Auto-Suggest"
 source: "https://dpalbrecht.github.io/LLM-Autocomplete-Autosuggest.html"

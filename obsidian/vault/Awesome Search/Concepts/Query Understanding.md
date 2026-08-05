@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Query Understanding"
 aliases: ["query analysis", "query interpretation", "QU", "query processing"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - query-understanding
   - search
   - nlp
+created: 2026-05-16
 ---
 
 # Query Understanding

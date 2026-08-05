@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Contrastive Gap"
 aliases: ["contrastive gap", "uniformity-alignment tradeoff", "contrastive learning gap", "representation collapse", "cone effect"]
 tags:

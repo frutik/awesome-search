@@ -6,6 +6,7 @@ tags:
   - person
   - nlp
   - embeddings
+created: 2026-06-22
 ---
 
 # Tomas Mikolov

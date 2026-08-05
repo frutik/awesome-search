@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Understanding Hit Rate, MRR, and MMR Metrics"
 source: "https://www.analyticsvidhya.com/blog/2024/07/hit-rate-mrr-and-mmr-metrics/#h-how-to-calculate-mmr"
 author:

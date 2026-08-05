@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Observability for AI Workloads: A New Paradigm for a New Era"
 author: "[[Dotan Horovits]]"
 published: 2026-01-04

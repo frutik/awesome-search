@@ -8,6 +8,7 @@ published: 2025-11-06
 company: [Vinted]
 concepts: [Vespa Learning to Rank, Feature Store, Reranking]
 topics: [Search Platforms]
+title: "Optimizing Vespa Latency with Match-Features at Vinted"
 ---
 
 # Optimizing Vespa Latency with Match-Features at Vinted

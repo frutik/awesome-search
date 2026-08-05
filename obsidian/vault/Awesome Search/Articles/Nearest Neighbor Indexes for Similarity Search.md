@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Nearest Neighbor Indexes for Similarity Search"
 source: "https://www.pinecone.io/learn/series/faiss/vector-indexes/"
 author: ["James Briggs"]

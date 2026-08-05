@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Cross-Encoders, ColBERT, and LLM-Based Re-Rankers: A Practical Guide"
 tags:
   - clippings

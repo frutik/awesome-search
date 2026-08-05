@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Reranking"
 aliases: ["reranker", "second-stage ranking", "re-ranking", "cross-encoder reranking", "neural reranking", "multi-stage reranking"]
 tags:

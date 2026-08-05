@@ -7,6 +7,7 @@ tags:
   - ranking
   - recommendations
 website: "https://www.shaped.ai"
+created: 2026-06-18
 ---
 
 # Shaped

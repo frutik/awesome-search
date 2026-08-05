@@ -3,6 +3,7 @@ type: person
 aliases: ["Elzbieta Jakubowska"]
 affiliation: "Software developer (search)"
 tags: [person, search, women-of-search]
+created: 2026-06-27
 ---
 
 # Elzbieta Jakubowska

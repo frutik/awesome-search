@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-15
 title: "Superintelligent Retrieval Agent (SIRA)"
 source: "https://arxiv.org/pdf/2605.06647"

@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Pairwise Relevance Evaluation"
 aliases: ["pairwise comparison", "LHS/RHS evaluation", "pairwise judgment"]
 tags:
   - concept
   - search-evaluation
   - llm-judge
+created: 2026-05-31
 ---
 
 # Pairwise Relevance Evaluation

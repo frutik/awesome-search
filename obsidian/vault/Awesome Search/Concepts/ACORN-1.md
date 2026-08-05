@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "ACORN-1"
 aliases: ["ACORN", "ACORN algorithm"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - ann
   - filtered-search
+created: 2026-05-22
 ---
 
 # ACORN-1

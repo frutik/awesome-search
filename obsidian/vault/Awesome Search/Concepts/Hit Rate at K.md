@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Hit Rate@K"
 aliases: ["Hit Rate", "Hit Rate@K", "HR@K", "accuracy at K", "at K", "at@K"]
 tags:
   - concept
   - search-evaluation
   - metrics
+created: 2026-05-16
 ---
 
 # Hit Rate@K

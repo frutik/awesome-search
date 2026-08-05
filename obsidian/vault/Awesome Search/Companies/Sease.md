@@ -1,7 +1,9 @@
 ---
+type: company
 name: Sease
 website: "https://sease.io"
 tags: [company, search-consulting, Solr, Elasticsearch, neural-IR]
+created: 2026-05-17
 ---
 
 # Sease

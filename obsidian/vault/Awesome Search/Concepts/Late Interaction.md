@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Late Interaction"
 aliases: ["Token-level Interaction", "MaxSim"]
 tags:
   - concept
   - search
   - neural-ir
+created: 2026-05-16
 ---
 
 # Late Interaction

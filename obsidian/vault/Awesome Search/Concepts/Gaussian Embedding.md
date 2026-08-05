@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Gaussian Embedding"
 aliases: ["Gaussian embedding", "Gaussian embeddings", "word2gauss"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - region-based-embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Gaussian Embedding

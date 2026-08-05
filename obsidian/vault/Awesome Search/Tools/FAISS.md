@@ -11,6 +11,7 @@ tags:
   - vector-search
   - ann
   - library
+created: 2026-07-05
 ---
 
 # FAISS

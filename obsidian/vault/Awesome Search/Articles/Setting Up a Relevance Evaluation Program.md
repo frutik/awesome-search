@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Setting Up a Relevance Evaluation Program"
 tags:
   - clippings

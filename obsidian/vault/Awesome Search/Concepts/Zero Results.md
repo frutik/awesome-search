@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Zero Results"
 aliases: ["no results", "zero-result queries", "null results", "empty SERP"]
 tags:
   - concept
   - search-ux
   - search-quality
+created: 2026-05-16
 ---
 
 # Zero Results

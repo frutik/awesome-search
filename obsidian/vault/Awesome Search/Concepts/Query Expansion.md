@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Query Expansion"
 aliases: ["query expansion", "query augmentation", "query broadening", "automatic query expansion", "AQE", "pseudo-relevance feedback", "PRF"]
 tags:

@@ -1,7 +1,9 @@
 ---
+type: concept
 title: "WAND"
 aliases: ["Weighted AND", "WAND retrieval", "weak AND", "wand algorithm"]
 tags: [concept, retrieval, sparse-retrieval, efficiency]
+created: 2026-05-26
 ---
 
 # WAND (Weighted AND)

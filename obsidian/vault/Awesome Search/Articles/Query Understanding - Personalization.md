@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Personalization"
 source: "https://queryunderstanding.com/personalization-3ed715e05ef"
 author:

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Migrating to Elasticsearch with Dense Vector for Carousell Spotlight Search"
 source: "https://medium.com/carousell-insider/migrating-to-elasticsearch-with-dense-vector-for-carousell-spotlight-search-engine-e328b16155fc"
 author: ["Carousell Engineering"]

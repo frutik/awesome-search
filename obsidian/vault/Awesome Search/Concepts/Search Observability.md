@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Search Observability"
 aliases: ["search monitoring", "search instrumentation", "production search monitoring", "search telemetry"]
 tags:

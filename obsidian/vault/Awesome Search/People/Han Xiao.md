@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Han Xiao"
 aliases: []
 role: "Founder & CEO"
@@ -7,6 +8,7 @@ tags:
   - person
   - search
   - ml-research
+created: 2026-05-16
 ---
 
 # Han Xiao

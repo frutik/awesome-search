@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Food Discovery with Uber Eats: Building a Query Understanding Engine"
 source: "https://eng.uber.com/uber-eats-query-understanding/"
 author: ["Uber Engineering"]

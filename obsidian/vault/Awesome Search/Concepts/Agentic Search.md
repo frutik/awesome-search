@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Agentic Search"
 aliases: ["Agentic Retrieval", "AI Agent Search", "Agent-based Search"]
 tags:
   - concept
   - search
   - agentic-ai
+created: 2026-05-16
 ---
 
 # Agentic Search

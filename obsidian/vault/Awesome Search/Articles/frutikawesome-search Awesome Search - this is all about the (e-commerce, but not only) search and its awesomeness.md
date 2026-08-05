@@ -1,4 +1,5 @@
 ---
+type: article
 title: "frutik/awesome-search: Awesome Search - this is all about the (e-commerce, but not only) search and its awesomeness"
 source: "https://github.com/frutik/awesome-search#embeddings"
 author:

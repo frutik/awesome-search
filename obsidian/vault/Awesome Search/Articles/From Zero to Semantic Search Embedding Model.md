@@ -1,4 +1,5 @@
 ---
+type: article
 title: "From Zero to Semantic Search Embedding Model"
 tags:
   - clippings

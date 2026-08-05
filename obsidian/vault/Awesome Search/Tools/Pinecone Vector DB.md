@@ -8,6 +8,7 @@ tags:
   - vector-database
   - ann
   - hybrid-search
+created: 2026-06-11
 ---
 
 # Pinecone Vector DB

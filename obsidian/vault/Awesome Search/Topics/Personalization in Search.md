@@ -6,6 +6,7 @@ related_topics: [E-commerce Search, Conversational and Agentic Search, Search Re
 articles: []
 companies: [Airbnb, Slack, Netflix, Spotify]
 people: [Mihajlo Grbovic, Isabella Tromba]
+created: 2026-05-16
 ---
 
 # Personalization in Search

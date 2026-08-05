@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Complex Search-Results Pages Change Search Behavior: The Pinball Pattern"
 tags: [article, search, ux, search-ux, behavioral]
 source: "https://www.nngroup.com/articles/pinball-pattern-search-behavior/"

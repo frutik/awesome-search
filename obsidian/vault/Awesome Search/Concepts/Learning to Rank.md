@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Learning to Rank"
 aliases: ["LTR", "machine learned ranking", "MLR", "supervised ranking", "lambdaMART", "LambdaRank"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - ranking
   - machine-learning
   - search
+created: 2026-05-16
 ---
 
 # Learning to Rank

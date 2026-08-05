@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Creating Judgement Lists with Quepid"
 source: "https://www.elastic.co/search-labs/blog/quepid-judgement-lists"
 author:

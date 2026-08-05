@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Succeed with Explicit Relevance Evaluation using PPS Sampling"
 source: "https://opensourceconnections.com/blog/2022/10/13/how-to-succeed-with-explicit-relevance-evaluation-using-probability-proportional-to-size-sampling/"
 author: ["OpenSource Connections"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Securely Hook Up Quepid to Vespa"
 source: "https://thesearchjuggler.com/how-to-securely-hook-up-quepid-to-vespa/"
 author:

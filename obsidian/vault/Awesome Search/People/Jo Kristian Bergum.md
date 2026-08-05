@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Jo Kristian Bergum"
 aliases: ["jobergum"]
 role: "Co-founder"

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Thomas Veasey"
 aliases: []
 role: "Principal Engineer"

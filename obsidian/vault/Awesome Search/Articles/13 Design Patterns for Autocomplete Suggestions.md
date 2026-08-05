@@ -1,4 +1,5 @@
 ---
+type: article
 title: "13 Design Patterns for Autocomplete Suggestions (27% Get it Wrong)"
 tags:
   - clippings

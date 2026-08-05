@@ -1,4 +1,5 @@
 ---
+type: article
 title: Search Relevance for Understaffed Teams
 tags:
   - clippings

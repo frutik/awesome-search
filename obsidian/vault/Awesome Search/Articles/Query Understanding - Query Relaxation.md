@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Relaxation"
 source: "https://queryunderstanding.com/query-relaxation-342bc37ad425"
 author:

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Max Irwin"
 aliases: ["Irwin"]
 tags:

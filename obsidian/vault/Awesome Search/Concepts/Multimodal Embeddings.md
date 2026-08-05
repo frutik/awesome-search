@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Multimodal Embeddings"
 aliases: ["cross-modal embeddings", "vision-language embeddings", "CLIP embeddings", "image-text embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - multimodal
   - computer-vision
+created: 2026-05-16
 ---
 
 # Multimodal Embeddings

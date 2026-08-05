@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Facets: Constraints or Preferences?"
 aliases: ["Facets Constraints Preferences", "Tunkelang Facets Constraints"]
 tags:

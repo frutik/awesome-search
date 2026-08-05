@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Evaluating Good Search Part I: Measure It"
 tags:
   - clippings

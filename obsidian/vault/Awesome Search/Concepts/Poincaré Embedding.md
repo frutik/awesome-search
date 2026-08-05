@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Poincaré Embedding"
 aliases: ["Poincaré embedding", "Poincare embedding", "hyperbolic embedding", "hyperbolic embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - region-based-embeddings
   - representation-learning
+created: 2026-05-17
 ---
 
 # Poincaré Embedding

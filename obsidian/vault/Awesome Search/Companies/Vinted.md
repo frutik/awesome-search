@@ -7,6 +7,7 @@ products: [Vinted marketplace]
 search_domain: [item search, product recommendations, personalized homepage retrieval]
 use_cases: [Elasticsearch-to-Vespa search migration]
 people: ["[[Ernestas Poškus]]"]
+created: 2026-05-16
 ---
 
 # Vinted

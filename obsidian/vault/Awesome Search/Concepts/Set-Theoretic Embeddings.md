@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Set-Theoretic Embeddings"
 aliases: ["set-theoretic embeddings", "set-theoretic semantics", "set-theoretic representation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - region-based-embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Set-Theoretic Embeddings

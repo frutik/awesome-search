@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Hypothetical Document Embeddings"
 aliases: ["HyDE", "Hypothetical Document Embedding"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - rag
   - query-understanding
+created: 2026-05-16
 ---
 
 # Hypothetical Document Embeddings (HyDE)

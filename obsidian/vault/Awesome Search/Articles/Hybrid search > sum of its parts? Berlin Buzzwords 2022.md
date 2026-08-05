@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Hybrid search > sum of its parts? Berlin Buzzwords 2022"
 source: "https://pretalx.com/bbuzz22/talk/YEHRTE/"
 author:

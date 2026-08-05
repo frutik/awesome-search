@@ -7,6 +7,7 @@ author: [Jo Kristian Bergum]
 company: [Vespa]
 concepts: [Dense Vector Retrieval, ANN, Hybrid Search]
 topics: [E-commerce Search, Personalization in Search]
+title: "Using Approximate Nearest Neighbor Search to Find Similar Products"
 ---
 
 # Using Approximate Nearest Neighbor Search to Find Similar Products

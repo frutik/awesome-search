@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Asymmetric Semantic Search"
 aliases: ["asymmetric search", "short-query long-document", "question-passage retrieval"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - embeddings
   - semantic-search
+created: 2026-05-16
 ---
 
 # Asymmetric Semantic Search

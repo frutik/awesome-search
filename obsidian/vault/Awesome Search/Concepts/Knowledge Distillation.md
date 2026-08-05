@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Knowledge Distillation"
 aliases: ["knowledge distillation", "model distillation", "teacher-student training", "distillation", "cross-encoder distillation", "bi-encoder distillation"]
 tags:
@@ -86,6 +87,14 @@ training example**, so a model too expensive to sit in a training loop is afford
 
 See [[Synthetic Query Generation]].
 
+## Distilling a Judge Rather Than a Retriever
+
+A third target, distinct from both the ranker and the generative teacher above: the **evaluator**.
+
+[[LLM as Judge|LLM judges]] produce high-quality relevance labels and cannot be run at catalogue scale. Treating their judgments as training data — on the order of 100,000 examples — is enough to fine-tune a small embedding model into a serviceable judge with sub-20ms CPU inference, cheap enough to run continuously rather than in periodic offline batches. See [[Towards Scalable Relevance Engineering]] and [[Staged Judging]].
+
+The economics differ from ranker distillation in a useful way. A distilled retriever must be *better* than the alternatives to justify itself; a distilled judge only has to be good enough to handle the easy majority, because hard cases still escalate to the teacher. That tolerance for imperfection is what makes the cascade work, and it means the usual quality-loss objection to distillation carries less weight here.
+
 ## Compression Costs More Out-of-Domain
 
 A caveat that in-domain benchmarks hide. [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]
@@ -110,6 +119,8 @@ the comparison has to be made. See [[Zero-Shot Retrieval]].
 - [[FLAN-T5]] — an open generative teacher
 - [[Zero-Shot Retrieval]] — where the student's losses actually show up
 - [[ELSER]] — the vault's worked ensemble-teacher example (MiniLM + MonoT5-3B → 100M student)
+- [[Staged Judging]] — distilling the evaluator instead of the retriever
+- [[Contrastive Learning]] — the objective distillation replaces or supplements
 
 ## Articles
 

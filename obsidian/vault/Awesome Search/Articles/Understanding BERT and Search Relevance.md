@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Understanding BERT and Search Relevance"
 aliases: ["BERT Search Relevance", "OSC BERT", "Max Irwin BERT"]
 tags:

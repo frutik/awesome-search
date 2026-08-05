@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search-Log Analysis: The Most Overlooked Opportunity in Web UX Research"
 tags: [article, search, ux, search-ux, observability]
 source: "https://www.nngroup.com/articles/search-log-analysis/"

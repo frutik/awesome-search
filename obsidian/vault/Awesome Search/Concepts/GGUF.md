@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "GGUF"
 aliases: ["GGUF format", "llama.cpp quantization", "LLM quantization"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - llm
   - quantization
   - deployment
+created: 2026-05-16
 ---
 
 # GGUF

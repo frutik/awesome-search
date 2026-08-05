@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Searching for Goldilocks"
 aliases: ["Goldilocks Search Diversity", "Tunkelang Goldilocks"]
 tags:

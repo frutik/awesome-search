@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "HNSW"
 aliases: ["Hierarchical Navigable Small World", "HNSW index", "HNSW graph"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - ann
   - performance
+created: 2026-05-16
 ---
 
 # HNSW — Hierarchical Navigable Small World

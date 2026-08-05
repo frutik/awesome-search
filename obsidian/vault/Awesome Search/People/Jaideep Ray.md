@@ -6,6 +6,7 @@ affiliation: unknown
 role: Sr. Staff ML Engineer
 articles: []
 key_contributions: [multi-stage-ranking, two-stage-retrieval-reranking]
+created: 2026-05-16
 ---
 
 # Jaideep Ray

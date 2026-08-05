@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Listing Embeddings in Search Ranking"
 tags:
   - clippings

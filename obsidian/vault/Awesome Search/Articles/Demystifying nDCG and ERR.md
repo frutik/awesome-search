@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Demystifying nDCG and ERR"
 source: "https://opensourceconnections.com/blog/2019/12/09/demystifying-ndcg-and-err/"
 author: ["OpenSource Connections"]

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Facets, But Which Ones?"
 aliases: ["Which Facets", "Tunkelang Facets Selection"]
 tags:

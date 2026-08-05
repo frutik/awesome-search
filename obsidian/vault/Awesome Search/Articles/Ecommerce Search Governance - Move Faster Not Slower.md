@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-16
 title: "Ecommerce Search Governance: Move Faster, Not Slower"
 source: "https://www.elastic.co/search-labs/blog/ecommerce-search-governance-zero-deploy"

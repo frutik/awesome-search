@@ -1,7 +1,9 @@
 ---
+type: person
 name: Alexander Marquardt
 company: "[[Elastic]]"
 tags: [person, search-engineer, ecommerce-search, search-governance]
+created: 2026-05-17
 ---
 
 # Alexander Marquardt

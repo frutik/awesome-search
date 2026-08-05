@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "MOC — Case Studies"
 tags:
   - moc

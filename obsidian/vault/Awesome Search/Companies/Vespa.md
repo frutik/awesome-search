@@ -5,6 +5,8 @@ products:
   - Vespa (open-source search and recommendation engine)
 category: technology-provider
 search_domain: open-source big data serving engine with native ML support
+tags: [company]
+created: 2026-05-16
 ---
 
 # Vespa

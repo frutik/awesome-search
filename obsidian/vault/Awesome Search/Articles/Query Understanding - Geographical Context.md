@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Location as Context"
 source: "https://queryunderstanding.com/geographical-context-77ce4c773dc7"
 author:

@@ -7,6 +7,7 @@ tags:
   - ranking
   - learning-to-rank
   - machine-learning
+created: 2026-06-11
 ---
 
 # Ranking Objectives

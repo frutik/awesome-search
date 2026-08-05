@@ -1,4 +1,5 @@
 ---
+type: company
 title: "Qdrant"
 aliases: ["Qdrant.tech", "Qdrant vector database"]
 tags:

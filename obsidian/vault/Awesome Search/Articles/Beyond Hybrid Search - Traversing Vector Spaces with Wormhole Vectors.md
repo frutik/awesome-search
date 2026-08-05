@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Beyond Hybrid Search: Traversing Vector Spaces with Wormhole Vectors"
 source: "https://aiven.io/blog/beyond-hybrid-search-traversing-vector-spaces-with-wormhole-vectors"
 author: ["Dima Kan"]

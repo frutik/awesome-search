@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Context Engineering"
 aliases: ["context curation", "context window curation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - agentic-search
   - llm
   - retrieval
+created: 2026-05-29
 ---
 
 # Context Engineering

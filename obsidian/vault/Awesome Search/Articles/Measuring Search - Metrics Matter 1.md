@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Measuring Search: Metrics Matter"
 source: "https://jamesrubinstein.medium.com/measuring-search-metrics-matter-de124c2f6f8c"
 author:

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Bi-encoder vs Cross encoder?When to use which one?"
 source: "https://medium.com/@sujathamudadla1213/bi-encoder-vs-cross-encoder-when-to-use-which-one-4a20edbe6d37"
 author:

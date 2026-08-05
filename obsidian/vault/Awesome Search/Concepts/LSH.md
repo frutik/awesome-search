@@ -8,6 +8,7 @@ tags:
   - concept
   - vector-search
   - ann
+created: 2026-07-05
 ---
 
 # LSH — Locality Sensitive Hashing

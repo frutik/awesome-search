@@ -1,4 +1,5 @@
 ---
+type: article
 title: "A/B Testing for Search is Different"
 tags:
   - clippings

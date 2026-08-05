@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Personalization"
 aliases: ["personalized search", "user personalization", "search personalization", "contextual ranking"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - ranking
   - personalization
   - search
+created: 2026-05-16
 ---
 
 # Personalization

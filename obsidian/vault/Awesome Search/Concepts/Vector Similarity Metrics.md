@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Vector Similarity Metrics"
 aliases: ["cosine similarity", "dot product", "euclidean distance", "L2 distance", "inner product", "vector distance", "similarity function", "vector similarity"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - embeddings
   - foundations
+created: 2026-05-16
 ---
 
 # Vector Similarity Metrics

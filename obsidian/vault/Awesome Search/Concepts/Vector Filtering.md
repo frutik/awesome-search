@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Vector Filtering"
 aliases: ["filtered vector search", "metadata filtering", "pre-filter", "post-filter", "single-stage vector search"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - vector-search
   - infrastructure
+created: 2026-05-16
 ---
 
 # Vector Filtering

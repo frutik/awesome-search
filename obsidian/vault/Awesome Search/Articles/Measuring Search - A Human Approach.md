@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Measuring Search, A Human Approach"
 source: "https://jamesrubinstein.medium.com/measuring-search-a-human-approach-acf54e2cf33d"
 author:

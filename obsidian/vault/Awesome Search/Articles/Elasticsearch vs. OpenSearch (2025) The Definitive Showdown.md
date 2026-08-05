@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Elasticsearch vs. OpenSearch (2025): The Definitive Showdown"
 author: "[[Jagadeesh Chandra]]"
 published: 2025-09-03

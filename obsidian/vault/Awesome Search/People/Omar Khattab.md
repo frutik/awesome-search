@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Omar Khattab"
 aliases: []
 role: "Researcher, PhD student → faculty"
@@ -7,6 +8,7 @@ tags:
   - person
   - search
   - ml-research
+created: 2026-05-16
 ---
 
 # Omar Khattab

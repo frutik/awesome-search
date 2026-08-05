@@ -1,4 +1,5 @@
 ---
+type: company
 title: "Jina AI"
 aliases: ["Jina"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - search
 website: "https://jina.ai"
+created: 2026-05-29
 ---
 
 # Jina AI

@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Compositional Embeddings"
 aliases: ["compositional embeddings", "compositional representation", "compositionality"]
 tags:
   - concept
   - embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Compositional Embeddings

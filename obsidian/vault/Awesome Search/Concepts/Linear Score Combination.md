@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Linear Score Combination"
 aliases: ["linear combination", "score combination", "weighted score fusion", "convex combination", "alpha blending", "score-based fusion"]
 tags:

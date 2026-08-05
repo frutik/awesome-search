@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Search Governance"
 aliases: ["governed search", "search control plane", "query governance", "governed control plane"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - ecommerce
   - architecture
+created: 2026-05-17
 ---
 
 # Search Governance

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Language Identification"
 source: "https://queryunderstanding.com/language-identification-c1d2a072eda"
 author:

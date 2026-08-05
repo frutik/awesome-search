@@ -8,6 +8,7 @@ published: 2025-11-18
 company: [Vinted]
 concepts: [Dense Vector Retrieval, Bi-Encoder, Multimodal Embeddings, Hybrid Search, HNSW]
 topics: [E-commerce Search, Personalization in Search]
+title: "Dense Retrieval at Vinted"
 ---
 
 # Dense Retrieval at Vinted

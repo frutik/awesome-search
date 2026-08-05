@@ -7,6 +7,7 @@ author: [Hugo Galvão, Daniel Doro]
 company: [Spotify]
 concepts: [Search Architecture]
 topics: [Managing a Search Team]
+title: "Rethinking Spotify Search"
 ---
 
 # Rethinking Spotify Search

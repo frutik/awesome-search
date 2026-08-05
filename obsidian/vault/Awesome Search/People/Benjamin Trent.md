@@ -1,10 +1,12 @@
 ---
+type: person
 title: "Benjamin Trent"
 tags:
   - person
   - elastic
 role: Engineer
 affiliation: "[[Elastic]]"
+created: 2026-05-22
 ---
 
 # Benjamin Trent

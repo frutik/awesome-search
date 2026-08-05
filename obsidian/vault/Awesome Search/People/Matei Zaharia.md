@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Matei Zaharia"
 aliases: []
 role: "Professor, co-founder"
@@ -6,6 +7,7 @@ affiliation: "Stanford University / Databricks"
 tags:
   - person
   - ml-research
+created: 2026-05-16
 ---
 
 # Matei Zaharia

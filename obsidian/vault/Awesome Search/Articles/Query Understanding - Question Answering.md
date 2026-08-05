@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Question Answering"
 source: "https://queryunderstanding.com/question-answering-94984185c203"
 author:

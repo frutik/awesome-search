@@ -7,6 +7,7 @@ author: [Siegfried Schüle]
 company: [searchHub]
 concepts: [A-B Testing, Session-Based Evaluation]
 topics: [A-B Testing for Search]
+title: "Common Pitfalls of Onsite Search Experimentation Part 2"
 ---
 
 # Common Pitfalls of Onsite Search Experimentation Part 2

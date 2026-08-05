@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Relevance Feedback (Wikipedia)"
 author: "[[Wikipedia]]"
 published: 2006-07-04

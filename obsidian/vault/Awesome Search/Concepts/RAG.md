@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "RAG"
 aliases: ["Retrieval-Augmented Generation", "Retrieval Augmented Generation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - llm
   - rag
+created: 2026-05-16
 ---
 
 # RAG (Retrieval-Augmented Generation)

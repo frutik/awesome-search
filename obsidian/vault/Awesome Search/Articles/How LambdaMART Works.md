@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How LambdaMART Works"
 tags:
   - clippings

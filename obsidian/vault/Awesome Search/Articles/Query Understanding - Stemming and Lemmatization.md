@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Stemming and Lemmatization"
 source: "https://queryunderstanding.com/stemming-and-lemmatization-6c086742fe45"
 author:

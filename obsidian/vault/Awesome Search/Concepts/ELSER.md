@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "ELSER"
 aliases: ["Elastic Learned Sparse Encoder", "Elastic Learned Sparse EncodeR"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - sparse-retrieval
   - elasticsearch
+created: 2026-05-16
 ---
 
 # ELSER

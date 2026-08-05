@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Taxonomies and Ontologies"
 source: "https://queryunderstanding.com/taxonomies-and-ontologies-8e4812a79cb2"
 author:

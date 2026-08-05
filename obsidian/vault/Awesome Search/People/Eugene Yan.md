@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Eugene Yan"
 aliases: []
 tags:

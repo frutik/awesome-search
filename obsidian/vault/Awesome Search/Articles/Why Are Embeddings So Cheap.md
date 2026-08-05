@@ -1,4 +1,5 @@
 ---
+type: article
 created: 2026-05-15
 title: "Why Are Embeddings So Cheap?"
 source: "https://www.tensoreconomics.com/p/why-are-embeddings-so-cheap"

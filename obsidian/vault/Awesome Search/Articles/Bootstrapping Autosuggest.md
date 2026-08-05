@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Bootstrapping Autosuggest"
 tags:
   - clippings

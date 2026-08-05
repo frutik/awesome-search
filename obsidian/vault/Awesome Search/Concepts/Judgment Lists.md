@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Judgment Lists"
 aliases: ["relevance judgments", "qrels", "annotation lists", "relevance labels", "judgment list"]
 tags:
   - concept
   - search-evaluation
   - annotation
+created: 2026-05-16
 ---
 
 # Judgment Lists

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Answering Compositional Queries with Set-Theoretic Embeddings"
 source: "https://arxiv.org/abs/2306.04133"
 pdf: "https://arxiv.org/pdf/2306.04133"

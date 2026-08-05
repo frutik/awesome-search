@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Triage: The Secret Weapon for Search Relevance"
 tags:
   - clippings

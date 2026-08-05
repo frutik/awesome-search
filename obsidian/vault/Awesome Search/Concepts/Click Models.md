@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Click Models"
 aliases: ["click models", "click model", "user behavior model", "position bias model", "cascade model", "DBN", "dependent click model", "UBM", "user browsing model", "examination hypothesis"]
 tags:

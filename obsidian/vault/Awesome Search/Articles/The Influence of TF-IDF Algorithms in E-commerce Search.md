@@ -7,6 +7,7 @@ author: [David Argüello Sánchez]
 company: [Empathy]
 concepts: [BM25, Learning to Rank, Results Boosting]
 topics: [E-commerce Search]
+title: "The Influence of TF-IDF Algorithms in E-commerce Search"
 ---
 
 # The Influence of TF-IDF Algorithms in E-commerce Search

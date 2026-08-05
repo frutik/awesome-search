@@ -1,4 +1,5 @@
 ---
+type: concept
 title: SIRA (Superintelligent Retrieval Agent)
 aliases:
   - SIRA
@@ -8,6 +9,7 @@ tags:
   - concept
   - agentic-search
   - retrieval
+created: 2026-05-16
 ---
 
 # SIRA (Superintelligent Retrieval Agent)

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: UDCG (Utility and Distraction-aware Cumulative Gain)
 aliases:
   - UDCG
@@ -8,6 +9,7 @@ tags:
   - search-evaluation
   - metrics
   - agentic-search
+created: 2026-05-16
 ---
 
 # UDCG (Utility and Distraction-aware Cumulative Gain)

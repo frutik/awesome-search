@@ -4,6 +4,7 @@ title: "Joon-Pil (JP) Hwang"
 aliases: ["JP Hwang", "Joon-Pil Hwang"]
 affiliation: "[[Weaviate]]"
 tags: [person, weaviate, search-engineering, retrieval]
+created: 2026-06-02
 ---
 
 # Joon-Pil (JP) Hwang

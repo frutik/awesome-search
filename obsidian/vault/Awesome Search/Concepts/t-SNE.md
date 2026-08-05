@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "t-SNE"
 aliases: ["t-distributed Stochastic Neighbor Embedding", "t-distributed stochastic neighbor embedding", "TSNE", "tSNE"]
 tags:

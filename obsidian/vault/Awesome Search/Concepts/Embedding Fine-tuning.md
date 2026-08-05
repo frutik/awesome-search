@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Embedding Fine-tuning"
 aliases: ["fine-tuning embeddings", "domain adaptation", "embedding adaptation", "custom embeddings"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - fine-tuning
   - machine-learning
+created: 2026-05-16
 ---
 
 # Embedding Fine-tuning
@@ -25,7 +27,7 @@ General embedding models are trained on broad internet text. They may:
 
 ## Fine-tuning Approaches
 
-### 1. Contrastive Learning (Most Common)
+### 1. [[Contrastive Learning]] (Most Common)
 Train with positive pairs (query, relevant doc) and negatives:
 ```
 Loss = -log(exp(sim(q,d+)/τ) / Σ exp(sim(q,d_i)/τ))
@@ -92,7 +94,12 @@ Use general model when:
 - Limited training data
 - Latency/serving cost constraints (larger fine-tuned models)
 
+## Measuring Whether It Worked
+
+Fine-tuning is easy to do and easy to fool yourself about. Training loss falling is not evidence of retrieval improvement, and the most common source of an impressive-looking gain is query-level leakage between train and test splits. See [[Model Selection and Fine-Tuning Evaluation]] for the harness, split discipline, and checkpoint-selection traps.
+
 ## Related Concepts
+- [[Contrastive Learning]] — the objective underneath most of the approaches above
 - [[Embeddings]] — what embeddings are; training approaches
 - [[Dense Embeddings]] — the representation type typically fine-tuned
 

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search Result Snippets"
 source: "https://queryunderstanding.com/search-result-snippets-e8c447950219"
 author:

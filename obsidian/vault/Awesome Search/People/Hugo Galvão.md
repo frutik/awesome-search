@@ -6,6 +6,7 @@ affiliation: Spotify
 role: Search Engineering Lead
 articles: []
 key_contributions: [spotify-search-org-evolution, search-platform-model]
+created: 2026-05-17
 ---
 
 # Hugo Galvão

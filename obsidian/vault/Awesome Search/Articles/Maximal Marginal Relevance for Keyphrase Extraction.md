@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Maximal Marginal Relevance to Re-rank results in Unsupervised KeyPhrase Extraction"
 source: "https://medium.com/tech-that-works/maximal-marginal-relevance-to-rerank-results-in-unsupervised-keyphrase-extraction-22d95015c7c5"
 author:

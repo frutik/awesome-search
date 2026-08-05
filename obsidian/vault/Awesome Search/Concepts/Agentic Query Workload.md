@@ -3,6 +3,7 @@ title: "Agentic Query Workload"
 type: concept
 aliases: ["Agent Query Workload", "Agentic Retrieval Workload", "The New User of Search"]
 tags: [concept, agentic-search, retrieval-efficiency, query-understanding]
+created: 2026-06-18
 ---
 
 # Agentic Query Workload

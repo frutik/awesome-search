@@ -4,6 +4,8 @@ industry: classifieds marketplace
 category: e-commerce
 website: "https://www.kleinanzeigen.de"
 search_domain: personalized homepage feed, classified ad retrieval
+tags: [company]
+created: 2026-05-26
 ---
 
 # Kleinanzeigen

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Faceted Search"
 source: "https://queryunderstanding.com/faceted-search-7d053cc4fada"
 author:

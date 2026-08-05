@@ -7,6 +7,7 @@ tags:
   - search
   - retrieval
   - lexical
+created: 2026-06-11
 ---
 
 # Full-Text Search

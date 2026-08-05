@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Targeting Broad Queries in Search"
 tags:
   - clippings

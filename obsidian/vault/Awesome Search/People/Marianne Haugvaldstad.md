@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Marianne Haugvaldstad"
 aliases: ["earti"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vespa
 role: Developer Intern
 affiliation: "[[Vespa]]"
+created: 2026-05-22
 ---
 
 # Marianne Haugvaldstad

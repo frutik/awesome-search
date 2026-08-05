@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Write a Spelling Corrector"
 tags:
   - clippings

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Agentic search models"
 source: "https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models"
 author:

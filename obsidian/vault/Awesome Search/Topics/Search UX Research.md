@@ -13,6 +13,7 @@ companies:
   - "[[Baymard Institute]]"
   - "[[Nielsen Norman Group]]"
 created: 2026-06-27
+tags: [topic]
 ---
 
 # Search UX Research

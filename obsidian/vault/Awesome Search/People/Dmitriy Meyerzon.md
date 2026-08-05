@@ -1,7 +1,9 @@
 ---
+type: person
 name: Dmitriy Meyerzon
 company: "[[Dropbox]]"
 tags: [person, ml-engineer, search-relevance, LLM-as-judge]
+created: 2026-05-17
 ---
 
 # Dmitriy Meyerzon

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Janani Narayanan"
 aliases: []
 role: "ML Engineer"

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "SPLADE"
 aliases: ["Sparse Lexical and Dense Expansion", "SParse Lexical AnD Expansion"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search
   - sparse-retrieval
   - neural-ir
+created: 2026-05-16
 ---
 
 # SPLADE

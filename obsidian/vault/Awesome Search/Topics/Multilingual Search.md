@@ -6,6 +6,7 @@ related_topics: [Query Understanding in Practice, Synonyms and Vocabulary Manage
 articles: []
 companies: [Carousell, Elastic]
 people: []
+created: 2026-05-16
 ---
 
 # Multilingual Search

@@ -7,6 +7,8 @@ products:
 search_domain: fashion catalog search + AI-powered product recommendations
 use_cases:
   - "[[Zalando - Self-DoS via Facet Aggregation]]"
+tags: [company]
+created: 2026-05-16
 ---
 
 # Zalando

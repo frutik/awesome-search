@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How to Implement a Normalized Discounted Cumulative Gain (NDCG) Ranking Quality Scorer in Quepid"
 source: "https://opensourceconnections.com/blog/2018/02/26/ndcg-scorer-in-quepid/"
 author:

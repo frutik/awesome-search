@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Matryoshka representations: A guide to faster semantic search"
 source: "https://ujjwalm29.medium.com/matryoshka-representation-learning-a-guide-to-faster-semantic-search-1c9025543530"
 author:

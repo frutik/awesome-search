@@ -7,6 +7,7 @@ author: [Daniel Tunkelang]
 company: []
 concepts: [Learning to Rank, Query Understanding, Personalization, Position Bias]
 topics: [Query Understanding in Practice, Relevance Program Setup]
+title: "Putting Search Ranking in Perspective"
 ---
 
 # Putting Search Ranking in Perspective

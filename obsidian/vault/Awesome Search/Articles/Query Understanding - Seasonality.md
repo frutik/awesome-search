@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Seasonality"
 source: "https://queryunderstanding.com/seasonality-5eef79d8bf1c"
 author:

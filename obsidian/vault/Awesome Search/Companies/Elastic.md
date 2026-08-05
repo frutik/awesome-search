@@ -7,6 +7,8 @@ products:
   - Elastic Search Labs
 category: technology-provider
 search_domain: open-source + managed search and observability platform
+tags: [company]
+created: 2026-05-16
 ---
 
 # Elastic

@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Scoped Search: Dangerous, but Sometimes Useful"
 tags: [article, search, ux, search-ux]
 source: "https://www.nngroup.com/articles/scoped-search/"

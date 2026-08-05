@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Michael Hannecke"
 aliases: []
 tags:

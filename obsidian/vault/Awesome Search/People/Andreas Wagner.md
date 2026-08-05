@@ -1,10 +1,12 @@
 ---
+type: person
 title: "Andreas Wagner"
 aliases: []
 tags:
   - person
   - search-practitioner
   - e-commerce-search
+created: 2026-05-16
 ---
 
 # Andreas Wagner
@@ -31,11 +33,20 @@ Wagner's framework for e-commerce search quality:
 
 Each pillar requires different optimization strategies and different metrics — a system can excel at findability but fail at discovery.
 
+## Second Line of Work: Evaluation at Scale
+
+Distinct from the quality taxonomy above, Wagner also writes on the **economics** of relevance evaluation — how to run [[LLM as Judge|LLM judgments]] across billions of query-document pairs when judging everything with a frontier model is not affordable at any budget.
+
+The architecture: prune the pair space using [[Implicit Judgments|implicit feedback]] to separate easy positives from candidate hard negatives, cascade the survivors through cheap quantized embedding judges before escalating disagreements to an LLM ([[Staged Judging]]), then [[Knowledge Distillation|distill]] the LLM's judgments into a small model with sub-20ms CPU inference.
+
+Where the Three Pillars framework answers *what quality means*, this answers *how you can afford to measure it*.
+
 ## Articles in Vault
 
-- [[Three Pillars of Search Quality in E-commerce Part 1 Findability]]
+- [[Three Pillars of Search Quality - Findability]] — Findability pillar
 - [[Three Pillars of Search Quality - Discovery and Inspiration]] — Discovery pillar: diversity, product exposure, multi-objective ranking
 - [[Common Pitfalls of Onsite Search Experimentation]]
+- [[Towards Scalable Relevance Engineering]] — judge economics: 93% problem reduction, staged judging, distillation to CPU-servable models
 
 ## Topics
 
@@ -52,6 +63,8 @@ Each pillar requires different optimization strategies and different metrics —
 
 ## Related Concepts
 
+- [[Staged Judging]] — cascade architecture for affordable relevance judging
+- [[LLM as Judge]] — the expensive stage his architecture economizes
 - [[Search Evaluation]] — three pillars provide structure
 - [[Diversity Metrics]] — discovery pillar
 - [[NDCG]] — ranking/relevance pillar

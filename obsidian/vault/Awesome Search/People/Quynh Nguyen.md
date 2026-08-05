@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Quynh Nguyen"
 aliases: []
 affiliation: "Elastic"

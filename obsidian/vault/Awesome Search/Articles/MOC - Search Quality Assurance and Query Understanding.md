@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "Map of Content: Search Quality Assurance & Query Understanding"
 tags:
   - moc
@@ -48,9 +49,18 @@ Entry point for the knowledge graph covering the **Search Quality Assurance** an
 
 - [[Judgment Lists]] — (query, document, grade) triples; foundation of offline eval
 - [[LLM as Judge]] — automated judgment generation; 10–100x cheaper than humans
+- [[Staged Judging]] — cascading cheap judges before the LLM; the economics of judging at catalogue scale
 - [[Search Evaluation]] — full evaluation framework (offline + online + session)
 - [[Session-Based Evaluation]] — multi-query session quality; captures reformulation
+- [[Statistical Significance in Search Evaluation]] — paired tests, effect size, the multiple-comparisons trap
 - [[Clean Context]] — context hygiene in RAG pipelines; precision over recall
+
+### Model Evaluation and Benchmarks
+
+- [[Model Selection and Fine-Tuning Evaluation]] — bake-off protocol, split discipline, measuring fine-tuning progress
+- [[Retrieval Benchmarks and Leaderboards]] — [[BEIR]], [[MTEB]], [[RTEB]], [[BRIGHT]], [[MIRACL]], [[LoTTE]], and the frameworks that run them
+- [[Embedding Models Compared]] — the model landscape being evaluated
+- [[Contrastive Learning]] — what fine-tuning actually optimizes
 
 ---
 

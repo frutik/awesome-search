@@ -1,4 +1,5 @@
 ---
+type: tool
 title: "RankLib"
 aliases: ["RankLib", "RankyMcRankFace", "RankyMcRankface"]
 status: stub
@@ -6,6 +7,7 @@ tags:
   - tool
   - ranking
   - learning-to-rank
+created: 2026-06-11
 ---
 
 # RankLib

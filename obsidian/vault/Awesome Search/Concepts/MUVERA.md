@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "MUVERA"
 aliases: ["Multi-Vector Retrieval via Fixed Dimensional Encodings", "Fixed Dimensional Encoding", "FDE"]
 tags:
@@ -7,6 +8,7 @@ tags:
   - neural-ir
   - multi-vector
   - late-interaction
+created: 2026-06-29
 ---
 
 # MUVERA

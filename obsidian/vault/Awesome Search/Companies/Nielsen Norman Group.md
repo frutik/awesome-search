@@ -3,6 +3,7 @@ type: company
 aliases: ["Nielsen Norman Group", "NN/g", "NNG"]
 website: "https://www.nngroup.com"
 tags: [company, ux-research, search-ux]
+created: 2026-06-27
 ---
 
 # Nielsen Norman Group

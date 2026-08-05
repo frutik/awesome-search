@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Direct Corpus Interaction"
 aliases: ["DCI", "grep-based retrieval", "terminal-tool retrieval"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - agentic-search
   - retrieval
   - neural-ir
+created: 2026-05-17
 ---
 
 # Direct Corpus Interaction (DCI)

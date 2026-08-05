@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Distilling Retrieval Pipelines to a Single Embedding Model"
 source: "https://dtunkelang.medium.com/distilling-retrieval-pipelines-to-a-single-embedding-model-606f3ecf0c91"
 author:

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Scalar Quantization"
 aliases: ["SQ", "SQ8", "SQ4", "int8 quantization", "Optimized Scalar Quantization", "OSQ"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - vector-search
   - quantization
   - performance
+created: 2026-05-16
 ---
 
 # Scalar Quantization

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Box Embedding"
 aliases: ["box embeddings", "box lattice", "probabilistic box embedding", "Gumbel box", "smoothed box"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - region-based-embeddings
   - representation-learning
+created: 2026-06-22
 ---
 
 # Box Embedding

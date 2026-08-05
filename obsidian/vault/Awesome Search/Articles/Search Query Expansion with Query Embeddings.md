@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Search Query Expansion with Query Embeddings"
 aliases: ["Query2Vec", "Grubhub Query Expansion", "Query Embeddings Expansion"]
 tags:

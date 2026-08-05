@@ -1,4 +1,5 @@
 ---
+type: article
 title: "1000x Faster Spelling Correction Algorithm — SymSpell"
 tags:
   - clippings

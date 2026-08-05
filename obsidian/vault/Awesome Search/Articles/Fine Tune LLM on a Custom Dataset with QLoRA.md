@@ -7,6 +7,7 @@ author: [Suman Das]
 company: []
 concepts: [LLM, QLoRA, LoRA, PEFT]
 topics: [Conversational and Agentic Search]
+title: "Fine Tune LLM on a Custom Dataset with QLoRA"
 ---
 
 # Fine Tune LLM on a Custom Dataset with QLoRA

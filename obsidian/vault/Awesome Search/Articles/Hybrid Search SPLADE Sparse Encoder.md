@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Hybrid Search: SPLADE Sparse Encoder"
 source: "https://medium.com/@sowmiyajaganathan/hybrid-search-splade-sparse-encoder-neural-retrieval-models-d092e5f46913"
 author: ["Sowmiya Jaganathan"]

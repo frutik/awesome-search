@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "Map of Content: Agentic Search & Embeddings"
 tags:
   - moc

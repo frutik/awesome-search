@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Faceted Search"
 aliases: ["facets", "faceted navigation", "guided navigation", "filters", "drill-down navigation"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - search-ux
   - e-commerce-search
   - search
+created: 2026-05-16
 ---
 
 # Faceted Search

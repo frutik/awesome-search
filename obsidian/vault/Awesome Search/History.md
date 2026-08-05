@@ -9,7 +9,7 @@ Chronological log of batches added to this knowledge graph. Actual entries live 
 weekly files under `History/` — one file per ISO week, named `<year>.<week>.md`.
 Newest on top. Approximate note-count history: [[History Stats]].
 
-- [[2026.32]] — Aug 3 – Aug 9, 2026 (1 entry)
+- [[2026.32]] — Aug 3 – Aug 9, 2026 (3 entries)
 - [[2026.31]] — Jul 27 – Aug 2, 2026 (11 entries)
 - [[2026.29]] — Jul 13 – Jul 19, 2026 (1 entry)
 - [[2026.28]] — Jul 6 – Jul 12, 2026 (2 entries)

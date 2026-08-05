@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Sparse Embeddings"
 aliases: ["sparse vectors", "sparse representations", "learned sparse", "sparse retrieval vectors"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - embeddings
   - vector-search
   - sparse
+created: 2026-05-16
 ---
 
 # Sparse Embeddings

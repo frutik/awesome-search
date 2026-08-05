@@ -6,6 +6,7 @@ affiliation: searchHub
 role: Search Engineer
 articles: []
 key_contributions: [elasticsearch-retail-analyzers, query-relaxation-pipeline]
+created: 2026-05-16
 ---
 
 # Rudolf Batt

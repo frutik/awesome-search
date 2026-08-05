@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "MOC — Architecture and Search Team"
 tags:
   - moc

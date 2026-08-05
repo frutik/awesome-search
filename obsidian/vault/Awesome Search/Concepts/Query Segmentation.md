@@ -1,10 +1,12 @@
 ---
+type: concept
 title: "Query Segmentation"
 aliases: ["query parsing", "query chunking", "phrase detection in queries"]
 tags:
   - concept
   - query-understanding
   - nlp
+created: 2026-05-16
 ---
 
 # Query Segmentation

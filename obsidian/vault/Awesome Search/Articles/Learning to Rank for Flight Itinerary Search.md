@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Learning to Rank for Flight Itinerary Search"
 tags:
   - clippings

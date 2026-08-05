@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Spelling Correction"
 aliases: ["spell check", "spell correction", "did you mean", "typo correction", "fuzzy matching"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - query-understanding
   - nlp
   - search
+created: 2026-05-16
 ---
 
 # Spelling Correction

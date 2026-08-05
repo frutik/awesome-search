@@ -1,4 +1,5 @@
 ---
+type: article
 title: "How Context-Aware Embeddings Are Transforming Enterprise Search"
 source: "https://medium.com/@sonakshi.sp/smarter-knowledge-retrieval-how-context-aware-embeddings-are-transforming-enterprise-search-802c29c4b9b5"
 author: ["Sonakshi SP"]

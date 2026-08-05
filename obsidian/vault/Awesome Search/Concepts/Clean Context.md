@@ -1,4 +1,5 @@
 ---
+type: concept
 title: Clean Context
 aliases:
   - clean context
@@ -9,6 +10,7 @@ tags:
   - agentic-search
   - retrieval
   - rag
+created: 2026-05-16
 ---
 
 # Clean Context

@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Dimensionality Reduction"
 aliases: ["dimensionality reduction", "PCA", "principal component analysis", "t-SNE", "UMAP", "dimension reduction", "embedding compression", "vector compression"]
 tags:

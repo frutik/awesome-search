@@ -7,6 +7,7 @@ author: [Andreas Wagner]
 company: [searchHub]
 concepts: [A-B Testing]
 topics: [A-B Testing for Search]
+title: "Common Pitfalls of Onsite Search Experimentation"
 ---
 
 # Common Pitfalls of Onsite Search Experimentation

@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Leonie Monigatti"
 aliases: ["iamleonie", "leonie_monigatti"]
 tags:
@@ -9,6 +10,7 @@ tags:
 company: "[[Elastic]]"
 website: "https://leoniemonigatti.com"
 blog: "https://medium.com/@iamleonie"
+created: 2026-05-29
 ---
 
 # Leonie Monigatti

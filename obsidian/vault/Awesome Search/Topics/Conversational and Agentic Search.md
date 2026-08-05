@@ -13,6 +13,7 @@ articles:
   - "[[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]]"
 companies: [Spotify, Elastic, Cohere]
 people: []
+created: 2026-05-16
 ---
 
 # Conversational and Agentic Search

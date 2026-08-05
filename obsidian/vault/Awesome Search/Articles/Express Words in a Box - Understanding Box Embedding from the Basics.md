@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Express Words in a Box - Understanding Box Embedding from the Basics"
 source: "https://medium.com/@behitek/express-words-in-a-box-understanding-the-new-embedding-method-box-embedding-from-the-basics-ef2b4354b0f3"
 author: "[[Shun Tsukagoshi]]"

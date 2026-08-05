@@ -5,6 +5,7 @@ website: "https://www.pinecone.io/"
 tags:
   - company
   - vector-database
+created: 2026-06-11
 ---
 
 # Pinecone

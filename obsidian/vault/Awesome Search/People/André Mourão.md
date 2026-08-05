@@ -5,6 +5,7 @@ aliases: ["Andre Mourao", "andremourao"]
 affiliation: "[[Weaviate]]"
 website: "https://andremourao.com"
 tags: [person, weaviate, search-engineering, retrieval]
+created: 2026-05-17
 ---
 
 # André Mourão

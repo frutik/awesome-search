@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Search Scopes"
 aliases: ["search scope", "scoped search", "search scope selector", "search within", "scope filter"]
 tags:

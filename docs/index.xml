@@ -6,65 +6,65 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>2026.32</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
-    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 13:51:29 GMT</pubDate>
+    <title>Towards Scalable Relevance Engineering</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Towards-Scalable-Relevance-Engineering</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Towards-Scalable-Relevance-Engineering</guid>
+    <description><![CDATA[ Towards Scalable Relevance Engineering Source: www.linkedin.com/pulse/towards-scalable-relevance-engineering-andreas-wagner-s3akf/ Author: Andreas Wagner (searchHub) Summary Andreas Wagner addresses a problem the LLM as Judge literature mostly avoids: the approach is economically impossible at real ... ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>Vector Podcast</title>
-    <link>https://frutik.github.io/awesome-search/Videos/Vector-Podcast</link>
-    <guid>https://frutik.github.io/awesome-search/Videos/Vector-Podcast</guid>
-    <description><![CDATA[ Vector Podcast 🎙️ Listen / watch: www.vectorpodcast.com/ · YouTube · Apple Podcasts · RSS Long-form interview podcast on vector search, search engines, and the businesses built around them — founded and hosted by Dima Kan. ]]></description>
-    <pubDate>Mon, 03 Aug 2026 22:00:00 GMT</pubDate>
+    <title>Contrastive Learning</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</guid>
+    <description><![CDATA[ Contrastive Learning Definition Contrastive learning is the training objective underneath essentially every modern embedding model. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>Staged Judging</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Staged-Judging</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Staged-Judging</guid>
+    <description><![CDATA[ Staged Judging Definition Staged judging applies cascade architecture to relevance evaluation rather than to retrieval. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.20</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.20</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.20</guid>
-    <description><![CDATA[ History — 2026 week 20 (May 11 – May 17, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>Statistical Significance in Search Evaluation</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/Statistical-Significance-in-Search-Evaluation</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/Statistical-Significance-in-Search-Evaluation</guid>
+    <description><![CDATA[ Statistical Significance in Search Evaluation Definition A ranking change moves your metric. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.21</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.21</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.21</guid>
-    <description><![CDATA[ History — 2026 week 21 (May 18 – May 24, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>BRIGHT</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/BRIGHT</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/BRIGHT</guid>
+    <description><![CDATA[ BRIGHT Overview BRIGHT is a retrieval benchmark of 1,385 real-world queries where finding the relevant document requires reasoning, not surface similarity. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.22</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.22</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.22</guid>
-    <description><![CDATA[ History — 2026 week 22 (May 25 – May 31, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>LoTTE</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/LoTTE</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/LoTTE</guid>
+    <description><![CDATA[ LoTTE Overview LoTTE (Long-Tail Topic-stratified Evaluation) is a retrieval benchmark introduced alongside ColBERTv2, built from StackExchange communities and deliberately stratified toward long-tail topics rather than the head-heavy distributions that dominate web-search corpora like MS MARCO. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.23</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.23</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.23</guid>
-    <description><![CDATA[ History — 2026 week 23 (Jun 1 – Jun 7, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>MIRACL</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/MIRACL</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/MIRACL</guid>
+    <description><![CDATA[ MIRACL Overview MIRACL (Multilingual Information Retrieval Across a Continuum of Languages) is a multilingual retrieval benchmark covering 18 languages over Wikipedia corpora, with queries written and relevance judged by native speakers of each language. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.24</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.24</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.24</guid>
-    <description><![CDATA[ History — 2026 week 24 (Jun 8 – Jun 14, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>MTEB</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/MTEB</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/MTEB</guid>
+    <description><![CDATA[ MTEB Overview MTEB (Massive Text Embedding Benchmark) is the aggregate benchmark and public leaderboard that the embedding model field competes on. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.25</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.25</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.25</guid>
-    <description><![CDATA[ History — 2026 week 25 (Jun 15 – Jun 21, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>RTEB</title>
+    <link>https://frutik.github.io/awesome-search/Datasets/RTEB</link>
+    <guid>https://frutik.github.io/awesome-search/Datasets/RTEB</guid>
+    <description><![CDATA[ RTEB Overview RTEB (Retrieval Embedding Benchmark) is a retrieval-focused benchmark announced in beta on 1 October 2025 by the MTEB maintainers, built to attack one specific problem: the generalization gap between leaderboard scores and real-world retrieval accuracy. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>2026.26</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.26</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.26</guid>
-    <description><![CDATA[ History — 2026 week 26 (Jun 22 – Jun 28, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 30 Jul 2026 12:35:33 GMT</pubDate>
+    <title>Embedding Models Compared</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Embedding-Models-Compared</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Embedding-Models-Compared</guid>
+    <description><![CDATA[ Embedding Models Compared Overview The embedding model is the single most consequential choice in a dense retrieval stack. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

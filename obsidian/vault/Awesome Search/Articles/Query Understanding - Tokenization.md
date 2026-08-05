@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Tokenization"
 source: "https://queryunderstanding.com/tokenization-c8cdd6aef7ff"
 author:

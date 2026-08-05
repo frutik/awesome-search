@@ -1,4 +1,5 @@
 ---
+type: article
 title: "SPLADE for Sparse Vector Search Explained"
 source: "https://www.pinecone.io/learn/splade/"
 author: ["James Briggs"]

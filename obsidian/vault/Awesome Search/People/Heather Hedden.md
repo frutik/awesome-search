@@ -4,6 +4,7 @@ aliases: ["The Accidental Taxonomist", "Accidental Taxonomist", "Heather Hedden"
 blog: "https://accidental-taxonomist.blogspot.com"
 affiliation: "Taxonomist / author"
 tags: [person, taxonomy, search-ux, faceted-search]
+created: 2026-06-27
 ---
 
 # Heather Hedden

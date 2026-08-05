@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "RQ-VAE"
 aliases: ["Residual Quantization", "Residual-Quantized VAE", "RQ", "RQ-VAE"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - quantization
   - embeddings
   - generative-retrieval
+created: 2026-06-22
 ---
 
 # RQ-VAE

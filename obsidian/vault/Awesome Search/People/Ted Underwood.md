@@ -1,4 +1,5 @@
 ---
+type: person
 title: "Ted Underwood"
 aliases: ["Underwood"]
 tags:

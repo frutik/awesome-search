@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "Compositional Queries"
 aliases: ["compositional queries", "compositional query", "boolean attribute queries", "set queries"]
 tags:
@@ -6,6 +7,7 @@ tags:
   - information-retrieval
   - faceted-search
   - embeddings
+created: 2026-06-22
 ---
 
 # Compositional Queries

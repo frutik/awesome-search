@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Measuring Search Effectiveness"
 source: "https://dtunkelang.medium.com/measuring-search-effectiveness-a320bd6bdd7a"
 author:

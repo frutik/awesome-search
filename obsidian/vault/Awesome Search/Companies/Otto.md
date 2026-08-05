@@ -7,6 +7,7 @@ products: [otto.de marketplace]
 search_domain: [product search, learning to rank, marketplace ranking]
 use_cases: []
 people: [Andrea Schütt]
+created: 2026-05-16
 ---
 
 # Otto

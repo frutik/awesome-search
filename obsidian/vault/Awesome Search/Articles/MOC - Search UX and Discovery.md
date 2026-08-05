@@ -1,4 +1,5 @@
 ---
+type: moc
 title: "MOC — Search UX and Discovery"
 tags:
   - moc

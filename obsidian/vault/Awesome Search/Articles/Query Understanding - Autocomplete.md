@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Autocomplete"
 source: "https://queryunderstanding.com/autocomplete-69ed81bba245"
 author:

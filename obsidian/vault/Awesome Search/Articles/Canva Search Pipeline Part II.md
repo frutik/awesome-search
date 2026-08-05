@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Canva Search Pipeline Part II"
 tags:
   - clippings

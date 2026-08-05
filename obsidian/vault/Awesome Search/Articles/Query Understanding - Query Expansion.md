@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Expansion"
 source: "https://queryunderstanding.com/query-expansion-2d68d47cf9c8"
 author:

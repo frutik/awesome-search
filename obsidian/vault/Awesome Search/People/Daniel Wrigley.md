@@ -1,4 +1,5 @@
 ---
+type: person
 title: Daniel Wrigley
 aliases:
   - Wrigley

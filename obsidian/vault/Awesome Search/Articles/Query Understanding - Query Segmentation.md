@@ -1,4 +1,5 @@
 ---
+type: article
 title: "Query Segmentation"
 source: "https://queryunderstanding.com/query-segmentation-2cf860ade503"
 author:

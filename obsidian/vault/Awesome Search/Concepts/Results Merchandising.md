@@ -1,4 +1,5 @@
 ---
+type: concept
 title: Results Merchandising
 aliases:
   - results merchandising
@@ -10,6 +11,7 @@ tags:
   - concept
   - e-commerce-search
   - ranking
+created: 2026-05-16
 ---
 
 # Results Merchandising

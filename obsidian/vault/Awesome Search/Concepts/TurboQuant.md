@@ -1,4 +1,5 @@
 ---
+type: concept
 title: "TurboQuant"
 aliases: ["TurboQuant quantization", "rotation-based quantization", "Zandieh quantization"]
 tags:
