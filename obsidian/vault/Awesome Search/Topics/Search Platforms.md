@@ -109,3 +109,5 @@ Search run inside an existing database rather than a dedicated engine — increa
 - [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] — real ES→Vespa migration case studies
 - [[Conversational and Agentic Search]] — agentic workloads impose distinct retrieval requirements; Hornet is built specifically for this use case
 - [[Search using PostgreSQL]] — running modern search inside Postgres (FTS + pgvector + ParadeDB + RRF)
+- [[Extreme Search Systems]] — the scale dimensions that decide which platform survives
+- [[turbopuffer Search DB]] — object-storage-native engine; a different set of trades from both self-hosted clusters and managed vector DBs

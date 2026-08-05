@@ -62,3 +62,8 @@ The coordinator nodes became the bottleneck — not the data nodes, not the netw
 - Add cache stampede protection (probabilistic early expiry or lock-based recompute) wherever aggregation queries share a cache tier
 - Monitor coordinator node saturation separately from data node saturation in Elasticsearch
 - Instrument NER and other query-expansion systems for the hidden query load they generate
+
+## Related Notes
+
+- [[Extreme Search Systems]] — this case study anchors the aggregation-cardinality and graceful-degradation dimensions
+- [[Faceted Search]] — why facet queries are a distinct load class

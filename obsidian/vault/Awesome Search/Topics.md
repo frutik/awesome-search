@@ -47,6 +47,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 
 ## Platforms & techniques
 - [[Search Platforms]]
+- [[Extreme Search Systems]]
 - [[Elasticsearch vs OpenSearch]]
 - [[Search using PostgreSQL]]
 - [[Late Interaction in Elasticsearch]]

@@ -57,7 +57,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Search Architecture & Operations
-[[Search Architecture]] · [[Retrieval Pipeline]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
+[[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
 
 ### Search UX & Discovery
 [[Faceted Search]] · [[Federated Search]] · [[Search Scopes]] · [[Zero Results]] · [[Results Merchandising]] · [[MMR]]
@@ -70,7 +70,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
-[[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]]
+[[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]]
 
 ### Quality & Operations
 [[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[Embedding Models Compared]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
@@ -89,7 +89,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Tools
 
 ### Search & Vector Engines
-[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
+[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
@@ -109,7 +109,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]]
+[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -177,7 +177,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]]
 
-**N** — [[Namratesh Shrivastav]] · [[Neal Lathia]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
+**N** — [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 
 **O** — [[Omar Khattab]]
 

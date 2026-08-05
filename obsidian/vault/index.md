@@ -57,21 +57,21 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Search UX]] · [[Faceted Search]] · [[Search Scopes]] · [[Federated Search]] · [[Zero Results]] · [[Presentation Bias]] · [[Results Merchandising]] · [[Search Result Diversity]] · [[MMR]]
 
 ### Architecture & RAG
-[[Search Architecture]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[Agentic Query Workload]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]
+[[Search Architecture]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Knowledge Graph Search]] · [[RAG]] · [[Agentic Search]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[Agentic Query Workload]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Vector Filtering]] · [[Text Chunking]] · [[Clean Context]]
 
 ## Topics
 Practice-oriented guides — how to DO or deal with something in search.
 
-[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Courses]] · [[Economics of Search]] · [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Search Problem Archetypes]] · [[Migration between Search Engines]] · [[Embedding Models Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]]
+[[Search Quality Assurance]] · [[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Courses]] · [[Economics of Search]] · [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Autocomplete and Autosuggest]] · [[Search Result Diversity]] · [[Synonyms and Vocabulary Management]] · [[Query Understanding in Practice]] · [[Multilingual Search]] · [[Relevance Program Setup]] · [[Personalization in Search]] · [[Conversational and Agentic Search]] · [[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Spelling Correction in Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Search Problem Archetypes]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Embedding Models Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]]
 
 ## Tools
 
-[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[User Behavior Insights]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[Milvus Vector DB]] · [[FAISS]] · [[ann-benchmarks]]
+[[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[User Behavior Insights]] · [[Querqy]] · [[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[Milvus Vector DB]] · [[turbopuffer Search DB]] · [[FAISS]] · [[ann-benchmarks]]
 
 ## Companies
 
 **Technology Providers**
-[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]] · [[Amazon Web Services]]
+[[Elastic]] · [[Vespa]] · [[Meta]] · [[Cohere]] · [[OpenSource Connections]] · [[Algolia]] · [[Weaviate]] · [[searchHub]] · [[Empathy]] · [[Sease]] · [[MongoDB]] · [[Voyage AI]] · [[Qdrant]] · [[Hornet]] · [[SID.ai]] · [[Bonsai]] · [[Amazon Web Services]] · [[turbopuffer]]
 
 **End Users**
 [[Uber]] · [[Airbnb]] · [[Booking.com]] · [[Zalando]] · [[Slack]] · [[Canva]] · [[Netflix]] · [[Twitter]] · [[Etsy]] · [[Skyscanner]] · [[Grubhub]] · [[Spotify]] · [[Carousell]] · [[Vinted]] · [[Shopify]] · [[Otto]] · [[Reddit]] · [[Elsevier]]

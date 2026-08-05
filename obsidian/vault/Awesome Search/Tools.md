@@ -20,6 +20,7 @@ The software landscape for building and evaluating search — engines, vector da
 - [[Pinecone Vector DB]]
 - [[Qdrant Vector DB]]
 - [[Weaviate Vector DB]]
+- [[turbopuffer Search DB]] — object-storage-native; index lives in S3/GCS with a local cache hierarchy
 
 ## Learning to Rank & models
 - [[RankLib]]

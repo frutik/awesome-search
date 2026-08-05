@@ -50,7 +50,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]]
 
 ## N
-- [[Namratesh Shrivastav]] · [[Neal Lathia]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
+- [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 
 ## O
 - [[Omar Khattab]]

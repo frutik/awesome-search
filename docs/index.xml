@@ -10,7 +10,25 @@
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
+    <pubDate>Wed, 05 Aug 2026 14:32:47 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 14:32:47 GMT</pubDate>
+  </item><item>
+    <title>2026.32</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
+    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 14:32:47 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Wed, 05 Aug 2026 14:32:47 GMT</pubDate>
   </item><item>
     <title>MS MARCO</title>
     <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
@@ -18,28 +36,16 @@
     <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
     <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
-  </item><item>
-    <title>2026.32</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
-    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
-  </item><item>
-    <title>global_toc</title>
-    <link>https://frutik.github.io/awesome-search/global_toc</link>
-    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
-    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
-  </item><item>
     <title>Beyond Algorithms: Ranking at Scale at Booking.com</title>
     <link>https://frutik.github.io/awesome-search/Articles/Beyond-Algorithms---Ranking-at-Scale-at-Booking.com</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Beyond-Algorithms---Ranking-at-Scale-at-Booking.com</guid>
     <description><![CDATA[ Beyond Algorithms: Ranking at Scale at Booking.com A practitioner paper arguing that in a commercial ranking system the choice of algorithm is the least of the problems. ]]></description>
+    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>How to Build a 256 TB Search Index</title>
+    <link>https://frutik.github.io/awesome-search/Articles/How-to-Build-a-256-TB-Search-Index</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/How-to-Build-a-256-TB-Search-Index</guid>
+    <description><![CDATA[ How to Build a 256 TB Search Index Author: Nathan VanBenschoten — chief architect, turbopuffer Summary An announcement-plus-design post on raising the maximum size of a single turbopuffer Search DB namespace from 1 TB (SaaS; 4 TB for custom deployments) to 256 TB, by introducing sharding to a search... ]]></description>
     <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>Paper Review — Ranking at Scale at Booking.com</title>
@@ -58,12 +64,6 @@
     <link>https://frutik.github.io/awesome-search/Companies/Booking.com</link>
     <guid>https://frutik.github.io/awesome-search/Companies/Booking.com</guid>
     <description><![CDATA[ Booking.com One of the world’s largest online travel companies, headquartered in Amsterdam. ]]></description>
-    <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Contrastive Learning</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/Contrastive-Learning</guid>
-    <description><![CDATA[ Contrastive Learning Definition Contrastive learning is the training objective underneath essentially every modern embedding model. ]]></description>
     <pubDate>Tue, 04 Aug 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

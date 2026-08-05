@@ -76,3 +76,8 @@ Instead of one expanding-circle query: multiple parallel subqueries per ETD rang
 - H3-based geosharding for any location-sensitive search problem
 - Static sort order by conversion rate + per-entity budget for structured catalogs (grocery, retail)
 - ETD/SLA pre-bucketing pattern: pre-compute constraint ranges at index time instead of filtering at query time
+
+## Related Notes
+
+- [[Extreme Search Systems]] — this case study anchors the latency-tail and shard-count dimensions
+- [[Sharding]] — H3 geosharding as a worked shard-key choice

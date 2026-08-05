@@ -75,6 +75,9 @@ Multi-stage pipelines must budget latency across stages:
 ## Related Concepts
 
 - [[Retrieval Pipeline]]
+- [[Sharding]] — partitioning the index once one machine is not enough
+- [[Compute-Storage Disaggregation]] — object storage as the authoritative index, local disk as cache
+- [[Extreme Search Systems]] — the scale dimensions that stress this pipeline
 - [[BM25]]
 - [[Dense Vector Retrieval]]
 - [[Hybrid Search]]

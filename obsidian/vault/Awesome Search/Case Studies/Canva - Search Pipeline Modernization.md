@@ -83,3 +83,7 @@ The design process was collaborative: each engineer tackled an architecture area
 - [[Netflix - Content Search Architecture]] — similar federated multi-system challenge
 - [[Zalando - Self-DoS via Facet Aggregation]] — architectural decisions under load
 - [[Uber Eats - Scaling Search for Food Delivery]] — performance engineering at scale
+
+## Related Notes
+
+- [[Extreme Search Systems]] — the 50ms candidate-generation deadline as graceful degradation

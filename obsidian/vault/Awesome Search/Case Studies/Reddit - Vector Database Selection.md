@@ -64,3 +64,7 @@ Selected **Milvus** as the unified vector database for ANN search across Reddit 
 
 ## Articles
 - [[Choosing a Vector Database for ANN Search at Reddit]]
+
+## Related Notes
+
+- [[Extreme Search Systems]] — this case study anchors the write-rate and concurrency dimensions

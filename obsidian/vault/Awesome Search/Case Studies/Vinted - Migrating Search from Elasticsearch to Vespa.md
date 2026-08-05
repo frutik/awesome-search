@@ -90,3 +90,5 @@ A rare, concrete account of a **billion-item, 20k-RPS production search platform
 - [[Elasticsearch vs OpenSearch]] · [[Search Platforms]] — engine-selection context
 - [[Late Interaction in Vespa]] · [[Vespa Learning to Rank]] — what Vespa's ranking framework enables next
 - [[Migration between Search Engines]] — the broader platform-migration topic this case study anchors
+- [[Extreme Search Systems]] — ~1B items at 20,000 req/s as the vault's index-size and QPS calibration
+- [[Sharding]] — the partitioning problem underneath the migration

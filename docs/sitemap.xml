@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-08-05T12:02:39.000Z</lastmod>
+    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -298,6 +298,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/How-Netflix-Makes-a-Federated-Graph-Searchable</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/How-to-Build-a-256-TB-Search-Index</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/How-to-Choose-the-Best-Model-for-Semantic-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -1124,6 +1127,9 @@
     <loc>https://frutik.github.io/awesome-search/Companies/searchHub</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Companies/turbopuffer</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts</loc>
     <lastmod>2026-06-18T22:00:00.000Z</lastmod>
   </url><url>
@@ -1207,6 +1213,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Compositional-Queries</loc>
     <lastmod>2026-06-21T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Compute-Storage-Disaggregation</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Concept-Vectors</loc>
     <lastmod>2026-06-21T22:00:00.000Z</lastmod>
@@ -1574,6 +1583,9 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Set-Theoretic-Embeddings</loc>
     <lastmod>2026-06-21T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Concepts/Sharding</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Signal-Downboosting</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
   </url><url>
@@ -1725,7 +1737,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-08-05T12:02:39.000Z</lastmod>
+    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.20</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -1761,7 +1773,7 @@
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.32</loc>
-    <lastmod>2026-08-05T12:02:39.000Z</lastmod>
+    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/History-Stats</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -2033,6 +2045,9 @@
     <loc>https://frutik.github.io/awesome-search/People/Namratesh-Shrivastav</loc>
     <lastmod>2026-05-31T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Nathan-VanBenschoten</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Neal-Lathia</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -2267,6 +2282,9 @@
     <loc>https://frutik.github.io/awesome-search/Tools/qdrant-sparse-finetune</loc>
     <lastmod>2026-07-26T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Tools/turbopuffer-Search-DB</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics</loc>
     <lastmod>2026-06-18T22:00:00.000Z</lastmod>
   </url><url>
@@ -2311,6 +2329,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Events-and-Conferences</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Extreme-Search-Systems</loc>
+    <lastmod>2026-08-04T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Federated-vs-Unified-Search</loc>
     <lastmod>2026-07-05T22:00:00.000Z</lastmod>
@@ -2463,5 +2484,5 @@
     <lastmod>2026-08-03T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/global_toc</loc>
-    <lastmod>2026-08-05T12:02:39.000Z</lastmod>
+    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
   </url></urlset>
