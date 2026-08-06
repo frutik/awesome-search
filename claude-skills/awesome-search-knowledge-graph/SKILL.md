@@ -52,7 +52,7 @@ Do this before the index.md mirroring step. If `global_toc.md` does not exist, c
 
 ## Invariant: the History log records every batch
 
-After every workflow run that creates or modifies content notes, write one dated entry to the current weekly log `Awesome Search/History/<year>.<week>.md` by invoking the **awesome-search-kg-history** skill (`claude-skills/awesome-search-kg-history/SKILL.md`). It fixes the entry format (one paragraph, typed link lines, ≤3 Decisions bullets), creates the week file when missing, and keeps `History.md` as a pure index of links to week files (newest on top — never inline entries). Write the entry from the run's own context — decisions and corrections, not a diff summary. Do this after the notes are written, before kg-reviewer runs.
+After every workflow run that creates or modifies content notes, write one dated entry to the current weekly log `Awesome Search/History/<year>.<week>.md` by invoking the **awesome-search-kg-history** skill (`claude-skills/awesome-search-kg-history/SKILL.md`). It fixes the entry format (one subject-first paragraph in mailing-list voice, typed link lines, ≤3 Corrections bullets), creates the week file when missing, and keeps `History.md` as a pure index of links to week files (newest on top — never inline entries). Write the entry from the run's own context — what the vault now covers and what was corrected, never a diff summary and never the deliberation behind the choices. Do this after the notes are written, before kg-reviewer runs.
 
 ## Workflow
 
