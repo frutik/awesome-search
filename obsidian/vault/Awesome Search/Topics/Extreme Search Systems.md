@@ -179,6 +179,9 @@ Two distinct problems get conflated here:
 [[Slack - Enterprise Message Search with LTR]] shows the ranking consequence: when every document is
 user-specific and queries rarely repeat, the usual click-signal machinery has far less to work with.
 
+[[Multi-Tenancy in Search]] takes this dimension in full — the isolation ladder from separate cluster
+to shared-index filter, and how each engine implements it.
+
 ## Cluster and Shard Count
 
 Hundreds to thousands of nodes and shards bring their own coordination, rebalancing, and

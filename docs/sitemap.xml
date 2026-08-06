@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -951,7 +951,7 @@
     <lastmod>2026-06-26T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Canva---Search-Pipeline-Modernization</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Etsy---Search-Quality-and-Query-Understanding</loc>
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
@@ -975,16 +975,16 @@
     <lastmod>2026-05-16T13:41:13.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Uber-Eats---Scaling-Search-for-Food-Delivery</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Vespa---Ranking-Without-Labels-on-CORD-19</loc>
     <lastmod>2026-07-29T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Vinted---Migrating-Search-from-Elasticsearch-to-Vespa</loc>
-    <lastmod>2026-07-01T11:27:28.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</loc>
-    <lastmod>2026-05-16T13:41:13.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Airbnb</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -1737,7 +1737,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.20</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -1773,7 +1773,7 @@
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.32</loc>
-    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/History-Stats</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -2378,6 +2378,9 @@
     <loc>https://frutik.github.io/awesome-search/Topics/Model-Selection-and-Fine-Tuning-Evaluation</loc>
     <lastmod>2026-08-04T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Multi-Tenancy-in-Search</loc>
+    <lastmod>2026-08-05T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Multilingual-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -2484,5 +2487,5 @@
     <lastmod>2026-08-03T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/global_toc</loc>
-    <lastmod>2026-08-05T14:32:47.000Z</lastmod>
+    <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url></urlset>

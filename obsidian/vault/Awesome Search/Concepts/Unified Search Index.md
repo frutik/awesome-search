@@ -34,6 +34,7 @@ When making a relational database searchable, the instinct is to mirror the data
 ## Related Concepts
 - [[Federated vs Unified Search]] — the topic hub comparing index-time consolidation against the query-time alternative, [[Federated Search]]
 - [[Denormalization for Search]] — the mechanism that makes a unified schema possible
+- [[Multi-Tenancy in Search]] — the same one-index-for-many question when the "many" are customers rather than record types
 - [[Full-Text Search]]
 - [[Faceted Search]] — the `type` field is the natural primary facet
 - [[Search Architecture]]

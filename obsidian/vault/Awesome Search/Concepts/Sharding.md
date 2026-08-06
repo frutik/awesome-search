@@ -80,7 +80,7 @@ most needed.
 |---|---|---|
 | **Hash of doc ID** | Even distribution, simple | No query ever touches fewer than all shards |
 | **Time-based** | Logs, news; old shards go cold and can be tiered | Recent shards are hot, load is skewed |
-| **Tenant / customer** | Multi-tenant search; queries hit one shard | Tenant sizes vary by orders of magnitude |
+| **Tenant / customer** | [[Multi-Tenancy in Search|Multi-tenant search]]; queries hit one shard | Tenant sizes vary by orders of magnitude |
 | **Geographic** | Location-constrained retrieval | Density is uneven — cities are not uniform |
 | **Semantic / cluster-based** | Skipping irrelevant shards entirely | Drift; unbalanced clusters |
 
@@ -122,6 +122,7 @@ retraining. See Axis 4 of [[Vector Search Tradeoffs]].
 
 ## Related Notes
 
+- [[Multi-Tenancy in Search]] — tenant id as a shard key, and everything that follows from it
 - [[Compute-Storage Disaggregation]] — changes what a shard costs to own
 - [[Extreme Search Systems]] — shard count and fan-out as scale dimensions
 - [[Search Architecture]] — where partitioning sits in the whole system
