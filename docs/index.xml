@@ -6,17 +6,35 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
+  </item><item>
+    <title>2026.32</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
+    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
+  </item><item>
     <title>Multi-Tenancy in Search</title>
     <link>https://frutik.github.io/awesome-search/Topics/Multi-Tenancy-in-Search</link>
     <guid>https://frutik.github.io/awesome-search/Topics/Multi-Tenancy-in-Search</guid>
     <description><![CDATA[ Multi-Tenancy in Search One search system serving many tenants — customers, workspaces, sellers, or individual users — whose data must not leak into each other’s results. ]]></description>
     <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
   </item><item>
     <title>Canva - Search Pipeline Modernization</title>
     <link>https://frutik.github.io/awesome-search/Case-Studies/Canva---Search-Pipeline-Modernization</link>
@@ -40,24 +58,6 @@
     <link>https://frutik.github.io/awesome-search/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</link>
     <guid>https://frutik.github.io/awesome-search/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</guid>
     <description><![CDATA[ Zalando — Self-DoS via Facet Aggregation Problem On a normal Sunday, Zalando’s Elasticsearch cluster became sluggish and unresponsive. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
-  </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
-  </item><item>
-    <title>2026.32</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
-    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
-  </item><item>
-    <title>global_toc</title>
-    <link>https://frutik.github.io/awesome-search/global_toc</link>
-    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
-    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
     <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
   </item><item>
     <title>MS MARCO</title>
