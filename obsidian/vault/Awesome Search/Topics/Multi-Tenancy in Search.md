@@ -68,7 +68,7 @@ Index-per-tenant looks clean and fails on economics. There is a base memory cost
 regardless of how little data it holds, so a freemium product with a long tail of tiny tenants
 ends up reserving hardware for non-paying users. Index and alias metadata also live in cluster
 state, replicated to every node — thousands of per-tenant aliases become a cluster-stability
-problem in their own right, on top of ordinary over-sharding.
+problem in their own right, on top of ordinary [[Sharding|over-sharding]].
 
 ### Routing and co-location
 

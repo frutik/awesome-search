@@ -6,6 +6,18 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>2026.31</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.31</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.31</guid>
+    <description><![CDATA[ History — 2026 week 31 (Jul 27 – Aug 2, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 16:45:48 GMT</pubDate>
+  </item><item>
+    <title>2026.32</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
+    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
+    <pubDate>Thu, 06 Aug 2026 16:45:48 GMT</pubDate>
+  </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
@@ -16,12 +28,6 @@
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
-  </item><item>
-    <title>2026.32</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
-    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
     <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
   </item><item>
     <title>global_toc</title>
@@ -59,12 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</guid>
     <description><![CDATA[ Zalando — Self-DoS via Facet Aggregation Problem On a normal Sunday, Zalando’s Elasticsearch cluster became sluggish and unresponsive. ]]></description>
     <pubDate>Wed, 05 Aug 2026 19:32:39 GMT</pubDate>
-  </item><item>
-    <title>MS MARCO</title>
-    <link>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</link>
-    <guid>https://frutik.github.io/awesome-search/Datasets/MS-MARCO</guid>
-    <description><![CDATA[ MS MARCO Overview MS MARCO (Microsoft MAchine Reading COmprehension) is a large-scale information retrieval benchmark built from real anonymized Bing search queries. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 12:02:39 GMT</pubDate>
   </item>
     </channel>
   </rss>

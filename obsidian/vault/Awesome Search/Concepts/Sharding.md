@@ -7,6 +7,7 @@ aliases:
   - index partitioning
   - horizontal partitioning
   - geosharding
+  - over-sharding
 tags:
   - concept
   - architecture
@@ -104,6 +105,42 @@ the index sits in object storage and local disk is a disposable cache, node loss
 rather than a re-replication, and rebalancing largely dissolves. This is the argument in
 [[How to Build a 256 TB Search Index]] for allowing namespaces of **256 TB**, against the roughly
 **50 GB** per-shard guidance it attributes to competing systems.
+
+## Over-Sharding
+
+The mirror image of under-sizing: shard count chosen from a default or from tenant count rather than
+from data volume, leaving a cluster with thousands of shards over a corpus that would fit in a dozen.
+[[Multi-Tenancy in Search|Index-per-tenant]] is the usual route in — 5 shards × 3,000 tenants is
+15,000 shards holding a few GB between them.
+
+The mechanism is that **a shard's cost is largely fixed**. Each one is a complete Lucene index with
+its own segments, terms dictionary, file handles, and its own refresh and merge cycle — overhead that
+barely changes between a 20 MB shard and a 20 GB one. Tiny shards are therefore close to pure
+overhead: 15,000 shards on a one-second refresh interval is 15,000 refreshes a second producing
+almost nothing.
+
+Two costs dominate, and they fail in different places:
+
+- **Heap on data nodes.** Per-shard metadata is resident, so shard *count* — not corpus size — is
+  what exhausts heap. [[Elasticsearch]]'s published sizing guidance puts the ceiling at **20 shards
+  or fewer per GB of heap**, with heap itself kept under **32 GB** so the JVM can still use
+  compressed object pointers.
+- **Cluster state on the master.** The routing table is replicated to every node and mutated on every
+  allocation change. This is usually what actually breaks first: rebalancing, node join, and restart
+  recovery become slow enough to read as an outage while query latency still looks fine.
+
+Query-side, over-sharding is cost 1 above with the constant multiplied — more shards, more chances to
+draw a slow one, and queueing in the search thread pool well before CPU saturates. It also worsens
+cost 2, since per-shard IDF diverges further the fewer documents each shard holds.
+
+The default worth carrying into a new index is **one shard**, grown deliberately once measured —
+rather than provisioning for the corpus you hope to have.
+
+**This is a different mechanism from the sizing argument above.** [[Compute-Storage Disaggregation]]
+dissolves the *recovery and rebalancing* case for moderate shards, since node loss costs a cache
+refill rather than a re-replication. It does not touch per-shard heap residency or cluster-state
+size, which are properties of how many index structures the cluster tracks, not of where the bytes
+live. A disaggregated system can still be over-sharded.
 
 ## Writes Across Shards
 
