@@ -6,16 +6,16 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 15:50:01 GMT</pubDate>
-  </item><item>
     <title>2026.33</title>
     <link>https://frutik.github.io/awesome-search/History/2026.33</link>
     <guid>https://frutik.github.io/awesome-search/History/2026.33</guid>
     <description><![CDATA[ History — 2026 week 33 (Aug 10 – Aug 16, 2026) Newest first. ]]></description>
+    <pubDate>Mon, 10 Aug 2026 16:03:50 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
     <pubDate>Mon, 10 Aug 2026 15:50:01 GMT</pubDate>
   </item><item>
     <title>global_toc</title>
@@ -42,6 +42,18 @@
     <description><![CDATA[ Qdrant 1.19 - Turbo4 Datatype and Memory Tiers Mohamed Arbi Nsibi walks through four changes in Qdrant 1.19, with runnable client examples and a companion repo. ]]></description>
     <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
+    <title>ASH</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ASH</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ASH</guid>
+    <description><![CDATA[ ASH — Asymmetric Scalar Hashing ASH (Asymmetric Scalar Hashing) compresses database vectors by first projecting them into fewer dimensions with a projection learned from the data, then quantizing what remains. ]]></description>
+    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>ITQ</title>
+    <link>https://frutik.github.io/awesome-search/Concepts/ITQ</link>
+    <guid>https://frutik.github.io/awesome-search/Concepts/ITQ</guid>
+    <description><![CDATA[ ITQ — Iterative Quantization ITQ (Iterative Quantization) is a classic learning-to-hash method: reduce dimensions with PCA, then rotate the reduced space so that rounding each coordinate to one bit loses as little as possible. ]]></description>
+    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>Dylan Castillo</title>
     <link>https://frutik.github.io/awesome-search/People/Dylan-Castillo</link>
     <guid>https://frutik.github.io/awesome-search/People/Dylan-Castillo</guid>
@@ -53,18 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/People/Mohamed-Arbi-Nsibi</guid>
     <description><![CDATA[ Mohamed Arbi Nsibi Writes technical explainers on vector search and Qdrant internals, publishing at mohamedarbi.xyz with runnable companion repos under the Goodnight77 GitHub account. ]]></description>
     <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Quepid Beyond Supported Engines</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Quepid-Beyond-Supported-Engines</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Quepid-Beyond-Supported-Engines</guid>
-    <description><![CDATA[ Quepid Beyond Supported Engines Quepid ships native drivers for a handful of engines. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>2026.32</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.32</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
-    <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 06 Aug 2026 18:44:31 GMT</pubDate>
   </item>
     </channel>
   </rss>

@@ -72,6 +72,12 @@ the full corpus, and that a projection fit on a *different corpus* ([[MS MARCO]]
 transferred usefully to unrelated datasets — down to 64 dims on a 1,536-dim model and 128
 on a 4,096-dim one ([[Honey, I Shrunk the Embeddings - Matryoshka vs PCA]]).
 
+A third data point scales the sample with **dimensionality rather than corpus size**:
+[[ASH]] fits its learned projection on ten times the embedding dimension — roughly 15K
+vectors for a 1,536-dim model — whether the corpus holds 100K vectors or a million. That
+is the shape the theory predicts, since what is being estimated grows with dimensions and
+not with documents, and it is a more transferable rule of thumb than any flat number.
+
 Sample randomly, not by ingestion order — a prefix of a catalog is often one category.
 
 #### What makes a sample "reasonable"
@@ -143,12 +149,53 @@ requirement applies only to fitting: once the projection matrix and mean are sav
 
 The non-negotiable rule for retrieval: **the same fitted transform must be applied to
 documents and to queries.** Fitting one projection on documents and another on queries
-puts the two into different spaces and the similarity scores become meaningless. This
-also makes the projection a versioned artifact — refitting it invalidates the entire
-index, since old and new vectors no longer share a coordinate system.
+puts the two into different spaces and the similarity scores become meaningless.
 
 Fitting on documents and applying to queries is the standard arrangement — stated
 explicitly in Turnbull's write-up, and implied by Castillo's methodology.
+
+#### Refitting is an index schema change
+
+The rule above has an operational consequence that is easy to miss: you cannot
+casually refit the projection and start applying the new transform to incoming
+queries. Old document vectors were projected by the old matrix and old mean; new
+query vectors would be projected by the new ones. The two no longer live in a
+compatible transformed space, and every similarity score computed across the
+boundary is silently wrong — no error is raised, recall just degrades.
+
+So **a newly fitted PCA is effectively an index schema/version change**, not a
+tuning tweak. It carries the same obligations as one:
+
+- Version the artifact (projection matrix + mean) alongside the index it produced,
+  and stamp every index with the transform version it was built under.
+- Refitting means **reprojecting the whole corpus** — a full reindex, not an
+  incremental update.
+- Roll it out the way schema changes are rolled out: build the new index offline,
+  then cut queries over atomically. Serving old documents against a new query
+  transform, even briefly, is the failure mode.
+- Never mix vintages inside one index. Documents added after a refit must be
+  projected by whichever transform that index was built under, until it is rebuilt.
+
+This applies to any *fitted* transform in the pipeline, not only PCA — anything
+whose parameters are learned from data and then applied at query time inherits the
+same discipline: an [[ASH]] or [[ITQ]] learned rotation, an OPQ rotation, a trained
+product-quantization codebook.
+
+Two things soften it at the edges:
+
+- **Data-agnostic transforms still need versioning, for a weaker reason.** [[RaBitQ]]
+  and [[TurboQuant]] rotate before quantizing, but with a *random* rotation — nothing
+  is fitted, so there is no drift and no refit. The rotation is still a stored artifact
+  that documents and queries must share, so regenerating it with a different seed breaks
+  the index just as thoroughly. What you avoid is the reason to ever want to change it.
+- **Asymmetry is about quantization, not projection.** Product quantization and [[ASH]]
+  are called asymmetric because the query is left at full precision while documents are
+  quantized. The query still goes through the same fitted projection. So "asymmetric"
+  methods are not an exception to the rule above — they apply the shared transform and
+  skip only the lossy rounding on the query side.
+
+Training-time alternatives like [[Matryoshka Embeddings]] sidestep the whole problem:
+truncation is a fixed slice, not a fitted matrix, so there is nothing to drift.
 
 ## Measured Cost on Real Embeddings
 
@@ -219,6 +266,8 @@ search, so neither says how the projected space behaves inside an ANN index.
 - [[UMAP]] — non-linear alternative with parametric option
 - [[Matryoshka Embeddings]] — training-time alternative; dimension-flexible without projection
 - [[Vector Quantization]] — complementary compression approach
+- [[ASH]] — combines PCA with a learned rotation and scalar quantization under one bit budget
+- [[ITQ]] — PCA plus a rotation tuned for binarization; the older ancestor of that idea
 - [[HNSW]] — ANN index that benefits from reduced dimensionality
 - [[MS MARCO]] — the corpus the compression numbers above were measured on
 

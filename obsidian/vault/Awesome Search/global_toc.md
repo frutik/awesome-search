@@ -21,7 +21,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
 
 ### ANN Indexing & Quantization
-[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[Token Pooling]]
+[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[ASH]] · [[ITQ]] · [[Token Pooling]]
 
 ### Dimensionality Reduction
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]

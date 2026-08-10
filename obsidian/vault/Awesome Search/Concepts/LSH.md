@@ -41,11 +41,30 @@ On Sift1M, LSH at `nbits = d*4` ran ~10× faster than exact Flat search with goo
 has been **largely superseded by [[HNSW]]** for high-dimensional embeddings, but remains
 a useful, simple option when dimensionality is low.
 
+## The Hash Functions Are a Versioned Artifact
+
+Classic LSH is **data-agnostic**: the hyperplanes are drawn at random, nothing is fitted,
+so there is no training step and no risk of the hash drifting away from the corpus as the
+corpus changes. That is a real operational advantage over learned alternatives.
+
+It does not, however, escape versioning. The random hyperplanes are still a stored artifact
+that documents and queries must share — regenerate them with a different seed and every
+document already in the index becomes unreachable by any new query, with no error raised.
+So the hyperplane set has to be persisted alongside the index and treated as part of its
+schema, exactly as a fitted projection would be. The difference is that you never have a
+*reason* to regenerate it, which is where the data-agnostic route saves you real pain. See
+[[PCA]] for the fitted case, where refitting is both tempting and expensive.
+
+Data-driven hashing does exist and does carry the full burden — [[ITQ]] learns a rotation
+before binarizing, and [[ASH]] generalizes that further.
+
 ## Related Concepts
 
 - [[Approximate Nearest Neighbor Search]] — the problem LSH addresses
 - [[HNSW]] · [[IVF]] — alternative ANN indexes that scale better to high `d`
 - [[Dense Vector Retrieval]] — where ANN indexes are applied
+- [[ITQ]] — learning-to-hash: a rotation fitted to the data instead of random hyperplanes
+- [[ASH]] · [[RaBitQ]] — modern descendants of rotate-then-quantize, learned and random respectively
 
 ## Tools
 

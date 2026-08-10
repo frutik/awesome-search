@@ -60,6 +60,14 @@ Each stage exists to fix the problem the previous one leaves behind:
 
 Run stages 1 and 3 without stage 2 and the combination underperforms — which is likely why "DR vs quantization" gets read as a trade-off at all. The naive stack *is* disappointing. The rotated stack is not.
 
+### The stack, fused: ASH
+
+[[ASH]] (Tepper & Willke, June 2026) is the same three stages with stage 2 upgraded and the whole chain optimized together: PCA, then a rotation **learned for the quantizer that follows** rather than drawn at random, then scalar quantization. It is the strongest available evidence for the hot take above, because it makes the two factors trade against each other explicitly — under a fixed bytes-per-vector budget, it asks how to split that budget between dimensions and bits per dimension, and measures that halving the dimensions to double the bitrate beats keeping every dimension at one bit.
+
+It also puts a number on what stage 2's randomness costs. A random projection at the same budget loses to the learned one, and the gap widens the more dimensions you drop; against [[RaBitQ]] — random rotation, no reduction — ASH measures 2.3–7.1 points higher terminal recall at the same compression. The reason is the caveat in the row below: real embeddings are not isotropic, so the assumption that makes a random rotation theoretically safe does not hold on them.
+
+The cost is exactly what the fit-cost table is about: the learned rotation is an offline-trained, versioned index artifact, where the random one is free and permanent.
+
 ### The real decision axis: where you pay the fit cost
 
 The genuine distinction isn't "reduce dimensions or reduce bits" — it's **how much offline training each stage demands**, a point raised by Mohammad Hasnain in the same thread:
@@ -69,7 +77,8 @@ The genuine distinction isn't "reduce dimensions or reduce bits" — it's **how 
 | [[Binary Quantization]], scalar bit quantization | None — sign/range rules only |
 | [[PCA]] | Yes — eigendecomposition on a representative sample |
 | Product Quantization, [[IVF]] | Yes — codebook / centroid training |
-| Random rotation ([[TurboQuant]]) | No — the rotation is data-independent |
+| Random rotation ([[TurboQuant]], [[RaBitQ]]) | No — the rotation is data-independent |
+| Learned rotation ([[ASH]], [[ITQ]]) | Yes — fitted to the corpus, and a versioned index artifact thereafter |
 | [[Matryoshka Embeddings]] | Yes, but paid at *model* training time |
 
 That table is the one worth reasoning over. [[Matryoshka Embeddings]] makes the point sharply: MRL is dimensionality reduction with the fit cost pushed all the way back into pretraining, leaving truncation free at query time. It is not an alternative to quantization — MRL-truncated vectors get quantized too.
@@ -185,6 +194,8 @@ PCA + SQ8 combined:        ~6–12% recall loss; 12–16× compression
 - [[Matryoshka Embeddings]] — training-time DR; dimension-flexible
 - [[BBQ]] — Elasticsearch's binary quantization
 - [[TurboQuant]] — rotation-based quantization; state of the art
+- [[ASH]] — fuses reduction and quantization under one bit budget with a learned rotation
+- [[ITQ]] — the 2011 ancestor of learning the rotation instead of sampling it
 - [[Vector Search Tradeoffs]] — the parent hub; this note owns the bytes-per-vector axis, which interacts with index choice, filtering, and update cost
 
 ## Sources

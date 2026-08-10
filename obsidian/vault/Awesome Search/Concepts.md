@@ -11,7 +11,7 @@ created: 2026-06-19
 The IR fundamentals that underpin everything in search. Don't try to read all of these at once — for a guided foundation order, see [[How to Start a Career in Search]]. If you learn only three: [[BM25]], [[Precision and Recall]], and how to measure a ranking change ([[NDCG]] + [[Judgment Lists]]).
 
 ## A
-- [[A-B Testing for Search]] · [[ACORN-1]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
+- [[A-B Testing for Search]] · [[ACORN-1]] · [[APD]] · [[ASH]] · [[Approximate Nearest Neighbor Search]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
 
 ## B
 - [[BBQ]] · [[BERT]] · [[BM25]] · [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[Brute-Force Vector Search]]
@@ -35,7 +35,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[HNSW]] · [[Hard Negative Mining]] · [[Hashing Trick]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
 
 ## I
-- [[IVF]] · [[Implicit Judgments]] · [[Impression Bias]] · [[Intent Drift]] · [[Interleaving]] · [[Isolated Feedback Loops]]
+- [[ITQ]] · [[IVF]] · [[Implicit Judgments]] · [[Impression Bias]] · [[Intent Drift]] · [[Interleaving]] · [[Isolated Feedback Loops]]
 
 ## J
 - [[Judgment Lists]]

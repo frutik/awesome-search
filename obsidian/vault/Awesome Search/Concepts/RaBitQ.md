@@ -37,7 +37,21 @@ Qdrant's TurboQuant implementation borrows RaBitQ's **length renormalization** a
 ## Articles
 - [[TurboQuant in Qdrant]] — explains how RaBitQ ideas are incorporated
 
+## A Special Case of ASH
+
+[[ASH]] (2026) reframes RaBitQ as one corner of a larger design space: RaBitQ is what you
+get from ASH when you drop the dimensionality reduction, use a single cluster, and take a
+**random** rotation instead of a learned one. Extended RaBitQ is the same with more than
+one bit per dimension.
+
+The reframing sharpens what RaBitQ trades away. The random rotation is why it needs no
+training and carries a theoretical error bound — but that bound assumes the data is spread
+evenly over the sphere, and real embeddings are not, so a rotation fitted to the corpus can
+do better. ASH measures 2.3–7.1 points higher terminal recall at the same compression.
+
 ## Related Concepts
+- [[ASH]] — generalizes RaBitQ with a learned projection and dimensionality reduction
+- [[ITQ]] — the older learned rotation for binarization
 - [[TurboQuant]] — companion rotation-based algorithm; different quantization approach
 - [[Binary Quantization]] — RaBitQ is a rotation-enhanced variant of binary quantization
 - [[Vector Quantization]] — parent concept
