@@ -38,6 +38,16 @@ Qdrant ships MSE: symmetric scoring is required for HNSW graph construction; the
 | 1.5-bit | 1.5 | ~21× |
 | 1-bit | 1 | 32× |
 
+## Compression vs. Storage Format
+
+The 4-bit operating point above can be deployed two different ways, and the difference is larger than the shared bit-width suggests.
+
+As a **quantization mode**, the compressed vectors accelerate search while float32 originals remain on disk; top candidates are rescored against the originals, which recovers most of the recall lost to compression. Total cost is 36 bits per coordinate — original plus code.
+
+As a **storage format** — [[Qdrant]]'s `Datatype.TURBO4`, added in 1.19 — only the 4-bit code is written. Storage drops to 4 bits per coordinate, and the rescoring stage disappears with the originals, so quantization error becomes permanent rather than a first-pass approximation. This is the operating point where quantization stops being free.
+
+See [[Qdrant 1.19 - Turbo4 Datatype and Memory Tiers]].
+
 ## Performance vs. Alternatives (Qdrant benchmarks, 10 datasets)
 
 - **TQ 4-bit vs SQ (4×)**: competitive — within 2 pp on 9/10 datasets; beats SQ on 3/10 (up to +4.6 pp); half the storage
@@ -58,9 +68,11 @@ Beyond the paper: [[Qdrant]] adds length renormalization from [[RaBitQ]] (per-ve
 
 ## Articles
 - [[TurboQuant in Qdrant]] — Qdrant 1.18 implementation, production extensions, full benchmarks
+- [[Qdrant 1.19 - Turbo4 Datatype and Memory Tiers]] — turbo4 as a storage datatype, without retained originals
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — Elastic's OSQ vs TurboQuant benchmarks
 
 ## People
+- [[Mohamed Arbi Nsibi]] — turbo4 storage datatype writeup
 - [[Ivan Pleshkov]] — Qdrant; TurboQuant implementation
 - [[Thomas Veasey]] — Elastic; OSQ/BBQ comparison benchmarks
 

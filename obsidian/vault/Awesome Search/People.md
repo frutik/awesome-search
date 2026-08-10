@@ -47,7 +47,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Ham]] · [[Laurens van der Maaten]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Luca Arnaboldi]]
 
 ## M
-- [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]]
+- [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
 
 ## N
 - [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]

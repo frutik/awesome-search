@@ -175,7 +175,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
 
-**M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]]
+**M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
 
 **N** — [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 

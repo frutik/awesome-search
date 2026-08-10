@@ -6,23 +6,29 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>All about Information Retrieval &amp; Search</title>
+    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
+    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
+    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
+    <pubDate>Mon, 10 Aug 2026 15:31:43 GMT</pubDate>
+  </item><item>
     <title>History</title>
     <link>https://frutik.github.io/awesome-search/History</link>
     <guid>https://frutik.github.io/awesome-search/History</guid>
     <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 09:44:53 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 15:31:43 GMT</pubDate>
   </item><item>
     <title>2026.33</title>
     <link>https://frutik.github.io/awesome-search/History/2026.33</link>
     <guid>https://frutik.github.io/awesome-search/History/2026.33</guid>
     <description><![CDATA[ History — 2026 week 33 (Aug 10 – Aug 16, 2026) Newest first. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 09:44:53 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 15:31:43 GMT</pubDate>
   </item><item>
     <title>global_toc</title>
     <link>https://frutik.github.io/awesome-search/global_toc</link>
     <guid>https://frutik.github.io/awesome-search/global_toc</guid>
     <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 09:44:53 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 15:31:43 GMT</pubDate>
   </item><item>
     <title>Honey, I Shrunk the Embeddings: Matryoshka vs. PCA</title>
     <link>https://frutik.github.io/awesome-search/Articles/Honey,-I-Shrunk-the-Embeddings---Matryoshka-vs-PCA</link>
@@ -30,10 +36,22 @@
     <description><![CDATA[ Honey, I Shrunk the Embeddings: Matryoshka vs. ]]></description>
     <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
+    <title>Qdrant 1.19 - Turbo4 Datatype and Memory Tiers</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Qdrant-1.19---Turbo4-Datatype-and-Memory-Tiers</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Qdrant-1.19---Turbo4-Datatype-and-Memory-Tiers</guid>
+    <description><![CDATA[ Qdrant 1.19 - Turbo4 Datatype and Memory Tiers Mohamed Arbi Nsibi walks through four changes in Qdrant 1.19, with runnable client examples and a companion repo. ]]></description>
+    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
     <title>Dylan Castillo</title>
     <link>https://frutik.github.io/awesome-search/People/Dylan-Castillo</link>
     <guid>https://frutik.github.io/awesome-search/People/Dylan-Castillo</guid>
     <description><![CDATA[ Dylan Castillo Writes about applied ML and retrieval at dylancastillo.co. ]]></description>
+    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Mohamed Arbi Nsibi</title>
+    <link>https://frutik.github.io/awesome-search/People/Mohamed-Arbi-Nsibi</link>
+    <guid>https://frutik.github.io/awesome-search/People/Mohamed-Arbi-Nsibi</guid>
+    <description><![CDATA[ Mohamed Arbi Nsibi Writes technical explainers on vector search and Qdrant internals, publishing at mohamedarbi.xyz with runnable companion repos under the Goodnight77 GitHub account. ]]></description>
     <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>Quepid Beyond Supported Engines</title>
@@ -47,24 +65,6 @@
     <guid>https://frutik.github.io/awesome-search/History/2026.32</guid>
     <description><![CDATA[ History — 2026 week 32 (Aug 3 – Aug 9, 2026) Newest first. ]]></description>
     <pubDate>Thu, 06 Aug 2026 18:44:31 GMT</pubDate>
-  </item><item>
-    <title>2026.31</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.31</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.31</guid>
-    <description><![CDATA[ History — 2026 week 31 (Jul 27 – Aug 2, 2026) Newest first. ]]></description>
-    <pubDate>Thu, 06 Aug 2026 16:45:48 GMT</pubDate>
-  </item><item>
-    <title>All about Information Retrieval &amp; Search</title>
-    <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
-    <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
-    <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Thu, 06 Aug 2026 14:58:00 GMT</pubDate>
-  </item><item>
-    <title>Multi-Tenancy in Search</title>
-    <link>https://frutik.github.io/awesome-search/Topics/Multi-Tenancy-in-Search</link>
-    <guid>https://frutik.github.io/awesome-search/Topics/Multi-Tenancy-in-Search</guid>
-    <description><![CDATA[ Multi-Tenancy in Search One search system serving many tenants — customers, workspaces, sellers, or individual users — whose data must not leak into each other’s results. ]]></description>
-    <pubDate>Wed, 05 Aug 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>

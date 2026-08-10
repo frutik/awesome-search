@@ -106,10 +106,10 @@ Conference talks and recorded presentations.
 
 Counted 2026-08-05.
 
-- **314** article notes
+- **317** article notes
 - **180** concept notes (incl. Ranking Signal Selection, Isolated Feedback Loops, Impression Bias, Out-of-Time Validation, Hashing Trick, Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5, Contrastive Learning, Staged Judging, Statistical Significance in Search Evaluation)
 - **59** topic notes (incl. Quepid Beyond Supported Engines, Multi-Tenancy in Search, Two-Sided Marketplace Ranking, Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes, Embedding Models Compared, Model Selection and Fine-Tuning Evaluation, Retrieval Benchmarks and Leaderboards)
-- **130** people notes (incl. Themis Mavridis, Soraya Hausl, Andrew Mende, Roberto Pagano, Jose Parreño, Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
+- **133** people notes (incl. Mohamed Arbi Nsibi, Themis Mavridis, Soraya Hausl, Andrew Mende, Roberto Pagano, Jose Parreño, Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya)
 - **14** case study notes (incl. Vespa - Ranking Without Labels on CORD-19, Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
 - **47** company nodes (incl. Booking.com, Amazon Web Services, Elsevier)
 - **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)

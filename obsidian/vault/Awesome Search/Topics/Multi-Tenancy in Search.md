@@ -116,7 +116,12 @@ tenants' documents, so one tenant's bulk import can change another tenant's resu
 with no action on their part. This is the same family of problem as per-shard IDF skew in
 [[Sharding]], but harder to dismiss: tenant corpora are genuinely different vocabularies, and
 "rare term" usually ought to mean rare *for this tenant*. Index-per-tenant makes statistics
-tenant-local by construction.
+tenant-local by construction. Increasingly it is not the only way: [[Qdrant]] 1.19 scopes IDF
+to the tenant inside a shared collection, making tenant-local statistics a scoring option
+rather than a consequence of physical layout. That settles the IDF question without
+physical separation — though only that question: the filtered-ANN recall problem below is a
+separate relevance-correctness argument for per-tenant structure, and per-tenant IDF does
+nothing for it. See [[Qdrant 1.19 - Turbo4 Datatype and Memory Tiers]].
 
 ### Vector search
 

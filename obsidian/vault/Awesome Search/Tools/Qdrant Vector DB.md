@@ -33,6 +33,8 @@ Key capabilities:
 - **Multivectors / late interaction** — native `multivector_config` with `MultiVectorComparator.MAX_SIM` for [[ColBERT]]/[[ColPali]] rerank; see [[Late Interaction in Qdrant]]
 - **Payload filtering** — rich JSON payload per vector with indexed field filtering
 - **Collections** — top-level namespace; each collection has its own vector config and index
+- **Memory tiers** — unified `pinned`/`cached`/`cold` setting per component (v1.19+), replacing the `on_disk`, `always_ram`, and `on_disk_payload` flags
+- **Per-tenant IDF** — [[BM25]] corpus statistics scoped to a tenant inside a shared collection (v1.19+); see [[Multi-Tenancy in Search]]
 
 ## Quantization Options
 
@@ -41,6 +43,7 @@ Key capabilities:
 | Scalar Quantization (int8) | 4× | Near-lossless; default recommended |
 | Binary Quantization | 16×–32× | Significant recall loss without oversampling |
 | [[TurboQuant]] (v1.18+) | 8×–32× | Rotation-based; beats BQ by 9–24 pp recall |
+| turbo4 datatype (v1.19+) | 9× on disk | Stores only the 4-bit code; no originals retained, so no rescoring |
 
 ## Related Tools
 - **[[Weaviate Vector DB]]** — competing vector database; native cross-encoder reranking support
@@ -59,9 +62,10 @@ Key capabilities:
 
 ## Articles
 - [[TurboQuant in Qdrant]]
-
+- [[Qdrant 1.19 - Turbo4 Datatype and Memory Tiers]] — turbo4 storage datatype, memory tiers, per-tenant IDF, slice filtering
 - [[Choosing a Vector Database for ANN Search at Reddit]] — head-to-head vs. Milvus at 340M vectors; Qdrant showed better raw latency at RF=1 but lost on scaling and organizational fit
 
 ## People
 - [[Ivan Pleshkov]] — TurboQuant implementation
 - [[Jonas Schulz]] — TurboQuant co-author
+- [[Mohamed Arbi Nsibi]] — 1.19 release writeup
