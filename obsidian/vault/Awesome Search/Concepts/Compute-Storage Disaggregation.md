@@ -109,7 +109,7 @@ served by an existing cluster.
 - [[Search Architecture]] — where the storage layer sits in the whole system
 - [[Extreme Search Systems]] — the scale dimensions that make this trade worth making
 - [[Multi-Tenancy in Search]] — why namespace-per-tenant became affordable
-- [[Awesome Search/Topics/Economics of Search|Economics of Search]] — cost-per-query as a design constraint
+- [[Economics of Search]] — cost-per-query as a design constraint
 - [[Search Platforms]] — which engines are built this way
 - [[Vector Search Tradeoffs]] — the complementary lever, bytes per vector rather than location of bytes
 

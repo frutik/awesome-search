@@ -284,6 +284,9 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Good-Abandonment-on-Search-Results-Pages</loc>
     <lastmod>2026-06-26T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Honey,-I-Shrunk-the-Embeddings---Matryoshka-vs-PCA</loc>
+    <lastmod>2026-08-09T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/How-Context-Aware-Embeddings-Are-Transforming-Enterprise-Search</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
@@ -1133,9 +1136,6 @@
     <loc>https://frutik.github.io/awesome-search/Concepts</loc>
     <lastmod>2026-06-18T22:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://frutik.github.io/awesome-search/Concepts/A-B-Testing-for-Search</loc>
-    <lastmod>2026-05-15T22:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/ACORN-1</loc>
     <lastmod>2026-05-21T22:00:00.000Z</lastmod>
   </url><url>
@@ -1263,9 +1263,6 @@
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/ELSER</loc>
-    <lastmod>2026-05-15T22:00:00.000Z</lastmod>
-  </url><url>
-    <loc>https://frutik.github.io/awesome-search/Concepts/Economics-of-Search</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Embedding-Fine-tuning</loc>
@@ -1553,9 +1550,6 @@
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Intent</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
-    <loc>https://frutik.github.io/awesome-search/Concepts/Search-Observability</loc>
-    <lastmod>2026-05-31T22:00:00.000Z</lastmod>
-  </url><url>
     <loc>https://frutik.github.io/awesome-search/Concepts/Search-Results-Explainability</loc>
     <lastmod>2026-06-11T22:00:00.000Z</lastmod>
   </url><url>
@@ -1775,6 +1769,9 @@
     <loc>https://frutik.github.io/awesome-search/History/2026.32</loc>
     <lastmod>2026-08-06T18:44:31.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/History/2026.33</loc>
+    <lastmod>2026-08-10T07:04:24.294Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/History/History-Stats</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
   </url><url>
@@ -1885,6 +1882,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Doug-Turnbull</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Dylan-Castillo</loc>
+    <lastmod>2026-08-09T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Elzbieta-Jakubowska</loc>
     <lastmod>2026-06-26T22:00:00.000Z</lastmod>

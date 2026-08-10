@@ -218,7 +218,7 @@ information **ambiently findable**?
 
 ## Related Topics
 
-- [[Awesome Search/Topics/Search Observability|Search Observability]] — the logging and analytics practice this article prescribes
+- [[Search Observability]] — the logging and analytics practice this article prescribes
 - [[E-commerce Search]] — his example of a dynamic, subjective relevance environment
 - [[Search UX]] — presentation, facets and navigation as part of findability
 

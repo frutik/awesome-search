@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Awesome Search/Concepts/A-B Testing for Search|A-B Testing for Search]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -57,7 +57,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Search Architecture & Operations
-[[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Observability]] · [[Search Governance]] · [[Search Team]] · [[Awesome Search/Concepts/Economics of Search|Economics of Search]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
+[[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Governance]] · [[Search Team]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
 
 ### Search UX & Discovery
 [[Faceted Search]] · [[Federated Search]] · [[Search Scopes]] · [[Zero Results]] · [[Results Merchandising]] · [[MMR]]
@@ -73,7 +73,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Multi-Tenancy in Search]]
 
 ### Quality & Operations
-[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[Embedding Models Compared]] · [[Awesome Search/Topics/Search Observability|Search Observability]]
+[[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[Embedding Models Compared]] · [[Search Observability]]
 
 ### Team, Career & Community
 [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Search Consultancy]] · [[Search Communities]] · [[Women of Search]] · [[Events and Conferences]]
@@ -82,7 +82,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Books]] · [[Courses]]
 
 ### Strategy & Meta
-[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Awesome Search/Topics/Economics of Search|Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]]
+[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]]
 
 ---
 
@@ -157,7 +157,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]]
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 

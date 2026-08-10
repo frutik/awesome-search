@@ -174,6 +174,14 @@ eigenvalue spectrum first — a flat spectrum means there is nothing to shrink.
 - [[Dense Vector Retrieval]] — what the compressed vectors serve
 - [[Approximate Nearest Neighbor Search]] — the index PCA is shrinking
 
+## Related Articles
+
+- [[Honey, I Shrunk the Embeddings - Matryoshka vs PCA]] — [[Dylan Castillo]] benchmarks the
+  same technique on [[BEIR]] with much gentler results (82% nDCG retained at 64 of 1,536
+  dims), and against [[Matryoshka Embeddings|MRL]] truncation rather than brute-force
+  recall. Different model, corpus and metric — the spread between the two is the case for
+  measuring your own compression curve.
+
 ## Related Topics
 
 - [[Dimensionality Reduction vs Quantization]] — where PCA sits among compression options

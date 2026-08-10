@@ -70,7 +70,7 @@ This note is a curated entry point into the rest of the vault. Each step links t
 
 ## 1. Read the Topics
 
-The [[Awesome Search/Topics|Topics]] folder is the fastest on-ramp — these are "how to *do* something in search" guides written for practitioners. A suggested reading order:
+The [[Topics]] folder is the fastest on-ramp — these are "how to *do* something in search" guides written for practitioners. A suggested reading order:
 
 - [[Search Problem Archetypes]] — recognize the recurring shapes of search problems
 - [[E-commerce Search]] — the most common commercial application, and a great worked example
@@ -86,7 +86,7 @@ Then branch into whatever vertical interests you: [[Enterprise Search]], [[Multi
 
 ## 2. Move to the Concepts
 
-Once a topic raises a term you don't know, follow it into [[Awesome Search/Concepts|Concepts]]. Don't try to read all 130+ — learn this foundation first, in roughly this order:
+Once a topic raises a term you don't know, follow it into [[Concepts]]. Don't try to read all 130+ — learn this foundation first, in roughly this order:
 
 **Retrieval & scoring**
 - [[BM25]] — the lexical baseline you must understand cold
@@ -123,14 +123,14 @@ Search has a small, unusually open community. Following the right people gives y
 - [[James Rubinstein]] — search evaluation and metrics
 - [[Giovanni Fernandez-Kincade]] · [[Atita Arora]] · [[Nikhil Dandekar]] · [[Eugene Yan]] — applied search & ML
 
-See the full roster in [[Awesome Search/People|People]].
+See the full roster in [[People]].
 
 **Companies whose engineering blogs are worth tracking**
 - Consultancies that publish openly: [[OpenSource Connections]], [[Sease]], [[The Search Juggler]]
 - Platform vendors: [[Elastic]], [[Vespa]], [[Algolia]], [[Weaviate]], [[Qdrant]], [[Cohere]]
 - End-user teams with strong case studies: [[Etsy]], [[Airbnb]], [[Uber]], [[Spotify]], [[Zalando]], [[Reddit]]
 
-The [[Awesome Search/Case Studies|Case Studies]] are how these companies actually solved real problems — read them like field reports.
+The [[Case Studies]] are how these companies actually solved real problems — read them like field reports.
 
 ---
 
@@ -148,7 +148,7 @@ Read *Relevant Search* for intuition, *Introduction to IR* for rigor, *AI-Powere
 
 ## 5. Read the Case Studies
 
-Books and courses teach the principles; **case studies show how the industry leaders actually applied them** — with the constraints, dead-ends, and tradeoffs textbooks omit. The [[Awesome Search/Case Studies|Case Studies]] folder collects how real teams built and fixed search at scale. Read each like a field report and ask: *what was the problem, what did they try, how did they measure success, and what would I have done differently?*
+Books and courses teach the principles; **case studies show how the industry leaders actually applied them** — with the constraints, dead-ends, and tradeoffs textbooks omit. The [[Case Studies]] folder collects how real teams built and fixed search at scale. Read each like a field report and ask: *what was the problem, what did they try, how did they measure success, and what would I have done differently?*
 
 | Case study | Company | What to learn from it |
 |---|---|---|
@@ -201,7 +201,7 @@ You don't have to travel — many talks are posted free on YouTube, and there ar
 
 ## 8. Explore the Tools
 
-Theory sticks only when you build. Stand up a real engine, index a dataset, write some queries, and — crucially — measure your results. The [[Awesome Search/Tools|Tools]] folder covers the landscape; compare options in [[Search Platforms]].
+Theory sticks only when you build. Stand up a real engine, index a dataset, write some queries, and — crucially — measure your results. The [[Tools]] folder covers the landscape; compare options in [[Search Platforms]].
 
 **Get hands-on with:**
 - A search engine: [[Elasticsearch]] or [[OpenSearch]] (compare in [[Elasticsearch vs OpenSearch]]); or [[Vespa]] for ranking depth

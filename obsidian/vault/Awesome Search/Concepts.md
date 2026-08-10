@@ -66,7 +66,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
 
 ## S
-- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Observability]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Sharding]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]]
+- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Sharding]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]]
 
 ## T
 - [[Task-Aware Embeddings]] · [[Text Chunking]] · [[Token Pooling]] · [[Tokenization]] · [[TurboQuant]] · [[t-SNE]]

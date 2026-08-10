@@ -9,6 +9,13 @@ Skills for building and maintaining the Awesome Search knowledge graph in Obsidi
 | `awesome-search-knowledge-graph` | Article URL, note title, or "process/enrich this note" | Full KG ingestion pipeline: fetch article → extract entities → create/update notes → add wikilinks across articles, concepts, people, companies, topics |
 | `awesome-search-tutor` | "Explain X", "what do practitioners think about Y" | Fetches articles from the README and answers questions about IR and search |
 
+## Knowledge Graph — Publishing
+
+| Skill | Trigger | What it does |
+|---|---|---|
+| `kg-readme-writer` | After vault changes, or `/kg-readme-writer` | Syncs root `README.md` with the latest History weeks and `global_toc.md`, wikilinks converted to site links |
+| `awesome-search-kg-mail-writer` | `/awesome-search-kg-mail-writer [<year>.<week>]`, or "write this week's email" | Compiles the week's History entries into an HTML mailing-list digest at `mailing-list/<year>.<week>.html` |
+
 ## Knowledge Graph — Quality Audits
 
 Run in this order for best results: **frontmatter → orphans → hubs → clusters**

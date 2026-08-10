@@ -108,3 +108,5 @@ Dense embeddings are not the only option, and often not the best first stage. Th
 - [[Retrieval Benchmarks and Leaderboards]] — where these rankings come from
 - [[MTEB]] · [[BEIR]] — the benchmarks themselves
 - [[Sentence Transformers]] — the standard library for serving and fine-tuning open-weight models
+- [[Dimensionality Reduction vs Quantization]] — the compression axis behind the dimensionality tradeoff
+- [[Honey, I Shrunk the Embeddings - Matryoshka vs PCA]] — how far three of these models compress before nDCG@10 falls off, and whether MRL support is the advantage it looks like

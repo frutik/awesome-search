@@ -73,6 +73,10 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — [[Jo Kristian Bergum]]; what BEIR contains and why its per-dataset judgment depth varies by three orders of magnitude ([[TREC-COVID]] ~493.5 judgments/query vs [[Natural Questions]] ~1.2)
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — a **tuned BM25 baseline beating the BM25 numbers published with BEIR** (0.453 vs 0.440 avg), and hybrid BM25 + distilled [[ColBERT]] at **0.481**, winning 12 of 13 datasets
 - [[PROMPTAGATOR]] — the few-shot comparison point on the BEIR subset it reports
+- [[Honey, I Shrunk the Embeddings - Matryoshka vs PCA]] — eight subsets used as a
+  *compression* testbed rather than a model ranking: nDCG@10 retained after [[PCA]] and
+  [[Matryoshka Embeddings|MRL]] truncation, with the author flagging BEIR's presence in
+  embedding training data as a contamination risk on his own numbers
 
 ## Related Concepts
 

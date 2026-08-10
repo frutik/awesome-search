@@ -29,8 +29,8 @@ related_concepts:
 related_topics:
   - "[[Vector Search Tradeoffs]]"
   - "[[Search Platforms]]"
-  - "[[Awesome Search/Topics/Search Observability|Search Observability]]"
-  - "[[Awesome Search/Topics/Economics of Search|Economics of Search]]"
+  - "[[Search Observability]]"
+  - "[[Economics of Search]]"
   - "[[Migration between Search Engines]]"
   - "[[E-commerce Search]]"
   - "[[Search using PostgreSQL]]"
@@ -67,7 +67,7 @@ it finds the one coupling nobody budgeted for.
 | Facet / aggregation cardinality | Filtering over huge distinct-value fields | [[Zalando - Self-DoS via Facet Aggregation]] |
 | Ranking complexity | ML reranking multiplying per-query compute | [[Retrieval Pipeline]] |
 | Geo-distribution | Cross-region replication, routing, consistency | *(gap — see below)* |
-| Cost efficiency | Cost-per-query as a first-class constraint | [[Awesome Search/Topics/Economics of Search|Economics of Search]] |
+| Cost efficiency | Cost-per-query as a first-class constraint | [[Economics of Search]] |
 | Graceful degradation | Partial results beat an all-or-nothing outage | [[Canva - Search Pipeline Modernization]] |
 
 ## Index Size
@@ -240,7 +240,7 @@ write-up.
 At this scale, cost-per-query becomes a design constraint on par with capability: compression, tiered
 storage, and hardware utilization matter as much as recall.
 
-[[Awesome Search/Topics/Economics of Search|Economics of Search]] holds the business framing. Three mechanical levers, in rough order of
+[[Economics of Search]] holds the business framing. Three mechanical levers, in rough order of
 effort:
 
 1. **Bytes per vector** — usually the best return per unit of effort, since
@@ -264,7 +264,7 @@ users as [[Zero Results|"0 results found"]], indistinguishable from a legitimate
 therefore the worst possible degradation signal.
 
 Designing this well means deciding, in advance, what a degraded result is allowed to look like and how
-the user and your monitoring can tell it apart from a healthy one. See [[Awesome Search/Topics/Search Observability|Search Observability]].
+the user and your monitoring can tell it apart from a healthy one. See [[Search Observability]].
 
 ## Case Studies in This Vault
 
@@ -285,7 +285,7 @@ the user and your monitoring can tell it apart from a healthy one. See [[Awesome
 - [[Sharding]] · [[Compute-Storage Disaggregation]] — the two structural axes in full
 - [[Vector Search Tradeoffs]] — the same axes viewed from the vector index side
 - [[Search Platforms]] — which engine survives which dimension
-- [[Awesome Search/Topics/Search Observability|Search Observability]] — you cannot manage any of this without per-layer instrumentation
+- [[Search Observability]] — you cannot manage any of this without per-layer instrumentation
 - [[Migration between Search Engines]] — what happens when a platform runs out of a dimension
 - [[Hybrid Search]] — lexical + vector, and the fusion costs it adds per query
 - [[Search Evaluation]] — the quality side; scale changes what you can afford to measure

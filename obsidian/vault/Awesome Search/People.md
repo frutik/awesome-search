@@ -20,7 +20,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Charlie Hull]] · [[Chris Fournie]]
 
 ## D
-- [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]]
+- [[Dai Sugimori]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]]
 
 ## E
 - [[Elzbieta Jakubowska]] · [[Erik Hatcher]] · [[Eugene Yan]] · [[Evgeniya Sukhodolskaya]]

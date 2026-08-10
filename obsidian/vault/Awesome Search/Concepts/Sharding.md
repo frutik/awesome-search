@@ -166,7 +166,7 @@ retraining. See Axis 4 of [[Vector Search Tradeoffs]].
 - [[Uber Eats - Scaling Search for Food Delivery]] — H3 geosharding in production
 - [[Vinted - Migrating Search from Elasticsearch to Vespa]] — ~1B items, 20,000 req/s at <150 ms p99
 - [[Approximate Nearest Neighbor Search]] — the per-shard index the fan-out sits on top of
-- [[Awesome Search/Topics/Search Observability|Search Observability]] — per-shard instrumentation is how tail latency gets diagnosed
+- [[Search Observability]] — per-shard instrumentation is how tail latency gets diagnosed
 
 ## Sources
 

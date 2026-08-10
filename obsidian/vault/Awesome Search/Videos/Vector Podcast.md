@@ -58,7 +58,7 @@ It sits alongside the meetups and Slack groups catalogued in [[Search Communitie
 | Aug 2026 | Berlin Buzzwords 2026 — Charlie Hull on the role of search in the AI era | [[Charlie Hull]] · [[Berlin Buzzwords]] |
 | Jun 2026 | Berlin Buzzwords 2026 — Trey Grainger & Doug Turnbull, role of search in modern AI | [[Trey Grainger]] · [[Doug Turnbull]] |
 | Nov 2025 | Trey Grainger — Wormhole Vectors | [[Wormhole Vectors]] · [[Hybrid Search]] |
-| Sep 2025 | Simon Eskildsen (Turbopuffer) — economical vector search workloads | [[Awesome Search/Topics/Economics of Search\|Economics of Search]] |
+| Sep 2025 | Simon Eskildsen (Turbopuffer) — economical vector search workloads | [[Economics of Search]] |
 | Mar 2025 | Daniel Wrigley & Eric Pugh — adding an ML layer to search: Hybrid Search Optimizer | [[Daniel Wrigley]] · [[Hybrid Search]] |
 | Jan 2025 | Leo Boytsov (AWS) — debunking myths of vector search and LLMs | [[Dense Vector Retrieval]] |
 | Nov 2024 | Berlin Buzzwords 2024 — Alessandro Benedetti, LLMs in Solr | [[Solr]] |
@@ -66,7 +66,7 @@ It sits alongside the meetups and Slack groups catalogued in [[Search Communitie
 | Jun 2024 | Eric Pugh — measuring search quality with Quepid | [[Quepid]] · [[Search Evaluation]] |
 | May 2023 | Atita Arora — revolutionizing e-commerce with vector search | [[Atita Arora]] · [[E-commerce Search]] |
 | Jan 2023 | Evgeniya Sukhodolskaya (Toloka) — data at the core of ML | [[Evgeniya Sukhodolskaya]] |
-| Oct 2022 | Doug Turnbull (Shopify) — search as a constant experimentation cycle | [[Shopify]] · [[Awesome Search/Topics/A-B Testing for Search\|A-B Testing for Search]] |
+| Oct 2022 | Doug Turnbull (Shopify) — search as a constant experimentation cycle | [[Shopify]] · [[A-B Testing for Search]] |
 | Jun 2022 | Max Irwin — economics of scale in embedding computation (Mighty) | [[Max Irwin]] · [[Embeddings]] |
 | May 2022 | Daniel Tunkelang — leveraging ML for query and content understanding | [[Daniel Tunkelang]] · [[Query Understanding]] |
 | Apr 2022 | Jo Bergum — the journey of Vespa from sparse into neural search | [[Jo Kristian Bergum]] · [[Vespa]] |

@@ -4,7 +4,7 @@ title: "Multi-Tenancy in Search"
 aliases: ["multitenancy", "multi-tenant search", "tenant isolation", "index per tenant", "namespace per tenant", "tenant routing"]
 tags: [topic, search-architecture, scalability, saas, access-control]
 related_concepts: ["[[Sharding]]", "[[Unified Search Index]]", "[[Denormalization for Search]]", "[[Compute-Storage Disaggregation]]", "[[Vector Filtering]]", "[[Search Scopes]]", "[[Search Governance]]", "[[Search Architecture]]", "[[BM25]]", "[[HNSW]]", "[[Learning to Rank]]"]
-related_topics: ["[[Extreme Search Systems]]", "[[Federated vs Unified Search]]", "[[Enterprise Search]]", "[[Search Platforms]]", "[[Awesome Search/Topics/Economics of Search|Economics of Search]]", "[[Awesome Search/Topics/Search Observability|Search Observability]]", "[[Migration between Search Engines]]"]
+related_topics: ["[[Extreme Search Systems]]", "[[Federated vs Unified Search]]", "[[Enterprise Search]]", "[[Search Platforms]]", "[[Economics of Search]]", "[[Search Observability]]", "[[Migration between Search Engines]]"]
 articles: []
 created: 2026-08-06
 ---
@@ -142,7 +142,7 @@ units where the same tenant in its own 1 GB namespace consumes 1.
   deployment path.
 - **Evaluation** — judgment lists are per-tenant, and an aggregate NDCG is dominated by
   whichever tenant contributes the most traffic. A/B tests need tenant-level randomization,
-  or a single large tenant swamps the sample; see [[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]].
+  or a single large tenant swamps the sample; see [[A-B Testing for Search]].
 
 ---
 
@@ -157,9 +157,9 @@ units where the same tenant in its own 1 GB namespace consumes 1.
   suggests.
 - **Observability.** Aggregate metrics hide tenancy problems: one tenant with a broken p99
   disappears into a healthy average. Per-tenant dimensions on latency, error, and zero-result
-  rates are the minimum — see [[Awesome Search/Topics/Search Observability|Search Observability]].
+  rates are the minimum — see [[Search Observability]].
 - **Cost attribution.** Cost per tenant is the number that decides pooling versus dedication,
-  and it is the [[Awesome Search/Topics/Economics of Search|Economics of Search]] question in
+  and it is the [[Economics of Search]] question in
   its most direct form.
 
 ---
@@ -229,7 +229,7 @@ platform forces exactly this design, and is a recurring source of surprise in
 - [[Compute-Storage Disaggregation]] — why idle tenants stopped being expensive
 - [[Vector Filtering]] — the filtered-ANN problem tenancy runs into
 - [[Search Scopes]] — the user-facing cousin of partitioning
-- [[Search Governance]] · [[Enterprise Search]] · [[Awesome Search/Topics/Economics of Search|Economics of Search]]
+- [[Search Governance]] · [[Enterprise Search]] · [[Economics of Search]]
 - [[Bonsai - Designing Search for a Relational Database]] · [[Slack - Enterprise Message Search with LTR]] · [[Zalando - Self-DoS via Facet Aggregation]]
 
 ## Sources

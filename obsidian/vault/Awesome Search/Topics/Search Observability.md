@@ -1,7 +1,7 @@
 ---
 type: topic
 title: "Search Observability"
-aliases: ["search monitoring", "search telemetry", "search instrumentation"]
+aliases: ["search monitoring", "search telemetry", "search instrumentation", "production search monitoring"]
 tags:
   - topic
   - monitoring
@@ -9,7 +9,6 @@ tags:
   - search-quality
   - production
 related_concepts:
-  - "[[Search Observability]]"
   - "[[Click Signals]]"
   - "[[Clicks Residual]]"
   - "[[Zero Results]]"

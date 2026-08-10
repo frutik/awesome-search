@@ -32,4 +32,4 @@ The MongoDB Hybrid Search series, in order:
 - [[Reciprocal Rank Fusion]] — worked in full in part 2
 - [[Relative Score Fusion]] — worked in full in part 2
 - [[Score Normalization]] — the step he flags as decisive for score fusion
-- [[Awesome Search/Topics/Search Observability|Search Observability]] — the query/click logging practice he prescribes as a prerequisite
+- [[Search Observability]] — the query/click logging practice he prescribes as a prerequisite
