@@ -74,6 +74,39 @@ on a 4,096-dim one ([[Honey, I Shrunk the Embeddings - Matryoshka vs PCA]]).
 
 Sample randomly, not by ingestion order — a prefix of a catalog is often one category.
 
+#### What makes a sample "reasonable"
+
+"Sample randomly, 10–100K" leaves the operative word undefined. The working
+criterion: the sample is large and representative enough that **the principal
+components stop moving when you add more data** — stability of the projection,
+not of any downstream score.
+
+A conservative starting range for high-dimensional catalog embeddings is 50–100K
+vectors, and cost is not the constraint: 100K × 1,536 dims × 4 bytes is ~615 MB
+as float32, an unremarkable fit. Castillo's measurement above puts the plateau
+two orders of magnitude lower, at 1,000 documents — so treat 50–100K as a
+starting point that is safe rather than one that is necessary, and let the curve
+below say where it actually flattens for your corpus.
+
+Two things decide whether that number is right:
+
+**Test it as a curve, not a guess.** Fit at 25K / 50K / 100K / 250K and score
+downstream retrieval at each — nDCG@10 or Recall@K, *not*
+`explained_variance_ratio_`. Explained variance says how much of the covariance
+survived; it does not say whether the neighbours survived. If 100K and 250K give
+essentially identical retrieval, 100K was reasonable.
+
+**Representativeness beats sheer size.** A uniform random sample of a product
+catalog is dominated by its largest categories, and the projection it learns is
+slightly worse for the rare ones. Stratify across whatever actually varies —
+categories, languages, markets — before reaching for more vectors. Stratifying
+100K matters more than going from 100K to 1M.
+
+*Source: a ChatGPT exchange (2026-08-10) reasoning about [[Doug Turnbull]]'s
+sampling advice in [[Principal Component Analysis - an embedding shrink-ray]].
+The sample sizes are rules of thumb rather than measured results — the
+validation loop is the transferable part, not the numbers.*
+
 ### 2. Incremental PCA (bounded memory, exact-ish)
 
 `sklearn.decomposition.IncrementalPCA` fits batch by batch, so peak memory tracks the
@@ -104,7 +137,9 @@ Fine when the fitting set already fits — which, given option 1, it usually doe
 ### What you must store and re-apply
 
 The fitted artifact is **the projection matrix and the mean vector**. PCA centers before
-projecting, so the mean is part of the transform, not a detail of the fit.
+projecting, so the mean is part of the transform, not a detail of the fit. The batch
+requirement applies only to fitting: once the projection matrix and mean are saved
+(`joblib.dump`), transforming is a matrix multiply per vector and needs no batch at all.
 
 The non-negotiable rule for retrieval: **the same fitted transform must be applied to
 documents and to queries.** Fitting one projection on documents and another on queries

@@ -25,6 +25,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Search Problem Archetypes]]
 - [[Relevance Program Setup]]
 - [[Search Quality Assurance]]
+- [[Quepid Beyond Supported Engines]]
 - [[A-B Testing for Search]]
 - [[Duality in Measuring Search]]
 - [[NDCG Variants]]

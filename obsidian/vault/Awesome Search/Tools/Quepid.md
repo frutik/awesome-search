@@ -65,7 +65,7 @@ See [[Relevance Evaluation Tools Compared]] for a full Quepid vs. Workbench vs. 
 
 ## Practical Use Cases
 
-Because Quepid drives any search engine over **HTTP**, it isn't tied to Elasticsearch/Solr — there are known cases of using it for relevance tracking against **[[Vespa]]**, **[[Qdrant Vector DB|Qdrant]]**, and arbitrary **custom search APIs** (wired in as a custom endpoint). Beyond the canonical lexical/Elasticsearch workflow, practitioners push Quepid toward harder cases:
+Because Quepid drives any search engine over **HTTP**, it isn't tied to Elasticsearch/Solr — there are known cases of using it for relevance tracking against **[[Vespa]]**, **[[Qdrant Vector DB|Qdrant]]**, and arbitrary **custom search APIs** (wired in as a custom endpoint); see [[Quepid Beyond Supported Engines]] for the full landscape of documented cases and what breaks in each. Beyond the canonical lexical/Elasticsearch workflow, practitioners push Quepid toward harder cases:
 
 - **Collaborative team judging** — cases, teams, and books of judgements with explicit *information needs*; see [[Creating Judgement Lists with Quepid]].
 - **AI-generated judgements** — as of v8, an LLM can generate judgements to scale annotation ([[LLM as Judge]]).
