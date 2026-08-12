@@ -66,4 +66,4 @@ Not all attributes make useful facets. Good facets:
 ## Related Articles
 
 - [[Query Understanding - Introduction]]
-- [[Deconstructing E-Commerce Search - The 12 Query Types]]
+- [[Ecommerce Search UX - 8 Query Types]]

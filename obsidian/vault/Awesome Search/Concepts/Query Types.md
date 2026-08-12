@@ -1,7 +1,7 @@
 ---
 type: concept
 title: "Query Types"
-aliases: ["search query types", "query classification", "e-commerce query types"]
+aliases: ["search query types", "e-commerce query types", "query type taxonomy"]
 tags:
   - concept
   - query-understanding
@@ -17,18 +17,31 @@ Query types are taxonomies that classify search queries by their structural char
 
 ## Baymard's 8 E-commerce Query Types
 
-Baymard Institute's taxonomy for e-commerce search (widely referenced):
+Baymard Institute's taxonomy for e-commerce search, derived from large-scale usability testing. The percentage is the share of benchmarked sites that fail to support that type — see [[Ecommerce Search UX - 8 Query Types]].
 
-| Type | Example | Challenge |
-|------|---------|-----------|
-| **Exact product match** | "Nikon D800" | Match by SKU/model number exactly |
-| **Category** | "cameras" | Return best in category, not just best-selling |
-| **Non-product** | "return policy" | Service content, not products |
-| **Symptom** | "blurry photos" | Infer product from problem |
-| **Compatibility** | "lens for D800" | Structured matching required |
-| **Comparative** | "mirrorless vs DSLR" | Educational content |
-| **Thematic** | "birthday gift for photographer" | Discovery + semantic search |
+| Type | Example | Sites with issues | Challenge |
+|------|---------|---|-----------|
+| **Exact** | "Nikon D800" | 12% | Match a specific model or SKU exactly |
+| **Product Type** | "chairs" | 20% | Broad type; behaves like a category page request |
+| **Feature** | "wireless noise cancelling headphones" | 39% | Attribute matching against structured data |
+| **Use Case** | "running shoes for marathons" | 43% | Activity implies attributes never stated |
+| **Abbreviation and Symbol** | "13in laptop", "tv w/ hdmi" | 54% | Tokenisation and normalisation of symbols and shorthand |
+| **Compatibility** | "case for MacBook Air M2" | 44% | Structured relation between two products |
+| **Symptom** | "my back hurts pillow" | 37% | Infer product category from a described problem |
+| **Non-Product** | "return policy" | 66% | Service content, not products |
+
+The ranking is the finding: the types sites handle worst are the ones furthest from the catalog's own vocabulary. Only "chairs" is an example drawn from the source; the rest are illustrative.
+
+## Other Common Type Labels
+
+Widely used in practice but **not** part of Baymard's taxonomy — worth keeping distinct when citing sources:
+
+| Type | Example | Note |
+|------|---------|------|
+| **Category** | "cameras" | Overlaps Baymard's "Product Type" |
 | **Branded** | "Nike shoes" | Filter + rank within brand |
+| **Thematic** | "birthday gift for photographer" | Discovery; benefits from semantic retrieval |
+| **Comparative** | "mirrorless vs DSLR" | Educational content, not a product listing |
 
 ## Academic Query Type Taxonomies
 
@@ -61,6 +74,7 @@ When building [[Judgment Lists]], stratified sampling by query type ensures eval
 
 ## Related Concepts
 
+- [[Query Classification]] — assigning queries to these types in production
 - [[Search Intent]] — goal-based classification (overlaps)
 - [[Query Understanding]] — broader processing framework
 - [[Judgment Lists]] — query type used in sampling strategy

@@ -77,3 +77,4 @@ class HypotheticalDocumentEmbedder:
 ## Articles
 
 - [[Hypothetical Document Embeddings HyDE]] — Haystack docs
+- [[Don't Classify, Hallucinate]] — [[Doug Turnbull]] applies the same generate-then-resolve structure to a category taxonomy rather than a corpus; see [[Query Classification]]

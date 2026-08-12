@@ -63,6 +63,10 @@ Query-to-attribute extraction used to require extensive NLP research. LLMs now m
 
 Doug notes a link to [[Agentic Search]] — with metadata retrieval, many semantic-seeming problems become solvable through attribute-based approaches, without needing dense embeddings. This may reduce the reliance on sophisticated retrieval in certain domains.
 
+## Related Topics
+
+- [[Query Classification]] — attribute extraction as one of the classification jobs
+
 ## Related Concepts
 
 - [[Query Understanding]] — attribute extraction from queries
@@ -74,7 +78,7 @@ Doug notes a link to [[Agentic Search]] — with metadata retrieval, many semant
 ## Related Articles
 
 - [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]]
-- [[Deconstructing E-Commerce Search - The 12 Query Types]]
+- [[Ecommerce Search UX - 8 Query Types]]
 
 ## People
 

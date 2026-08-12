@@ -5,7 +5,7 @@ tags: [topic, e-commerce, product-search]
 related_concepts: ["[[Query Types]]", "[[Zero Results]]", "[[Faceted Search]]", "[[Results Merchandising]]", "[[Results Boosting]]", "[[Learning to Rank]]", "[[Personalization]]"]
 related_topics: ["[[Search Result Diversity]]", "[[Synonyms and Vocabulary Management]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]"]
 articles: [
-  "[[Deconstructing E-Commerce Search - The 12 Query Types]]",
+  "[[Ecommerce Search UX - 8 Query Types]]",
   "[[Targeting Broad Queries in Search]]",
   "[[Three Pillars of Search Quality - Findability]]",
   "[[Three Pillars of Search Quality - Discovery and Inspiration]]",

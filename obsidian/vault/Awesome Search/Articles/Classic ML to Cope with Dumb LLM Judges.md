@@ -80,6 +80,11 @@ Local LLMs can serve as **ML feature generators** for relevance: keep each LLM c
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — [[Aparna Dhinakaran]]; when to add CoT to LLM judge prompts
 - [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]]; LLM calibrated on human labels for scale-up
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline using LLM judge at scale
+- [[Don't Classify, Hallucinate]] — same author, same WANDS dataset; the resolve-downstream answer to the same cost problem this article answers by ensembling
+
+## Related Topics
+
+- [[Query Classification]] — the dumb-call ensemble as a rung on the classification method ladder
 
 ## People
 

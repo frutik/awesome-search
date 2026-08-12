@@ -84,6 +84,7 @@ This makes query understanding dynamic rather than a static preprocessing step.
 - [[Search Intent]] — component of QU
 - [[Query Segmentation]] — component of QU
 - [[Query Types]] — taxonomy of user queries
+- [[Query Classification]] — how those taxonomies get assigned in production
 - [[Agentic Search]] — dynamic query understanding
 - [[Semantic Search]] — benefits from good query understanding
 - [[Bag-of-Documents Model]] — probabilistic framing of query intent
@@ -94,6 +95,7 @@ This makes query understanding dynamic rather than a static preprocessing step.
 ## Articles
 
 - [[Semantic Search Without Embeddings]] — [[Doug Turnbull]]; taxonomy-based; hierarchical tokenizer + BM25; LLMs for classification
+- [[Don't Classify, Hallucinate]] — [[Doug Turnbull]]; generate a fake category, resolve it onto the real taxonomy by embedding similarity
 - [[Superintelligent Retrieval Agent SIRA]] — LLM-enriched BM25; corpus enrichment + query expansion; beats agentic RAG on BEIR
 - [[Incremental AI Adoption for E-commerce Search]] — 4 levels from traditional to conversational AI
 

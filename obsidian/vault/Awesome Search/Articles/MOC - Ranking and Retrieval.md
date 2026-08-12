@@ -25,7 +25,7 @@ Map of content covering lexical retrieval, learning to rank, hybrid fusion, mult
 
 ### Classic Search Problems
 - [[Broad and Ambiguous Search Queries]] — Tunkelang on disambiguation strategies
-- [[Deconstructing E-Commerce Search - The 12 Query Types]] — Baymard's query taxonomy
+- [[Ecommerce Search UX - 8 Query Types]] — Baymard's query taxonomy
 
 ## Hybrid Search
 

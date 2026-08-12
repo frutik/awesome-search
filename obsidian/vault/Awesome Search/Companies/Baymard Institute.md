@@ -14,7 +14,7 @@ Its house style is the quantified guideline — "*N% of sites get this wrong*" �
 
 ## Key Research in this Vault
 
-- [[Deconstructing E-Commerce Search - The 12 Query Types]] — Baymard's taxonomy of e-commerce search queries
+- [[Ecommerce Search UX - 8 Query Types]] — Baymard's 8-type taxonomy of e-commerce search queries
 - [[13 Design Patterns for Autocomplete Suggestions]] — autocomplete UX patterns (27% get it wrong)
 
 ## Topics They Inform

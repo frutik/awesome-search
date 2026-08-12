@@ -4,7 +4,7 @@ aliases: ["search archetypes", "search problem patterns", "search problem diagno
 tags: [topic, search-strategy, problem-diagnosis, search-archetypes]
 related_concepts: ["[[Search Evaluation]]", "[[Judgment Lists]]", "[[Zero Results]]", "[[Knowledge Graph Search]]", "[[Agentic Search]]", "[[Precision and Recall]]", "[[Personalization]]", "[[Search Intent]]", "[[Query Types]]"]
 related_topics: ["[[E-commerce Search]]", "[[Enterprise Search]]", "[[Relevance Program Setup]]", "[[Conversational and Agentic Search]]"]
-articles: ["[[Before You Fix Your Search, Know What's Actually Broken]]", "[[Search - Intent Not Inventory]]", "[[Deconstructing E-Commerce Search - The 12 Query Types]]"]
+articles: ["[[Before You Fix Your Search, Know What's Actually Broken]]", "[[Search - Intent Not Inventory]]", "[[Ecommerce Search UX - 8 Query Types]]"]
 created: 2026-06-18
 ---
 
@@ -74,7 +74,7 @@ Teams self-diagnose with comfortable, sophisticated-sounding answers — "we nee
 ## Articles
 - [[Before You Fix Your Search, Know What's Actually Broken]] — [[Atita Arora]]; source of this framework
 - [[Search - Intent Not Inventory]] — complementary "name the real problem" framing
-- [[Deconstructing E-Commerce Search - The 12 Query Types]] — query-level taxonomy within the e-commerce archetypes
+- [[Ecommerce Search UX - 8 Query Types]] — query-level taxonomy within the e-commerce archetypes
 
 ## People
 - [[Atita Arora]] — author of the archetype framework

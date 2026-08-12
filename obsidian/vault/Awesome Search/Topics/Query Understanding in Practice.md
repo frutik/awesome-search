@@ -47,6 +47,9 @@ Most production QU pipelines implement these sequentially, with each step inform
 ## Layer 2: Query Annotation
 
 ### Intent Classification
+
+The engineering of this layer — label-set design, the residual bucket, the method ladder from regex to LLM — is covered in [[Query Classification]].
+
 Multi-label classifier assigns query intent categories:
 - Navigational ("Shake Shack downtown")
 - Transactional ("buy running shoes")
@@ -149,6 +152,7 @@ Query understanding is upstream of retrieval, so QU failures show up in retrieva
 
 ## Related
 
+- [[Query Classification]] — the annotation layer treated as its own engineering problem
 - [[Synonyms and Vocabulary Management]] — vocabulary layer of QU
 - [[Autocomplete and Autosuggest]] — suggestions reduce the QU burden
 - [[Conversational and Agentic Search]] — LLM-native QU extension

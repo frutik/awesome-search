@@ -6,64 +6,64 @@
       <description>Last 10 notes on Awesome Search KG</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>2026.33</title>
-    <link>https://frutik.github.io/awesome-search/History/2026.33</link>
-    <guid>https://frutik.github.io/awesome-search/History/2026.33</guid>
-    <description><![CDATA[ History — 2026 week 33 (Aug 10 – Aug 16, 2026) Newest first. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 16:03:50 GMT</pubDate>
+    <title>Don&#039;t classify. Hallucinate!</title>
+    <link>https://frutik.github.io/awesome-search/Articles/Don't-Classify,-Hallucinate</link>
+    <guid>https://frutik.github.io/awesome-search/Articles/Don't-Classify,-Hallucinate</guid>
+    <description><![CDATA[ Don’t classify. Hallucinate! Author: Doug Turnbull Using an LLM to classify products and queries is by now routine. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>History</title>
-    <link>https://frutik.github.io/awesome-search/History</link>
-    <guid>https://frutik.github.io/awesome-search/History</guid>
-    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 15:50:01 GMT</pubDate>
+    <title>foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets</title>
+    <link>https://frutik.github.io/awesome-search/Case-Studies/foodpanda---Classifying-300K-Noisy-Search-Terms-Across-16-Markets</link>
+    <guid>https://frutik.github.io/awesome-search/Case-Studies/foodpanda---Classifying-300K-Noisy-Search-Terms-Across-16-Markets</guid>
+    <description><![CDATA[ foodpanda — Classifying 300K Noisy Search Terms Across 16 Markets Hailey Cheong, a Senior Product Analyst at Delivery Hero working across foodpanda, foodora and Yemeksepeti, needed a classification of foodpanda’s search traffic before any analysis of it was possible. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
-    <title>global_toc</title>
-    <link>https://frutik.github.io/awesome-search/global_toc</link>
-    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
-    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 15:50:01 GMT</pubDate>
+    <title>Delivery Hero</title>
+    <link>https://frutik.github.io/awesome-search/Companies/Delivery-Hero</link>
+    <guid>https://frutik.github.io/awesome-search/Companies/Delivery-Hero</guid>
+    <description><![CDATA[ Delivery Hero Berlin-headquartered online food delivery group operating a portfolio of local brands, including foodpanda (Asia), foodora (Europe) and Yemeksepeti (Turkey). ]]></description>
+    <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Hailey Cheong</title>
+    <link>https://frutik.github.io/awesome-search/People/Hailey-Cheong</link>
+    <guid>https://frutik.github.io/awesome-search/People/Hailey-Cheong</guid>
+    <description><![CDATA[ Hailey Cheong Senior Product Analyst at Delivery Hero, working across the foodpanda, foodora and Yemeksepeti brands. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
+  </item><item>
+    <title>Query Classification</title>
+    <link>https://frutik.github.io/awesome-search/Topics/Query-Classification</link>
+    <guid>https://frutik.github.io/awesome-search/Topics/Query-Classification</guid>
+    <description><![CDATA[ Query Classification Assigning a query to a label from a fixed vocabulary — an intent, a query type, a catalog category, a brand, a downstream service. ]]></description>
+    <pubDate>Tue, 11 Aug 2026 22:00:00 GMT</pubDate>
   </item><item>
     <title>All about Information Retrieval &amp; Search</title>
     <link>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</link>
     <guid>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</guid>
     <description><![CDATA[ Awesome Search — Information Retrieval &amp; Search Knowledge Graph Hello, I am Andrew. ]]></description>
-    <pubDate>Mon, 10 Aug 2026 15:31:43 GMT</pubDate>
+    <pubDate>Mon, 10 Aug 2026 16:42:47 GMT</pubDate>
+  </item><item>
+    <title>History</title>
+    <link>https://frutik.github.io/awesome-search/History</link>
+    <guid>https://frutik.github.io/awesome-search/History</guid>
+    <description><![CDATA[ Awesome Search — Notes History Chronological log of batches added to this knowledge graph. ]]></description>
+    <pubDate>Mon, 10 Aug 2026 16:42:47 GMT</pubDate>
+  </item><item>
+    <title>2026.33</title>
+    <link>https://frutik.github.io/awesome-search/History/2026.33</link>
+    <guid>https://frutik.github.io/awesome-search/History/2026.33</guid>
+    <description><![CDATA[ History — 2026 week 33 (Aug 10 – Aug 16, 2026) Newest first. ]]></description>
+    <pubDate>Mon, 10 Aug 2026 16:42:47 GMT</pubDate>
+  </item><item>
+    <title>global_toc</title>
+    <link>https://frutik.github.io/awesome-search/global_toc</link>
+    <guid>https://frutik.github.io/awesome-search/global_toc</guid>
+    <description><![CDATA[ Global Table of Contents A map of every note in the vault organized by category and theme. ]]></description>
+    <pubDate>Mon, 10 Aug 2026 16:42:47 GMT</pubDate>
   </item><item>
     <title>Honey, I Shrunk the Embeddings: Matryoshka vs. PCA</title>
     <link>https://frutik.github.io/awesome-search/Articles/Honey,-I-Shrunk-the-Embeddings---Matryoshka-vs-PCA</link>
     <guid>https://frutik.github.io/awesome-search/Articles/Honey,-I-Shrunk-the-Embeddings---Matryoshka-vs-PCA</guid>
     <description><![CDATA[ Honey, I Shrunk the Embeddings: Matryoshka vs. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Qdrant 1.19 - Turbo4 Datatype and Memory Tiers</title>
-    <link>https://frutik.github.io/awesome-search/Articles/Qdrant-1.19---Turbo4-Datatype-and-Memory-Tiers</link>
-    <guid>https://frutik.github.io/awesome-search/Articles/Qdrant-1.19---Turbo4-Datatype-and-Memory-Tiers</guid>
-    <description><![CDATA[ Qdrant 1.19 - Turbo4 Datatype and Memory Tiers Mohamed Arbi Nsibi walks through four changes in Qdrant 1.19, with runnable client examples and a companion repo. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>ASH</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/ASH</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/ASH</guid>
-    <description><![CDATA[ ASH — Asymmetric Scalar Hashing ASH (Asymmetric Scalar Hashing) compresses database vectors by first projecting them into fewer dimensions with a projection learned from the data, then quantizing what remains. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>ITQ</title>
-    <link>https://frutik.github.io/awesome-search/Concepts/ITQ</link>
-    <guid>https://frutik.github.io/awesome-search/Concepts/ITQ</guid>
-    <description><![CDATA[ ITQ — Iterative Quantization ITQ (Iterative Quantization) is a classic learning-to-hash method: reduce dimensions with PCA, then rotate the reduced space so that rounding each coordinate to one bit loses as little as possible. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Dylan Castillo</title>
-    <link>https://frutik.github.io/awesome-search/People/Dylan-Castillo</link>
-    <guid>https://frutik.github.io/awesome-search/People/Dylan-Castillo</guid>
-    <description><![CDATA[ Dylan Castillo Writes about applied ML and retrieval at dylancastillo.co. ]]></description>
-    <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
-  </item><item>
-    <title>Mohamed Arbi Nsibi</title>
-    <link>https://frutik.github.io/awesome-search/People/Mohamed-Arbi-Nsibi</link>
-    <guid>https://frutik.github.io/awesome-search/People/Mohamed-Arbi-Nsibi</guid>
-    <description><![CDATA[ Mohamed Arbi Nsibi Writes technical explainers on vector search and Qdrant internals, publishing at mohamedarbi.xyz with runnable companion repos under the Goodnight77 GitHub account. ]]></description>
     <pubDate>Sun, 09 Aug 2026 22:00:00 GMT</pubDate>
   </item>
     </channel>

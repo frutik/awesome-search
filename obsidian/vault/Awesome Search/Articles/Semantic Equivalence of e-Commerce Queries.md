@@ -74,6 +74,10 @@ Use behavioral similarity as weak supervision to train the sentence transformer:
 ## Related Articles
 - [[Affordances for Conversational Search]]
 - [[Autosuggest Ranking]]
+- [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] — the same canonicalisation step done by hand across 16 markets
+
+## Related Topics
+- [[Query Classification]] — canonicalise before you classify
 
 ## People
 - [[Daniel Tunkelang]]

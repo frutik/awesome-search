@@ -58,4 +58,5 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 - [[Can BM25 be a Probability]] — BB25 framework; calibrating BM25 as probability for principled hybrid fusion
 - [[Metadata - The 3rd Kind of Retrieval]] — attribute-based retrieval as a third paradigm beyond lexical + embeddings
 - [[Classic ML to Cope with Dumb LLM Judges]] — combining many dumb LLM judges via decision tree to improve precision
+- [[Don't Classify, Hallucinate]] — hypothetical classifications: let a cheap LLM invent a category, resolve it into the real taxonomy by embedding similarity; see [[Query Classification]]
 - [[Agentic search models]] — the case for [[Purpose-Built Agentic Search Models]] for "the last 20%"; see topic [[Frontier of Search 2026]]

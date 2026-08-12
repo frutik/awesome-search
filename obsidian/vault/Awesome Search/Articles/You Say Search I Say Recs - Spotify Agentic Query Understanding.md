@@ -43,3 +43,7 @@ The boundary between search and recommendations is blurry — users say "search"
 - [[Query Understanding]]
 - [[Search Intent]]
 - [[Personalization]]
+
+## Related Topics
+
+- [[Query Classification]] — classification as routing: the label selects which system answers

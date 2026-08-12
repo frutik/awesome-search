@@ -60,6 +60,7 @@ A well-designed system uses all three: federate by default for discovery, let po
 - [[Federated Search]] — querying multiple scopes simultaneously
 - [[Zero Results]] — stale or over-narrow scopes are a top cause of empty pages
 - [[Query Understanding]] — automatic scope detection from the query
+- [[Query Classification]] — automatic scoping is catalog-category classification
 - [[Search Intent]] — an explicit scope is a strong intent signal
 - [[Search Result Diversity]] — federation/scoping trade precision against discovery breadth
 

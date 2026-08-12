@@ -69,3 +69,5 @@ See: [[Modeling Spelling Correction for Search at Etsy]]
 
 - [[Airbnb - ML-Powered Experiences Ranking]] — also uses entropy/diversity thinking in ranking
 - [[Zalando - Self-DoS via Facet Aggregation]] — another e-commerce search architecture lesson
+- [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] — long-tail vocabulary defeating a classifier rather than a ranker
+- [[Query Classification]] — broad queries as the case for declining to commit to one label

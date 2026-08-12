@@ -81,3 +81,5 @@ Instead of one expanding-circle query: multiple parallel subqueries per ETD rang
 
 - [[Extreme Search Systems]] — this case study anchors the latency-tail and shard-count dimensions
 - [[Sharding]] — H3 geosharding as a worked shard-key choice
+- [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] — the other food-delivery search stack in this vault, seen from the query-vocabulary side
+- [[Query Classification]] — the NER query builder as a production classification consumer

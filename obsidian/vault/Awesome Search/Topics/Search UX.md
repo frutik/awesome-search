@@ -28,7 +28,7 @@ articles:
   - "[[Facets of Faceted Search]]"
   - "[[Facets - Constraints or Preferences]]"
   - "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
-  - "[[Deconstructing E-Commerce Search - The 12 Query Types]]"
+  - "[[Ecommerce Search UX - 8 Query Types]]"
 people:
   - "[[Daniel Tunkelang]]"
   - "[[Andreas Wagner]]"
@@ -82,7 +82,7 @@ Users arrive with different intents, and each type sets different UX expectation
 | Exploratory | Help me browse | Facets, categories, diversity |
 | Ambiguous | System figures it out | Surface multiple interpretations |
 
-See [[Deconstructing E-Commerce Search - The 12 Query Types]] for Baymard's full e-commerce taxonomy.
+See [[Ecommerce Search UX - 8 Query Types]] for Baymard's full e-commerce taxonomy.
 
 ---
 

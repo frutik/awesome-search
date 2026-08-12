@@ -80,7 +80,7 @@ Map of content for the **Search UX & Discovery** family: how users express a nee
 
 ## Query Types & UX
 
-- [[Deconstructing E-Commerce Search - The 12 Query Types]] — Baymard's e-commerce query taxonomy
+- [[Ecommerce Search UX - 8 Query Types]] — Baymard's e-commerce query taxonomy
 - [[Query Types]] — how intent type sets presentation expectations
 - [[Targeting Broad Queries in Search]] — Etsy approach
 

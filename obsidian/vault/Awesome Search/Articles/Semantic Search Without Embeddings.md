@@ -79,6 +79,14 @@ Embeddings are the wrong lens for problems requiring exacting, precise matching.
 - [[Faceted Search]]
 - [[HyDE]]
 
+## Related Articles
+
+- [[Don't Classify, Hallucinate]] — the follow-through on this article's "hallucinate plausible category paths" idea, worked into a concrete pattern
+
+## Related Topics
+
+- [[Query Classification]]
+
 ## People
 
 - [[Doug Turnbull]]

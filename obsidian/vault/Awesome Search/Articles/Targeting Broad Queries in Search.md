@@ -54,4 +54,4 @@ For broad queries, Etsy shifted objective from "find the best matching item" to 
 
 - [[How Etsy Uses Thermodynamics for Search]]
 - [[Broad and Ambiguous Search Queries]]
-- [[Deconstructing E-Commerce Search - The 12 Query Types]]
+- [[Ecommerce Search UX - 8 Query Types]]

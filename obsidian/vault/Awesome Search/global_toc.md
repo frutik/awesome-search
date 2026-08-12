@@ -67,7 +67,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Topics
 
 ### Retrieval & Ranking Techniques
-[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
+[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Classification]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
 [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Multi-Tenancy in Search]]
@@ -109,12 +109,12 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Airbnb]] · [[Algolia]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
 ## Case Studies
-[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vespa - Ranking Without Labels on CORD-19]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
+[[Airbnb - ML-Powered Experiences Ranking]] · [[Bonsai - Designing Search for a Relational Database]] · [[Canva - Search Pipeline Modernization]] · [[Etsy - Search Quality and Query Understanding]] · [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] · [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]] · [[Kleinanzeigen - Vespa Migration for Homepage Feed]] · [[Netflix - Content Search Architecture]] · [[Reddit - Vector Database Selection]] · [[Skyscanner - Learning to Rank for Flights]] · [[Slack - Enterprise Message Search with LTR]] · [[Uber Eats - Scaling Search for Food Delivery]] · [[Vespa - Ranking Without Labels on CORD-19]] · [[Vinted - Migrating Search from Elasticsearch to Vespa]] · [[Zalando - Self-DoS via Facet Aggregation]]
 
 ---
 
@@ -165,7 +165,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]]
 
-**H** — [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
+**H** — [[Hailey Cheong]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
 
 **I** — [[Isabella Tromba]] · [[Ivan Pleshkov]]
 

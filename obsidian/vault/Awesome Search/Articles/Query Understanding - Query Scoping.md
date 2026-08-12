@@ -25,9 +25,14 @@ Query scoping determines which part of a catalog or content collection a query s
 ## Related Concepts
 
 - [[Query Understanding]]
+- [[Search Scopes]]
 - [[Faceted Search]]
 - [[Query Types]]
 - [[Search Intent]]
+
+## Related Topics
+
+- [[Query Classification]] — scoping is catalog-category classification; behavioural association is one rung of its method ladder
 
 ## People
 

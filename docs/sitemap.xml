@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://frutik.github.io/awesome-search/All-about-Information-Retrieval--and--Search</loc>
-    <lastmod>2026-08-10T15:31:43.000Z</lastmod>
+    <lastmod>2026-08-10T16:42:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/1000x-Faster-Spelling-Correction-Algorithm---SymSpell</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -170,11 +170,17 @@
     <loc>https://frutik.github.io/awesome-search/Articles/Diversity-Metrics-for-Recommender-Systems</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Don't-Classify,-Hallucinate</loc>
+    <lastmod>2026-08-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/E-commerce-Search-and-Recommendation-with-Vespa</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Ecommerce-Search-Governance---Move-Faster-Not-Slower</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Articles/Ecommerce-Search-UX---8-Query-Types</loc>
+    <lastmod>2026-05-14T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Articles/Elastic-Learned-Sparse-Encoder-(ELSER)-Retrieval-Performance</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
@@ -992,6 +998,9 @@
     <loc>https://frutik.github.io/awesome-search/Case-Studies/Zalando---Self-DoS-via-Facet-Aggregation</loc>
     <lastmod>2026-08-05T19:32:39.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Case-Studies/foodpanda---Classifying-300K-Noisy-Search-Terms-Across-16-Markets</loc>
+    <lastmod>2026-08-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Airbnb</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -1018,6 +1027,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Cohere</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/Companies/Delivery-Hero</loc>
+    <lastmod>2026-08-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/Companies/Dropbox</loc>
     <lastmod>2026-05-16T22:00:00.000Z</lastmod>
@@ -1740,7 +1752,7 @@
     <lastmod>2026-05-26T07:37:19.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History</loc>
-    <lastmod>2026-08-10T15:50:01.000Z</lastmod>
+    <lastmod>2026-08-10T16:42:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.20</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -1779,7 +1791,7 @@
     <lastmod>2026-08-06T18:44:31.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/2026.33</loc>
-    <lastmod>2026-08-10T16:03:50.000Z</lastmod>
+    <lastmod>2026-08-10T16:42:47.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/History/History-Stats</loc>
     <lastmod>2026-07-30T12:35:33.000Z</lastmod>
@@ -1933,6 +1945,9 @@
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Giovanni-Fernandez-Kincade</loc>
     <lastmod>2026-05-14T22:00:00.000Z</lastmod>
+  </url><url>
+    <loc>https://frutik.github.io/awesome-search/People/Hailey-Cheong</loc>
+    <lastmod>2026-08-11T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/People/Han-Xiao</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
@@ -2408,6 +2423,9 @@
     <loc>https://frutik.github.io/awesome-search/Topics/Quepid-Beyond-Supported-Engines</loc>
     <lastmod>2026-08-09T22:00:00.000Z</lastmod>
   </url><url>
+    <loc>https://frutik.github.io/awesome-search/Topics/Query-Classification</loc>
+    <lastmod>2026-08-11T22:00:00.000Z</lastmod>
+  </url><url>
     <loc>https://frutik.github.io/awesome-search/Topics/Query-Understanding-in-Practice</loc>
     <lastmod>2026-05-15T22:00:00.000Z</lastmod>
   </url><url>
@@ -2502,5 +2520,5 @@
     <lastmod>2026-08-03T22:00:00.000Z</lastmod>
   </url><url>
     <loc>https://frutik.github.io/awesome-search/global_toc</loc>
-    <lastmod>2026-08-10T15:50:01.000Z</lastmod>
+    <lastmod>2026-08-10T16:42:47.000Z</lastmod>
   </url></urlset>
