@@ -82,6 +82,7 @@ Some platforms are not general-purpose search engines but focus on a specific do
 
 - **[[searchHub]]** ([[Andreas Wagner]]) — e-commerce-focused SaaS platform for search optimization and query understanding. Covers query rewriting, A/B testing, analytics, and spell correction (SmartQuery). Also released the Open Commerce Search Stack (OCSS) as an open-source reference implementation for retail search. See [[Three Pillars of Search Quality - Findability]] and [[Common Pitfalls of Onsite Search Experimentation]].
 - **[[Hornet]]** ([[Jo Kristian Bergum]], [[Lester Solbakken]]) — retrieval infrastructure platform purpose-built for AI agents. Focuses on high-precision context delivery for agentic workloads, where query patterns differ fundamentally from human search (longer queries, web-search operators, multi-turn compounding). See [[This Is What Agentic Retrieval Looks Like]] and [[Mutually Assured Distraction]].
+- **[[Mydentify]]** — intent-led software discovery and comparison platform. It maps goal descriptions to products and organizes structured, source-backed product evidence; it is a vertical discovery product rather than a general-purpose search backend.
 - **Empathy.co** — e-commerce search and discovery platform; SaaS, focused on search UX, analytics, and personalization.
 - **Constructor.io** — SaaS product discovery platform for e-commerce; combines search, recommendations, and browse with ML-driven ranking.
 
