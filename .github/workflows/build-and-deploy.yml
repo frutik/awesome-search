@@ -1,4 +1,4 @@
-name: build Awesome Search site (web/ preview + optional Pages deploy)
+name: build and deploy Awesome Search site
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
     inputs:
       deploy:
-        description: "Deploy web/ to GitHub Pages (requires Settings > Pages > Source = GitHub Actions first, or this fails)"
+        description: "Also deploy web/ to GitHub Pages on this manual run"
         type: boolean
         default: false
 
@@ -21,10 +21,11 @@ on:
 # quartz-config/ — reverse-engineered from a diff against a stock v4.5.2
 # build. See quartz-config/README.md.
 #
-# This builds to web/, separate from docs/. build-web.sh / release.sh (which
-# build and publish docs/ via classic branch-based Pages) are untouched, and
-# so is the live site, unless you both flip Settings > Pages > Source to
-# "GitHub Actions" AND run this workflow manually with deploy=true.
+# Builds to web/. Every push to master deploys it live via GitHub Pages'
+# Actions source (Settings > Pages > Source = GitHub Actions). A manual
+# workflow_dispatch only deploys if the deploy input is checked, so you can
+# still trigger a build-only run on demand. docs/ / build-web.sh / release.sh
+# are untouched and unused now that Pages reads from Actions instead.
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -75,7 +76,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.event_name == 'workflow_dispatch' && inputs.deploy == true
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.deploy == true)
     runs-on: ubuntu-latest
     permissions:
       pages: write
