@@ -1,0 +1,80 @@
+name: build Awesome Search site (web/ preview + optional Pages deploy)
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "obsidian/vault/**"
+      - "fix-folder-pages.py"
+      - "quartz-config/**"
+      - ".github/workflows/build-and-deploy.yml"
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Deploy web/ to GitHub Pages (requires Settings > Pages > Source = GitHub Actions first, or this fails)"
+        type: boolean
+        default: false
+
+# quartz/ is gitignored and not part of this repo (see CLAUDE.md), so every
+# run scaffolds it fresh at the version the published site's footer reports
+# (v4.5.2), then drops in the two config files this repo tracks under
+# quartz-config/ — reverse-engineered from a diff against a stock v4.5.2
+# build. See quartz-config/README.md.
+#
+# This builds to web/, separate from docs/. build-web.sh / release.sh (which
+# build and publish docs/ via classic branch-based Pages) are untouched, and
+# so is the live site, unless you both flip Settings > Pages > Source to
+# "GitHub Actions" AND run this workflow manually with deploy=true.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Scaffold Quartz
+        run: npx --yes degit jackyzha0/quartz#v4.5.2 quartz
+
+      - name: Apply repo-tracked Quartz config
+        run: |
+          cp quartz-config/quartz.config.ts quartz/quartz.config.ts
+          cp quartz-config/quartz.layout.ts quartz/quartz.layout.ts
+
+      - name: Install Quartz dependencies
+        run: npm ci
+        working-directory: quartz
+
+      - name: Build site to web/
+        run: |
+          cd quartz && npx quartz build --output ../web --directory ../obsidian/vault/Awesome\ Search && cd ..
+          python3 fix-folder-pages.py web
+          cp web/History.html web/index.html
+
+      - name: Upload web/ as downloadable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: web
+          retention-days: 14
+
+      - name: Package web/ as a Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy == true
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
