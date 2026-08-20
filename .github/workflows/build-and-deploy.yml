@@ -53,17 +53,25 @@ jobs:
           python3 fix-folder-pages.py web
           cp web/History.html web/index.html
 
-      - name: Upload web/ as downloadable artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: web
-          path: web
-          retention-days: 14
-
       - name: Package web/ as a Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: web
+
+      - name: Zip web/ for manual download
+        # actions/upload-artifact validates every individual file path and
+        # rejects characters like ">" — some note titles (e.g. "Hybrid
+        # search -> sum of its parts") end up literally in generated
+        # og-image filenames. Zipping first uploads one safely-named file
+        # instead, sidestepping the per-entry check.
+        run: cd web && zip -qr ../web.zip . && cd ..
+
+      - name: Upload web/ as downloadable artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: web
+          path: web.zip
+          retention-days: 14
 
   deploy:
     needs: build
