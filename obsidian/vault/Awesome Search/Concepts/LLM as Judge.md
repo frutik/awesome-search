@@ -126,9 +126,12 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]]; LLM calibrated on human labels → 100x scale-up; DSPy for prompt optimization; context-aware evaluation with tool use
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER-clustered test queries; GPT-4o; ~$250/run for 1,500 segments × 25 results; pre-launch market validation
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM signals as ML features → decision tree; 96.7% precision on 40% of pairs
+- [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; few-shot examples hurt accuracy; migration to local Gemma judge cut inference cost 60%
 
 ## People
 
 - [[Dmitriy Meyerzon]]
 - [[Tao Ruangyam]]
 - [[Doug Turnbull]]
+- [[Joanna Marhula]]
+- [[Mateusz Sidor]]

@@ -3,9 +3,10 @@ type: topic
 tags: [topic, multilingual, cross-lingual, embeddings, nlp]
 related_concepts: [Embeddings, BM25, Query Understanding]
 related_topics: [Query Understanding in Practice, Synonyms and Vocabulary Management, E-commerce Search]
-articles: []
-companies: [Carousell, Elastic]
-people: []
+articles:
+  - "[[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]]"
+companies: [Carousell, Elastic, Allegro]
+people: [Joanna Marhula, Mateusz Sidor]
 created: 2026-05-16
 ---
 
@@ -116,3 +117,4 @@ Watch for **language imbalance**: a model may score well on average while failin
 - [[Carousell]] — multilingual dense retrieval for sponsored search
 - [[Synonyms and Vocabulary Management]] — transliteration and cross-lingual synonym expansion
 - [[Query Understanding in Practice]] — language detection as a preprocessing step
+- [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Allegro]]'s four-language LLM-judge evaluation; Czech scored hardest across models, Hungarian easiest

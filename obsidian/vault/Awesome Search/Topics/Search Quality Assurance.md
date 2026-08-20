@@ -206,3 +206,4 @@ Beyond the e-commerce sets above, the academic benchmark suites ([[BEIR]], [[MTE
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER query clustering; multi-language; pre-launch validation
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; treating per-attribute LLM outputs as ML features for a decision tree
 - [[Improving retrieval with LLM-as-a-judge]] — [[Jo Kristian Bergum]]; Vespa retrieval benchmarking with LLM judge
+- [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; local model migration cut inference cost 60%

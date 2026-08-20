@@ -104,6 +104,10 @@ These datasets are useful for: initial model benchmarking, transfer learning bas
 - [[Sampling Strategies]] — how queries are selected for judgment
 - [[Vector Search Evaluation]] — applying judgment lists to vector/image/semantic search
 
+## Articles
+
+- [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's 380K+ multilingual judgment dataset, built with 30 experts and dual-blind annotation plus arbitration
+
 ## People
 
 - [[Daniel Tunkelang]] — "Evaluating Search: Using Human Judgments"
