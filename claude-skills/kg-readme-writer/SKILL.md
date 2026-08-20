@@ -13,8 +13,8 @@ Maintains `README.md` in the **repository root**. This is a published artifact o
 
 `README.md` contains, in order:
 
-1. `# Awesome Search — Knowledge Graph` title heading.
-2. `## Latest History` — a bullet list linking the **5 most recent** `Awesome Search/History/<year>.<week>.md` files (sorted by `year.week` descending; `History Stats.md` and other non-week files excluded).
+1. `# Awesome Search` title heading, followed by the intro blurb/Ukraine banner already in the file — leave that prose alone.
+2. `## Latest Changes` — a bullet list linking the **5 most recent** `Awesome Search/History/<year>.<week>.md` files (sorted by `year.week` descending; `History Stats.md` and other non-week files excluded). This is the file's actual existing heading text — don't rename it to match a different label.
 3. A `---` separator.
 4. The **full content** of `Awesome Search/global_toc.md` (frontmatter stripped), with wikilinks converted.
 
@@ -31,7 +31,7 @@ All links must be **vanilla markdown links** — `[text](url)` — never Obsidia
 ## Procedure
 
 1. Read `README.md` and the current vault state: the list of `History/<year>.<week>.md` files, and `Awesome Search/global_toc.md`.
-2. **History section**: if the 5 newest week files differ from the bullets in `## Latest History`, edit just those bullet lines.
+2. **History section**: if the 5 newest week files differ from the bullets under `## Latest Changes`, edit just those bullet lines.
 3. **TOC section**: diff the README's TOC portion (everything after the `---` separator) against the current `global_toc.md` (after mentally applying the wikilink conversion). Apply targeted edits only to the lines that changed — added notes, renamed notes, removed notes, new sections. Leave untouched lines alone.
 4. Verify after editing: `grep -c '\[\[' README.md` must return 0 (no wikilinks leaked in).
 5. If any wikilink target in `global_toc.md` doesn't resolve to a note file, report those names to the user — they usually indicate a renamed or missing note. Do not silently create notes to satisfy them.
