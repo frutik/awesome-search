@@ -37,6 +37,9 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 
 - [[Just brute force your embeddings]] — measured NumPy scan throughput on 384-dim vectors; the case against adopting a vector database at ~1m documents
 
+## Talks & Videos
+- [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — with [[Andy Toulis]]; [[Bayesian Optimization]] as a lightweight halfway point to [[Learning to Rank]], with a concrete Shopify BM25 `b`/`k1` retuning case study
+
 ## Affiliations
 
 - Independent (current)
@@ -52,6 +55,7 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 - [[Learning to Rank]]
 - [[Search Evaluation]]
 - [[Judgment Lists]]
+- [[Bayesian Optimization]]
 
 ## Affiliations
 - OpenSource Connections (OSC) — Doug co-founded it but has since left (later [[Shopify]], now independent); also former org of [[Max Irwin]] (now at [[Bonsai]])

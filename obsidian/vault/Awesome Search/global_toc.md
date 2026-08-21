@@ -12,7 +12,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Concepts
 
 ### Lexical & Sparse Retrieval
-[[BM25]] · [[Bayesian BM25]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]] · [[Out-of-Vocabulary]]
+[[BM25]] · [[Bayesian BM25]] · [[Bayesian Optimization]] · [[Bag-of-Documents Model]] · [[Full-Text Search]] · [[WAND]] · [[Block-Max WAND]] · [[Sparse Vector Retrieval]] · [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] · [[Sparse Embeddings]] · [[Collocations]] · [[Out-of-Vocabulary]]
 
 ### Dense Retrieval & Embeddings
 [[Embeddings]] · [[Dense Embeddings]] · [[Dense Vector Retrieval]] · [[Semantic Search]] · [[Asymmetric Semantic Search]] · [[Bi-Encoder]] · [[Dense Passage Retriever]] · [[BERT]] · [[Word2Vec]] · [[Word2Box]] · [[Concept Vectors]] · [[Matryoshka Embeddings]] · [[Multimodal Embeddings]] · [[Compositional Embeddings]] · [[Task-Aware Embeddings]] · [[Embedding Fine-tuning]] · [[Pooling]] · [[Zero-Shot Retrieval]] · [[Vector Similarity Metrics]] · [[Contrastive Gap]] · [[Modality Gap]]
@@ -123,6 +123,8 @@ Conference talks and recorded presentations.
 
 [[Max Irwin - The Search Engine Migration Circus]] — [[Max Irwin]], [[OpenSource Connections]]; Haystack Live talk on search-engine migration (playbook, "Hello Search", feature parity, the "damage" metric, war stories)
 
+[[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — [[Doug Turnbull]] & [[Andy Toulis]], [[Shopify]]; [[Haystack US]] 2022 talk on [[Bayesian Optimization]] for retuning [[BM25]] `k1`/`b`, with a worked case study on product-title length normalization and a presentation-bias loophole caught mid-experiment
+
 [[Choosing Indexes for Similarity Search (Faiss in Python)]] — [[James Briggs]], [[Pinecone]]; hands-on [[FAISS]] tutorial comparing Flat, [[LSH]], [[HNSW]], and [[IVF]] on Sift1M
 
 [[Rene Kriegler - Query Relaxation]] — [[Rene Kriegler]], [[OpenSource Connections]]; [[Query Relaxation]] as a query recommendation problem — word-shape heuristics, term frequency, [[Word2Vec]] and a neural network compared for predicting which term to drop
@@ -151,7 +153,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 

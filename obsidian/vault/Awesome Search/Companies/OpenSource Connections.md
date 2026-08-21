@@ -43,6 +43,7 @@ Multiple foundational articles from OSC team:
 
 - [[Rene Kriegler - Query Relaxation]] — talk by [[Rene Kriegler]] (introduced by [[Charlie Hull]])
 - [[The Search Engine Migration Circus]] — [[Max Irwin]]
+- [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — [[Doug Turnbull]] & [[Andy Toulis]]
 
 ## Related Concepts
 

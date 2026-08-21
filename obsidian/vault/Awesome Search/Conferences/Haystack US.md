@@ -26,6 +26,10 @@ created: 2026-07-05
 - **Community**: [[Doug Turnbull]], [[Charlie Hull]], and the broader OSC-run [[OpenSource Connections|Relevance Slack]] community are closely associated with it.
 - **Related event**: OSC also runs the **Haystack Live** online meetup between conferences (see [[Max Irwin - The Search Engine Migration Circus]], a Haystack Live talk).
 
+## Notable Talks
+
+- [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — [[Doug Turnbull]] & [[Andy Toulis]]
+
 ## Related
 
 - [[Haystack EU]] — the European edition
