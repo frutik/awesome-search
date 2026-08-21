@@ -146,5 +146,7 @@ rule. Drop the trailing `<hr>` after the last entry.
 7. Create `mails/` at the repo root if missing; write
    `mails/<year>.<week>.html` with the Write tool (this output is outside the
    vault, so MCP does not apply to it).
-8. Report: which week was written, how many entries it contains, and any
+8. Stage the file with `git add mails/<year>.<week>.html` (add-only — never
+   commit or push; that stays the user's call).
+9. Report: which week was written, how many entries it contains, and any
    unresolved wikilinks.
