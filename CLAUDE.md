@@ -93,6 +93,12 @@ triggers; the core ones:
 - **`kg-frontmatter` / `-orphans` / `-hubs` / `-clusters`** —
   quality audits, run in that order: missing frontmatter → orphan notes (zero
   in/out links) → hub/topic-coverage mismatches → disconnected clusters.
+- **`kg-audit`** — the same four checks plus duplicate-source articles and
+  unresolved wikilinks, in one pass via `claude-skills/kg-audit/scripts/
+  kg_audit.py`. The one deliberate exception to the MCP-only rule above: at
+  800+ notes it reads the vault straight off disk (read-only) instead of
+  four separate MCP-backed scans. Prefer this over running the four
+  individually.
 - **`awesome-search-tutor`** — read-only Q&A over the published content, not a
   vault-writing skill.
 

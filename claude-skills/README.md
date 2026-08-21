@@ -22,9 +22,12 @@ Skills for building and maintaining the Awesome Search knowledge graph in Obsidi
 ## Knowledge Graph — Quality Audits
 
 Run in this order for best results: **frontmatter → orphans → hubs → clusters**
+— or run `kg-audit` instead, which does all four (plus duplicate-article and
+broken-wikilink detection) in a single script-driven pass.
 
 | Skill | What it checks | Output |
 |---|---|---|
+| `kg-audit` | All of the below in one pass, via `scripts/kg_audit.py` (filesystem-based, not MCP — the one deliberate exception, for speed at 800+ notes), plus duplicate-source articles and unresolved wikilinks | Consolidated report; read-only, no writes |
 | `kg-frontmatter` | Missing required frontmatter fields (`type`, `source`, `author`, `created`, `tags`, `concepts`) by note type | Violation report by folder; auto-fixes where values can be inferred |
 | `kg-orphans` | Notes with zero inbound and outbound wikilinks | Triaged list (integrate / stub / noise); optionally adds missing links |
 | `kg-hubs` | Inbound link counts ranked across all notes; compared against `Topics/` | Flags mismatches where high-traffic concepts lack a topic page, and under-linked topic pages |
