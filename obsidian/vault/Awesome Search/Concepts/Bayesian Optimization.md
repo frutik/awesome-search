@@ -26,6 +26,9 @@ Framed by [[Doug Turnbull]] as a lightweight halfway point between hand-tuned bo
 
 See [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] for the full worked example.
 
+## Related Topics
+- [[Tuning BM25 for E-commerce Search]] — practice guide applying this to product-search `k1`/`b` tuning
+
 ## Related Concepts
 - [[BM25]] — the parameters most commonly tuned this way
 - [[Learning to Rank]] — the more infrastructure-heavy alternative

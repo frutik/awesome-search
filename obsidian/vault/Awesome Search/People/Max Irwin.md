@@ -38,6 +38,9 @@ Search engineer at [[Bonsai]], focused on applying neural/BERT-based approaches 
 ## Talks & Videos
 - [[Max Irwin - The Search Engine Migration Circus]] — Haystack Live; search-engine migration playbook and war stories
 
+## Topics
+- [[Tuning BM25 for E-commerce Search]] — pointed to Quaerite as a relevance-tuning toolkit
+
 ## Affiliations
 - [[Bonsai]] — current employer; author on the Bonsai engineering blog (search-over-database, autocomplete, and Search Kōans)
 - OpenSource Connections (OSC) — former employer, same org as [[Doug Turnbull]]

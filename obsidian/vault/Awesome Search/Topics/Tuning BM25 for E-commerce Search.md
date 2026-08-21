@@ -1,20 +1,17 @@
 ---
-type: article
-title: "Tuning BM25 for E-commerce Search: Is It Worth It?"
-status: draft
-author:
-  - "[[Andrew Kornilov]]"
+type: topic
+title: "Tuning BM25 for E-commerce Search"
+aliases: ["BM25 tuning for product search", "e-commerce BM25 tuning", "k1 and b tuning for product search"]
 tags:
-  - search
-  - search-evaluation
-  - bm25
+  - topic
   - e-commerce
+  - bm25
   - relevance-tuning
-concepts:
-  - BM25
-  - Bayesian Optimization
-  - NDCG
-  - MRR
+  - search-evaluation
+related_concepts: ["[[BM25]]", "[[Bayesian Optimization]]", "[[NDCG]]", "[[MRR]]"]
+related_topics: ["[[E-commerce Search]]", "[[Two-Sided Marketplace Ranking]]"]
+companies: ["[[Shopify]]"]
+created: 2026-08-21
 ---
 
 # Tuning BM25 for E-commerce Search: Is It Worth It?
@@ -34,6 +31,8 @@ So it is reasonable to ask:
 The short answer appears to be:
 
 **Yes, it can make sense. But don't expect miracles.**
+
+---
 
 ## What are we actually tuning?
 
@@ -162,6 +161,8 @@ And there is an even bigger issue with descriptions.
 
 One merchant may provide 50 words. Another may provide 1,500 words of excellent structured product information. Length normalization can inadvertently punish the product with better data.
 
+---
+
 ## Product fields aren't all the same
 
 This is probably the most important part of BM25 tuning for e-commerce.
@@ -206,9 +207,11 @@ Likewise, length normalization is probably not particularly useful.
 
 For a description, both term frequency and length can carry considerably more information.
 
+---
+
 ## Marketplaces are a special case
 
-BM25 tuning may be more important in marketplaces than in tightly controlled first-party catalogs.
+BM25 tuning may be more important in [[Two-Sided Marketplace Ranking|marketplaces]] than in tightly controlled first-party catalogs.
 
 The reason is simple: **the content is user-published, and users may actively try to exploit the ranking model.**
 
@@ -264,6 +267,8 @@ If ranking rewards keyword repetition, marketplace participants will eventually 
 
 In that environment, reducing the term-frequency effect on seller-controlled fields can be valuable even if the aggregate offline relevance gain looks modest.
 
+---
+
 ## What does real-world experience say?
 
 This question recently came up in the search relevance community, and the answers were remarkably consistent.
@@ -274,11 +279,9 @@ Applied to the product title field, it found that the default length normalizati
 
 The more interesting lesson wasn't the final parameter values — it was how the *first* optimization run went wrong. Left unconstrained, the optimizer found a shortcut: for short, single-word queries, matching an equally short product title scored artificially well, because the *training* data itself carried presentation bias — the previous, default-BM25 engine had already been surfacing those results, so clicks skewed toward them. Only after constraining the search space and controlling for that bias did the retuned configuration show validated improvements on held-out data, including a dataset labeled independently of the old production engine.
 
-Radu Gheorghe reported a similar experience elsewhere in the search relevance community: BM25 tuning changed things, but not enormously.
-
-That matches what I would expect.
-
 BM25 parameters modify the behaviour of an already reasonably good lexical scoring function. They aren't fixing fundamental retrieval problems — and, per Shopify's experience, the more valuable part of the exercise may be catching what your training data is quietly teaching your optimizer, not the final parameter values themselves.
+
+---
 
 ## The juice may not be worth the squeeze
 
@@ -338,6 +341,8 @@ So I wouldn't make BM25 tuning the first relevance project for an e-commerce sea
 
 But once you have a proper evaluation setup, the economics change.
 
+---
+
 ## In 2026, testing this is cheap
 
 Historically, parameter tuning could become an engineering project of its own.
@@ -372,6 +377,8 @@ Radu described this nicely as essentially **autoresearch restricted to a tiny pa
 There are also tools specifically designed around relevance optimization. [[Max Irwin]] pointed out Quaerite, an older search relevance evaluation toolkit that can be applied to this kind of parameter optimization.
 
 And if you're already using [[Quepid]], you have most of the important infrastructure anyway: queries, judgments and metrics.
+
+---
 
 ## Don't optimize only the global metric
 
@@ -419,13 +426,7 @@ Now you have learned something useful about how your ranking behaves.
 
 That knowledge can be more valuable than the 0.3% movement in the aggregate metric.
 
-For marketplaces, I would add another evaluation bucket:
-
-```text
-keyword-stuffed seller content
-```
-
-because a configuration that looks equivalent on clean relevance judgments may behave very differently once sellers start trying to game it.
+---
 
 ## Elasticsearch makes the experiment straightforward
 
@@ -468,6 +469,8 @@ And changing these parameters has essentially no meaningful query-performance pe
 
 The cost is therefore predominantly **experimentation and evaluation**, not runtime performance.
 
+---
+
 ## Where I would start
 
 Rather than immediately search for an "optimal" value, I'd start with three deliberately different configurations.
@@ -509,6 +512,8 @@ If one direction consistently wins, then start a finer grid search or [[Bayesian
 
 For a marketplace, I would also test adversarial versions of product content: duplicated query terms, unnaturally short titles, repeated brand names, and descriptions padded with common search phrases.
 
+---
+
 ## So, is BM25 tuning worth it?
 
 My conclusion after looking at the mechanics and comparing them with practitioners' experience is:
@@ -540,10 +545,16 @@ And ask the data.
 ---
 
 ## Related Concepts
-- [[BM25]] · [[Bayesian Optimization]] · [[NDCG]] · [[MRR]]
+- [[BM25]] — the algorithm and parameters being tuned
+- [[Bayesian Optimization]] — practical alternative to grid search once a direction looks promising
+- [[NDCG]] · [[MRR]] — offline metrics for comparing configurations
 
-## Related Videos
-- [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]]
+## Related Topics
+- [[E-commerce Search]] — the broader practice guide this specializes
+- [[Two-Sided Marketplace Ranking]] — why seller-controlled fields make BM25 tuning a ranking-incentive problem, not just a relevance one
+
+## Videos
+- [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — the Shopify `k1`/`b` retuning case study referenced throughout
 
 ## People
 - [[Doug Turnbull]] · [[Andy Toulis]] · [[Max Irwin]]

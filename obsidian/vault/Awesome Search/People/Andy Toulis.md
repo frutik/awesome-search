@@ -20,6 +20,9 @@ Data scientist on [[Shopify]]'s search relevance team. Day-to-day work designing
 ## Videos
 - [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]]
 
+## Topics
+- [[Tuning BM25 for E-commerce Search]]
+
 ## Key Concepts
 - [[Bayesian Optimization]]
 - [[BM25]]

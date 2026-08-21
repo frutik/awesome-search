@@ -42,3 +42,7 @@ E-commerce platform powering 2M+ merchant stores. Internally operates the Shopif
 ## Key Talks
 
 - [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — [[Doug Turnbull]] & [[Andy Toulis]]
+
+## Key Topics
+
+- [[Tuning BM25 for E-commerce Search]] — practice guide built around Shopify's product-title BM25 retuning

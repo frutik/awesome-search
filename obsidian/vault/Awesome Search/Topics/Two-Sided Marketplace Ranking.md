@@ -86,4 +86,4 @@ than a side effect of relevance ordering. This connects to
 
 ## Related Topics
 
-- [[E-commerce Search]] · [[Personalization in Search]] · [[Search Result Diversity]]
+- [[E-commerce Search]] · [[Personalization in Search]] · [[Search Result Diversity]] · [[Tuning BM25 for E-commerce Search]] — keyword-stuffing as a ranking-incentive problem on seller-controlled fields

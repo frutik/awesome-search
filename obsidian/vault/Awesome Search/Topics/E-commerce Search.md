@@ -3,7 +3,7 @@ type: topic
 aliases: ["product search", "e-commerce search", "retail search"]
 tags: [topic, e-commerce, product-search]
 related_concepts: ["[[Query Types]]", "[[Zero Results]]", "[[Faceted Search]]", "[[Results Merchandising]]", "[[Results Boosting]]", "[[Learning to Rank]]", "[[Personalization]]"]
-related_topics: ["[[Search Result Diversity]]", "[[Synonyms and Vocabulary Management]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]"]
+related_topics: ["[[Search Result Diversity]]", "[[Synonyms and Vocabulary Management]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]", "[[Tuning BM25 for E-commerce Search]]"]
 articles: [
   "[[Ecommerce Search UX - 8 Query Types]]",
   "[[Targeting Broad Queries in Search]]",
@@ -136,3 +136,4 @@ Start at Level 1. Only move up if A/B test shows improvement.
 - [[Rene Kriegler - Query Relaxation]] — talk on handling zero-result e-commerce queries via ML-driven [[Query Relaxation]]
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 real-time LTR personalization for SMB stores (Findify, [[MICES]] 2019)
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — signal selection, bias, leakage and serving in a large accommodation marketplace
+- [[Tuning BM25 for E-commerce Search]] — field-by-field `k1`/`b` tuning for product data, and why it matters more in marketplaces

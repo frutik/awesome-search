@@ -40,6 +40,9 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 ## Talks & Videos
 - [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — with [[Andy Toulis]]; [[Bayesian Optimization]] as a lightweight halfway point to [[Learning to Rank]], with a concrete Shopify BM25 `b`/`k1` retuning case study
 
+## Topics
+- [[Tuning BM25 for E-commerce Search]]
+
 ## Affiliations
 
 - Independent (current)

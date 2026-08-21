@@ -56,6 +56,9 @@ This makes it straightforward to implement NDCG, DCG, or custom business metrics
 
 See [[Relevance Evaluation Tools Compared]] for a full Quepid vs. Workbench vs. Relevance Studio breakdown.
 
+## Related Topics
+- [[Tuning BM25 for E-commerce Search]] — using judgments/metrics infrastructure already in Quepid to test BM25 `k1`/`b` grids
+
 ## Related Concepts
 - [[Judgment Lists]] — the input data Quepid manages
 - [[NDCG]] — primary metric computed in Quepid

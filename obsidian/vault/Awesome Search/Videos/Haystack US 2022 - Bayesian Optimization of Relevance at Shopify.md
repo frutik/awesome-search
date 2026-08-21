@@ -50,6 +50,9 @@ Bayesian optimization constrains search to the *existing* ranking function's par
 - [[Learning to Rank]] — the more infrastructure-heavy alternative this sits "halfway" toward
 - [[NDCG]] — the offline metric used to score candidate configurations
 
+## Related Topics
+- [[Tuning BM25 for E-commerce Search]] — practice guide built around this case study
+
 ## Related Articles
 - [[Bayesian BM25 is Cool]] — a different (score-calibration) use of Bayesian methods on BM25 by [[Doug Turnbull]]
 
