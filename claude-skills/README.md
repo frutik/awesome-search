@@ -10,6 +10,7 @@ Skills for building and maintaining the Awesome Search knowledge graph in Obsidi
 | `kg-note-writing` | Handed off from `kg-article-processing`, or directly for "write/enrich a topic (or concept/person/company/tool) note" with no new source | Extract and normalize entities → create/update notes with correct frontmatter → add wikilinks and ground every claim, whether against fetched source text or existing vault notes |
 | `awesome-search-knowledge-graph` | Invoked at the end of `kg-note-writing` (or standalone to repair invariants) | Graph-wide maintenance pass: History log entry, `kg-reviewer` audit, `global_toc.md`, `index.md`/`HOME.md` mirror |
 | `awesome-search-tutor` | "Explain X", "what do practitioners think about Y" | Fetches articles from the README and answers questions about IR and search |
+| `kg-plan-processing` | "queue this for processing", "add this to planned", `/kg-plan-processing <url-or-topic>` | Queues one article/video URL or topic into root-level `planned/` for later parallel processing — write only, doesn't fetch or dispatch |
 
 ## Knowledge Graph — Publishing
 
