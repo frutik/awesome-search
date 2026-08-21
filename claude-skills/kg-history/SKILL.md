@@ -1,5 +1,5 @@
 ---
-name: awesome-search-kg-history
+name: kg-history
 description: Write the dated history entry after any Awesome Search KG batch (new notes, enrichment, corrections). Entries go into weekly History/<year>.<week>.md files; History.md is only an index of links to them. Enforces a fixed entry format. Invoke at the end of every batch, before kg-reviewer.
 ---
 

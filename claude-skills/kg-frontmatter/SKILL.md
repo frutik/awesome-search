@@ -1,5 +1,5 @@
 ---
-name: awesome-search-kg-frontmatter
+name: kg-frontmatter
 description: Audit all notes in the Awesome Search Obsidian vault for missing or incomplete frontmatter. Reports violations by folder and optionally auto-fixes notes where values can be inferred from content. Use for KG consistency checks.
 ---
 
@@ -15,14 +15,24 @@ Use this skill to check all notes for required frontmatter fields and fix missin
 
 ## Required fields by note type
 
-| Type | Required fields |
+Every note type requires the baseline `type`, `tags`, `created` (per
+`kg-note-writing`'s Note Structure). This table adds the fields specific to
+each type, from `kg-note-writing`'s Supported Entities table — that table is
+the source of truth for the field set; update it there first if the vault's
+frontmatter conventions change, then mirror the change here.
+
+| Type | Required beyond `type`/`tags`/`created` |
 |---|---|
-| `article` | `type`, `title`, `source`, `author`, `created`, `tags`, `concepts` |
-| `concept` | `type`, `tags`, `created` |
-| `topic` | `type`, `tags`, `related_concepts`, `created` |
-| `person` | `type`, `tags`, `created` |
-| `company` | `type`, `tags`, `created`, `website` (if known) |
-| `tool` | `type`, `tags`, `created`, `website` or `repo` (if known) |
+| `article` | `source`, `author`, `concepts` |
+| `video` | `speaker`, `url`, `concepts` |
+| `concept` | — |
+| `topic` | `related_concepts` |
+| `person` | — |
+| `company` | `website` (if known) |
+| `tool` | `website` or `repo` (if known) |
+| `conference` | `website` (if known), `organizer` (if known) |
+| `case_study` | `companies`, `related_concepts`, `source` |
+| `dataset` | `website` or `repo` (if known), `related_concepts` |
 
 ## Vault Access
 
@@ -32,12 +42,15 @@ Use this skill to check all notes for required frontmatter fields and fix missin
 
 ### 1. Scan all notes
 
-Check every note in `Awesome Search/` for:
+Check every note in `Awesome Search/` — across every folder (Articles,
+Videos, Concepts, Topics, People, Companies, Tools, Conferences, Case
+Studies, Datasets) — against the required-fields table above:
 - Missing `type` field
 - Missing `created` field
-- Missing `source` field (articles only)
 - Missing `tags` field
-- Missing `concepts` or `related_concepts` (articles and topics)
+- Missing any type-specific required field listed above (`source`/`author` for
+  articles, `speaker`/`url` for videos, `related_concepts` for topics/case
+  studies/datasets, `companies` for case studies, etc.)
 - Notes with `type: article` but no `author`
 
 ### 2. Report violations by folder
@@ -95,5 +108,5 @@ No action needed: N notes
 
 ## Notes
 
-- Run this skill before `awesome-search-kg-orphans` — orphan detection is more reliable with consistent `type` fields
+- Run this skill before `kg-orphans` — orphan detection is more reliable with consistent `type` fields
 - Notes in `Clippings/` and `raw_articles/` are exempt — they are pre-processing staging areas, not KG notes

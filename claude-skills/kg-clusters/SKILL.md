@@ -1,5 +1,5 @@
 ---
-name: awesome-search-kg-clusters
+name: kg-clusters
 description: Find disconnected clusters in the Awesome Search Obsidian vault — groups of notes that are internally linked but isolated from the rest of the graph. Identify semantic overlap between clusters and suggest bridge links. Use for deep graph connectivity audits.
 ---
 

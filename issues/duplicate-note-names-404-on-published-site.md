@@ -117,4 +117,4 @@ is itself broken on the published site, which is now tracked separately in
 Nothing currently catches a new duplicate basename. The `uniq -d` command above
 is a one-liner that could run in `build-web.sh` next to `fix-folder-pages.py`,
 or as a check in one of the vault audit skills
-(`awesome-search-kg-frontmatter` already walks every note).
+(`kg-frontmatter` already walks every note).

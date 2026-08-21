@@ -1,5 +1,5 @@
 ---
-name: awesome-search-kg-hubs
+name: kg-hubs
 description: Audit hub notes in the Awesome Search Obsidian vault — rank notes by inbound link count and compare against existing Topics/ notes. Surfaces mismatches where high-traffic concepts lack a proper topic page. Use for periodic graph structure reviews.
 ---
 

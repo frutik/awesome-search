@@ -1,5 +1,5 @@
 ---
-name: awesome-search-kg-orphans
+name: kg-orphans
 description: Find orphan notes in the Awesome Search Obsidian vault — notes with no wikilinks in or out — and suggest or apply connections to existing notes. Use when running a graph health audit or when the KG feels sparse.
 ---
 
@@ -25,10 +25,15 @@ Scan all notes in `Awesome Search/` for files that contain no `[[wikilinks]]` in
 
 Check each folder:
 - `Awesome Search/Articles/`
+- `Awesome Search/Videos/`
 - `Awesome Search/Concepts/`
 - `Awesome Search/People/`
 - `Awesome Search/Companies/`
+- `Awesome Search/Tools/`
 - `Awesome Search/Topics/`
+- `Awesome Search/Conferences/`
+- `Awesome Search/Case Studies/`
+- `Awesome Search/Datasets/`
 
 A note is an orphan if:
 - Its body contains zero `[[...]]` wikilinks, AND
@@ -85,4 +90,4 @@ Skipped: N (could not determine connections)
 
 - Only add wikilinks that are genuinely meaningful — do not create links just to eliminate orphan status
 - An orphan concept note that is truly standalone is better left as-is than linked incorrectly
-- Run `awesome-search-kg-hubs` after fixing orphans to check if any newly linked notes become unexpected hubs
+- Run `kg-hubs` after fixing orphans to check if any newly linked notes become unexpected hubs

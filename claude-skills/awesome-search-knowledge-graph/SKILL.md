@@ -1,203 +1,68 @@
 ---
 name: awesome-search-knowledge-graph
-description: Build and maintain a dense semantic knowledge graph about search and IR inside an Obsidian vault. Triggers on article URLs, article titles or names (from Clippings/, raw_articles/, or unprocessed vault notes), and requests to enrich or reprocess existing notes for concepts, people, companies, tools, or topics.
+description: Apply the Awesome Search KG maintenance pass after any batch of vault note changes — write the History log entry, run the kg-reviewer audit and apply its findings, keep global_toc.md indexing every non-article note, and keep index.md byte-identical to HOME.md. Invoked at the end of kg-note-writing (which itself may be entered directly, or via kg-article-processing's fetch stage), and by any other skill or agent that creates/edits vault notes; can also be run standalone to repair these invariants after manual edits.
 ---
 
-# Awesome Search Knowledge Graph
+# Awesome Search Knowledge Graph — Maintenance
 
-Use this skill when the user asks to process any article into the knowledge graph. Triggers include:
-
-- A URL to a new article to fetch and process
-- A title or name of an article already in the vault (e.g. in `Clippings/`, `raw_articles/`, or `Awesome Search/Articles/`) that hasn't been fully processed yet
-- A request to process, enrich, or link an existing note that is missing entity extraction, wikilinks, or related notes
-- A request to update or reprocess a topic, concept, person, company, or tool note
-
-## Goal
-
-Build a dense but meaningful semantic knowledge graph inside Obsidian. Prefer creating high-quality conceptual connections when substantial thematic overlap exists.
-
-## Vault Structure
-
-- `Awesome Search/Articles/` — one note per processed article
-- `Awesome Search/Videos/` — one note per processed talk/video (type: video); the video/transcript equivalent of an article. Conference talks, tutorials, recorded presentations.
-- `Awesome Search/Concepts/` — technical ideas, methods, algorithms
-- `Awesome Search/Topics/` — broader thematic areas
-- `Awesome Search/People/` — authors, researchers, practitioners
-- `Awesome Search/Companies/` — organisations mentioned
-- `Awesome Search/Tools/` — libraries, platforms, products
-- `Awesome Search/Conferences/` — search/IR/e-commerce conferences and recurring events (type: conference)
-- `Awesome Search/Case Studies/` — real-world implementations
-- `Awesome Search/Datasets/` — benchmark and evaluation datasets
+This skill does not write article/entity content itself — see
+**kg-article-processing** (fetching a source) and **kg-note-writing** (entity
+extraction and note authoring). This skill keeps the graph's structural
+invariants true after any batch of note changes, regardless of what produced
+them (kg-note-writing, the `kg-writer` subagent, a frontmatter fix, a manual
+edit).
 
 ## Vault Access
 
-**Always use the Obsidian MCP server for all vault operations** — never access the vault directly via the filesystem (no Read/Write/Bash file tools). The MCP server is the only sanctioned way to read, search, create, and edit notes.
+**Always use the Obsidian MCP server for all vault operations** — never
+access the vault directly via the filesystem (no Read/Write/Bash file tools).
+The MCP server is the only sanctioned way to read, search, create, and edit
+notes.
 
-## Invariant: index.md mirrors HOME.md
+## Invariant: the History log records every batch
 
-After every workflow run (or any operation that modifies `HOME.md`), read the current content of `HOME.md` and overwrite `index.md` with that exact content. These two files must always be identical. Do this as the final step before reporting completion.
+After every batch that creates or modifies content notes, write one dated
+entry to the current weekly log `Awesome Search/History/<year>.<week>.md` by
+invoking the **kg-history** skill
+(`claude-skills/kg-history/SKILL.md`). It fixes the entry
+format (one subject-first paragraph in mailing-list voice, typed link lines,
+≤3 Corrections bullets), creates the week file when missing, and keeps
+`History.md` as a pure index of links to week files (newest on top — never
+inline entries). Write the entry from the batch's own context — what the
+vault now covers and what was corrected, never a diff summary and never the
+deliberation behind the choices. Do this after the notes are written, before
+the review pass below.
+
+## Review pass
+
+After the History entry is written, spawn the `kg-reviewer` subagent with the
+list of notes just created or modified. Apply its ⚠️ findings (fix grounding,
+broken links, frontmatter), then continue to the invariants below before
+reporting completion.
 
 ## Invariant: global_toc.md tracks every non-article note
 
-`global_toc.md` (at the vault root) is a categorized table of contents of **every note except articles** — it indexes Concepts, Topics, People, Tools, Companies, Case Studies, Videos, Conferences, and Datasets, but never notes in `Awesome Search/Articles/`, `Clippings/`, or `raw_articles/`. (Videos are the one non-article *source* note type that still gets indexed here — under a dedicated `## Videos` section.)
+`global_toc.md` (at the vault root) is a categorized table of contents of
+**every note except articles** — it indexes Concepts, Topics, People, Tools,
+Companies, Case Studies, Videos, Conferences, and Datasets, but never notes in
+`Awesome Search/Articles/`, `Clippings/`, or `raw_articles/`. (Videos are the
+one non-article *source* note type that still gets indexed here — under a
+dedicated `## Videos` section.)
 
-Whenever a workflow run **creates or renames** a non-article note (Concept, Topic, Person, Company, Tool, Case Study, Video, Conference, Dataset), add or update its `[[wikilink]]` in `global_toc.md` as part of the same run:
+Whenever a batch **creates or renames** a non-article note (Concept, Topic,
+Person, Company, Tool, Case Study, Video, Conference, Dataset), add or update
+its `[[wikilink]]` in `global_toc.md` as part of the same pass:
 
 - Place each note under its category section, and within Concepts/Topics/Tools under the most fitting thematic sub-heading (create a new sub-heading only if none fits).
 - Keep entries alphabetical within a group; People are grouped by the first letter of the name.
 - Use an explicit full-path wikilink (e.g. `[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]]`) only when the same basename exists in more than one folder; otherwise a plain `[[Note Name]]` is fine.
 - Update the counts line in the header to match.
 
-Do this before the index.md mirroring step. If `global_toc.md` does not exist, create it by indexing the full vault.
+Do this before the index.md mirroring step below. If `global_toc.md` does not exist, create it by indexing the full vault.
 
-## Invariant: the History log records every batch
+## Invariant: index.md mirrors HOME.md
 
-After every workflow run that creates or modifies content notes, write one dated entry to the current weekly log `Awesome Search/History/<year>.<week>.md` by invoking the **awesome-search-kg-history** skill (`claude-skills/awesome-search-kg-history/SKILL.md`). It fixes the entry format (one subject-first paragraph in mailing-list voice, typed link lines, ≤3 Corrections bullets), creates the week file when missing, and keeps `History.md` as a pure index of links to week files (newest on top — never inline entries). Write the entry from the run's own context — what the vault now covers and what was corrected, never a diff summary and never the deliberation behind the choices. Do this after the notes are written, before kg-reviewer runs.
-
-## Workflow
-
-When asked to read/process articles, follow these steps in order:
-
-### 1. Download the article
-Fetch the full article content from the provided URL using WebFetch. No confirmation needed.
-
-### 1a. Detect paywall
-After fetching, determine whether the full article body is accessible:
-
-**Paywall signals** (any of these → treat as paywalled):
-- Fetched text is significantly shorter than expected for an article (< ~300 words of body content)
-- Content is cut off mid-sentence or ends with a subscription/login prompt
-- Text contains phrases like "Subscribe to read", "Members only", "Sign in to continue", "This content is for subscribers", "Create a free account to read"
-- Only a lede or first few paragraphs are present with no further detail
-
-**If paywalled — aggressive summary mode:**
-1. Work only from the content that was retrieved (title, lede, abstract, visible snippets).
-2. Write a dense, information-maximising summary: core thesis, key claims, named entities, and any specific techniques or findings that are visible — no padding, no hedging.
-3. Add frontmatter field `paywall: true` to the article note.
-4. Add a prominent notice at the top of the note body:
-   ```
-   > [!warning] Paywall
-   > Full text unavailable. Summary based on publicly visible content only.
-   > Original article: <URL>
-   ```
-5. Still extract whatever entities, concepts, and links are inferable from the visible content.
-6. Skip steps that require full article body (e.g. detailed section breakdown), but complete all other workflow steps normally.
-
-**If not paywalled** — proceed normally through the rest of the workflow.
-
-### 2. Save the article note
-Save to `Awesome Search/Articles/<Title>.md` using the standard note structure (see below).
-
-### 3. Extract entities
-- **concepts** – specific technical ideas, methods, algorithms, terminology
-- **topics** – broader thematic areas grouping multiple concepts/trends/domains
-- **people**, **companies**, **tools**
-- **case studies** – concrete real-world implementations, experiments, deployments
-
-Rules:
-- Only extract explicitly stated or strongly supported entities.
-- Avoid trivial/incidental mentions unless likely to recur across multiple articles.
-
-### 4. Normalize entities
-- Use stable canonical forms; no duplicates under slightly different names.
-- Do not merge distinct entities from the same company/product family.
-- "agentic retrieval", "agentic search" → shared canonical concept when semantically equivalent.
-- Prefer separate notes over incorrect merges.
-
-### 5. Create or update entity notes
-Auto-create/update: Article notes, Video notes, Concept notes, Person notes, Company notes, Tool notes, Conference notes, Case Study notes.
-
-When processing a talk/video (a YouTube URL or transcript), save the source note to `Awesome Search/Videos/<Title>.md` with `type: video` rather than `Awesome Search/Articles/` — otherwise it follows the same workflow as an article. Conferences and recurring events mentioned in the source get their own `Awesome Search/Conferences/<Name>.md` note with `type: conference`.
-
-### 6. Add Obsidian wikilinks
-Connect: articles ↔ concepts ↔ people ↔ companies ↔ topics
-
-### 7. Apply linking rules
-- Prioritize meaningful relationships, especially when entities are central to the article or strongly connected to existing notes in the vault.
-- Prioritize entities that appear repeatedly or are central to the article's argument.
-- Preserve relationship types: `author_of`, `discusses`, `implements`, `compares_to`, `critiques`, `works_for`
-- **Factual**: must be explicitly stated or strongly supported by the article.
-- **Semantic**: may be inferred when concepts, topics, or discussions substantially overlap.
-- Acceptable to create conceptual links between related search, IR, ranking, recommendation, retrieval, and agentic-system topics even when the relationship is implicit.
-
-### 8. Connect authors through shared concepts
-If multiple authors write about the same concept → connect them via shared concept notes.
-
-### 9. Related Notes sections
-Include "Related Notes" sections only for strongly related concepts/entities.
-
-### 10. Authorship rule
-Do NOT assume someone invented something unless explicitly stated.
-
-### 11. Grounding (mandatory, invisible)
-
-The note must be true to its sources — but nothing about grounding appears in
-the note itself. No tags, no labels, no "(source)" markers. Clean prose only.
-
-Before saving, silently check every claim:
-- Specifics — numbers, dates, quotes, author names, affiliations, benchmark
-  results — must come from the article's actual text. Never fill these from memory.
-- "X invented / created / introduced Y" — only if the article says so.
-- A relationship link (`implements`, `compares_to`, `critiques`, "builds on") —
-  only if both the source and the linked note actually support it.
-- Everything else must be either a well-established, uncontroversial fact or
-  clearly written as tentative ("appears to", "likely"). If it's neither, cut it.
-
-Paywalled / thin sources mean MORE caution, not confident gap-filling.
-
-### 12. Preserve external URLs
-Always capture URLs found in source material:
-- **Conferences/events**: official website URL in note body and frontmatter as `website:`
-- **Companies**: official website in frontmatter as `website:`
-- **People**: personal blog, homepage, or primary professional URL in frontmatter as `website:` or `blog:`; also as a clickable link in note body
-- **Tools**: repository (GitHub) and/or docs URL in frontmatter as `website:` and `repo:`; also in note body
-- Preserve links to external resources (papers, talks, repos, blog posts) in the relevant entity note — do not discard URLs found in source material.
-- Prefer the most canonical/stable URL (official site > GitHub > Medium profile).
-
-### 13. Review pass
-After writing/enriching notes, spawn the `kg-reviewer` subagent with the list of
-notes just created or modified. Apply its ⚠️ findings (fix grounding, broken
-links, frontmatter), then re-run the index.md / global_toc.md invariants before
-reporting completion.
-
-## Note Structure
-
-All notes must follow this structure:
-
-```markdown
----
-# frontmatter: type, title/aliases, tags, source (for articles), website/blog/repo (for entities), related_concepts, related_topics, people, companies, created
----
-
-# Title
-
-Brief summary paragraph.
-
----
-
-## [Content sections]
-
-## Related Concepts
-- [[Concept]]
-
-## Related Articles
-- [[Article]]
-
-## People
-- [[Person]]
-```
-
-Use Obsidian-compatible Markdown. Preserve source URLs in frontmatter (`source:`) for article notes.
-
-## Entity Frontmatter Fields
-
-| Entity type | Key frontmatter fields |
-|---|---|
-| Article | `type: article`, `source:`, `author:`, `published:`, `concepts:`, `topics:`, `paywall: true` (only when paywalled) |
-| Video | `type: video`, `title:`, `speaker:` (wikilink), `company:` (wikilink), `url:`, `published:`, `topics:`, `concepts:`, `tools:`, `people:` |
-| Concept | `type: concept`, `aliases:`, `tags:` |
-| Topic | `type: topic`, `aliases:`, `related_concepts:`, `related_topics:`, `articles:`, `website:` |
-| Person | `type: person`, `aliases:`, `website:` or `blog:`, `affiliation:` |
-| Company | `type: company`, `website:` |
-| Tool | `type: tool`, `website:`, `repo:` |
-| Conference | `type: conference`, `aliases:`, `website:`, `organizer:` (wikilink) |
+As the final step of the maintenance pass (or any operation that modifies
+`HOME.md`), read the current content of `HOME.md` and overwrite `index.md`
+with that exact content. These two files must always be identical. Do this as
+the final step before reporting completion.

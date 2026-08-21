@@ -6,7 +6,7 @@ description: Transcribe a YouTube video to clean plain text. Triggers on a YouTu
 # YouTube → Text Transcription
 
 Turn a YouTube video into clean plain text so it can be fed into the normal
-[[article-processing-instruction]] / `awesome-search-knowledge-graph` workflow.
+`kg-article-processing` workflow.
 
 ## When to use
 
@@ -14,7 +14,7 @@ Turn a YouTube video into clean plain text so it can be fed into the normal
 - `/youtube-transcribe <url>`
 
 This skill only produces text + metadata. It does **not** create vault notes — hand the
-result off to the `awesome-search-knowledge-graph` skill (which, per [[video_notes_convention]],
+result off to the `kg-article-processing` skill (which, per [[video_notes_convention]],
 puts video content in `Awesome Search/Videos/` with `type: video`, not `Articles/`).
 
 ## Tooling (verified available on this machine)
@@ -136,8 +136,9 @@ it into the `Videos/` note (summary, key moments, entities), and the raw text is
 with the scratchpad. If a staging copy was ever written to the vault, delete it once
 processing is done.
 
-Then offer to run the `awesome-search-knowledge-graph` skill on the scratchpad handoff to
-create the linked `Videos/` note and extract entities.
+Then offer to run the `kg-article-processing` skill on the scratchpad handoff
+to create the `Videos/` note — it hands off to `kg-note-writing` from there to
+extract entities and cross-link.
 
 ## Guardrails
 

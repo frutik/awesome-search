@@ -16,6 +16,9 @@ application code, no test suite, and no package manager here.
 - `README.md` — a published mirror of the vault's table of contents
   (`global_toc.md`) plus links to recent History entries. Kept in sync by the
   `kg-readme-writer` skill, not written by hand.
+- `mails/` — generated per-week HTML email digests of the History log, one
+  `<year>.<week>.html` file per week. Written by the `kg-mail-list` skill,
+  never hand-edited.
 - `claude-skills/` — the Claude Code skills that do essentially all the writing
   work in this repo (see below). `install-claude-skill.sh` copies them to
   `~/.claude/skills`.
@@ -51,13 +54,24 @@ shape, dense mutual `[[wikilinks]]`, canonical entity names, the History log
 format). Skim `claude-skills/README.md` for the full list and invocation
 triggers; the core ones:
 
-- **`awesome-search-knowledge-graph`** — the main ingestion pipeline: fetch an
-  article/video/URL → extract entities (concepts, topics, people, companies,
-  tools, case studies) → create/update notes → cross-link → update
-  `global_toc.md` and `HOME.md`/`index.md` invariants → write a History entry
-  → spawn `kg-reviewer` to audit → apply its findings. Always uses the Obsidian
+- **`kg-article-processing`** — the fetch stage for a single article/video
+  URL/note: fetch → detect paywall → save the Article/Video source note. Does
+  not extract entities or write other notes itself; hands off to
+  `kg-note-writing` once the source note is saved. Always uses the Obsidian
   MCP server for vault reads/writes — **never** raw filesystem tools (Read/
   Write/Bash) against `obsidian/vault/`.
+- **`kg-note-writing`** — extracts entities (concepts, topics, people,
+  companies, tools, case studies) → normalizes → creates/updates notes →
+  cross-links. Entered either via `kg-article-processing`'s handoff (grounded
+  in the fetched source text) or directly for a note synthesized from notes
+  already in the vault with no new source — e.g. "write a topic note pulling
+  together what we have on X" — grounded in those existing notes instead.
+  Hands off to `awesome-search-knowledge-graph` once notes are written.
+- **`awesome-search-knowledge-graph`** — the graph-wide maintenance pass, run
+  after any batch of note changes (from `kg-note-writing`, `kg-writer`, or a
+  manual edit): update `global_toc.md` and the `HOME.md`/`index.md` mirror
+  invariant → write a History entry → spawn `kg-reviewer` to audit → apply its
+  findings. Not itself a content-writing skill.
 - **`kg-readme-writer`** — syncs root `README.md` from vault state
   (`global_toc.md` + latest History weeks), converting `[[wikilinks]]` to
   plain Markdown links pointed at the published site
@@ -65,13 +79,18 @@ triggers; the core ones:
   rules (whitespace → `-`, `&` → `-and-`, `%` → `-percent`, drop `?`/`#`).
   Edits in place; never regenerates from scratch; `README.md` lives at the
   repo root, not inside the vault.
-- **`awesome-search-kg-history`** — writes the dated entry in
+- **`kg-history`** — writes the dated entry in
   `Awesome Search/History/<year>.<week>.md` after every content batch: one
   subject-first paragraph (60–120 words, mailing-list voice, no deliberation,
   no running totals, never says "vault"/"the graph"), a `(N new, M updated)`
   count, ≤3 Corrections bullets. `History.md` stays a pure newest-first index
   of week-file links.
-- **`awesome-search-kg-frontmatter` / `-orphans` / `-hubs` / `-clusters`** —
+- **`kg-mail-list`** — compiles one week's History entries
+  into a plain-language HTML digest at `mails/<year>.<week>.html`: the prose
+  paragraphs and Corrections as written, wikilinks converted to site links
+  (same slugging as `kg-readme-writer`), but with every count/statistic
+  (`(N new, M updated)`, totals) stripped — not a vault-writing skill.
+- **`kg-frontmatter` / `-orphans` / `-hubs` / `-clusters`** —
   quality audits, run in that order: missing frontmatter → orphan notes (zero
   in/out links) → hub/topic-coverage mismatches → disconnected clusters.
 - **`awesome-search-tutor`** — read-only Q&A over the published content, not a
@@ -84,7 +103,7 @@ triggers; the core ones:
 - Frontmatter always has `type:` (`concept`/`topic`/`person`/`company`/`tool`/
   `conference`/`article`/`video`) plus type-specific fields (`aliases`,
   `website`/`repo`/`blog`, `related_concepts`, `source`, etc. — full table in
-  `claude-skills/awesome-search-knowledge-graph/SKILL.md`).
+  `claude-skills/kg-note-writing/SKILL.md`).
 - Grounding is mandatory and invisible: every specific claim (number, date,
   quote, name, affiliation, "X invented Y") must trace to the source; nothing
   is filled from memory, and no meta-markers about grounding are left in the

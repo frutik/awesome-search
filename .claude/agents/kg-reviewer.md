@@ -15,14 +15,14 @@ Check each one:
    "invented/created" attributions, and relationship links the target note
    doesn't back up. Report note + line; never edit.
 2. Frontmatter — complete and correct (per vault conventions; compare with
-   the awesome-search-kg-frontmatter skill).
+   the kg-frontmatter skill).
 3. Links `[[...]]` — point to actually existing notes; no dangling
    references and no orphans (notes with no incoming or outgoing links).
 4. Duplicates — the new note does not repeat an existing concept under a different name.
 5. Scope compliance — changes are within the topic, nothing extraneous.
 6. History entry — if the batch added an entry to the current weekly log
    `Awesome Search/History/<year>.<week>.md`, verify it against the format in the
-   awesome-search-kg-history skill (`claude-skills/awesome-search-kg-history/SKILL.md`):
+   kg-history skill (`claude-skills/kg-history/SKILL.md`):
    one entry per coherent edit (unrelated work must be separate entries), one
    subject-first paragraph of 60–120 words that opens on the material rather
    than on the state of the graph and describes no deliberation (options
