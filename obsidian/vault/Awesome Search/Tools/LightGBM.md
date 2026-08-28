@@ -25,6 +25,7 @@ Microsoft's gradient-boosted decision tree library. Its `lambdarank` objective i
 - [[Building a Better Search Engine for Semantic Scholar]] — LightGBM + LambdaRank reranker, 22 engineered features
 - [[NDCG]] / [[Flavors of NDCG]] — LightGBM uses the Burges NDCG variant
 - [[Hybrid Search and Learning-to-Rank with Metarank]] — LightGBM as a LambdaMART implementation; missing-value handling
+- [[Relational Reranking - Scoring Search Results with Structured Facts]] — cites RelBench: relational deep learning matched/beat tuned LightGBM-style baselines on 11 of 15 tasks
 
 ## TODO
 

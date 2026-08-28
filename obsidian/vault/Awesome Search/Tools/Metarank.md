@@ -36,6 +36,7 @@ Open-source, real-time **secondary re-ranker** and personalization service writt
 - http4s `POST /rank/{model}`; `?explain=true` returns per-item feature values.
 - **Redis** state store in production (in-memory for demos); ~20–30 ms re-ranking latency budget.
 - Datasets: [RankLens](https://github.com/metarank/ranklens), [MSRD](https://github.com/metarank/msrd).
+- Logs a [[Kendall Rank Correlation]] value (`krr`) per `/rank` request as an operational diagnostic of how much reranking changed the candidate order — server-side log only, not part of the API response.
 
 ## Use cases in this vault
 
@@ -45,7 +46,7 @@ Open-source, real-time **secondary re-ranker** and personalization service writt
 
 ## Related
 
-- [[Learning to Rank]] · [[LambdaMART]] · [[Reranking]] · [[Retrieval Pipeline]] · [[Personalization]] · [[Feature Store]] · [[Implicit Judgments]] · [[Interleaving]]
+- [[Learning to Rank]] · [[LambdaMART]] · [[Reranking]] · [[Retrieval Pipeline]] · [[Personalization]] · [[Feature Store]] · [[Implicit Judgments]] · [[Interleaving]] · [[Kendall Rank Correlation]]
 - Implementations it builds on: [[XGBoost]] · [[LightGBM]]
 - [[OpenSearch]] · [[Pinecone Vector DB]]
 - [[Elasticsearch Learning to Rank]] — the in-engine alternative; Metarank is the external, retrieval-agnostic re-ranker by contrast

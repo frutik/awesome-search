@@ -30,7 +30,11 @@ RankLLaMA is a LLaMA-based **pointwise** [[Reranking|reranker]] (from the RepLLa
 
 ## Related
 
-- [[Reranking]] · [[LLM as Judge]] · [[RankGPT]] · [[MonoT5]] · [[Learning to Rank]]
+- [[Reranking]] · [[LLM as Judge]] · [[RankGPT]] · [[MonoT5]] · [[Learning to Rank]] · [[Relational Transformer]] — [[RelativeDB]]'s 85M RT reranker is benchmarked as quality-comparable to RankLLaMA-7B at a fraction of the FLOPs
+
+## Articles
+
+- [[Relational Reranking - Scoring Search Results with Structured Facts]] — positions RT against RankLLaMA-7B on a FLOPs-vs-NDCG@10 chart
 
 ## Topics
 

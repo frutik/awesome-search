@@ -38,6 +38,7 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — [[Thierry Damiba]]
 - [[Relevance Feedback in Qdrant]] — [[Evgeniya Sukhodolskaya]]; the index-native feedback formula, training and [[BEIR]] results
 - [[Relevance Feedback in Informational Retrieval]] — [[Evgeniya Sukhodolskaya]]; the survey arguing the problem can only be solved inside the engine
+- [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Qdrant keeps a mutable insert structure separate from the read-optimized graph
 
 ## Videos
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026

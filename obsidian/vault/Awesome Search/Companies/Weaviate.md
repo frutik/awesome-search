@@ -46,6 +46,7 @@ Weaviate supports cross-encoder reranking as a native feature in its search pipe
 - [[Using Cross-Encoders as Reranker in Multistage Vector Search]]
 
 - [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]]
+- [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Weaviate uses tombstoning without parallel graph segments
 
 ## Tools
 - [[Weaviate Vector DB]]

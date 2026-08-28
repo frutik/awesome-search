@@ -59,6 +59,7 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[From Elasticsearch to Vespa - Rebuilding the Kleinanzeigen Homepage Feed Part 1]] — [[Andre Charton]], [[Kleinanzeigen]]
 - [[How I learned Vespa by thinking in Solr]] — [[Sujit Pal]] ([[Elsevier]]); onboarding to Vespa via Solr analogies
 - [[How to Securely Hook Up Quepid to Vespa]] — [[Charlie Hull]]; interactive offline relevance testing for Vespa via [[Quepid]] (Vespa lacks built-in offline eval tooling)
+- [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Vespa keeps a single graph updated concurrently in place, contrasted with tombstoning/segmentation elsewhere
 
 ## Concepts
 

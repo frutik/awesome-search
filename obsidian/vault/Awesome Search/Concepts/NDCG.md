@@ -114,6 +114,7 @@ Standard NDCG assumes irrelevant documents are neutral (grade 0). In LLM/RAG pip
 - [[Judgment Lists]] — required input for NDCG computation
 - [[Search Evaluation]] — broader evaluation framework
 - [[LLM as Judge]] — automated relevance judgments
+- [[Kendall Rank Correlation]] — contrast: measures how much two orderings differ, with no relevance labels required, unlike NDCG
 
 
 **Related videos:**

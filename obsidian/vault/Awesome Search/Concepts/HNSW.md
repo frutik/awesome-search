@@ -123,10 +123,12 @@ Both are only possible for engines that own their index — a recurring argument
 - [[ACORN-1]] — HNSW extension for aggressive filtered ANN search using multi-hop neighborhoods
 - [[ANN]] — parent concept
 - [[pgvector]] — exposes HNSW indexing inside [[PostgreSQL]]; see [[Search using PostgreSQL]]
+- [[Vector Index Updates]] — tombstoning, segmentation, and how vendors handle graph mutation on update/delete
 
 ## Articles
 
 - [[Exploring Hierarchical Navigable Small World]] — Vespa intern deep-dive; covers graph quality metrics, disconnected components, edge density, dimensionality reduction, and ACORN-1 comparison
+- [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; tombstoning and segmented-graph strategies for handling updates/deletes, and why static benchmarks miss this
 - [[Choosing a Vector Database for ANN Search at Reddit]] — Reddit's benchmark of Milvus vs Qdrant at 340M vectors; HNSW M=16, efConstruction=100 was the primary tested index configuration
 - [[Exploring Vector Databases with Milvus]] — deep dive into HNSW and quantization-based indexing in Milvus; n_probe tradeoffs; filtering strategies A–E
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]] — James Briggs video benchmarking HNSW vs Flat, LSH, and IVF on Sift1M

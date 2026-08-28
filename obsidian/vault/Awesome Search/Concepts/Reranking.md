@@ -121,6 +121,8 @@ A concrete instance where fusion arithmetic silently evicted the answer before r
 - [[RankGPT]] — listwise LLM reranker
 - [[LambdaMART]] / [[Metarank]] — feature-based external secondary re-ranker
 - [[Feature Store]] — serves the features an LTR re-ranker consumes
+- [[Kendall Rank Correlation]] — diagnostic for how much reranking changed the candidate order (not a quality metric)
+- [[Relational Transformer]] — reranks candidates by conditioning on structured relational data (typed fields, schema links) instead of text
 
 ## Topics
 

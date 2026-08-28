@@ -21,7 +21,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
 
 ### ANN Indexing & Quantization
-[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[ASH]] · [[ITQ]] · [[Token Pooling]]
+[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Vector Index Updates]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[ASH]] · [[ITQ]] · [[Token Pooling]]
 
 ### Dimensionality Reduction
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]
@@ -30,7 +30,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]]
 
 ### Reranking & Cross-Encoders
-[[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]]
+[[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
 
 ### Learning to Rank
 [[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Hashing Trick]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -109,7 +109,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -147,7 +147,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[BEIR]] · [[BRIGHT]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RTEB]] · [[SIFT1M]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[BEIR]] · [[BRIGHT]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
@@ -159,7 +159,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]]
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 

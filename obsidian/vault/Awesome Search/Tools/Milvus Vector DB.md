@@ -69,3 +69,4 @@ This separation means ingest load does not interfere with query traffic — a ke
 - [[Choosing a Vector Database for ANN Search at Reddit]]
 - [[Exploring Vector Databases with Milvus]]
 - [[Milvus - Unlocking Your Data's Hidden Relationships]]
+- [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Milvus keeps a mutable insert structure separate from the read-optimized graph

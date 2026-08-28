@@ -98,6 +98,7 @@ signal available when the distribution shifts. See [[Zero-Shot Retrieval]].
 - [[Bi-Encoder]] — simpler alternative
 - [[Cross-Encoder]] — more accurate alternative
 - [[Dense Vector Retrieval]] — ColBERT produces multi-vector dense representations
+- [[Relational Transformer]] — ColBERTv2 used as a comparison point on RT's FLOPs-vs-NDCG@10 chart
 
 ## Tools
 

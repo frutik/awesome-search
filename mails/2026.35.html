@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Awesome Search — Aug 24 – Aug 30, 2026</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0; }
+  .dateline { color: #555; margin-top: 0.25rem; }
+  article { margin: 2rem 0; }
+  h2 { font-size: 1.15rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+</style>
+</head>
+<body>
+<h1>Awesome Search</h1>
+<p class="dateline">Aug 24 – Aug 30, 2026</p>
+
+<article>
+  <h2>RelativeDB's Relational Transformer Reranks on Structured Facts</h2>
+  <p>A reranker that scores candidates from typed database fields instead of serialized text: <a href="https://frutik.github.io/awesome-search/Concepts/Relational-Transformer">Relational Transformer</a> (RT), an 85M-parameter model from <a href="https://frutik.github.io/awesome-search/Companies/RelativeDB">RelativeDB</a>, represents each fact as a Cell — name, type, value — connected to linked rows through schema relationships like also_buy. <a href="https://frutik.github.io/awesome-search/Articles/Relational-Reranking---Scoring-Search-Results-with-Structured-Facts">RelativeDB's introduction</a> reports RT reaching 0.633 <a href="https://frutik.github.io/awesome-search/Concepts/NDCG">NDCG@10</a> on <a href="https://frutik.github.io/awesome-search/Datasets/MTEB">MTEB</a> DeepPlanning's product-search slice (up from 0.286 for MiniLM retrieval alone), and on <a href="https://frutik.github.io/awesome-search/Datasets/STaRK">STaRK</a> shows the also_buy edge alone moving the correct product from rank #2 to #1. The design follows <a href="https://frutik.github.io/awesome-search/Datasets/RelBench">RelBench</a>'s finding that relational structure beats tuned <a href="https://frutik.github.io/awesome-search/Tools/LightGBM">LightGBM</a> baselines on 11 of 15 tasks. An LLM query-parsing step that converts free text into Cells reportedly doubled accuracy.</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/Relational-Reranking---Scoring-Search-Results-with-Structured-Facts">Relational Reranking - Scoring Search Results with Structured Facts</a></p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Relational-Transformer">Relational Transformer</a></p>
+  <p><strong>People</strong>: <a href="https://frutik.github.io/awesome-search/People/Daniel-Henneberger">Daniel Henneberger</a></p>
+  <p><strong>Companies</strong>: <a href="https://frutik.github.io/awesome-search/Companies/RelativeDB">RelativeDB</a></p>
+  <p><strong>Datasets</strong>: <a href="https://frutik.github.io/awesome-search/Datasets/RelBench">RelBench</a>, <a href="https://frutik.github.io/awesome-search/Datasets/STaRK">STaRK</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Reranking">Reranking</a>, <a href="https://frutik.github.io/awesome-search/Concepts/RankLLaMA">RankLLaMA</a>, <a href="https://frutik.github.io/awesome-search/Concepts/ColBERT">ColBERT</a>, <a href="https://frutik.github.io/awesome-search/Tools/LightGBM">LightGBM</a></p>
+</article>
+<hr>
+
+<article>
+  <h2>How Vector Databases Handle Updates and Deletes</h2>
+  <p>Vector search benchmarks that only index once and query a static corpus miss what happens as records constantly turn over. <a href="https://frutik.github.io/awesome-search/Articles/Updating-a-Vector-Database-Is-No-Simple-Thing">Updating a Vector Database Is No Simple Thing</a> (<a href="https://frutik.github.io/awesome-search/People/Doug-Turnbull">Doug Turnbull</a>) argues an update is usually a delete-then-insert upsert, and outright deleting a node from an <a href="https://frutik.github.io/awesome-search/Concepts/HNSW">HNSW</a> graph would leave navigational gaps — so engines tombstone it instead, keeping edges intact but excluding it from results. <a href="https://frutik.github.io/awesome-search/Concepts/Vector-Index-Updates">Vector Index Updates</a> compares vendor strategies: <a href="https://frutik.github.io/awesome-search/Companies/Vespa">Vespa</a> updates a single graph concurrently in place, <a href="https://frutik.github.io/awesome-search/Companies/Weaviate">Weaviate</a> tombstones without parallel segments, and <a href="https://frutik.github.io/awesome-search/Companies/Qdrant">Qdrant</a> and <a href="https://frutik.github.io/awesome-search/Tools/Milvus-Vector-DB">Milvus</a> keep a mutable insert structure separate from the read-optimized graph. Turnbull's conclusion: never trust a benchmark that just inserts once and replays queries — shadow-test against real traffic instead.</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/Updating-a-Vector-Database-Is-No-Simple-Thing">Updating a Vector Database Is No Simple Thing</a></p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Vector-Index-Updates">Vector Index Updates</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/HNSW">HNSW</a>, <a href="https://frutik.github.io/awesome-search/Companies/Vespa">Vespa</a>, <a href="https://frutik.github.io/awesome-search/Companies/Weaviate">Weaviate</a>, <a href="https://frutik.github.io/awesome-search/Companies/Qdrant">Qdrant</a>, <a href="https://frutik.github.io/awesome-search/Tools/Milvus-Vector-DB">Milvus Vector DB</a>, <a href="https://frutik.github.io/awesome-search/People/Doug-Turnbull">Doug Turnbull</a></p>
+</article>
+<hr>
+
+<article>
+  <h2>Kendall Rank Correlation as a Reranking Diagnostic</h2>
+  <p>Two rankings of the same candidate set can be compared without relevance labels: <a href="https://frutik.github.io/awesome-search/Concepts/Kendall-Rank-Correlation">Kendall Rank Correlation</a> counts concordant versus discordant pairs between an input and output order, ranging from +1 (identical) through 0 (unrelated) to -1 (reversed). The note contrasts this with <a href="https://frutik.github.io/awesome-search/Concepts/NDCG">NDCG</a> and <a href="https://frutik.github.io/awesome-search/Concepts/MAP">MAP</a>, which score a ranking against <a href="https://frutik.github.io/awesome-search/Concepts/Judgment-Lists">Judgment Lists</a> — tau measures how much an ordering changed, not whether the change helped. <a href="https://frutik.github.io/awesome-search/Tools/Metarank">Metarank</a> logs it as <code>krr</code> on every rerank request, a server-side diagnostic never returned to the caller; a low value confirms the <a href="https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank">Learning to Rank</a> model is reshuffling candidates rather than echoing input order. <a href="https://frutik.github.io/awesome-search/People/Doug-Turnbull">Doug Turnbull</a>'s <a href="https://frutik.github.io/awesome-search/Articles/What-Is-a-Judgment-List">judgment-list FAQ</a> separately uses it to check agreement between judgment systems.</p>
+  <p><strong>New</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Kendall-Rank-Correlation">Kendall Rank Correlation</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Tools/Metarank">Metarank</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Reranking">Reranking</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Learning-to-Rank">Learning to Rank</a>, <a href="https://frutik.github.io/awesome-search/Concepts/NDCG">NDCG</a></p>
+</article>
+
+</body>
+</html>

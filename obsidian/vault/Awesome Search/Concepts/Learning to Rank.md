@@ -153,6 +153,7 @@ A model trained on clicks over its own rankings eats its own output: users click
 - [[Vespa Learning to Rank]] — in-engine LTR in Vespa; phased ranking with native GBDT/ONNX models
 
 - [[LTR Feature Engineering]] — taxonomy of ranking features (product attributes, query×doc interactions, personalization signals, behavioral features) and selection strategy
+- [[Kendall Rank Correlation]] — diagnostic for how much a reranker changed the candidate order, distinct from NDCG-style quality metrics
 
 ## Articles
 
