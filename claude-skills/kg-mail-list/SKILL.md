@@ -82,6 +82,25 @@ Same rule as `kg-readme-writer`: every `[[wikilink]]` becomes a vanilla
   as plain text — never emit a broken link — and report the unresolved name
   in your summary.
 
+## Page title
+
+The `<title>` is `<year>, week <WW> (<compact date range>)` — e.g.
+`2026, week 35 (Aug 24–30)`. Derive both parts from the week file's own
+`# History — <year> week <WW> (<range>)` header; never from today's date.
+
+The compact range collapses the header's full range (`Aug 24 – Aug 30,
+2026`) by dropping the year and, when both ends fall in the same month, the
+repeated month name, joined with an en dash and no surrounding spaces:
+
+- same month → `Aug 24–30`
+- spanning months → `Aug 31–Sep 6`
+
+Keep the week number zero-padded exactly as the filename has it (`week 07`,
+not `week 7`).
+
+The `<h1>` stays `Awesome Search` and the `.dateline` keeps the header's
+full range — only the `<title>` uses this compact form.
+
 ## HTML structure
 
 Self-contained, minimal, valid HTML — no external stylesheets, scripts,
@@ -93,7 +112,7 @@ attachment/preview with no network access. Inline the (small) CSS.
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Awesome Search — <date range from the week file's header, e.g. "Aug 17 – Aug 23, 2026"></title>
+<title><year>, week <WW> (<compact date range>)</title>
 <style>
   body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
   h1 { font-size: 1.4rem; margin-bottom: 0; }
@@ -121,13 +140,21 @@ attachment/preview with no network access. Inline the (small) CSS.
 <hr>
 <!-- repeat per entry, in file order -->
 
+<hr>
+<p>Best,<br>Andrew</p>
+
 </body>
 </html>
 ```
 
 One `<article>` per History entry — multiple entries on the same date each
 get their own `<article>`, per History's "one entry = one coherent edit"
-rule. Drop the trailing `<hr>` after the last entry.
+rule. Drop the trailing `<hr>` after the last entry; the only `<hr>` after
+the last `</article>` is the footer's.
+
+The footer is fixed and always present, exactly `<hr>` followed by
+`<p>Best,<br>Andrew</p>` — a sign-off, never a place for counts, totals, or
+an unsubscribe/boilerplate block.
 
 ## Procedure
 
@@ -135,14 +162,16 @@ rule. Drop the trailing `<hr>` after the last entry.
    week (`date +%G.%V`).
 2. Read `Awesome Search/History/<year>.<week>.md` via MCP. If it doesn't
    exist, report that and stop.
-3. Extract the date range from the file's `# History — <year> week <WW>
-   (<range>)` header line.
+3. Extract the week number and date range from the file's
+   `# History — <year> week <WW> (<range>)` header line, and build the
+   compact range for the `<title>` (see "Page title").
 4. Split the file into entries (each starts with `## YYYY-MM-DD — ...`,
    separated by `---` when there is more than one).
 5. For each entry, extract: title (count stripped), paragraph, Corrections
    bullets (if any), and the typed New/Updated line(s) — resolving every
    `[[wikilink]]` to a site URL per the conversion rule above.
-6. Render the HTML per the structure above, entries in the file's own order.
+6. Render the HTML per the structure above, entries in the file's own
+   order, ending with the fixed `<hr>` + `Best, Andrew` footer.
 7. Create `mails/` at the repo root if missing; write
    `mails/<year>.<week>.html` with the Write tool (this output is outside the
    vault, so MCP does not apply to it).
