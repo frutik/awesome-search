@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -157,7 +157,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 
-**C** — [[Charlie Hull]] · [[Chris Fournie]]
+**C** — [[Charlie Hull]] · [[Chris Fournie]] · [[Congzhe Su]]
 
 **D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]] · [[Dylan Couzon]]
 
@@ -189,7 +189,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **R** — [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
-**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]]
+**S** — [[Sergey Feldman]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
 **T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
@@ -198,3 +198,5 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 **V** — [[Venkat Ram Rao]] · [[Vsevolod Goloviznin]]
 
 **W** — [[Wolf Garbe]] · [[Daniel Wrigley]]
+
+**Y** — [[Yuqing Zhang]]

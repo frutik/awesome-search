@@ -2,7 +2,7 @@
 type: topic
 aliases: ["product search", "e-commerce search", "retail search"]
 tags: [topic, e-commerce, product-search]
-related_concepts: ["[[Query Types]]", "[[Zero Results]]", "[[Faceted Search]]", "[[Results Merchandising]]", "[[Results Boosting]]", "[[Learning to Rank]]", "[[Personalization]]"]
+related_concepts: ["[[Query Types]]", "[[Zero Results]]", "[[Faceted Search]]", "[[Results Merchandising]]", "[[Results Boosting]]", "[[Learning to Rank]]", "[[Personalization]]", "[[Semantic Relevance]]", "[[LLM as Judge]]"]
 related_topics: ["[[Search Result Diversity]]", "[[Synonyms and Vocabulary Management]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]", "[[Tuning BM25 for E-commerce Search]]"]
 articles: [
   "[[Ecommerce Search UX - 8 Query Types]]",
@@ -10,6 +10,7 @@ articles: [
   "[[Three Pillars of Search Quality - Findability]]",
   "[[Three Pillars of Search Quality - Discovery and Inspiration]]",
   "[[How Etsy Uses Thermodynamics for Search]]",
+  "[[How Etsy Uses LLMs to Improve Search Relevance]]",
   "[[Incremental AI Adoption for E-commerce Search]]",
   "[[Migrating to Elasticsearch with Dense Vector for Carousell Spotlight]]"
 ]
@@ -71,6 +72,8 @@ Are the right items at the top?
 - **Key metric**: NDCG, conversion rate
 - **Main causes of failure**: wrong ranking signal, position bias in training data, business rules overriding relevance
 - **Fixes**: LTR, implicit signals, debiasing
+
+Engagement signals (clicks, add-to-carts, purchases) are the default ranking proxy, but they bias toward already-popular listings regardless of query fit. [[Semantic Relevance]] is a complementary, intent-based signal — [[How Etsy Uses LLMs to Improve Search Relevance|Etsy scales it with an LLM judge anchored to human labels]], distilled down to a model cheap enough to run in real-time production ranking.
 
 ### Discovery
 Can users find things they didn't know they were looking for?
@@ -137,3 +140,4 @@ Start at Level 1. Only move up if A/B test shows improvement.
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 real-time LTR personalization for SMB stores (Findify, [[MICES]] 2019)
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — signal selection, bias, leakage and serving in a large accommodation marketplace
 - [[Tuning BM25 for E-commerce Search]] — field-by-field `k1`/`b` tuning for product data, and why it matters more in marketplaces
+- [[How Etsy Uses LLMs to Improve Search Relevance]] — LLM-anchored semantic relevance as a signal alongside engagement, distilled for real-time production use

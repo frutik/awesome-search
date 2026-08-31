@@ -71,3 +71,4 @@ See: [[Modeling Spelling Correction for Search at Etsy]]
 - [[Zalando - Self-DoS via Facet Aggregation]] — another e-commerce search architecture lesson
 - [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] — long-tail vocabulary defeating a classifier rather than a ranker
 - [[Query Classification]] — broad queries as the case for declining to commit to one label
+- [[How Etsy Uses LLMs to Improve Search Relevance]] — later Etsy Search Relevance team work: LLM-anchored semantic relevance labeling and a distillation cascade for production ranking, orthogonal to this diversity/spelling-correction cluster

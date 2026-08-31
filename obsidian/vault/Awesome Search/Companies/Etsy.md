@@ -42,7 +42,8 @@ Etsy search must handle:
 - [[How Etsy Uses Thermodynamics for Search]] — entropy-based diversity
 - [[Modeling Spelling Correction for Search at Etsy]] — domain-specific spell correction
 - [[Targeting Broad Queries in Search]] — broad query diversity strategy
+- [[How Etsy Uses LLMs to Improve Search Relevance]] — LLM-anchored semantic relevance labeling and a three-tier distillation cascade for real-time production search
 
 ## Related Concepts
 
-- [[Diversity Metrics]] · [[Spelling Correction]] · [[Query Types]] · [[Query Understanding]]
+- [[Diversity Metrics]] · [[Spelling Correction]] · [[Query Types]] · [[Query Understanding]] · [[Semantic Relevance]] · [[LLM as Judge]] · [[Knowledge Distillation]]

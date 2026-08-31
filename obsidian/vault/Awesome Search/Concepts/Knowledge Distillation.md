@@ -95,6 +95,8 @@ A third target, distinct from both the ranker and the generative teacher above: 
 
 The economics differ from ranker distillation in a useful way. A distilled retriever must be *better* than the alternatives to justify itself; a distilled judge only has to be good enough to handle the easy majority, because hard cases still escalate to the teacher. That tolerance for imperfection is what makes the cascade work, and it means the usual quality-loss objection to distillation carries less weight here.
 
+[[How Etsy Uses LLMs to Improve Search Relevance]] runs this pattern as an explicit three-tier cascade rather than a single teacher/student pair: an o3-based LLM annotator (anchored to human golden labels) trains a Qwen 3 VL 4B teacher via supervised fine-tuning, which in turn trains a lightweight BERT-based two-tower student for sub-10ms production inference. Measured Macro F1 degrades tier by tier — 0.72 (annotator) → 0.71 (teacher) → 0.65 (student) — a visible, quantified version of the quality loss the cascade is designed to tolerate.
+
 ## Compression Costs More Out-of-Domain
 
 A caveat that in-domain benchmarks hide. [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]]
@@ -121,6 +123,7 @@ the comparison has to be made. See [[Zero-Shot Retrieval]].
 - [[ELSER]] — the vault's worked ensemble-teacher example (MiniLM + MonoT5-3B → 100M student)
 - [[Staged Judging]] — distilling the evaluator instead of the retriever
 - [[Contrastive Learning]] — the objective distillation replaces or supplements
+- [[Semantic Relevance]] — the signal Etsy's three-tier cascade distills
 
 ## Articles
 
@@ -130,3 +133,5 @@ the comparison has to be made. See [[Zero-Shot Retrieval]].
   compressing a multi-vector model
 - [[Distilling Retrieval Pipelines to a Single Embedding Model]] — distilling a whole pipeline rather
   than a single teacher
+- [[How Etsy Uses LLMs to Improve Search Relevance]] — explicit three-tier LLM annotator → teacher → student
+  cascade for real-time semantic relevance

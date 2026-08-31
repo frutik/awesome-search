@@ -110,6 +110,7 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[NDCG]] — metric computed from LLM-generated grades
 - [[RAG]] — LLM judge also used for RAG faithfulness/relevancy evaluation
 - [[Agentic Search]] — LLM verification step is a form of LLM judgment
+- [[Semantic Relevance]] — the intent-based signal LLM judges are used to scale, alongside engagement-based relevance
 
 ## People
 ## Articles
@@ -127,6 +128,7 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER-clustered test queries; GPT-4o; ~$250/run for 1,500 segments × 25 results; pre-launch market validation
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM signals as ML features → decision tree; 96.7% precision on 40% of pairs
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; few-shot examples hurt accuracy; migration to local Gemma judge cut inference cost 60%
+- [[How Etsy Uses LLMs to Improve Search Relevance]] — [[Yuqing Zhang]], [[Congzhe Su]], [[Susan Liu]]; LLM annotator anchored to human golden labels, scaled via a three-tier [[Knowledge Distillation|distillation]] cascade into a real-time production judge
 
 ## People
 
@@ -135,3 +137,6 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[Doug Turnbull]]
 - [[Joanna Marhula]]
 - [[Mateusz Sidor]]
+- [[Yuqing Zhang]]
+- [[Congzhe Su]]
+- [[Susan Liu]]
