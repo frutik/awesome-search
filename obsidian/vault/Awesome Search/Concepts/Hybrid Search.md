@@ -55,6 +55,15 @@ where k=60 is a constant that smooths rank differences.
 
 **Advantages**: No score normalization needed, robust, no training required.
 
+### Distribution-Based Score Fusion (DBSF)
+Normalizes each retriever's scores by its own per-query mean and 3-sigma spread before summing them,
+instead of discarding scores like RRF or min-max scaling against observed extremes like RSF. See
+[[Distribution-Based Score Fusion]].
+
+**Advantages**: preserves score leads across retrievers. **Trade-off**: only as good as the
+retrievers' score calibration — [[Qdrant Vector DB|Qdrant]]'s own guidance is that it can beat tuned
+weighted RRF on well-calibrated retrievers, and lose to it otherwise.
+
 ### Linear Score Combination
 ```
 final_score = α × sparse_score + (1 − α) × dense_score
@@ -179,6 +188,7 @@ GET /products/_search
 - [[Metarank]] — open-source LTR re-ranker for multi-retriever fusion
 - [[Full-Text Search]] — the lexical leg
 - [[PostgreSQL]] / [[pgvector]] / [[ParadeDB]] — hybrid search in a single datastore
+- [[Distribution-Based Score Fusion]] — score-preserving fusion alternative to RRF, in [[Qdrant Vector DB|Qdrant]]
 
 ## People
 
@@ -208,6 +218,8 @@ GET /products/_search
   answer when you have no labels
 - [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — a hybrid model used as the
   *filter* for generating its own successor's training data
+- [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; RRF vs. DBSF and RRF parameter tuning, measured across five datasets
+- [[Hybrid Queries - Qdrant]] — RRF and DBSF fusion query reference
 
 ## Case Studies
 

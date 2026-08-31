@@ -52,7 +52,10 @@ center collapse toward 0 or 1 and lose their differences. In [[Reciprocal Rank F
 outside the range where sigmoid discriminates.
 
 **Z-score / L2** — standardize by distribution rather than extremes. Steadier than min-max on noisy
-corpora where outliers are common.
+corpora where outliers are common. [[Distribution-Based Score Fusion|DBSF]] is a variant of this
+family purpose-built for fusion: it rescales each retriever's scores using its own mean and 3-sigma
+spread (`ŝ = (s − (μ − 3σ)) / 6σ`) before summing across retrievers, computed per query rather than
+from a running distribution.
 
 ## Where it sits in a fusion pipeline
 
@@ -100,6 +103,9 @@ same document still normalizes differently across queries.
 - **[[Vespa]]** — no built-in normalization stage; min-max is implemented as a custom searcher in the
   query dispatcher, fed by match-features carried up from the content nodes. More work, and it puts the
   normalization at the only place in a distributed topology where it is correct.
+- **[[Qdrant Vector DB|Qdrant]]** — [[Distribution-Based Score Fusion|DBSF]] (since v1.11.0) normalizes
+  each retriever's scores by its own per-query mean and 3-sigma spread before summing; the alternative
+  to Qdrant's rank-based [[Reciprocal Rank Fusion|RRF]].
 
 ## The RRF alternative
 
@@ -113,6 +119,7 @@ to preserve.
 ## Related Concepts
 
 - [[Relative Score Fusion]] — the fusion strategy that depends on this step
+- [[Distribution-Based Score Fusion]] — fuses on distribution-normalized scores rather than discarding or min-max scaling them
 - [[Reciprocal Rank Fusion]] — avoids the problem by ignoring scores
 - [[Linear Score Combination]] — weighted blending, which assumes normalized inputs
 - [[Hybrid Search]] — the setting where incomparable scales arise
@@ -127,6 +134,7 @@ to preserve.
 - [[RRF is Not Enough]] — the case for keeping score magnitude
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[Jo Kristian Bergum]];
   distributed min-max via match-features, and the BEIR gain it delivered (0.453 → 0.481)
+- [[Hybrid Queries - Qdrant]] — the DBSF mean/3-sigma normalization formula and API
 
 ## Case Studies
 

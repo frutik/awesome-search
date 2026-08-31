@@ -36,7 +36,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Hashing Trick]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
 
 ### Hybrid Search & Score Fusion
-[[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Score Normalization]] · [[Semantic Boosting]]
+[[Hybrid Search]] · [[Reciprocal Rank Fusion]] · [[Distribution-Based Score Fusion]] · [[Linear Score Combination]] · [[Relative Score Fusion]] · [[Score Normalization]] · [[Semantic Boosting]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Compositional Queries]]
@@ -159,7 +159,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **C** — [[Charlie Hull]] · [[Chris Fournie]]
 
-**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]] · [[Dylan Couzon]]
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 

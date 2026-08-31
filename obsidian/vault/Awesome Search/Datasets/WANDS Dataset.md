@@ -63,6 +63,11 @@ Home goods search has distinct challenges compared to general e-commerce:
 - [[Learning to Rank]] — primary use case
 - [[Hybrid Search]] — commonly evaluated against WANDS
 - [[Amazon ESCI Dataset]] — larger counterpart for broader e-commerce domains
+- [[Distribution-Based Score Fusion]] — its largest measured gain over default RRF among five fusion-tuning benchmark datasets was on WANDS
+
+## Articles
+
+- [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; among five datasets used to compare [[Reciprocal Rank Fusion|RRF]] and [[Distribution-Based Score Fusion|DBSF]], WANDS (with 358.9 relevant products per query on average) favored high `k` (20–61) and showed [[Reciprocal Rank Fusion|RRF]] `k=2` vs. `k=61` picking a different top result for 42% of queries
 
 ## Source
 

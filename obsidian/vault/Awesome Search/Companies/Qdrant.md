@@ -25,11 +25,14 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 
 **Sparse neural retrieval** — Qdrant supports [[BM25]] and [[SPLADE]] as sparse vectors over inverted indexes, making lexical and learned-sparse retrieval first-class in a vector engine. Original research includes [[miniCOIL]] (BM25 extended with a small semantic component, with BM25 fallback for out-of-vocabulary terms) and a five-part study of [[SPLADE]] domain fine-tuning, [[Fine-Tuning Sparse Embeddings for E-Commerce Search]], packaged as [[qdrant-sparse-finetune]].
 
+**Hybrid query fusion** — [[Reciprocal Rank Fusion|RRF]] with a configurable `k` (v1.16) and per-prefetch weights (v1.17), plus [[Distribution-Based Score Fusion]] (v1.11), a score-preserving alternative that normalizes each retriever's scores by its own per-query mean and 3-sigma spread before summing. [[How to Tune Hybrid Search in Qdrant]] measures both against five datasets and works through a tuning workflow (RRF vs. DBSF, `k`, weights, held-out validation).
+
 ## People
 - [[Ivan Pleshkov]]
 - [[Jonas Schulz]]
 - [[Evgeniya Sukhodolskaya]] — developer advocate; [[miniCOIL]], sparse neural retrieval
 - [[Thierry Damiba]] — developer relations; sparse fine-tuning research
+- [[Dylan Couzon]] — hybrid search tuning guide
 
 ## Articles
 - [[TurboQuant in Qdrant]]
@@ -39,6 +42,8 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 - [[Relevance Feedback in Qdrant]] — [[Evgeniya Sukhodolskaya]]; the index-native feedback formula, training and [[BEIR]] results
 - [[Relevance Feedback in Informational Retrieval]] — [[Evgeniya Sukhodolskaya]]; the survey arguing the problem can only be solved inside the engine
 - [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Qdrant keeps a mutable insert structure separate from the read-optimized graph
+- [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; RRF vs. DBSF and RRF `k`/weight tuning, measured across five datasets
+- [[Hybrid Queries - Qdrant]] — RRF and DBSF fusion query reference
 
 ## Videos
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026

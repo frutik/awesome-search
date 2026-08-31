@@ -77,6 +77,9 @@ BEIR is the shared yardstick across the retrieval-model notes:
   *compression* testbed rather than a model ranking: nDCG@10 retained after [[PCA]] and
   [[Matryoshka Embeddings|MRL]] truncation, with the author flagging BEIR's presence in
   embedding training data as a contamination risk on his own numbers
+- [[How to Tune Hybrid Search in Qdrant]] — ArguAna, SciFact, and DBPedia-entity used (alongside
+  non-BEIR WANDS and CodeSearchNet) to compare [[Reciprocal Rank Fusion|RRF]] against
+  [[Distribution-Based Score Fusion|DBSF]] and tune RRF's `k`/weights
 
 ## Related Concepts
 

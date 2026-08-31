@@ -52,6 +52,25 @@ should count for more than another, which plain unweighted RRF cannot do.
 
 Worked end-to-end with numbers in [[Reciprocal Rank Fusion and Relative Score Fusion]].
 
+## Weighted RRF and Choosing k (Qdrant)
+
+[[Qdrant Vector DB|Qdrant]] parameterizes both knobs directly on the query: `k` since v1.16.0, and
+per-prefetch weights (Weighted RRF) since v1.17.0. Qdrant's formula for a document at position `pos`
+in one prefetch is `1/((pos+1)/weight + k − 1)`, reducing to `1/(pos+k)` at equal weights — the same
+shape as above, but zero-based, so Qdrant's default `k=2` is not directly comparable to the original
+RRF paper's `k=60` (one-based); porting that paper's convention requires `k=61`.
+
+[[How to Tune Hybrid Search in Qdrant]] measured how much `k` matters across five datasets: at
+`k=2`, rank 1 carries 5.50× the weight of rank 10; at `k=61`, only 1.15×. Datasets with about one
+relevant document per query did best at low `k` (2 or 5); datasets with tens or hundreds of relevant
+documents per query did best at high `k` (20 or 61) — on WANDS, `k=2` vs. `k=61` picked a different
+top result for 42% of queries. Weight pairs are only valid for the `k` they were tuned at, and a
+prefetch's own standalone score doesn't say which way to weight it — e.g. weighting the *weaker*
+solo retriever higher can still win, because weights act on positions within each list, not on
+absolute score quality. A weight of 0.0 keeps a prefetch's documents in the result, scored at 0.0,
+rather than excluding them. Tied scores are more common at low `k`; the fix is to request more
+results, sort client-side by descending score then ascending ID, and keep the first N.
+
 ## Explainability
 
 Because the contribution of each list is just `w × 1/(k + rank)`, RRF is unusually easy to explain.
@@ -86,6 +105,7 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 - [[Federated Search]] — RRF is the standard merger when fanning out across multiple collections/engines
 
 - **[[Relative Score Fusion]] (RSF)**: normalize scores to [0,1] and combine linearly; preserves score magnitude but requires calibration
+- **[[Distribution-Based Score Fusion]] (DBSF)**: normalizes each retriever's scores by its own mean/spread rather than discarding them; Qdrant's alternative to RRF when retrievers' score magnitudes are trustworthy
 - **[[Semantic Boosting]]**: inject vector results as boost clauses into a lexical query; lexical engine produces the final output, enabling native facets/highlights/pagination
 
 ## Articles
@@ -93,3 +113,5 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 - [[Reciprocal Rank Fusion and Relative Score Fusion]] — [[Erik Hatcher]] ([[MongoDB]]) works the formula, weighting and score details through in full
 - [[Survey of the Hybrid Search Landscape]] — situates RRF as fusion by relevancy *order*, ignoring computed scores
 - [[RRF is Not Enough]] — [[Doug Turnbull]] on what rank-only fusion discards
+- [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; measures RRF's `k` and weight parameters against labeled data, and compares RRF to [[Distribution-Based Score Fusion|DBSF]]
+- [[Hybrid Queries - Qdrant]] — Qdrant's RRF `k`/weight parameterization and DBSF documented together
