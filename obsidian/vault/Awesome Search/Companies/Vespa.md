@@ -36,6 +36,7 @@ Vespa is particularly strong for use cases that mix retrieval, ranking, and ML i
   in parallel to hold latency down, and restricted to a subset by query-engine filtering, so
   [[Brute-Force Vector Search|brute force]] stays viable further up the corpus-size curve than
   it would in a single process
+- **[[Asymmetric Re-ranking]]** — scoring a full-precision query embedding against binary-quantized document vectors as a cheap second-phase recall-recovery step, with an algebraic rewrite that constant-folds the query-only term; documented by [[Dainius Jocas]]
 
 ## Position in the Ecosystem
 
@@ -60,10 +61,11 @@ Vespa is a direct alternative to Elasticsearch + separate ML serving tier. The v
 - [[How I learned Vespa by thinking in Solr]] — [[Sujit Pal]] ([[Elsevier]]); onboarding to Vespa via Solr analogies
 - [[How to Securely Hook Up Quepid to Vespa]] — [[Charlie Hull]]; interactive offline relevance testing for Vespa via [[Quepid]] (Vespa lacks built-in offline eval tooling)
 - [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Vespa keeps a single graph updated concurrently in place, contrasted with tombstoning/segmentation elsewhere
+- [[Optimize Asymmetric Re-ranking with Algebra]] — [[Dainius Jocas]]; algebraic rewrite of asymmetric BQ re-ranking, 28% latency cut at 1M documents
 
 ## Concepts
 
-[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]] · [[Brute-Force Vector Search]] · [[Zero-Shot Retrieval]] · [[Score Normalization]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[Cross-Encoder]]
+[[ColBERT]] · [[Late Interaction]] · [[Late Interaction in Vespa]] · [[Learning to Rank]] · [[Vespa Learning to Rank]] · [[LLM as Judge]] · [[Hybrid Search]] · [[Dense Vector Retrieval]] · [[Reranking]] · [[Asymmetric Re-ranking]] · [[Binary Quantization]] · [[Brute-Force Vector Search]] · [[Zero-Shot Retrieval]] · [[Score Normalization]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[Cross-Encoder]]
 
 ## Case Studies
 

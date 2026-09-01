@@ -30,7 +30,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]]
 
 ### Reranking & Cross-Encoders
-[[Reranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
+[[Reranking]] · [[Asymmetric Re-ranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
 
 ### Learning to Rank
 [[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Hashing Trick]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]

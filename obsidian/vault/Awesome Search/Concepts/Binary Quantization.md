@@ -42,8 +42,8 @@ Elastic's production approach:
 Result: 32× compression with recall competitive with float32 after rescoring.
 See [[BBQ]].
 
-### Asymmetric BQ
-Store vectors at 1-bit; compute query–document similarity with the query at higher precision (8-bit scalar). The asymmetry recovers recall without increasing stored memory. Qdrant uses this for TurboQuant 1-bit scoring.
+### Asymmetric BQ / [[Asymmetric Re-ranking]]
+Store vectors at 1-bit; compute query–document similarity with the query at higher precision (8-bit scalar, or full float32). The asymmetry recovers recall without increasing stored memory. Qdrant uses 8-bit scalar queries for TurboQuant 1-bit scoring; [[Vespa]]'s [[Asymmetric Re-ranking]] keeps the query at full float precision and uses algebraic rewriting (constant-folding a query-only term) to keep the per-document cost to a single dot product.
 
 ### RaBitQ
 [[RaBitQ]] (Gao & Long, SIGMOD 2024): rotation before binarization + per-vector length rescaling. The rotation equalizes coordinate variance; length rescaling corrects the systematic shortening caused by binarization. Bit-plane scoring for the asymmetric query path.
@@ -73,5 +73,6 @@ Store vectors at 1-bit; compute query–document similarity with the query at hi
 - [[BBQ]] — Elasticsearch's BQ with centering and rescoring
 - [[TurboQuant]] — rotation-based; beats BQ at every compression level tested
 - [[RaBitQ]] — rotation + binarization; contributes length renormalization and bit-plane scoring
+- [[Asymmetric Re-ranking]] — Vespa's full-precision-query variant of asymmetric BQ scoring, with algebraic optimization
 - [[HNSW]] — primary index combined with BQ
 - [[Dense Vector Retrieval]] — where BQ is applied

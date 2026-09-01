@@ -16,7 +16,8 @@ Search engineer at [[Vinted]]; a recurring author of the Vinted Engineering post
 - [[Adopting Vespa for Recommendation Retrieval at Vinted]] — two-tower ANN retrieval (with [[Aleksas Kateiva]])
 - [[Dense Retrieval at Vinted]] — multilingual-CLIP two-tower hybrid semantic retrieval (with [[Laurynas Jasiukėnas]])
 - Billion-Scale Search (Search Scaling Chapter 9) — 1B docs on Vespa; summarized in [[Vinted - Migrating Search from Elasticsearch to Vespa]]
+- [[Optimize Asymmetric Re-ranking with Algebra]] — algebraic rewrite of [[Asymmetric Re-ranking]] scoring in Vespa, 28% latency cut at 1M documents (personal blog, jocas.lt)
 
 ## Related Notes
 
-- [[Vinted]] · [[Vespa]] · [[Vespa Learning to Rank]]
+- [[Vinted]] · [[Vespa]] · [[Vespa Learning to Rank]] · [[Asymmetric Re-ranking]] · [[Binary Quantization]]
