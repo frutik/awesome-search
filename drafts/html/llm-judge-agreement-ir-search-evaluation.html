@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LLM-Judge Agreement in IR and Search Evaluation</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  h4, h5, h6 { font-size: 1rem; margin-top: 1.25rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+  blockquote { margin: 1.25rem 0; padding: 0 0 0 1rem; border-left: 3px solid #ddd; color: #444; }
+  table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 0.9em; background: #f5f5f5; padding: 0.1em 0.3em; }
+  pre { background: #f5f5f5; padding: 0.75rem; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+<h1>LLM-Judge Agreement in IR and Search Evaluation</h1>
+<h2>A landscape overview</h2>
+<p><em>Updated September 2026</em></p>
+<h2>Executive summary</h2>
+<p>Research on LLM judges in information retrieval (IR) and search evaluation has moved quickly from small pilot studies to large, multi-model comparisons. The central finding is not that LLM judges either “work” or “do not work.” It is that <strong>agreement depends on what is being compared and at what level</strong>.</p>
+<p>Four forms of agreement need to be separated:</p>
+<ol>
+<li><strong>Judgment-level agreement:</strong> Do two judges assign the same relevance label to the same query–document pair?</li>
+<li><strong>System-score agreement:</strong> Do their judgments produce similar effectiveness scores for a search system?</li>
+<li><strong>System-order agreement:</strong> Do they rank a set of search systems in the same order?</li>
+<li><strong>Decision agreement:</strong> Do they identify the same winners, statistically significant differences, and practical conclusions?</li>
+</ol>
+<p>The literature repeatedly shows that modest agreement on individual relevance labels can coexist with high correlation between system rankings. That is encouraging for some large-scale benchmarking uses, but it does not prove that two judges are interchangeable. High overall rank correlation can conceal different relevance thresholds, failures on particular query types, reversals among the strongest systems, false claims of statistical significance, and systematic preferences for particular retrieval approaches.</p>
+<p>The current evidence therefore supports LLM judges most strongly as <strong>scalable evaluation instruments that require validation</strong>, not as universal replacements for human assessment. A credible study should report both local and downstream agreement, use several judge models or repeated runs, analyze disagreement rather than only averaging it away, and test whether conclusions remain stable for the systems and queries that matter most.</p>
+<h2>1. What counts as a judge-agreement study?</h2>
+<p>In search evaluation, a judge assigns a relevance assessment to an information object—such as a passage, document, product, result, or media segment—in the context of an information need. The judge may be:</p>
+<ul>
+<li>the person who formulated the information need;</li>
+<li>a trained domain or task expert;</li>
+<li>a professional or crowd assessor;</li>
+<li>an LLM prompted to act as an assessor;</li>
+<li>an ensemble or pipeline combining people and models.</li>
+</ul>
+<p>“Judge versus judge” can consequently refer to several different comparisons:</p>
+<table>
+<thead>
+<tr>
+<th>Comparison</th>
+<th>Main question</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human–human</td>
+<td>How subjective is the task, and are assessors exchangeable?</td>
+</tr>
+<tr>
+<td>LLM–human</td>
+<td>Does the model reproduce a chosen human reference?</td>
+</tr>
+<tr>
+<td>LLM–LLM</td>
+<td>Would a different model produce the same evaluation?</td>
+</tr>
+<tr>
+<td>Prompt–prompt</td>
+<td>Is the evaluation stable under reasonable instruction changes?</td>
+</tr>
+<tr>
+<td>Same judge, repeated</td>
+<td>Is the model internally consistent across repeated calls?</td>
+</tr>
+<tr>
+<td>Ensemble–individual</td>
+<td>Does aggregation improve stability or merely hide disagreement?</td>
+</tr>
+</tbody>
+</table>
+<p>These comparisons measure different properties. Agreement with a single human assessor is not necessarily agreement with users in general. Agreement among several LLMs can reflect a shared model bias. Repeated consistency can mean reliability, but a consistently wrong judge is still wrong. The target of the study therefore needs to be stated before any agreement coefficient is interpreted.</p>
+<h2>2. The human-assessor baseline</h2>
+<p>Judge disagreement is not new to IR. Long before LLMs, research showed that relevance is contextual and that reasonable assessors can disagree. The enduring question has been whether disagreement changes the evaluation of systems.</p>
+<p><a href="https://www.nist.gov/publications/variations-relevance-judgments-and-measurement-retrieval-effectiveness">Voorhees’ classic work on variations in relevance judgments</a> found that replacing one set of judgments with another can substantially change individual labels while leaving comparative system evaluation relatively stable. This established an important distinction: a reusable test collection does not require every assessor to agree on every item if aggregate comparisons remain robust.</p>
+<p>That robustness has limits. <a href="https://www.microsoft.com/en-us/research/publication/relevance-assessment-are-judges-exchangeable-and-does-it-matter/">Bailey et al. studied whether relevance judges are exchangeable</a> across topic originators, task experts, and less-specialized assessors. Their work shows why “human judgment” should not be treated as a single homogeneous gold standard: expertise and ownership of the information need can affect both labels and evaluation outcomes.</p>
+<p>This historical literature supplies the right baseline for LLM studies. The meaningful comparison is not whether an LLM agrees perfectly with one human. It is whether the LLM falls within an acceptable range of human variation <strong>and</strong> preserves the evaluation decisions for the intended use.</p>
+<h2>3. How the LLM-judge literature developed</h2>
+<h3>3.1 Early framing and pilot evidence: 2023</h3>
+<p><a href="https://arxiv.org/abs/2304.09161">Faggioli et al., <em>Perspectives on Large Language Models for Relevance Judgment</em></a>, placed possible workflows on a human–machine collaboration spectrum, from human assessment with model assistance to fully automated judgments. Their pilot experiments were important because they exposed the pattern that now defines the field: only modest agreement may appear at the individual-label level while the system ordering remains highly correlated.</p>
+<p>This paper also set out concerns that remain unresolved: prompt sensitivity, model bias, circular evaluation, contamination, lack of transparency, and the danger that automated judgments could narrow the operational meaning of relevance.</p>
+<h3>3.2 Stronger models and prompt engineering: 2023–2024</h3>
+<p><a href="https://arxiv.org/abs/2309.10621">Thomas et al., <em>Large language models can accurately predict searcher preferences</em></a>, reported experiments from large-scale relevance labeling at Bing alongside TREC illustrations. They found that carefully prompted LLMs could perform as well as human labelers on their reference data and could outperform third-party workers relative to first-party searcher feedback. Just as importantly, the paper showed that both deliberate prompt changes and simple paraphrases could alter accuracy.</p>
+<p><a href="https://arxiv.org/abs/2406.06519">UMBRELA</a> provided an open-source reproduction of this style of assessor using GPT-4o. Across TREC Deep Learning collections from 2019 through 2023, its LLM-derived judgments produced system rankings that correlated strongly with rankings derived from human judgments. UMBRELA made it possible to move from isolated results to reproducible comparative studies.</p>
+<h3>3.3 Multi-team and multi-judge comparison: 2024–2025</h3>
+<p>The <a href="https://arxiv.org/abs/2408.08896">LLMJudge challenge</a>, organized at the SIGIR 2024 LLM4Eval workshop, explicitly asked how model choice, prompt design, fine-tuning, label representation, bias, and possible data leakage affect automated relevance assessment.</p>
+<p>Its follow-up, <a href="https://arxiv.org/abs/2502.13908"><em>Judging the Judges: A Collection of LLM-Generated Relevance Judgements</em></a>, released 42 sets of LLM-generated labels for the TREC 2023 Deep Learning track from eight international teams. This resource is especially important for judge-versus-judge research because it makes LLM–LLM comparison possible across a range of models and assessment pipelines, rather than comparing one favored judge only with a fixed human reference.</p>
+<p>The challenge results reinforce three points:</p>
+<ul>
+<li>judge configuration materially affects agreement;</li>
+<li>different judges can have similar system-order correlations but different label distributions;</li>
+<li>an average agreement score does not reveal the direction or operational impact of systematic errors.</li>
+</ul>
+<h3>3.4 Large-scale evaluation in a live benchmark: TREC 2024</h3>
+<p><a href="https://arxiv.org/abs/2411.08275">Upadhyay et al.</a> compared four assessment processes in the TREC 2024 RAG Track: a fully manual NIST process and three alternatives using UMBRELA to different degrees. The comparison covered 77 runs from 19 teams. For nDCG@20, nDCG@100, and Recall@100, the automatically generated assessments produced system rankings that correlated highly with the fully manual rankings. Human assessors were generally stricter, while adding humans to the LLM-assisted workflows did not yield an obvious correlation benefit in this setting.</p>
+<p>This is among the strongest positive results for automated assessment at the run level. Its scope matters, however: agreement over a diverse collection of 77 runs is a different requirement from distinguishing two closely matched systems or validating a new class of methods.</p>
+<h3>3.5 Why high rank correlation is not enough</h3>
+<p>Several studies challenge the inference that high system-order correlation makes LLM and human judges interchangeable.</p>
+<p><a href="https://arxiv.org/abs/2411.13212">Otero, Parapar, and Barreiro</a> examined top-performing systems and pairwise statistical conclusions. They found that LLM judgments could rank the strongest systems unfairly and produced an exceedingly high rate of false positives about statistically significant differences. This shifts attention from “Are two leaderboards correlated?” to “Would the two judges support the same scientific claim?”</p>
+<p><a href="https://arxiv.org/abs/2412.17156">Clarke and Dietz</a> argue that an LLM relevance judge is operationally close to a relevance-scoring system. A known automatic judge can be optimized or exploited, and an evaluation may become circular when similar model capabilities appear in both the systems and the judging process. Their constructed counterexample shows how an automatic metric can award inflated scores without a corresponding gain under human judgments.</p>
+<p><a href="https://arxiv.org/abs/2503.19092">Balog, Metzler, and Qin</a> provide empirical evidence that LLM judges can favor LLM-based retrieval systems and may have limited ability to distinguish subtle but statistically significant performance differences. They also confirm a recurring positivity effect: LLM judges tend to assign relevance more leniently than humans. Their work broadens the unit of analysis from judge behavior alone to the interaction between judges, retrieval systems, and AI-assisted content.</p>
+<h3>3.6 Vulnerability and structured alternatives</h3>
+<p><a href="https://arxiv.org/abs/2501.17969">Alaofi et al.</a> show why aggregate agreement measures can miss meaningful failure modes. Across multiple open and proprietary models, LLMs were more likely than humans to label passages relevant. Injecting query terms into irrelevant passages increased false relevance decisions, and some models were influenced by instructions embedded in the passage. The study demonstrates that a judge may appear acceptable on average while remaining vulnerable to keyword stuffing or prompt-like content.</p>
+<p><a href="https://arxiv.org/abs/2504.12558">Arabzadeh and Clarke</a> compare binary, graded, pairwise, and two nugget-based assessment methods across TREC Deep Learning 2019–2021 and ANTIQUE, using GPT-4o and Llama 3.2B. Their study makes clear that “the LLM judge” is not a single method: the judgment representation and elicitation procedure can change alignment with human labels and agreement over system rankings.</p>
+<p><a href="https://arxiv.org/abs/2507.09488">Farzi and Dietz</a> decompose relevance into criteria such as exactness, coverage, topicality, and contextual fit. Their multi-criteria approach improves interpretability and system-leaderboard performance over direct grading in the evaluated collections. This line of work treats disagreement as partly a specification problem: judges may agree more when the components of relevance are made explicit.</p>
+<h3>3.7 Evidence beyond standard passage collections: 2025–2026</h3>
+<p>Recent work shows that conclusions do not transfer automatically across collections, languages, or document representations.</p>
+<ul>
+<li><a href="https://arxiv.org/abs/2512.05334">Mohtadi et al.</a> compare judgments made from full documents with judgments made from summaries. System rankings can remain comparably stable even though summarization systematically shifts label distributions, with effects varying by model and dataset.</li>
+<li><a href="https://arxiv.org/abs/2601.05603">The TREC Podcast reassessment study</a> applied five LLMs to 18,284 query–segment pairs, producing 91,420 labels. For the 2020 track, human–LLM system-order Kendall correlations ranged from 0.79 to 0.85 and the top three systems were stable. For 2021, correlations fell to 0.41–0.62 and the ordering changed substantially. On a small sample of high-disagreement cases, three senior IR experts agreed much more with the LLM majority than with the original TREC assessor. The study therefore exposes possible errors in a human reference while also identifying LLM positivity bias and a possible preference for lexical systems.</li>
+<li><a href="https://arxiv.org/abs/2604.04140">Keller et al.</a> show that judges given only short queries mark many more documents relevant and agree less with humans than judges given formalized information needs with descriptions and narratives. Adding this context improves agreement even when the formalization itself is generated automatically.</li>
+<li><a href="https://arxiv.org/abs/2608.27746">NormasTCU</a> examines Brazilian Portuguese legal retrieval. Across three models and two prompting techniques, Cohen’s kappa with humans was only 0.32–0.53 and mean absolute error was 0.46–0.66 on a 0–2 scale. Yet system rankings for nDCG@10 and MRR often achieved observed Kendall correlations of at least 0.90; results were less reliable for P@10 and R@10. This is a particularly clear demonstration that label agreement, ranking agreement, and metric choice are distinct.</li>
+</ul>
+<h2>4. The measurement landscape</h2>
+<p>No single statistic describes judge agreement adequately. A strong study reports a small family of measures aligned with the intended use.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>What to measure</th>
+<th>Useful measures</th>
+<th>Main limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exact labels</td>
+<td>Same category on the same item</td>
+<td>Accuracy, observed agreement</td>
+<td>Inflated by dominant classes; ignores chance agreement</td>
+</tr>
+<tr>
+<td>Chance-corrected labels</td>
+<td>Agreement beyond expected coincidence</td>
+<td>Cohen’s kappa, Fleiss’ kappa, Krippendorff’s alpha</td>
+<td>Sensitive to prevalence and marginal distributions</td>
+</tr>
+<tr>
+<td>Graded relevance</td>
+<td>Size and direction of disagreement</td>
+<td>Weighted kappa, ordinal alpha, mean absolute error, confusion matrix</td>
+<td>Averages can hide asymmetric errors</td>
+</tr>
+<tr>
+<td>Judge–judge association</td>
+<td>Similar ordering of items or scores</td>
+<td>Spearman correlation, Kendall correlation</td>
+<td>Correlation is not agreement and permits scale shifts</td>
+</tr>
+<tr>
+<td>Repeated judging</td>
+<td>Stability of one model</td>
+<td>Test–retest agreement, label entropy, variance</td>
+<td>Consistency does not establish validity</td>
+</tr>
+<tr>
+<td>System scores</td>
+<td>Similar effectiveness estimates</td>
+<td>Pearson/Spearman correlation, calibration plots, mean score bias</td>
+<td>High correlation can coexist with systematic inflation</td>
+</tr>
+<tr>
+<td>System ordering</td>
+<td>Similar leaderboard</td>
+<td>Kendall’s tau, top-weighted Rank-Biased Alignment</td>
+<td>Overall correlation can hide top-system reversals</td>
+</tr>
+<tr>
+<td>Scientific decisions</td>
+<td>Same conclusion about systems</td>
+<td>Win/loss/tie agreement, significance-decision confusion matrix, Type I/II error</td>
+<td>Requires adequate topics and a defined testing protocol</td>
+</tr>
+</tbody>
+</table>
+<p>Three reporting rules follow from this table.</p>
+<p>First, graded labels should not be collapsed to binary relevance without also reporting the graded analysis. Collapsing can manufacture apparent agreement and discard disagreements that matter to nDCG.</p>
+<p>Second, a chance-corrected coefficient should be accompanied by the full label distribution and confusion matrix. Positivity bias can be operationally important even when kappa is unchanged.</p>
+<p>Third, system-order correlation should be supplemented by top-weighted analysis and pairwise decisions. Most applied evaluations care more about the ordering among a few strong candidates than about separating a poor system from an excellent one.</p>
+<h2>5. What the landscape says overall</h2>
+<h3>Finding 1: Individual-label agreement is usually imperfect</h3>
+<p>Even capable LLMs do not reproduce human relevance labels exactly. Agreement varies with the collection, model, prompt, relevance scale, amount of topic context, and assessor expertise. Fair-to-moderate chance-corrected agreement is common, although higher values occur in well-specified settings.</p>
+<h3>Finding 2: Aggregate system rankings are often more stable than labels</h3>
+<p>This mirrors the earlier human-assessor literature. Errors at the item level may cancel or affect systems similarly, preserving system order. UMBRELA, TREC RAG, SynDL, and NormasTCU provide positive examples. This is useful evidence, but it is evidence for a particular evaluation level, metric, and collection—not general proof of judge equivalence.</p>
+<h3>Finding 3: Stability is weakest where decisions are hardest</h3>
+<p>LLM judges have more difficulty distinguishing close, high-performing systems than ordering a heterogeneous set of runs. Overall Kendall correlation can look impressive while the winner changes, a top system drops several positions, or pairwise significance conclusions disagree.</p>
+<h3>Finding 4: Disagreement is structured, not random</h3>
+<p>Recurring patterns include leniency or positivity bias, sensitivity to query-term overlap, sensitivity to prompt wording and context, threshold priming, vulnerability to embedded instructions, and possible preference for certain model-based or lexical retrieval approaches. Because these are systematic, simply collecting more labels from the same judge may not remove them.</p>
+<h3>Finding 5: The human reference is itself fallible</h3>
+<p>Human labels vary with expertise and interpretation. The Podcast study shows that multiple expert re-assessors can side with several LLMs against an original single human label. Disagreement analysis should therefore allow for ambiguity or reference error instead of defining every human–LLM mismatch as an LLM failure.</p>
+<h3>Finding 6: Model–model agreement remains under-studied relative to model–human agreement</h3>
+<p>Most published work treats human judgments as the anchor and asks which LLM approximates them best. Fewer studies fully cross several independent judge families, prompts, and repeated samples, then ask whether the conclusions are invariant to the choice of judge. The LLMJudge collection and the Podcast reassessment are important steps toward this design.</p>
+<h2>6. A sound design for a judge-versus-judge study</h2>
+<p>A neutral IR/search evaluation study should use a crossed design rather than appointing one model as the default judge.</p>
+<h3>Judges</h3>
+<ul>
+<li>Include at least three LLM families where feasible, not merely several versions of one provider’s model.</li>
+<li>Repeat each judgment enough times to estimate within-judge variability, even when nominal temperature is zero.</li>
+<li>Retain a human reference, with multiple independent humans on a stratified subset.</li>
+<li>Record model identifier, version or access date, prompt, decoding settings, and document truncation policy.</li>
+</ul>
+<h3>Samples</h3>
+<ul>
+<li>Stratify by query type, difficulty, ambiguity, domain, result length, and original relevance grade.</li>
+<li>Include close calls near the decision boundary, not only obvious relevant and non-relevant examples.</li>
+<li>Include results from varied retrieval approaches so agreement is not measured on a narrow system family.</li>
+<li>Add adversarial or stress-test cases: query-term stuffing, embedded instructions, misleading summaries, and very long documents.</li>
+</ul>
+<h3>Analyses</h3>
+<p>Report all three layers:</p>
+<ol>
+<li><strong>Item layer:</strong> label distributions, confusion matrices, weighted agreement, and disagreement direction.</li>
+<li><strong>System layer:</strong> score bias, system-order correlation, top-weighted agreement, and rank changes for leading systems.</li>
+<li><strong>Decision layer:</strong> agreement on winners, pairwise significance, effect direction, and practically meaningful thresholds.</li>
+</ol>
+<p>Disagreement cases should then be sampled for blinded expert review. The aim is not merely to adjudicate a winner but to classify the source: ambiguous topic, missing context, human error, model error, scale interpretation, content manipulation, or a genuine difference in the conception of relevance.</p>
+<h2>7. Open research questions</h2>
+<p>The field still lacks strong answers to several questions:</p>
+<ul>
+<li>How stable are evaluations when the judge model is replaced by a newer model or another provider?</li>
+<li>Can a small, diverse panel of judges predict uncertainty better than one strong judge?</li>
+<li>Which disagreements actually change product or scientific decisions?</li>
+<li>How should agreement be modeled when relevance has multiple legitimate interpretations?</li>
+<li>Can formalized information needs and criteria improve agreement without over-constraining relevance?</li>
+<li>How should an evaluation detect and penalize attempts to manipulate the judge?</li>
+<li>When should humans judge directly, review disagreements, audit a sample, or define criteria only?</li>
+<li>How can benchmarks remain valid when systems can optimize against a known automatic judge?</li>
+<li>Do observed results generalize beyond English web passages to products, media, multilingual search, professional domains, and fresh collections?</li>
+</ul>
+<h2>8. Practical conclusion</h2>
+<p>The landscape supports a middle position. LLM judges are already useful for scaling relevance assessment, extending pools, running exploratory evaluations, and auditing human labels. In several collections they preserve broad system rankings remarkably well. But judge agreement is conditional, and strong aggregate correlation does not guarantee interchangeable labels, fair treatment of leading systems, valid significance tests, or resistance to manipulation.</p>
+<p>The defensible evaluation question is therefore not:</p>
+<blockquote>
+  <p>Does the LLM agree with the human?</p>
+</blockquote>
+<p>It is:</p>
+<blockquote>
+  <p>Across reasonable judges, prompts, and repetitions, which evaluation conclusions remain stable—and where, why, and with what consequences do they change?</p>
+</blockquote>
+<p>That framing treats disagreement as evidence about the evaluation process itself. It is the most productive direction for judge-versus-judge research in IR and search evaluation.</p>
+<h2>Selected reading</h2>
+<table>
+<thead>
+<tr>
+<th>Work</th>
+<th>Contribution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.nist.gov/publications/variations-relevance-judgments-and-measurement-retrieval-effectiveness">Voorhees (2000)</a></td>
+<td>Human-judge variation and robustness of system evaluation</td>
+</tr>
+<tr>
+<td><a href="https://www.microsoft.com/en-us/research/publication/relevance-assessment-are-judges-exchangeable-and-does-it-matter/">Bailey et al. (2008)</a></td>
+<td>Assessor expertise and exchangeability</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2304.09161">Faggioli et al. (2023)</a></td>
+<td>Human–machine collaboration spectrum and early pilot evidence</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2309.10621">Thomas et al. (2024)</a></td>
+<td>Searcher-preference alignment, deployment experience, and prompt sensitivity</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2406.06519">UMBRELA (2024)</a></td>
+<td>Open reproduction and cross-TREC system-order validation</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2408.08896">LLMJudge (2024)</a></td>
+<td>Shared challenge for comparing models and assessment methods</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2411.08275">Upadhyay et al. (2024)</a></td>
+<td>Large-scale TREC RAG comparison of manual and automated workflows</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2411.13212">Otero et al. (2025)</a></td>
+<td>Top-system fairness and significance-decision failures</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2412.17156">Clarke &amp; Dietz (2026 version)</a></td>
+<td>Circularity, exploitability, and limits of replacement claims</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2502.13908">Judging the Judges (2025)</a></td>
+<td>Forty-two LLM-generated judgment sets for direct judge comparison</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2503.19092">Balog et al. (2025)</a></td>
+<td>Interaction between LLM judges, retrieval systems, and AI content</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2504.12558">Arabzadeh &amp; Clarke (2025)</a></td>
+<td>Comparison of binary, graded, pairwise, and nugget-based methods</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2507.09488">Farzi &amp; Dietz (2025)</a></td>
+<td>Interpretable multi-criteria relevance judgments</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2601.05603">Podcast reassessment (2026)</a></td>
+<td>Five-LLM cross-collection study with expert re-assessment</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2604.04140">Keller et al. (2026)</a></td>
+<td>Effect of formalized information needs on agreement</td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2608.27746">NormasTCU (2026 preprint)</a></td>
+<td>Multilingual specialized-domain evidence and metric dependence</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<p>Best,<br>Andrew</p>
+
+</body>
+</html>
