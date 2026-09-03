@@ -67,7 +67,7 @@ The way out is architectural, and two patterns have settled in:
 
 **Cascade your judges.** Prune the pair space with behavioral signals first. Let cheap quantized models settle the easy majority. Escalate only the pairs where the cheap judges disagree — disagreement turns out to be a decent proxy for genuine difficulty. Send just those to the expensive model. Two warnings that come with this: two weak judges can be confidently wrong *together*, especially if they share a base model, so audit a sample of what got auto-accepted, not only what got escalated. And the escalation rate is a knob that trades money against quality on exactly the hard cases you built the thing for.
 
-**Then distill.** Turn the LLM's judgments into training data and fine-tune something small on them. [Etsy](https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance) runs this: human "golden" labels anchor a big LLM teacher, the teacher scales labeling to millions of query-listing pairs, and a lightweight BERT two-tower student gets distilled out for real-time serving at under 10ms added latency. Humans define what good means, the LLM scales it, the small model serves it.
+**Then distill.** Turn the LLM's judgments into training data and fine-tune something small on them. [[How Etsy Uses LLMs to Improve Search Relevance|Etsy]] runs this: human "golden" labels anchor a big LLM teacher, the teacher scales labeling to millions of query-listing pairs, and a lightweight BERT two-tower student gets distilled out for real-time serving at under 10ms added latency. Humans define what good means, the LLM scales it, the small model serves it.
 
 Latency splits into two completely different problems, by the way, and people conflate them constantly. **Offline evaluation** is a batch job — you don't care if it takes six hours overnight. **Production relevance filtering** has a single-digit-millisecond budget and a frontier LLM is simply not in the running. The judge and the production model are different animals; the judge's job is to teach the production model, not to be it.
 
@@ -363,5 +363,5 @@ That's a question you can actually answer. And it treats disagreement as informa
 | [Podcast reassessment (2026)](https://arxiv.org/abs/2601.05603) | Two adjacent years, very different agreement — and the answer key was wrong |
 | [Keller et al. (2026)](https://arxiv.org/abs/2604.04140) | Give the judge a real topic description; agreement goes up |
 | [NormasTCU (2026)](https://arxiv.org/abs/2608.27746) | Portuguese legal search: weak labels, strong rankings, metric-dependent |
-| [Etsy Code as Craft](https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance) | Golden labels → LLM teacher → distilled student under 10ms |
+| [[How Etsy Uses LLMs to Improve Search Relevance|Etsy Code as Craft]] | Golden labels → LLM teacher → distilled student under 10ms |
 | [Allegro RAT](https://blog.allegro.tech/2026/08/automating-search-relevance-llm-as-a-judge.html) | 380K multilingual judgments; κ 0.69 overall, 0.33 where it counted |

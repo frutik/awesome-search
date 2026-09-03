@@ -89,6 +89,7 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 
 ## Related Benchmarks
 
+- [[TREC Deep Learning Track]] — the NIST evaluation campaign built directly on these corpora and training labels, supplying the deeply-judged graded test queries MS MARCO's own shallow judgments lack
 - [[BEIR]] · [[MTEB]] — where MS MARCO-trained models get judged
 - [[LoTTE]] — built explicitly against MS MARCO's head-heavy query distribution
 - [[BRIGHT]] · [[MIRACL]] · [[RTEB]] — the stress-test, multilingual, and anti-contamination benchmarks

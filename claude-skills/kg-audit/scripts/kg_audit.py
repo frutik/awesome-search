@@ -218,12 +218,108 @@ def find_duplicate_sources(notes):
     return {src: titles for src, titles in by_source.items() if len(titles) > 1}
 
 
+def audit_derived_readme(vault, repo_root):
+    """Check that the repo-root README.md is in sync with the vault.
+
+    README.md is a *derived* artifact: its "## Latest Changes" bullets mirror
+    the 5 newest History/<year>.<week>.md files, and everything after the
+    first `---` separator mirrors global_toc.md with wikilinks converted to
+    site links. Any batch that touches either source invalidates it, so the
+    drift is silent and cumulative -- this check makes it loud.
+
+    Returns a dict; empty "issues" means in sync.
+    """
+    readme = repo_root / "README.md"
+    issues = []
+    if not readme.exists():
+        return {"issues": ["README.md missing at repo root"], "expected_weeks": [], "linked_weeks": []}
+    text = readme.read_text(encoding="utf-8")
+
+    week_re = re.compile(r"^(\d{4})\.(\d+)\.md$")
+    weeks = []
+    hist = vault / "History"
+    if hist.is_dir():
+        for f in hist.iterdir():
+            m = week_re.match(f.name)
+            if m:
+                weeks.append((int(m.group(1)), int(m.group(2))))
+    expected = [f"{y}.{w}" for y, w in sorted(weeks, reverse=True)[:5]]
+
+    linked = []
+    for m in re.finditer(r"(\d{4})\.(\d+)", text):
+        tag = f"{int(m.group(1))}.{int(m.group(2))}"
+        if tag not in linked:
+            linked.append(tag)
+    linked = linked[:5]
+
+    if expected and linked != expected:
+        missing = [w for w in expected if w not in linked]
+        issues.append(
+            f"Latest Changes is stale: links {linked or '[]'}, newest week files are {expected}"
+            + (f" (missing: {missing})" if missing else "")
+        )
+
+    leaked = text.count("[[")
+    if leaked:
+        issues.append(f"{leaked} Obsidian wikilink(s) leaked into README.md; all links must be vanilla markdown")
+
+    toc = vault / "global_toc.md"
+    if toc.exists():
+        toc_text = toc.read_text(encoding="utf-8")
+        toc_names = set(re.findall(r"\[\[([^\]]+)\]\]", toc_text))
+        # README shows a wikilink's *display* text: the alias after "|" when
+        # present, otherwise the last path segment of the target.
+        expected_display = set()
+        for n in toc_names:
+            target, sep, alias = n.partition("|")
+            expected_display.add(
+                (alias if sep else target.split("#")[0].split("/")[-1]).strip()
+            )
+        # Entries outside "Awesome Search/" (Clippings/, raw_articles/) are not
+        # published, so kg-readme-writer emits them as plain text, not links --
+        # accept the display text appearing anywhere in the README.
+        linked_titles = {s.strip() for s in re.findall(r"\[([^\]]+)\]\(", text)}
+        absent = sorted(d for d in expected_display - linked_titles if d not in text)
+        if absent:
+            issues.append(f"{len(absent)} global_toc.md entries absent from README.md, e.g. {absent[:8]}")
+
+        # Membership is not enough: a reordered global_toc line leaves the same
+        # set of entries but a README that no longer mirrors it. Compare the
+        # per-line ordering too.
+        toc_lines = [l for l in toc_text.strip("\n").split("\n") if l.strip()]
+        rd = text.split("\n")
+        try:
+            start = rd.index("---", 9) + 1
+        except ValueError:
+            start = None
+        if start is not None:
+            stop = next((j for j, l in enumerate(rd) if l.strip() == "## Old List"), len(rd))
+            rd_lines = [l for l in rd[start:stop] if l.strip()]
+            for n, (rline, tline) in enumerate(zip(rd_lines, toc_lines)):
+                want = []
+                for m in re.finditer(r"\[\[([^\]]+)\]\]", tline):
+                    tgt, sep, alias = m.group(1).partition("|")
+                    want.append((alias if sep else tgt.strip().split("/")[-1]).strip())
+                got = re.findall(r"\[([^\]]+)\]\(https://frutik", rline)
+                # entries rendered as plain text (unpublished notes) are skipped
+                seq = [w for w in want if w in got]
+                if seq != got:
+                    issues.append(
+                        f"README TOC line {n} is ordered differently from global_toc.md"
+                    )
+                    break
+
+    return {"issues": issues, "expected_weeks": expected, "linked_weeks": linked}
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     repo_root = Path(__file__).resolve().parents[3]
     ap.add_argument("--vault", type=Path, default=repo_root / "obsidian" / "vault" / "Awesome Search")
     ap.add_argument("--output", type=Path, default=repo_root / ".scratchpad" / "kg_audit_result.json")
     args = ap.parse_args()
+
+    readme_check = audit_derived_readme(args.vault, repo_root)
 
     notes = load_notes(args.vault)
     fm_violations = audit_frontmatter(notes)
@@ -291,6 +387,8 @@ def main():
         "path_style_unresolved_links": path_style_unresolved,
         "plain_unresolved_links": plain_unresolved,
         "unresolved_link_note_count": len(unresolved),
+        "readme_sync": readme_check,
+        "readme_issue_count": len(readme_check["issues"]),
     }
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -302,6 +400,13 @@ def main():
     print(f"Connected components (>=3 notes): {len(comp_summaries)} / {len(components)} total")
     print(f"Duplicate-source groups (same article processed twice): {len(duplicate_sources)}")
     print(f"Notes with unresolved wikilinks: {output['unresolved_link_note_count']}")
+    if readme_check["issues"]:
+        print(f"README.md out of sync ({len(readme_check['issues'])}):")
+        for msg in readme_check["issues"]:
+            print(f"  - {msg}")
+        print("  fix: run the kg-readme-writer skill")
+    else:
+        print("README.md: in sync")
     print(f"Full results written to: {args.output}")
 
 

@@ -54,4 +54,5 @@ The `mteb` Python library runs any [[Sentence Transformers]]-compatible model ac
 - [[RTEB]] — the private-data answer to MTEB's overfitting problem
 - [[BRIGHT]] — the reasoning stress test MTEB leaders fail badly
 - [[Embedding Models Compared]] — the models this ranks
+- [[The Generalization Cliff]] — the drop from an MTEB score to in-domain performance, with the numbers
 - [[Model Selection and Fine-Tuning Evaluation]] · [[Search Evaluation]] · [[NDCG]]

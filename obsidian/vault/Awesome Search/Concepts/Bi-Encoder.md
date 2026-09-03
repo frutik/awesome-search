@@ -75,6 +75,7 @@ Trained with **contrastive loss** (e.g., MultipleNegativesRankingLoss):
 - [[Dense Embeddings]] — the specific representation type output by bi-encoders
 
 - [[Dense Vector Retrieval]] — bi-encoders produce the dense vectors used here
+- [[The Generalization Cliff]] — why semantic similarity, all a bi-encoder can express, degrades sharply off-domain
 - [[Hybrid Search]] — bi-encoder retrieval often combined with BM25
 - [[Semantic Search]] — bi-encoders enable semantic matching
 - [[Asymmetric Semantic Search]] — bi-encoders with asymmetric query/doc encoding (e.g., MS MARCO models)

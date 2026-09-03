@@ -122,6 +122,7 @@ published "BEIR average" often covers 12–15 of them rather than the full suite
 - [[ColBERT]] · [[Late Interaction]] — better transfer via deferred matching
 - [[Learned Sparse Retrieval]] · [[SPLADE]] · [[ELSER]] · [[miniCOIL]] — term-space alternatives
 - [[BM25]] — the parameter-free baseline that keeps winning out-of-domain
+- [[The Generalization Cliff]] — how far the drop goes when a leaderboard model meets an unseen domain, and what closes it
 - [[Hybrid Search]] — insurance against dense-side failure
 - [[Embedding Fine-tuning]] · [[Hard Negative Mining]] · [[Knowledge Distillation]] — the gap-closing toolkit
 - [[Synthetic Query Generation]] · [[Consistency Filtering]] — manufacturing the in-domain labels you lack

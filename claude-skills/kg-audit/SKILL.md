@@ -8,7 +8,7 @@ description: Run a fast, script-based quality audit of the Awesome Search Obsidi
 Runs `scripts/kg_audit.py` once over the whole vault and turns its output into
 the same reports `kg-frontmatter`, `kg-orphans`, `kg-hubs`, and `kg-clusters`
 produce individually, plus two checks those skills don't cover: duplicate
-articles and unresolved wikilinks. One read of every note instead of four.
+articles, unresolved wikilinks, and README sync. One read of every note instead of four.
 
 ## Vault access — deliberate exception
 

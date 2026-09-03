@@ -147,7 +147,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[BEIR]] · [[BRIGHT]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
@@ -157,7 +157,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
 
-**C** — [[Charlie Hull]] · [[Chris Fournie]] · [[Congzhe Su]]
+**C** — [[Charles L. A. Clarke]] · [[Charlie Hull]] · [[Chris Fournie]] · [[Congzhe Su]]
 
 **D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]] · [[Dylan Couzon]]
 
@@ -175,11 +175,11 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
 
-**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
+**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Dietz]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
 
 **M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Mateusz Sidor]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
 
-**N** — [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
+**N** — [[Naghmeh Farzi]] · [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Negar Arabzadeh]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 
 **O** — [[Omar Khattab]]
 

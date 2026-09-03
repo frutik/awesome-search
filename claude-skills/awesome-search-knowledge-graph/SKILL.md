@@ -1,6 +1,6 @@
 ---
 name: awesome-search-knowledge-graph
-description: Apply the Awesome Search KG maintenance pass after any batch of vault note changes — write the History log entry, run the kg-reviewer audit and apply its findings, keep global_toc.md indexing every non-article note, and keep index.md byte-identical to HOME.md. Invoked at the end of kg-note-writing (which itself may be entered directly, or via kg-article-processing's fetch stage), and by any other skill or agent that creates/edits vault notes; can also be run standalone to repair these invariants after manual edits.
+description: Apply the Awesome Search KG maintenance pass after any batch of vault note changes — write the History log entry, run the kg-reviewer audit and apply its findings, keep global_toc.md indexing every non-article note, re-sync the root README.md that is derived from them, and keep index.md byte-identical to HOME.md. Invoked at the end of kg-note-writing (which itself may be entered directly, or via kg-article-processing's fetch stage), and by any other skill or agent that creates/edits vault notes; can also be run standalone to repair these invariants after manual edits.
 ---
 
 # Awesome Search Knowledge Graph — Maintenance
@@ -58,7 +58,31 @@ its `[[wikilink]]` in `global_toc.md` as part of the same pass:
 - Use an explicit full-path wikilink (e.g. `[[Awesome Search/Topics/A-B Testing for Search|A-B Testing for Search]]`) only when the same basename exists in more than one folder; otherwise a plain `[[Note Name]]` is fine.
 - Update the counts line in the header to match.
 
-Do this before the index.md mirroring step below. If `global_toc.md` does not exist, create it by indexing the full vault.
+Do this before the README and index.md steps below. If `global_toc.md` does not exist, create it by indexing the full vault.
+
+## Invariant: README.md reflects global_toc.md and the latest History weeks
+
+`README.md` at the repo root is **derived** from two files this pass has just
+modified — `global_toc.md` and `History/<year>.<week>.md`. It is therefore
+stale by construction at this point in the pass, *every time*. Immediately
+after the global_toc step, invoke the **kg-readme-writer** skill
+(`claude-skills/kg-readme-writer/SKILL.md`) to reconcile it.
+
+This is not optional and not deferred to the user. A batch that added a note
+to `global_toc.md`, or wrote a History entry, has already invalidated the
+README; leaving it is a broken invariant, not a pending task. `README.md`
+lives at the repo root, not in the vault, so the Obsidian MCP rule above does
+not apply to it.
+
+Cheap check before reporting completion — the 5 newest week files must be the
+5 linked under `## Latest Changes`, and no wikilinks may leak in:
+
+```sh
+ls "obsidian/vault/Awesome Search/History/" | grep -E '^[0-9]{4}\.[0-9]+\.md$' \
+  | sort -t. -k1,1nr -k2,2nr | head -5
+grep -oE '20[0-9]{2}\.[0-9]+' README.md | head -5   # must match the above
+grep -c '\[\[' README.md                            # must be 0
+```
 
 ## Invariant: index.md mirrors HOME.md
 

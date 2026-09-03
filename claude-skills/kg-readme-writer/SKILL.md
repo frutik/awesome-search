@@ -1,6 +1,6 @@
 ---
 name: kg-readme-writer
-description: Keep README.md at the repo root (not in the Obsidian vault) in sync with the Awesome Search KG — links to the 5 latest History week files plus the full content of global_toc.md, with every wikilink converted to a vanilla markdown link. Modifies the existing file in place with targeted edits; never regenerates it from scratch. Invoke after vault changes, or on `/kg-readme-writer`.
+description: Keep README.md at the repo root (not in the Obsidian vault) in sync with the Awesome Search KG — links to the 5 latest History week files plus the full content of global_toc.md, with every wikilink converted to a vanilla markdown link. Modifies the existing file in place with targeted edits; never regenerates it from scratch. Invoked by `awesome-search-knowledge-graph` as a required step of every maintenance pass — README.md is derived from `global_toc.md` and the History weeks, so any batch touching either has already invalidated it; also runs directly on `/kg-readme-writer`.
 ---
 
 # Awesome Search KG — README Writer
