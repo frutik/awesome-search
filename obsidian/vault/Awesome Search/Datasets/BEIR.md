@@ -94,6 +94,7 @@ BEIR is the shared yardstick across the retrieval-model notes:
 
 ## Related Benchmarks
 
+- [[The Generalization Cliff]] — the argument BEIR's headline finding is the founding evidence for
 - [[MTEB]] — absorbed BEIR as its retrieval component; BEIR scores are now reported inside MTEB
 - [[RTEB]] — the private-data answer to the contamination BEIR increasingly suffers from
 - [[BRIGHT]] — reasoning-intensive retrieval, where BEIR-strong models collapse

@@ -104,6 +104,7 @@ Dense embeddings are not the only option, and often not the best first stage. Th
 
 ## Related
 
+- [[The Generalization Cliff]] — why leaderboard rankings for these models don't transfer to your domain
 - [[Vector Search Tradeoffs]] · [[Multilingual Search]] · [[E-commerce Search]]
 - [[Retrieval Benchmarks and Leaderboards]] — where these rankings come from
 - [[MTEB]] · [[BEIR]] — the benchmarks themselves

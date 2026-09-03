@@ -118,6 +118,10 @@ The improvement plateaus around 10,000–20,000 examples; more data yields dimin
 - [[Introduction to Matryoshka Embedding Models]] — can combine MRL with fine-tuning
 - [[How to Choose the Best Model for Semantic Search]] — model selection context
 
+## Related Topics
+
+- [[The Generalization Cliff]] — the medical Q&A example anchors this note's "why general models fail" section
+
 ## Related Concepts
 
 - [[Embedding Fine-tuning]] — primary topic
