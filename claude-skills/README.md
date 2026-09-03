@@ -18,6 +18,7 @@ Skills for building and maintaining the Awesome Search knowledge graph in Obsidi
 |---|---|---|
 | `kg-readme-writer` | After vault changes, or `/kg-readme-writer` | Syncs root `README.md` with the latest History weeks and `global_toc.md`, wikilinks converted to site links |
 | `kg-mail-list` | `/kg-mail-list [<year>.<week>]`, or "write this week's email" | Compiles the week's History entries into a plain-language HTML digest at `mails/<year>.<week>.html`, no statistics |
+| `kg-draft-to-html` | `/kg-draft-to-html [<draft>]`, or "render this draft to HTML" | Renders one `drafts/*.md` essay into a self-contained page at `drafts/html/<stem>.html` in the same house style — a faithful format conversion, never an edit |
 
 ## Knowledge Graph — Quality Audits
 
