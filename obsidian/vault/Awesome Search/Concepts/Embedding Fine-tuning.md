@@ -104,7 +104,6 @@ Fine-tuning is easy to do and easy to fool yourself about. Training loss falling
 - [[Dense Embeddings]] — the representation type typically fine-tuned
 
 - [[Bi-Encoder]] — architecture typically fine-tuned
-- [[The Generalization Cliff]] — the gap fine-tuning closes, and the generality it costs in exchange
 - [[Zero-Shot Retrieval]] — what fine-tuning is trying to buy, and where it fails to transfer
 - [[Matryoshka Embeddings]] — fine-tuning strategy for flexible dimensions
 - [[Task-Aware Embeddings]] — lightweight adaptation via prompts

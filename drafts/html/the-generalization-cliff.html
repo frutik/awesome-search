@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The Generalization Cliff</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  h4, h5, h6 { font-size: 1rem; margin-top: 1.25rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+  blockquote { margin: 1.25rem 0; padding: 0 0 0 1rem; border-left: 3px solid #ddd; color: #444; }
+  table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 0.9em; background: #f5f5f5; padding: 0.1em 0.3em; }
+  pre { background: #f5f5f5; padding: 0.75rem; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+<h1>The Generalization Cliff</h1>
+<p>A general-purpose embedding model that tops a public leaderboard is not, on that evidence, a model that will work on your data. The gap between "good on MTEB" and "good on your queries" is not a gentle slope — it is a cliff, and we have both the sharpest number and the mechanism behind it.</p>
+<hr>
+<h2>The Collapse, In One Number</h2>
+<p>[[BRIGHT]] is the cleanest demonstration: a model scoring 59.0 nDCG@10 on [[MTEB]] scores <strong>18.3</strong> on BRIGHT. That is not a modest degradation, it is a collapse. BRIGHT's queries come from StackExchange, LeetCode, and math competitions, and the relevant document is connected to the query only by inference — a shared theorem, an analogous algorithm — never by shared vocabulary or obvious semantic proximity. Whatever dense [[Embeddings|embedding]] models are good at, it is not multi-step reasoning about relevance. Semantic similarity, which is all a [[Bi-Encoder]] can express, turns out to be a poor proxy for "this document helps answer this question" once the connection to the query stops being lexical or topical.</p>
+<h2>It's Not Just Reasoning-Intensive Queries</h2>
+<p>BRIGHT is the extreme case, but the same cliff shows up on ordinary in-domain retrieval, without any reasoning required. As [[Model Selection and Fine-Tuning Evaluation]] puts it: [[MTEB]] and [[BEIR]] measure general-domain performance and are heavily optimized against, so leaderboard position reflects benchmark fit as much as model quality. It is routine — not exceptional — for the board leader to lose to a mid-ranked model on in-domain data. A model can be excellent at "general text similarity" and mediocre at "this catalog" or "this legal corpus" simultaneously, because those are different skills that public benchmarks do not separate.</p>
+<h2>Why: Contamination and a Relocated Incentive</h2>
+<p>[[RTEB]] names the mechanism directly: public benchmarks reward memorization. When corpus, queries, and labels are all public, they leak into training data, and a model that has effectively seen the test posts a score that does not survive contact with new data. RTEB's answer — splitting datasets into an open half and a maintainer-held private half — makes the gap measurable: a model that scores well on the open datasets and drops sharply on the private ones has been trained on the test. But RTEB's own governance history is the more interesting lesson: in 2026 the private column was temporarily removed after concerns that vendors with access to the private data held a structural advantage. Keeping a test set secret does not eliminate the incentive problem, it relocates it — someone has to hold the secret, and if that party also competes, the benchmark inherits a new conflict of interest in place of the old contamination one.</p>
+<p>[[BEIR]] established the earlier generation of this same critique: models trained on one corpus (usually [[MS MARCO]]) evaluated zero-shot on eighteen unrelated ones. Its most durable finding — that [[BM25]] is a stubbornly strong zero-shot baseline — is itself evidence for the cliff: a method with no learned generalization to fail has nothing to fall off.</p>
+<h2>The Fix Closes Most of the Gap</h2>
+<p>Domain [[Embedding Fine-tuning|fine-tuning]] is the direct response, and there are two worked examples showing how large the recovery is.</p>
+<p>[[Fine-Tuning Text Embeddings For Domain-Specific Search|Shaw Talebi's tutorial]] frames the failure concretely with a medical Q&amp;A task: a general <code>all-MiniLM-L6-v2</code> model asked "What causes hypertension?" retrieves articles about blood pressure generally — "similar" in general English, not "medically relevant" — and misses the specialized connection from ACE inhibitors to the renin-angiotensin system. Fine-tuning on domain triplets with [[Hard Negative Mining|hard negatives]] closes much of that gap: reported NDCG@10 gains of +12–18%, with diminishing returns past roughly 10,000–20,000 examples.</p>
+<p>[[Fine-Tuning Sparse Embeddings for E-Commerce Search|Thierry Damiba's SPLADE series]] puts numbers on the same story for sparse retrieval: off-the-shelf [[SPLADE]], trained on MS MARCO web search, beats [[BM25]] on an e-commerce catalog by only +7.2% nDCG@10. Fine-tuned on catalog data, the same architecture reaches <strong>+27.5%</strong> — nearly four times the improvement, from domain adaptation alone, with no architecture change.</p>
+<h2>The Fix Has Its Own Cliff</h2>
+<p>Domain fine-tuning does not produce a general model that also happens to be good at your domain — it produces a domain model, and Damiba's series is explicit about the cost. Tested across catalogs, the ESCI-fine-tuned SPLADE model actually <em>loses</em> to the off-the-shelf baseline on Home Depot data (0.384 vs 0.391 nDCG@10) — fine-tuning on one retailer's catalog does not automatically transfer to a neighboring one. On general web queries (MS MARCO), the fine-tuned model falls well below BM25: catastrophic forgetting, with Amazon-specific vocabulary overwriting general language ability. Multi-domain training (blending several catalogs) trades peak in-domain performance for consistency across them, rather than escaping the tradeoff. The generalization cliff does not disappear when you fine-tune; it just moves — from "general model, your domain" to "your domain, someone else's domain."</p>
+<h2>The Practical Response</h2>
+<ul>
+<li><strong>Use public benchmarks to build a shortlist, not to decide.</strong> [[Retrieval Benchmarks and Leaderboards]] and [[Model Selection and Fine-Tuning Evaluation]] both land on the same rule: shortlist on MTEB/BEIR, pick on your own judgments.</li>
+<li><strong>Treat an open-vs-private leaderboard drop as diagnostic</strong>, where one is available — it is stronger evidence of overfitting than absolute position.</li>
+<li><strong>If you have domain data, fine-tune</strong> — the recovery is large and comes from hard negatives, not architecture changes.</li>
+<li><strong>Know what you're trading away.</strong> A model fine-tuned for one domain should be expected to lose generality elsewhere; choose single-domain vs multi-domain training based on whether you serve one catalog or several.</li>
+</ul>
+<hr>
+<h2>Related</h2>
+<ul>
+<li>[[Retrieval Benchmarks and Leaderboards]] — the wider benchmark landscape and how each one attacks contamination</li>
+<li>[[Model Selection and Fine-Tuning Evaluation]] — how to evaluate on your own data instead of trusting a leaderboard</li>
+<li>[[Embedding Models Compared]] — the candidates this cliff applies to</li>
+<li>[[BRIGHT]] · [[RTEB]] · [[BEIR]] · [[MTEB]] — the benchmarks behind each claim above</li>
+<li>[[Fine-Tuning Text Embeddings For Domain-Specific Search]] · [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — the fix, with numbers</li>
+</ul>
+
+<hr>
+<p>Best,<br>Andrew</p>
+
+</body>
+</html>

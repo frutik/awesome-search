@@ -124,7 +124,6 @@ Libraries that actually run these suites — distinct from the your-data dashboa
 
 ## Related
 
-- [[The Generalization Cliff]] — the argument this benchmark landscape is evidence for
 - [[Model Selection and Fine-Tuning Evaluation]] — the methodology these feed into
 - [[Embedding Models Compared]] — the models being ranked
 - [[Search Evaluation]] · [[Judgment Lists]] · [[NDCG]] · [[Zero-Shot Retrieval]]

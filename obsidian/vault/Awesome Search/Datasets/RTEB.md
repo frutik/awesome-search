@@ -43,7 +43,6 @@ Where a private-set score is available, treat a large open-vs-private drop as th
 
 ## Related
 
-- [[The Generalization Cliff]] — the wider argument this diagnostic feeds
 - [[MTEB]] — the parent benchmark and the overfitting problem RTEB responds to
 - [[Retrieval Benchmarks and Leaderboards]] — the wider landscape
 - [[BEIR]] — the older zero-shot generalization test

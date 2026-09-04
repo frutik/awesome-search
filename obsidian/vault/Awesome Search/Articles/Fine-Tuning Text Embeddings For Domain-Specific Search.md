@@ -120,7 +120,6 @@ The improvement plateaus around 10,000–20,000 examples; more data yields dimin
 
 ## Related Topics
 
-- [[The Generalization Cliff]] — the medical Q&A example anchors this note's "why general models fail" section
 
 ## Related Concepts
 

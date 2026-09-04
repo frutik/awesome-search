@@ -154,7 +154,6 @@ An offline gain is a prediction that users will behave differently. It is not ev
 
 ## Related
 
-- [[The Generalization Cliff]] — why "don't select on public benchmarks" matters this much
 - [[Embedding Models Compared]] — the candidates
 - [[Retrieval Benchmarks and Leaderboards]] — public benchmarks and the libraries that run them
 - [[Relevance Program Setup]] — running this as an ongoing organizational practice

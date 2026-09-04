@@ -34,7 +34,6 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Search UX]]
 - [[Search UX Research]]
 - [[Search Observability]]
-- [[The Generalization Cliff]]
 - [[Search Result Diversity]]
 - [[Spelling Correction in Search]]
 - [[Synonyms and Vocabulary Management]]

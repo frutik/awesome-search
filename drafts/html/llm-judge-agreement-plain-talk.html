@@ -26,7 +26,7 @@
 <h1>Do LLM Judges Actually Agree With Us?</h1>
 <h2>The short version</h2>
 <p>People keep asking whether LLM judges "work" for search evaluation. Wrong question. They work fine for some things and fall apart for others, and the whole game is knowing which is which.</p>
-<p>One word first: by <strong>"approach"</strong> I mean one version of a search engine — your current ranker, the new one you want to ship instead. The papers all call this a <strong>"system"</strong>; same thing, read them as interchangeable. You're always comparing a few and picking one. The judge labels the results, each approach gets a score, they line up best to worst. That line-up is the leaderboard.</p>
+<p>One word first: by <strong>"approach"</strong> I mean one version of a search engine — your current ranker, the new one you want to ship instead. The papers all call this a <strong>"system"</strong>; read them as interchangeable. You're always comparing a few and picking one. The judge labels the results, each approach gets a score, they line up best to worst. That line-up is the leaderboard.</p>
 <p>Now, the thing nobody tells you up front: <strong>there are four different things you could mean by "the judges agree," and they don't move together.</strong></p>
 <ol>
 <li><strong>Do they slap the same label on the same result?</strong></li>
@@ -35,19 +35,11 @@
 <li><strong>Do they lead you to the same decision — same winner, same "this is significant," same ship-it call?</strong></li>
 </ol>
 <p>You'd assume these rise and fall together. They don't. Two judges can fight over thousands of individual labels and still both say "B beats A beats C" — the noise hits every approach about equally and cancels out. That's the whole reason people got excited: the judge doesn't have to be right about each result, only about which approach wins.</p>
-<p>But a matching leaderboard can hide a lot: different ideas of what "relevant" means, blowups on specific query types, your top two approaches swapping places, imaginary statistical significance, and a quiet thumb on the scale for certain kinds of retrieval.</p>
-<p>So: LLM judges are a real tool that you have to check, not a drop-in replacement for people. If someone hands you a study, look for whether they measured both the small stuff and the downstream stuff, whether they used more than one model, whether they actually looked at the disagreements instead of averaging them into mush, and whether the conclusion holds for the approaches they actually care about.</p>
+<p>But a matching leaderboard hides a lot: different ideas of what "relevant" means, blowups on specific query types, your top two approaches swapping places, imaginary statistical significance, and a quiet thumb on the scale for certain kinds of retrieval.</p>
+<p>So: a real tool you have to check, not a drop-in replacement for people. When someone hands you a study, look for whether they measured both the label level and the decision level, whether they used more than one model, whether they looked at the disagreements instead of averaging them into mush, and whether the conclusion holds for the approaches they actually care about.</p>
 <p>And if you're the one shipping it — skip to §6, where I try to answer the question everybody actually has: <em>what number is good enough?</em></p>
 <h2>1. Who's even doing the judging?</h2>
-<p>Somebody looks at a query and a result and says how good the match is. That somebody can be:</p>
-<ul>
-<li>the person who had the question in the first place</li>
-<li>an expert in the domain</li>
-<li>a paid assessor or crowd worker</li>
-<li>an LLM you asked nicely</li>
-<li>some mix of people and models</li>
-</ul>
-<p>Which means "judge vs. judge" can mean a bunch of different comparisons, and they answer different questions:</p>
+<p>Somebody looks at a query and a result and says how good the match is. That somebody can be the person who had the question, a domain expert, a paid assessor or crowd worker, an LLM you asked nicely, or some mix. Which means "judge vs. judge" covers a bunch of different comparisons, answering different questions:</p>
 <table>
 <thead>
 <tr>
@@ -85,7 +77,7 @@
 <p>These are not interchangeable. Matching one human doesn't mean matching users in general. Three LLMs agreeing might just mean three models share the same blind spot. And a model that's consistently wrong is still wrong — consistency isn't correctness.</p>
 <p>Figure out which comparison you're making <em>before</em> you start quoting agreement scores at people.</p>
 <h2>2. Why anyone wants this: money and time</h2>
-<p>Let's not be coy about the motivation. Nobody adopted LLM judges because they're more accurate. They adopted them because human judgment is brutally expensive and slow.</p>
+<p>Let's not be coy about the motivation. The main driver was never accuracy. It was that human judgment is brutally expensive and slow.</p>
 <p>Rough numbers for a single query-document judgment:</p>
 <table>
 <thead>
@@ -108,82 +100,61 @@
 </tr>
 </tbody>
 </table>
-<p>That's two to three orders of magnitude. A thousand queries with ten candidates each is $5,000–$50,000 and a couple of weeks with people, or a coffee and twenty minutes with a model. <a href="https://arxiv.org/abs/2309.10621">Thomas and colleagues</a> put it plainly — models produced "better labels than third-party workers, for a fraction of the cost."</p>
-<p>That gap is the whole reason this field exists. It's also why people are motivated to believe the agreement numbers.</p>
-<p><strong>But "cheap per unit" is not the same as "cheap."</strong> This is where a lot of teams get ambushed. At e-commerce scale — billions of searches a year, hundreds of billions of query-product pairs — judging everything with a frontier model isn't expensive, it's <em>impossible</em>. So everyone samples: judge a few thousand pairs, generalize. Which is fine for tracking aggregate quality over time, and useless for anything that needs coverage. Mining hard negatives across a full catalogue? Catching a regression on one weird query in the tail? Sampling won't find it.</p>
-<p>The way out is architectural, and two patterns have settled in:</p>
-<p><strong>Cascade your judges.</strong> Prune the pair space with behavioral signals first. Let cheap quantized models settle the easy majority. Escalate only the pairs where the cheap judges disagree — disagreement turns out to be a decent proxy for genuine difficulty. Send just those to the expensive model. Two warnings that come with this: two weak judges can be confidently wrong <em>together</em>, especially if they share a base model, so audit a sample of what got auto-accepted, not only what got escalated. And the escalation rate is a knob that trades money against quality on exactly the hard cases you built the thing for.</p>
-<p><strong>Then distill.</strong> Turn the LLM's judgments into training data and fine-tune something small on them. <a href="https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance">Etsy</a> runs this: human "golden" labels anchor a big LLM teacher, the teacher scales labeling to millions of query-listing pairs, and a lightweight BERT two-tower student gets distilled out for real-time serving at under 10ms added latency. Humans define what good means, the LLM scales it, the small model serves it.</p>
-<p>Latency splits into two completely different problems, by the way, and people conflate them constantly. <strong>Offline evaluation</strong> is a batch job — you don't care if it takes six hours overnight. <strong>Production relevance filtering</strong> has a single-digit-millisecond budget and a frontier LLM is simply not in the running. The judge and the production model are different animals; the judge's job is to teach the production model, not to be it.</p>
-<p>One nice concrete data point on the economics from <a href="https://blog.allegro.tech/2026/08/automating-search-relevance-llm-as-a-judge.html">Allegro</a>: moving their batch judging workload from a cloud model to a locally-hosted 4-bit quantized 26B Gemma variant cut inference cost 60% and got them ~16 query-product pairs per second, 2.5× the throughput of a 12B version. And a wrinkle worth knowing — batching a whole product page into one request saves money on cloud models but <em>degrades</em> local-model reliability, so they had to revert local inference to single-item requests. The cost optimizations aren't free and they aren't portable.</p>
+<p>Two to three orders of magnitude. A thousand queries with ten candidates each is $5,000–$50,000 and a couple of weeks with people, or tens of dollars and twenty minutes with a model. <a href="https://arxiv.org/abs/2309.10621">Thomas and colleagues</a> put it plainly — models produced "better labels than third-party workers, for a fraction of the cost." That gap is the whole reason this field exists. It's also why people are motivated to believe the agreement numbers.</p>
+<p><strong>But "cheap per unit" is not the same as "cheap."</strong> At e-commerce scale — billions of searches a year, hundreds of billions of query-product pairs — judging everything with a frontier model isn't expensive, it's <em>impossible</em>. So everyone samples: judge a few thousand pairs, generalize. Fine for tracking aggregate quality over time, useless for anything needing coverage. Mining hard negatives across a full catalogue, or catching a regression on one weird tail query — sampling won't find it.</p>
+<p>The way out is architectural, and [[Towards Scalable Relevance Engineering|Andreas Wagner]] has the clearest worked version of it — [[searchHub]] sits on upwards of 10 billion searches a year, so this was something they had to solve rather than describe. The first move isn't a cheaper model, it's <strong>judging far less</strong>. Behavioral signals split the pair space before anything runs: results already performing well are the lowest-priority candidates for explicit grading — not confirmed positives, since clicks and purchases are shaped by position, price, brand and availability — while the underperformers are your candidate hard negatives and the ones worth spending on first. Wagner reports that pruning alone clears ~93% of the problem space. No model choice buys you that.</p>
+<p><strong>Then cascade your judges.</strong> Quantized bi-encoders — INT8 <code>multilingual-e5-large</code>, <code>bge-m3</code> — settle 75–85% of what's left at CPU speed, and only the pairs where they disagree escalate to the full LLM, since disagreement is a decent proxy for genuine difficulty. Two warnings. Two weak judges can be confidently wrong <em>together</em>, especially sharing a base model, so audit a sample of what got auto-accepted, not only what got escalated. And the pruning is only as good as the behavioral signal underneath it — if position bias shaped the clicks, it shaped the 93% you then never looked at.</p>
+<p><strong>Then distill.</strong> [[How Etsy Uses LLMs to Improve Search Relevance|Etsy]] runs this: human "golden" labels anchor a big LLM teacher, the teacher scales labeling to millions of query-listing pairs, and a lightweight BERT two-tower student gets distilled out for serving at under 10ms added latency. Humans define what good means, the LLM scales it, the small model serves it — the judge's job is to teach the production model, not to be it. Wagner closes the same loop one level up, on the judge itself: ~100,000 LLM judgments fine-tune a small embedding model down to sub-20ms CPU inference, so the next cycle needs fewer escalations than the last.</p>
+<p>One concrete data point from <a href="https://blog.allegro.tech/2026/08/automating-search-relevance-llm-as-a-judge.html">Allegro</a>: moving batch judging from a cloud model to a locally-hosted 4-bit quantized 26B Gemma variant cut inference cost 60% at ~16 query-product pairs per second. But batching a whole product page into one request, which saves money on cloud models, <em>degraded</em> local-model reliability badly enough that they reverted to single-item requests. The cost optimizations aren't free and they aren't portable.</p>
 <h2>3. Humans never agreed either</h2>
-<p>Worth remembering: judges disagreeing is not some new LLM problem. IR people have known relevance is squishy for decades.</p>
-<p><a href="https://www.nist.gov/publications/variations-relevance-judgments-and-measurement-retrieval-effectiveness">Voorhees showed this back in 2000</a> — swap in a different set of human judgments and lots of individual labels change, but the comparison between approaches mostly holds up. That's the founding insight of the whole reusable-test-collection idea: everyone doesn't have to agree on everything, as long as the comparison between approaches survives.</p>
-<p>It only goes so far, though. <a href="https://www.microsoft.com/en-us/research/publication/relevance-assessment-are-judges-exchangeable-and-does-it-matter/">Bailey and co. asked whether judges are actually swappable</a> and found that it matters a lot who's judging — the person who wrote the topic, a task expert, and a random assessor are not the same thing. Their conclusion: test collections are <em>not</em> fully robust to swapping judges when those judges differ a lot in expertise.</p>
+<p>Judges disagreeing is not a new LLM problem. IR people have known relevance is squishy for decades.</p>
+<p><a href="https://www.nist.gov/publications/variations-relevance-judgments-and-measurement-retrieval-effectiveness">Voorhees showed this back in 2000</a> — swap in a different set of human judgments and lots of individual labels change, but the comparison between approaches mostly holds up. That's the founding insight of the reusable-test-collection idea: everyone doesn't have to agree on everything, as long as the comparison survives.</p>
+<p>It only goes so far. <a href="https://www.microsoft.com/en-us/research/publication/relevance-assessment-are-judges-exchangeable-and-does-it-matter/">Bailey and co. asked whether judges are actually swappable</a> and found it matters a lot who's judging — the person who wrote the topic, a task expert, and a random assessor are not the same thing. Their conclusion: test collections are <em>not</em> fully robust to swapping judges who differ a lot in expertise.</p>
 <p>Keep this as your baseline. The bar for an LLM isn't "agrees perfectly with one human." It's "lands inside the range humans already vary by, <strong>and</strong> doesn't change the calls you're making."</p>
 <h2>4. How we got here</h2>
 <h3>4.1 First look, 2023</h3>
-<p><a href="https://arxiv.org/abs/2304.09161">Faggioli and a big crew wrote <em>Perspectives on Large Language Models for Relevance Judgment</em></a> and laid out a spectrum — from "humans judge, model helps a bit" all the way to "model does the whole thing." Their pilot turned up the pattern that's defined everything since: labels agree only so-so, leaderboards agree a lot.</p>
-<p>They also listed the worries. Prompt sensitivity. Model bias. Evaluation eating its own tail. Contaminated data. Black boxes. And the sneaky one — that if a model defines relevance, relevance quietly becomes whatever the model thinks it is. None of those are solved yet.</p>
+<p><a href="https://arxiv.org/abs/2304.09161">Faggioli and a big crew wrote <em>Perspectives on Large Language Models for Relevance Judgment</em></a> and laid out a spectrum, from "humans judge, model helps a bit" to "model does the whole thing." Their pilot turned up the pattern that's defined everything since: labels agree only so-so, leaderboards agree a lot.</p>
+<p>They also listed the worries — prompt sensitivity, model bias, evaluation eating its own tail, contaminated data, black boxes, and the sneaky one: if a model defines relevance, relevance quietly becomes whatever the model thinks it is. None of those are solved.</p>
 <h3>4.2 Meanwhile, the rest of the world was doing this too</h3>
-<p>Worth a detour, because IR isn't the only field that pointed an LLM at a grading task, and the general LLM-as-a-judge crowd found the same things a bit earlier and gave them better names.</p>
-<p><a href="https://arxiv.org/abs/2306.05685">Zheng et al.'s MT-Bench and Chatbot Arena paper</a> is the reference point. Their headline: strong judges like GPT-4 "can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans." Sound familiar? Same shape as the IR result — good enough at the aggregate level, and benchmarked against how much humans disagree rather than against perfection.</p>
-<p>They also named four failure modes that everyone now cites:</p>
-<ul>
-<li><strong>Position bias</strong> — preferring whichever option you showed first.</li>
-<li><strong>Verbosity bias</strong> — preferring the longer answer. They tested this with a "repetitive list" attack, padding an answer with redundant content. Claude-v1 and GPT-3.5 fell for it over 90% of the time. GPT-4 only 8.7%.</li>
-<li><strong>Self-enhancement bias</strong> — preferring your own model's output.</li>
-<li><strong>Limited reasoning</strong> — judges are weak at grading things that need actual reasoning, like math.</li>
-</ul>
-<p>Now map those onto search. <strong>Position bias</strong> is a live problem the moment you do pairwise relevance judging, which is one of the main methods people use. <strong>Verbosity bias</strong> is a first cousin of the keyword-stuffing vulnerability we'll get to in §4.7 — both are the judge reacting to surface form instead of substance. <strong>Self-enhancement</strong> is exactly the self-preference finding that shows up in IR later. Same failure modes, different clothes.</p>
-<p>But here's the thing IR should feel smug about: the general LLM-judge world grades free-text answers where there's often no ground truth at all, so "does the judge agree with humans" is the <em>only</em> check available. IR has something better — decades of test collections and a downstream question you can actually ask, namely <em>does the leaderboard come out the same</em>. That leaderboard check is the reason this whole article can distinguish four levels of agreement instead of one. Don't give it up.</p>
-<h3>4.3 Better models, better prompts, 2023–2024</h3>
-<p><a href="https://arxiv.org/abs/2309.10621">Thomas and colleagues</a> wrote up what happened when Bing did relevance labeling with LLMs at scale. Their line: accuracy "as good as human labellers," and better than third-party workers when you check against what actual searchers preferred.</p>
-<p>Read the whole thing though, because they also say this: "Systematic changes to the prompts make a difference in accuracy, but so too do simple paraphrases." Reword your prompt in a way that means the same thing, get a different answer. Sit with that for a second.</p>
-<p><a href="https://arxiv.org/abs/2406.06519">UMBRELA</a> then rebuilt that kind of assessor in the open with GPT-4o. Ran it across TREC Deep Learning 2019 through 2023, and the leaderboards it produced tracked the human ones closely. That's what turned this from scattered results into something people could actually reproduce and compare.</p>
-<h3>4.4 Everybody piles in, 2024–2025</h3>
-<p>The <a href="https://arxiv.org/abs/2408.08896">LLMJudge challenge</a> at the LLM4Eval workshop (SIGIR 2024) asked the obvious follow-ups out loud: which models, which prompts, does fine-tuning an open model close the gap, is the synthetic data biased, is there leakage?</p>
-<p>Then came <a href="https://arxiv.org/abs/2502.13908"><em>Judging the Judges</em></a>, which released 42 sets of LLM-generated labels for TREC 2023 Deep Learning from eight teams around the world. This one's underrated. Almost everything before it compared one favorite model against one fixed human answer key. Now you can compare judges <em>to each other</em> across a real spread of models and pipelines.</p>
-<p>Three things fell out:</p>
-<ul>
-<li>how you set up the judge changes the answer, a lot</li>
-<li>two judges can produce nearly the same leaderboard while labeling things completely differently</li>
-<li>one average agreement number tells you nothing about <em>which direction</em> a judge is wrong in</li>
-</ul>
-<h3>4.5 The big one: TREC 2024 RAG</h3>
-<p><a href="https://arxiv.org/abs/2411.08275">Upadhyay and team</a> ran four different assessment processes over the TREC 2024 RAG Track — NIST's full manual process plus three that lean on UMBRELA to varying degrees. 77 runs, 19 teams. On nDCG@20, nDCG@100 and Recall@100, the automated stuff produced leaderboards that lined up closely with the fully manual one.</p>
-<p>Two details worth carrying around. Humans were <strong>stricter</strong> than the model. And bolting humans onto the LLM pipelines didn't help — the paper's words: LLM assistance "does not appear to increase correlation with fully manual assessments, suggesting that costs associated with human-in-the-loop processes do not bring obvious tangible benefits."</p>
-<p>Strongest pro-automation result out there. But notice what it's testing: ordering 77 wildly different runs. That's a much easier job than telling apart two approaches that are nearly tied.</p>
-<h3>4.6 Why a matching leaderboard isn't the win you think</h3>
+<p>IR isn't the only field that pointed an LLM at a grading task, and the general LLM-as-a-judge crowd got there earlier with better names. <a href="https://arxiv.org/abs/2306.05685">Zheng et al.'s MT-Bench paper</a> is the reference point: strong judges like GPT-4 "can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans." Same shape as the IR result — good enough in aggregate, benchmarked against how much humans disagree rather than against perfection.</p>
+<p>They named four failure modes everyone now cites: <strong>position bias</strong> (preferring whichever option came first), <strong>verbosity bias</strong> (their "repetitive list" padding attack fooled Claude-v1 and GPT-3.5 over 90% of the time, GPT-4 only 8.7%), <strong>self-enhancement bias</strong>, and <strong>limited reasoning</strong>. All four land in search. Position bias is live the moment you do pairwise judging; verbosity bias is a first cousin of the keyword-stuffing vulnerability in §4.6 — both are the judge reacting to surface form instead of substance.</p>
+<p>But here's the thing IR should feel smug about. The general LLM-judge world grades free-text answers where there's often no ground truth at all, so "does the judge agree with humans" is the <em>only</em> check available. IR has something better: a downstream question you can actually ask, namely <em>does the leaderboard come out the same</em>. That check is why this article can distinguish four levels of agreement instead of one. Don't give it up.</p>
+<h3>4.3 It takes off, 2023–2025</h3>
+<p><a href="https://arxiv.org/abs/2309.10621">Thomas and colleagues</a> wrote up what happened when Bing did relevance labeling with LLMs at scale: accuracy "as good as human labellers," and better than third-party workers when checked against what actual searchers preferred. Read the whole thing though, because they also say this: "Systematic changes to the prompts make a difference in accuracy, but so too do simple paraphrases." Reword your prompt in a way that means the same thing, get a different answer. Sit with that for a second.</p>
+<p><a href="https://arxiv.org/abs/2406.06519">UMBRELA</a> rebuilt that kind of assessor in the open with GPT-4o across TREC Deep Learning 2019–2023, and its leaderboards tracked the human ones closely — which turned scattered results into something reproducible. Then <a href="https://arxiv.org/abs/2502.13908"><em>Judging the Judges</em></a> released 42 sets of LLM-generated labels from eight teams, so you could finally compare judges <em>to each other</em> instead of each against one fixed human answer key. Three things fell out: how you set up the judge changes the answer a lot; two judges can produce nearly the same leaderboard while labeling things completely differently; and one average agreement number tells you nothing about <em>which direction</em> a judge is wrong in.</p>
+<h3>4.4 The big one: TREC 2024 RAG</h3>
+<p><a href="https://arxiv.org/abs/2411.08275">Upadhyay and team</a> ran four assessment processes over the TREC 2024 RAG Track — NIST's full manual process plus three leaning on UMBRELA to varying degrees. 77 runs, 19 teams. On nDCG@20, nDCG@100 and Recall@100, the automated leaderboards lined up closely with the fully manual one.</p>
+<p>Two details worth carrying around. Humans were <strong>stricter</strong> than the model. And bolting humans onto the LLM pipelines didn't help — LLM assistance "does not appear to increase correlation with fully manual assessments, suggesting that costs associated with human-in-the-loop processes do not bring obvious tangible benefits."</p>
+<p>Strongest pro-automation result out there. But notice what it's testing: ordering 77 wildly different runs. Much easier than telling apart two approaches that are nearly tied.</p>
+<h3>4.5 Why a matching leaderboard isn't the win you think</h3>
 <p>Here's where it gets uncomfortable.</p>
-<p><a href="https://arxiv.org/abs/2411.13212">Otero, Parapar and Barreiro</a> zoomed in on the approaches at the top and on pairwise statistical calls. Their finding, straight from the abstract: LLM judgments are "unfair at ranking top-performing systems," and there's "an exceedingly high rate of false positives regarding statistical differences." Translation: the judge will tell you your new approach won, with confidence, when it didn't. If you're running A/B-style offline comparisons, this is the sentence that should keep you up.</p>
-<p><a href="https://arxiv.org/abs/2412.17156">Clarke and Dietz</a> make a point that's obvious once said: an LLM relevance judge is basically just another relevance-scoring approach. So it can be gamed, and if your retrieval approach and your judge share the same underlying model, you're grading your own homework. They build an example where an approach scores great automatically and gains nothing with real humans.</p>
-<p><a href="https://arxiv.org/abs/2503.19092">Balog, Metzler and Qin</a> found "the first empirical evidence of LLM judges exhibiting significant bias towards LLM-based rankers" — the judge likes retrieval approaches that are built like it is. They also hit "limitations in LLM judges' ability to discern subtle system performance differences," and confirm the leniency thing: LLM judges "are more lenient in their relevance assessments than human judges."</p>
-<p>Worth flagging an honest disagreement here, because it hasn't settled. <a href="https://arxiv.org/abs/2408.16312">SynDL</a> — a synthetic collection with 1,988 queries and 637,063 LLM labels — reports the opposite on that first point: their setup "does not favour language model approaches." So does the judge play favorites? Depends whose experiment you read. Don't let anyone tell you this one's closed.</p>
-<h3>4.7 Judges can be tricked</h3>
-<p><a href="https://arxiv.org/abs/2501.17969">Alaofi and co.</a> is my favorite paper here, partly for the title. They found LLMs "are more likely to label passages as relevant compared to human judges," and — the good bit — that they're "highly influenced by the presence of query words in the passages under assessment, even if the wider passage has no relevance to the query."</p>
-<p>So: stuff the query words into a garbage passage, the judge calls it relevant. Some models even followed instructions written <em>inside the passage they were judging</em>. Your average agreement score will look perfectly healthy while this is happening.</p>
+<p><a href="https://arxiv.org/abs/2411.13212">Otero, Parapar and Barreiro</a> zoomed in on the approaches at the top and on pairwise statistical calls. Straight from the abstract: LLM judgments are "unfair at ranking top-performing systems," with "an exceedingly high rate of false positives regarding statistical differences." Translation: the judge will tell you your new approach won, with confidence, when it didn't. If you run A/B-style offline comparisons, that's the sentence that should keep you up.</p>
+<p><a href="https://arxiv.org/abs/2412.17156">Clarke and Dietz</a> make a point that's obvious once said: an LLM relevance judge is just another relevance-scoring approach. So it can be gamed, and if your retrieval approach and your judge share the same underlying model, you're grading your own homework. They build an example where an approach scores great automatically and gains nothing with real humans.</p>
+<p><a href="https://arxiv.org/abs/2503.19092">Balog, Metzler and Qin</a> found "the first empirical evidence of LLM judges exhibiting significant bias towards LLM-based rankers" — the judge likes retrieval approaches built like it is. They also hit "limitations in LLM judges' ability to discern subtle system performance differences," and confirm the leniency: LLM judges "are more lenient in their relevance assessments than human judges."</p>
+<p>Worth flagging an honest disagreement, because it hasn't settled. <a href="https://arxiv.org/abs/2408.16312">SynDL</a> — 1,988 queries, 637,063 LLM labels — reports the opposite on that first point: their setup "does not favour language model approaches." Does the judge play favorites? Depends whose experiment you read.</p>
+<h3>4.6 Judges can be tricked</h3>
+<p><a href="https://arxiv.org/abs/2501.17969">Alaofi and co.</a> found LLMs "are more likely to label passages as relevant compared to human judges," and — the good bit — that they're "highly influenced by the presence of query words in the passages under assessment, even if the wider passage has no relevance to the query."</p>
+<p>Stuff the query words into a garbage passage, the judge calls it relevant. Some models even followed instructions written <em>inside the passage they were judging</em>. Your average agreement score will look perfectly healthy while this is happening.</p>
 <p>If you run a marketplace where third parties write the item text and have money riding on ranking, reread that paragraph.</p>
-<h3>4.8 There's no single "LLM judge"</h3>
-<p><a href="https://arxiv.org/abs/2504.12558">Arabzadeh and Clarke</a> compared five ways of asking — binary, graded, pairwise, and two flavors of nugget-based — across TREC DL 2019–2021 and ANTIQUE, with GPT-4o and Llama. The point: <em>how you ask</em> changes the answer. "Use an LLM judge" isn't a method, it's a category.</p>
-<p><a href="https://arxiv.org/abs/2507.09488">Farzi and Dietz</a> go further and break relevance into pieces — exactness, coverage, topicality, contextual fit — and grade each. Better leaderboards and, more useful day to day, you can actually see <em>why</em> something got the grade. Some disagreement isn't the judge being dumb; it's you never having said what you meant by relevant.</p>
-<h3>4.9 Now leave the English passage bubble, 2025–2026</h3>
-<p>Everything above is mostly English web passages. Turns out the conclusions don't just come along for the ride.</p>
+<h3>4.7 There's no single "LLM judge"</h3>
+<p><a href="https://arxiv.org/abs/2504.12558">Arabzadeh and Clarke</a> compared five ways of asking — binary, graded, pairwise, and two flavors of nugget-based — across TREC DL 2019–2021 and ANTIQUE. <em>How you ask</em> changes the answer. "Use an LLM judge" isn't a method, it's a category.</p>
+<p><a href="https://arxiv.org/abs/2507.09488">Farzi and Dietz</a> break relevance into pieces — exactness, coverage, topicality, contextual fit — and grade each. Better leaderboards, and you can see <em>why</em> something got the grade. Some disagreement isn't the judge being dumb; it's you never having said what you meant by relevant.</p>
+<h3>4.8 Now leave the English passage bubble, 2025–2026</h3>
+<p>Everything above is mostly English web passages. The conclusions don't just come along for the ride.</p>
 <ul>
-<li><a href="https://arxiv.org/abs/2512.05334">Mohtadi and colleagues</a> judged full documents vs. LLM-written summaries of them. Summary-based judging gets "comparable stability in systems' ranking" — but with "systematic shifts in label distributions and biases that vary by model and dataset." Same leaderboard, different labels, again.</li>
-<li><a href="https://arxiv.org/abs/2601.05603">The TREC Podcast reassessment</a> is the one to read. Five LLMs, 18,284 query-segment pairs, 91,420 labels total. On the 2020 track, human-vs-LLM leaderboard agreement (Kendall's τ) ran 0.81–0.84 and the top approaches held. On 2021 it dropped to 0.60–0.72 and the ordering got, in their words, "much more volatile… including the <em>top</em> ranking systems." <strong>Same models, same method, same task — one year apart.</strong> Then they took 22 cases where LLMs and the original assessor disagreed most and had three IR experts look. The experts sided with the LLMs (Krippendorff's α 0.71–0.86) and <em>negatively</em> with the original TREC assessor (−0.55 to −0.77). Read that twice. Sometimes the answer key is the thing that's wrong. The paper also finds the usual over-rating, plus a possible soft spot for lexical approaches.</li>
-<li><a href="https://arxiv.org/abs/2604.04140">Keller and team</a> found that judges handed nothing but a short query "judge many more documents relevant and have a lower agreement" than judges given a proper topic with a description and narrative. Best part: writing that description <em>automatically</em> still helps. Cheap fix, real gain.</li>
-<li><a href="https://arxiv.org/abs/2608.27746">NormasTCU</a> does Brazilian Portuguese legal search — 14,469 documents. Three models, two prompting styles, and agreement with humans was only fair-to-moderate (Cohen's κ 0.32–0.53, mean absolute error 0.46–0.66 on a 0–2 scale). And yet nDCG@10 and MRR leaderboards still hit Kendall correlations of 0.90 or better. P@10 and R@10 were shakier. Cleanest demo you'll find that label agreement, ranking agreement, and <em>which metric you picked</em> are three separate things.</li>
+<li><a href="https://arxiv.org/abs/2512.05334">Mohtadi and colleagues</a> judged full documents vs. LLM-written summaries of them: "comparable stability in systems' ranking," but "systematic shifts in label distributions and biases that vary by model and dataset." Same leaderboard, different labels, again.</li>
+<li><a href="https://arxiv.org/abs/2601.05603">The TREC Podcast reassessment</a> is the one to read. Five LLMs, 18,284 query-segment pairs, 91,420 labels. On the 2020 track, human-vs-LLM leaderboard agreement (Kendall's τ) ran 0.81–0.84 and the top approaches held. On 2021 it dropped to 0.60–0.72 and the ordering got, in their words, "much more volatile… including the <em>top</em> ranking systems." <strong>Same models, same method, same task — one year apart.</strong> They then took the 22 cases where LLMs and the original assessor disagreed <em>most</em> — deliberately selected, not a random sample — and had three IR experts look. The experts sided with the LLMs (Krippendorff's α 0.71–0.86) and showed <em>negative agreement</em> with the original assessor (α −0.55 to −0.77, i.e. worse than chance). That doesn't establish the answer key is broadly wrong. It establishes the key can be wrong, and is contestable, on exactly the cases where a judge looks like it's failing.</li>
+<li><a href="https://arxiv.org/abs/2604.04140">Keller and team</a> found judges handed nothing but a short query "judge many more documents relevant and have a lower agreement" than judges given a proper topic description. Writing that description <em>automatically</em> still helps — cheap fix, real gain.</li>
+<li><a href="https://arxiv.org/abs/2608.27746">NormasTCU</a> does Brazilian Portuguese legal search over 14,469 documents. Agreement with humans was only fair-to-moderate (Cohen's κ 0.32–0.53, MAE 0.46–0.66 on a 0–2 scale). And yet nDCG@10 and MRR leaderboards still hit Kendall correlations of 0.90 or better, while P@10 and R@10 were shakier. Cleanest demo you'll find that label agreement, ranking agreement, and <em>which metric you picked</em> are three separate things.</li>
 </ul>
-<h3>4.10 What about products? Because that's where the money is</h3>
-<p>Almost all the academic evidence above is TREC passages, podcast transcripts and legal documents. If you work on e-commerce search, the honest answer to "does this transfer" is: <em>the shape transfers, the failure location moves.</em> Here's what the product-search evidence actually shows.</p>
-<p><strong>Relevance isn't topicality any more.</strong> In web search a passage is on-topic or it isn't. In product search the useful grading is about substitutability — the <a href="https://arxiv.org/abs/2206.06588">ESCI scale</a> (Exact / Substitute / Complement / Irrelevant) is the common shape. That's a different cognitive task, and it moves the hard boundary. It's not "relevant vs. not." It's "is this a substitute or a complement," which is a judgment about shopping intent, not about text.</p>
-<p><strong>And that's exactly where the judges fall over.</strong> Allegro's RAT framework is the best-documented case: a 380K+ multilingual judgment dataset built by 30 experts across 13 departments and four languages (Polish, Czech, Slovak, Hungarian), dual blind annotation with expert arbitration. Their local quantized judge hit a quadratic-weighted Cohen's κ of 0.69 on Polish — genuinely good. But break it down by class and the story changes completely: F1 of 0.94 on exact matches and 0.83 on complements, and then <strong>0.51 and 0.33</strong> on separating "highly substitutable" from "substitutable."</p>
-<p>Sit with that spread. The judge is excellent at the calls you didn't need help with and close to a coin flip on the distinction your merchandising team actually argues about. That's finding 3 from §7 — <em>it breaks where the decisions are hardest</em> — showing up in the most commercially relevant place possible. An overall κ of 0.69 would never have told you.</p>
+<h3>4.9 What about products? Because that's where the money is</h3>
+<p>Almost all the evidence above is TREC passages, podcast transcripts and legal documents. If you work on e-commerce search, the honest answer to "does this transfer" is: <em>the shape transfers, the failure location moves.</em></p>
+<p><strong>Relevance isn't topicality any more.</strong> In web search a passage is on-topic or it isn't. In product search the useful grading is about substitutability — the <a href="https://arxiv.org/abs/2206.06588">ESCI scale</a> (Exact / Substitute / Complement / Irrelevant) is the common shape. That's a different cognitive task, and it moves the hard boundary. Not "relevant vs. not," but "is this a substitute or a complement" — a judgment about shopping intent, not about text.</p>
+<p><strong>And that's exactly where the judges fall over.</strong> Allegro's RAT framework is the best-documented case: a 380K+ multilingual judgment dataset built by 30 experts across 13 departments and four languages, dual blind annotation with expert arbitration. Their local quantized judge reached a quadratic-weighted Cohen's κ of 0.69 on Polish — genuinely good for a four-level ordinal scale. Break it down by class, though, and you get F1 around 0.94 on exact matches and 0.83 on complements, against <strong>0.51 and 0.33</strong> on separating "highly substitutable" from "substitutable."</p>
+<p>Careful with those two sets of numbers: an overall weighted κ and a per-class F1 are different quantities on different scales, and F1 has no universal chance baseline — 0.33 does <em>not</em> mean "coin flip." What it means is poor discrimination on the boundary the merchandising team actually argues about, while the judge is excellent on the calls nobody needed help with. An overall κ of 0.69 would never have told you.</p>
 <p><strong>Prompting folklore doesn't survive contact with the domain either.</strong> Allegro found that removing few-shot examples <em>improved</em> both accuracy and inter-rater agreement — the opposite of what everyone assumes. What helped instead was structured reasoning and domain-specific business logic written into the prompt. Adding category and department metadata did nothing, because product names already carried it.</p>
-<p><strong>Relevance in commerce is time-varying and business-defined.</strong> Etsy makes this concrete: they maintain an evolving labeling guideline because relevance drifts with culture. "Face masks" meant costume masks before 2020 and protective masks after. There's no stable ground truth to converge on — the target moves, and your judge is frozen at its training cutoff.</p>
-<p><strong>The published academic work leans practical.</strong> <a href="https://arxiv.org/abs/2406.00247">Mehrdad et al.</a> work over a multi-million query-item pair dataset with the stated goal of "relevance annotations on par with the human relevance evaluators." <a href="https://arxiv.org/abs/2505.04209">eBay's keyphrase work</a> uses an LLM judge as a scalable proxy for seller judgment to train relevance filters, and their framing is the one to steal: it works <em>provided</em> you bind it to "a meticulous evaluation framework grounded in business metrics." <a href="https://arxiv.org/abs/2503.09223">LREF</a> is another LLM-based relevance framework built for e-commerce.</p>
-<p>Notice what industry does that the academic papers mostly don't: nobody in commerce treats the LLM as the final judge. Etsy anchors it with human golden labels and distills it into a servable model. Allegro built a 380K human dataset <em>first</em> and used it to validate. eBay ties the whole thing back to revenue. The pattern is <strong>humans define the standard, the LLM scales it, business metrics keep it honest</strong> — which is a considerably more modest claim than "LLM judges match humans," and a considerably more useful one.</p>
+<p><strong>Relevance in commerce is time-varying and business-defined.</strong> Etsy maintains an evolving labeling guideline because relevance drifts with culture: "face masks" meant costume masks before 2020 and protective masks after. There's no stable ground truth to converge on — the target moves, and your judge is frozen at its training cutoff.</p>
+<p>Notice what industry does that the academic papers mostly don't: in the best-documented commercial deployments, the LLM is not the final judge. Etsy anchors it with human golden labels and distills it into a servable model. Allegro built a 380K human dataset <em>first</em> and used it to validate. <a href="https://arxiv.org/abs/2505.04209">eBay</a> ties the whole thing back to revenue, and their framing is the one to steal — an LLM judge works as a proxy for seller judgment <em>provided</em> you bind it to "a meticulous evaluation framework grounded in business metrics." The pattern is <strong>humans define the standard, the LLM scales it, business metrics keep it honest</strong> — a more modest claim than "LLM judges match humans," and a more useful one.</p>
 <h2>5. What to actually measure</h2>
 <p>There's no one number. Pick a few that match what you're using the judge for.</p>
 <table>
@@ -211,8 +182,14 @@
 <tr>
 <td>Graded labels</td>
 <td>How far off, and which way?</td>
-<td>Weighted κ, ordinal α, MAE, confusion matrix</td>
+<td>Weighted κ, ordinal α, MAE</td>
 <td>An average hides one-sided errors</td>
+</tr>
+<tr>
+<td>Per class</td>
+<td>Which distinctions can it make?</td>
+<td>Confusion matrix, per-class precision / recall / F1</td>
+<td>F1 has no chance baseline — don't read it as accuracy</td>
 </tr>
 <tr>
 <td>Judge vs. judge</td>
@@ -246,20 +223,21 @@
 </tr>
 </tbody>
 </table>
-<p>Three rules that fall out of that table:</p>
+<p>Three rules fall out of that table.</p>
 <p><strong>Don't quietly collapse graded labels to binary.</strong> Or if you do, report both. Squashing 0/1/2/3 into relevant/not manufactures agreement and throws away exactly the distinctions nDCG cares about.</p>
 <p><strong>Never post a κ without the label distribution and confusion matrix next to it.</strong> A judge that's lenient across the board can have a perfectly normal κ. The leniency is the thing that'll bite you.</p>
 <p><strong>Leaderboard correlation needs a top-weighted companion.</strong> Nobody cares whether the judge can tell a terrible approach from a great one. You care about the three candidates that are nearly tied. Look there.</p>
 <h2>6. So what number is good enough?</h2>
-<p>This is the question everybody actually has and almost no paper answers. Here's the honest attempt.</p>
+<p>The question everybody actually has, and almost no paper answers. Here's the honest attempt.</p>
 <h3>The two conventions people quote at you</h3>
-<p><strong>Kendall's τ ≥ 0.9.</strong> This comes from Voorhees, who proposed that two evaluation schemes correlating at 0.9 or above should be treated as equivalent — partly on the grounds that you can't really be more precise than that. Below about 0.8 you're seeing genuine reordering, not just neighbours swapping. It's a sensible convention and it's been the field's default for twenty-odd years. It is <em>a convention</em>, not a law of nature, and nobody has re-derived it for LLM judges.</p>
-<p><strong>Cohen's κ bands.</strong> Fair 0.21–0.40, moderate 0.41–0.60, substantial 0.61–0.80. These come from a 1977 biometrics paper (Landis and Koch), have nothing to do with IR, and were basically made up as a convenience. People cite them as though they mean something. Use them as vocabulary, not as a gate.</p>
-<h3>Why neither one is enough on its own</h3>
-<p>NormasTCU is the perfect cautionary tale. Their leaderboards cleared the τ ≥ 0.9 bar. Their labels sat at κ 0.32–0.53 — "fair to moderate," which is to say not good. <strong>Passing the ranking threshold told them nothing about whether the labels were any good</strong>, and passing the label threshold would have told them nothing about the ranking. These are separate gates and you need both.</p>
-<p>Meanwhile Podcast 2021 came in at τ 0.60–0.72, which is well under 0.8 — squarely in "these schemes have different emphases" territory. Same method that scored 0.81–0.84 the year before.</p>
-<h3>A rubric that actually depends on the decision</h3>
-<p><em>This part is my synthesis, not something you can cite — but it follows from the evidence above.</em> The right threshold depends entirely on what the number is guarding:</p>
+<p><strong>Kendall's τ ≥ 0.9.</strong> From Voorhees, who proposed that two evaluation schemes correlating at 0.9 or above be treated as equivalent — partly on the grounds that you can't really be more precise than that. Below about 0.8 you're seeing genuine reordering, not just neighbours swapping. Sensible convention, the field's default for twenty-odd years. It is <em>a convention</em>, not a law of nature, and nobody has re-derived it for LLM judges.</p>
+<p><strong>Cohen's κ bands.</strong> Fair 0.21–0.40, moderate 0.41–0.60, substantial 0.61–0.80. These come from a 1977 biometrics paper (Landis and Koch), have nothing to do with IR, and were made up as a convenience. Use them as vocabulary, not as a gate.</p>
+<h3>Which one is the gate depends on the decision</h3>
+<p>NormasTCU is the cautionary tale. Their leaderboards cleared τ ≥ 0.9. Their labels sat at κ 0.32–0.53 — "fair to moderate," which is to say not good. Passing the ranking threshold told them nothing about whether the labels were any good, and passing a label threshold would have told them nothing about the ranking.</p>
+<p>So measure both, then decide which is the gate based on how the judgments will be used. If all you want is a broad ranking of approaches, stable decision agreement can be enough even with mediocre label agreement — that's the Voorhees insight, still standing. But if the labels will be read by humans, reused as training data, or used to diagnose specific queries, weak label agreement is disqualifying on its own, and no amount of leaderboard correlation rescues it.</p>
+<p>Meanwhile Podcast 2021 came in at τ 0.60–0.72, well under 0.8 — squarely in "these schemes have different emphases" territory. Same method that scored 0.81–0.84 the year before.</p>
+<h3>A rubric that depends on the decision</h3>
+<p><em>My synthesis, not something you can cite — but it follows from the evidence above.</em></p>
 <table>
 <thead>
 <tr>
@@ -281,13 +259,13 @@
 </tr>
 <tr>
 <td>Choosing between two close approaches / declaring a winner</td>
-<td><strong>No threshold saves you here</strong></td>
+<td><strong>High aggregate correlation alone cannot validate this decision</strong></td>
 <td>Otero's false positives happen <em>at high τ</em>. Adjudicate the deciding slice with humans</td>
 </tr>
 <tr>
 <td>Generating training labels</td>
-<td>Per-class κ on the specific boundary you care about</td>
-<td>Allegro: overall κ 0.69, but 0.33 on the class distinction that mattered</td>
+<td>Confusion matrix plus per-class precision / recall / F1 on the boundary you care about</td>
+<td>Allegro: overall κ 0.69, F1 0.33 on the distinction that mattered</td>
 </tr>
 <tr>
 <td>Judging content you don't control</td>
@@ -297,64 +275,49 @@
 </tbody>
 </table>
 <h3>Three practical rules worth more than any threshold</h3>
-<p><strong>Report agreement per class, not just overall.</strong> The Allegro spread — 0.94 on the easy class, 0.33 on the hard one, 0.69 overall — is the whole argument. Overall numbers average your best case with your worst and hand you something that describes neither.</p>
-<p><strong>Measure your judge's self-disagreement first.</strong> Run the same judgments twice. Whatever rate the judge disagrees with <em>itself</em> at is your noise floor. <strong>Any difference between two approaches smaller than the judge's own self-disagreement is not measurable with that judge</strong>, no matter how good the correlation with humans looks. Most teams never check this. It takes one afternoon and it tells you the resolution of your instrument.</p>
-<p><strong>Set the bar against human-human agreement on your own data, not against 1.0.</strong> MT-Bench's framing is the right one: GPT-4's ~80% agreement was reported as meaningful precisely because that's "the same level of agreement between humans." If your own annotators agree at κ 0.6, demanding κ 0.8 from a model is incoherent. Measure your humans first, then you know what to ask for.</p>
-<h2>7. So what do we actually know?</h2>
-<h3>1. Label agreement is never great</h3>
-<p>Even good models don't reproduce human labels exactly. It moves with the collection, the model, the prompt, the grading scale, how much context you gave, and who the humans were. Fair-to-moderate is normal. Better happens when the task is tightly specified.</p>
-<h3>2. Leaderboards hold up better than labels</h3>
-<p>Same as the old human-vs-human finding. Item-level errors cancel out, or hit every approach equally, and the ordering survives. UMBRELA, TREC RAG, SynDL and NormasTCU all show this. Real result. Just remember it's a result about <em>one level, one metric, one collection</em> — not proof that judges are interchangeable.</p>
-<h3>3. It breaks exactly where you need it most</h3>
-<p>Sorting a messy pile of 77 runs: fine. Telling apart two strong approaches that are close: not fine. Separating exact matches from garbage: fine. Separating a substitute from a slightly-worse substitute: coin flip. Your overall number can look terrific while the winner flips and your significance tests fire off false positives. The easy case works and the case you actually have is the hard one.</p>
-<h3>4. The errors have a shape</h3>
-<p>They're not noise. They're patterns: too generous, over-reacting to query words in the text, twitchy about prompt wording, following instructions embedded in documents, preferring whatever came first in a pairwise comparison, preferring longer text, maybe favoring approaches that look like themselves (though SynDL disputes that one). Because it's systematic, <strong>collecting more labels from the same judge does not wash it out.</strong> You have to change something.</p>
-<h3>5. The humans aren't a gold standard either</h3>
-<p>The Podcast study is the proof. Three experts looked at the worst disagreements and sided with the machines against the original assessor — with a <em>negative</em> correlation to that assessor. So when your LLM disagrees with the answer key, "the LLM screwed up" is one hypothesis, not the conclusion. Sometimes the key is wrong. Sometimes the item is genuinely ambiguous.</p>
-<h3>6. Nobody's really studied model-vs-model</h3>
-<p>Almost every paper nails human judgments to the wall as truth and asks which LLM gets closest. Far fewer properly cross several model families, several prompts, and repeated runs, then ask the real question: <em>would my conclusion have changed if I'd picked a different judge?</em> The Judging the Judges collection and the Podcast study are the first solid steps.</p>
-<h3>7. In industry, nobody actually replaces the humans</h3>
-<p>Read what Etsy, Allegro and eBay built rather than what the headlines say. Every one of them uses humans to define the standard, the LLM to scale it, and business metrics to keep the whole thing honest. The academic question is "can the model replace the assessor." The deployed answer is "no, it multiplies them," and that's not a consolation prize — it's the actual value.</p>
-<h2>8. How to run this properly</h2>
+<p><strong>Report per class, not just overall.</strong> Publish the confusion matrix and per-class precision, recall and F1 next to whatever single number you quote. The Allegro spread is the whole argument. If you want a chance-corrected per-class figure, compute a one-vs-rest binary κ and say explicitly that's what it is — don't line per-class F1 up against an overall κ as though they were the same scale.</p>
+<p><strong>Measure your pipeline's run-to-run variation first.</strong> Run the whole judging process several times and recompute the <em>final metrics and decisions</em>, not just the labels. The spread across those repeated evaluations estimates your pipeline's stochastic uncertainty. If the difference between two approaches is routinely reversed or swallowed by that spread, the judge cannot reliably distinguish them, however good the correlation with humans looks. This is not the same as the judge's label self-disagreement rate — an 8% label flip rate and a 0.015 nDCG gap are different quantities on different scales, so you have to propagate the variation through to the metric before comparing. Most teams never check. It takes one afternoon and tells you the resolution of your instrument.</p>
+<p><strong>Set the bar against human-human agreement on your own data, not against 1.0.</strong> MT-Bench's framing is right: GPT-4's ~80% agreement was reported as meaningful precisely because that's "the same level of agreement between humans." If your own annotators agree at κ 0.6, demanding κ 0.8 from a model is incoherent. Measure your humans first, then you know what to ask for.</p>
+<h2>7. How to run this properly</h2>
 <p>Don't crown one model as The Judge. Cross it.</p>
 <p><strong>Your judges</strong></p>
 <ul>
-<li>At least three different model families. Three versions of the same vendor's model doesn't count.</li>
-<li>Run each judgment more than once. Temperature 0 is not determinism — and this is how you get your noise floor from §6.</li>
+<li>Ideally three or more different model families. Three versions of one vendor's model doesn't count.</li>
+<li>Run each judgment more than once. Temperature 0 is not determinism — and this is how you get the run-to-run variation from §6.</li>
 <li>Keep humans in it, several of them, on a stratified slice. You need human-human agreement to know what to ask of the model.</li>
-<li>Write down the model version, the access date, the exact prompt, decoding settings, and how you truncated documents. You will not remember in four months.</li>
+<li>Write down the model version, access date, exact prompt, decoding settings, and how you truncated documents. You will not remember in four months.</li>
 </ul>
 <p><strong>Your sample</strong></p>
 <ul>
 <li>Stratify: query type, difficulty, ambiguity, domain, result length, original grade.</li>
 <li>Load up on the close calls. Obviously-relevant and obviously-garbage teach you nothing — and they're where your headline accuracy comes from.</li>
 <li>Pull results from different <em>kinds</em> of retrieval approaches, or you're only measuring agreement on one family.</li>
-<li>Throw in some dirty tricks: query-word stuffing, instructions hidden in the text, misleading summaries, very long documents. If you have third-party sellers writing your item text, this isn't paranoia, it's a threat model.</li>
+<li>Throw in dirty tricks: query-word stuffing, instructions hidden in the text, misleading summaries, very long documents. If third-party sellers write your item text, this isn't paranoia, it's a threat model.</li>
 <li>If you swap the order of options in pairwise judging, do it systematically. Position bias is real and cheap to measure.</li>
 </ul>
-<p><strong>Your analysis</strong> — report all three layers, not just the flattering one:</p>
-<ol>
-<li><strong>Items:</strong> label distributions, confusion matrices, weighted agreement, direction of error, <strong>and per-class breakdowns</strong>.</li>
-<li><strong>Systems:</strong> score bias, leaderboard correlation, top-weighted agreement, how far the leaders moved.</li>
-<li><strong>Decisions:</strong> who won, pairwise significance, effect direction, whether the gap is big enough to care about.</li>
-</ol>
+<p><strong>Your analysis</strong> — report all three layers, not just the flattering one. <strong>Items:</strong> label distributions, confusion matrices, weighted agreement, direction of error, and per-class breakdowns. <strong>Systems:</strong> score bias, leaderboard correlation, top-weighted agreement, how far the leaders moved. <strong>Decisions:</strong> who won, pairwise significance, effect direction, whether the gap is big enough to care about.</p>
 <p>Then take the disagreements and have someone review them blind. Not to declare a winner — to <em>sort</em> them. Ambiguous topic? Missing context? Human error? Model error? Different reading of the scale? Gamed content? Or two genuinely defensible ideas of what relevant means? Those need different fixes.</p>
-<h2>9. Still open</h2>
+<h2>8. Still open</h2>
 <ul>
 <li>What happens to your evaluation when the judge model gets deprecated and you swap in a new one?</li>
-<li>Is a small panel of different judges better at flagging "we're not sure about this one" than one strong judge?</li>
-<li>Which disagreements actually change a decision? Most probably don't.</li>
-<li>How do you even model agreement when there are several legitimate answers?</li>
-<li>Can spelling out the criteria improve agreement without pinning relevance down too narrowly?</li>
+<li>Which disagreements actually change a decision? Most probably don't. And how do you model agreement when there are several legitimate answers?</li>
 <li>How do you catch someone gaming the judge — especially when they write the item text and profit from ranking?</li>
 <li>When should humans judge everything, versus review disagreements, versus audit a sample, versus just write the criteria?</li>
-<li>How do you keep a benchmark honest when everyone can optimize against a public automatic judge?</li>
-<li>Does the cascade-and-distill pattern preserve the judge's <em>biases</em> along with its accuracy? Nobody's really checked what a distilled student inherits.</li>
+<li>Does cascade-and-distill preserve the judge's <em>biases</em> along with its accuracy? What a distilled student inherits is barely studied — and the cascade numbers above (~93% pruned, 75–85% auto-settled) are one team's production figures, reported by the author, with nobody having replicated them elsewhere.</li>
 <li>How do you evaluate against a target that moves — commerce relevance shifts with season, culture and stock, and your judge's training data doesn't?</li>
 </ul>
-<h2>10. Where that leaves you</h2>
-<p>Middle ground, and it's not a cop-out.</p>
-<p>LLM judges are genuinely useful right now: scaling up assessment, extending pools, fast exploratory evaluation, auditing your existing human labels (the Podcast paper shows they'll find real mistakes). On several collections they reproduce broad leaderboards remarkably well, for a rounding error of the cost. That cost gap is the entire reason anyone is doing this, and it's real.</p>
+<h2>9. Where that leaves you</h2>
+<p>Pulling the evidence together, seven things look solid enough to build on:</p>
+<ol>
+<li><strong>Label agreement is never great.</strong> Fair-to-moderate is normal, moving with the collection, the model, the prompt, the grading scale, the context you gave, and who the humans were. Better happens when the task is tightly specified.</li>
+<li><strong>Leaderboards hold up better than labels.</strong> Item-level errors cancel out or hit every approach equally, and the ordering survives — but that's a result about <em>one level, one metric, one collection</em>, not proof that judges are interchangeable.</li>
+<li><strong>It breaks exactly where you need it most.</strong> Sorting a messy pile of 77 runs: fine. Telling apart two strong approaches that are close: not fine. Separating exact matches from garbage: fine. Separating a substitute from a slightly-worse substitute: weak. Your overall number can look terrific while the winner flips and your significance tests fire off false positives.</li>
+<li><strong>The errors have a shape.</strong> Too generous, over-reacting to query words, twitchy about prompt wording, following instructions embedded in documents, preferring whatever came first, preferring longer text, possibly favoring approaches that look like themselves (SynDL disputes that one). Because it's systematic, <strong>collecting more labels from the same judge does not wash it out.</strong></li>
+<li><strong>The humans aren't a gold standard either.</strong> When your LLM disagrees with the answer key, "the LLM screwed up" is one hypothesis, not the conclusion. Sometimes the key is contestable; sometimes the item is genuinely ambiguous.</li>
+<li><strong>Model-vs-model is under-studied.</strong> Most papers nail human judgments to the wall as truth and ask which LLM gets closest. Comparatively few cross several model families, several prompts, and repeated runs, then ask the real question: <em>would my conclusion have changed if I'd picked a different judge?</em></li>
+<li><strong>In the documented industry deployments, nobody replaced the humans.</strong> Etsy, Allegro and eBay all use humans to define the standard, the LLM to scale it, and business metrics to keep it honest. The academic question is "can the model replace the assessor." The deployed answer is "no, it multiplies them" — not a consolation prize, the actual value.</li>
+</ol>
+<p>So the honest position is a middle one, and it's not a cop-out. LLM judges are genuinely useful right now: scaling up assessment, extending pools, fast exploratory evaluation, auditing your existing human labels. On several collections they reproduce broad leaderboards remarkably well, for a rounding error of the cost.</p>
 <p>But agreement is conditional. A strong correlation does not buy you interchangeable labels, fair treatment of your best approaches, trustworthy significance tests, or protection from someone gaming the thing. And the closer you get to the decision you actually care about — this approach or that one, this substitute or that one — the less the reassuring aggregate numbers apply.</p>
 <p>So stop asking:</p>
 <blockquote>
@@ -376,15 +339,11 @@
 <tbody>
 <tr>
 <td><a href="https://www.nist.gov/publications/variations-relevance-judgments-and-measurement-retrieval-effectiveness">Voorhees (2000)</a></td>
-<td>Humans disagreed first; comparisons between approaches mostly survived it. Origin of the τ ≥ 0.9 convention</td>
+<td>Humans disagreed first; comparisons survived it. Origin of the τ ≥ 0.9 convention</td>
 </tr>
 <tr>
 <td><a href="https://www.microsoft.com/en-us/research/publication/relevance-assessment-are-judges-exchangeable-and-does-it-matter/">Bailey et al. (2008)</a></td>
 <td>Expertise matters; judges aren't swappable</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2304.09161">Faggioli et al. (2023)</a></td>
-<td>The collaboration spectrum, and the worry list nobody's cleared</td>
 </tr>
 <tr>
 <td><a href="https://arxiv.org/abs/2306.05685">Zheng et al. (2023)</a></td>
@@ -399,18 +358,6 @@
 <td>Open reproduction, validated across five TREC years</td>
 </tr>
 <tr>
-<td><a href="https://arxiv.org/abs/2408.08896">LLMJudge (2024)</a></td>
-<td>The shared challenge that got everyone comparing</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2408.16312">SynDL (2024)</a></td>
-<td>Huge synthetic collection — and says judges <em>don't</em> favor LM approaches</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2406.00247">Mehrdad et al. (2024)</a></td>
-<td>Product search relevance judgment at multi-million pair scale</td>
-</tr>
-<tr>
 <td><a href="https://arxiv.org/abs/2411.08275">Upadhyay et al. (2024)</a></td>
 <td>77 runs, 19 teams; humans stricter, human-in-the-loop didn't pay</td>
 </tr>
@@ -419,63 +366,40 @@
 <td>Unfair at the top, and inventing significance</td>
 </tr>
 <tr>
-<td><a href="https://arxiv.org/abs/2412.17156">Clarke &amp; Dietz</a></td>
-<td>Your judge is a ranker too, so it can be gamed</td>
-</tr>
-<tr>
 <td><a href="https://arxiv.org/abs/2502.13908">Judging the Judges (2025)</a></td>
-<td>42 judgment sets, so you can finally compare judges to judges</td>
+<td>42 judgment sets, so you can compare judges to judges</td>
 </tr>
 <tr>
 <td><a href="https://arxiv.org/abs/2503.19092">Balog et al. (2025)</a></td>
 <td>Judges favor LLM rankers, miss small gaps, grade generously</td>
 </tr>
 <tr>
-<td><a href="https://arxiv.org/abs/2503.09223">LREF (2025)</a></td>
-<td>LLM relevance framework built for e-commerce</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2504.12558">Arabzadeh &amp; Clarke (2025)</a></td>
-<td>There is no single "LLM judge" — how you ask changes the answer</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2505.04209">eBay keyphrase judgments (2025)</a></td>
-<td>LLM judge as proxy for seller judgment, tied to business metrics</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2507.09488">Farzi &amp; Dietz (2025)</a></td>
-<td>Break relevance into criteria and you can see the reasoning</td>
-</tr>
-<tr>
 <td><a href="https://arxiv.org/abs/2501.17969">Alaofi et al. (2025)</a></td>
 <td>Keyword stuffing and hidden instructions fool the judge</td>
 </tr>
 <tr>
-<td><a href="https://arxiv.org/abs/2512.05334">Mohtadi et al. (2025)</a></td>
-<td>Judging summaries: same leaderboard, different labels</td>
-</tr>
-<tr>
 <td><a href="https://arxiv.org/abs/2601.05603">Podcast reassessment (2026)</a></td>
-<td>Two adjacent years, very different agreement — and the answer key was wrong</td>
-</tr>
-<tr>
-<td><a href="https://arxiv.org/abs/2604.04140">Keller et al. (2026)</a></td>
-<td>Give the judge a real topic description; agreement goes up</td>
+<td>Two adjacent years, very different agreement — and the answer key can be wrong</td>
 </tr>
 <tr>
 <td><a href="https://arxiv.org/abs/2608.27746">NormasTCU (2026)</a></td>
 <td>Portuguese legal search: weak labels, strong rankings, metric-dependent</td>
 </tr>
 <tr>
-<td><a href="https://www.etsy.com/codeascraft/how-etsy-uses-llms-to-improve-search-relevance">Etsy Code as Craft</a></td>
+<td>[[How Etsy Uses LLMs to Improve Search Relevance|Etsy Code as Craft]]</td>
 <td>Golden labels → LLM teacher → distilled student under 10ms</td>
 </tr>
 <tr>
 <td><a href="https://blog.allegro.tech/2026/08/automating-search-relevance-llm-as-a-judge.html">Allegro RAT</a></td>
-<td>380K multilingual judgments; κ 0.69 overall, 0.33 where it counted</td>
+<td>380K multilingual judgments; κ 0.69 overall, F1 0.33 where it counted</td>
+</tr>
+<tr>
+<td>[[Towards Scalable Relevance Engineering|Andreas Wagner]]</td>
+<td>Judge <em>economics</em> rather than judge quality: prune 93%, cascade the rest, distill what's left</td>
 </tr>
 </tbody>
 </table>
+<p>Also useful, more specialised: <a href="https://arxiv.org/abs/2304.09161">Faggioli et al. (2023)</a> (the collaboration spectrum and the worry list), <a href="https://arxiv.org/abs/2408.08896">LLMJudge (2024)</a>, <a href="https://arxiv.org/abs/2408.16312">SynDL (2024)</a> (says judges <em>don't</em> favor LM approaches), <a href="https://arxiv.org/abs/2412.17156">Clarke &amp; Dietz (2024)</a> (your judge is a ranker too), <a href="https://arxiv.org/abs/2504.12558">Arabzadeh &amp; Clarke (2025)</a> (how you ask changes the answer), <a href="https://arxiv.org/abs/2406.00247">Mehrdad et al. (2024)</a> and <a href="https://arxiv.org/abs/2503.09223">LREF (2025)</a> (product-search frameworks), <a href="https://arxiv.org/abs/2505.04209">eBay keyphrase judgments (2025)</a>, <a href="https://arxiv.org/abs/2507.09488">Farzi &amp; Dietz (2025)</a>, <a href="https://arxiv.org/abs/2512.05334">Mohtadi et al. (2025)</a> and <a href="https://arxiv.org/abs/2604.04140">Keller et al. (2026)</a>.</p>
 
 <hr>
 <p>Best,<br>Andrew</p>

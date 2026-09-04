@@ -1,31 +1,6 @@
----
-type: topic
-aliases:
-  - generalization gap
-  - domain generalization failure
-  - leaderboard-to-production gap
-tags:
-  - topic
-  - search-evaluation
-  - embeddings
-  - benchmark
-  - fine-tuning
-related_concepts:
-  - "[[Zero-Shot Retrieval]]"
-  - "[[Embedding Fine-tuning]]"
-  - "[[Hard Negative Mining]]"
-  - "[[NDCG]]"
-  - "[[Bi-Encoder]]"
-related_topics:
-  - "[[Retrieval Benchmarks and Leaderboards]]"
-  - "[[Model Selection and Fine-Tuning Evaluation]]"
-  - "[[Embedding Models Compared]]"
-created: 2026-09-02
----
-
 # The Generalization Cliff
 
-A general-purpose embedding model that tops a public leaderboard is not, on that evidence, a model that will work on your data. The gap between "good on MTEB" and "good on your queries" is not a gentle slope — it is a cliff, and the vault has both the sharpest number and the mechanism behind it.
+A general-purpose embedding model that tops a public leaderboard is not, on that evidence, a model that will work on your data. The gap between "good on MTEB" and "good on your queries" is not a gentle slope — it is a cliff, and we have both the sharpest number and the mechanism behind it.
 
 ---
 
@@ -45,7 +20,7 @@ BRIGHT is the extreme case, but the same cliff shows up on ordinary in-domain re
 
 ## The Fix Closes Most of the Gap
 
-Domain [[Embedding Fine-tuning|fine-tuning]] is the direct response, and the vault has two worked examples showing how large the recovery is.
+Domain [[Embedding Fine-tuning|fine-tuning]] is the direct response, and there are two worked examples showing how large the recovery is.
 
 [[Fine-Tuning Text Embeddings For Domain-Specific Search|Shaw Talebi's tutorial]] frames the failure concretely with a medical Q&A task: a general `all-MiniLM-L6-v2` model asked "What causes hypertension?" retrieves articles about blood pressure generally — "similar" in general English, not "medically relevant" — and misses the specialized connection from ACE inhibitors to the renin-angiotensin system. Fine-tuning on domain triplets with [[Hard Negative Mining|hard negatives]] closes much of that gap: reported NDCG@10 gains of +12–18%, with diminishing returns past roughly 10,000–20,000 examples.
 

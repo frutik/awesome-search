@@ -40,7 +40,6 @@ Most e-commerce and site search queries are *not* reasoning-intensive, so BRIGHT
 
 ## Related
 
-- [[The Generalization Cliff]] — the argument this number anchors
 - [[Retrieval Benchmarks and Leaderboards]] — the wider landscape
 - [[MTEB]] — the board whose leaders BRIGHT humbles
 - [[BEIR]] — zero-shot generalization, the previous generation of this critique

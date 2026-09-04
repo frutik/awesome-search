@@ -161,7 +161,6 @@ The series is one of the few end-to-end, numbers-attached accounts of domain-ada
 
 ## Related Topics
 
-- [[The Generalization Cliff]] — the +7.2% vs +27.5% numbers anchor this note's fine-tuning-closes-the-gap argument, and Part 4's transfer failures anchor its "fix has its own cliff" complication
 
 ## Related Articles
 
