@@ -19,6 +19,7 @@ Co-founder at Arize AI, which builds LLM observability and evaluation platforms.
 ## Articles in This Vault
 
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — practical guide on explanation ordering, CoT tradeoffs, and reasoning models for evaluation
+- [[The Needle In a Haystack Test]] — Arize's extension of the long-context retrieval diagnostic
 
 ## Key Contributions
 
@@ -30,3 +31,5 @@ Co-founder at Arize AI, which builds LLM observability and evaluation platforms.
 
 - [[LLM as Judge]]
 - [[Search Evaluation]]
+- [[Needle in a Haystack Test]]
+- [[Long-Context RAG]]

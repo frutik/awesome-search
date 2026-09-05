@@ -208,6 +208,8 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[Jo Kristian Bergum]] — Vespa "Improving retrieval with LLM-as-a-judge"
 - [[Daniel Tunkelang]] — traditional human judgment advocate; acknowledges LLM judges
 - [[Aparna Dhinakaran]]
+- [[Shane Connelly]] — Vectara HEM and the Hallucination Leaderboard
+- [[Iulia Brezeanu]] — self-consistency hallucination detection
 - [[Dmitriy Meyerzon]]
 - [[Tao Ruangyam]]
 - [[Doug Turnbull]]

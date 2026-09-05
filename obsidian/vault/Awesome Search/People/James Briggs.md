@@ -22,6 +22,7 @@ James Briggs is a technical writer and developer advocate at Pinecone, known for
 - [[The Missing WHERE Clause in Vector Search 1]]
 - [[Nearest Neighbor Indexes for Similarity Search]]
 - [[Choosing Indexes for Similarity Search (Faiss in Python)]] — video
+- [[NeMo Guardrails - The Missing Manual]] — the "semi or fully deterministic shield" definition
 
 ## Key Contributions
 
@@ -37,6 +38,7 @@ James Briggs is a technical writer and developer advocate at Pinecone, known for
 - [[Dense Vector Retrieval]]
 - [[Approximate Nearest Neighbor Search]]
 - [[HNSW]] · [[IVF]] · [[LSH]]
+- [[LLM Guardrails]] · [[Query Routing]]
 
 ## Tools
 

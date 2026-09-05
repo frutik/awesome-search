@@ -59,6 +59,26 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 
 [[Search-R1]] takes agentic RAG further by training the model via [[Reinforcement Learning for Search]] — no human-labeled trajectories needed. The model learns to interleave `<think>`, `<search>`, and `<information>` tokens, iteratively querying a live search engine during reasoning. This contrasts with standard RAG's static index and single-turn retrieval pattern.
 
+## Beyond Flat Chunk Retrieval
+
+Baseline RAG scores each passage independently, which breaks on two classes of question: those needing facts joined across documents, and those about themes across a whole collection. Two families of response:
+
+- **Restructure the index** — [[GraphRAG]] builds an LLM-generated knowledge graph and retrieves over its structure; [[HippoRAG]] runs Personalized PageRank over that graph to reach multi-hop answers in a single step.
+- **Enlarge the window** — [[Long-Context RAG]], which the evidence says *supplements* retrieval rather than replacing it, and runs into the "lost in the middle" limit measured by the [[Needle in a Haystack Test]].
+
+## Operating a RAG Pipeline
+
+| Concern | Where it is handled |
+|---|---|
+| Which path should this query take at all? | [[Query Routing]] |
+| Context too large or too expensive | [[Prompt Compression]] |
+| Constraining what goes in and comes out | [[LLM Guardrails]] |
+| Is the answer actually supported by the evidence? | [[Hallucination Detection]] |
+
+## Frameworks
+
+[[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] for orchestration; [[RAGAS]] for evaluation; [[DSPy]] for optimizing the prompts rather than authoring them.
+
 ## Related Concepts
 - [[Embeddings]] — the retrieval component of RAG uses embeddings to find relevant context
 - [[Dense Embeddings]] — typically the retrieval representation in RAG pipelines
@@ -73,6 +93,10 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - [[Search-R1]] — RL-trained evolution of RAG; multi-turn live-web retrieval interleaved with reasoning
 - [[Reinforcement Learning for Search]] — training paradigm that replaces supervised trajectory labeling
 
+- [[GraphRAG]] · [[HippoRAG]] — graph-structured retrieval for multi-hop and thematic questions
+- [[Long-Context RAG]] · [[Needle in a Haystack Test]] — how far a bigger window actually gets you
+- [[Query Routing]] · [[Prompt Compression]] · [[LLM Guardrails]] · [[Hallucination Detection]] — pipeline operation
+
 ## Articles
 
 - [[Chunking Strategies for LLM Applications]]
@@ -83,3 +107,14 @@ User query → Retrieval → Top-k documents → LLM (query + docs) → Response
 - [[Agentic Search for Context Engineering]] — [[Leonie Monigatti]]; traces evolution RAG → agentic RAG → context engineering; articulates where single-pass RAG breaks
 - [[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]] — [[Lakshmi Devi Prakash]]; traces evolution from RAG to RL-based multi-turn search
 - [[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]] — technical breakdown of Search-R1 framework
+- [[GraphRAG - Unlocking LLM discovery on narrative private data]] — [[Jonathan Larson]], [[Steven Truitt]]; LLM-built knowledge graphs over private corpora
+- [[HippoRAG - Neurobiologically Inspired Long-Term Memory for Large Language Models]] — single-step multi-hop retrieval at 10–30× lower cost than iterative
+- [[NVIDIA Research - RAG with Long Context LLMs]] — [[Ravi Theja]]; retrieval still helps at 32K, and 5–10 chunks beats 20
+- [[Patterns for Building LLM-based Systems and Products]] — [[Eugene Yan]]; seven production patterns
+- [[Routing in RAG Driven Applications]] — [[Sami Maameri]]; seven router types
+- [[How to Cut RAG Costs by 80% Using Prompt Compression]] — [[Iulia Brezeanu]]
+- [[Measuring Hallucinations in RAG Systems]] — [[Shane Connelly]]; the Vectara leaderboard
+
+## Related Tools
+
+- [[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[RAGAS]] · [[DSPy]] · [[AutoRAG]]

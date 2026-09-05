@@ -23,6 +23,7 @@ created: 2026-05-15
 ## Articles in Awesome Search
 
 - [[Patterns for Personalization]]
+- [[Patterns for Building LLM-based Systems and Products]] — seven production LLM patterns; the canonical statement of the guardrails pattern
 
 ## Key Contributions
 
@@ -34,3 +35,5 @@ created: 2026-05-15
 - [[Dense Vector Retrieval]]
 - [[Learning to Rank]]
 - [[Click Signals]]
+- [[LLM Guardrails]]
+- [[RAG]]

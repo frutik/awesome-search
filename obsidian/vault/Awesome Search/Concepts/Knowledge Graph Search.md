@@ -57,3 +57,5 @@ Modern systems combine:
 - [[Faceted Search]]
 - [[Retrieval Pipeline]]
 - [[Personalization]]
+- [[GraphRAG]] — using an LLM-built knowledge graph as the retrieval index for generation
+- [[HippoRAG]] — Personalized PageRank over such a graph for multi-hop retrieval
