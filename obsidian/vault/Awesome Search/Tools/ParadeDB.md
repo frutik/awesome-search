@@ -45,4 +45,4 @@ The lexical/BM25 leg of a PostgreSQL search stack for product catalogs and e-com
 
 - [[Search using PostgreSQL]] · [[PostgreSQL]] · [[pgvector]]
 - [[BM25]] · [[Full-Text Search]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]]
-- Compare: [[Elasticsearch]] · [[OpenSearch]]
+- Compare: [[Elasticsearch]] · [[OpenSearch]] · [[Manticore Search]] — a purpose-built engine that speaks SQL, versus reaching SQL by living inside Postgres

@@ -34,7 +34,7 @@ related_topics:
 articles:
   - "[[Session vs Query based search evals 1]]"
   - "[[Measuring Search Effectiveness 1]]"
-  - "[[Choosing your search relevance evaluation metric]]"
+  - "[[Choosing Your Search Relevance Evaluation Metric]]"
   - "[[Measuring Search - Metrics Matter 1]]"
 people:
   - "[[Daniel Tunkelang]]"
@@ -199,6 +199,10 @@ Beyond the e-commerce sets above, the academic benchmark suites ([[BEIR]], [[MTE
 - [[Model Selection and Fine-Tuning Evaluation]] — running model bake-offs and measuring fine-tuning without fooling yourself
 - [[Retrieval Benchmarks and Leaderboards]] — public benchmarks and benchmarking frameworks
 - [[Statistical Significance in Search Evaluation]] — telling a real improvement from noise
+- [[Levels of Judge Agreement]] — label, score, ranking and decision agreement are four different claims
+- [[Inter-Annotator Agreement]] — the label-level statistics, and setting the bar against your own annotators
+- [[Prompt Sensitivity]] — the prompt is part of the measuring instrument
+- [[Adversarial Relevance Judgment]] — testing a judge against content you don't control
 
 ### LLM Judge Articles
 
@@ -207,3 +211,4 @@ Beyond the e-commerce sets above, the academic benchmark suites ([[BEIR]], [[MTE
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; treating per-attribute LLM outputs as ML features for a decision tree
 - [[Improving retrieval with LLM-as-a-judge]] — [[Jo Kristian Bergum]]; Vespa retrieval benchmarking with LLM judge
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; local model migration cut inference cost 60%
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; landscape survey separating four levels of judge agreement, with a decision-dependent rubric for what number is good enough and a protocol for running judge evaluation properly

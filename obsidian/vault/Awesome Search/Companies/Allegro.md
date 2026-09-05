@@ -19,3 +19,11 @@ Allegro is an e-commerce platform operating a product catalog spanning 13 depart
 ## Published Articles
 
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — RAT framework; multilingual judgment dataset, prompt design findings, local model migration for cost
+
+## Referenced In
+
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; uses RAT's overall quadratic-weighted kappa of 0.69 against per-class F1 of 0.51 and 0.33 on the substitutable/highly-substitutable boundary as the central argument for reporting agreement per class rather than in aggregate
+
+## Related Concepts
+
+- [[LLM as Judge]] · [[Inter-Annotator Agreement]] · [[Prompt Sensitivity]] · [[Levels of Judge Agreement]]

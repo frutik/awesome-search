@@ -107,6 +107,22 @@ Vespa's blog post demonstrates using an LLM to evaluate first-stage retrieval qu
 
 Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with human judgments for factual queries.
 
+## "Do the Judges Agree?" Is Four Questions
+
+The question the field is usually posed — does the LLM agree with the human — conflates four claims that do not move together: whether the two put the same **label** on the same pair, whether each retrieval approach gets the same **score**, whether the approaches come out in the same **order**, and whether the same **decision** follows (same winner, same significance call, same ship-it).
+
+The decoupling runs both ways. Two judges can disagree over thousands of individual labels and still both produce the same leaderboard, because judge error that lands evenly on every approach cancels out of the ordering — the founding insight behind reusable test collections, and the reason LLM judges were taken seriously at all. But a matching leaderboard also survives things you would want it to catch: false statistical significance on close pairs, your top two approaches swapping, and a systematic thumb on the scale for particular kinds of retrieval.
+
+NormasTCU (2026), on Brazilian Portuguese legal search, is the cleanest demonstration: Cohen's kappa of 0.32-0.53 on labels while nDCG@10 and MRR leaderboards cleared Kendall tau 0.9 — and P@10/R@10 were shakier still, making *which metric you chose* a third independent axis. Measure at least the label level and the decision level, and say which one any quoted agreement figure refers to. See [[Levels of Judge Agreement]].
+
+## Setting the Bar
+
+Two conventions circulate and neither is a law. **Kendall's tau >= 0.9** comes from Voorhees (2000) as a threshold for treating two evaluation schemes as equivalent; it is twenty-odd years old and has never been re-derived for LLM judges. **Cohen's kappa bands** (fair 0.21-0.40, moderate 0.41-0.60, substantial 0.61-0.80) come from a 1977 biometrics paper and have nothing to do with IR — vocabulary, not a gate.
+
+Which one gates depends on the use. For broad ranking of a diverse field, stable decision agreement can be enough even with mediocre labels. Where the labels will be read by humans, reused as training data, or used to diagnose specific queries, weak label agreement is disqualifying on its own. And for choosing between two close approaches, high aggregate correlation cannot validate the decision at all — Otero's false positives occur *at* high tau — so the deciding slice needs human adjudication.
+
+The bar itself should be set against human-human agreement on your own data rather than against 1.0. If your annotators agree at kappa 0.6, demanding kappa 0.8 from a model is incoherent. See [[Inter-Annotator Agreement]].
+
 ## Limitations
 
 1. **Positional bias**: LLMs prefer the first document presented
@@ -117,6 +133,13 @@ Key result: LLM judgments correlate well (Spearman's ρ ≈ 0.85–0.90) with hu
 6. **Cost at scale**: even cheaper than humans, still non-trivial at millions of judgments
 7. **Underspecified relevance**: an unconstrained prompt never states which aspect of relevance is being graded, so some judge-human disagreement is a definition gap rather than model error
 8. **Paradigm sensitivity**: the same model over the same pairs gives materially different labels depending on whether it is asked binary, graded, pairwise or nugget-style
+9. **Prompt sensitivity**: not only systematic prompt changes but "simple paraphrases" move accuracy, so the exact prompt is part of the instrument — see [[Prompt Sensitivity]]
+10. **Gameable**: a judge is itself a relevance-scoring model, and query-word stuffing or instructions embedded in the judged document can win a favourable grade without any gain in real relevance — see [[Adversarial Relevance Judgment]]
+11. **False significance on close comparisons**: judges are "unfair at ranking top-performing systems," with a high rate of false positives on statistical differences, and this happens at high leaderboard correlation rather than instead of it
+
+### The errors are systematic, so more labels don't fix them
+
+The failure list above is not noise. Leniency, over-reaction to query words, prompt sensitivity, following embedded instructions, position and length preferences, and possible favouritism toward LLM-built rankers (which SynDL disputes) all have a *shape*. Collecting more labels from the same judge samples the same bias more precisely rather than averaging it away. Crossing model families, prompts and repeated runs is the response; more volume from one configuration is not.
 
 ## The Economics Problem
 
@@ -149,6 +172,13 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[RAG]] — LLM judge also used for RAG faithfulness/relevancy evaluation
 - [[Agentic Search]] — LLM verification step is a form of LLM judgment
 - [[Semantic Relevance]] — the intent-based signal LLM judges are used to scale, alongside engagement-based relevance
+- [[Levels of Judge Agreement]] — label, score, ranking and decision agreement, and why they decouple
+- [[Inter-Annotator Agreement]] — the label-level statistics and the human-human baseline the bar should be set against
+- [[Prompt Sensitivity]] — the prompt as part of the measuring instrument
+- [[Adversarial Relevance Judgment]] — gaming the judge, and the marketplace threat model
+- [[Kendall Rank Correlation]] — the leaderboard-agreement statistic and the tau >= 0.9 convention
+- [[Statistical Significance in Search Evaluation]] — where false positives appear on close comparisons
+- [[Position Bias]] — the first-option preference in pairwise judging
 
 ## Related Datasets
 
@@ -166,9 +196,11 @@ Note that this is an axis **orthogonal to judge quality**. Most of the literatur
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; per-attribute LLM signals as ML features → decision tree; 96.7% precision on 40% of pairs
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; few-shot examples hurt accuracy; migration to local Gemma judge cut inference cost 60%
 - [[How Etsy Uses LLMs to Improve Search Relevance]] — [[Yuqing Zhang]], [[Congzhe Su]], [[Susan Liu]]; LLM annotator anchored to human golden labels, scaled via a three-tier [[Knowledge Distillation|distillation]] cascade into a real-time production judge
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; landscape survey from Voorhees (2000) to 2026, separating four levels of agreement, and finding that in every documented industry deployment humans define the standard, the LLM scales it, and business metrics keep it honest
 
 ## People
 
+- [[Andrew Kornilov]] — the four-level agreement framing
 - [[Negar Arabzadeh]] — benchmarking judgment paradigms
 - [[Charles L. A. Clarke]] — benchmarking judgment paradigms
 - [[Naghmeh Farzi]] — criteria-based judgments

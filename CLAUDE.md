@@ -112,6 +112,14 @@ triggers; the core ones:
   800+ notes it reads the vault straight off disk (read-only) instead of
   four separate MCP-backed scans. Prefer this over running the four
   individually.
+- **`kg-pr-processing`** — evaluates one incoming pull/merge request: reads
+  the body and diff, checks whether it patches a generated file (`README.md`,
+  `docs/`, `mails/`, `drafts/html/` are all overwritten by their generators,
+  so a hand-edit there is invalid regardless of merit), researches the
+  proposed subject from primary sources rather than the contributor's or
+  vendor's framing, and reports a verdict. Strictly evaluation — it never
+  merges, pushes, checks out the branch, comments on the PR, drafts a reply,
+  or writes the note it recommends.
 - **`awesome-search-tutor`** — read-only Q&A over the published content, not a
   vault-writing skill.
 

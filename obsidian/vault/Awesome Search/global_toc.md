@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -89,7 +89,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Tools
 
 ### Search & Vector Engines
-[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
+[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Manticore Search]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
@@ -109,7 +109,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 

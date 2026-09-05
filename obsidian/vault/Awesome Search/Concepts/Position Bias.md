@@ -95,9 +95,20 @@ In practice both operate together, along with **user bias** (heavy users generat
 disproportionate training rows, skewing the ranker toward their preferences when
 it should serve everyone equally).
 
+## Position Bias in LLM Judges
+
+The same preference appears in machine assessors, not only in users. Zheng et al.'s MT-Bench work named position bias — preferring whichever option was presented first — as one of four general [[LLM as Judge|LLM-judge]] failure modes, alongside verbosity bias, self-enhancement bias and limited reasoning. It goes live the moment judging is done pairwise rather than pointwise.
+
+It is cheap to measure and cheap to exploit, which makes it both a hygiene check and a threat model: swap the order of the two options systematically across the evaluation sample and report the effect, rather than assuming it away. See [[Adversarial Relevance Judgment]].
+
+There is a second-order version in evaluation architecture. Where [[Staged Judging|cascaded judging]] prunes the pair space using behavioral signals before any model runs, position bias in the underlying clicks propagates into the pruning — and the pruned majority is precisely the part nobody looks at again.
+
 ## Related Concepts
 
 - [[Impression Bias]] — the coverage-side counterpart; which items got shown at all
+- [[LLM as Judge]] — machine assessors exhibit the same first-option preference
+- [[Adversarial Relevance Judgment]] — position bias as something an adversary can exploit
+- [[Staged Judging]] — where biased click signals propagate into the pruned majority
 - [[Presentation Bias]] — the broader phenomenon; position bias is one specific form
 - [[Relevance Feedback]] — implicit feedback is corrupted by position bias
 - [[Click Signals]] — position bias is the main issue with click signals
@@ -113,6 +124,7 @@ it should serve everyone equally).
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — position bias named alongside impression bias and user bias in a production marketplace ranker
 
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 position bias in the wild: click histograms identical for random vs real ranking; fixed with a shuffled [[Exploration vs Exploitation]] segment
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; position bias as an LLM-judge failure mode and a contaminant of behavioral pruning
 
 ## People
 

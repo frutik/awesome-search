@@ -12,6 +12,12 @@ Skills for building and maintaining the Awesome Search knowledge graph in Obsidi
 | `awesome-search-tutor` | "Explain X", "what do practitioners think about Y" | Fetches articles from the README and answers questions about IR and search |
 | `kg-plan-processing` | "queue this for processing", "add this to planned", `/kg-plan-processing <url-or-topic>` | Queues one article/video URL or topic into root-level `planned/` for later parallel processing — write only, doesn't fetch or dispatch |
 
+## Incoming Contributions
+
+| Skill | Trigger | What it does |
+|---|---|---|
+| `kg-pr-processing` | `/kg-pr-processing <pr-url-or-number>`, a bare PR/MR URL, or "process this MR" / "evaluate this PR" | Reads the request and its diff, checks whether it patches a generated file, researches the subject from primary sources, and reports a verdict on whether it belongs. Evaluation only — never merges, pushes, comments, or drafts a reply |
+
 ## Knowledge Graph — Publishing
 
 | Skill | Trigger | What it does |

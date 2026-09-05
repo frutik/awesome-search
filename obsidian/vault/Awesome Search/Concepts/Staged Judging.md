@@ -41,6 +41,8 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 
 - **Cheap-stage agreement is not correctness.** Two weak judges can be confidently wrong together, especially when they share a base model or training corpus. Correlated errors pass through the cascade unchallenged. Audit a sample of the auto-accepted pairs against human labels, not just the escalated ones.
 - **Escalation rate is a tuning knob with a quality cost.** Driving it down saves money and quietly degrades judgment quality on exactly the hard cases you built the system for.
+- **Whether the cascade inherits the judge's biases is unstudied.** The architecture is validated on accuracy — does the cheap stage label like the expensive one — but a distilled student can reproduce a teacher's systematic errors as faithfully as its correct calls, and then serve them at production scale. Nothing in the cascade design detects that. See [[Adversarial Relevance Judgment]].
+- **The headline pruning numbers are one team's production figures.** The ~93% pruned and 75-85% auto-settled rates come from a single deployment, reported by its author, and have not been replicated elsewhere.
 - **The pruning step encodes an assumption** — that behavioral signals are trustworthy. Where they are biased by position, presentation, or prior ranking, the pruning inherits the bias and hides it upstream of everything else. See [[Clicks Residual]] and [[Click Models]].
 
 ## Related Concepts
@@ -50,6 +52,8 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 - [[Knowledge Distillation]] — closes the loop
 - [[Hard Negative Mining]] — a main consumer of high-coverage judgments
 - [[Reranking]] · [[Retrieval Pipeline]] — the same cascade logic in serving
+- [[Adversarial Relevance Judgment]] — the open question of whether cascades inherit exploitable weaknesses
+- [[Levels of Judge Agreement]] — what the cascade's quality should actually be validated against
 - [[Judgment Lists]] · [[Search Evaluation]]
 
 ## Related Topics
@@ -60,3 +64,4 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 
 - [[Towards Scalable Relevance Engineering]] — [[Andreas Wagner]]; the worked architecture at [[searchHub]] scale
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; the complementary move of ensembling weak judges rather than staging them
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; positions judge economics as an axis orthogonal to judge quality, and flags inherited bias as open

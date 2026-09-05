@@ -43,6 +43,7 @@ Etsy search must handle:
 - [[Modeling Spelling Correction for Search at Etsy]] — domain-specific spell correction
 - [[Targeting Broad Queries in Search]] — broad query diversity strategy
 - [[How Etsy Uses LLMs to Improve Search Relevance]] — LLM-anchored semantic relevance labeling and a three-tier distillation cascade for real-time production search
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; cites Etsy's evolving labeling guideline as evidence that commerce relevance is time-varying ("face masks" before and after 2020), with no stable ground truth for a judge to converge on
 
 ## Related Concepts
 

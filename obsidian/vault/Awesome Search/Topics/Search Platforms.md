@@ -66,6 +66,7 @@ Purpose-built for dense embedding retrieval. These engines index high-dimensiona
 Engines designed from the ground up with relevance, hybrid retrieval, and production scale as first-class concerns.
 
 - **[[Vespa]]** — open-source, self-hosted (or Vespa Cloud SaaS); uniquely combines BM25, dense vector, and structured attribute matching in a single engine via a general **tensor ranking-expression** framework. Strong choice for complex ranking pipelines — it expresses [[Vespa Learning to Rank|GBDT/ONNX LTR]] and [[Late Interaction in Vespa|late-interaction MaxSim]] as ranking expressions rather than bolt-on subsystems. Production ES→Vespa migrations: [[Vinted - Migrating Search from Elasticsearch to Vespa]] (billion-item scale) and [[Kleinanzeigen - Vespa Migration for Homepage Feed]].
+- **[[Manticore Search]]** — open-source (GPL-3.0), self-hosted C++ engine continuing the Sphinx lineage rather than the Lucene one; MySQL wire-protocol compatible, so SQL is the native query syntax, with [[HNSW]] vector search and hybrid full-text+vector expressed in a single statement.
 - **Typesense** — open-source, self-hosted or Typesense Cloud; developer-friendly, fast, opinionated defaults; positioned as a simpler alternative to Elasticsearch for search-heavy apps.
 - **Meilisearch** — open-source, self-hosted or Meilisearch Cloud; optimized for instant search UX, typo tolerance, and ease of setup.
 

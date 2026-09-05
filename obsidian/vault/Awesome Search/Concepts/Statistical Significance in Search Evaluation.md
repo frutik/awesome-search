@@ -59,6 +59,20 @@ Testing twenty configurations against a baseline at p < 0.05 will produce about 
 
 Correct for it (Bonferroni is crude but honest), or better: treat the sweep as *selection* rather than *evidence*, and confirm the winner on a held-out split opened once. See the dev-set trap in [[Model Selection and Fine-Tuning Evaluation]].
 
+## LLM Judges Manufacture Significance
+
+When the per-query scores come from an [[LLM as Judge]] rather than from human assessors, significance testing acquires a failure mode of its own. Otero, Parapar and Barreiro (2025) found LLM judgments "unfair at ranking top-performing systems," with "an exceedingly high rate of false positives regarding statistical differences" — the judge reports that your new approach won, with confidence, when it did not.
+
+The uncomfortable part is *where* this happens: at high leaderboard correlation. A judge can reproduce the human ordering of a diverse field at Kendall tau above 0.9 and still fire off spurious significance on the close pairs, because the errors that cancel out in an aggregate ordering do not cancel within a single pairwise test. Balog, Metzler and Qin (2025) report the same weakness from the other side — "limitations in LLM judges' ability to discern subtle system performance differences."
+
+**High aggregate correlation alone cannot validate a close head-to-head decision.** Where the call is between two nearly-tied approaches, the deciding slice has to be adjudicated by humans. See [[Levels of Judge Agreement]].
+
+### Measure your pipeline's run-to-run variation first
+
+A separate and largely unmeasured source of false confidence: the judging pipeline is itself stochastic, and temperature 0 is not determinism. Run the whole judging process several times and recompute the **final metrics and decisions**, not just the labels. The spread across those repeated evaluations estimates the resolution of your instrument. If the difference between two approaches is routinely reversed or swallowed by that spread, the judge cannot reliably distinguish them, however good its correlation with humans looks.
+
+This is not the same quantity as the judge's label self-disagreement rate. An 8% label flip rate and a 0.015 nDCG gap live on different scales, so the variation has to be propagated through to the metric before the two can be compared. Most teams never check; it costs one afternoon.
+
 ## Online Testing
 
 The same logic governs [[A-B Testing for Search|A/B tests]], with additional hazards: peeking at results before the planned sample size inflates false positives, and user-level rather than query-level randomization changes the unit of analysis. [[Interleaving]] is substantially more sensitive per unit of traffic for ranking-order comparisons, which is why it is worth the implementation cost.
@@ -71,6 +85,10 @@ The same logic governs [[A-B Testing for Search|A/B tests]], with additional haz
 
 - [[Search Evaluation]] · [[NDCG]] · [[MRR]] · [[MAP]]
 - [[Judgment Lists]] — supplies the per-query scores being tested
+- [[LLM as Judge]] — a judgment source that inflates false positives on close comparisons
+- [[Levels of Judge Agreement]] — decision agreement as a level distinct from ranking agreement
+- [[Kendall Rank Correlation]] — the leaderboard statistic that does *not* certify a close call
+- [[Prompt Sensitivity]] — one contributor to run-to-run variation in the judging pipeline
 - [[Query Sampling]] — determines what the test can generalize to
 - [[Interleaving]] — the sensitive online counterpart
 
@@ -78,3 +96,7 @@ The same logic governs [[A-B Testing for Search|A/B tests]], with additional haz
 
 - [[Model Selection and Fine-Tuning Evaluation]] — where this sits in the workflow
 - [[A-B Testing for Search]] · [[Relevance Program Setup]] · [[Duality in Measuring Search]]
+
+## Articles
+
+- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; false positives at high tau, and the run-to-run variation check

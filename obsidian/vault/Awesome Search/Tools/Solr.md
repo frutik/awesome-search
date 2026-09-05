@@ -9,6 +9,7 @@ tags:
   - lucene
 website: https://solr.apache.org
 repo: https://github.com/apache/solr
+license: Apache-2.0
 created: 2026-07-01
 ---
 
@@ -45,6 +46,7 @@ Solr and Elasticsearch share the Lucene foundation and overlap heavily in capabi
 - [[Elasticsearch]] — the other major Lucene-based engine
 - [[OpenSearch]] — Elasticsearch fork; a common Solr migration target (AWS Migration Assistant supports Solr live-traffic capture/replay)
 - [[Vespa]] — ML-native alternative; see the Solr→Vespa mapping in [[How I learned Vespa by thinking in Solr]]
+- [[Manticore Search]] — non-Lucene alternative from the Sphinx lineage; SQL-native rather than DSL-driven, GPL-3.0 rather than Apache-2.0
 
 ## Related Concepts
 
