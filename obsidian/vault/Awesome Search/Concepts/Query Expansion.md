@@ -67,6 +67,7 @@ Find nearest neighbor terms/queries in embedding space and add them to the lexic
 
 - [[Synonyms]] — curated synonym dictionaries are the most common expansion source
 - [[Query Understanding]] — expansion is one step in the QU pipeline
+- [[Query Rewriting]] — the umbrella family; expansion is one rewriting strategy
 - [[Query Relaxation]] — reactive broadening when results are too few
 - [[BM25]] — primary beneficiary of expansion (semantic search handles vocab mismatch differently)
 - [[Zero Results]] — expansion is a key mitigation for zero-result queries

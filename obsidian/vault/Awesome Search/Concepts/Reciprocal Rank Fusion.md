@@ -110,6 +110,7 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 
 ## Articles
 
+- [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory]] — RRF (`rank_window_size: 50`, `rank_constant: 20`) fusing keyword and [[ELSER]] retrieval over agent memories
 - [[Reciprocal Rank Fusion and Relative Score Fusion]] — [[Erik Hatcher]] ([[MongoDB]]) works the formula, weighting and score details through in full
 - [[Survey of the Hybrid Search Landscape]] — situates RRF as fusion by relevancy *order*, ignoring computed scores
 - [[RRF is Not Enough]] — [[Doug Turnbull]] on what rank-only fusion discards

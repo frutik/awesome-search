@@ -60,6 +60,7 @@ Context Engineering
 
 ## Related Concepts
 
+- [[DICE]] — domain-model-driven context engineering: code, not the LLM, decides what enters the window
 - [[Agentic Search]] — the execution mechanism behind context engineering
 - [[RAG]] — the foundational architecture context engineering extends
 - [[Retrieval Pipeline]] — the underlying pipeline tools orchestrate

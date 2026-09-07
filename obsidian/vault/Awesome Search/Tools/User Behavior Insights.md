@@ -66,6 +66,8 @@ The standard is deliberately engine-neutral, with plugins/integrations for **[[O
 ## What Consumes UBI Data
 
 - **[[Search Relevance Workbench]]** — the flagship consumer: builds [[Implicit Judgments]] from UBI clickstream (COEC debiasing) and samples query sets from UBI query logs
+- **[[OpenSearch Relevance Agent]]** — its behaviour-analysis agent reads UBI to locate relevance gaps (optional, not required)
+- **[[Agentic Memory]]** — clickstream filtered to purchases, feedback and favourites, then passed to an LLM that infers durable user preferences for [[Personalization]]
 - **[[Learning to Rank]]** — behavioral training data
 - Offline evaluation platforms — see [[Search Evaluation]]
 - Online comparison, including Team Draft [[Interleaving]]

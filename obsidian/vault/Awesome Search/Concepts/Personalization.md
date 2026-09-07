@@ -134,8 +134,16 @@ Two mechanisms extending a governance control plane without replacing it:
 3. Business-signal boosts (margin, popularity)
 4. Purchase history boosts (outermost)
 
+## Memory-Based Personalization
+
+An alternative to encoding preference as a learned feature: store it as language in [[Agentic Memory]] and let an agent read it at query time. Preferences are inferred **offline** by an LLM from behavioural history ([[User Behavior Insights|UBI]] clickstream, purchases, feedback) and written to long-term memory as facts; **online**, the agent reads them, applies them via [[Query Rewriting]] and [[Reranking]], and never reasons about preference on the query path.
+
+The claimed advantage is that it keeps the *reason* behind a preference rather than a coefficient, and absorbs a user's evolution as a write instead of a retraining run. See [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]].
+
 ## Articles
 
+- [[Agentic Memory for Search Personalization]] — the memory-based approach as a full topic
+- [[Agentic Memory - OpenSearch Docs]] — the `USER_PREFERENCE` strategy that extracts preferences from conversation
 - [[Elasticsearch Personalized Search in Ecommerce - Improve Relevance]] — [[Alexander Marquardt]], [[Honza Král]], [[Taylor Roy]]
 - [[Using LLMs to Amplify Human Labeling and Improve Dash Search Relevance]] — [[Dmitriy Meyerzon]] (Dropbox Dash enterprise search)
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]] — [[Florian Narr]]; real-time click personalization service

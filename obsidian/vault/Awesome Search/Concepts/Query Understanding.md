@@ -82,6 +82,7 @@ This makes query understanding dynamic rather than a static preprocessing step.
 ## Related Concepts
 
 - [[Search Intent]] — component of QU
+- [[Query Rewriting]] — where the interpretation is committed to an executable query
 - [[Query Segmentation]] — component of QU
 - [[Query Types]] — taxonomy of user queries
 - [[Query Classification]] — how those taxonomies get assigned in production

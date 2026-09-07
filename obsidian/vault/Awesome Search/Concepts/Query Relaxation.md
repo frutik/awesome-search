@@ -95,7 +95,7 @@ The right balance depends on query type: tail navigational queries need exact ma
 
 ## Relation to Query Rewriting
 
-Query relaxation is one class of **query rewriting** — transformations applied before retrieval to improve result coverage. Other rewrites include [[Synonyms|synonym expansion]], spelling correction, and query segmentation. Relaxation is specifically triggered by *insufficient* results rather than applied universally.
+Query relaxation is one class of [[Query Rewriting|query rewriting]] — transformations applied before retrieval to improve result coverage. Other rewrites include [[Synonyms|synonym expansion]], spelling correction, and query segmentation. Relaxation is specifically triggered by *insufficient* results rather than applied universally.
 
 ## Related Concepts
 - [[Zero Results]] — primary trigger for relaxation

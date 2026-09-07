@@ -81,6 +81,7 @@ The frontend plugin adds four views for exploring experiment output:
 
 ## Related Tools
 
+- [[OpenSearch Relevance Agent]] — conversational relevance tuning that quantifies impact through the Workbench
 - **[[Quepid]]** — the external SaaS predecessor from the same authors; SRW imports Quepid CSV judgments. See [[Relevance Evaluation Tools Compared]].
 - **[[Elasticsearch Relevance Studio]]** — Elastic's parallel (experimental) in-house answer to the same problem.
 - **[[Rated Ranking Evaluator]]** — Sease's CI/CD-oriented offline evaluator.

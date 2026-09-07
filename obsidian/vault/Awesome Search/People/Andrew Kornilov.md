@@ -19,6 +19,7 @@ Search practitioner and writer focused on e-commerce search, retrieval, and rele
 - The four-level framing of judge agreement — label, score, ranking, decision — in [[Do LLM Judges Actually Agree With Us]], arguing that "do LLM judges agree with humans" is a malformed question because the levels do not move together
 - A multi-part, hands-on series on adapting [[Quepid]] for [[Vector Search Evaluation]]
 - Building [quepid-api-unofficial](https://github.com/frutik/quepid-api-unofficial) — an unofficial stateless HTTP API wrapper for Quepid
+- Building [[django-dice]] — a Python/Django implementation of [[DICE]] for e-commerce preference inference, extending it toward implicit behavioural signals and user-inspectable preferences
 - Contributing fixes to Quepid
 
 ## Articles
@@ -38,6 +39,9 @@ Search practitioner and writer focused on e-commerce search, retrieval, and rele
 - [[Search Evaluation]]
 - [[Multimodal Embeddings]]
 - [[Hybrid Search]]
+
+## Tools Built
+- [[django-dice]] — LLM preference inference for Django, following [[DICE]]
 
 ## Tools Used
 - [[Quepid]] · [[Qdrant Vector DB]] · [[Elasticsearch]]

@@ -56,4 +56,5 @@ Available in Elasticsearch as `text_expansion` query clause — one-click deploy
 
 ## Articles
 
+- [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory]] — ELSER as the semantic half of a hybrid retriever over agent memories
 - [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]

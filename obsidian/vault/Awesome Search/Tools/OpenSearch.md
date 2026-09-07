@@ -33,6 +33,8 @@ Key capabilities:
 - **Hybrid search** — BM25 + kNN with normalization pipeline; native RRF support
 - **Neural sparse retrieval** — learned sparse encoding (open-source counterpart to [[ELSER]])
 - **Late interaction reranking** — native `lateInteractionScore` (3.3+) for [[ColBERT]]/[[ColPali]] multi-vector rerank; see [[Late Interaction in OpenSearch]]
+- **Relevance Agent** — conversational, multi-agent relevance diagnosis and query-DSL tuning in Dashboards, experimental in 3.6; see [[OpenSearch Relevance Agent]]
+- **Agentic memory** — memory containers bundling four memory types (`sessions`, `working`, `long-term`, `history`) with LLM extraction strategies and namespaces, under `/_plugins/_ml/memory_containers/`; **introduced in 3.3**, and built for external agent frameworks (LangChain, LangGraph) as well as OpenSearch's own. Context management for long histories is dated to 3.5 in [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory|Bouafif's talk]]. See [[Agentic Memory]]
 - **Search pipelines** — composable request/response processors for ML inference and score normalization
 - **Aggregations** — `significant_terms`, facets, histograms; foundational for [[Wormhole Vectors]] traversal
 - **PPL (Piped Processing Language)** — SQL-like analytics query language
@@ -124,6 +126,7 @@ The gap is largest on complex, high-throughput workloads. At smaller scales the 
 
 ## Articles
 
+- [[Agentic Memory - OpenSearch Docs]] — reference for memory containers, memory types, strategies and namespaces (3.3+)
 - [[Wormhole Vectors Beyond Hybrid Search in OpenSearch]] — [[Dima Kan]]; SKG traversal beyond RRF
 - [[Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock]] — RAG pipeline on AWS with code
 - [[How to Really Scale Autocomplete]] — `significant_terms`-based autocomplete patterns

@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "13e28888f186baee",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ae197d2ec130df4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c0c6f23b2399701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Topics/Agentic Memory for Search Personalization.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agentic Memory for Search Personalization"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8a2102059c6e90cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "182b83b6dd37f21b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92e05cfc111e5fab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловий менеджер"
+            }
+          },
+          {
+            "id": "338c94fc857e4fb1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Пошук"
+            }
+          },
+          {
+            "id": "3ff9e300de2603bc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8882754b0d081a9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f0be628e6264912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f5cda54aa50cc21",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Topics/Agentic Memory for Search Personalization.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Зворотні посилання"
+            }
+          },
+          {
+            "id": "da3b5b60024edff0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Conferences.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Вихідні посилання"
+            }
+          },
+          {
+            "id": "400e7051bc0085a2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Мітки"
+            }
+          },
+          {
+            "id": "4eedea54f05cb3c6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Всі властивості"
+            }
+          },
+          {
+            "id": "f1dc4b5be9dc28c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Conferences.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Вміст"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false,
+      "bases:Створити нову базу": false
+    }
+  },
+  "active": "7c0c6f23b2399701",
+  "lastOpenFiles": [
+    "Tools/Embabel.md",
+    "People/Jettro Coenradie.md",
+    "Articles/Agents That Extract and Use Preferences from Conversations.md",
+    "Tools/django-dice.md",
+    "Tools/Embabel DICE.md",
+    "Concepts/DICE.md",
+    "History/2026.37.md",
+    "Concepts/Agentic Memory.md",
+    "Topics/Agentic Memory for Search Personalization.md",
+    "Articles/Agentic Memory - OpenSearch Docs.md",
+    "Concepts/Model Context Protocol.md",
+    "Tools/OpenSearch Relevance Agent.md",
+    "People/Bobby Mohammed.md",
+    "People/Jeffrey Rengifo.md",
+    "People/Gustavo Llermaly.md",
+    "Articles/Introducing OpenSearch Relevance Agent.md",
+    "Articles/AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory.md",
+    "Videos/Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory.md",
+    "Conferences.md",
+    "Concepts/Query Rewriting.md",
+    "People/Hajer Bouafif.md",
+    "Case Studies.md",
+    "History/2026.36.md",
+    "History.md",
+    "History/2026.20.md",
+    "History/History Stats.md",
+    "Без назви"
+  ]
+}

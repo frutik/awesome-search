@@ -51,6 +51,7 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 
 ## Articles
 
+- [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory]] — [[Gustavo Llermaly]] & [[Jeffrey Rengifo]] (Search Labs); [[Agentic Memory]] managed in [[Elasticsearch]]
 - [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]]
 - [[Multilingual Embedding Model Hybrid Search Reranking]]

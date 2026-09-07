@@ -28,6 +28,14 @@ Amazon's cloud platform. In the search/IR space AWS operates **Amazon OpenSearch
 - [[Amazon OpenSearch Service now offers AI-assisted migrations]] — agentic Solr/ES/OpenSearch → OpenSearch migration
 - [[Innovating Search Experience with Amazon OpenSearch and Amazon Bedrock]] — RAG pipeline on AWS
 
+## Talks
+
+- [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — [[Hajer Bouafif]] at [[Berlin Buzzwords]] 2026; [[Agentic Memory]] for search [[Personalization]]
+
+## People
+
+- [[Hajer Bouafif]] — OpenSearch Solutions Architect
+
 ## Related Notes
 
 - [[OpenSearch]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]]

@@ -130,3 +130,5 @@ Personalization is harder to evaluate offline than generic ranking:
 - [[Search Result Diversity]] — the counterbalance to personalization
 - [[Conversational and Agentic Search]] — personalization within multi-turn sessions
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 MICES 2019 talk: real-time session-based personalization at Findify, position-bias feedback loops, exploration/exploitation traffic splits
+- [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — 🎥 Berlin Buzzwords 2026 talk: [[Agentic Memory]] instead of feature engineering; LLM-inferred preferences written offline, applied online via [[Query Rewriting]]
+- [[Agentic Memory for Search Personalization]] — personalization with the user model held as language in memory instead of learned features

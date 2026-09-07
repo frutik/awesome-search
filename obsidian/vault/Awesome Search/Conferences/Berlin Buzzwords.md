@@ -21,6 +21,7 @@ created: 2026-07-05
 ## Talks in this vault
 
 - **[[Hybrid search > sum of its parts? Berlin Buzzwords 2022]]** — [[Lester Solbakken]] benchmarking [[Hybrid Search]] ([[BM25]] vs [[Dense Embeddings]] vs learned sparse) and fusion strategies including [[Reciprocal Rank Fusion]].
+- **[[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]]** — [[Hajer Bouafif]] ([[Amazon Web Services]]), 2026; search [[Personalization]] as an [[Agentic Memory]] problem rather than a feature-engineering one, with preferences inferred offline from [[User Behavior Insights|UBI]] clickstream.
 - **[[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]]** — [[Evgeniya Sukhodolskaya]] ([[Qdrant]]), 2026; [[Relevance Feedback]] pushed into [[HNSW]] traversal instead of layered around the engine, with an argument against black-box search engines.
 - Historical references from vault articles: MAXSCORE / [[WAND]] (Stefan Pohl, 2012), multi-stage retrieval and e-commerce search at scale (2019).
 

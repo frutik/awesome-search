@@ -90,4 +90,11 @@ Adapted from classic project management:
 - [[Agentic search models]] — [[Doug Turnbull]]; the case for [[Purpose-Built Agentic Search Models]]
 - [[The Scaling Dimensions of Keyword Search]] — [[Skip Everling]]; serving-side cost of the [[Agentic Query Workload]]
 
+- [[Introducing OpenSearch Relevance Agent]] — [[Bobby Mohammed]] & [[Daniel Wrigley]]; agents *operating* the search stack (diagnosis, hypothesis, evaluation) rather than querying it
+- [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory]] — [[Gustavo Llermaly]] & [[Jeffrey Rengifo]]; the memory half of agent design, isolated by document-level security
+
+## Videos
+
+- [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — [[Hajer Bouafif]] ([[Amazon Web Services]]); [[Agentic Memory]] as the personalization substrate, and the offline/online split that keeps LLM reasoning off the query path
+
 See also the topic [[Frontier of Search 2026]] and concepts [[Purpose-Built Agentic Search Models]] and [[Agentic Query Workload]].

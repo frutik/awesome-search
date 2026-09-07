@@ -75,6 +75,7 @@ Key capabilities:
 - [[Elasticsearch Learning to Rank]] — in-engine LTR rescoring (OSC plugin & native 8.12+)
 
 ## Articles
+- [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory]] — [[Agentic Memory]] on Elasticsearch; three memory types, [[ELSER]]-backed hybrid retrieval, and document-level security as the isolation mechanism
 - [[Elastic Learned Sparse Encoder ELSER Retrieval Performance]]
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]]
 - [[Multilingual Embedding Model Hybrid Search Reranking]]

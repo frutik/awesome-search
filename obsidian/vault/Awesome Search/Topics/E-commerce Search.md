@@ -130,6 +130,7 @@ Start at Level 1. Only move up if A/B test shows improvement.
 
 ## Related
 
+- [[django-dice]] — LLM preference inference over shopping conversations, with an e-commerce entity/predicate schema ([[DICE]])
 - [[Two-Sided Marketplace Ranking]] — when the catalog is supplied by independent sellers with their own commercial interests
 - [[Query Understanding in Practice]] — the pipeline that powers QU in e-commerce
 - [[Search Result Diversity]] — handling broad queries

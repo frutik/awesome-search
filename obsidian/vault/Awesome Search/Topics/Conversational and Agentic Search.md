@@ -152,3 +152,6 @@ As search becomes conversational, it overlaps with recommendations:
 - [[Frontier of Search 2026]] — companion topic: search systems built for agents + purpose-built agentic search/rerank models
 - [[Agentic Query Workload]] — how agents query differently (long, structured, high-volume)
 - [[Purpose-Built Agentic Search Models]] — specialized models ([[SID-1]], Waldo) replacing the retrieval monolith
+- [[Agentic Memory]] — durable per-user state an agent reads and writes; the long-term/session/working/history split behind multi-turn context
+- [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — 🎥 Berlin Buzzwords 2026 talk: memory as the agent's "source of intelligence" alongside grounding
+- [[Agentic Memory for Search Personalization]] — session and long-term memory applied to personalizing retrieval

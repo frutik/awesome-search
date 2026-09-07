@@ -227,6 +227,7 @@ platform forces exactly this design, and is a recurring source of surprise in
 
 ## Related Notes
 
+- [[Agentic Memory]] — per-user agent memory makes isolation a retrieval problem; [[Agentic Memory - OpenSearch Docs|OpenSearch]] partitions with namespaces but leaves enforcement to document-level security, while [[AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory|Elasticsearch]] pins the filter into the role descriptor
 - [[Sharding]] — routing, shard keys, and the fan-out costs tenancy inherits
 - [[Unified Search Index]] · [[Denormalization for Search]] — one schema for heterogeneous records
 - [[Federated vs Unified Search]] — when data cannot be co-located at all

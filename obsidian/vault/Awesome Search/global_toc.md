@@ -42,7 +42,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Query Understanding]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Sampling]] · [[Search Intent]] · [[Intent Drift]] · [[Keywords Extraction]] · [[Compositional Queries]]
 
 ### Lexical Query Operations
-[[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]]
+[[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]]
 
 ### Evaluation & Metrics
 [[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Hallucination Detection]] · [[Needle in a Haystack Test]] · [[Clippings/Relevance feedback]] · [[APD]]
@@ -51,7 +51,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
 
 ### Agentic, Generative & RAG
-[[Agentic Search]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]]
+[[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]]
 
 ### Model Fine-Tuning & Serving
 [[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
@@ -67,7 +67,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Topics
 
 ### Retrieval & Ranking Techniques
-[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Tuning BM25 for E-commerce Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Query Classification]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
+[[Reasoning Reranking]] · [[RL-Trained Search Agents]] · [[Late Interaction in Elasticsearch]] · [[Late Interaction in OpenSearch]] · [[Late Interaction in Qdrant]] · [[Late Interaction in Vespa]] · [[Elasticsearch Learning to Rank]] · [[Vespa Learning to Rank]] · [[Tuning BM25 for E-commerce Search]] · [[Vector Search Tradeoffs]] · [[Dimensionality Reduction vs Quantization]] · [[PCA vs t-SNE for Retrieval]] · [[Search UX]] · [[Search UX Research]] · [[Search Result Diversity]] · [[Multilingual Search]] · [[Personalization in Search]] · [[Agentic Memory for Search Personalization]] · [[Query Classification]] · [[Query Understanding in Practice]] · [[Spelling Correction in Search]] · [[Synonyms and Vocabulary Management]] · [[Autocomplete and Autosuggest]] · [[Conversational and Agentic Search]] · [[Interaction Paradigms]]
 
 ### Domains & Platforms
 [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Multi-Tenancy in Search]]
@@ -104,7 +104,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[AutoRAG]] · [[RAGAS]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Search Relevance Workbench]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
+[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
 
 ### ML & Model Serving
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]
@@ -138,6 +138,8 @@ Conference talks and recorded presentations.
 
 [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Evgeniya Sukhodolskaya]], [[Qdrant]]; [[Berlin Buzzwords]] 2026 talk on index-native [[Relevance Feedback]] — model-generated feedback steering [[HNSW]] hop selection instead of reranking a top-k, [[Knowledge Distillation]] of a reranker into the index, and the case against black-box search engines
 
+[[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — [[Hajer Bouafif]], [[Amazon Web Services]]; [[Berlin Buzzwords]] 2026 talk on [[Agentic Memory]] as the substrate for search [[Personalization]] — preferences inferred offline by an LLM from [[User Behavior Insights|UBI]] clickstream, applied online via [[Query Rewriting]] and [[Reranking]], with reasoning kept off the query path
+
 ### Podcasts
 
 [[Vector Podcast]] — [[Dima Kan]], Aiven; interview series running since October 2021 (38 episodes) covering vector search, search engines and the businesses around them — vector database founders interviewed mid-build, [[HNSW]] co-author Yury Malkov, and on-site batches from [[Berlin Buzzwords]]
@@ -158,7 +160,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
-**B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Brage Vik]]
+**B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
 
 **C** — [[Charles L. A. Clarke]] · [[Charlie Hull]] · [[Chris Fournie]] · [[Congzhe Su]]
 
@@ -168,13 +170,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **F** — [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
 
-**G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]]
+**G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]] · [[Gustavo Llermaly]]
 
-**H** — [[Hailey Cheong]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
+**H** — [[Hailey Cheong]] · [[Hajer Bouafif]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
-**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
 
