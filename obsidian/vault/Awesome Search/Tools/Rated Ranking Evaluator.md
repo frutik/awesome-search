@@ -97,6 +97,7 @@ See [[Relevance Evaluation Tools Compared]] for the fuller landscape including [
 - **[[Search Relevance Workbench]]** — OpenSearch's native in-engine evaluator
 - **[[Elasticsearch Relevance Studio]]** — Elastic's experimental agentic evaluator
 - **[[Solr]]** · **[[Elasticsearch]]** — the engines RRE evaluates
+- **[[Releval]]** — engine-agnostic evaluation platform; where RRE puts evaluation in the build, Releval puts it in a self-hosted app with clickstream capture and an MCP server
 
 ## Related Concepts
 

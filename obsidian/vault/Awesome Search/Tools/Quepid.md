@@ -52,9 +52,10 @@ This makes it straightforward to implement NDCG, DCG, or custom business metrics
 - **[[Search Relevance Workbench]]** — [[OpenSearch]]'s native, in-engine successor to this workflow (query sets / judgments / experiments); it can **import Quepid CSV judgments**, and adds [[User Behavior Insights|UBI]]-based implicit judgments and hybrid-search auto-tuning
 - **[[Elasticsearch Relevance Studio]]** — Elastic's experimental, agentic in-house counterpart for [[Elasticsearch]]
 - **[[Rated Ranking Evaluator]]** (RRE) — CI/CD-oriented counterpart from [[Sease]]; a JVM/Maven library for batch, in-build evaluation
+- **[[Releval]]** — the other engine-agnostic platform; proprietary, but adds native [[User Behavior Insights|UBI]] clickstream capture and an MCP server
 - **SMUI / [[Querqy]]** — complementary tool for managing query rewriting rules
 
-See [[Relevance Evaluation Tools Compared]] for a full Quepid vs. Workbench vs. Relevance Studio breakdown.
+See [[Relevance Evaluation Tools Compared]] for the full five-way breakdown.
 
 ## Related Topics
 - [[Tuning BM25 for E-commerce Search]] — using judgments/metrics infrastructure already in Quepid to test BM25 `k1`/`b` grids
@@ -95,3 +96,4 @@ Because Quepid drives any search engine over **HTTP**, it isn't tied to Elastics
 ## People
 - [[Doug Turnbull]] — co-creator
 - [[Andrew Kornilov]] — author of the unofficial API wrapper; vector/image-search evaluation hacks
+

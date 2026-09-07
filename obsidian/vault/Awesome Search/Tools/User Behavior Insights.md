@@ -63,6 +63,8 @@ Note the split of responsibility: the plugin persists events but does **not** ca
 
 The standard is deliberately engine-neutral, with plugins/integrations for **[[OpenSearch]]**, **[[Solr]]**, and **[[Elasticsearch]]**, plus **Chorus** (the reference e-commerce search stack) shipping a UBI-enabled edition.
 
+[[Releval]], a commercial relevance-evaluation platform, also implements UBI — capturing queries and events into ClickHouse and exposing them over REST and gRPC, with its own browser tracker. As a third-party product outside the engine vendors, it is the clearest test so far of the spec's portability claim: the clickstream is collected in UBI's format by a tool that has no engine of its own to lock anyone into.
+
 ## What Consumes UBI Data
 
 - **[[Search Relevance Workbench]]** — the flagship consumer: builds [[Implicit Judgments]] from UBI clickstream (COEC debiasing) and samples query sets from UBI query logs
@@ -87,4 +89,5 @@ UBI is sponsored and led by **Eric Pugh** ([[OpenSource Connections]]), **Jeff Z
 
 ## Related Tools
 
-- [[Search Relevance Workbench]] · [[OpenSearch]] · [[Quepid]] · [[Solr]] · [[Elasticsearch]]
+- [[Search Relevance Workbench]] · [[OpenSearch]] · [[Quepid]] · [[Solr]] · [[Elasticsearch]] · [[Releval]]
+- [[Relevance Evaluation Tools Compared]] — which evaluation tools consume UBI-derived implicit judgments

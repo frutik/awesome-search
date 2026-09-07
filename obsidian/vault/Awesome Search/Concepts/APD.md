@@ -48,9 +48,15 @@ APD is useful as a dashboard metric:
 - Sensitive to the distance function choice — semantic distance and lexical distance tell different stories
 - Doesn't account for position — a diverse but relevant result at position 10 vs a redundant one at position 2 are treated equally
 - Does not penalize redundancy in proportion to user harm — [[MMR]] is better when you want to actively improve diversity
+- Measures spread, not coverage — a result set can be widely distributed in embedding space without covering the aspects a reader actually needs. [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval|NEWSCOPE]] shows the two coming apart directly: its GreedyPlus reranker leads every baseline on aspect coverage by a wide margin while scoring roughly level with [[MMR]] on APD, and *behind* DkMIPS. Leading on APD and leading on coverage are different achievements.
 
 ## Related
 
 - [[MMR]] — active diversity optimization (APD's complementary tool)
 - [[Diversity Metrics]] — broader overview of diversity approaches
 - [[NDCG]] — relevance metric APD is typically used alongside
+- [[Search Result Diversity]] — where APD sits among the other diversification levers
+
+## Articles
+
+- [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval]] — uses APD as one of three diversity metrics, and proposes two coverage-based measures to fill the gap APD leaves

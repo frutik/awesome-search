@@ -86,6 +86,7 @@ The frontend plugin adds four views for exploring experiment output:
 - **[[Elasticsearch Relevance Studio]]** — Elastic's parallel (experimental) in-house answer to the same problem.
 - **[[Rated Ranking Evaluator]]** — Sease's CI/CD-oriented offline evaluator.
 - **[[OpenSearch]]** — the host engine.
+- **[[Releval]]** — the other evaluation tool with native [[User Behavior Insights|UBI]] capture, but engine-agnostic and proprietary rather than in-engine and Apache-licensed
 
 ## Related Concepts
 

@@ -1,18 +1,45 @@
 ---
 type: topic
-aliases: ["result diversification", "diversity in search", "search diversification"]
-tags: [topic, diversity, ranking, e-commerce]
-related_concepts: ["[[MMR]]", "[[APD]]", "[[Diversity Metrics]]", "[[Query Types]]", "[[Faceted Search]]", "[[Search Intent]]", "[[NDCG]]"]
-related_topics: ["[[E-commerce Search]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]"]
-articles: [
-  "[[Searching for Goldilocks]]",
-  "[[Thoughts on Search Result Diversity]]",
-  "[[How Etsy Uses Thermodynamics for Search]]",
-  "[[Targeting Broad Queries in Search]]",
-  "[[Broad and Ambiguous Search Queries]]",
-  "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
-]
-people: ["[[Daniel Tunkelang]]", "[[Andreas Wagner]]"]
+aliases:
+  - result diversification
+  - diversity in search
+  - search diversification
+tags:
+  - topic
+  - diversity
+  - ranking
+  - e-commerce
+related_concepts:
+  - "[[MMR]]"
+  - "[[APD]]"
+  - "[[Diversity Metrics]]"
+  - "[[Query Types]]"
+  - "[[Faceted Search]]"
+  - "[[Search Intent]]"
+  - "[[NDCG]]"
+  - "[[Reranking]]"
+related_topics:
+  - "[[E-commerce Search]]"
+  - "[[Query Understanding in Practice]]"
+  - "[[Search Quality Assurance]]"
+articles:
+  - "[[Searching for Goldilocks]]"
+  - "[[Thoughts on Search Result Diversity]]"
+  - "[[How Etsy Uses Thermodynamics for Search]]"
+  - "[[Targeting Broad Queries in Search]]"
+  - "[[Broad and Ambiguous Search Queries]]"
+  - "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
+  - "[[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval]]"
+datasets:
+  - "[[LocalNews]]"
+  - "[[DSGlobal]]"
+people:
+  - "[[Daniel Tunkelang]]"
+  - "[[Andreas Wagner]]"
+  - "[[Yixuan Tang]]"
+  - "[[Yiqun Sun]]"
+  - "[[Yuanyuan Shi]]"
+  - "[[Anthony K.H. Tung]]"
 created: 2026-05-16
 ---
 
@@ -74,6 +101,18 @@ Measure divergence between the result list's topic distribution and the corpus's
 
 ---
 
+### Sentence-Level Clustering (NEWSCOPE)
+
+Every method above diversifies over whole-item representations — a document vector, a category label, a topic distribution. That is where redundancy hides: two articles can sit far apart as documents while repeating the same three facts.
+
+[[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval|NEWSCOPE]] moves the unit of diversity down a level. Retrieve at paragraph level, then split candidates into sentences, embed each, and cluster them with OPTICS so the number of aspects need not be fixed in advance. Each cluster stands for one distinct thing being said about the event. Selection is then greedy over *uncovered clusters* rather than over pairwise distance:
+
+`Score(p) = |uncovered clusters ∩ clusters(p)|`
+
+with an optional relevance-weighted variant that scores each cluster by its similarity to the query before summing, plus a `λ · Sim(query, p)` term — the same relevance/diversity dial as [[MMR]], applied to aspects instead of documents.
+
+Two consequences worth carrying to non-news domains. The selection is **interpretable**: a cluster is inspectable, so a diversity decision can be explained rather than just scored. And it is **unsupervised** — no labeled subtopics, no stance annotation, no training.
+
 ## When to Apply Diversity
 
 | Query type | Apply diversity? | Why |
@@ -104,9 +143,11 @@ Standard precision metrics (NDCG@k, P@k) reward near-duplicate top hits — they
 Diversity-aware metrics:
 - **α-nDCG**: penalizes redundant relevant documents at lower ranks
 - **ERR-IA**: intent-aware Expected Reciprocal Rank
-- **APD**: Average Pairwise Distance — passive diversity measurement
+- **[[APD]]**: Average Pairwise Distance — passive diversity measurement
+- **Positive Cluster Coverage**: fraction of the aspects present in the relevant set that the results actually surface
+- **Information Density Ratio**: aspects covered per sentence returned — penalizes padding inside results
 
-Track APD alongside NDCG to catch diversity regressions.
+Track APD alongside NDCG to catch diversity regressions. But note what APD cannot tell you: the last two metrics are coverage-denominated, and a system can lead on aspect coverage while sitting mid-pack on average pairwise distance. Spreading results out and covering what the reader needs are separate objectives, and NEWSCOPE's results show them diverging.
 
 ---
 
@@ -124,6 +165,7 @@ Broad-query diversification is "pre-emptive faceting" — the system makes the i
 
 - **[[Daniel Tunkelang]]** — Searching for Goldilocks (Wundt Curve, λ-MMR), Thoughts on Search Result Diversity (KL-divergence, greedy reranking)
 - **[[Andreas Wagner]]** — Three Pillars framework (Discovery pillar); [[MICES]] talk on diverse result sets showing how result positioning shapes user basket composition
+- **[[Yixuan Tang]]**, **[[Yiqun Sun]]**, **[[Yuanyuan Shi]]**, **[[Anthony K.H. Tung]]** — NEWSCOPE: sentence-level clustering as the diversification unit, and the coverage-based metrics that go with it
 
 ---
 
@@ -133,3 +175,6 @@ Broad-query diversification is "pre-emptive faceting" — the system makes the i
 - [[APD]] — passive diversity measurement
 - [[E-commerce Search]] — diversity is especially critical for head queries
 - [[Faceted Search]] — complementary user-controlled disambiguation
+- [[Diversity Metrics]] — the metric family, including the two coverage-based measures
+- [[Reranking]] — where diversification is applied
+- [[LocalNews]] · [[DSGlobal]] — benchmarks for measuring aspect coverage

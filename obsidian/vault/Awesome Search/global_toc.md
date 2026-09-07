@@ -104,7 +104,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[AutoRAG]] · [[RAGAS]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
+[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
 
 ### ML & Model Serving
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]
@@ -152,13 +152,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
 
@@ -204,4 +204,4 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **W** — [[Wenqi Glantz]] · [[Wolf Garbe]] · [[Daniel Wrigley]]
 
-**Y** — [[Yu Su]] · [[Yuqing Zhang]]
+**Y** — [[Yiqun Sun]] · [[Yixuan Tang]] · [[Yu Su]] · [[Yuanyuan Shi]] · [[Yuqing Zhang]]

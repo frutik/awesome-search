@@ -66,6 +66,26 @@ Treat result set as a distribution over topics/categories:
 - High entropy = many topics covered equally
 - Low entropy = one topic dominates
 
+### Positive Cluster Coverage (C)
+
+Introduced in [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval|NEWSCOPE]]. Cluster the sentences of the *relevant* documents into semantic aspects, then measure what fraction of those aspects the top-k results actually surface:
+
+```
+C = # covered clusters / # total clusters in relevant documents
+```
+
+Fine-grained semantic recall. Unlike APD it is coverage-denominated, so it gives no credit for redundancy and none for spreading results apart in embedding space without adding aspects. The cost is that it needs an aspect inventory — something has to define what *ought* to be covered.
+
+### Information Density Ratio (I)
+
+Also from NEWSCOPE. Covered aspects per sentence returned:
+
+```
+I = # covered clusters / # total sentences in retrieved documents
+```
+
+An efficiency measure rather than a spread measure: it penalizes padding and repetition *inside* the results, favoring concise, information-rich passages. Useful wherever result length is a cost — RAG context windows especially.
+
 ## Diversity in Practice
 
 ### E-commerce
@@ -101,6 +121,14 @@ Optimal λ depends on query type: navigational queries need less diversity; expl
 ## People
 
 - [[Daniel Tunkelang]] — diversity for broad/ambiguous queries
+- [[Yixuan Tang]] · [[Yiqun Sun]] — Positive Cluster Coverage and Information Density Ratio
+
+## Articles
 
 - [[Searching for Goldilocks]]
 - [[Thoughts on Search Result Diversity]]
+- [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval]] — sentence-level diversity modeling; source of Positive Cluster Coverage and Information Density Ratio
+
+## Related Datasets
+
+- [[LocalNews]] · [[DSGlobal]] — benchmarks built to measure aspect coverage rather than embedding spread
