@@ -115,6 +115,7 @@ Standard NDCG assumes irrelevant documents are neutral (grade 0). In LLM/RAG pip
 - [[Search Evaluation]] — broader evaluation framework
 - [[LLM as Judge]] — automated relevance judgments
 - [[Kendall Rank Correlation]] — contrast: measures how much two orderings differ, with no relevance labels required, unlike NDCG
+- [[ERR]] — cascade-model alternative: credits a result only for the users not already satisfied above it
 
 
 **Related videos:**

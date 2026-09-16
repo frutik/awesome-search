@@ -88,6 +88,7 @@ MRR@k only counts a result if the first relevant doc appears within the top k po
 - [[Precision and Recall]] — related evaluation measures
 - [[Search Evaluation]] — broader evaluation framework
 - [[Judgment Lists]] — relevance labels needed for MRR
+- [[ERR]] — the graded-relevance generalization; equivalent in spirit on known-item search
 
 ## People
 

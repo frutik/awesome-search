@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Agentic Memory for Search Personalization.md",
+                "file": "Topics/Relevance Program Setup.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Agentic Memory for Search Personalization"
+              "title": "Relevance Program Setup"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Relevance Program Setup",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Agentic Memory for Search Personalization.md",
+                "file": "Topics/Relevance Program Setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +190,10 @@
   },
   "active": "7c0c6f23b2399701",
   "lastOpenFiles": [
+    "History/2026.38.md",
+    "Concepts/ERR.md",
+    "History/2026.23.md",
+    "Topics/Agentic Memory for Search Personalization.md",
     "Tools/Releval.md",
     "People/Yiqun Sun.md",
     "People/Yuanyuan Shi.md",
@@ -205,16 +210,12 @@
     "Concepts/DICE.md",
     "History/2026.37.md",
     "Concepts/Agentic Memory.md",
-    "Topics/Agentic Memory for Search Personalization.md",
     "Articles/Agentic Memory - OpenSearch Docs.md",
     "Concepts/Model Context Protocol.md",
     "Tools/OpenSearch Relevance Agent.md",
     "People/Bobby Mohammed.md",
     "People/Jeffrey Rengifo.md",
     "People/Gustavo Llermaly.md",
-    "Articles/Introducing OpenSearch Relevance Agent.md",
-    "Articles/AI Agent Memory - Creating Smart Agents with Elasticsearch Managed Memory.md",
-    "Videos/Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory.md",
     "Без назви"
   ]
 }

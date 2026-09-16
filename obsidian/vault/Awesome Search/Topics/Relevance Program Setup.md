@@ -1,9 +1,9 @@
 ---
 type: topic
 tags: [topic, relevance, evaluation, program-management, judgment-collection]
-related_concepts: [NDCG, MRR, Query Sampling, Clicks Residual]
+related_concepts: [NDCG, MRR, ERR, Query Sampling, Clicks Residual]
 related_topics: [Search Quality Assurance, A-B Testing for Search, Managing a Search Team, Hiring for Search]
-articles: []
+articles: ["[[Choosing Your Search Relevance Evaluation Metric]]", "[[Demystifying nDCG and ERR]]"]
 companies: [OpenSource Connections]
 people: [Doug Turnbull]
 created: 2026-05-16
@@ -61,7 +61,9 @@ Use [[Query Sampling]] — PPS by query frequency for head/torso; stratified or 
 Choose 1–2 primary offline metrics before collecting judgments, not after:
 - **[[NDCG]]@10** — standard for graded relevance; good for web/e-commerce
 - **[[MRR]]** — good when one right answer exists (navigational, factual)
-- **ERR** — position-aware; models users who stop after finding an answer
+- **[[ERR]]** — position-aware; models users who stop after finding an answer
+
+[[Choosing Your Search Relevance Evaluation Metric]] is the decision guide: graded or binary relevance, one right answer or many, does rank order matter, and do you have labels at all. [[Demystifying nDCG and ERR]] covers the last of the three above — why a cascade model discounts a great result sitting under another great one.
 
 Set a baseline with your current system **before** any changes. Every experiment is measured as delta from baseline.
 
@@ -141,3 +143,8 @@ A relevance program needs:
 - [[Managing a Search Team]] — relevance program as organizational practice
 - [[OpenSource Connections]] — Doug Turnbull's consulting practice; Quepid tool
 - [[Doug Turnbull]] — author of *Relevant Search*; originator of many of these practices
+
+## Articles
+
+- [[Choosing Your Search Relevance Evaluation Metric]] — the four-question decision guide behind the metric selection step
+- [[Demystifying nDCG and ERR]] — NDCG's independent-utility model vs. ERR's cascade model

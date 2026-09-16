@@ -90,5 +90,6 @@ A decision guide for choosing between [[NDCG]], [[MRR]], [[Precision and Recall]
 - [[Search Evaluation]] — context for metric selection
 - [[NDCG]] — primary option
 - [[MRR]] — secondary option
+- [[ERR]] — the cascade-model option for one-right-answer search
 - [[Precision and Recall]] — foundational options
 - [[Judgment Lists]] — required for all offline metrics

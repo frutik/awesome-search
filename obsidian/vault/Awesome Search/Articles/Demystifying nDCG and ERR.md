@@ -82,6 +82,7 @@ Both NDCG and ERR can be computed normalized (by ideal) or unnormalized:
 
 ## Related Concepts
 
+- [[ERR]] — the cascade-model metric this article explains
 - [[NDCG]] — primary metric discussed
 - [[MRR]] — related cascade model
 - [[Search Evaluation]] — where these fit

@@ -45,7 +45,7 @@ Semantic knowledge graph built from the [Awesome Search](https://github.com/frut
 [[Embedding Fine-tuning]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Hard Negative Mining]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Evaluation
-[[NDCG]] · [[MRR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Session-Based Evaluation]] · [[Out-of-Time Validation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
+[[NDCG]] · [[MRR]] · [[ERR]] · [[MAP]] · [[Precision and Recall]] · [[UDCG]] · [[Search Evaluation]] · [[Judgment Lists]] · [[Vector Search Evaluation]] · [[LLM as Judge]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Session-Based Evaluation]] · [[Out-of-Time Validation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Click Signals]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]]
 
 ### Query Understanding
 [[Query Understanding]] · [[Query Types]] · [[Search Intent]] · [[Query Segmentation]] · [[Collocations]]
