@@ -106,17 +106,23 @@ Conference talks and recorded presentations.
 
 ## Stats
 
-Counted 2026-08-05, updated 2026-08-20.
+Counted 2026-09-19.
 
-- **318** article notes
-- **181** concept notes (incl. Ranking Signal Selection, Isolated Feedback Loops, Impression Bias, Out-of-Time Validation, Hashing Trick, Tokenization, Out-of-Vocabulary, Pooling, Score Normalization, Brute-Force Vector Search, Zero-Shot Retrieval, MUVERA, PCA, t-SNE, UMAP, TurboQuant, RaBitQ, BBQ, HNSW, SQ, BQ, Search-R1, miniCOIL, Hard Negative Mining, Synthetic Query Generation, Consistency Filtering, Dense Passage Retriever, PROMPTAGATOR, FLAN-T5, Contrastive Learning, Staged Judging, Statistical Significance in Search Evaluation)
-- **59** topic notes (incl. Quepid Beyond Supported Engines, Multi-Tenancy in Search, Two-Sided Marketplace Ranking, Vector Search Tradeoffs, PCA vs t-SNE for Retrieval, Federated vs Unified Search, Migration between Search Engines, Elasticsearch Learning to Rank, Vespa Learning to Rank, Late Interaction in Vespa, Search Problem Archetypes, Embedding Models Compared, Model Selection and Fine-Tuning Evaluation, Retrieval Benchmarks and Leaderboards)
-- **135** people notes (incl. Mohamed Arbi Nsibi, Themis Mavridis, Soraya Hausl, Andrew Mende, Roberto Pagano, Jose Parreño, Roy Keyes, Davit Khachaturyan, Andrew Kornilov, Atita Arora, Udi Manber, Geoffrey Hinton, Laurens van der Maaten, Evgeniya Sukhodolskaya, Joanna Marhula, Mateusz Sidor)
-- **14** case study notes (incl. Vespa - Ranking Without Labels on CORD-19, Hybrid Fusion Failure - BM25 Displacing Reference Documents, Vinted - Migrating Search from Elasticsearch to Vespa, Reddit - Vector Database Selection)
-- **48** company nodes (incl. Booking.com, Amazon Web Services, Elsevier, Allegro)
-- **34** tool notes (incl. ann-benchmarks, Quepid, User Behavior Insights, Querqy, Elasticsearch, OpenSearch, Solr, Qdrant Vector DB, Weaviate Vector DB, Milvus Vector DB, FAISS, pgvector, Sentence Transformers, qdrant-sparse-finetune, qdrant-relevance-feedback)
-- **14** dataset notes ([[Amazon ESCI Dataset]], [[BEIR]], [[BRIGHT]], [[ESCI-S Dataset]], [[Home Depot Product Search Relevance]], [[LoTTE]], [[MIRACL]], [[MS MARCO]], [[MTEB]], [[Natural Questions]], [[RTEB]], [[SIFT1M]], [[TREC-COVID]], [[WANDS Dataset]])
-- **7** video notes · **1** podcast note ([[Vector Podcast]]) · **4** conference notes
-- **6** Maps of Content
+| | Notes |
+|---|---:|
+| Articles | 351 |
+| Concepts | 208 |
+| People | 168 |
+| Topics | 62 |
+| Companies | 55 |
+| Tools | 51 |
+| Datasets | 22 |
+| Case Studies | 15 |
+| Videos | 8 (+1 podcast) |
+| Conferences | 4 |
+
+Every non-article note is indexed in [[global_toc]]; the per-type maps ([[Concepts]],
+[[Topics]], [[People]], [[Tools]], [[Case Studies]], [[Videos]], [[Conferences]]) are kept
+complete against their folders.
 
 See [[History]] for the full note-addition log.

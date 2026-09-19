@@ -151,6 +151,54 @@ The architectural answer is [[Staged Judging]]: prune the pair space with [[Impl
 
 Note that this is an axis **orthogonal to judge quality**. Most of the literature — and most of the articles below — optimizes how closely a judge agrees with humans. A 95%-accurate judge you cannot afford to run produces no judgments at all, which is strictly worse than a 90% judge with full catalogue coverage.
 
+## Judging Without Generation
+
+A structured-decision model ([[System One Model]], e.g. [[Jev]]) can take the verdict half of
+this job without generating anything: one atomic question per criterion, answered in parallel
+against a shared state as a probability. [[Using TypeSafe's Jev for Evals]] works this through
+for rubric scoring; the tradeoffs transfer directly to relevance judging.
+
+**What the shape gains.** Questions are scored independently, so adding a criterion cannot
+degrade the answers to the others — unlike a multi-criteria prompt, where the judgments
+interfere. And an underspecified criterion returns *low confidence* rather than a crisp label
+concealing mush, which makes a bad rubric visible instead of absorbing it. Cheap enough to
+change the economics above: one third-party run graded 6,003 rubric checks at $160 per million
+verdicts, against $33,000 for a frontier model on the same instructions.
+
+**What it gives up, and these matter here.**
+
+- **It cannot abstain.** A forced binary with no `unknown` option makes the model pick the least
+  wrong answer rather than decline — so an explicit escape hatch has to be designed in. For
+  relevance work this is the difference between a judge that flags an ambiguous query and one
+  that quietly invents a preference.
+- **No rationale, ever.** The verdict arrives with no reasoning, so a disputed judgment is
+  debugged by re-reading your own criteria. Anything audited, customer-facing, or feeding
+  [[Search Results Explainability]] still needs a generative model on top. This also forecloses
+  the chain-of-thought variants discussed above.
+- **Agreement is not accuracy.** The benchmark cited measures agreement with one frontier
+  model's verdict — the same trap [[Levels of Judge Agreement]] exists to name. An
+  open-source judge in that run agreed two points *more* often, for slightly more money.
+
+**Confidence bands.** A probability rather than a label lets the verdict fan out three ways
+instead of two — act on the confident tail, route the ambiguous middle to a human, discard or
+flag the rest. That is [[Staged Judging]] with the cutoff expressed on a
+[[Calibrated Relevance Probability|calibrated number]], and it is the same manoeuvre a
+probability-valued reranker enables at the ranking stage.
+
+One operational warning worth repeating: if a stored threshold sits in front of a versioned
+judge, **pin the version**. A model bump under a constant cutoff shifts every score silently.
+
+**The rationalisation problem.** A sharper framing of why a generative judge's confidence is
+untrustworthy, from [[Jevals]]: the model emits a token standing for its verdict, then writes a
+justification for the verdict it has *already* chosen. The reasoning is produced after the
+decision, so it explains rather than determines — which is why a fluent rationale is no evidence
+that the call was close or carefully weighed. This is independent of how capable the judge is.
+
+**Grading everything instead of sampling.** Sampling a judged set exists because generative
+judging is expensive. Remove that cost and the sample becomes unnecessary: grade the whole query
+set cheaply, then spend the expensive judge only on the ambiguous band. For
+[[Judgment Lists|judgment-list]] work this changes what is affordable — full coverage with
+escalation, rather than a sampled subset extrapolated to the whole.
 ## Best Practices
 
 - Match the **assessment paradigm to the question**: pairwise comparisons when judging individual documents, graded pointwise scoring when the output is a system-level comparison

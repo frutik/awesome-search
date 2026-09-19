@@ -30,7 +30,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]]
 
 ### Reranking & Cross-Encoders
-[[Reranking]] · [[Asymmetric Re-ranking]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
+[[Reranking]] · [[Asymmetric Re-ranking]] · [[Calibrated Relevance Probability]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
 
 ### Learning to Rank
 [[Learning to Rank]] · [[LambdaMART]] · [[LambdaLoss]] · [[RankNet]] · [[LTR Feature Engineering]] · [[Hashing Trick]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Pointwise Relevance Evaluation]] · [[Pairwise Relevance Evaluation]] · [[Listwise Relevance Evaluation]] · [[Feature Store]] · [[Results Boosting]]
@@ -51,10 +51,10 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
 
 ### Agentic, Generative & RAG
-[[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]]
+[[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[System One Model]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]]
 
 ### Model Fine-Tuning & Serving
-[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
+[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Reinforcement Learning for Calibrated Decisions]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
 
 ### Search Architecture & Operations
 [[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Governance]] · [[Search Team]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
@@ -104,15 +104,15 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[AutoRAG]] · [[RAGAS]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]]
+[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
 
 ### ML & Model Serving
-[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]]
+[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]]
 
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[Uber]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -152,19 +152,19 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
 
 **C** — [[Charles L. A. Clarke]] · [[Charlie Hull]] · [[Chris Fournie]] · [[Congzhe Su]]
 
-**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]] · [[Dylan Couzon]]
+**D** — [[Dai Sugimori]] · [[Dainius Jocas]] · [[Daniel Doro]] · [[Daniel Henneberger]] · [[Daniel Tunkelang]] · [[raw_articles/David Albrecht]] · [[David Argüello Sánchez]] · [[Davit Khachaturyan]] · [[Dima Kan]] · [[Diogo Almeida]] · [[Dmitriy Meyerzon]] · [[Dotan Horovits]] · [[Doug Turnbull]] · [[Dylan Castillo]] · [[Dylan Couzon]]
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 
@@ -172,7 +172,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]] · [[Gustavo Llermaly]]
 
-**H** — [[Hailey Cheong]] · [[Hajer Bouafif]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Honza Král]] · [[Hugo Galvão]]
+**H** — [[Hailey Cheong]] · [[Hajer Bouafif]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Hev]] · [[Honza Král]] · [[Hugo Galvão]]
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
@@ -188,13 +188,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **O** — [[Omar Khattab]]
 
-**P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Prateek Chandra Jha]]
+**P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
 **Q** — [[Quynh Nguyen]]
 
 **R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
-**S** — [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
+**S** — [[Sai Yashwanth]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
 **T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 

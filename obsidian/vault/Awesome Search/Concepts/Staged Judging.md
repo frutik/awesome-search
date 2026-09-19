@@ -65,3 +65,5 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 - [[Towards Scalable Relevance Engineering]] — [[Andreas Wagner]]; the worked architecture at [[searchHub]] scale
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; the complementary move of ensembling weak judges rather than staging them
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; positions judge economics as an axis orthogonal to judge quality, and flags inherited bias as open
+- [[Using TypeSafe's Jev for Evals]] — the escalation bands expressed as cutoffs on a calibrated probability: act on the confident tail, route the ambiguous middle to a human, discard the rest
+- [[Jev - The Most Interesting Model Released This Year]] — the same escalation shape inside an agent loop; see [[Jevals]] for the implementation

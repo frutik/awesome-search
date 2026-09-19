@@ -33,6 +33,22 @@ The query and document are concatenated (with separator tokens) and passed throu
 | Speed | Slow — O(num_candidates) at query time |
 | Quality | Highest — rich interaction captures subtle relevance |
 
+### The Score Is a Logit, Not a Probability
+
+A cross-encoder's output is an uncalibrated score. Its ordering within one candidate list is
+meaningful; its absolute magnitude is not. Any use that needs a *cutoff* rather than an
+*order* — pruning an overfetched pool, gating a downstream [[RAG]] step, declaring
+[[Zero Results|no relevant results]], comparing scores across shards or across the lexical and
+vector legs of [[Hybrid Search]] — therefore requires a threshold tuned per corpus, and
+re-tuned whenever the corpus, retriever, or model version changes.
+
+This is the gap a [[Calibrated Relevance Probability]] closes, and it is the axis on which
+[[Hev meets Jev]] argues a probability-valued model such as [[Jev]] beats a cross-encoder even
+when their nDCG@10 is level: on that benchmark's SciFact subset, documents scored above 0.9
+were judged relevant 76% of the time, against a cross-encoder logit that means nothing on its
+own. Note that [[NDCG]] and [[MRR]] are invariant to monotonic score transforms, so standard
+reranker leaderboards never surface this difference.
+
 ## Role in Multi-Stage Retrieval
 
 Cross-encoders are typically used as **rerankers** in a two-stage pipeline:
@@ -93,6 +109,7 @@ each document. Both levers reduce work without touching the model.
 - [[Retrieval Pipeline]] — cross-encoder as Stage 2 reranker
 - [[ELSER]] — distilled from a cross-encoder teacher
 - [[Interaction Paradigms]] — the no/late/early spectrum; cross-encoder is the early-interaction endpoint
+- [[Calibrated Relevance Probability]] — what a cross-encoder logit is not, and the operations that need it
 
 ## Articles
 
@@ -101,6 +118,7 @@ each document. Both levers reduce work without touching the model.
   a 22M cross-encoder trained on synthetic data, and the versioning argument for the architecture
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — [[PROMPTAGATOR]]'s
   cross-encoder as the strongest few-shot model in that comparison (0.528 avg nDCG@10)
+- [[Hev meets Jev]] — a MiniLM-L6 cross-encoder as the local baseline (0.447 mean nDCG@10), and the logit-vs-probability argument
 
 ## Case Studies
 

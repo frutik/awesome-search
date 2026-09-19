@@ -56,6 +56,21 @@ Use a large language model ([[LLM as Judge]]) to score or listwise-rank candidat
 ### Feature-Based (LTR) Re-ranker
 A [[Learning to Rank|LTR]] model ([[LambdaMART]]) rescores the top-N using tabular features — BM25 components, popularity/CTR, price, freshness. Often deployed as an **external secondary re-ranker** outside the search engine, agnostic to retrieval. [[Metarank]] is the canonical open-source example; it trains on [[Implicit Judgments]] and serves with a ~20–30 ms latency budget. See [[Learn-to-Rank with OpenSearch and Metarank]].
 
+### Structured-Decision Model
+
+A general structured-output model can be used as a reranker without any ranking training: pose
+relevance as one typed true-or-false question per candidate against a shared state, and sort by
+the returned probability. [[Jev]] is the worked example — see [[Hev meets Jev]], where this
+shape reaches **0.501 mean nDCG@10** across three [[BEIR]] subsets against 0.504 for Voyage
+rerank-3 and 0.404 for the unreranked [[BM25]] order.
+
+Two properties distinguish it from the families above. It returns a
+[[Calibrated Relevance Probability]] rather than a logit, so a single call can rerank *and*
+prune against a portable threshold. And the latency profile inverts: batching thirty documents
+into one call gives a good median but a long tail (p95 ~1.4 s vs under 0.5 s for hosted
+cross-encoders), while asking one question per pair fixes the tail at thirty times the
+requests.
+
 ## Reranking in RAG
 
 In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, so only the top 3–5 chunks are included. A reranker narrows 50–100 retrieved chunks down to the best ones before LLM generation.
@@ -70,6 +85,24 @@ In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, 
 | Cost | Low | Higher |
 
 ## Related Concepts
+- [[Retrieval Pipeline]] — the multi-stage architecture reranking fits into
+- [[Cross-Encoder]] — primary reranking architecture
+- [[Bi-Encoder]] — first-stage retriever that feeds the reranker
+- [[ColBERT]] — late interaction alternative
+- [[LLM as Judge]] — LLM-based reranking
+- [[RAG]] — key use case for reranking
+- [[Learning to Rank]] — related family of ranking approaches
+- [[MonoT5]] — T5 pointwise neural reranker
+- [[RankLLaMA]] — LLaMA fine-tuned reranker
+- [[RankGPT]] — listwise LLM reranker
+- [[LambdaMART]] / [[Metarank]] — feature-based external secondary re-ranker
+- [[Feature Store]] — serves the features an LTR re-ranker consumes
+- [[Asymmetric Re-ranking]] — cheap second-phase recall recovery for binary-quantized retrieval, scoring a full-precision query against BQ document vectors
+- [[Kendall Rank Correlation]] — diagnostic for how much reranking changed the candidate order (not a quality metric)
+- [[Relational Transformer]] — reranks candidates by conditioning on structured relational data (typed fields, schema links) instead of text
+- [[Calibrated Relevance Probability]] — reranker output as a probability rather than an ordering-only score, which makes pruning and cross-leg comparison possible
+- [[Jev]] — a structured-decision model used as a reranker with no ranking training
+- [[hev-rerank]] — the minimal open-source implementation of that approach
 ## When Reranking Becomes a System Boundary
 
 From [[When Reranking Becomes a System Boundary]] ([[Ravindra Harige]]):
@@ -109,22 +142,29 @@ A concrete instance where fusion arithmetic silently evicted the answer before r
 [[Hybrid Fusion Failure - BM25 Displacing Reference Documents]].
 
 
-- [[Retrieval Pipeline]] — the multi-stage architecture reranking fits into
-- [[Cross-Encoder]] — primary reranking architecture
-- [[Bi-Encoder]] — first-stage retriever that feeds the reranker
-- [[ColBERT]] — late interaction alternative
-- [[LLM as Judge]] — LLM-based reranking
-- [[RAG]] — key use case for reranking
-- [[Learning to Rank]] — related family of ranking approaches
-- [[MonoT5]] — T5 pointwise neural reranker
-- [[RankLLaMA]] — LLaMA fine-tuned reranker
-- [[RankGPT]] — listwise LLM reranker
-- [[LambdaMART]] / [[Metarank]] — feature-based external secondary re-ranker
-- [[Feature Store]] — serves the features an LTR re-ranker consumes
-- [[Asymmetric Re-ranking]] — cheap second-phase recall recovery for binary-quantized retrieval, scoring a full-precision query against BQ document vectors
-- [[Kendall Rank Correlation]] — diagnostic for how much reranking changed the candidate order (not a quality metric)
-- [[Relational Transformer]] — reranks candidates by conditioning on structured relational data (typed fields, schema links) instead of text
+### The Inverse Case: Perfect Recall, Ranking Still Fails
 
+The argument above is about reranking being blamed for retrieval's failures. The opposite case
+is worth holding alongside it, because it is diagnosed the same way and treated differently.
+
+In [[TypeSafe Cookbook - Re-ranking]], a [[BM25]] top-30 shortlist over [[CLERC]] legal
+passages contained the correct passage for **100%** of queries — retrieval was flawless — and
+the correct passage was still ranked first only 5% of the time before reranking, and 18% after.
+Recall@30 was not the constraint; nothing about widening the window would have helped.
+
+So the same measurement that exonerates a reranker can also convict it. Checking whether the
+right document is *in* the candidate set tells you which stage owns the problem, and both
+answers are common:
+
+| Recall@K | Top-1 accuracy | Where the problem is |
+|---|---|---|
+| Low | Low | Retrieval — reranking cannot reach what was never fetched |
+| High | Low | Ranking — the candidate set is fine, the ordering judgment is hard |
+| High | High | Neither |
+
+Legal citation matching lands in the second row because relevance there is propositional rather
+than topical: the gold passage must establish the specific rule the query invokes, and a
+passage on the same doctrine is a deliberate near-miss.
 ## Topics
 
 - [[Reasoning Reranking]] — the frontier of LLM / generative / reasoning rerankers

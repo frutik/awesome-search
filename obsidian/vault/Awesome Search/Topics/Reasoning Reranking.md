@@ -1,18 +1,31 @@
 ---
 type: topic
-title: "Reasoning Reranking"
-aliases: ["LLM Reranking", "Generative Reranking", "LLM Rerankers", "Reasoning Rerankers"]
-tags: [topic, reranking, llm, ranking, neural-ir, frontier]
-related_concepts: [Reranking, Cross-Encoder, RankGPT, RankLLaMA, MonoT5, LLM as Judge, Late Interaction, Listwise Relevance Evaluation]
-related_topics: [Frontier of Search 2026, Conversational and Agentic Search, Search Quality Assurance]
-articles:
-  - "[[When Reranking Becomes a System Boundary]]"
-  - "[[Cross-Encoders ColBERT and LLM-Based Re-Rankers]]"
-  - "[[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]]"
-  - "[[Using Cross-Encoders as Reranker in Multistage Vector Search]]"
-  - "[[Multi-Stage Ranking]]"
-companies: [Cohere]
-people: [Ravindra Harige]
+title: Reasoning Reranking
+aliases:
+  - LLM Reranking
+  - Generative Reranking
+  - LLM Rerankers
+  - Reasoning Rerankers
+tags:
+  - topic
+  - reranking
+  - llm
+  - ranking
+  - neural-ir
+  - frontier
+related_concepts: '["Reranking", "Cross-Encoder", "RankGPT", "RankLLaMA",
+  "MonoT5", "LLM as Judge", "Late Interaction", "Listwise Relevance Evaluation",
+  "Calibrated Relevance Probability"]'
+related_topics:
+  - Frontier of Search 2026
+  - Conversational and Agentic Search
+  - Search Quality Assurance
+articles: '["[[When Reranking Becomes a System Boundary]]", "[[Cross-Encoders
+  ColBERT and LLM-Based Re-Rankers]]", "[[LLM-as-a-Judge When to Use Reasoning
+  CoT and Explanations]]", "[[Using Cross-Encoders as Reranker in Multistage
+  Vector Search]]", "[[Multi-Stage Ranking]]", "[[Hev meets Jev]]"]'
+companies: '["Cohere", "TypeSafe", "Voyage AI", "Mixedbread"]'
+people: '["Ravindra Harige", "Hev"]'
 created: 2026-06-18
 ---
 
@@ -46,6 +59,33 @@ Rerankers only need to score ~100–1000 surviving candidates, so they can affor
 
 Pointwise vs. pairwise vs. listwise is the same axis explored in classic LTR (see [[Pointwise vs Pairwise vs Listwise Learning to Rank]]) — LLM rerankers re-instantiate it at the prompt level.
 
+### Structured-Decision Rerankers
+
+A newer variant sidesteps generation entirely. Instead of prompting a model to *emit* a
+permutation or a "true"/"false" token, a structured-output model is asked one typed
+true-or-false question per candidate against a shared state, and answers each independently
+with a probability. [[Jev]] ([[TypeSafe]]) is the first worked example in this vault; the
+benchmark is [[Hev meets Jev]].
+
+Why it matters here rather than as a footnote:
+
+- **No ranking training at all.** The model was not built as a reranker. Untuned, with a
+  deliberately generic prompt, it reached **0.501 mean nDCG@10** across three [[BEIR]] subsets
+  — against 0.504 for Voyage rerank-3, 0.486 for [[Cohere]] rerank-v3.5, 0.476 for
+  [[Mixedbread]] `mxbai-rerank-large-v2`, and 0.404 for the unreranked [[BM25]] order. A
+  corpus-specific prompt did no better than the generic one.
+- **[[Calibrated Relevance Probability|Calibrated output]].** The score is a probability, not a
+  logit — which none of the purpose-built rerankers return, and which [[NDCG]] cannot detect.
+- **Per-question independence** replaces the sliding-window machinery [[RankGPT]] needs, and
+  avoids the cross-document contamination that makes listwise ordering sensitive to candidate
+  order.
+
+The same source makes the complementary finding about *general* LLMs as listwise rerankers:
+they work, but on cost and latency rather than quality. On SciFact, `gpt-5.6-luna` with
+reasoning off scored 0.747 and Claude Opus 5 at low effort scored 0.756 — competitive with the
+specialists — but at 3.2 s and 5.0 s p50 respectively, against ~0.2 s, and at $2.36 and $94.68
+per 1,000 queries. Opus also declined to judge 12 of the 300 claims. That is the practical
+ceiling on the reasoning end of the spectrum in this table.
 ## Reranking in RAG and Agentic Pipelines
 
 In [[RAG]] and agentic systems the context window is the bottleneck, so reranking is where precision is won or lost — a reranker narrows 50–100 retrieved chunks to the best 3–5 before generation. This connects directly to the agentic frontier: purpose-built agentic models (e.g. [[SID-1]]) end their loop with a dedicated **rerank turn**, and distractor-aware evaluation ([[UDCG]]) argues the reranker's real job is removing harmful passages, not just ordering relevant ones.
@@ -70,6 +110,8 @@ The more capable the LLM reranker, the easier it is to mask weak retrieval — m
 - [[LLM as Judge]] — the same models scoring relevance/answers
 - [[Late Interaction]] · [[ColBERT]] — the multi-vector middle ground
 - [[Retrieval Pipeline]] — where reranking sits
+- [[Calibrated Relevance Probability]] — the output property standard reranker metrics never report
+- [[Jev]] · [[hev-rerank]] — the structured-decision reranker and its open implementation
 
 ## Related Topics
 - [[Frontier of Search 2026]] — reranking is one front of the agentic-era shift
@@ -82,6 +124,8 @@ The more capable the LLM reranker, the easier it is to mask weak retrieval — m
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]]
 - [[Using Cross-Encoders as Reranker in Multistage Vector Search]]
 - [[Multi-Stage Ranking]]
+- [[Hev meets Jev]] — [[Hev]]; structured-decision and LLM rerankers benchmarked against the purpose-built ones
+- [[Introducing System One Models & Jev]] — [[Diogo Almeida]]; the model class behind the structured-decision reranker above
 
 ## People
 - [[Ravindra Harige]] — the reranking-as-system-boundary analysis

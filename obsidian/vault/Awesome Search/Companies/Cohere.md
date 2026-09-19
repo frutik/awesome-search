@@ -1,11 +1,22 @@
 ---
 type: company
 category: technology-provider
-industry: [AI, NLP, enterprise AI]
-products: [Cohere Embed, Cohere Rerank (rerank-v3.5), Command LLM]
+industry:
+  - AI
+  - NLP
+  - enterprise AI
+products:
+  - Cohere Embed
+  - Cohere Rerank (rerank-v3.5)
+  - Command LLM
 search_domain: embedding models, cross-encoder reranking, multilingual retrieval
-tags: [company, technology-provider, reranking, embeddings]
+tags:
+  - company
+  - technology-provider
+  - reranking
+  - embeddings
 created: 2026-05-16
+website: https://cohere.com
 ---
 
 # Cohere
@@ -21,6 +32,7 @@ AI company specializing in enterprise NLP. Relevant to search primarily through 
 ## Articles
 
 - [[Multilingual Embedding Model Hybrid Search Reranking]] — Cohere rerank-v3.5 used in Elastic pipeline
+- [[Hev meets Jev]] — `rerank-v3.5` benchmarked on three [[BEIR]] subsets at **0.486 mean nDCG@10** and $2.00 per 1,000 queries; an untuned general decision model ([[Jev]]) matched or beat it on all three corpora at roughly a quarter of the price
 
 ## Related Concepts
 

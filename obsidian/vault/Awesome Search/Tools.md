@@ -13,6 +13,8 @@ The software landscape for building and evaluating search — engines, vector da
 ## Search engines
 - [[Elasticsearch]]
 - [[OpenSearch]]
+- [[Solr]]
+- [[Manticore Search]]
 
 ## Vector databases
 - [[FAISS]] — library (not a DB): reference ANN index implementations
@@ -28,6 +30,9 @@ The software landscape for building and evaluating search — engines, vector da
 - [[XGBoost]]
 - [[LightGBM]]
 - [[CatBoost]]
+- [[ONNX]] — model interchange format and runtime for serving ranking/embedding models
+- [[Jev]] — structured-decision model usable as a calibrated reranker, with no ranking training
+- [[hev-rerank]] — minimal open-source reranker wrapper around [[Jev]]
 
 ## Query tuning & evaluation
 - [[Querqy]] — rules-based query rewriting
@@ -38,6 +43,10 @@ The software landscape for building and evaluating search — engines, vector da
 - [[Rated Ranking Evaluator]] — CI/CD-oriented offline evaluation library for Solr/Elasticsearch (Sease)
 - [[ann-benchmarks]] — the standard recall-vs-QPS comparison across ANN implementations; blind to indexing cost and CRUD support
 - [[eland]] — Python/ML interface for Elasticsearch
+- [[Releval]]
+- [[OpenSearch Relevance Agent]]
+- [[Langfuse]] — LLM/agent tracing with judged scores attached to traces
+- [[Jevals]] — confidence-gated eval framework graded by a calibrated decision model
 
 ## Postgres-based search
 - [[PostgreSQL]]
@@ -54,8 +63,19 @@ The software landscape for building and evaluating search — engines, vector da
 - [[qdrant-sparse-finetune]] — [[SPLADE]] fine-tuning on a product catalog, with synthetic query generation and hard-negative mining
 - [[qdrant-relevance-feedback]] — fits the scoring parameters for [[Qdrant]]'s index-native [[Relevance Feedback]] query
 
+## RAG & LLM frameworks
+- [[LlamaIndex]]
+- [[LangChain]]
+- [[Haystack (deepset)]]
+- [[DSPy]]
+- [[AutoRAG]]
+- [[RAGAS]] — RAG-specific evaluation metrics
+
 ## Other
 - [[SID-1]]
+- [[Embabel]]
+- [[Embabel DICE]]
+- [[django-dice]]
 
 ## Related
 - [[Topics]] · [[Concepts]] · [[Case Studies]] · [[People]]

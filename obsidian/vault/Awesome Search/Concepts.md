@@ -11,74 +11,74 @@ created: 2026-06-19
 The IR fundamentals that underpin everything in search. Don't try to read all of these at once — for a guided foundation order, see [[How to Start a Career in Search]]. If you learn only three: [[BM25]], [[Precision and Recall]], and how to measure a ranking change ([[NDCG]] + [[Judgment Lists]]).
 
 ## A
-- [[A-B Testing for Search]] · [[ACORN-1]] · [[APD]] · [[ASH]] · [[Approximate Nearest Neighbor Search]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
+- [[A-B Testing for Search]] · [[ACORN-1]] · [[Adversarial Relevance Judgment]] · [[Agentic Memory]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[ASH]] · [[Asymmetric Re-ranking]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
 
 ## B
-- [[BBQ]] · [[BERT]] · [[BM25]] · [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[Brute-Force Vector Search]]
+- [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bayesian Optimization]] · [[BBQ]] · [[BERT]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[BM25]] · [[Box Embedding]] · [[Brute-Force Vector Search]]
 
 ## C
-- [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[ColPali]] · [[Collocations]] · [[Compute-Storage Disaggregation]] · [[Consistency Filtering]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Contrastive Learning]] · [[Conversational Search]] · [[Cross-Encoder]]
+- [[Calibrated Relevance Probability]] · [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[Collocations]] · [[ColPali]] · [[Compositional Embeddings]] · [[Compositional Queries]] · [[Compute-Storage Disaggregation]] · [[Concept Vectors]] · [[Consistency Filtering]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Contrastive Learning]] · [[Conversational Search]] · [[Cross-Encoder]]
 
 ## D
-- [[Dense Embeddings]] · [[Dense Passage Retriever]] · [[Dense Vector Retrieval]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Diversity Metrics]]
+- [[Denormalization for Search]] · [[Dense Embeddings]] · [[Dense Passage Retriever]] · [[Dense Vector Retrieval]] · [[DICE]] · [[Differentiable Search Index]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Distribution-Based Score Fusion]] · [[Diversity Metrics]]
 
 ## E
-- [[ELSER]] · [[Economics of Search]] · [[Embedding Fine-tuning]] · [[Embeddings]]
+- [[Economics of Search]] · [[ELSER]] · [[Embedding Fine-tuning]] · [[Embeddings]] · [[ERR]] · [[Exploration vs Exploitation]]
 
 ## F
-- [[FLAN-T5]] · [[Faceted Search]] · [[Feature Store]] · [[Full-Text Search]]
+- [[Faceted Search]] · [[Feature Store]] · [[Federated Search]] · [[FLAN-T5]] · [[Full-Text Search]]
 
 ## G
-- [[GGUF]]
+- [[Gaussian Embedding]] · [[Generative Retrieval]] · [[GGUF]] · [[GraphRAG]]
 
 ## H
-- [[HNSW]] · [[Hard Negative Mining]] · [[Hashing Trick]] · [[Hit Rate at K]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
+- [[Hallucination Detection]] · [[Hard Negative Mining]] · [[Hashing Trick]] · [[HippoRAG]] · [[Hit Rate at K]] · [[HNSW]] · [[Hybrid Search]] · [[Hypothetical Document Embeddings]]
 
 ## I
-- [[ITQ]] · [[IVF]] · [[Implicit Judgments]] · [[Impression Bias]] · [[Intent Drift]] · [[Interleaving]] · [[Isolated Feedback Loops]]
+- [[Implicit Judgments]] · [[Impression Bias]] · [[Intent Drift]] · [[Inter-Annotator Agreement]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[ITQ]] · [[IVF]]
 
 ## J
 - [[Judgment Lists]]
 
 ## K
-- [[Keywords Extraction]] · [[Knowledge Distillation]] · [[Knowledge Graph Search]]
+- [[Kendall Rank Correlation]] · [[Keywords Extraction]] · [[Knowledge Distillation]] · [[Knowledge Graph Search]]
 
 ## L
-- [[LSH]] · [[LLM as Judge]] · [[LTR Feature Engineering]] · [[LambdaLoss]] · [[LambdaMART]] · [[Late Interaction]] · [[Learned Sparse Retrieval]] · [[Learning to Rank]] · [[Linear Score Combination]] · [[Listwise Relevance Evaluation]] · [[LoRA]]
+- [[LambdaLoss]] · [[LambdaMART]] · [[Late Interaction]] · [[Learned Sparse Retrieval]] · [[Learning to Rank]] · [[Levels of Judge Agreement]] · [[Linear Score Combination]] · [[Listwise Relevance Evaluation]] · [[LLM as Judge]] · [[LLM Guardrails]] · [[Long-Context RAG]] · [[LoRA]] · [[LSH]] · [[LTR Feature Engineering]]
 
 ## M
-- [[MAP]] · [[MMR]] · [[MRR]] · [[MUVERA]] · [[Matryoshka Embeddings]] · [[Modality Gap]] · [[MonoT5]] · [[Multimodal Embeddings]] · [[miniCOIL]]
+- [[MAP]] · [[Matryoshka Embeddings]] · [[miniCOIL]] · [[MMR]] · [[Modality Gap]] · [[Model Context Protocol]] · [[MonoT5]] · [[MRR]] · [[Multimodal Embeddings]] · [[MUVERA]]
 
 ## N
-- [[NDCG]]
+- [[NDCG]] · [[Needle in a Haystack Test]]
 - [[Neural Click Models]]
 
 ## O
 - [[Out-of-Time Validation]] · [[Out-of-Vocabulary]]
 
 ## P
-- [[PCA]] · [[PEFT]] · [[PROMPTAGATOR]] · [[Pairwise Relevance Evaluation]] · [[Personalization]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Purpose-Built Agentic Search Models]]
+- [[Pairwise Relevance Evaluation]] · [[PCA]] · [[PEFT]] · [[Personalization]] · [[Poincaré Embedding]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Prompt Compression]] · [[Prompt Sensitivity]] · [[PROMPTAGATOR]] · [[Purpose-Built Agentic Search Models]]
 
 ## Q
-- [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
+- [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]] · [[Query Routing]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
 
 ## R
-- [[RAG]] · [[RaBitQ]] · [[RankGPT]] · [[RankLLaMA]] · [[RankNet]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[Reciprocal Rank Fusion]] · [[Reinforcement Learning for Search]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]]
+- [[RaBitQ]] · [[RAG]] · [[RankGPT]] · [[Ranking Objectives]] · [[Ranking Signal Selection]] · [[RankLLaMA]] · [[RankNet]] · [[Reciprocal Rank Fusion]] · [[Region-Based Representation]] · [[Reinforcement Learning for Calibrated Decisions]] · [[Reinforcement Learning for Search]] · [[Relational Transformer]] · [[Relative Score Fusion]] · [[Relevance Feedback]] · [[Reranking]] · [[Results Boosting]] · [[Results Merchandising]] · [[Retrieval Pipeline]] · [[RQ-VAE]]
 
 ## S
-- [[SIRA]] · [[SPLADE]] · [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Sharding]] · [[Signal Downboosting]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]]
+- [[Scalar Quantization]] · [[Score Normalization]] · [[Search Architecture]] · [[Search Evaluation]] · [[Search Governance]] · [[Search Intent]] · [[Search Results Explainability]] · [[Search Scopes]] · [[Search Team]] · [[Search-R1]] · [[Semantic Boosting]] · [[Semantic IDs]] · [[Semantic Relevance]] · [[Semantic Search]] · [[Session-Based Evaluation]] · [[Set-Theoretic Embeddings]] · [[Sharding]] · [[Signal Downboosting]] · [[SIRA]] · [[Sparse Embeddings]] · [[Sparse Vector Retrieval]] · [[Spelling Correction]] · [[SPLADE]] · [[Staged Judging]] · [[Statistical Significance in Search Evaluation]] · [[Steering Vectors]] · [[Stopwords]] · [[Synonyms]] · [[Synthetic Query Generation]] · [[System One Model]]
 
 ## T
-- [[Task-Aware Embeddings]] · [[Text Chunking]] · [[Token Pooling]] · [[Tokenization]] · [[TurboQuant]] · [[t-SNE]]
+- [[t-SNE]] · [[Task-Aware Embeddings]] · [[Text Chunking]] · [[TIGER]] · [[Token Pooling]] · [[Tokenization]] · [[TurboQuant]]
 
 ## U
-- [[UDCG]] · [[UMAP]]
+- [[UDCG]] · [[UMAP]] · [[Unified Search Index]]
 
 ## V
-- [[Vector Filtering]] · [[Vector Quantization]] · [[Vector Similarity Metrics]]
+- [[Vector Filtering]] · [[Vector Index Updates]] · [[Vector Quantization]] · [[Vector Search Evaluation]] · [[Vector Similarity Metrics]]
 
 ## W
-- [[WAND]] · [[Wormhole Vectors]]
+- [[WAND]] · [[Word2Box]] · [[Word2Vec]] · [[Wormhole Vectors]]
 
 ## Z
 - [[Zero Results]] · [[Zero-Shot Retrieval]]

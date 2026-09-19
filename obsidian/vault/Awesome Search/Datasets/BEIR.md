@@ -1,6 +1,9 @@
 ---
-title: "BEIR"
-aliases: ["BEIR benchmark", "Benchmarking-IR", "BEIR suite"]
+title: BEIR
+aliases:
+  - BEIR benchmark
+  - Benchmarking-IR
+  - BEIR suite
 tags:
   - dataset
   - benchmark
@@ -9,9 +12,13 @@ tags:
   - search-evaluation
 type: dataset
 source: UKP Lab / TU Darmstadt (Thakur et al., 2021)
-domain: heterogeneous — 9 retrieval tasks, 18 zero-shot datasets (+ MS MARCO as training corpus)
+domain: heterogeneous — 9 retrieval tasks, 18 zero-shot datasets (+ MS MARCO as
+  training corpus)
 website: https://github.com/beir-cellar/beir
 created: 2026-07-29
+related_concepts: '["Zero-Shot Retrieval", "NDCG", "Search Evaluation",
+  "Judgment Lists", "BM25", "Dense Vector Retrieval", "Learned Sparse
+  Retrieval", "Reranking"]'
 ---
 
 # BEIR
@@ -80,6 +87,12 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[How to Tune Hybrid Search in Qdrant]] — ArguAna, SciFact, and DBPedia-entity used (alongside
   non-BEIR WANDS and CodeSearchNet) to compare [[Reciprocal Rank Fusion|RRF]] against
   [[Distribution-Based Score Fusion|DBSF]] and tune RRF's `k`/weights
+- [[Hev meets Jev]] — a **three-subset reranking bake-off** (SciFact, NFCorpus, FiQA) over a
+  shared [[BM25]] top-30 shortlist: hosted rerankers, a local cross-encoder, and general LLMs
+  all permuting the same candidates, scored on nDCG@10 with paired bootstrap over queries. A
+  clean example of BEIR used as a *controlled* comparison rather than a leaderboard — and of
+  its contamination caveat stated plainly, since every model in the table may have seen these
+  public corpora
 
 ## Related Concepts
 

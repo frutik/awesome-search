@@ -16,6 +16,8 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Managing a Search Team]]
 - [[Understaffed Search Team]]
 - [[Search Consultancy]]
+- [[Search Communities]]
+- [[Women of Search]]
 - [[Economics of Search]]
 - [[Books]]
 - [[Courses]]
@@ -39,9 +41,14 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Synonyms and Vocabulary Management]]
 - [[Autocomplete and Autosuggest]]
 - [[Personalization in Search]]
+- [[Relevance Evaluation Tools Compared]]
+- [[Retrieval Benchmarks and Leaderboards]]
+- [[Model Selection and Fine-Tuning Evaluation]]
+- [[Embedding Models Compared]]
 
 ## Verticals & applications
 - [[E-commerce Search]]
+- [[Tuning BM25 for E-commerce Search]]
 - [[Two-Sided Marketplace Ranking]]
 - [[Enterprise Search]]
 - [[Multilingual Search]]
@@ -64,11 +71,15 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Vector Search Tradeoffs]]
 - [[Dimensionality Reduction vs Quantization]]
 - [[PCA vs t-SNE for Retrieval]]
+- [[Agentic Memory for Search Personalization]]
+- [[Federated vs Unified Search]]
+- [[Migration between Search Engines]]
 
 ## The frontier
 - [[Frontier of Search]]
 - [[Frontier of Search 2025]]
 - [[Frontier of Search 2026]]
+- [[Interaction Paradigms]]
 
 ## Lighter reading
 - [[Fun and Philosophy]]

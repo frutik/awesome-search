@@ -11,6 +11,7 @@ created: 2026-06-19
 Field reports on how real teams built, scaled, and fixed search in production — with the constraints and dead-ends textbooks omit. See also the curated [[MOC - Case Studies]].
 
 - [[Airbnb - ML-Powered Experiences Ranking]] — ML ranking and the data flywheel
+- [[Bonsai - Designing Search for a Relational Database]]
 - [[Canva - Search Pipeline Modernization]] — modernizing a legacy search pipeline
 - [[Etsy - Search Quality and Query Understanding]] — query understanding in a long-tail marketplace
 - [[foodpanda - Classifying 300K Noisy Search Terms Across 16 Markets]] — multilingual query classification and the 37% "Others" bucket

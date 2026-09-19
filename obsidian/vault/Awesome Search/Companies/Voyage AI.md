@@ -28,6 +28,7 @@ Referenced in [[Erik Hatcher]]'s [[Hybrid Search Blueprint Series Semantic Boost
 
 ## Articles
 - [[Hybrid Search Blueprint Series Semantic Boosting]]
+- [[Hev meets Jev]] — `rerank-3` is the strongest model in that three-corpus [[BEIR]] comparison, at **0.504 mean nDCG@10** and $0.50 per 1,000 queries, with p50/p95 of 185 ms / 287 ms; it edges out an untuned general decision model ([[Jev]], 0.501) by a hair on quality and price, while keeping a much tighter latency tail
 
 ## Key Concepts
 - [[Dense Vector Retrieval]]
