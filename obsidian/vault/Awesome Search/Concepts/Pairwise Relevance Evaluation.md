@@ -94,3 +94,4 @@ See [[Classic ML to Cope with Dumb LLM Judges]] for the full experiment.
 ## People
 
 - [[Doug Turnbull]] — explored LHS/RHS prompt variants and ML ensembling of pairwise judges
+- [[Doug Turnbull]] — reads [[Jev]] as what makes pairwise judgment cheap enough to prefer; see [[Reception of Jev]]

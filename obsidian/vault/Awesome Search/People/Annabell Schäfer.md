@@ -42,3 +42,4 @@ more money.
 ## Related Notes
 
 - [[Langfuse]] · [[Jev]] · [[TypeSafe]]
+- [[Reception of Jev]] — where this piece sits in the wider reaction

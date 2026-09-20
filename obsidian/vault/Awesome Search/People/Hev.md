@@ -54,3 +54,4 @@ network included.
 ## Related Topics
 
 - [[Reasoning Reranking]] · [[Retrieval Benchmarks and Leaderboards]]
+- [[Reception of Jev]] — where this benchmark sits in the wider reaction

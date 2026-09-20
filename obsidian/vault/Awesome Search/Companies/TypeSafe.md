@@ -96,3 +96,17 @@ environment, and its 32k-token request budget bounds rerank depth at roughly 50 
 ## Related Topics
 
 - [[Reasoning Reranking]]
+
+## How the Pricing Claim Reads Under Audit
+
+The launch's sharpest number is a 238x lower input price than Claude Fable 5.1.
+[[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision|Sajith K]] checked
+it — $10.00 against $0.042 per million input tokens — and found the arithmetic exactly right,
+while pointing out that the comparator is a frontier model at the top of the price curve rather
+than the model anyone would actually use for classification work. Against Claude Haiku 4.5 at
+$1.00 per million, the gap is roughly 24x. Still a large margin, and still not the headline
+number. His verdict on the launch as a whole is that the speed, the cost and the novelty of the
+category are real, while the marketing runs about ten times ahead of the evidence — something he
+credits the company with half-admitting.
+
+See [[Reception of Jev]].

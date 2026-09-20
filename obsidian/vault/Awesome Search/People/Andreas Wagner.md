@@ -69,3 +69,9 @@ Where the Three Pillars framework answers *what quality means*, this answers *ho
 - [[Diversity Metrics]] — discovery pillar
 - [[NDCG]] — ranking/relevance pillar
 - [[Query Understanding]] — findability pillar
+
+## On Jev
+
+Grants [[Jev]] a promising path toward computational efficiency while arguing it does not
+mitigate the problem that matters — models asserting incorrect outputs with high confidence.
+See [[Reception of Jev]].

@@ -69,3 +69,10 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 - [[Classic ML to Cope with Dumb LLM Judges]] — combining many dumb LLM judges via decision tree to improve precision
 - [[Don't Classify, Hallucinate]] — hypothetical classifications: let a cheap LLM invent a category, resolve it into the real taxonomy by embedding similarity; see [[Query Classification]]
 - [[Agentic search models]] — the case for [[Purpose-Built Agentic Search Models]] for "the last 20%"; see topic [[Frontier of Search 2026]]
+
+## On Jev
+
+Reads [[Jev]] through his standing argument for [[Pairwise Relevance Evaluation|pairwise]]
+relevance judgment — that deciding one result beats another is easier than answering whether
+something is a 3/5 or a 4/5. LLMs had made that feasible but slow; a model tuned for yes/no
+decisions is what makes it compelling. See [[Reception of Jev]].

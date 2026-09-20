@@ -33,21 +33,34 @@ The query and document are concatenated (with separator tokens) and passed throu
 | Speed | Slow — O(num_candidates) at query time |
 | Quality | Highest — rich interaction captures subtle relevance |
 
-### The Score Is a Logit, Not a Probability
+### The Score Is Ordinal, Not Calibrated
 
-A cross-encoder's output is an uncalibrated score. Its ordering within one candidate list is
-meaningful; its absolute magnitude is not. Any use that needs a *cutoff* rather than an
-*order* — pruning an overfetched pool, gating a downstream [[RAG]] step, declaring
+A cross-encoder's score is ordinal. Its ordering within one candidate list is meaningful; its
+absolute magnitude is not. Any use that needs a *cutoff* rather than an *order* — pruning an
+overfetched pool, gating a downstream [[RAG]] step, declaring
 [[Zero Results|no relevant results]], comparing scores across shards or across the lexical and
 vector legs of [[Hybrid Search]] — therefore requires a threshold tuned per corpus, and
 re-tuned whenever the corpus, retriever, or model version changes.
 
+This follows from how rerankers are trained and selected, not from the architecture. A
+cross-encoder can end in a sigmoid and be fit with binary cross-entropy, which is a proper
+scoring rule and a supported loss in [[Sentence Transformers]]; the `ms-marco` checkpoints emit
+a raw value roughly in [-10, 10] that the caller may squash into [0, 1] at will. What the
+squashed number is calibrated *to* is the training distribution — one positive against hard
+negatives mined from a lexical top-k — whose base rate is an artifact of the sampling scheme
+rather than of any corpus. Nor would anything downstream notice calibration's absence:
+[[NDCG]] and [[MRR]] are invariant to monotonic score transforms, so a perfectly ordered,
+arbitrarily miscalibrated model scores identically on every reranker leaderboard. The precise
+claim is that a *ranking-trained* cross-encoder's score is not a probability — which covers the
+checkpoints and rerank APIs in general use, but is not a limit of the architecture.
+
 This is the gap a [[Calibrated Relevance Probability]] closes, and it is the axis on which
 [[Hev meets Jev]] argues a probability-valued model such as [[Jev]] beats a cross-encoder even
 when their nDCG@10 is level: on that benchmark's SciFact subset, documents scored above 0.9
-were judged relevant 76% of the time, against a cross-encoder logit that means nothing on its
-own. Note that [[NDCG]] and [[MRR]] are invariant to monotonic score transforms, so standard
-reranker leaderboards never surface this difference.
+were judged relevant 76% of the time, against a MiniLM-L6 logit carrying no such reading. The
+other route to the property is post-hoc — Platt scaling or isotonic regression on a held-out
+judged set — which works on a cross-encoder too, at the cost of exactly the per-corpus
+labelling the property was meant to remove.
 
 ## Role in Multi-Stage Retrieval
 

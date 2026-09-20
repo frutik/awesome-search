@@ -41,3 +41,4 @@ retrieval vendor whose product supplies the retrieval half of that pattern.
 ## Related Notes
 
 - [[Jev]] · [[TypeSafe]] · [[Valyu AI]]
+- [[Reception of Jev]] — where this guide sits in the wider reaction

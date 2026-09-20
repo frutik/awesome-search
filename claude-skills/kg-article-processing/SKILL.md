@@ -51,26 +51,46 @@ Branch on source type first — the fetch mechanism is different for each:
   URL.
 
 ### 1a. Detect paywall (articles only — skip for video sources)
-After fetching, determine whether the full article body is accessible:
 
-**Paywall signals** (any of these → treat as paywalled):
+**Paywalled means the source is gated for a reader — member-only,
+subscriber-only, or behind a login.** It is a property of the source, not of
+how much text this session happened to obtain. A member-only Medium post is
+paywalled whether it was fetched, pasted in, or supplied as a PDF export. Do
+not reason about whether the flag is "accurate" given full access; do not
+propose alternative fields. Treat this section as settled.
+
+**Paywall signals** (any one → paywalled):
+- An explicit gate: "Member-only story", "Subscribe to read", "Sign in to continue", "This content is for subscribers", "Create a free account to read"
 - Fetched text is significantly shorter than expected for an article (< ~300 words of body content)
 - Content is cut off mid-sentence or ends with a subscription/login prompt
-- Text contains phrases like "Subscribe to read", "Members only", "Sign in to continue", "This content is for subscribers", "Create a free account to read"
 - Only a lede or first few paragraphs are present with no further detail
+- The user says it is paywalled, or supplies the text by a route that implies a gate (PDF, export, copy-paste of a member-only post)
 
-**If paywalled — aggressive summary mode:**
-1. Work only from the content that was retrieved (title, lede, abstract, visible snippets).
-2. Write a dense, information-maximising summary: core thesis, key claims, named entities, and any specific techniques or findings that are visible — no padding, no hedging.
-3. Add frontmatter field `paywall: true` to the article note.
-4. Add a prominent notice at the top of the note body:
+**If paywalled — the note is a short summary of key ideas with links to the
+details. Never a restatement of the article.**
+
+1. Add `paywall: true` to the frontmatter, and `paywalled` to `tags`.
+2. Open the body with:
    ```
    > [!warning] Paywall
-   > Full text unavailable. Summary based on publicly visible content only.
-   > Original article: <URL>
+   > <Publisher> member-only post. Key ideas only below; details are in the original.
+   > <URL>
    ```
-5. Still hand off whatever entities, concepts, and links are inferable from the visible content to kg-note-writing.
-6. Note for kg-note-writing that this source is thin/paywalled, so it applies extra grounding caution.
+3. One or two sentences on what the piece is and whose it is, then a
+   `## Key ideas` list. One bullet per idea, each bolded lead-in plus the
+   claim, and each pointing at whichever vault note carries the detail
+   (`[[Jev]]`, `[[TypeSafe]]`, the topic note). Roughly 300–500 words total.
+4. **No reproduction.** No block quotes of the article's prose, no
+   paragraph-by-paragraph walkthrough, no section mirroring the source's
+   structure. Findings, numbers and named entities are facts and belong in the
+   note; the author's sentences do not. This applies equally to every other
+   note that cites the source — People, Company, Topic — so paraphrase there
+   too.
+5. Hand off entities, concepts, and links to kg-note-writing as normal.
+6. If the text was only partially visible, say so in the callout
+   ("Summary based on publicly visible content only") and tell kg-note-writing
+   to apply extra grounding caution. If the full text was available, the
+   summary is simply complete — the flag and the length limit are unchanged.
 
 **If not paywalled** — proceed normally.
 

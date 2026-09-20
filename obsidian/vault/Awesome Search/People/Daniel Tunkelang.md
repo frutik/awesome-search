@@ -44,3 +44,9 @@ Principal engineer and search expert; author of the [Query Understanding](https:
 - [[Search Intent]]
 - [[A-B Testing for Search]]
 - [[Click Signals]]
+
+## On Jev
+
+Posted a hands-on first impression of [[Jev]] within days of its launch: frontier-model quality
+at less than 1% of the cost, fast, and restricted to classification and regression — a
+constraint he states and then accepts rather than contests. See [[Reception of Jev]].

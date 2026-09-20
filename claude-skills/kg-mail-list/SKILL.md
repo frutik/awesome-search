@@ -63,6 +63,12 @@ this mirrors `kg-history`'s own ban on totals and tallies (hard
 rule 8), extended here to the heading count too, since a mail reader has even
 less use for bookkeeping than a vault reader does.
 
+What this does **not** strip: a number that belongs to the material. A sample
+size, corpus size, dataset count, score, latency or price carried in the prose
+is part of the claim it appears in — often the part that keeps it honest — and
+the paragraph is copied unedited in any case. Strip what counts the work; keep
+what scopes a finding.
+
 ## Link conversion
 
 Same rule as `kg-readme-writer`: every `[[wikilink]]` becomes a vanilla

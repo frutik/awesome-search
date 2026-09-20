@@ -40,3 +40,4 @@ which retrieved chunk to admit — rather than governing it with heuristics
 ## Related Notes
 
 - [[Jevals]] · [[Jev]] · [[TypeSafe]]
+- [[Reception of Jev]] — where this piece sits in the wider reaction

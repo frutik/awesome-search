@@ -75,6 +75,15 @@ true and what makes it false, answered as a probability from 0 to 1. It is the p
 makes Jev usable as a reranker — "is this document relevant to this query?" is a Noul, and
 thirty documents are thirty Nouls against one state.
 
+A Noul value is **not** a confidence score, and
+[[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision|Sajith K]] flags
+the conflation as a threshold-wrecking trap. A Noul of 0.999 says the probability the statement
+is true is 99.9%; a Noul of 0.5 is a genuine coin-flip, not "medium urgency". Confidence is a
+separate quantity, derived from how peaked the output distribution is, and the Choice and Score
+types return it as its own field where a Noul returns only the value. A pipeline that gates on
+a Noul is thresholding a probability of truth; one that gates on `confidence` is thresholding
+the model's certainty about its own answer. They are not interchangeable.
+
 ## Known Failure Modes
 
 TypeSafe publishes a "jaggedness" page listing what the model is bad at; the clearest summary
@@ -106,6 +115,7 @@ compute exactly, and don't hide several judgments inside one question.
 - **The request budget is documented inconsistently.** [[Using TypeSafe's Jev for Evals]] reports the models page giving 64k per request and 32k for state plus the longest question, while OpenRouter lists 32K; [[Hev meets Jev]] worked to a 32k budget holding roughly 50 passages. The 32k state figure is the one the published rerank depths are consistent with — but verify against current docs before designing around it.
 - Access is waitlisted, but the model is also served through OpenRouter and the Vercel AI Gateway.
 - **It cannot abstain.** A forced binary with no `unknown` option makes it pick the least wrong answer rather than decline — an escape hatch has to be an explicit option in the question.
+- **A third reading of the budget.** [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] states it as ~32,000 tokens *shared between state and questions*, alongside the 255 Choice cardinality cap — consistent with the 32k state figure above, and with text-structured state only (no images). That piece also notes what is not published at all: p95/p99 latency, calibration-under-distribution-shift data, and any SLA.
 ## Use as a Reranker
 
 [[Hev meets Jev]] benchmarks this directly. The state is the query plus a top-30 shortlist
@@ -164,3 +174,5 @@ cookbook covers.
 - [[TypeSafe Cookbook - Re-ranking]] — the vendor's reranking walkthrough on [[CLERC]]
 - [[Jevals]] — an open-source eval framework using it as a confidence-gated judge
 - [[Jev - The Most Interesting Model Released This Year]] — [[Sai Yashwanth]]; the agent-loop case for keeping the uncertainty
+- [[Reception of Jev]] — what named practitioners said about it, pro and con
+- [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] — [[Sajith K]]; the price claim checked, and the decision-layer-not-substitute conclusion

@@ -82,7 +82,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Books]] · [[Courses]]
 
 ### Strategy & Meta
-[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]]
+[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]] · [[Reception of Jev]]
 
 ---
 
@@ -194,7 +194,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
-**S** — [[Sai Yashwanth]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
+**S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
 **T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 

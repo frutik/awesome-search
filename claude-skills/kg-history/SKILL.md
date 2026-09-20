@@ -105,7 +105,13 @@ open the notes.>
    the tension, the ladder of options, the counter-intuitive result — in enough
    detail to be worth reading. Do not reproduce the notes: no walkthrough of
    every section, no stacked metrics, no quotes. One or two concrete figures are
-   fine when they *are* the point.
+   fine when they *are* the point — but a figure carries the condition it holds
+   under, in the same sentence or not at all. Sample size, corpus, the fact that
+   it is one experiment: `top-1 moved from 5% to 18%` without `over 40 queries`
+   reads as a general result and is not one. A count that scopes a claim is the
+   one count hard rule 8 does not reach, because it describes the material
+   rather than the work. The same applies to a property a source only
+   *asserts*: if the note qualifies it, the entry cannot state it flat.
 7. **No deliberation, ever.** Nothing about options weighed, alternatives
    rejected, naming or filing calls, what was left unwritten, what a search
    turned up, or how sources were reconciled. The reader cannot see the roads
