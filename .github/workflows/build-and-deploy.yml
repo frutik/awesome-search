@@ -7,6 +7,7 @@ on:
       - "obsidian/vault/**"
       - "fix-folder-pages.py"
       - "quartz-config/**"
+      - "google809756f8d6064bfc.html"
       - ".github/workflows/build-and-deploy.yml"
   workflow_dispatch:
     inputs:
@@ -53,6 +54,12 @@ jobs:
           cd quartz && npx quartz build --output ../web --directory ../obsidian/vault/Awesome\ Search && cd ..
           python3 fix-folder-pages.py web
           cp web/History.html web/index.html
+
+      - name: Copy Google Search Console verification file verbatim
+        # Quartz only emits pages it generates from the vault, so this file
+        # has to be dropped into web/ after the build, byte-for-byte — Google
+        # fetches it at the site root and matches its exact contents.
+        run: cp google809756f8d6064bfc.html web/google809756f8d6064bfc.html
 
       - name: Package web/ as a Pages artifact
         uses: actions/upload-pages-artifact@v3
