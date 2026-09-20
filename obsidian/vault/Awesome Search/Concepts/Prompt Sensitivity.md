@@ -30,6 +30,18 @@ Prompt sensitivity is the tendency of an [[LLM as Judge|LLM judge]] to produce m
 
 **Temperature 0 is not determinism.** Re-running the same prompt against the same model gives a distribution, not a point. Repeated runs are how you estimate that spread.
 
+**It moves calibration, not just labels.** [[Adapting Jev to Your Domain with GEPA]] rewrote a
+single instruction for [[Jev]] — 503 characters to 2,020 — and measured, on a fresh held-out
+split, F1 rising from 69.1% to 79.7% *and* [[Brier Score|Brier score]] falling 44.9%, with 10-bin
+[[Expected Calibration Error|ECE]] going from 0.142 to 0.069. The model and version were
+identical. This is the sharpest version of the problem: a reported calibration figure describes
+the prompt as much as the model, so "model X is well calibrated" is not a claim that can be made
+without the instruction attached.
+
+**And it is a lever, not only a hazard.** The same study reached those numbers by handing the
+rewrite to a [[Prompt Optimization|prompt optimizer]] ([[GEPA]]) with a metric, rather than
+authoring it. If the prompt is part of the instrument, it can be calibrated like one.
+
 ## Why It Matters for Evaluation
 
 Prompt sensitivity is one of the reasons a judge's conclusions can be unstable in ways an average agreement score never shows. It also underlies a broader worry from Faggioli et al. (2023): if a model defines relevance, and the model's definition shifts with wording, then relevance quietly becomes whatever the prompt happened to elicit.
@@ -49,6 +61,9 @@ The practical responses are the same ones that address judge variance generally:
 - [[Adversarial Relevance Judgment]] — the deliberate-manipulation counterpart to accidental sensitivity
 - [[Context Engineering]] — the broader practice of controlling what a model is given
 - [[Search Evaluation]] — where the instability shows up as unreliable conclusions
+- [[Prompt Optimization]] — the structural answer: search the wording against a metric
+- [[Brier Score]] · [[Expected Calibration Error]] — what a reworded prompt moves besides the labels
+- [[Calibrated Relevance Probability]] — a property that turns out to be partly prompt-dependent
 
 ## Related Articles
 
@@ -56,3 +71,4 @@ The practical responses are the same ones that address judge variance generally:
 - [[Benchmarking LLM-based Relevance Judgment Methods]] — [[Negar Arabzadeh]], [[Charles L. A. Clarke]]; the assessment paradigm as a first-class method choice
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; few-shot examples hurting, batching degrading local inference
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — [[Aparna Dhinakaran]]; prompt structure choices and their mixed evidence
+- [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; one prompt rewrite moving F1 ten points and halving calibration error

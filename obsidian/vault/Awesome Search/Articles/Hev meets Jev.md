@@ -228,3 +228,4 @@ hits = rerank(query, shortlist, top_n=10, threshold=0.1)
 - [[Introducing System One Models & Jev]] — the vendor announcement published the day before this benchmark; the primary source for why Jev's scores are calibrated
 - [[System One Model]] · [[Reinforcement Learning for Calibrated Decisions]] — the model class and the training method behind it
 - [[TypeSafe Cookbook - Re-ranking]] — the vendor's own reranking walkthrough, on [[CLERC]] rather than BEIR and using the single call shape
+- [[Adapting Jev to Your Domain with GEPA]] — the other independent measurement: calibration on a classification task, and the reminder that these numbers came from an untuned prompt

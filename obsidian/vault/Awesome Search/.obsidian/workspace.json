@@ -189,6 +189,13 @@
   },
   "active": "563af557fed436ef",
   "lastOpenFiles": [
+    "Concepts/Prompt Optimization.md",
+    "Concepts/Expected Calibration Error.md",
+    "Concepts/Brier Score.md",
+    "Datasets/ADE Corpus V2.md",
+    "Tools/GEPA.md",
+    "People/Praneeth Paikray.md",
+    "Articles/Adapting Jev to Your Domain with GEPA.md",
     "People/Sajith K.md",
     "History/2026.38.md",
     "Topics/Relevance Program Setup.md",
@@ -208,13 +215,6 @@
     "People/Diogo Almeida.md",
     "Concepts/Reinforcement Learning for Calibrated Decisions.md",
     "Concepts/System One Model.md",
-    "Articles/Introducing System One Models & Jev.md",
-    "People/Hev.md",
-    "Companies/Mixedbread.md",
-    "Tools/hev-rerank.md",
-    "Companies/TypeSafe.md",
-    "Tools/Jev.md",
-    "Concepts/Calibrated Relevance Probability.md",
     "Без назви"
   ]
 }

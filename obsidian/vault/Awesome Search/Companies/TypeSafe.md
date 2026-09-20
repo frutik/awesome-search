@@ -88,6 +88,7 @@ environment, and its 32k-token request budget bounds rerank depth at roughly 50 
 - [[Diogo Almeida]] — founder
 - [[How to Use Jev - A Practical Guide]] — [[Prosper Otemuyiwa]]; primitives, patterns, and a sceptical read of the benchmark
 - [[Using TypeSafe's Jev for Evals]] — [[Annabell Schäfer]]; the model as a rubric judge, via [[Langfuse]]
+- [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the latency and calibration claims measured from outside
 
 ## Related Concepts
 
@@ -110,3 +111,27 @@ category are real, while the marketing runs about ten times ahead of the evidenc
 credits the company with half-admitting.
 
 See [[Reception of Jev]].
+## How the Latency and Calibration Claims Read Under Measurement
+
+Two vendor figures have since been measured from outside, in
+[[Adapting Jev to Your Domain with GEPA]].
+
+**Latency.** TypeSafe's stated end-to-end range is 70–500 ms. [[Praneeth Paikray]] observed a
+client-side median of **14.69 s** (p95 15.62 s) over 505 requests, and **19.59 s** (p95 24.37 s)
+over 1,260 evaluations at up to 24 concurrent — with 12.35 s on a serial smoke test, so
+concurrency is not the explanation. He is explicit that he cannot separate model inference from
+transport and queueing, which makes this a reading of the hosted service in September 2026 rather
+than of the model. It is still one to two orders of magnitude from the published range, and the
+company publishes no p95/p99 figures or SLA against which to reconcile it.
+
+**Calibration.** The launch rests on probabilities you can threshold, trained for by
+[[Reinforcement Learning for Calibrated Decisions|RLCD]]. Measured at the default prompt on one
+classification task, [[Jev]] returned a 10-bin [[Expected Calibration Error|ECE]] of 0.173
+against 0.052 for a TF-IDF baseline, and log loss of 1.849 against 0.335 — with `confidence`
+returning exactly 1.0 on half the test set, ten of those answers wrong. The fair qualification is
+that optimizing the prompt cut ECE to 0.069, so the figure indicts the default instruction at
+least as much as the training method. The company has still published neither a reliability curve
+nor an ablation isolating RLCD.
+
+**Cost.** This one checks out. Input billing at $0.042/MTok produced totals of $0.00898 and
+$0.03067 for the two experiments, exactly as advertised.

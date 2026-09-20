@@ -37,6 +37,30 @@ The distribution of difficulty is extremely skewed. Most query-document pairs ar
 
 Cascading exploits that skew directly. It is the same reason [[Reranking]] works in serving: cheap recall over everything, expensive precision over a shortlist.
 
+## Measuring the Bands, Not the Metric
+
+The pattern is usually justified with an accuracy or F1 figure, which is the wrong quantity. What
+a staged setup actually buys is **queue reduction at an acceptable loss rate**, and that needs its
+own table.
+
+[[Adapting Jev to Your Domain with GEPA]] reports one, on literature screening rather than
+relevance judging, and the framing transfers directly. Thresholds are picked on a validation set,
+then the fresh test set is described in the terms an operator cares about:
+
+| Prompt | Cutoff | In review | Deprioritized | Positives deferred | Positive retention |
+|---|---|---|---|---|---|
+| Original | 0.400 | 106 | 194 | 4 | 93.4% |
+| Optimized | 0.400 | 78 | 222 | 6 | 90.2% |
+
+The optimized prompt is better on every classification metric — F1 69.1% → 79.7% — and *worse* on
+the quantity that decides whether it ships, since it defers two more true positives. Whether 28
+fewer items to read is worth those two is a policy question, and the metric table cannot answer
+it.
+
+One practical note from the same study. The threshold signal is only as fine as the validation
+positives: with 21 of them, deferring one clears a 95% retention target and deferring two fails
+it, so the cutoff is being chosen on a very coarse grid — and the optimized prompt, chosen at a
+cutoff that met the bar on validation, then retained 90.2% on the held-out split.
 ## Caveats
 
 - **Cheap-stage agreement is not correctness.** Two weak judges can be confidently wrong together, especially when they share a base model or training corpus. Correlated errors pass through the cascade unchallenged. Audit a sample of the auto-accepted pairs against human labels, not just the escalated ones.
@@ -55,6 +79,7 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 - [[Adversarial Relevance Judgment]] — the open question of whether cascades inherit exploitable weaknesses
 - [[Levels of Judge Agreement]] — what the cascade's quality should actually be validated against
 - [[Judgment Lists]] · [[Search Evaluation]]
+- [[Brier Score]] · [[Expected Calibration Error]] — whether the band boundaries mean what they claim
 
 ## Related Topics
 
@@ -67,3 +92,4 @@ Cascading exploits that skew directly. It is the same reason [[Reranking]] works
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; positions judge economics as an axis orthogonal to judge quality, and flags inherited bias as open
 - [[Using TypeSafe's Jev for Evals]] — the escalation bands expressed as cutoffs on a calibrated probability: act on the confident tail, route the ambiguous middle to a human, discard the rest
 - [[Jev - The Most Interesting Model Released This Year]] — the same escalation shape inside an agent loop; see [[Jevals]] for the implementation
+- [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the bands reported as a review-policy table rather than an F1 number

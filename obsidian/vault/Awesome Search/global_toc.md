@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Hallucination Detection]] · [[Needle in a Haystack Test]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Brier Score]] · [[Expected Calibration Error]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Prompt Optimization]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Hallucination Detection]] · [[Needle in a Haystack Test]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -101,7 +101,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Sentence Transformers]] · [[qdrant-sparse-finetune]] · [[qdrant-relevance-feedback]]
 
 ### RAG & LLM Frameworks
-[[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[AutoRAG]] · [[RAGAS]]
+[[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[GEPA]] · [[AutoRAG]] · [[RAGAS]]
 
 ### Relevance & Query Tooling
 [[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
@@ -152,7 +152,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[ADE Corpus V2]] · [[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
@@ -188,7 +188,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **O** — [[Omar Khattab]]
 
-**P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
+**P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
 **Q** — [[Quynh Nguyen]]
 

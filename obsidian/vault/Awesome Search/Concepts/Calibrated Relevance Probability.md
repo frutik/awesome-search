@@ -76,6 +76,18 @@ calibration of an existing scorer (Platt scaling, isotonic regression) is the cl
 alternative, at the cost of a held-out judged set per corpus — which is the per-corpus tuning
 the property was supposed to eliminate.
 
+Two metrics summarise that check. [[Expected Calibration Error]] averages the per-bucket gap
+between predicted and observed rates; [[Brier Score|Brier score]] takes the mean squared error of
+the probabilities directly. They answer different questions and are worth reporting together with
+log loss, which is the one that punishes *confident* mistakes hard enough to separate a fuzzy
+model from a dangerous one.
+
+A worked instance of exactly that separation: on a sentence-classification task,
+[[Jev]] scored Brier 0.156 against a TF-IDF baseline's 0.102 — bad but not alarming — while log
+loss came in at 1.849 against 0.335, five and a half times worse
+([[Adapting Jev to Your Domain with GEPA]]). The second number is the true description of the
+failure.
+
 ## In Practice
 
 A worked measurement appears in [[Hev meets Jev]], which uses [[Jev]] — a structured-output
@@ -126,6 +138,25 @@ The practical answer is the cheap one: spot-check calibration against a judged s
 the corpus changes, in the same spirit as [[Out-of-Time Validation]]. A calibrated score gives
 you a defensible starting threshold, not a permanent one.
 
+## Calibration Is Partly a Property of the Prompt
+
+A fourth limit, and the most actionable one. For a model that takes its question in natural
+language, how well-calibrated it is depends on **how you asked** — not only on how it was
+trained.
+
+[[Adapting Jev to Your Domain with GEPA]] separates the two. The same [[Jev]] version on the same
+300 sentences scored a 10-bin [[Expected Calibration Error|ECE]] of 0.142 under a hand-written
+instruction and 0.069 under one optimized against [[Brier Score|Brier score]] — [[Brier Score|Brier]]
+itself falling 44.9%. Nothing about the model changed. Roughly half the miscalibration was
+attributable to the wording.
+
+Two consequences. First, a vendor's calibration claim and a third party's calibration measurement
+can both be honest and disagree, because they are measuring different instructions
+([[Prompt Sensitivity]]). Second, calibration is a **tunable objective** rather than an inherited
+property: point a [[Prompt Optimization|prompt optimizer]] at a probability metric instead of an
+accuracy metric and you can move it deliberately. The catch is that this makes the prompt a
+fitted parameter — one that needs a held-out set, and that can learn a corpus's annotation
+conventions rather than the truth.
 ## Related Concepts
 
 - [[Reranking]] — the stage where these scores are produced
@@ -139,6 +170,9 @@ you a defensible starting threshold, not a permanent one.
 - [[Zero Results]] — the case an absolute threshold makes expressible
 - [[RAG]] — the pipeline where gating on confidence matters most
 - [[LLM as Judge]] — judges face the same calibration question
+- [[Brier Score]] · [[Expected Calibration Error]] — the metrics that make the property measurable
+- [[Prompt Optimization]] — calibration as something you tune, not inherit
+- [[Prompt Sensitivity]] — why two honest calibration measurements of one model can disagree
 
 ## Related Articles
 
@@ -147,6 +181,7 @@ you a defensible starting threshold, not a permanent one.
 - [[Using TypeSafe's Jev for Evals]] — the same property used for rubric verdicts, with three-band act/escalate/discard routing
 - [[How to Use Jev - A Practical Guide]] — the limit: calibration describes the verdict, not the evidence
 - [[TypeSafe Cookbook - Re-ranking]] — calibrated per-pair scoring on legal case retrieval
+- [[Adapting Jev to Your Domain with GEPA]] — the same model measured badly calibrated at its default prompt, and largely fixed by optimizing one
 
 ## Related Topics
 

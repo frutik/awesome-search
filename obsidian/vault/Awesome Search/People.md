@@ -56,7 +56,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Omar Khattab]]
 
 ## P
-- [[Peter Straßer]] · [[Piotr Mazurek]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
+- [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
 ## Q
 - [[Quynh Nguyen]]

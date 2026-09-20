@@ -43,10 +43,11 @@ DSPy is the direct structural answer to [[Prompt Sensitivity]] — if retrieval 
 
 - [[LangChain]] — the prompt-chaining approach DSPy positions against
 - [[RAGAS]] — evaluation, which DSPy optimizers need a metric from
+- [[GEPA]] — a reflective, Pareto-selecting optimizer built on the same "prompt is a parameter" premise
 
 ## Related Concepts
 
-- [[RAG]] · [[Prompt Sensitivity]] · [[Synthetic Query Generation]]
+- [[RAG]] · [[Prompt Sensitivity]] · [[Synthetic Query Generation]] · [[Prompt Optimization]]
 
 ## Related People
 

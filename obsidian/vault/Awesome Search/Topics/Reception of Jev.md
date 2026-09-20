@@ -54,6 +54,21 @@ making two deflating observations: that
 called calibrated RL, and that out-of-distribution behaviour will not match what people are used
 to from regular LLMs.
 
+[[Praneeth Paikray]] ran the most demanding of the independent tests
+([[Adapting Jev to Your Domain with GEPA]]), and is the only person so far to go at the
+calibration claim with a metric rather than an opinion. His posture is different from everyone
+else's in this note: not "is it good?" but "what does it take to make it good?" He measures the
+default prompt against a supervised baseline, finds the probabilities badly calibrated, and then
+fixes a large part of that with [[GEPA]] — F1 from 69.1% to 79.7%, [[Brier Score|Brier]] down
+44.9% on a fresh split, both with bootstrap intervals. He also reports median latencies of 14.69
+and 19.59 seconds against the vendor's claimed 70–500 ms, while saying he cannot separate
+inference from transport.
+
+The result cuts across the argument rather than joining a side. The sceptics are right that
+schema validity is not correctness, and he proves it with counts. The enthusiasts are right that
+the model is capable, and he shows it beating a fully supervised baseline zero-shot. What both
+camps missed is that they were arguing about an **untuned** artifact.
+
 ## The search people: what it changes about judging
 
 [[Doug Turnbull]] [read it](https://www.linkedin.com/feed/update/urn:li:activity:7506784161513316352/)
@@ -131,13 +146,22 @@ Three threads run under all of it.
 opposite verdicts. Bind the model to a task space and it is extraordinary; read it as a general
 model and the comparison is unfair. Nobody in the thread actually disagrees about the behaviour.
 
-**The missing calibration evidence.** **ActivePattern** asked for "benchmarks for Jev that
-demonstrate the value of calibrated uncertainty" and did not get them. This is the gap that
-matters most here, because calibration is the load-bearing claim: no paper, no reliability
-curve, no expected-calibration-error figure, no ablation separating RLCD from the architecture.
-The founder's answer was that the architecture is "close to the chest for now, but we have
-talked about writing a paper." The single public measurement remains Hev's, on one corpus —
-see [[Calibrated Relevance Probability]] for why that does not travel by itself.
+**The missing calibration evidence — now partly supplied.** **ActivePattern** asked for
+"benchmarks for Jev that demonstrate the value of calibrated uncertainty" and did not get them
+from the vendor, who still offers no paper, no reliability curve and no ablation separating RLCD
+from the architecture; the founder's answer was that the architecture is "close to the chest for
+now, but we have talked about writing a paper." Five days after launch,
+[[Praneeth Paikray]] supplied the missing figure from outside
+([[Adapting Jev to Your Domain with GEPA]]) — and it goes against the model. On sentence-level
+adverse-drug-event classification, Jev at its default prompt scored a 10-bin
+[[Expected Calibration Error|ECE]] of **0.173** against 0.052 for a TF-IDF baseline on the same
+300 examples, with log loss 1.849 against 0.335. Confidence came back at exactly 1.0 on half the
+test set, ten of those answers wrong. That is the sceptics' objection turned into a measurement,
+and it is the strongest evidence in this note for their reading rather than the vendor's. Two
+qualifications keep it from being a verdict: it is one task on one corpus, still leaving
+[[Calibrated Relevance Probability]] unestablished in general; and the same study cut ECE to
+0.069 by rewriting the prompt, which suggests the number measures the instruction at least as
+much as the model.
 
 **Prior art.** **janalsncm** noted that constrained generation over a fixed option set is not
 new, and **ramoz** pointed at GLiClass as offering zero-shot classification "in the same
@@ -181,6 +205,8 @@ queue, or a routing table, you have been paying a text generator to do a classif
 - [[Pairwise Relevance Evaluation]] — Turnbull's frame
 - [[Reranking]] · [[Cross-Encoder]] — the incumbent comparison in a search context
 - [[Clean Context]] — the ceiling Otemuyiwa identifies
+- [[Expected Calibration Error]] · [[Brier Score]] — the metrics that finally put a number on the contested claim
+- [[Prompt Optimization]] — why the whole argument was about an untuned artifact
 
 ## Related Articles
 
@@ -188,14 +214,15 @@ queue, or a routing table, you have been paying a text generator to do a classif
 - [[Using TypeSafe's Jev for Evals]] · [[Jev - The Most Interesting Model Released This Year]] · [[How to Use Jev - A Practical Guide]] · [[TypeSafe Cookbook - Re-ranking]]
 - [[Introducing System One Models & Jev]] — the announcement being reacted to
 - [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] — the one piece that audits the vendor's numbers
+- [[Adapting Jev to Your Domain with GEPA]] — the calibration figure the thread asked for, plus the first tuned prompt
 
 ## People
 
-- [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[Andreas Wagner]] · [[Hev]] · [[Annabell Schäfer]] · [[Sai Yashwanth]] · [[Prosper Otemuyiwa]] · [[Sajith K]] · [[Diogo Almeida]]
+- [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[Andreas Wagner]] · [[Hev]] · [[Annabell Schäfer]] · [[Sai Yashwanth]] · [[Prosper Otemuyiwa]] · [[Sajith K]] · [[Diogo Almeida]] · [[Praneeth Paikray]]
 
 ## Related Notes
 
-- [[Jev]] · [[TypeSafe]] · [[Jevals]] · [[hev-rerank]]
+- [[Jev]] · [[TypeSafe]] · [[Jevals]] · [[hev-rerank]] · [[GEPA]] · [[ADE Corpus V2]]
 
 ## Related Topics
 

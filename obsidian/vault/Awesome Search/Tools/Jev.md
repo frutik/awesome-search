@@ -153,6 +153,56 @@ one-question-per-pair structure is described there as expository: a production c
 several questions about the same pair in one call, which is the pattern the parallel-questions
 cookbook covers.
 
+## Domain Adaptation, and What the Default Prompt Costs
+
+[[Adapting Jev to Your Domain with GEPA]] is the first published attempt to *tune* Jev rather
+than benchmark it as shipped, and it changes how the other numbers on this page should be read.
+
+[[Praneeth Paikray]] ran `jev-1.13.0` on sentence-level adverse-drug-event classification over
+[[ADE Corpus V2]], then used [[GEPA]] to rewrite the instruction against a
+[[Brier Score|Brier-score]] objective. Rewriting one prompt — 503 characters to 2,020 — moved F1
+from 69.1% to 79.7% on a fresh 300-sentence test set and cut Brier 44.9%, both with bootstrap
+intervals excluding zero.
+
+The implication is general: **published zero-shot figures for this model are lower bounds.** The
+nDCG@10 above, and the cookbook's top-1 numbers, were all produced by hand-written instructions
+nobody optimized. Jev generates no text and so cannot reflect on its own failures, but it returns
+a probability, which is all an optimizer needs — the reflection is done by a separate generative
+model ([[Prompt Optimization]]).
+
+### The calibration evidence
+
+The same study is the first direct measurement of the property the launch leaned on hardest, and
+at the default prompt the answer is unflattering. Against a TF-IDF baseline on identical data:
+
+| | Baseline | Jev (default prompt) |
+|---|---|---|
+| ADE recall | 67.2% | **95.1%** |
+| ADE precision | 58.6% | 53.2% |
+| [[Brier Score\|Brier]] | 0.102 | 0.156 |
+| Log loss | 0.335 | **1.849** |
+| 10-bin [[Expected Calibration Error\|ECE]] | 0.052 | **0.173** |
+
+The log-loss gap is the one that matters — it is the metric that punishes confident mistakes, and
+it sits five and a half times the baseline's. Underneath it: `confidence` came back at exactly
+**1.0 on 150 of 300** sentences, ten of them wrong; at confidence ≥ 0.9 there were 30
+disagreements among 233. `P = 1.0` was assigned to 61 sentences, 12 of which were negatives.
+
+This is the "cannot hallucinate" claim above, measured. Every response was schema-valid; 54 were
+incorrect; the confidence field gave no independent signal of which. Note also that the optimized
+prompt cut ECE to 0.069 — so a good deal of the miscalibration was a property of the
+**instruction**, not of the model.
+
+### The latency reading
+
+Client-observed median **14.69 s** (p95 15.62 s) across 505 requests, and **19.59 s** (p95
+24.37 s) across 1,260 evaluations at up to 24 concurrent — against the vendor's stated 70–500 ms
+in the table above. The author is careful that he cannot separate inference from transport and
+queueing, so this measures the hosted service as reachable in September 2026 rather than the
+model. It is nonetheless the second independent latency reading here, and it sits far from the
+headline in the opposite direction to [[Hev]]'s sub-1.4 s p95.
+
+Input cost was as advertised and negligible: $0.00898 and $0.03067 for the two experiments.
 ## Related Concepts
 
 - [[Reranking]] — the use case this note documents
@@ -161,6 +211,8 @@ cookbook covers.
 - [[Cross-Encoder]] — the incumbent reranker architecture it is compared against
 - [[LLM as Judge]] — the adjacent pattern of prompting a general model for relevance
 - [[Query Routing]] · [[Search Intent]] — the classification tasks the same call shape covers
+- [[Brier Score]] · [[Expected Calibration Error]] — the metrics its calibration has been measured with
+- [[Prompt Optimization]] — tuning the instruction rather than accepting the default
 
 ## Related Notes
 
@@ -176,3 +228,5 @@ cookbook covers.
 - [[Jev - The Most Interesting Model Released This Year]] — [[Sai Yashwanth]]; the agent-loop case for keeping the uncertainty
 - [[Reception of Jev]] — what named practitioners said about it, pro and con
 - [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] — [[Sajith K]]; the price claim checked, and the decision-layer-not-substitute conclusion
+- [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the first calibration measurement, and the first tuned prompt
+- [[GEPA]] · [[ADE Corpus V2]] — the optimizer and corpus used there

@@ -68,6 +68,7 @@ The software landscape for building and evaluating search — engines, vector da
 - [[LangChain]]
 - [[Haystack (deepset)]]
 - [[DSPy]]
+- [[GEPA]] — reflective prompt optimizer, Pareto candidate selection
 - [[AutoRAG]]
 - [[RAGAS]] — RAG-specific evaluation metrics
 

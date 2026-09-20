@@ -14,7 +14,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[A-B Testing for Search]] · [[ACORN-1]] · [[Adversarial Relevance Judgment]] · [[Agentic Memory]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[ASH]] · [[Asymmetric Re-ranking]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
 
 ## B
-- [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bayesian Optimization]] · [[BBQ]] · [[BERT]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[BM25]] · [[Box Embedding]] · [[Brute-Force Vector Search]]
+- [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bayesian Optimization]] · [[BBQ]] · [[BERT]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[BM25]] · [[Box Embedding]] · [[Brier Score]] · [[Brute-Force Vector Search]]
 
 ## C
 - [[Calibrated Relevance Probability]] · [[Clean Context]] · [[Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[ColBERT]] · [[Collocations]] · [[ColPali]] · [[Compositional Embeddings]] · [[Compositional Queries]] · [[Compute-Storage Disaggregation]] · [[Concept Vectors]] · [[Consistency Filtering]] · [[Context Engineering]] · [[Contrastive Gap]] · [[Contrastive Learning]] · [[Conversational Search]] · [[Cross-Encoder]]
@@ -23,7 +23,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[Denormalization for Search]] · [[Dense Embeddings]] · [[Dense Passage Retriever]] · [[Dense Vector Retrieval]] · [[DICE]] · [[Differentiable Search Index]] · [[Dimensionality Reduction]] · [[Direct Corpus Interaction]] · [[Distribution-Based Score Fusion]] · [[Diversity Metrics]]
 
 ## E
-- [[Economics of Search]] · [[ELSER]] · [[Embedding Fine-tuning]] · [[Embeddings]] · [[ERR]] · [[Exploration vs Exploitation]]
+- [[Economics of Search]] · [[ELSER]] · [[Embedding Fine-tuning]] · [[Embeddings]] · [[ERR]] · [[Expected Calibration Error]] · [[Exploration vs Exploitation]]
 
 ## F
 - [[Faceted Search]] · [[Feature Store]] · [[Federated Search]] · [[FLAN-T5]] · [[Full-Text Search]]
@@ -57,7 +57,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[Out-of-Time Validation]] · [[Out-of-Vocabulary]]
 
 ## P
-- [[Pairwise Relevance Evaluation]] · [[PCA]] · [[PEFT]] · [[Personalization]] · [[Poincaré Embedding]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Prompt Compression]] · [[Prompt Sensitivity]] · [[PROMPTAGATOR]] · [[Purpose-Built Agentic Search Models]]
+- [[Pairwise Relevance Evaluation]] · [[PCA]] · [[PEFT]] · [[Personalization]] · [[Poincaré Embedding]] · [[Pointwise Relevance Evaluation]] · [[Pooling]] · [[Position Bias]] · [[Precision and Recall]] · [[Presentation Bias]] · [[Prompt Compression]] · [[Prompt Optimization]] · [[Prompt Sensitivity]] · [[PROMPTAGATOR]] · [[Purpose-Built Agentic Search Models]]
 
 ## Q
 - [[QLoRA]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]] · [[Query Routing]] · [[Query Sampling]] · [[Query Segmentation]] · [[Query Specificity]] · [[Query Types]] · [[Query Understanding]]
