@@ -80,6 +80,24 @@ material in this vault.
 
 Related objection: the "not an LLM" framing is contested, since the documentation suggests the
 training applies to a pre-trained base model.
+
+### Or Just a Speed?
+
+A second objection goes at the name rather than the architecture.
+[[Han-chung Lee]] ([[Jev and the Return of AI-ML Engineering]]) points out that on Kahneman's own
+terms *every* fast model is System 1 — the range runs from plain linear regression through
+Transformers and whatever follows them — so the label names a **speed, not a class**, and admits
+the entire incumbent stack rather than distinguishing anything from it. Read next to the encoder
+objection above, the two compound: the term does not exclude cross-encoders, and cross-encoders
+already do most of the work.
+
+He also argues that three of the four properties the category leans on — structured outputs, low
+latency, low cost — are reproducible with off-the-shelf models, citing Jev-compatible APIs built
+on small open-weight models at comparable latency. His generalisation is the part that carries
+past this vendor: **for small prefills, the latency and cost gap between autoregressive and
+non-autoregressive models is negligible**, and a relevance judgment over one passage is a small
+prefill. On that reading, what is left of the category is the calibration claim alone.
+
 ## Limits
 
 Worth holding alongside the category, from both the announcement and the independent run:
@@ -109,3 +127,4 @@ Worth holding alongside the category, from both the announcement and the indepen
 - [[TypeSafe]] — the company that coined the term
 - [[Introducing System One Models & Jev]] — the announcement
 - [[Hev meets Jev]] — the independent evaluation in a search setting
+- [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; the objection that the category names a speed rather than a class

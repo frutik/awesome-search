@@ -138,6 +138,41 @@ each Score to one dimension means the manual decomposition of a problem into ato
 the hard part, and Jev does not do it for you. Commenters also picked apart the Doom
 demonstration, which is fed structured game state rather than pixels.
 
+### The structural objection
+
+[[Han-chung Lee]] ([[Jev and the Return of AI-ML Engineering]]) makes the most systematic case
+against the model, and it is not the hallucination objection above. He takes the four properties
+the launch leads with — calibrated decisions, structured outputs, low latency, low cost — and
+argues the last three are reproducible off the shelf, citing two Jev-compatible APIs built on
+small open-weight models, one of them reporting comparable latency on a DGX Spark. His
+generalisation is the durable part: **for small prefills, the latency and cost gap between
+autoregressive and non-autoregressive models is negligible** — and a rerank call over one
+passage is a small prefill. Structured output he treats as solved since 2023's function calling.
+
+That collapses the argument onto calibration alone, where he adds the third independent reading
+in this note: high [[Expected Calibration Error|ECE]] across a coin toss, two dice and three UCI
+datasets, worst once the experiments leave simulated distributions, plus a cited result from
+**Valeriy M** — 16,500 predictions over eight datasets, calibration failures on seven. He is
+also the only person here to challenge the *meaning* of the claim rather than its value, asking
+what distribution it is calibrated to, since calibration is undefined without one.
+
+Two things separate him from the other sceptics. He is careful about what his own figures do not
+show, labelling the forecast-error plot as not establishing predictive value — poor calibration
+is not a finding about accuracy. And he agrees with the enthusiasts about the interface: coming
+from evaluation and alignment rather than product, he names rubric and preference modelling for
+[[LLM as Judge|LLM evaluation]] and **search engine reranking and optimization** as the model's
+most useful applications, and says the API design matches his intuition for that shape. The
+objection is to the model behind the interface, not the interface.
+
+His closing question is the one nobody else asked. He grants the working demonstrations — Poker
+Arena, a re-ranker, an agent playing Warcraft 3 — and then suspects they come from **Jev's base
+model rather than from RLCD**, which is the ablation **ActivePattern** asked for below, restated
+as a hypothesis. On that reading neither [[Hev]]'s favourable buckets nor
+[[Praneeth Paikray]]'s unfavourable ECE is evidence about the training method at all; both
+measure an artifact nobody has decomposed. And it is why his conclusion points away from the
+vendor entirely: reliable calibrated probabilities paired with thresholds would be a durable
+advantage, so in the absence of evidence for one, a capable team trains its own model.
+
 ## What the argument is actually about
 
 Three threads run under all of it.
@@ -215,10 +250,11 @@ queue, or a routing table, you have been paying a text generator to do a classif
 - [[Introducing System One Models & Jev]] — the announcement being reacted to
 - [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] — the one piece that audits the vendor's numbers
 - [[Adapting Jev to Your Domain with GEPA]] — the calibration figure the thread asked for, plus the first tuned prompt
+- [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; the four promises taken apart, a third ECE reading, and the base-model-versus-RLCD question
 
 ## People
 
-- [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[Andreas Wagner]] · [[Hev]] · [[Annabell Schäfer]] · [[Sai Yashwanth]] · [[Prosper Otemuyiwa]] · [[Sajith K]] · [[Diogo Almeida]] · [[Praneeth Paikray]]
+- [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[Andreas Wagner]] · [[Hev]] · [[Annabell Schäfer]] · [[Sai Yashwanth]] · [[Prosper Otemuyiwa]] · [[Sajith K]] · [[Diogo Almeida]] · [[Praneeth Paikray]] · [[Han-chung Lee]]
 
 ## Related Notes
 

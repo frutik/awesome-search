@@ -172,7 +172,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]] · [[Gustavo Llermaly]]
 
-**H** — [[Hailey Cheong]] · [[Hajer Bouafif]] · [[Han Xiao]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Hev]] · [[Honza Král]] · [[Hugo Galvão]]
+**H** — [[Hailey Cheong]] · [[Hajer Bouafif]] · [[Han Xiao]] · [[Han-chung Lee]] · [[Hassam Chundrigar]] · [[Heather Hedden]] · [[Hev]] · [[Honza Král]] · [[Hugo Galvão]]
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 

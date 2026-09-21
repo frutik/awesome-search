@@ -54,6 +54,25 @@ The measured consequence appears in [[Hev meets Jev]]: on the SciFact subset of 
 documents scored above 0.9 were judged relevant 76% of the time and those below 0.1, half a
 percent — usable calibration, on one corpus, from a model that was never trained to rank.
 
+### Calibrated to What?
+
+[[Han-chung Lee]] ([[Jev and the Return of AI-ML Engineering]]) presses the objection that a
+blanket calibration claim has no referent. Calibration is defined relative to a distribution —
+it depends on the known probability of the distribution *q* the predictions are scored
+against — so "the model is calibrated", stated without a distribution, is not yet a claim that
+can be true or false. The caveats below record this as a limit on how far a measurement
+transfers; Lee's version is stronger, aimed at whether the unqualified claim means anything at
+all. Read against the ranking case, it is the same problem as corpus shift: a probability
+calibrated on the training distribution is a different quantity from one calibrated on the
+corpus being searched.
+
+He backs it with high [[Expected Calibration Error|ECE]] across toy and UCI distributions, and
+cites Valeriy M finding calibration failures on seven of eight datasets. He then raises the
+attribution question the vendor's missing ablation leaves open: the demonstrations that do work
+may be a property of Jev's **base model** rather than of RLCD. Nothing published separates the
+training method from the architecture it was applied to, which means no result so far —
+favourable or not — is evidence about RLCD specifically.
+
 ## Caveats
 
 - **Vendor-stated.** RLCD is described in a launch announcement, with no paper, no ablation, and
@@ -81,3 +100,5 @@ percent — usable calibration, on one corpus, from a model that was never train
 - [[TypeSafe]] — the company
 - [[Introducing System One Models & Jev]] — the source
 - [[Hev meets Jev]] — where the calibration was independently measured
+
+- [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; "calibrated to what?", and the base-model-versus-RLCD question

@@ -53,6 +53,7 @@ constraint on rerank depth.
 
 The "cannot hallucinate" claim is precise but narrow: a fixed schema guarantees a *valid*
 value, not a *correct* one. A confidently wrong probability remains available.
+
 ## Question Types
 
 TypeSafe's documentation defines three:
@@ -104,6 +105,7 @@ bear directly on using it as a relevance judge:
 
 The meta-rule from those docs generalises past this model: don't ask a model what code can
 compute exactly, and don't hide several judgments inside one question.
+
 ## Versions and Limits
 
 - `jev-latest` resolved to `jev-1.13.0` as of the guide above; the vendor's own reranking
@@ -116,6 +118,7 @@ compute exactly, and don't hide several judgments inside one question.
 - Access is waitlisted, but the model is also served through OpenRouter and the Vercel AI Gateway.
 - **It cannot abstain.** A forced binary with no `unknown` option makes it pick the least wrong answer rather than decline — an escape hatch has to be an explicit option in the question.
 - **A third reading of the budget.** [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] states it as ~32,000 tokens *shared between state and questions*, alongside the 255 Choice cardinality cap — consistent with the 32k state figure above, and with text-structured state only (no images). That piece also notes what is not published at all: p95/p99 latency, calibration-under-distribution-shift data, and any SLA.
+
 ## Use as a Reranker
 
 [[Hev meets Jev]] benchmarks this directly. The state is the query plus a top-30 shortlist
@@ -203,6 +206,41 @@ model. It is nonetheless the second independent latency reading here, and it sit
 headline in the opposite direction to [[Hev]]'s sub-1.4 s p95.
 
 Input cost was as advertised and negligible: $0.00898 and $0.03067 for the two experiments.
+
+## Can the Rest of It Be Reproduced?
+
+[[Jev and the Return of AI-ML Engineering]] ([[Han-chung Lee]]) attacks the model from a
+different direction to every other reading here: not *is it good* or *can it be tuned*, but
+**which of its properties are actually scarce.** Of the four the launch leads with — calibrated
+decisions, structured outputs, low latency, low cost — he argues the last three are available
+off the shelf, and cites two Jev-compatible APIs built to prove it: one by Eric Zhang on
+Qwen-3.6-35b-a3b with SGLang, one by Matt Mastracci on DiffusionGemma with vLLM, the latter
+reporting latency comparable to Jev on a DGX Spark.
+
+The generalisation matters more than either reimplementation: **for small prefills, the latency
+and cost gap between autoregressive and non-autoregressive models is negligible.** A rerank call
+over one passage is a small prefill, so the architectural argument for this model buys less in a
+reranking pipeline than the headline numbers in the table above suggest. Structured output he
+treats as solved since the function-calling work of 2023, and the three question types as an
+abstraction comparable to Delip Rao's AutoRubrics.
+
+That leaves calibration carrying the entire case — and he reports high
+[[Expected Calibration Error|ECE]] across a coin toss, two dice and three UCI datasets, worst
+once the experiments leave simulated distributions, plus a cited result from Valeriy M finding
+calibration failures on seven of eight datasets. This is the third independent calibration
+reading on this page, and the second unfavourable one.
+
+His unanswered question is the sharpest thing anyone has asked about the model: the working
+demonstrations may come from **Jev's base model rather than from RLCD**. No published material
+separates the training method from the architecture, so no result here is evidence about
+[[Reinforcement Learning for Calibrated Decisions|RLCD]] specifically.
+
+Two qualifications. He is describing experiments rather than publishing them — no bin counts, no
+per-dataset numbers, no code — and he labels his own forecast-error figure as not establishing
+predictive value, keeping poor calibration distinct from poor accuracy. And he endorses the API
+shape for exactly the two uses this vault tracks: rubric and preference modelling for
+[[LLM as Judge|evaluation]], and [[Reranking|reranking]] and optimization.
+
 ## Related Concepts
 
 - [[Reranking]] — the use case this note documents
@@ -229,4 +267,5 @@ Input cost was as advertised and negligible: $0.00898 and $0.03067 for the two e
 - [[Reception of Jev]] — what named practitioners said about it, pro and con
 - [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision]] — [[Sajith K]]; the price claim checked, and the decision-layer-not-substitute conclusion
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the first calibration measurement, and the first tuned prompt
+- [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; three of the four promises reproduced off the shelf, and the calibration claim left carrying the case
 - [[GEPA]] · [[ADE Corpus V2]] — the optimizer and corpus used there

@@ -9,11 +9,11 @@ I've been building e-commerce search applications for 15+ years. Below is a list
 
 ## Latest Changes
 
+- [2026.39](https://frutik.github.io/awesome-search/History/2026.39)
 - [2026.38](https://frutik.github.io/awesome-search/History/2026.38)
 - [2026.37](https://frutik.github.io/awesome-search/History/2026.37)
 - [2026.36](https://frutik.github.io/awesome-search/History/2026.36)
 - [2026.35](https://frutik.github.io/awesome-search/History/2026.35)
-- [2026.34](https://frutik.github.io/awesome-search/History/2026.34)
 
 ---
 
@@ -191,7 +191,7 @@ See the [Conferences](https://frutik.github.io/awesome-search/Conferences) MOC. 
 
 **G** — [Geoffrey Hinton](https://frutik.github.io/awesome-search/People/Geoffrey-Hinton) · [Giovanni Fernandez-Kincade](https://frutik.github.io/awesome-search/People/Giovanni-Fernandez-Kincade) · [Gustavo Llermaly](https://frutik.github.io/awesome-search/People/Gustavo-Llermaly)
 
-**H** — [Hailey Cheong](https://frutik.github.io/awesome-search/People/Hailey-Cheong) · [Hajer Bouafif](https://frutik.github.io/awesome-search/People/Hajer-Bouafif) · [Han Xiao](https://frutik.github.io/awesome-search/People/Han-Xiao) · [Hassam Chundrigar](https://frutik.github.io/awesome-search/People/Hassam-Chundrigar) · [Heather Hedden](https://frutik.github.io/awesome-search/People/Heather-Hedden) · [Hev](https://frutik.github.io/awesome-search/People/Hev) · [Honza Král](https://frutik.github.io/awesome-search/People/Honza-Král) · [Hugo Galvão](https://frutik.github.io/awesome-search/People/Hugo-Galvão)
+**H** — [Hailey Cheong](https://frutik.github.io/awesome-search/People/Hailey-Cheong) · [Hajer Bouafif](https://frutik.github.io/awesome-search/People/Hajer-Bouafif) · [Han Xiao](https://frutik.github.io/awesome-search/People/Han-Xiao) · [Han-chung Lee](https://frutik.github.io/awesome-search/People/Han-chung-Lee) · [Hassam Chundrigar](https://frutik.github.io/awesome-search/People/Hassam-Chundrigar) · [Heather Hedden](https://frutik.github.io/awesome-search/People/Heather-Hedden) · [Hev](https://frutik.github.io/awesome-search/People/Hev) · [Honza Král](https://frutik.github.io/awesome-search/People/Honza-Král) · [Hugo Galvão](https://frutik.github.io/awesome-search/People/Hugo-Galvão)
 
 **I** — [Isabella Tromba](https://frutik.github.io/awesome-search/People/Isabella-Tromba) · [Iulia Brezeanu](https://frutik.github.io/awesome-search/People/Iulia-Brezeanu) · [Ivan Pleshkov](https://frutik.github.io/awesome-search/People/Ivan-Pleshkov)
 

@@ -61,6 +61,22 @@ Read together, the two measurements say something more useful than either alone:
 calibration in one bucket range on one corpus ([[Hev meets Jev]]) does not imply calibration
 across the range on another task, and neither reading transfers without re-measuring.
 
+A third reading points the same metric at deliberately simple distributions.
+[[Han-chung Lee]] ([[Jev and the Return of AI-ML Engineering]]) reports high ECE for [[Jev]]
+across a coin toss, two dice, and three UCI datasets, with the gap widening once the experiments
+leave simulated distributions for real ones; he also cites Valeriy M running 16,500 predictions
+over eight datasets and finding calibration failures on seven. Neither result comes with a bin
+count or per-dataset figures, so they are directional rather than comparable to the numbers
+above.
+
+Two things about that setup are worth keeping regardless of the model under test. Toy
+distributions are the cleanest possible calibration test precisely because *q* is known
+exactly — which is also what makes them least like a relevance judgment, where the true
+probability is never available. And Lee labels his own forecast-error figure with the caveat
+most reports omit: it does not establish predictive value. ECE answers whether the buckets keep
+their promises, not whether the model is worth using — the same separation the base-rate
+degenerate case makes above.
+
 ## Cautions
 
 - **Binning choices move the number.** Equal-width and equal-mass bins give different answers;
@@ -85,4 +101,5 @@ across the range on another task, and neither reading transfers without re-measu
 
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; 10-bin ECE before and after prompt optimization
 - [[Hev meets Jev]] — [[Hev]]; the same check done as buckets on BEIR
+- [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; ECE on toy and UCI distributions, plus a cited 7-of-8 failure rate
 - [[Introducing System One Models & Jev]] — the calibration claim these measurements test

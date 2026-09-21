@@ -189,6 +189,9 @@
   },
   "active": "563af557fed436ef",
   "lastOpenFiles": [
+    "History/2026.39.md",
+    "People/Han-chung Lee.md",
+    "Articles/Jev and the Return of AI-ML Engineering.md",
     "Concepts/Prompt Optimization.md",
     "Concepts/Expected Calibration Error.md",
     "Concepts/Brier Score.md",
@@ -212,9 +215,6 @@
     "Articles/How to Use Jev - A Practical Guide.md",
     "Datasets/CLERC.md",
     "Articles/TypeSafe Cookbook - Re-ranking.md",
-    "People/Diogo Almeida.md",
-    "Concepts/Reinforcement Learning for Calibrated Decisions.md",
-    "Concepts/System One Model.md",
     "Без назви"
   ]
 }
