@@ -54,6 +54,8 @@ Fusion is a downstream step; upstream retrieval quality is the real lever.
 - [[Dense Vector Retrieval]]
 - [[Query Understanding]]
 
+- [[Query Routing]] — intent-based routing, and later work doing it with trained classifiers ([[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]]) or per-query weights ([[DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG]])
+
 ## Related Articles
 
 - [[Hybrid Search SPLADE Sparse Encoder]]

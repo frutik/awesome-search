@@ -1,45 +1,67 @@
 ---
 type: topic
-title: "Query Classification"
-aliases: ["query categorization", "search term classification", "classification for query understanding", "query taxonomy assignment"]
-tags: [topic, query-understanding, classification, taxonomy, llm, e-commerce-search]
-related_concepts: [
-  "[[Query Understanding]]",
-  "[[Query Types]]",
-  "[[Search Intent]]",
-  "[[Search Scopes]]",
-  "[[Hypothetical Document Embeddings]]",
-  "[[Knowledge Distillation]]",
-  "[[Out-of-Vocabulary]]",
-  "[[Intent Drift]]",
-  "[[Judgment Lists]]",
-  "[[Query Specificity]]"
-]
-related_topics: [
-  "[[Query Understanding in Practice]]",
-  "[[E-commerce Search]]",
-  "[[Multilingual Search]]",
-  "[[Synonyms and Vocabulary Management]]",
-  "[[Search Observability]]"
-]
-articles: [
-  "[[Don't Classify, Hallucinate]]",
-  "[[Query Understanding - Query Scoping]]",
-  "[[Ecommerce Search UX - 8 Query Types]]",
-  "[[Classic ML to Cope with Dumb LLM Judges]]",
-  "[[Semantic Equivalence of e-Commerce Queries]]",
-  "[[Metadata - The 3rd Kind of Retrieval]]",
-  "[[Semantic Search Without Embeddings]]",
-  "[[Fine-Tuning Qwen3 Embeddings for Product Category Classification]]",
-  "[[Query Understanding - Entity Recognition]]",
-  "[[Query Understanding - Language Identification]]",
-  "[[Query Understanding - Taxonomies and Ontologies]]",
-  "[[You Say Search I Say Recs - Spotify Agentic Query Understanding]]",
-  "[[Food Discovery with Uber Eats - Building a Query Understanding Engine]]",
-  "[[Broad and Ambiguous Search Queries]]"
-]
-people: ["[[Doug Turnbull]]", "[[Daniel Tunkelang]]", "[[Hailey Cheong]]"]
-companies: ["[[Delivery Hero]]", "[[Etsy]]", "[[Uber]]", "[[Spotify]]", "[[Baymard Institute]]"]
+title: Query Classification
+aliases:
+  - query categorization
+  - search term classification
+  - classification for query understanding
+  - query taxonomy assignment
+tags:
+  - topic
+  - query-understanding
+  - classification
+  - taxonomy
+  - llm
+  - e-commerce-search
+related_concepts:
+  - "[[Query Understanding]]"
+  - "[[Query Types]]"
+  - "[[Search Intent]]"
+  - "[[Search Scopes]]"
+  - "[[Hypothetical Document Embeddings]]"
+  - "[[Knowledge Distillation]]"
+  - "[[Out-of-Vocabulary]]"
+  - "[[Intent Drift]]"
+  - "[[Judgment Lists]]"
+  - "[[Query Specificity]]"
+related_topics:
+  - "[[Query Understanding in Practice]]"
+  - "[[E-commerce Search]]"
+  - "[[Multilingual Search]]"
+  - "[[Synonyms and Vocabulary Management]]"
+  - "[[Search Observability]]"
+articles:
+  - "[[Don't Classify, Hallucinate]]"
+  - "[[Query Understanding - Query Scoping]]"
+  - "[[Ecommerce Search UX - 8 Query Types]]"
+  - "[[Classic ML to Cope with Dumb LLM Judges]]"
+  - "[[Semantic Equivalence of e-Commerce Queries]]"
+  - "[[Metadata - The 3rd Kind of Retrieval]]"
+  - "[[Semantic Search Without Embeddings]]"
+  - "[[Fine-Tuning Qwen3 Embeddings for Product Category Classification]]"
+  - "[[Query Understanding - Entity Recognition]]"
+  - "[[Query Understanding - Language Identification]]"
+  - "[[Query Understanding - Taxonomies and Ontologies]]"
+  - "[[You Say Search I Say Recs - Spotify Agentic Query Understanding]]"
+  - "[[Food Discovery with Uber Eats - Building a Query Understanding Engine]]"
+  - "[[Broad and Ambiguous Search Queries]]"
+  - "[[Build an Advanced RAG App - Query Routing]]"
+  - "[[Query Routing - Direct Queries to the Right Source]]"
+  - "[[Sources of Evidence for Vertical Selection]]"
+  - "[[Lightweight Query Routing for Adaptive RAG - A Baseline Study on
+    RAGRouter-Bench]]"
+  - "[[Adaptive-RAG - Learning to Adapt Retrieval-Augmented LLMs through
+    Question Complexity]]"
+people:
+  - "[[Doug Turnbull]]"
+  - "[[Daniel Tunkelang]]"
+  - "[[Hailey Cheong]]"
+companies:
+  - "[[Delivery Hero]]"
+  - "[[Etsy]]"
+  - "[[Uber]]"
+  - "[[Spotify]]"
+  - "[[Baymard Institute]]"
 created: 2026-08-12
 ---
 
@@ -139,7 +161,9 @@ Two consequences for classifier design:
 - **Routing raises the cost of a mistake.** A wrong category boost degrades a result set; a wrong route sends the query to a system that cannot answer it at all. Routing classifiers want precision and an explicit abstain path more than coverage.
 - **The label set now spans teams.** Search and recommendations usually have separate owners, metrics and evaluation harnesses, so the routing vocabulary is a contract between them rather than a search-team artifact.
 
-The same pattern appears at smaller scale wherever classification chooses a retrieval strategy — lexical vs. semantic vs. metadata matching, as laid out in [[Metadata - The 3rd Kind of Retrieval]].
+The same pattern appears at smaller scale wherever classification chooses a retrieval strategy — lexical vs. semantic vs. metadata matching, as laid out in [[Metadata - The 3rd Kind of Retrieval]]. [[Qdrant]]'s hybrid router is a concrete instance: a small classifier labels each query sparse / dense / RRF and beats always-on [[Reciprocal Rank Fusion]]; notably, the LLM router it replaced kept collapsing to the RRF default ([[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]]).
+
+The pattern is older than LLMs. Web [[Vertical Selection]] — deciding whether a query should trigger news, images, local or shopping results — was framed in 2009 as classification with an explicit "no relevant vertical" class, which covered about a quarter of queries ([[Sources of Evidence for Vertical Selection]]). For routing between RAG strategies, the cheap end of the method ladder holds up: on RAGRouter-Bench, TF-IDF + SVM predicted query type at 93.2% accuracy and beat sentence embeddings ([[Lightweight Query Routing for Adaptive RAG - A Baseline Study on RAGRouter-Bench]]), and [[Adaptive-RAG - Learning to Adapt Retrieval-Augmented LLMs through Question Complexity|Adaptive-RAG]] paid off with a complexity classifier only ~55% accurate, because its errors leaned toward the costlier but safe route. See [[Query Routing]] for how routers are labelled and evaluated.
 
 ---
 
@@ -210,3 +234,5 @@ Query understanding is upstream of retrieval, so classifier metrics alone are ne
 - [[Etsy - Search Quality and Query Understanding]] — broad queries where the right answer is diversity, not a single confident label
 - [[Uber Eats - Scaling Search for Food Delivery]] — query annotation feeding implicit filters in a live system
 - [[Synonyms and Vocabulary Management]] — the neighbouring vocabulary problem
+
+- [[Query Routing]] — classification used as control flow; the cheapest-first cascade in [[Query Routing - Direct Queries to the Right Source]] and the router taxonomy in [[Build an Advanced RAG App - Query Routing]]

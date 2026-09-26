@@ -51,6 +51,7 @@ Full fine-tuning updates O(d×k) parameters. LoRA updates O((d+k)×r) — orders
 | **LLM query rewriting** | Instruction-tuned LLM | Teach the model domain vocabulary |
 | **Intent/judgment generation** | LLM | Fine-tune for consistent label format |
 | **RAG synthesis** | LLM | Domain-specific answer style |
+| **Routed domain experts** | One LoRA per domain on a frozen encoder | [[RouterRetriever - Routing over a Mixture of Expert Embedding Models\|RouterRetriever]] routes each query to one expert; adding a domain = training one more LoRA |
 
 For embedding models specifically: LoRA fine-tuning with contrastive loss achieves comparable recall to full fine-tuning at a fraction of the compute. See [[Fine-Tuning Qwen3 Embeddings for Product Category Classification]] (LoRA on 615M-param model, 0.836 macro-F1).
 

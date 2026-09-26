@@ -75,6 +75,8 @@ answer to the tradeoff a single global α creates — exact-term queries lean le
 lean semantic — but it costs a classifier you then have to maintain. If that classifier is an LLM
 call, it adds latency to *every* request, which is worth budgeting before committing to routing.
 
+**Per-query α from an LLM judge.** [[DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG|DAT]] grades the top-1 BM25 and top-1 dense result on a 0–5 rubric and sets α from the two grades (all-in on a retriever that scores a direct hit; proportional otherwise). On queries where BM25 and dense disagree, it gained about 7.5% (SQuAD) and 6.4% (DRCD) Precision@1 over a fixed α — at the price of two LLM judgments per query.
+
 ## When to Use vs. RRF
 
 - **Use RRF** when you can't normalize scores reliably or want a robust no-tuning baseline

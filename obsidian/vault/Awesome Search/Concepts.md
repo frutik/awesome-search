@@ -11,7 +11,7 @@ created: 2026-06-19
 The IR fundamentals that underpin everything in search. Don't try to read all of these at once — for a guided foundation order, see [[How to Start a Career in Search]]. If you learn only three: [[BM25]], [[Precision and Recall]], and how to measure a ranking change ([[NDCG]] + [[Judgment Lists]]).
 
 ## A
-- [[A-B Testing for Search]] · [[ACORN-1]] · [[Adversarial Relevance Judgment]] · [[Agentic Memory]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[ASH]] · [[Asymmetric Re-ranking]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
+- [[A-B Testing for Search]] · [[ACORN-1]] · [[Adaptive Retrieval]] · [[Adversarial Relevance Judgment]] · [[Agentic Memory]] · [[Agentic Query Workload]] · [[Agentic Search]] · [[APD]] · [[Approximate Nearest Neighbor Search]] · [[ASH]] · [[Asymmetric Re-ranking]] · [[Asymmetric Semantic Search]] · [[Autocomplete]]
 
 ## B
 - [[Bag-of-Documents Model]] · [[Bayesian BM25]] · [[Bayesian Optimization]] · [[BBQ]] · [[BERT]] · [[Bi-Encoder]] · [[Binary Quantization]] · [[Block-Max WAND]] · [[BM25]] · [[Box Embedding]] · [[Brier Score]] · [[Brute-Force Vector Search]]
@@ -75,7 +75,7 @@ The IR fundamentals that underpin everything in search. Don't try to read all of
 - [[UDCG]] · [[UMAP]] · [[Unified Search Index]]
 
 ## V
-- [[Vector Filtering]] · [[Vector Index Updates]] · [[Vector Quantization]] · [[Vector Search Evaluation]] · [[Vector Similarity Metrics]]
+- [[Vector Filtering]] · [[Vector Index Updates]] · [[Vector Quantization]] · [[Vector Search Evaluation]] · [[Vector Similarity Metrics]] · [[Vertical Selection]]
 
 ## W
 - [[WAND]] · [[Word2Box]] · [[Word2Vec]] · [[Wormhole Vectors]]

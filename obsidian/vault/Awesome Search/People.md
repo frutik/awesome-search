@@ -11,7 +11,7 @@ created: 2026-06-19
 The practitioners, researchers, and educators who shape the search and IR field. New to the community? See who to follow first in [[How to Start a Career in Search]].
 
 ## A
-- [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[André Mourão]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+- [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[André Mourão]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrei Cristea]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 ## B
 - [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
@@ -26,7 +26,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Elzbieta Jakubowska]] · [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Evgeniya Sukhodolskaya]]
 
 ## F
-- [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
+- [[Fernando Diaz]] · [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
 
 ## G
 - [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]] · [[Gustavo Llermaly]]
@@ -38,7 +38,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
 ## J
-- [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Joanna Marhula]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+- [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Joanna Marhula]] · [[Jodi Sloan]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 ## K
 - [[Karthik Ramasamy]] · [[Kemal Erdem]]
@@ -62,7 +62,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Quynh Nguyen]]
 
 ## R
-- [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
+- [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
 ## S
 - [[Sai Yashwanth]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Stéphane Clinchant]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Sujit Pal]] · [[Susan Liu]]

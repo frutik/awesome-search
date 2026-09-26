@@ -167,6 +167,8 @@ A model trained on clicks over its own rankings eats its own output: users click
 
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 LTR across ~1,500 merchants at Findify: two-phase ranking, the feedback-loop degradation from training on own clicks (fix: exploration segments), and the bong story — the target metric is a business decision
 
+- [[LTRR - Learning To Rank Retrievers for LLMs]] — LTR applied to ranking *retrievers* per query for RAG; pairwise XGBoost best
+
 ## People
 
 - [[Doug Turnbull]] — [[How LambdaMART Works]]; LTR in production

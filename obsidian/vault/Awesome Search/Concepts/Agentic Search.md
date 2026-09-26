@@ -65,6 +65,8 @@ Adapted from classic project management:
 
 - [[Search Problem Archetypes]] — agentic retrieval is a *consumption pattern* sitting on top of an archetype, not its own archetype; what changes is the evaluation contract
 
+- [[Adaptive Retrieval]] — the single up-front version of the "retrieve or not, and how much" decision agents make per step
+
 ## Articles
 
 - [[Agentic Search as an Agile Engineering Process]] — [[Daniel Tunkelang]] & [[Asif Makhani]]

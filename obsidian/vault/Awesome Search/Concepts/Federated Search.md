@@ -49,6 +49,14 @@ Federated search decomposes into three stages, each its own research thread:
 
 Hybrid search and federated search share the **results-merging** stage but differ upstream: hybrid queries *one corpus through multiple retrieval methods* ([[BM25]] + [[Dense Vector Retrieval]]), while federated search queries *multiple corpora/engines*. Both lean on score-agnostic fusion like [[Reciprocal Rank Fusion]] precisely because the candidate scores don't share a scale.
 
+## Resource Selection, Then and Now
+
+Resource selection is the stage modern writing calls [[Query Routing]].
+
+- **Web verticals (2009).** Search engines own their verticals — news, images, local, shopping — so choosing which to blend into a results page is *cooperative* federated search. [[Sources of Evidence for Vertical Selection]] showed that each vertical's own query log (queries users typed straight into it) beat corpus-based methods such as ReDDE, evidence an uncooperative federation never has. See [[Vertical Selection]].
+- **Federated RAG (2025).** When knowledge sits in institutions that won't pool data, RAG pipelines typically query every source. [[Efficient Federated Search for RAG using Lightweight Routing|RAGRoute]] adds a shallow neural classifier per (query, source): up to 80.65% less communication and 52.50% lower latency at the accuracy of querying everything — while random source selection scored below no retrieval at all.
+- **Retrievers as resources (2025–26).** [[LTRR - Learning To Rank Retrievers for LLMs|LTRR]] treats a pool of retrievers as the collections and ranks them by expected gain in the LLM's answer, with "no retrieval" as one of the options.
+
 ## Related Concepts
 
 - [[Federated vs Unified Search]] — the topic hub comparing query-time federation against the index-time alternative, [[Unified Search Index]]
@@ -59,3 +67,5 @@ Hybrid search and federated search share the **results-merging** stage but diffe
 - [[Multilingual Search]]
 - [[Enterprise Search]]
 - [[Knowledge Graph Search]]
+
+- [[Query Routing]] · [[Vertical Selection]] — resource selection under its modern and web-search names

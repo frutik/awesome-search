@@ -51,3 +51,5 @@ Introduced for [[Multimodal RAG]]: the `OpenAIMultiModal` class, a `MultiModalEm
 - [[NVIDIA Research - RAG with Long Context LLMs]]
 - [[Multi-Modal RAG - Indexing And Retrieval Guide]]
 - [[Hands-On RAG guide for personal data with Vespa and LLamaIndex]]
+
+- [[Build an Advanced RAG App - Query Routing]] — [[Roger Oriol]]; Router Query Engine with an LLM selector over two vector stores and a Google Search tool

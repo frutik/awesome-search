@@ -96,6 +96,8 @@ that agents actually emit — NQ's 9.2-word average being the distribution those
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search]] — the NQ / MS MARCO corpus comparison and the DPR result
 - [[Improving Zero-Shot Ranking with Vespa Hybrid Search - part two]] — NQ results for BM25, ColBERT, and hybrid
 
+- [[Adaptive-RAG - Learning to Adapt Retrieval-Augmented LLMs through Question Complexity]] — one of three single-hop datasets mixed with multi-hop ones to test complexity routing
+
 ## Source
 
 - Official site — https://ai.google.com/research/NaturalQuestions

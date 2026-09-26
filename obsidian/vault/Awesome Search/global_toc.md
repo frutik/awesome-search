@@ -51,7 +51,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
 
 ### Agentic, Generative & RAG
-[[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[System One Model]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]]
+[[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[System One Model]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]] · [[Adaptive Retrieval]]
 
 ### Model Fine-Tuning & Serving
 [[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Reinforcement Learning for Calibrated Decisions]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
@@ -60,7 +60,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Governance]] · [[Search Team]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
 
 ### Search UX & Discovery
-[[Faceted Search]] · [[Federated Search]] · [[Search Scopes]] · [[Zero Results]] · [[Results Merchandising]] · [[MMR]]
+[[Faceted Search]] · [[Federated Search]] · [[Search Scopes]] · [[Zero Results]] · [[Results Merchandising]] · [[MMR]] · [[Vertical Selection]]
 
 ---
 
@@ -112,7 +112,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ---
 
 ## Companies
-[[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -140,6 +140,8 @@ Conference talks and recorded presentations.
 
 [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — [[Hajer Bouafif]], [[Amazon Web Services]]; [[Berlin Buzzwords]] 2026 talk on [[Agentic Memory]] as the substrate for search [[Personalization]] — preferences inferred offline by an LLM from [[User Behavior Insights|UBI]] clickstream, applied online via [[Query Rewriting]] and [[Reranking]], with reasoning kept off the query path
 
+[[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Andrei Cristea]], [[Qdrant]]; [[Haystack EU]] lightning talk on hybrid routing — a small classifier sends each query to sparse, dense or [[Reciprocal Rank Fusion|RRF]] and beats always-on fusion, where an LLM router kept defaulting to RRF
+
 ### Podcasts
 
 [[Vector Podcast]] — [[Dima Kan]], Aiven; interview series running since October 2021 (38 episodes) covering vector search, search engines and the businesses around them — vector database founders interviewed mid-build, [[HNSW]] co-author Yury Malkov, and on-site batches from [[Berlin Buzzwords]]
@@ -158,7 +160,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrei Cristea]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
 
@@ -168,7 +170,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **E** — [[Erik Hatcher]] · [[Ernestas Poškus]] · [[Eugene Yan]] · [[Elzbieta Jakubowska]] · [[Evgeniya Sukhodolskaya]]
 
-**F** — [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
+**F** — [[Fernando Diaz]] · [[Florent Krzakala]] · [[Florian Narr]] · [[Fraidoon Omarzai]] · [[Francesco Casalegno]] · [[Frank Goortani]] · [[Freddy Domínguez]]
 
 **G** — [[Geoffrey Hinton]] · [[Giovanni Fernandez-Kincade]] · [[Gustavo Llermaly]]
 
@@ -176,7 +178,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
-**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[James Briggs]] · [[James Rubinstein]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
 
@@ -192,7 +194,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **Q** — [[Quynh Nguyen]]
 
-**R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
+**R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
 **S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 

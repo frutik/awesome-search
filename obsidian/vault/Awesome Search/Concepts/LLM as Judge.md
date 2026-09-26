@@ -246,6 +246,8 @@ escalation, rather than a sampled subset extrapolated to the whole.
 - [[How Etsy Uses LLMs to Improve Search Relevance]] — [[Yuqing Zhang]], [[Congzhe Su]], [[Susan Liu]]; LLM annotator anchored to human golden labels, scaled via a three-tier [[Knowledge Distillation|distillation]] cascade into a real-time production judge
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; landscape survey from Voorhees (2000) to 2026, separating four levels of agreement, and finding that in every documented industry deployment humans define the standard, the LLM scales it, and business metrics keep it honest
 
+- [[DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG]] — an LLM judge used online, grading top-1 BM25 and dense results to set per-query hybrid weights
+
 ## People
 
 - [[Andrew Kornilov]] — the four-level agreement framing

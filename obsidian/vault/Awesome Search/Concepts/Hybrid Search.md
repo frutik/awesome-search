@@ -80,6 +80,12 @@ Treat each retriever's score (BM25, cosine) as an input feature to a [[LambdaMAR
 
 - See: [[Hybrid Search and Learning-to-Rank with Metarank]] — [[Vsevolod Goloviznin]] ([[Pinecone]])
 
+### Hybrid Routing (no fusion)
+
+Instead of merging both lists on every query, a query classifier picks one route per query: sparse only, dense only, or [[Reciprocal Rank Fusion|RRF]]. [[Qdrant]]'s version trains a small neural network on ~230,000 labelled queries (route mix ~61% sparse, 36% dense, 3% RRF) using an encoder embedding, SVD-reduced n-gram features and lexical shape signals; on held-out data it beat hybrid RRF on relevance, hit@1 and NDCG. An earlier LLM-based router mostly defaulted to RRF. See [[Query Routing]].
+
+- See: [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Andrei Cristea]] ([[Qdrant]]), [[Haystack EU]]
+
 ## Common Implementations
 
 ### SPLADE + Bi-Encoder

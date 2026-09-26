@@ -76,6 +76,8 @@ Policies are discrete → impacts are attributable:
 - [[Personalization]] — cohort-based policies extend governance
 - [[Hybrid Search]] — one routing option the governance layer may choose
 
+- [[Query Routing]] — strategy routing is governance's third function; the broader routing patterns and how routers are trained and evaluated
+
 ## Articles
 
 - [[Why Ecommerce Search Needs Governance and How It Improves Retrieval]] — [[Alexander Marquardt]], [[Honza Král]], [[Taylor Roy]]

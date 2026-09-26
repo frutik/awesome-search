@@ -34,6 +34,8 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 - [[Thierry Damiba]] — developer relations; sparse fine-tuning research
 - [[Dylan Couzon]] — hybrid search tuning guide
 
+- [[Andrei Cristea]] — developer relations engineer; hybrid routing (sparse / dense / RRF query router)
+
 ## Articles
 - [[TurboQuant in Qdrant]]
 
@@ -48,6 +50,7 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 ## Videos
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026
 - [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Berlin Buzzwords]] 2026
+- [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Haystack EU]] lightning talk
 
 ## Tools
 - [[Qdrant Vector DB]]

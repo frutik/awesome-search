@@ -94,6 +94,8 @@ BEIR is the shared yardstick across the retrieval-model notes:
   its contamination caveat stated plainly, since every model in the table may have seen these
   public corpora
 
+- [[RouterRetriever - Routing over a Mixture of Expert Embedding Models]] — routing each query to a domain-expert LoRA encoder: +2.1 nDCG@10 over an MS MARCO-trained model, +3.2 over multi-task training
+
 ## Related Concepts
 
 - [[NDCG]] · [[NDCG Variants]] — the reported metric and its incompatible conventions

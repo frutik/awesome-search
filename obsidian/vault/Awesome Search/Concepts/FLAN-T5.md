@@ -80,6 +80,8 @@ manufactures labels before serving, the other scores documents during it.
 - [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]] ([[Vespa]]);
   flan-t5-xl as query generator, with released notebooks
 
+- [[Adaptive-RAG - Learning to Adapt Retrieval-Augmented LLMs through Question Complexity]] — FLAN-T5-XL and -XXL as generators under complexity routing
+
 ## Source
 
 - Model checkpoints — https://huggingface.co/google/flan-t5-xl

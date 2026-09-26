@@ -24,6 +24,8 @@ Author of the seven-router taxonomy for RAG applications, notable for deflating 
 
 - Catalogued router types across [[LlamaIndex]], [[LangChain]] and [[Haystack (deepset)]] — from LLM completion routers down to keyword and logical routers
 
+- The same router taxonomy (minus logical routers) appears in [[Roger Oriol]]'s [[Build an Advanced RAG App - Query Routing]], with a [[LlamaIndex]] walkthrough.
+
 ## Concepts
 
 - [[Query Routing]] · [[RAG]] · [[Query Understanding]] · [[Query Classification]]

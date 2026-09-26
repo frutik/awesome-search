@@ -36,6 +36,8 @@ Where `c` is a constant (typically 60) that dampens the impact of high-ranked do
 - Does not account for query-type variance (some queries may benefit more from lexical vs. semantic)
 - Criticized in *RRF is Not Enough* for losing signal in hybrid search contexts
 
+- Can rank *below* sparse-only or dense-only retrieval on some queries; in [[Qdrant]]'s hybrid-routing work RRF was the best route for only ~3% of ~230,000 labelled queries — see [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]]
+
 ## Weighting, and why the constant matters
 
 The constant is not decoration. Because it dominates the denominator at low ranks, it also sets the *scale* of the output, which is why raw RRF scores come
@@ -93,6 +95,10 @@ RRF is the default fusion method in [[Hybrid Search]] pipelines combining:
 - **Learned fusion**: train a model to optimally weight retrieval paths per query type (e.g. [[LambdaMART]] via [[Metarank]])
 - **[[Interleaving]]**: zip-merge ranked lists; a simple cold-start baseline and online-eval method
 - **[[Wormhole Vectors]]**: bridge across representation spaces at embedding level
+
+- **Hybrid routing** ([[Query Routing]]): skip fusion per query — a classifier sends each query to sparse, dense, or RRF ([[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]])
+
+- **Per-query weights** (soft routing): an LLM grades each retriever's top result and sets the hybrid α per query — [[DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG]]
 
 ## Related Concepts
 

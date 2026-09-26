@@ -75,6 +75,8 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
   the [[Dense Passage Retriever]] result: NQ-trained dense retrieval losing to [[BM25]] here
   zero-shot. BM25 is reported to trail neural approaches by 7–18 points on MS MARCO itself
 
+- [[RouterRetriever - Routing over a Mixture of Expert Embedding Models]] — the single MS MARCO-trained encoder is the baseline that routed domain experts beat on BEIR
+
 ## Related Concepts
 
 - [[Precision and Recall]] — the metric most often reported against MS MARCO

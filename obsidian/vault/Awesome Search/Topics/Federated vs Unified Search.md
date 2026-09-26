@@ -69,6 +69,8 @@ Genuinely federated setups persist where the constraint is external: sources you
 - [[Unified Search Index]] — the index-time side, in depth
 - [[Denormalization for Search]] · [[Reciprocal Rank Fusion]] · [[Hybrid Search]] · [[Search Architecture]] · [[Knowledge Graph Search]] · [[Search Scopes]]
 
+- [[Vertical Selection]] · [[Query Routing]] — choosing which federated sources to query; see [[Efficient Federated Search for RAG using Lightweight Routing]] for the RAG case
+
 ## Related Topics
 
 - [[Enterprise Search]] · [[E-commerce Search]] · [[Multilingual Search]] · [[Search Platforms]]

@@ -97,6 +97,9 @@ Baseline RAG scores each passage independently, which breaks on two classes of q
 - [[Long-Context RAG]] · [[Needle in a Haystack Test]] — how far a bigger window actually gets you
 - [[Query Routing]] · [[Prompt Compression]] · [[LLM Guardrails]] · [[Hallucination Detection]] — pipeline operation
 
+- [[Adaptive Retrieval]] — deciding per query whether to retrieve, and how much
+- [[Query Routing]] — choosing sources, retrievers or strategies per query
+
 ## Articles
 
 - [[Chunking Strategies for LLM Applications]]

@@ -20,6 +20,7 @@ Conference talks and recorded presentations on search & information retrieval �
 
 - [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — [[Doug Turnbull]] & [[Andy Toulis]] ([[Shopify]]); [[Haystack US]] 2022 on [[Bayesian Optimization]] for retuning [[BM25]] `k1`/`b`, with a worked case study on product-title length normalization and a presentation-bias loophole caught mid-experiment. Companion to [[Bayesian Optimization]] and [[Tuning BM25 for E-commerce Search]].
 - [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory]] — [[Hajer Bouafif]] ([[Amazon Web Services]]); [[Berlin Buzzwords]] 2026 on [[Agentic Memory]] as the substrate for search [[Personalization]] — preferences inferred offline by an LLM from [[User Behavior Insights|UBI]] clickstream, then applied online via [[Query Rewriting]] and [[Reranking]], keeping reasoning off the query path. Companion to [[Agentic Memory for Search Personalization]].
+- [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Andrei Cristea]] ([[Qdrant]]); [[Haystack EU]] lightning talk arguing [[Reciprocal Rank Fusion|RRF]] is a good default but not the best: a small classifier routes each query to sparse, dense or RRF and beats always-on fusion — while the LLM router it replaced kept falling back to RRF. Companion to [[Query Routing]] and [[Hybrid Search]].
 
 ## Podcasts
 

@@ -71,3 +71,5 @@ It also supports **multi-domain training**, the lever for trading peak in-domain
 - [[Fine-Tuning an Embedding Model for Semantic Search]]
 - [[Introduction to Matryoshka Embedding Models]]
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — sparse-encoder path
+
+- [[Query Routing - Direct Queries to the Right Source]] — [[Ailog]]; `BAAI/bge-m3` centroids as an embedding-based query router
