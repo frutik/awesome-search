@@ -95,6 +95,7 @@ Two consequences:
 
 ## Related Concepts
 
+- [[ESCI Label Scheme]] — Exact / Substitute / Complement / Irrelevant as a scheme in its own right
 - [[Judgment Lists]] — what each of these datasets is, structurally
 - [[Search Evaluation]] · [[NDCG]] — the metrics they feed
 - [[LLM as Judge]] · [[Semantic Relevance]] — ESCI-style labels as the target for LLM labeling

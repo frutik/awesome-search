@@ -30,6 +30,7 @@ A planned refinement is splitting "partially relevant" into finer subcategories 
 
 ## Related Concepts
 
+- [[ESCI Label Scheme]] — the Exact/Substitute/Complement/Irrelevant grading the planned partial-relevance split draws on
 - [[LLM as Judge]] — the mechanism used to scale semantic relevance labeling
 - [[Knowledge Distillation]] — how the judgment gets compressed into a real-time-usable model
 - [[Amazon ESCI Dataset]] — a public annotation scheme with a similar Exact/Substitute/Complement/Irrelevant split

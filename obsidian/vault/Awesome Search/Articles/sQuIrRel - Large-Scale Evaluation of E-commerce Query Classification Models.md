@@ -126,6 +126,7 @@ The paper does not cite [[Daniel Tunkelang]], but sQuIrRel reads as a narrow, di
 A practical by-product: the bag sQuIrRel already builds is all a bag-of-documents specificity score needs, so per-query specificity comes almost free alongside the labels.
 ## Related Concepts
 
+- [[ESCI Label Scheme]] — the label scheme its relevance model predicts
 - [[Query Classification]] — the task it evaluates; see the Evaluation section there
 - [[Query Understanding]] · [[Search Intent]] — the signal family Q2PT belongs to
 - [[Click Signals]] · [[Implicit Judgments]] · [[Presentation Bias]] — the click-label approach it argues against

@@ -65,6 +65,7 @@ A caveat for training use: ESCI was crowdsourced before LLM labeling, so label n
 
 ## Related Concepts
 
+- [[ESCI Label Scheme]] — the four-grade scheme this dataset introduced, and its use beyond the dataset
 - [[Judgment Lists]] — ESCI is a large-scale public judgment list
 - [[NDCG]] — ESCI's graded labels map naturally to NDCG evaluation
 - [[Learning to Rank]] — a primary use case for this dataset

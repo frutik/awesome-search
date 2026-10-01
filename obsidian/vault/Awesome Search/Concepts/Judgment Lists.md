@@ -96,6 +96,7 @@ These datasets are useful for: initial model benchmarking, transfer learning bas
 
 ## Related Concepts
 
+- [[ESCI Label Scheme]] — a four-grade e-commerce label scheme for judgments
 - [[NDCG]] — primary metric using judgment lists
 - [[MRR]] — uses binary judgments from list
 - [[Search Evaluation]] — how judgment lists feed into evaluation
