@@ -64,6 +64,7 @@ Home goods search has distinct challenges compared to general e-commerce:
 - [[Hybrid Search]] — commonly evaluated against WANDS
 - [[Amazon ESCI Dataset]] — larger counterpart for broader e-commerce domains
 - [[Distribution-Based Score Fusion]] — its largest measured gain over default RRF among five fusion-tuning benchmark datasets was on WANDS
+- [[E-commerce Search Evaluation Datasets]] — how WANDS compares with ESCI, ESCI-S and Home Depot
 
 ## Articles
 

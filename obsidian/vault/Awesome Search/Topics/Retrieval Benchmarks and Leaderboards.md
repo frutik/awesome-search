@@ -20,6 +20,7 @@ related_topics:
   - "[[Model Selection and Fine-Tuning Evaluation]]"
   - "[[Embedding Models Compared]]"
   - "[[Relevance Evaluation Tools Compared]]"
+  - "[[E-commerce Search Evaluation Datasets]]"
 created: 2026-08-05
 ---
 
@@ -79,6 +80,8 @@ Closest to product reality, and the vault already covers these in depth:
 - **[[Amazon ESCI Dataset]]** / **[[ESCI-S Dataset]]** — multilingual product search with graded Exact/Substitute/Complement/Irrelevant labels; the standard e-commerce relevance set
 - **[[WANDS Dataset]]** — Wayfair product search with dense human judgments
 - **[[Home Depot Product Search Relevance]]** — older Kaggle set, still a reasonable smoke test
+
+For a side-by-side comparison of their label schemes, which to pick for which job, and the cross-catalog transfer results, see [[E-commerce Search Evaluation Datasets]].
 
 ### A Different Axis Entirely
 

@@ -142,3 +142,4 @@ Start at Level 1. Only move up if A/B test shows improvement.
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — signal selection, bias, leakage and serving in a large accommodation marketplace
 - [[Tuning BM25 for E-commerce Search]] — field-by-field `k1`/`b` tuning for product data, and why it matters more in marketplaces
 - [[How Etsy Uses LLMs to Improve Search Relevance]] — LLM-anchored semantic relevance as a signal alongside engagement, distilled for real-time production use
+- [[E-commerce Search Evaluation Datasets]] — ESCI, ESCI-S, WANDS and Home Depot compared: label schemes, which to use when, and why one catalog's results don't transfer to another

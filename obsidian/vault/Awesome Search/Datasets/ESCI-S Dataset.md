@@ -60,6 +60,7 @@ bites [[Multimodal Embeddings]] / image-search work.
 - [[Semantic Search]] — primary model type evaluated with ESCI-based data
 - [[Learning to Rank]] — downstream task using these labels
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 1]] — hands-on use of the image metadata, and where the link-rot numbers come from
+- [[E-commerce Search Evaluation Datasets]] — where ESCI-S fits among the public e-commerce sets
 
 ## Source
 

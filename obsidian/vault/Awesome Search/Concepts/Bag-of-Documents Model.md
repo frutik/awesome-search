@@ -79,6 +79,9 @@ This makes the Bag-of-Documents Model a theoretical foundation for multi-turn ag
 | Static ranking | Iterative refinement |
 | Fixed query interpretation | Ambiguity-aware |
 
+## As a Source of Evaluation Labels
+
+The same framing can produce ground truth rather than retrieval. Amazon's [[sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models|sQuIrRel]] estimates each query's bag of products with a high-precision relevance model, then labels the query with the product type that dominates the bag — a query-to-product-type evaluation set built without clicks or annotators. It does not cite this model, and it takes the opposite stance on ambiguity: bags spread across product types (low [[Query Specificity|specificity]]) are discarded rather than kept as distributions, so ambiguous and broad queries fall outside the evaluation.
 ## Related Concepts
 - [[Embeddings]] — parent concept; query as a distribution over document embeddings
 - [[Dense Embeddings]] — the centroid vector is a dense embedding

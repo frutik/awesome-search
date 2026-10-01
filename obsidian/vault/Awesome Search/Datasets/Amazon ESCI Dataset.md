@@ -72,6 +72,7 @@ A caveat for training use: ESCI was crowdsourced before LLM labeling, so label n
 - [[WANDS Dataset]] — comparable annotation dataset from Wayfair
 - [[Embedding Fine-tuning]] · [[Hard Negative Mining]] — ESCI as training rather than evaluation data
 - [[SPLADE]] · [[Learned Sparse Retrieval]] — models fine-tuned on it
+- [[E-commerce Search Evaluation Datasets]] — how ESCI compares with ESCI-S, WANDS and Home Depot
 
 ## Articles
 

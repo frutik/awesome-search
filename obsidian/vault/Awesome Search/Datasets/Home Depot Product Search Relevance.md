@@ -57,6 +57,7 @@ The home improvement domain has distinctive challenges:
 - [[Learning to Rank]] — standard use case for this dataset
 - [[Amazon ESCI Dataset]] — larger counterpart for general e-commerce search evaluation
 - [[WANDS Dataset]] — comparable vertically-focused annotation dataset
+- [[E-commerce Search Evaluation Datasets]] — how Home Depot compares with ESCI, ESCI-S and WANDS
 
 ## Source
 

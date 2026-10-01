@@ -222,6 +222,7 @@ Query understanding is upstream of retrieval, so classifier metrics alone are ne
 - **Hierarchical credit** — a four-level taxonomy makes flat accuracy misleading; a prediction wrong at the leaf but right at the parent is not the same failure as one wrong at the root.
 - **Qualitative triage** — [[Query Triage - The Secret Weapon for Search Relevance]] applies classification to *failures* rather than queries: a cross-functional group categorises bad queries against a shared vocabulary. It is the fastest way to discover that your label set is the problem.
 - **Residual watch** — a rising `Others` share is an early signal of catalog or market drift. See [[Search Observability]].
+- **Labels from relevance, not clicks or annotators** — [[sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models|sQuIrRel]] (Amazon) builds query-to-product-type evaluation sets automatically: a high-precision relevance model picks each query's exact-match results, and the query inherits their dominant catalogue product type. It aims to cover every product type (about 1.5k sampled, against about 600 of 1k+ in Amazon's human-labelled set), with 87% of labels correct on a 400-query manual check — but only for single-intent queries, and only where the engine already returns the right products. The data is internal; the recipe is what transfers.
 
 ---
 
