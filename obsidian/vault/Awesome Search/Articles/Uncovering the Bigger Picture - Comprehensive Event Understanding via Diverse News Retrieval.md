@@ -86,7 +86,7 @@ C and I are the interesting pair. Both are *coverage-denominated* rather than di
 
 ## Results
 
-Baselines: [[BM25]], dense retrieval alone, [[MMR]], and DkMIPS (diversity-aware maximum inner product search). On LocalNews at top-10:
+Baselines: [[BM25]], dense retrieval alone, [[MMR]], and [[Diversity-Aware k-Maximum Inner Product Search Revisited|DkMIPS]] (diversity-aware maximum inner product search). On LocalNews at top-10:
 
 | Method | F1 | D | I | C |
 |---|---|---|---|---|
@@ -130,6 +130,10 @@ The second is the metric gap. Tracking [[APD]] alongside [[NDCG]] catches gross 
 ## Related Topics
 
 - [[Search Result Diversity]] — the vault's treatment of the relevance/diversity trade-off
+
+## Related Articles
+
+- [[Diversity-Aware k-Maximum Inner Product Search Revisited]] — DkMIPS, the inner-product diversification baseline, from the same group
 
 ## Related Datasets
 

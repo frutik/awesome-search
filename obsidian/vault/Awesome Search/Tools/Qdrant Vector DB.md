@@ -50,6 +50,7 @@ Key capabilities:
 - **[[Weaviate Vector DB]]** — competing vector database; native cross-encoder reranking support
 - **Pinecone** — managed-only competitor
 - **FAISS** — library (not a service); no filtering, no persistence
+- **[[qdrant-es-gateway]]** — third-party Elasticsearch-compatible REST front end that uses Qdrant as a lexical engine: server-side BM25 sparse vectors, payload filters and facets; its documented surface has no kNN or dense-vector query
 
 ## Related Concepts
 - [[HNSW]] — the ANN index Qdrant uses

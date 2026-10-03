@@ -18,6 +18,7 @@ related_concepts:
   - "[[Search Intent]]"
   - "[[NDCG]]"
   - "[[Reranking]]"
+  - "[[Maximum Inner Product Search]]"
 related_topics:
   - "[[E-commerce Search]]"
   - "[[Query Understanding in Practice]]"
@@ -30,9 +31,11 @@ articles:
   - "[[Broad and Ambiguous Search Queries]]"
   - "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
   - "[[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval]]"
+  - "[[Diversity-Aware k-Maximum Inner Product Search Revisited]]"
 datasets:
   - "[[LocalNews]]"
   - "[[DSGlobal]]"
+  - "[[NewsSpectrum]]"
 people:
   - "[[Daniel Tunkelang]]"
   - "[[Andreas Wagner]]"
@@ -40,6 +43,7 @@ people:
   - "[[Yiqun Sun]]"
   - "[[Yuanyuan Shi]]"
   - "[[Anthony K.H. Tung]]"
+  - "[[Qiang Huang]]"
 created: 2026-05-16
 ---
 
@@ -113,6 +117,12 @@ with an optional relevance-weighted variant that scores each cluster by its simi
 
 Two consequences worth carrying to non-news domains. The selection is **interpretable**: a cluster is inspectable, so a diversity decision can be explained rather than just scored. And it is **unsupervised** — no labeled subtopics, no stance annotation, no training.
 
+### Diversity Inside the Retrieval Step (DkMIPS)
+
+Every method above reranks a candidate list that a relevance-only first stage already produced, so it can only diversify what that stage let through. [[Diversity-Aware k-Maximum Inner Product Search Revisited|DkMIPS]] puts the MMR objective into the vector query itself. It is a [[Maximum Inner Product Search]] that maximizes the mean inner product with the query minus a λ-weighted penalty on the average (or maximum) inner product *between* results. Greedy and two-set DualGreedy algorithms run over a Ball-Cone Tree. The average-pairwise objective is submodular and gets a 1/4 approximation guarantee; the max-pairwise one does not.
+
+The catch is the index. The pairwise term breaks the assumptions of LSH, quantization and graph indexes, so DkMIPS uses tree-based pruning, not a standard [[Approximate Nearest Neighbor Search|ANN]] index. Its news demo, DiversiNews, exposes λ as a reader-facing slider and evaluates on [[NewsSpectrum]] by spread of outlet bias ratings. In the later [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval|NEWSCOPE]] comparison, DkMIPS scored highest on [[APD]] but trailed sentence-cluster selection on aspect coverage.
+
 ## When to Apply Diversity
 
 | Query type | Apply diversity? | Why |
@@ -166,6 +176,7 @@ Broad-query diversification is "pre-emptive faceting" — the system makes the i
 - **[[Daniel Tunkelang]]** — Searching for Goldilocks (Wundt Curve, λ-MMR), Thoughts on Search Result Diversity (KL-divergence, greedy reranking)
 - **[[Andreas Wagner]]** — Three Pillars framework (Discovery pillar); [[MICES]] talk on diverse result sets showing how result positioning shapes user basket composition
 - **[[Yixuan Tang]]**, **[[Yiqun Sun]]**, **[[Yuanyuan Shi]]**, **[[Anthony K.H. Tung]]** — NEWSCOPE: sentence-level clustering as the diversification unit, and the coverage-based metrics that go with it
+- **[[Qiang Huang]]**, **[[Yiqun Sun]]**, **[[Anthony K.H. Tung]]** — DkMIPS: MMR-style diversity built into inner-product retrieval, and its DiversiNews news demo
 
 ---
 
@@ -178,3 +189,6 @@ Broad-query diversification is "pre-emptive faceting" — the system makes the i
 - [[Diversity Metrics]] — the metric family, including the two coverage-based measures
 - [[Reranking]] — where diversification is applied
 - [[LocalNews]] · [[DSGlobal]] — benchmarks for measuring aspect coverage
+- [[Maximum Inner Product Search]] — the retrieval primitive DkMIPS diversifies
+- [[Diversity-Aware k-Maximum Inner Product Search Revisited]] — DkMIPS and the DiversiNews demo
+- [[NewsSpectrum]] — political-spread news corpus

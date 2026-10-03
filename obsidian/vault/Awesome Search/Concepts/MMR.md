@@ -52,8 +52,19 @@ Greedy iterative selection:
 | May show redundant content | May surface lower-relevance items |
 | Better for known-item search | Better for exploratory / ambiguous queries |
 
+## Complexity and Guarantees
+
+Selecting the set that maximizes an MMR-style objective is NP-hard; the greedy procedure above is a heuristic. The DkMIPS work ([[Diversity-Aware k-Maximum Inner Product Search Revisited]]) splits the redundancy penalty into two common variants and shows they behave differently:
+
+- **Average pairwise similarity** gives a submodular objective. Running two greedy sets in parallel (DualGreedy) then has a constant 1/4 approximation, with an additive regularization term.
+- **Maximum pairwise similarity**, the form in the formula above, is neither submodular nor supermodular, so plain greedy has only a data-dependent bound.
+
+DkMIPS also moves the MMR objective out of a post-retrieval rerank and into the [[Maximum Inner Product Search]] query itself, using inner product for both relevance and redundancy.
+
 ## Related
 
 - [[APD]] — Average Pairwise Distance, a passive diversity measurement (vs MMR's active reranking)
 - [[Diversity Metrics]] — overview of diversity approaches
 - [[Reranking]] — MMR is applied as a post-retrieval reranking step
+- [[Maximum Inner Product Search]] — DkMIPS embeds the MMR objective in inner-product retrieval
+- [[Diversity-Aware k-Maximum Inner Product Search Revisited]] — submodularity analysis of average vs. max redundancy penalties

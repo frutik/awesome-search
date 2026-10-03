@@ -189,6 +189,11 @@
   },
   "active": "563af557fed436ef",
   "lastOpenFiles": [
+    "Tools/qdrant-es-gateway.md",
+    "People/Qiang Huang.md",
+    "Concepts/Maximum Inner Product Search.md",
+    "Datasets/NewsSpectrum.md",
+    "Articles/Diversity-Aware k-Maximum Inner Product Search Revisited.md",
     "Concepts/ESCI Label Scheme.md",
     "History/2026.40.md",
     "Articles/sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models.md",
@@ -210,11 +215,6 @@
     "Companies/Ailog.md",
     "People/Roger Oriol.md",
     "Articles/Build an Advanced RAG App - Query Routing.md",
-    "Articles/Query Routing - Direct Queries to the Right Source.md",
-    "People/Andrei Cristea.md",
-    "Videos/Andrei Cristea - Qdrant Vector Search and Hybrid Routing.md",
-    "History/2026.39.md",
-    "People/Han-chung Lee.md",
     "Без назви"
   ]
 }

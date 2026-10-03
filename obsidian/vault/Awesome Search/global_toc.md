@@ -21,7 +21,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Set-Theoretic Embeddings]] · [[Box Embedding]] · [[Gaussian Embedding]] · [[Poincaré Embedding]] · [[Region-Based Representation]]
 
 ### ANN Indexing & Quantization
-[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Vector Index Updates]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[ASH]] · [[ITQ]] · [[Token Pooling]]
+[[Approximate Nearest Neighbor Search|ANN]] · [[Brute-Force Vector Search]] · [[Maximum Inner Product Search]] · [[HNSW]] · [[IVF]] · [[LSH]] · [[ACORN-1]] · [[Vector Filtering]] · [[Vector Index Updates]] · [[Wormhole Vectors]] · [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] · [[BBQ]] · [[RaBitQ]] · [[TurboQuant]] · [[ASH]] · [[ITQ]] · [[Token Pooling]]
 
 ### Dimensionality Reduction
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]
@@ -89,7 +89,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Tools
 
 ### Search & Vector Engines
-[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Manticore Search]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
+[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Manticore Search]] · [[FAISS]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[qdrant-es-gateway]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
@@ -154,7 +154,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[ADE Corpus V2]] · [[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[ADE Corpus V2]] · [[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LoTTE]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[NewsSpectrum]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
@@ -192,7 +192,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
-**Q** — [[Quynh Nguyen]]
+**Q** — [[Qiang Huang]] · [[Quynh Nguyen]]
 
 **R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 

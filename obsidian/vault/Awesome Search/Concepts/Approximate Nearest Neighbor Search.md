@@ -69,6 +69,7 @@ servers are needed, or whether servers are needed. See
 - [[Vector Quantization]] · [[Scalar Quantization]] · [[Binary Quantization]] — compression combined with ANN indexes
 - [[Vector Similarity Metrics]] — the distance functions ANN indexes optimize over
 - [[Vector Filtering]] — applying metadata predicates during ANN search
+- [[Maximum Inner Product Search]] — inner-product top-k; diversity-aware variants don't fit standard ANN indexes
 
 ## Related Topics
 

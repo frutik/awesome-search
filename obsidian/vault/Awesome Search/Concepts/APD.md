@@ -60,3 +60,4 @@ APD is useful as a dashboard metric:
 ## Articles
 
 - [[Uncovering the Bigger Picture - Comprehensive Event Understanding via Diverse News Retrieval]] — uses APD as one of three diversity metrics, and proposes two coverage-based measures to fill the gap APD leaves
+- [[Diversity-Aware k-Maximum Inner Product Search Revisited]] — DkMIPS, which optimizes the inner-product analogue of APD (average pairwise similarity) directly at retrieval time

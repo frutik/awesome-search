@@ -134,3 +134,4 @@ These metrics are niche in semantic search but essential when operating [[Binary
 - [[Vector Quantization]] — approximating distance under compression
 - [[Binary Quantization]] — extreme compression requiring Hamming/Jaccard metrics
 - [[Matryoshka Embeddings]] — variable-dimension embeddings; metric choice interacts with truncation
+- [[Maximum Inner Product Search]] — top-k retrieval under the dot product
