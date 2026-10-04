@@ -87,6 +87,8 @@ definition of a good outcome enters the model, and it should be made explicitly.
 - [[Judgment Lists]] — the explicit human-labeled alternative
 - [[Session-Based Evaluation]] — session context determines skip-above validity
 
+- [[Outcome-Based vs Semantic Relevance]] — behavioural labels set against content-match labels
+
 ## Articles
 
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — the four-axis framing and both signal tables

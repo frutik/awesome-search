@@ -1,17 +1,40 @@
 ---
 type: topic
-tags: [topic, conversational-search, agentic-search, llm, rag, multi-turn]
-related_concepts: [RAG, LLM, Query Understanding, Embeddings]
-related_topics: [Frontier of Search 2026, Query Understanding in Practice, Personalization in Search, Autocomplete and Autosuggest, E-commerce Search]
+tags:
+  - topic
+  - conversational-search
+  - agentic-search
+  - llm
+  - rag
+  - multi-turn
+related_concepts:
+  - RAG
+  - LLM
+  - Query Understanding
+  - Embeddings
+related_topics:
+  - Frontier of Search 2026
+  - Query Understanding in Practice
+  - Personalization in Search
+  - Autocomplete and Autosuggest
+  - E-commerce Search
 articles:
   - "[[Agentic Search for Context Engineering]]"
   - "[[Agentic Search as an Agile Engineering Process]]"
   - "[[You Say Search I Say Recs - Spotify Agentic Query Understanding]]"
   - "[[Superintelligent Retrieval Agent SIRA]]"
   - "[[Incremental AI Adoption for E-commerce Search]]"
-  - "[[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and Reasoning for LLMs]]"
-  - "[[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval to Autonomous Reasoning]]"
-companies: [Spotify, Elastic, Cohere]
+  - "[[SEARCH-R1 - Reinforcement Learning-Enhanced Multi-Turn Search and
+    Reasoning for LLMs]]"
+  - "[[From RAG to Search-R1 - Evolving Language Models from Knowledge Retrieval
+    to Autonomous Reasoning]]"
+  - "[[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic
+    Recommendation Systems]]"
+companies:
+  - Spotify
+  - Elastic
+  - Cohere
+  - "[[Criteo]]"
 people: []
 created: 2026-05-16
 ---
@@ -118,6 +141,8 @@ As search becomes conversational, it overlaps with recommendations:
 **Spotify** explicitly routes these intents to different backends. The routing decision is itself a personalization decision (see [[Personalization in Search]]).
 
 ---
+
+**Criteo** describes the commerce version of this boundary: services that recommend products to AI shopping assistants. Their pipeline has two steps, KNN retrieval over commerce-tuned embeddings and then re-ranking on commerce signals with generated explanations. Criteo argues that general LLMs and content embeddings capture semantic match but not what shoppers end up buying, so the services should be judged on [[Outcome-Based Relevance]] ([[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]]).
 
 ## Evaluation Challenges
 

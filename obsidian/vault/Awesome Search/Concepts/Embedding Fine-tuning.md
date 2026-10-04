@@ -128,3 +128,5 @@ Fine-tuning is easy to do and easy to fool yourself about. Training loss falling
 - [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; skipping fine-tuning entirely as mistake #1, and trusting it out-of-domain as mistake #2
 - [[Hard Negative Mining]] — the ANCE loop, and the false-negative risk it carries
 - [[The Complete Guide to Fine-Tuning Embedding Models]] — comprehensive guide: 6 dataset types, 5 loss functions (MNRL/CoSENT/Triplet/CachedMNRL/Matryoshka), evaluation metrics
+
+- [[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]] — a MiniLM backbone fine-tuned on click data beats larger zero-shot encoders at finding clicked products, but only moderately on human-labelled accuracy

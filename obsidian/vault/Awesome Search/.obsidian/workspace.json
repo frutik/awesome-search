@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/E-commerce Search Evaluation Datasets.md",
+                "file": "Topics/Outcome-Based vs Semantic Relevance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "E-commerce Search Evaluation Datasets"
+              "title": "Outcome-Based vs Semantic Relevance"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/E-commerce Search Evaluation Datasets.md",
+                "file": "Topics/Outcome-Based vs Semantic Relevance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +189,15 @@
   },
   "active": "563af557fed436ef",
   "lastOpenFiles": [
+    "History/2026.41.md",
+    "Articles/Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems.md",
+    "Topics/Outcome-Based vs Semantic Relevance.md",
+    "Concepts/Outcome-Based Relevance.md",
+    "Topics/E-commerce Search Evaluation Datasets.md",
+    "People/Paul Coursaux.md",
+    "People/Maxime Vono.md",
+    "Tools/CLEPR.md",
+    "Articles/Introducing CLEPR, our model for semantic understanding.md",
     "People/Romain Beaumont.md",
     "People/Victor Paltz.md",
     "Companies/Criteo.md",
@@ -204,17 +213,8 @@
     "Articles/sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models.md",
     "Articles/JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision.md",
     "Datasets/KuaiSearch.md",
-    "Topics/E-commerce Search Evaluation Datasets.md",
     "People/Jamie Callan.md",
     "People/Jaime Arguello.md",
-    "People/Fernando Diaz.md",
-    "Concepts/Adaptive Retrieval.md",
-    "Concepts/Vertical Selection.md",
-    "Articles/Sources of Evidence for Vertical Selection.md",
-    "Articles/DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG.md",
-    "Articles/Lightweight Query Routing for Adaptive RAG - A Baseline Study on RAGRouter-Bench.md",
-    "Articles/Efficient Federated Search for RAG using Lightweight Routing.md",
-    "Articles/LTRR - Learning To Rank Retrievers for LLMs.md",
     "Без назви"
   ]
 }

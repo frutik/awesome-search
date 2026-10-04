@@ -60,3 +60,5 @@ There is a failure mode on the other side too: **false negatives**. Mine aggress
 - [[Fine-Tuning Text Embeddings For Domain-Specific Search]]
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]]
 - [[Fine-Tuning an Embedding Model for Semantic Search]]
+
+- [[Introducing CLEPR, our model for semantic understanding]] — an in-batch contrastive objective chosen over click prediction to avoid learning popularity and position bias

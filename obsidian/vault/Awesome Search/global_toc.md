@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Brier Score]] · [[Expected Calibration Error]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[ESCI Label Scheme]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Prompt Optimization]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Hallucination Detection]] · [[Needle in a Haystack Test]] · [[Clippings/Relevance feedback]] · [[APD]]
+[[Search Evaluation]] · [[NDCG]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Brier Score]] · [[Expected Calibration Error]] · [[Precision and Recall]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[ESCI Label Scheme]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Prompt Sensitivity]] · [[Prompt Optimization]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Outcome-Based Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]] · [[Session-Based Evaluation]] · [[Vector Search Evaluation]] · [[Hallucination Detection]] · [[Needle in a Haystack Test]] · [[Clippings/Relevance feedback]] · [[APD]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -73,7 +73,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Multi-Tenancy in Search]]
 
 ### Quality & Operations
-[[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Quepid Beyond Supported Engines]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[E-commerce Search Evaluation Datasets]] · [[Embedding Models Compared]] · [[Search Observability]]
+[[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Quepid Beyond Supported Engines]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[E-commerce Search Evaluation Datasets]] · [[Outcome-Based vs Semantic Relevance]] · [[Embedding Models Compared]] · [[Search Observability]]
 
 ### Team, Career & Community
 [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Search Consultancy]] · [[Search Communities]] · [[Women of Search]] · [[Events and Conferences]]
@@ -107,7 +107,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
 
 ### ML & Model Serving
-[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]]
+[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[CLEPR]]
 
 ---
 
@@ -184,13 +184,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Dietz]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
 
-**M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Mateusz Sidor]] · [[Max Irwin]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
+**M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Mateusz Sidor]] · [[Max Irwin]] · [[Maxime Vono]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
 
 **N** — [[Naghmeh Farzi]] · [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Negar Arabzadeh]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 
 **O** — [[Omar Khattab]]
 
-**P** — [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
+**P** — [[Paul Coursaux]] · [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
 **Q** — [[Qiang Huang]] · [[Quynh Nguyen]]
 

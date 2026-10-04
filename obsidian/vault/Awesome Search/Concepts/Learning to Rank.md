@@ -120,6 +120,8 @@ LTR requires labeled data:
 
 The "perfect ranking" that NDCG (and hence LambdaMART's lambdas) is computed against is *constructed* from interaction weights — and that construction encodes a business goal. Training on raw clicks optimizes for curiosity, not value: in [[Roman Grebennikov]]'s Findify war story, a giant bong shot to the top of a collection because everyone clicked it out of curiosity and nobody bought it. Weighting purchases far above clicks in the label construction sent it back down — and the same lever can optimize for margin instead of purchases. Decide the target metric before training; see [[Roman Grebennikov - Personalizing Search Results in Real-Time]].
 
+The same choice decides whether LTR optimises behaviour or content match. Semantic signals enter as features and outcome signals as labels, or the reverse with human judgment lists. See [[Outcome-Based vs Semantic Relevance]].
+
 ## Position Bias in LTR Training
 
 Click data has position bias — documents at rank 1 get many clicks regardless of quality. Must correct with:

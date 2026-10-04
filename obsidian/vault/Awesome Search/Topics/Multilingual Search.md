@@ -1,12 +1,29 @@
 ---
 type: topic
-tags: [topic, multilingual, cross-lingual, embeddings, nlp]
-related_concepts: [Embeddings, BM25, Query Understanding]
-related_topics: [Query Understanding in Practice, Synonyms and Vocabulary Management, E-commerce Search]
+tags:
+  - topic
+  - multilingual
+  - cross-lingual
+  - embeddings
+  - nlp
+related_concepts:
+  - Embeddings
+  - BM25
+  - Query Understanding
+related_topics:
+  - Query Understanding in Practice
+  - Synonyms and Vocabulary Management
+  - E-commerce Search
 articles:
   - "[[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]]"
-companies: [Carousell, Elastic, Allegro]
-people: [Joanna Marhula, Mateusz Sidor]
+  - "[[Introducing CLEPR, our model for semantic understanding]]"
+companies:
+  - Carousell
+  - Elastic
+  - Allegro
+people:
+  - Joanna Marhula
+  - Mateusz Sidor
 created: 2026-05-16
 ---
 
@@ -118,3 +135,5 @@ Watch for **language imbalance**: a model may score well on average while failin
 - [[Synonyms and Vocabulary Management]] — transliteration and cross-lingual synonym expansion
 - [[Query Understanding in Practice]] — language detection as a preprocessing step
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Allegro]]'s four-language LLM-judge evaluation; Czech scored hardest across models, Hungarian easiest
+
+- [[Introducing CLEPR, our model for semantic understanding]] — [[Criteo]]'s multilingual keyword–product model; query meaning shifts by market and vertical ("chips", "Apple")

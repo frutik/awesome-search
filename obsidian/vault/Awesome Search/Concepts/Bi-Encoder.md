@@ -87,6 +87,9 @@ Trained with **contrastive loss** (e.g., MultipleNegativesRankingLoss):
 
 - [[Bi-encoder vs Cross-encoder When to Use Which One]]
 
+- [[Introducing CLEPR, our model for semantic understanding]] — [[CLEPR]], a two-tower keyword–product model chosen over LLM scoring for latency at billions of pairs a day
+- [[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]] — the same model, fine-tuned on clicks, benchmarked against zero-shot encoders
+
 ## Normalization Note
 
 Also called: dual encoder, two-tower model, Siamese network (when same encoder for both). All refer to the same architecture.

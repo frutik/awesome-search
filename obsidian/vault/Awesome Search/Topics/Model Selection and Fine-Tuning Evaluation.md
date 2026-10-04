@@ -163,3 +163,5 @@ An offline gain is a prediction that users will behave differently. It is not ev
 ## Articles
 
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's cloud-vs-local, thinking-vs-no-thinking judge model bake-off; "no-thinking" variants won on accuracy
+
+- [[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]] — [[Criteo]]'s click-tuned [[CLEPR]] against zero-shot encoders: a large gain on a click-derived metric and a moderate one on human labels, a reminder that the eval set's origin shapes the verdict

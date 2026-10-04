@@ -1,20 +1,50 @@
 ---
 type: topic
-aliases: ["product search", "e-commerce search", "retail search"]
-tags: [topic, e-commerce, product-search]
-related_concepts: ["[[Query Types]]", "[[Zero Results]]", "[[Faceted Search]]", "[[Results Merchandising]]", "[[Results Boosting]]", "[[Learning to Rank]]", "[[Personalization]]", "[[Semantic Relevance]]", "[[LLM as Judge]]"]
-related_topics: ["[[Search Result Diversity]]", "[[Synonyms and Vocabulary Management]]", "[[Query Understanding in Practice]]", "[[Search Quality Assurance]]", "[[Tuning BM25 for E-commerce Search]]"]
-articles: [
-  "[[Ecommerce Search UX - 8 Query Types]]",
-  "[[Targeting Broad Queries in Search]]",
-  "[[Three Pillars of Search Quality - Findability]]",
-  "[[Three Pillars of Search Quality - Discovery and Inspiration]]",
-  "[[How Etsy Uses Thermodynamics for Search]]",
-  "[[How Etsy Uses LLMs to Improve Search Relevance]]",
-  "[[Incremental AI Adoption for E-commerce Search]]",
-  "[[Migrating to Elasticsearch with Dense Vector for Carousell Spotlight]]"
-]
-companies: ["[[Etsy]]", "[[Canva]]", "[[Carousell]]", "[[Zalando]]", "[[Airbnb]]"]
+aliases:
+  - product search
+  - e-commerce search
+  - retail search
+tags:
+  - topic
+  - e-commerce
+  - product-search
+related_concepts:
+  - "[[Query Types]]"
+  - "[[Zero Results]]"
+  - "[[Faceted Search]]"
+  - "[[Results Merchandising]]"
+  - "[[Results Boosting]]"
+  - "[[Learning to Rank]]"
+  - "[[Personalization]]"
+  - "[[Semantic Relevance]]"
+  - "[[LLM as Judge]]"
+  - "[[Outcome-Based Relevance]]"
+related_topics:
+  - "[[Search Result Diversity]]"
+  - "[[Synonyms and Vocabulary Management]]"
+  - "[[Query Understanding in Practice]]"
+  - "[[Search Quality Assurance]]"
+  - "[[Tuning BM25 for E-commerce Search]]"
+  - "[[Outcome-Based vs Semantic Relevance]]"
+articles:
+  - "[[Ecommerce Search UX - 8 Query Types]]"
+  - "[[Targeting Broad Queries in Search]]"
+  - "[[Three Pillars of Search Quality - Findability]]"
+  - "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
+  - "[[How Etsy Uses Thermodynamics for Search]]"
+  - "[[How Etsy Uses LLMs to Improve Search Relevance]]"
+  - "[[Incremental AI Adoption for E-commerce Search]]"
+  - "[[Migrating to Elasticsearch with Dense Vector for Carousell Spotlight]]"
+  - "[[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic
+    Recommendation Systems]]"
+  - "[[Introducing CLEPR, our model for semantic understanding]]"
+companies:
+  - "[[Etsy]]"
+  - "[[Canva]]"
+  - "[[Carousell]]"
+  - "[[Zalando]]"
+  - "[[Airbnb]]"
+  - "[[Criteo]]"
 created: 2026-05-16
 ---
 
@@ -34,6 +64,8 @@ Sellers describe products their way; buyers search their way. A listing titled "
 
 ### Relevance Is Multi-Dimensional
 A result is "relevant" if the user can buy it, it fits their need, it's available, it's in their price range, and the seller is trustworthy. Each dimension may require separate signals.
+
+A common two-way cut is [[Semantic Relevance]] (does the product match the query?) against [[Outcome-Based Relevance]] (do clicks and purchases confirm it?); see [[Outcome-Based vs Semantic Relevance]]. [[Criteo]] uses the first as a guardrail threshold and the second to order what passes it. In its own offline benchmark over 400 candidates, re-ranking semantically retrieved products by recent sales share raised the purchased product's normalized rank score about 2.5× ([[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]], [[Introducing CLEPR, our model for semantic understanding]]).
 
 ### Business Rules Are First-Class
 Margin, inventory, promoted listings, new seller support — these business concerns legitimately affect ranking. The challenge is integrating them without destroying relevance.

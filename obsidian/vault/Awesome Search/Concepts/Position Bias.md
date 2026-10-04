@@ -126,6 +126,8 @@ There is a second-order version in evaluation architecture. Where [[Staged Judgi
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 position bias in the wild: click histograms identical for random vs real ranking; fixed with a shuffled [[Exploration vs Exploitation]] segment
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; position bias as an LLM-judge failure mode and a contaminant of behavioral pruning
 
+- [[Introducing CLEPR, our model for semantic understanding]] — limits click bias with a contrastive objective, one count per pair, and evaluation on human labels
+
 ## People
 
 - [[Daniel Tunkelang]] — position bias in search quality discussion

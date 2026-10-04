@@ -54,9 +54,13 @@ examined and passed over) is far stronger than a bare impression. See
 - [[Learning to Rank]] · [[LambdaMART]] — what they train
 - [[Position Bias]] · [[Presentation Bias]] · [[Impression Bias]] — biases to correct for
 
+- [[Outcome-Based Relevance]] — relevance measured directly by these behavioural outcomes
+
 ## Articles
 
 - [[Learn-to-Rank with OpenSearch and Metarank]] — events aggregated into implicit judgments
 - [[Metarank - Personalized Ranking That Actually Reads Your Clicks]]
 - [[What Is a Judgment List]]
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — positive/negative signal tables weighing satisfaction, volume, delay, and bias
+
+- [[Introducing CLEPR, our model for semantic understanding]] — click pairs rebuilt from session logs, filtered for exclusivity, then validated against human labels

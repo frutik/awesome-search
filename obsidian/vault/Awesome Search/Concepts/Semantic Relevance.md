@@ -28,6 +28,9 @@ The two signals can genuinely conflict: engagement sometimes *drops* even as sem
 
 A planned refinement is splitting "partially relevant" into finer subcategories (complements vs. substitutes), taking inspiration from Amazon's [[Amazon ESCI Dataset|ESCI]] annotation scheme, which already distinguishes Substitute from Complement.
 
+### Criteo's Framing: Accuracy vs Outcome
+
+[[Criteo]] uses the same split under different names. *Accuracy* is semantic relevance, and [[Outcome-Based Relevance]] is the engagement side, judged by clicks and purchases. Its emphasis runs the other way from Etsy's. Semantic match is treated as necessary but not sufficient, and its largest reported gain comes from re-ranking on recent sales on top of semantic retrieval. In its Sponsored Products ads, the semantic score from [[CLEPR]] serves as a guardrail threshold that candidates must pass before performance optimization ranks them ([[Introducing CLEPR, our model for semantic understanding]], [[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]]).
 ## Related Concepts
 
 - [[ESCI Label Scheme]] — the Exact/Substitute/Complement/Irrelevant grading the planned partial-relevance split draws on
@@ -35,6 +38,13 @@ A planned refinement is splitting "partially relevant" into finer subcategories 
 - [[Knowledge Distillation]] — how the judgment gets compressed into a real-time-usable model
 - [[Amazon ESCI Dataset]] — a public annotation scheme with a similar Exact/Substitute/Complement/Irrelevant split
 
+- [[Outcome-Based Relevance]] — the engagement-based counterpart
+
 ## Articles
 
 - [[How Etsy Uses LLMs to Improve Search Relevance]] — the framework this concept is drawn from
+
+- [[Introducing CLEPR, our model for semantic understanding]] — semantic relevance as an ad guardrail
+- [[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]] — accuracy vs outcome-based relevance
+## Related Topics
+- [[Outcome-Based vs Semantic Relevance]] — semantic and engagement relevance compared, with the patterns for combining them

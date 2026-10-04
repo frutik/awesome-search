@@ -1,10 +1,28 @@
 ---
 type: topic
-title: "Two-Sided Marketplace Ranking"
-aliases: ["marketplace ranking", "two-sided marketplace", "supply-side ranking"]
-related_concepts: ["[[Learning to Rank]]", "[[Ranking Objectives]]", "[[Ranking Signal Selection]]", "[[Impression Bias]]", "[[Exploration vs Exploitation]]", "[[Results Boosting]]", "[[Economics of Search]]"]
-related_topics: ["[[E-commerce Search]]", "[[Personalization in Search]]", "[[Search Result Diversity]]"]
-tags: [topic, ranking, marketplace, e-commerce]
+title: Two-Sided Marketplace Ranking
+aliases:
+  - marketplace ranking
+  - two-sided marketplace
+  - supply-side ranking
+related_concepts:
+  - "[[Learning to Rank]]"
+  - "[[Ranking Objectives]]"
+  - "[[Ranking Signal Selection]]"
+  - "[[Impression Bias]]"
+  - "[[Exploration vs Exploitation]]"
+  - "[[Results Boosting]]"
+  - "[[Economics of Search]]"
+related_topics:
+  - "[[E-commerce Search]]"
+  - "[[Personalization in Search]]"
+  - "[[Search Result Diversity]]"
+  - "[[Outcome-Based vs Semantic Relevance]]"
+tags:
+  - topic
+  - ranking
+  - marketplace
+  - e-commerce
 created: 2026-08-05
 ---
 
@@ -87,3 +105,5 @@ than a side effect of relevance ordering. This connects to
 ## Related Topics
 
 - [[E-commerce Search]] · [[Personalization in Search]] · [[Search Result Diversity]] · [[Tuning BM25 for E-commerce Search]] — keyword-stuffing as a ranking-incentive problem on seller-controlled fields
+
+- [[Outcome-Based vs Semantic Relevance]] — conversion-trained ranking against content-match relevance

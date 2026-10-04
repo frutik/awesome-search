@@ -90,6 +90,8 @@ MRR@k only counts a result if the first relevant doc appears within the top k po
 - [[Judgment Lists]] — relevance labels needed for MRR
 - [[ERR]] — the graded-relevance generalization; equivalent in spirit on known-item search
 
+- [[Outcome-Based Relevance]] — scored as the normalized reciprocal rank of the clicked or purchased product among candidates
+
 ## People
 
 - [[Doug Turnbull]] — "Compute MRR using Pandas" tutorial

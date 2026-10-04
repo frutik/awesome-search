@@ -67,6 +67,9 @@ Click data is the primary training signal for [[Learning to Rank]] models:
 
 **Key challenge**: Clicks are biased toward currently-ranked positions. A result at rank 10 gets few clicks even if it's the best answer — its click rate doesn't reflect true relevance.
 
+### When Clicks Aren't Logged: Session Stitching
+
+Not every system records search-to-click events directly. [[Criteo]] sees searches and product-page views only as separate events, so for [[CLEPR]] it rebuilds pseudo-clicks by joining a search to the page views that follow it in the same session, using timing heuristics. To limit the extra noise, it keeps only keyword–product pairs where the keyword reliably leads to the same product across sessions, with minimum volume and recency. It also counts each pair once regardless of click volume, so popular products don't dominate the training signal ([[Introducing CLEPR, our model for semantic understanding]]).
 ## Click Signals vs. [[Judgment Lists]]
 
 | Aspect | Click Signals | Human Judgments |
@@ -85,6 +88,9 @@ Click data is the primary training signal for [[Learning to Rank]] models:
 - [[Implicit Judgments]] — click signals aggregated into relevance labels for LTR
 - [[NDCG]] — offline metric complementing click signals
 - [[Diversity Metrics]] — click diversity as diversity signal
+
+- [[Outcome-Based Relevance]] — relevance defined by clicks and purchases
+- [[CLEPR]] — an embedding model trained on session-stitched clicks
 
 ## People
 

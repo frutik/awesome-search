@@ -103,6 +103,8 @@ In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, 
 - [[Calibrated Relevance Probability]] — reranker output as a probability rather than an ordering-only score, which makes pruning and cross-leg comparison possible
 - [[Jev]] — a structured-decision model used as a reranker with no ranking training
 - [[hev-rerank]] — the minimal open-source implementation of that approach
+
+- [[Outcome-Based Relevance]] — re-ranking on commerce signals such as recent sales share, after semantic retrieval ([[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]])
 ## When Reranking Becomes a System Boundary
 
 From [[When Reranking Becomes a System Boundary]] ([[Ravindra Harige]]):
