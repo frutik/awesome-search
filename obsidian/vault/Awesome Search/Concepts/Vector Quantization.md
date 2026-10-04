@@ -51,6 +51,8 @@ Splits vectors into sub-vectors; each sub-vector quantized against a separate co
 - Used in FAISS IVF-PQ indexes
 - Higher encoder complexity than scalar methods
 
+In the usual setup each sub-space gets 256 cluster centres, so each sub-vector is stored as a single small integer ID instead of floats. The [[autofaiss]] launch post works through a 16× example and credits PQ for fitting a 1 TB, 200-million-vector image corpus into an index of about 10 GB at about 10 ms per query ([[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale|Criteo's own figures]]).
+
 ### [[RQ-VAE|Residual Quantization]] (RQ)
 Staged refinement: quantize the first approximation, then quantize the *residual* error, and so on. Codes are hierarchical (coarse → fine) and combinatorially expressive (two 256-entry stages → 65,536 vectors).
 - Unlike SQ/PQ/binary, RQ-VAE's purpose is not compression for ANN but producing **generatable discrete tokens** — the basis of [[Semantic IDs]] for [[Generative Retrieval]]
@@ -98,6 +100,7 @@ Quantized indexes are fast for candidate retrieval but imprecise. Standard pract
 ## Articles
 - [[Elasticsearch BBQ Optimized Scalar Quantization vs TurboQuant]] — [[Thomas Veasey]]; OSQ vs TurboQuant CPU benchmarks
 - [[TurboQuant in Qdrant]] — [[Ivan Pleshkov]] & [[Jonas Schulz]]; Qdrant 1.18 full implementation with RaBitQ extensions
+- [[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale]] — [[Victor Paltz]] & [[Romain Beaumont]] ([[Criteo]]); product quantization explained, and automatic FAISS index selection
 
 ## People
 - [[Thomas Veasey]] — Elastic; BBQ and OSQ design

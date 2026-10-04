@@ -18,6 +18,7 @@ The software landscape for building and evaluating search — engines, vector da
 
 ## Vector databases
 - [[FAISS]] — library (not a DB): reference ANN index implementations
+- [[autofaiss]] — builds a FAISS index automatically under memory and query-time caps
 - [[Milvus Vector DB]]
 - [[Pinecone Vector DB]]
 - [[Qdrant Vector DB]]

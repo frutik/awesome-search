@@ -189,6 +189,11 @@
   },
   "active": "563af557fed436ef",
   "lastOpenFiles": [
+    "People/Romain Beaumont.md",
+    "People/Victor Paltz.md",
+    "Companies/Criteo.md",
+    "Tools/autofaiss.md",
+    "Articles/Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale.md",
     "Tools/qdrant-es-gateway.md",
     "People/Qiang Huang.md",
     "Concepts/Maximum Inner Product Search.md",
@@ -210,11 +215,6 @@
     "Articles/Lightweight Query Routing for Adaptive RAG - A Baseline Study on RAGRouter-Bench.md",
     "Articles/Efficient Federated Search for RAG using Lightweight Routing.md",
     "Articles/LTRR - Learning To Rank Retrievers for LLMs.md",
-    "Articles/RouterRetriever - Routing over a Mixture of Expert Embedding Models.md",
-    "Articles/Adaptive-RAG - Learning to Adapt Retrieval-Augmented LLMs through Question Complexity.md",
-    "Companies/Ailog.md",
-    "People/Roger Oriol.md",
-    "Articles/Build an Advanced RAG App - Query Routing.md",
     "Без назви"
   ]
 }

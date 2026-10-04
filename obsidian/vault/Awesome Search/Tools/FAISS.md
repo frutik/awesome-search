@@ -51,6 +51,10 @@ and composite indexes.
 - Teams needing live updates or metadata filtering often migrate to
   [[Weaviate Vector DB|Weaviate]], [[Qdrant Vector DB|Qdrant]], Vespa, or
   [[Pinecone Vector DB|Pinecone]].
+- **Choosing an index is the hard part.** FAISS offers hundreds of index combinations, each with
+  up to six build hyperparameters plus search-time ones. [[Criteo]]'s [[autofaiss]] automates the
+  choice: given a memory cap and a query-time cap, it picks the index and parameters with the
+  highest recall.
 
 ## Related Concepts
 
@@ -58,6 +62,9 @@ and composite indexes.
 - [[Brute-Force Vector Search]] — what `IndexFlat*` implements, and the baseline recall is measured against
 - [[HNSW]] · [[IVF]] · [[LSH]] · [[Vector Quantization]] · [[Vector Similarity Metrics]]
 
+## Related Tools
+
+- [[autofaiss]] — builds and tunes FAISS indexes automatically
 ## Datasets
 
 - [[SIFT1M]] — the workload index-choice tutorials conventionally use
@@ -68,6 +75,7 @@ and composite indexes.
 - [[Nearest Neighbor Indexes for Similarity Search]] — Pinecone/James Briggs companion article
 - [[Just brute force your embeddings]] — [[Doug Turnbull]]; FAISS as the in-memory step once a raw scan runs out
 - [[Three mistakes when introducing embeddings and vector search]] — [[Jo Kristian Bergum]]; pricing the exact-vs-approximate decision FAISS index choice embodies
+- [[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale]] — [[Victor Paltz]], [[Romain Beaumont]] ([[Criteo]]); automatic index selection under memory and latency budgets
 
 ## People
 

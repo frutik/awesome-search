@@ -32,6 +32,8 @@ articles:
   - "[[Three mistakes when introducing embeddings and vector search]]"
   - "[[Choosing a Vector Database for ANN Search at Reddit]]"
   - "[[Choosing Indexes for Similarity Search (Faiss in Python)]]"
+  - "[[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library
+    At Scale]]"
 created: 2026-07-30
 ---
 
@@ -94,6 +96,12 @@ latency dial), `nprobe` for [[IVF]] (clusters probed per query). Build-time choi
 One calibration point on how large the spread is: on [[SIFT1M]], [[LSH]] at `nbits = d*4` ran ~10×
 faster than exact Flat search with good recall — while [[ann-benchmarks]] shows **some algorithms
 struggling to get past 50% recall at any speed.** "We use ANN" describes a range, not a quality.
+
+The surface can also be searched rather than hand-walked. [[autofaiss]] takes a memory cap and a
+query-time cap and returns the [[FAISS]] index and parameters with the highest recall within them —
+the index-choice step automated, for FAISS only. Its launch post reports a 200-million-vector, 1 TB
+image corpus indexed into about 10 GB, answering in about 10 ms
+([[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale|Criteo's own figures]]).
 
 ## Axis 2 — Bytes per Vector
 
@@ -244,3 +252,4 @@ work separates these as high-recall and low-recall settings.
 - [[Why Are Embeddings So Cheap]] — why producing vectors is cheap while serving them is not
 - [[Dense Retrieval at Vinted]] — HNSW on [[Vespa]] at billion scale in production
 - [[Exploring Hierarchical Navigable Small World]] — HNSW internals and PCA as preprocessing
+- [[Introducing Autofaiss - An Automatic K-Nearest-Neighbor Indexing Library At Scale]] — [[Criteo]]; FAISS index choice automated under memory and latency budgets

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>2026, week 40 (Sep 28–Oct 4)</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0; }
+  .dateline { color: #555; margin-top: 0.25rem; }
+  article { margin: 2rem 0; }
+  h2 { font-size: 1.15rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+</style>
+</head>
+<body>
+<h1>Awesome Search</h1>
+<p class="dateline">Sep 28 – Oct 4, 2026</p>
+
+<article>
+  <h2>Elasticsearch API served from Qdrant</h2>
+  <p>An Elasticsearch application can keep its client code and change the engine underneath it. <a href="https://frutik.github.io/awesome-search/Tools/qdrant-es-gateway">qdrant-es-gateway</a> is a Rust gateway that does this for <a href="https://frutik.github.io/awesome-search/Tools/Qdrant-Vector-DB">Qdrant</a>: it serves a subset of the <a href="https://frutik.github.io/awesome-search/Tools/Elasticsearch">Elasticsearch</a> REST API, scores text with Qdrant's server-side <a href="https://frutik.github.io/awesome-search/Concepts/BM25">BM25</a> sparse model, and rejects unsupported features such as scripts and scroll with explicit errors. On its author's own run over 500,000 generated products at 50 clients, it searched faster than Elasticsearch, used about 43× the storage, and did not reproduce Elasticsearch's top-ranked results. <a href="https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines">Migration between Search Engines</a> now covers API-compatibility gateways as an option alongside rewriting clients. Built by David Stockton.</p>
+  <p><strong>Corrections</strong></p>
+  <ul>
+    <li><a href="https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines">Migration between Search Engines</a> said a pure vector DB has no lexical BM25 tier → it now notes that Qdrant ships server-side BM25 over sparse vectors, with non-Lucene scoring.</li>
+  </ul>
+  <p><strong>Tools</strong>: <a href="https://frutik.github.io/awesome-search/Tools/qdrant-es-gateway">qdrant-es-gateway</a> (Elasticsearch-compatible gateway over Qdrant)</p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Topics/Migration-between-Search-Engines">Migration between Search Engines</a>, <a href="https://frutik.github.io/awesome-search/Tools/Qdrant-Vector-DB">Qdrant Vector DB</a></p>
+</article>
+<hr>
+
+<article>
+  <h2>Diversity built into inner-product search</h2>
+  <p>Top-k inner-product search returns the most relevant vectors and, left alone, the most alike ones: in one MovieLens example, a user with ten rated genres got recommendations from five. <a href="https://frutik.github.io/awesome-search/Articles/Diversity-Aware-k-Maximum-Inner-Product-Search-Revisited">Diversity-Aware k-Maximum Inner Product Search Revisited</a> covers DkMIPS, which moves the <a href="https://frutik.github.io/awesome-search/Concepts/MMR">MMR</a> trade-off inside <a href="https://frutik.github.io/awesome-search/Concepts/Maximum-Inner-Product-Search">Maximum Inner Product Search</a> — a λ dial between relevance and average or maximum pairwise similarity, greedy algorithms with a 1/4 approximation guarantee for the average form, and tree-based pruning, since standard <a href="https://frutik.github.io/awesome-search/Concepts/Approximate-Nearest-Neighbor-Search">ANN</a> indexes don't fit the pairwise term. DiversiNews, its news demo over the <a href="https://frutik.github.io/awesome-search/Datasets/NewsSpectrum">NewsSpectrum</a> corpus, measures diversity as a spread of outlet bias ratings. By <a href="https://frutik.github.io/awesome-search/People/Qiang-Huang">Qiang Huang</a>, Yanhao Wang, <a href="https://frutik.github.io/awesome-search/People/Yiqun-Sun">Yiqun Sun</a> and <a href="https://frutik.github.io/awesome-search/People/Anthony-K.H.-Tung">Anthony K.H. Tung</a>; all performance figures are the authors' own.</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/Diversity-Aware-k-Maximum-Inner-Product-Search-Revisited">Diversity-Aware k-Maximum Inner Product Search Revisited</a> (DkMIPS, with DiversiNews)</p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Maximum-Inner-Product-Search">Maximum Inner Product Search</a></p>
+  <p><strong>People</strong>: <a href="https://frutik.github.io/awesome-search/People/Qiang-Huang">Qiang Huang</a></p>
+  <p><strong>Datasets</strong>: <a href="https://frutik.github.io/awesome-search/Datasets/NewsSpectrum">NewsSpectrum</a> (news balanced across political bias ratings)</p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/MMR">MMR</a> (approximation guarantees), <a href="https://frutik.github.io/awesome-search/Topics/Search-Result-Diversity">Search Result Diversity</a>, <a href="https://frutik.github.io/awesome-search/Concepts/APD">APD</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Approximate-Nearest-Neighbor-Search">Approximate Nearest Neighbor Search</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Vector-Similarity-Metrics">Vector Similarity Metrics</a>, <a href="https://frutik.github.io/awesome-search/People/Yiqun-Sun">Yiqun Sun</a>, <a href="https://frutik.github.io/awesome-search/People/Anthony-K.H.-Tung">Anthony K.H. Tung</a>, <a href="https://frutik.github.io/awesome-search/Articles/Uncovering-the-Bigger-Picture---Comprehensive-Event-Understanding-via-Diverse-News-Retrieval">NEWSCOPE</a></p>
+</article>
+<hr>
+
+<article>
+  <h2>ESCI as a label scheme</h2>
+  <p>A product search result can be the thing asked for, a stand-in for it, an accessory to it, or unrelated — and binary relevance cannot tell those apart. <a href="https://frutik.github.io/awesome-search/Concepts/ESCI-Label-Scheme">ESCI Label Scheme</a> covers the Exact / Substitute / Complement / Irrelevant grading introduced with the <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">Amazon ESCI Dataset</a> and how it has travelled without the data: <a href="https://frutik.github.io/awesome-search/Companies/Allegro">Allegro</a>'s judgment guidelines were inspired by it, <a href="https://frutik.github.io/awesome-search/Companies/Etsy">Etsy</a> plans the same substitute/complement split, and <a href="https://frutik.github.io/awesome-search/Articles/sQuIrRel---Large-Scale-Evaluation-of-E-commerce-Query-Classification-Models">sQuIrRel</a>'s relevance model predicts its labels. It also covers where the grades are hard: in Allegro's tests, an <a href="https://frutik.github.io/awesome-search/Concepts/LLM-as-Judge">LLM judge</a> reached F1 around 0.94 on exact matches but only 0.33–0.51 when separating degrees of substitutability.</p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/ESCI-Label-Scheme">ESCI Label Scheme</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">Amazon ESCI Dataset</a>, <a href="https://frutik.github.io/awesome-search/Topics/E-commerce-Search-Evaluation-Datasets">E-commerce Search Evaluation Datasets</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Semantic-Relevance">Semantic Relevance</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Judgment-Lists">Judgment Lists</a>, <a href="https://frutik.github.io/awesome-search/Articles/sQuIrRel---Large-Scale-Evaluation-of-E-commerce-Query-Classification-Models">sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models</a></p>
+</article>
+<hr>
+
+<article>
+  <h2>sQuIrRel: query-classifier labels from relevance</h2>
+  <p>Evaluating a query-to-product-type classifier needs labels for thousands of product types, and neither clicks nor annotators supply them well. <a href="https://frutik.github.io/awesome-search/Articles/sQuIrRel---Large-Scale-Evaluation-of-E-commerce-Query-Classification-Models">sQuIrRel</a>, from Amazon, derives them from relevance instead: a high-precision model keeps each query's exact-match results, and the query inherits their dominant catalogue product type. A manual check of 400 queries found 87% of labels correct, with complements as the main error. The paper publishes only the procedure, built on internal Amazon data. Its limits: it skips multi-intent queries and can only label queries where the engine already returns the right products.</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/sQuIrRel---Large-Scale-Evaluation-of-E-commerce-Query-Classification-Models">sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Topics/Query-Classification">Query Classification</a>, <a href="https://frutik.github.io/awesome-search/Topics/E-commerce-Search-Evaluation-Datasets">E-commerce Search Evaluation Datasets</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Bag-of-Documents-Model">Bag-of-Documents Model</a> (as a source of evaluation labels)</p>
+</article>
+<hr>
+
+<article>
+  <h2>E-commerce search evaluation datasets compared</h2>
+  <p>Public product-search datasets differ less in size than in what a relevance label means. <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">ESCI</a> separates substitutes from complements, <a href="https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset">WANDS</a> folds both into one Partial grade, and <a href="https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance">Home Depot</a> averages annotator scores on a continuous scale. <a href="https://frutik.github.io/awesome-search/Topics/E-commerce-Search-Evaluation-Datasets">E-commerce Search Evaluation Datasets</a> compares them alongside <a href="https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset">ESCI-S</a> and its decaying image links, and matches each to the catalogs and query styles it suits. It also collects the cross-catalog evidence: in <a href="https://frutik.github.io/awesome-search/Articles/Fine-Tuning-Sparse-Embeddings-for-E-Commerce-Search">one fine-tuning series</a>, an ESCI-tuned <a href="https://frutik.github.io/awesome-search/Concepts/SPLADE">SPLADE</a> model gained 27.5% nDCG@10 over <a href="https://frutik.github.io/awesome-search/Concepts/BM25">BM25</a> on ESCI itself, but only 8–10% on WANDS and Home Depot.</p>
+  <p><strong>Topics</strong>: <a href="https://frutik.github.io/awesome-search/Topics/E-commerce-Search-Evaluation-Datasets">E-commerce Search Evaluation Datasets</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Topics/E-commerce-Search">E-commerce Search</a>, <a href="https://frutik.github.io/awesome-search/Topics/Retrieval-Benchmarks-and-Leaderboards">Retrieval Benchmarks and Leaderboards</a>, <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">Amazon ESCI Dataset</a>, <a href="https://frutik.github.io/awesome-search/Datasets/ESCI-S-Dataset">ESCI-S Dataset</a>, <a href="https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset">WANDS Dataset</a>, <a href="https://frutik.github.io/awesome-search/Datasets/Home-Depot-Product-Search-Relevance">Home Depot Product Search Relevance</a></p>
+</article>
+
+<hr>
+<p>Best,<br>Andrew</p>
+
+</body>
+</html>
