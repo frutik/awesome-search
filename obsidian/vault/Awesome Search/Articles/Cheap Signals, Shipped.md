@@ -37,7 +37,7 @@ Most search writing right now is about the newest model: bigger embeddings, LLM 
 
 The posts share a view I agree with. The improvements that last tend to be small, easy to explain, and based on what users actually did. Before reaching for a bigger model, check whether a GROUP BY already answers the question. Each fix comes with one or two tuning parameters that a merchandiser could understand, and each post says honestly where the trick stops working.
 
-Here are the seven posts, in the order they were published.
+The series is ongoing and has more posts than these. Here are seven I picked out, in the order they were published.
 
 ## 1. The cheap trick that fixed my Search Retrieval more than any fancy Embedding Model (Aug 2026)
 
