@@ -61,6 +61,8 @@ The level that gates depends on what the judgments will be used for:
 
 The practical instruction that follows is to measure at least the label level *and* the decision level, and to say which one an agreement figure refers to whenever quoting it. A study that reports only one has not answered the question.
 
+[[Judge Calibration]] puts the label and ranking levels side by side in one report. [[Calibrate Before You Trust]] describes a [[Quepid]] calibration that shows ordinal Krippendorff's α for pairs next to Kendall's τ over per-query nDCG@10. A weak α with a high τ is the tape-measure case, visible at a glance.
+
 ## Related Concepts
 
 - [[LLM as Judge]] — the judges whose agreement is being decomposed
@@ -75,6 +77,8 @@ The practical instruction that follows is to measure at least the label level *a
 
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; the four-level framing and the evidence pinning the levels apart
 - [[Benchmarking LLM-based Relevance Judgment Methods]] — [[Negar Arabzadeh]], [[Charles L. A. Clarke]]; scores judgment paradigms separately on label agreement and system-ranking agreement, finding no method wins both
+
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the levels turned into a per-judge, per-prompt calibration report
 
 ## People
 

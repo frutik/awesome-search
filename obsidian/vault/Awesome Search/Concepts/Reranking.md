@@ -44,6 +44,8 @@ A [[Cross-Encoder]] processes query + document concatenated as a single sequence
 - Latency: ~50–200ms for 100 candidates on GPU
 - Quality: significantly better than bi-encoder for nuanced relevance
 
+Hosted rerankers now compete on context length and on following instructions, not only on accuracy. [[Voyage rerank-3]] scores documents of up to 32K tokens and takes natural-language instructions. In Voyage's evaluation, reranking the top 100 lifted NDCG@10 by 20.33% over [[BM25]] but by only 6.38% over voyage-4-large: the stronger the first stage, the less a reranker adds ([[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]]).
+
 ### LLM-as-Reranker
 Use a large language model ([[LLM as Judge]]) to score or listwise-rank candidates. Higher quality, much higher cost.
 
@@ -70,6 +72,8 @@ prune against a portable threshold. And the latency profile inverts: batching th
 into one call gives a good median but a long tail (p95 ~1.4 s vs under 0.5 s for hosted
 cross-encoders), while asking one question per pair fixes the tail at thirty times the
 requests.
+
+Because such a model returns several typed probabilities per pair, the final score can be a **policy** written in application code rather than a single model output. [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] combines an [[ESCI Label Scheme|ESCI]]-relationship distribution with constraint and compatibility signals. [[Bag of Decisions Reranker]] sums answers to an LLM-generated per-query rubric ([[Bag of Decisions]]). [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] found one-request pointwise scoring within 0.02 nDCG@10 of a ten-request iterative listwise loop, and ahead of two local cross-encoders.
 
 ## Reranking in RAG
 

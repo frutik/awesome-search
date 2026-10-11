@@ -14,6 +14,8 @@ created: 2026-09-26
 
 Developer relations engineer at [[Qdrant]]. Presented a hybrid-routing project at [[Haystack EU]]: rather than fusing sparse and dense results with [[Reciprocal Rank Fusion]] on every query, a lightweight classifier trained on ~230,000 labelled queries decides per query whether to send it to the sparse retriever, the dense retriever, or RRF — beating hybrid RRF on relevance, hit@1 and NDCG on held-out data.
 
+## Articles
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — with [[Chadha Sridi]]; [[Jev]] as a general classifier for reranking, [[MMR]] diversity, category filter/boost and topic-boundary chunking
 ## Talks & Videos
 - [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Haystack EU]] lightning talk
 

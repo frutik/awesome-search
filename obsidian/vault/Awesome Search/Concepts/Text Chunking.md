@@ -49,6 +49,11 @@ Uses embeddings to detect topic shifts; groups semantically similar sentences.
 ### Contextual Chunking (Anthropic)
 LLM generates a context summary for each chunk and prepends it before embedding — preserves document-level context within each chunk.
 
+### Boundary Classification (Decision-Model Chunking)
+Instead of measuring embedding drift between neighbouring sentences, ask a classifier, for each gap, whether the next sentence starts a new topic. Cut where the probability passes a threshold, within minimum and maximum chunk sizes. [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] does this with [[Jev]] over windows of numbered sentences.
+- **Pros:** avoids splitting a paragraph that changes vocabulary mid-argument, and avoids merging adjacent passages that share vocabulary. Chunk size can be changed without new requests, because cuts are a pure function of the stored probabilities.
+- **Cons:** text goes to an API (about $0.27 per million document tokens in that test), where other methods run locally for free.
+- **Evidence:** on [[QASPER]], at matched mean chunk sizes, it beat fixed-size, recursive and embedding-based chunkers by 13.0% IoU, 11.2% precision and 9.1% recall (average relative), untuned.
 ## Choosing Chunk Size
 
 Empirical from LlamaIndex study (Uber 10K SEC filing):
@@ -81,3 +86,5 @@ Empirical from LlamaIndex study (Uber 10K SEC filing):
 - [[Chunking Strategies for LLM Applications]] — Pinecone
 - [[Evaluating the Ideal Chunk Size for a RAG System using LlamaIndex 1]] — LlamaIndex
 - [[How to Chunk Text Data - A Comparative Analysis 1]] — Solano Todeschini
+
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — Qdrant; topic-boundary chunking with Jev, evaluated on [[QASPER]]

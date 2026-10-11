@@ -36,6 +36,8 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 
 - [[Andrei Cristea]] — developer relations engineer; hybrid routing (sparse / dense / RRF query router)
 
+- [[Chadha Sridi]] — co-author of the Jev experiments
+
 ## Articles
 - [[TurboQuant in Qdrant]]
 
@@ -46,6 +48,8 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 - [[Updating a Vector Database Is No Simple Thing]] — [[Doug Turnbull]]; Qdrant keeps a mutable insert structure separate from the read-optimized graph
 - [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; RRF vs. DBSF and RRF `k`/weight tuning, measured across five datasets
 - [[Hybrid Queries - Qdrant]] — RRF and DBSF fusion query reference
+
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Andrei Cristea]] & [[Chadha Sridi]]; [[Jev]] for reranking, Jev-scored [[MMR]], tiered category filter/boost on payloads, and topic-boundary chunking on [[QASPER]]
 
 ## Videos
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026

@@ -50,6 +50,8 @@ WANDS's single Partial grade is simpler to annotate, but you can't tell a substi
 
 **As a diagnostic.** The grades can also be turned into retrieval metrics. In [[Distilling Retrieval Pipelines to a Single Embedding Model 1|Distilling Retrieval Pipelines to a Single Embedding Model]], [[Daniel Tunkelang]] tracks an "ESCI precision" and a complement retrieval rate: across 74K queries, his fine-tuned query encoder moved ESCI precision from 96.0% to 97.0% and cut the complement retrieval rate from 14.2% to 7.7% compared with the model before fine-tuning — one experiment on his own pipeline.
 
+The four grades can also be the *output* of a judge rather than its target. In [[Using Jev as a Search Reranker - Benchmarks and How to Implement]], [[Jev]] returns a probability for each relationship, and the ranking score is an **expected utility** over them: 1.00·P(exact) + 0.55·P(substitute) + 0.15·P(complement), with irrelevant worth 0. The weights are the application's statement of how much a substitute is worth against an exact match. That is the value judgement the scheme leaves open, here made explicit and tunable. It also separates a 99%-exact candidate from one split 51/49 between exact and substitute, which a hard label cannot do.
+
 ## Adoption Beyond the Dataset
 
 - **[[Allegro]]** modeled the labeling guidelines for its 380K+ multilingual judgment set on the ESCI scale, built by 30 experts with dual blind annotation and expert arbitration — see [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]].
@@ -92,6 +94,8 @@ The grade boundaries are not equally easy to judge.
 - [[sQuIrRel - Large-Scale Evaluation of E-commerce Query Classification Models]] — the label scheme reused without the dataset
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — Exact and Substitute as training positives
 - [[Distilling Retrieval Pipelines to a Single Embedding Model 1|Distilling Retrieval Pipelines to a Single Embedding Model]] — ESCI precision and complement rate as retrieval metrics
+
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] — the grades as a probability distribution, scored by expected utility
 
 ## People
 

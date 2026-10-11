@@ -61,6 +61,9 @@ Selecting the set that maximizes an MMR-style objective is NP-hard; the greedy p
 
 DkMIPS also moves the MMR objective out of a post-retrieval rerank and into the [[Maximum Inner Product Search]] query itself, using inner product for both relevance and redundancy.
 
+## Swapping the Relevance Term
+
+MMR's relevance term is only as good as the similarity behind it. [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] measured this on 240 [[WANDS Dataset|WANDS]] queries. Qdrant's built-in MMR at diversity 0.5, with relevance as vector similarity to the query, removed every near-duplicate pair but dropped nDCG@10 from 0.683 to 0.561. Replacing the relevance term with a [[Jev]] relevance probability (diversity 0.7) kept nDCG@10 at 0.719 with 0.22 near-duplicate pairs per page. Running MMR first and letting Jev rerank its top 20 gave 0.723 with 0.04. Both beat plain hybrid search on relevance and repetition. Neither matched a plain Jev rerank (0.769), which left duplicates in place and narrowed the page to 2.41 product classes. Even a human-label ordering showed only 2.66 classes, so relevant results can still be repetitive.
 ## Related
 
 - [[APD]] — Average Pairwise Distance, a passive diversity measurement (vs MMR's active reranking)

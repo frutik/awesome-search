@@ -76,3 +76,5 @@ Reads [[Jev]] through his standing argument for [[Pairwise Relevance Evaluation|
 relevance judgment — that deciding one result beats another is easier than answering whether
 something is a 3/5 or a 4/5. LLMs had made that feasible but slow; a model tuned for yes/no
 decisions is what makes it compelling. See [[Reception of Jev]].
+
+He then used it as a reranker in [[Bag of Decisions Reranker]] (2026-10-08). An LLM writes a per-query rubric of yes/no questions, Jev answers each as a probability, and the sum is the rerank score ([[Bag of Decisions]]). It beat both [[BM25]] and a single-question Jev reranker on [[WANDS Dataset|WANDS]] and [[Amazon ESCI Dataset|ESCI]] mean NDCG. His "filter only when very sure, otherwise boost" rule for query classification is the rule [[Qdrant]] followed in [[Jevjitsu - How We Tried Generalized Classifiers on Everything]].

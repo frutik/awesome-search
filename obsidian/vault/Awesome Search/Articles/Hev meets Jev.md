@@ -93,6 +93,8 @@ corpus in advance.
 
 Mean over the three datasets:
 
+The post as currently published lists two rows missing from the table below: **Mixedbread mxbai-rerank-v3.1-listwise (hosted), 0.511**, p50/p95 217/262 ms, $1.42 per 1,000 queries, which leads the set, and **Jina reranker-v3.5, 0.492**. Jev's gap to the top is therefore 0.010, not 0.003. The 0.003 figure is its gap to Voyage rerank-3.
+
 | Reranker | nDCG@10, mean | p50 / p95 | $ per 1k queries |
 |---|---|---|---|
 | Jev reranker, batch | 0.501 | 223 ms / 1.4 s | $0.54 |
@@ -229,3 +231,5 @@ hits = rerank(query, shortlist, top_n=10, threshold=0.1)
 - [[System One Model]] · [[Reinforcement Learning for Calibrated Decisions]] — the model class and the training method behind it
 - [[TypeSafe Cookbook - Re-ranking]] — the vendor's own reranking walkthrough, on [[CLERC]] rather than BEIR and using the single call shape
 - [[Adapting Jev to Your Domain with GEPA]] — the other independent measurement: calibration on a classification task, and the reminder that these numbers came from an untuned prompt
+
+- [[Voyage rerank-3]] — the model benchmarked here. Its official launch post ([[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]]) is dated 2026-09-30, two weeks after this run, and reports its own, wider lead over untuned Jev in code, law and finance.

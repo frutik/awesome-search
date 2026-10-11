@@ -79,6 +79,9 @@ A caveat for training use: ESCI was crowdsourced before LLM labeling, so label n
 
 - [[Fine-Tuning Sparse Embeddings for E-Commerce Search]] — ESCI as a SPLADE training corpus
 
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] — [[Dustin Coates]]; 250 US queries, 4,754 pairs; the label mix (2,960 Exact, 439 Irrelevant) puts random-order nDCG@10 at ~0.86
+- [[Bag of Decisions Reranker]] — [[Doug Turnbull]]; mean NDCG 0.289 (BM25) → 0.314 (Jev) → 0.360 (per-query rubric)
+
 ## Videos
 
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]]

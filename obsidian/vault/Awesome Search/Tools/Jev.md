@@ -141,6 +141,8 @@ Two practical constraints reported there: Jev's 32k-token request budget holds r
 passages, so rerank depth is bounded well below what hosted rerankers accept per call; and Jev
 is **hosted only**, so documents leave the caller's environment.
 
+A second head-to-head came from a competitor. [[Voyage AI]]'s launch of [[Voyage rerank-3]] ([[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]]) ran Jev 1.13 in score mode, untuned, on 26 expertise-heavy datasets. rerank-3 led by 1.77 NDCG@10 points in code, 5.69 in law and 5.87 in finance. Voyage notes the run was partial because of Jev's rate limits. Read together with Hev's 0.003-point gap on [[BEIR]], the margin appears to widen in specialised domains. Both runs used the default prompt.
+
 ### The Vendor's Own Reranking Walkthrough
 
 [[TypeSafe Cookbook - Re-ranking]] runs the same idea on [[CLERC]] legal case retrieval with
@@ -241,6 +243,20 @@ predictive value, keeping poor calibration distinct from poor accuracy. And he e
 shape for exactly the two uses this vault tracks: rubric and preference modelling for
 [[LLM as Judge|evaluation]], and [[Reranking|reranking]] and optimization.
 
+## Beyond "Is This Relevant?"
+
+Three experiments published within ten days of each other (late September to early October 2026) agree that the single relevance Noul is the least interesting way to use the model in search.
+
+**Several questions per pair, combined by policy.** [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] ([[Dustin Coates]], [[Elastic]]) asks an [[ESCI Label Scheme|ESCI]]-relationship Choice plus four Nouls (main item? constraints met? same purpose? compatibility?) in one call. A few lines of application code then turn them into a score, for example an expected utility of 1.00·P(exact) + 0.55·P(substitute) + 0.15·P(complement). On 250 [[Amazon ESCI Dataset|ESCI]] queries, nDCG@10 rose from 0.9351 (hybrid) to 0.9565. The one-question Score policy reached 0.9557, so the extra signals mattered little *on that metric*, and the random baseline there is already 0.86.
+
+**Questions generated per query.** [[Bag of Decisions Reranker]] ([[Doug Turnbull]]) lets an LLM write about ten yes/no criteria per query and sums Jev's P(yes) across them ([[Bag of Decisions]]). Mean NDCG beat the single-question reranker on both [[WANDS Dataset|WANDS]] (0.610 vs 0.574) and ESCI (0.360 vs 0.314).
+
+**Other decisions in the pipeline.** [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] ([[Qdrant]]) found the three rerank call shapes within 0.02 of each other and ahead of two local [[Cross-Encoder|cross-encoders]] on NFCorpus, so it keeps the one-request Score shape. Its more useful findings are elsewhere:
+- Jev's score as the relevance term in [[MMR]] keeps most of the relevance gain while removing near-duplicates.
+- Category confidence drives a tiered **filter ≥ 0.9 / boost 0.5–0.9 / nothing** policy for [[Query Understanding|query understanding]], which fails visibly on *apple*.
+- A per-sentence-gap "does a new topic start here?" Noul gives a chunker that beat fixed, recursive and embedding chunkers on [[QASPER]].
+
+The common thread is the one [[JEV vs LLM - Your Software Doesn't Want a Conversation It Wants a Decision|Sajith K]] drew: the model is a decision layer, and the design work is choosing which decisions to ask it for and what code does with the probabilities.
 ## Related Concepts
 
 - [[Reranking]] — the use case this note documents
@@ -269,3 +285,9 @@ shape for exactly the two uses this vault tracks: rubric and preference modellin
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the first calibration measurement, and the first tuned prompt
 - [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; three of the four promises reproduced off the shelf, and the calibration claim left carrying the case
 - [[GEPA]] · [[ADE Corpus V2]] — the optimizer and corpus used there
+
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] — [[Dustin Coates]], [[Elastic]]; multi-signal policies over an ESCI Choice and four Nouls
+- [[Bag of Decisions Reranker]] — [[Doug Turnbull]]; LLM-generated per-query rubric, P(yes) summed ([[Bag of Decisions]])
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Qdrant]]; reranking shapes, MMR diversity, category filter/boost, topic-boundary chunking
+
+- [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — [[Voyage rerank-3]] ahead of untuned Jev in code, law and finance (vendor-run, partial)

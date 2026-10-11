@@ -34,6 +34,8 @@ AI company specializing in enterprise NLP. Relevant to search primarily through 
 - [[Multilingual Embedding Model Hybrid Search Reranking]] — Cohere rerank-v3.5 used in Elastic pipeline
 - [[Hev meets Jev]] — `rerank-v3.5` benchmarked on three [[BEIR]] subsets at **0.486 mean nDCG@10** and $2.00 per 1,000 queries; an untuned general decision model ([[Jev]]) matched or beat it on all three corpora at roughly a quarter of the price
 
+- [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — Cohere Rerank v4.0 Pro and Fast as the main baselines; Voyage reports rerank-3 ahead by 2.72% and 5.74%, and by 13.84% over Pro on long documents
+
 ## Related Concepts
 
 - [[Cross-Encoder]] · [[Reranking]] · [[Hybrid Search]] · [[Dense Vector Retrieval]]

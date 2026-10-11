@@ -61,6 +61,8 @@ Elasticsearch is used as the underlying engine in many case studies in this vaul
 
 - [[Faster Retrieval of Top Hits in Elasticsearch with Block-Max WAND]]
 
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] — [[Dustin Coates]]; Elasticsearch RRF hybrid retrieval plus [[Jev]] judgments turned into a ranking by a small policy
+
 ## Concepts
 [[ELSER]] · [[BBQ]] · [[BM25]] · [[Block-Max WAND]] · [[WAND]] · [[Results Boosting]] · [[Hybrid Search]]
 
@@ -79,6 +81,8 @@ A 7-part series on building governed search control planes for ecommerce:
 - [[Taylor Roy]] — Elastic
 - [[Peter Straßer]] — Elastic; late interaction / ColPali scaling
 - [[Benjamin Trent]] — Elastic; late interaction / ColPali scaling
+
+- [[Dustin Coates]] — Elastic Search Labs; Jev reranking benchmark
 
 ## Additional Concepts
 

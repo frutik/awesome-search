@@ -208,6 +208,8 @@ The closing reframe: stop asking *does the LLM agree with the human*, and start 
 - [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; a complementary response to judge unreliability
 - [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando's production judge pipeline
 
+- [[Calibrate Before You Trust]] — the follow-up: turning these findings into a per-judge calibration practice ([[Judge Calibration]])
+
 ## Companies
 
 - [[Etsy]] — golden labels anchoring an LLM teacher, distilled to a servable student

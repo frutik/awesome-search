@@ -53,6 +53,8 @@ The practical responses are the same ones that address judge variance generally:
 - **Measure run-to-run variation through to the decision.** Re-run the whole judging process several times and recompute the *final metrics and decisions*, not just the labels. If the difference between two approaches is routinely reversed or swallowed by that spread, the judge cannot resolve them however good its human correlation looks. Label flip rate and a metric gap are different quantities on different scales, so the variation has to be propagated to the metric before comparing.
 - **Cross model families.** Three versions of one vendor's model do not constitute three judges.
 
+The practical consequence is that prompt variants can only be compared on the **same** pairs. A re-run on a fresh sample confounds the prompt effect with the sample. [[Judge Calibration]] builds this in by freezing the calibration sample and re-running each prompt variant against it ([[Calibrate Before You Trust]]).
+
 ## Related Concepts
 
 - [[LLM as Judge]] — the judge whose output moves with the prompt
@@ -72,3 +74,5 @@ The practical responses are the same ones that address judge variance generally:
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; few-shot examples hurting, batching degrading local inference
 - [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] — [[Aparna Dhinakaran]]; prompt structure choices and their mixed evidence
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; one prompt rewrite moving F1 ten points and halving calibration error
+
+- [[Calibrate Before You Trust]] — same-pair re-runs as the remedy

@@ -76,6 +76,8 @@ Because Quepid drives any search engine over **HTTP**, it isn't tied to Elastics
 - **[[Vector Search Evaluation]]** — Quepid was built for text queries, so evaluating semantic/vector search needs workarounds: dimension reduction to fit the 2048-char query limit, injecting embeddings via query options (`#$qOption...##`) to dodge the JSON-validity catch-22, and generating whole case files via an [unofficial HTTP API wrapper](https://github.com/frutik/quepid-api-unofficial) (see [Community Tooling](#community-tooling)).
 - **Image / cross-modal search** — registering a vector DB ([[Qdrant Vector DB]]) as a custom endpoint and hacking the scorer (or patching Quepid) to render image results in the rating UI.
 
+- **Judge calibration (proposed, [PR #1827](https://github.com/o19s/quepid/pull/1827))** — an AI judge rates a random sample of pairs a reference has already rated. Agreement is shown at pair level (ordinal Krippendorff's α, confusion table) and rank level (Kendall's τ over per-query nDCG@10). Prompt changes are re-run on the same frozen pairs, and ratings and case scores are never touched. See [[Judge Calibration]] and [[Calibrate Before You Trust]].
+
 ## Community Tooling
 
 - **[quepid-api-unofficial](https://github.com/frutik/quepid-api-unofficial)** ([[Andrew Kornilov]]) — an unofficial, **stateless** HTTP/REST API wrapper over a self-hosted Quepid (compatible with Quepid 7.18.1). Quepid's official API has no endpoint to add queries/cases programmatically one at a time; this wrapper closes that gap. It exposes Swagger/OpenAPI docs at `/api/docs`, reuses Quepid's own API tokens, talks to Quepid's MySQL backend, and ships Docker Compose + Kubernetes/Helm deployment (published as the `frutik777/quepid-api-unofficial` Docker Hub image). It's the machinery behind the case-file automation in [[Oops, I Did It Again]] and the [[Vector Search Evaluation]] / image-search series.
@@ -92,6 +94,8 @@ Because Quepid drives any search engine over **HTTP**, it isn't tied to Elastics
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 1]]
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 2]]
 - [[How to Securely Hook Up Quepid to Vespa]] — [[Charlie Hull]] wiring Quepid to [[Vespa]] Cloud as a custom endpoint (token auth)
+
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the case for the Judge Calibration tab
 
 ## People
 - [[Doug Turnbull]] — co-creator

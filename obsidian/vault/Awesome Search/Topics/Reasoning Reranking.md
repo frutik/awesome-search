@@ -86,6 +86,11 @@ reasoning off scored 0.747 and Claude Opus 5 at low effort scored 0.756 — comp
 specialists — but at 3.2 s and 5.0 s p50 respectively, against ~0.2 s, and at $2.36 and $94.68
 per 1,000 queries. Opus also declined to judge 12 of the 300 claims. That is the practical
 ceiling on the reasoning end of the spectrum in this table.
+
+By October 2026, independent work had moved from "does it rerank?" to "which decisions, combined how?":
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] — [[Elastic]]; expected-utility and composite policies over typed signals; nDCG@10 0.9351 → 0.9565 on ESCI
+- [[Bag of Decisions Reranker]] — [[Doug Turnbull]]; per-query LLM-written rubrics, summed ([[Bag of Decisions]])
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Qdrant]]; call shapes compared, and the same model applied to diversity, query categories and chunking
 ## Reranking in RAG and Agentic Pipelines
 
 In [[RAG]] and agentic systems the context window is the bottleneck, so reranking is where precision is won or lost — a reranker narrows 50–100 retrieved chunks to the best 3–5 before generation. This connects directly to the agentic frontier: purpose-built agentic models (e.g. [[SID-1]]) end their loop with a dedicated **rerank turn**, and distractor-aware evaluation ([[UDCG]]) argues the reranker's real job is removing harmful passages, not just ordering relevant ones.
@@ -126,6 +131,10 @@ The more capable the LLM reranker, the easier it is to mask weak retrieval — m
 - [[Multi-Stage Ranking]]
 - [[Hev meets Jev]] — [[Hev]]; structured-decision and LLM rerankers benchmarked against the purpose-built ones
 - [[Introducing System One Models & Jev]] — [[Diogo Almeida]]; the model class behind the structured-decision reranker above
+
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] · [[Bag of Decisions Reranker]] · [[Jevjitsu - How We Tried Generalized Classifiers on Everything]]
+
+- [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — purpose-built cross-encoder rerankers at the cheap end of the spectrum: 32K context, instruction-following, $0.02–0.05 per M tokens ([[Voyage rerank-3]])
 
 ## People
 - [[Ravindra Harige]] — the reranking-as-system-boundary analysis

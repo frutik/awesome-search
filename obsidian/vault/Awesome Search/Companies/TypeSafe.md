@@ -90,6 +90,8 @@ environment, and its 32k-token request budget bounds rerank depth at roughly 50 
 - [[Using TypeSafe's Jev for Evals]] — [[Annabell Schäfer]]; the model as a rubric judge, via [[Langfuse]]
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the latency and calibration claims measured from outside
 
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] · [[Bag of Decisions Reranker]] · [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — independent experiments by [[Elastic]], [[Doug Turnbull]] and [[Qdrant]] using several Jev decisions per search rather than one relevance question
+
 ## Related Concepts
 
 - [[Reranking]] · [[Calibrated Relevance Probability]] · [[Cross-Encoder]]

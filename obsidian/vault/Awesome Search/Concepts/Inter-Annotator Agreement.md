@@ -76,6 +76,8 @@ Fair-to-moderate label agreement is the normal condition, not a failure state. B
 - [[Benchmarking LLM-based Relevance Judgment Methods]] — [[Negar Arabzadeh]], [[Charles L. A. Clarke]]; human-human and LLM-human κ reference points
 - [[Evaluating Search - Using Human Judgments]] — human assessment as the practice being measured
 
+- [[Calibrate Before You Trust]] — ordinal Krippendorff's α as the pair-level figure in an AI-judge calibration ([[Judge Calibration]])
+
 ## Related Topics
 
 - [[Search Quality Assurance]] — where agreement figures get quoted in practice

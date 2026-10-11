@@ -50,6 +50,8 @@ The MongoDB Hybrid Search series by [[Erik Hatcher]]:
 2. [[Reciprocal Rank Fusion and Relative Score Fusion]]
 3. [[Hybrid Search Blueprint Series Semantic Boosting]]
 
+- [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — [[Voyage AI]]'s rerankers, built "in collaboration with the Voyage team at MongoDB" and available through Atlas's Embedding and Reranking API and native reranking in Atlas Vector Search ([[Voyage rerank-3]])
+
 ## Key Concepts
 - [[Semantic Boosting]]
 - [[Hybrid Search]]

@@ -90,6 +90,8 @@ Greedy selection: pick the next item that maximizes the MMR score. λ=1 = pure r
 
 See [[MMR]] for full formula and implementation.
 
+MMR inherits the weakness of its relevance term. With plain vector similarity to the query, Qdrant's MMR removed all near-duplicates on [[WANDS Dataset|WANDS]] but cost 0.12 nDCG@10. Feeding it a reranker's relevance probability instead ([[Jev]]), or reranking MMR's output, kept most of the relevance gain while still cutting repetition ([[Jevjitsu - How We Tried Generalized Classifiers on Everything]]). The same study found that a relevance-only rerank *reduced* product variety, so diversity has to be asked for explicitly.
+
 ### Entropy-Based (Etsy's Approach)
 Measure Shannon entropy over category/attribute distributions in the result set. Set an entropy target per query type. Re-rank or inject items to meet the target.
 

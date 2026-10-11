@@ -123,6 +123,8 @@ Which one gates depends on the use. For broad ranking of a diverse field, stable
 
 The bar itself should be set against human-human agreement on your own data rather than against 1.0. If your annotators agree at kappa 0.6, demanding kappa 0.8 from a model is incoherent. See [[Inter-Annotator Agreement]].
 
+Setting the bar presumes measuring against it, per judge, per prompt and per collection. [[Judge Calibration]] is that measurement: a frozen random sample rated by a trusted reference, with prompt variants compared on the same pairs ([[Calibrate Before You Trust]]).
+
 ## Limitations
 
 1. **Positional bias**: LLMs prefer the first document presented
@@ -247,6 +249,8 @@ escalation, rather than a sampled subset extrapolated to the whole.
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; landscape survey from Voorhees (2000) to 2026, separating four levels of agreement, and finding that in every documented industry deployment humans define the standard, the LLM scales it, and business metrics keep it honest
 
 - [[DAT - Dynamic Alpha Tuning for Hybrid Retrieval in RAG]] — an LLM judge used online, grading top-1 BM25 and dense results to set per-query hybrid weights
+
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; calibrate each judge against a reference before trusting it
 
 ## People
 

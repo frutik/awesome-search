@@ -212,6 +212,8 @@ Classification only pays off downstream, and the options are broader than filter
 
 ---
 
+[[Jevjitsu - How We Tried Generalized Classifiers on Everything]] turns [[Doug Turnbull]]'s "filter only when very sure, otherwise boost" into explicit confidence tiers. A [[Jev]] category score of ≥ 0.9 filters, 0.5–0.9 boosts, and below that does nothing. Products are tagged with the same categories at index time. On 300 long, LLM-generated Amazon-C4 queries this beat plain hybrid search, and filtering on every guess was within noise. The category vocabulary came from clustering products, naming clusters with a cheap LLM and checking the names with Jev. Names taken directly from products gave almost no gain. The failure case is the familiar one. *apple* scored 0.91 for Food & Beverage, just past the filter threshold, and every electronics result disappeared. That is why a high-confidence threshold is still not a safe filter on one-word queries.
+
 ## Evaluation
 
 Query understanding is upstream of retrieval, so classifier metrics alone are never sufficient.

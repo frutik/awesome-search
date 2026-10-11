@@ -69,6 +69,8 @@ cutoff that met the bar on validation, then retained 90.2% on the held-out split
 - **The headline pruning numbers are one team's production figures.** The ~93% pruned and 75-85% auto-settled rates come from a single deployment, reported by its author, and have not been replicated elsewhere.
 - **The pruning step encodes an assumption** — that behavioral signals are trustworthy. Where they are biased by position, presentation, or prior ranking, the pruning inherits the bias and hides it upstream of everything else. See [[Clicks Residual]] and [[Click Models]].
 
+- **Each stage needs its own calibration.** [[Calibrate Before You Trust]] frames it as a chain: calibrate the expensive judge against people, then use that calibrated judge as the reference for the cheap one ([[Judge Calibration]]). Agreement between two models neither of which has been checked is not evidence about either.
+
 ## Related Concepts
 
 - [[LLM as Judge]] — the expensive stage this economizes
@@ -93,3 +95,5 @@ cutoff that met the bar on validation, then retained 90.2% on the held-out split
 - [[Using TypeSafe's Jev for Evals]] — the escalation bands expressed as cutoffs on a calibrated probability: act on the confident tail, route the ambiguous middle to a human, discard the rest
 - [[Jev - The Most Interesting Model Released This Year]] — the same escalation shape inside an agent loop; see [[Jevals]] for the implementation
 - [[Adapting Jev to Your Domain with GEPA]] — [[Praneeth Paikray]]; the bands reported as a review-policy table rather than an F1 number
+
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; calibration as a chain through the escalation stages

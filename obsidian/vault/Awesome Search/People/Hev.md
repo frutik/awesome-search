@@ -31,8 +31,9 @@ advertises a small line of self-hosted AI tools under the same `hev` name.
   [[hev-rerank]].
 
 Two things make the piece worth keeping. First, the result: an untuned general decision model
-lands within 0.003 mean nDCG@10 of the best purpose-built reranker in the comparison, which is
-evidence about the *category* rather than about one vendor. Second, the method — the write-up
+lands within 0.003 mean nDCG@10 of [[Voyage rerank-3]] and within 0.010 of the comparison's
+leader, Mixedbread's mxbai-rerank-v3.1-listwise (0.511). That is evidence about the *category*
+rather than about one vendor. Second, the method — the write-up
 reports a determinism re-run, a [[Position Bias|position-bias]] check by order reversal, a
 random-permutation floor, and an ablation of the question shape, then states the cases where
 its own approach loses. That set of checks is a reusable template for evaluating any reranker.

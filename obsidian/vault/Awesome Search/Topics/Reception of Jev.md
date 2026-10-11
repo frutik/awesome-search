@@ -44,8 +44,9 @@ Note what he does with the limitation. The constraint that other readers treat a
 His measure is the ratio, and the ratio is what impressed him.
 
 [[Hev]] ran the only public search benchmark, landing an untuned [[Jev]] within 0.003 mean
-nDCG@10 of the best purpose-built reranker over three [[BEIR]] subsets ([[Hev meets Jev]]), and
-is explicit about contamination risk, a rerank depth of 30, and latency measured from a laptop.
+nDCG@10 of [[Voyage rerank-3]] and within 0.010 of the leader, Mixedbread's
+mxbai-rerank-v3.1-listwise, over three [[BEIR]] subsets ([[Hev meets Jev]]). He is
+explicit about contamination risk, a rerank depth of 30, and latency measured from a laptop.
 
 On the [Hacker News launch thread](https://news.ycombinator.com/item?id=49717558), a commenter
 posting as **porridgeraisin** reported access from the waitlist and called it neat — while
@@ -173,6 +174,9 @@ measure an artifact nobody has decomposed. And it is why his conclusion points a
 vendor entirely: reliable calibrated probabilities paired with thresholds would be a durable
 advantage, so in the absence of evidence for one, a capable team trains its own model.
 
+## The vendors run the benchmark
+
+Within a month of launch, running Jev as a reranker had become what [[Qdrant]]'s authors call "a rite of passage": every search vendor runs it on a few hundred queries, posts a table and moves on. They did too ([[Jevjitsu - How We Tried Generalized Classifiers on Everything]]), as did [[Elastic]] ([[Using Jev as a Search Reranker - Benchmarks and How to Implement]]), and so did [[Doug Turnbull]] ([[Bag of Decisions Reranker]]). All three found it beats their baselines, and none of them stopped at the single relevance question. Elastic built application policies over several typed signals. Turnbull had an LLM write each query's rubric. Qdrant concluded the interesting uses came *after* reranking, in diversity, query categories and chunking. The reception moved from whether the model is any good to which decisions to hand it. Qdrant's *apple* example, filtered to food at 0.91 confidence, is a reminder that a calibrated-looking probability can still be wrong in exactly the way the sceptics described.
 ## What the argument is actually about
 
 Three threads run under all of it.
@@ -252,9 +256,13 @@ queue, or a routing table, you have been paying a text generator to do a classif
 - [[Adapting Jev to Your Domain with GEPA]] — the calibration figure the thread asked for, plus the first tuned prompt
 - [[Jev and the Return of AI-ML Engineering]] — [[Han-chung Lee]]; the four promises taken apart, a third ECE reading, and the base-model-versus-RLCD question
 
+- [[Using Jev as a Search Reranker - Benchmarks and How to Implement]] · [[Bag of Decisions Reranker]] · [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — the vendor and practitioner reranking round, and what came after it
+
 ## People
 
 - [[Daniel Tunkelang]] · [[Doug Turnbull]] · [[Andreas Wagner]] · [[Hev]] · [[Annabell Schäfer]] · [[Sai Yashwanth]] · [[Prosper Otemuyiwa]] · [[Sajith K]] · [[Diogo Almeida]] · [[Praneeth Paikray]] · [[Han-chung Lee]]
+
+- [[Dustin Coates]] · [[Andrei Cristea]] · [[Chadha Sridi]]
 
 ## Related Notes
 

@@ -70,6 +70,9 @@ Home goods search has distinct challenges compared to general e-commerce:
 
 - [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; among five datasets used to compare [[Reciprocal Rank Fusion|RRF]] and [[Distribution-Based Score Fusion|DBSF]], WANDS (with 358.9 relevant products per query on average) favored high `k` (20–61) and showed [[Reciprocal Rank Fusion|RRF]] `k=2` vs. `k=61` picking a different top result for 42% of queries
 
+- [[Bag of Decisions Reranker]] — [[Doug Turnbull]]; mean NDCG 0.5407 (BM25) → 0.574 (Jev reranker) → 0.610 (per-query rubric)
+- [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Qdrant]]; 240 held-out queries measuring relevance against near-duplicates and product-class variety
+
 ## Source
 
 - Repo: https://github.com/wayfair/WANDS

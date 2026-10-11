@@ -138,6 +138,8 @@ The practical answer is the cheap one: spot-check calibration against a judged s
 the corpus changes, in the same spirit as [[Out-of-Time Validation]]. A calibrated score gives
 you a defensible starting threshold, not a permanent one.
 
+Model upgrades are one place where it can be made to travel deliberately. [[Voyage AI]] states that [[Voyage rerank-3]]'s relevance scores are calibrated to match the score distributions of the rerank-2.5 models they replace, so thresholds tuned on the old model keep working after the upgrade ([[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]]). This is a weaker promise than calibration to observed relevance frequencies, but it is the one an operator with tuned thresholds needs on upgrade day.
+
 ## Calibration Is Partly a Property of the Prompt
 
 A fourth limit, and the most actionable one. For a model that takes its question in natural
@@ -182,6 +184,8 @@ conventions rather than the truth.
 - [[How to Use Jev - A Practical Guide]] — the limit: calibration describes the verdict, not the evidence
 - [[TypeSafe Cookbook - Re-ranking]] — calibrated per-pair scoring on legal case retrieval
 - [[Adapting Jev to Your Domain with GEPA]] — the same model measured badly calibrated at its default prompt, and largely fixed by optimizing one
+
+- [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — score distributions held constant across reranker versions
 
 ## Related Topics
 

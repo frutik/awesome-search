@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Can Jev Rank? Can Jev Grade? Does Jev Know When Its Grading Is Unreliable?</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; }
+  h4, h5, h6 { font-size: 1rem; margin-top: 1.25rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+  blockquote { margin: 1.25rem 0; padding: 0 0 0 1rem; border-left: 3px solid #ddd; color: #444; }
+  table { border-collapse: collapse; width: 100%; margin: 1.25rem 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  code { font-family: Menlo, Consolas, monospace; font-size: 0.9em; background: #f5f5f5; padding: 0.1em 0.3em; }
+  pre { background: #f5f5f5; padding: 0.75rem; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin: 0.25rem 0; }
+</style>
+</head>
+<body>
+<h1>Can Jev Rank? Can Jev Grade? Does Jev Know When Its Grading Is Unreliable?</h1>
+<p><em>Three questions that sound simple but aren't, inspired by my work on bringing Jev into Quepid.</em></p>
+<p>I've been spending quite a bit of time with Jev recently.</p>
+<p>It started with <a href="https://github.com/o19s/quepid/pull/1802">bringing Jev into Quepid (PR #1802)</a>, the open-source tool for search relevance evaluation. That led to more work, including two new pull requests, <a href="https://github.com/o19s/quepid/pull/1826">#1826</a> and <a href="https://github.com/o19s/quepid/pull/1827">#1827</a>.</p>
+<p>Somewhere along the way, I realized that I was mixing up three rather different problems.</p>
+<p>We often talk about whether an AI model is a <em>good relevance judge</em>. But what does that actually mean?</p>
+<p>Does it put the best products at the top? Does it assign the same grades as a human? Can it recognize when its own judgment isn't reliable?</p>
+<p>These abilities are related, but one doesn't guarantee the others.</p>
+<p>And that distinction matters when we start using AI judges to evaluate — or even improve — real search systems.</p>
+<h2>1. Can Jev rank?</h2>
+<p>Imagine someone searches for <strong>"red running shoes"</strong>.</p>
+<p>Our search engine returns four products. We ask Jev to evaluate each one and get the following hypothetical relevance probabilities:</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red Nike running shoes</td>
+<td>0.45</td>
+</tr>
+<tr>
+<td>Red Adidas running shoes</td>
+<td>0.40</td>
+</tr>
+<tr>
+<td>Blue Nike running shoes</td>
+<td>0.25</td>
+</tr>
+<tr>
+<td>Red leather dress shoes</td>
+<td>0.15</td>
+</tr>
+</tbody>
+</table>
+<p>Let's assume this is exactly how a human relevance expert would order them.</p>
+<p>Jev has done a perfect job of ranking these four products.</p>
+<p>But there's something strange about the numbers.</p>
+<p>Every probability is below 0.5.</p>
+<p>If we apply the usual 0.5 threshold for a yes-or-no relevance decision, Jev classifies all four products as irrelevant.</p>
+<p>How can it be a good reranker and a bad classifier at the same time?</p>
+<p>Because <strong>knowing which product is better isn't the same as knowing whether a product is good enough</strong>.</p>
+<p>A reranker primarily needs to order results correctly. It doesn't necessarily need perfectly calibrated probabilities or a useful binary decision threshold.</p>
+<p>This is more than a theoretical curiosity.</p>
+<p>In a recent <a href="https://www.elastic.co/search-labs/blog/ecommerce-search-reranking-llm-alternative-jev">Elastic Search Labs experiment</a>, Dustin Coates tested Jev as a reranker using 250 queries from Amazon's Shopping Queries Dataset.</p>
+<p>The best reported approach improved nDCG@10 from 0.9351 to 0.9565.</p>
+<p>That's a modest improvement over a baseline that was already very good. Still, it suggests that Jev can contribute useful ranking signals.</p>
+<p>There's an important limitation: the benchmark compared different ways of ordering the same set of judged products. It didn't demonstrate what would happen in a complete production search pipeline, where retrieval determines which products are available to rerank in the first place.</p>
+<p>Around the same time, Doug Turnbull explored a related idea in <a href="https://softwaredoug.com/blog/2026/10/08/bag-of-decisions">Bag of Decisions</a>.</p>
+<p>I particularly like the idea of building a ranking score from several decisions rather than asking a model for one mysterious relevance number.</p>
+<p>For example, instead of simply asking whether a product is relevant, we might ask:</p>
+<ul>
+<li>Is it the product type the shopper requested?</li>
+<li>Does it satisfy the important constraints?</li>
+<li>Is it an exact match or a reasonable alternative?</li>
+</ul>
+<p>Then we combine those signals into a ranking score.</p>
+<p>This gives us something interesting: a ranking policy that we can inspect, adjust, and experiment with.</p>
+<p>But it also creates a new question. How should we combine those decisions, and how do we know that the resulting ranking is actually better?</p>
+<p>For that, we need a proper ranking experiment.</p>
+<h2>2. Can Jev grade?</h2>
+<p>Now imagine a different task.</p>
+<p>We're not trying to reorder search results. We're trying to evaluate them.</p>
+<p>This is familiar territory in Quepid, where relevance judgments are used to measure search quality and compare experiments.</p>
+<p>Suppose we use a four-point relevance scale:</p>
+<ul>
+<li><strong>0</strong> — Irrelevant</li>
+<li><strong>1</strong> — Slightly relevant</li>
+<li><strong>2</strong> — Relevant</li>
+<li><strong>3</strong> — Perfect match</li>
+</ul>
+<p>With Jev's multiclass <code>Choice</code> output, we can get a probability for each grade.</p>
+<p>For example:</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>Probability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>1</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<p>Jev picks grade 2.</p>
+<p>But what if a human relevance expert assigns grade 3?</p>
+<p>It's a disagreement, although perhaps not a particularly serious one.</p>
+<p>Now imagine Jev assigns grade 0 to a product that a human considers a perfect match.</p>
+<p>That's much more concerning.</p>
+<p>Simple accuracy treats both predictions as wrong, but the mistakes are very different.</p>
+<p>There's another possibility worth considering: perhaps Jev consistently gives excellent products a grade of 2 rather than 3.</p>
+<p>It might still rank those products correctly. But its grading would be systematically different from the human rubric.</p>
+<p>And if we use those grades to evaluate search improvements, that difference matters.</p>
+<p>We could end up optimizing our search engine for the judge's preferences instead of the relevance criteria we intended.</p>
+<p>So I'd want to look beyond overall accuracy.</p>
+<p>Where do the disagreements happen? Are they mostly between neighboring grades? Does Jev systematically avoid extreme grades? Does it struggle with particular query types?</p>
+<p>And perhaps the most uncomfortable question: <strong>is the model misunderstanding our grading instructions, or are our instructions simply not good enough?</strong></p>
+<p>Human relevance experts don't always agree either. Sometimes a disagreement tells us more about an ambiguous rubric than about the quality of the judge.</p>
+<p>That's why grading deserves its own evaluation, separate from ranking.</p>
+<h2>3. Does Jev know when its grading is unreliable?</h2>
+<p>This is the question that interests me most.</p>
+<p>While working on the Jev integration, I started looking at something beyond the final predicted grade: the distribution of probabilities.</p>
+<p>That led to my earlier article, <a href="https://www.linkedin.com/pulse/can-we-outsmart-jev-all-uncertainty-same-neighbour-splits-kornilov-zexce/">Can We Outsmart JEV? Not All Uncertainty Is the Same: Neighbour Splits vs. Scale Splits</a>.</p>
+<p>The main observation was that two judgments can have similar confidence scores while expressing very different kinds of uncertainty.</p>
+<p>Consider:</p>
+<table>
+<thead>
+<tr>
+<th>Grade</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Judgment A</td>
+<td>2%</td>
+<td>48%</td>
+<td>47%</td>
+<td>3%</td>
+</tr>
+<tr>
+<td>Judgment B</td>
+<td>45%</td>
+<td>5%</td>
+<td>5%</td>
+<td>45%</td>
+</tr>
+</tbody>
+</table>
+<p>Judgment A is essentially saying:</p>
+<p><em>"I'm not sure whether this is slightly relevant or relevant."</em></p>
+<p>Judgment B is saying:</p>
+<p><em>"This is either completely irrelevant or a perfect match."</em></p>
+<p>Those are not the same problem.</p>
+<p>The first looks like an ordinary disagreement about the boundary between two neighboring grades.</p>
+<p>The second might suggest an ambiguous query, missing product information, confusing instructions, or a model that has misunderstood the task.</p>
+<p>In the earlier article, I explored why collapsing these distributions into a single confidence number can hide useful information.</p>
+<p>But that led to a bigger question.</p>
+<p><strong>Just because Jev expresses uncertainty, does that mean its uncertainty is actually useful?</strong></p>
+<p>A model can confidently make mistakes.</p>
+<p>It can also be uncertain about predictions that turn out to be correct.</p>
+<p>What we really want to know is whether confidence helps us identify judgments that are more likely to be wrong.</p>
+<p>If it does, we can use that information to build a more efficient judging system.</p>
+<p>If it doesn't, the confidence numbers might look impressive without being particularly helpful.</p>
+<p>And that brings me to the experiments I'd like to run.</p>
+<h2>Three experiments I'd like to run in Quepid</h2>
+<p>The advantage of working on an evaluation tool is that these questions don't have to remain theoretical.</p>
+<p>We can test them against real relevance judgments.</p>
+<h3>Experiment 1: Ranking</h3>
+<p>Take queries with human-judged products, ask Jev to score each query-product pair, and use those scores to rerank the results.</p>
+<p>Then compare the ranking with the original search engine and other reranking approaches using nDCG@10.</p>
+<p>There's one important detail: <strong>we need enough human judgments to evaluate the results fairly</strong>.</p>
+<p>If Jev moves previously unjudged products into the top 10, we can't simply assume they're irrelevant. We'd need additional judgments or a carefully designed evaluation set.</p>
+<p>I'd also want to compare different scoring approaches: a single relevance probability, a weighted combination of multiclass probabilities, and potentially several more specific yes-or-no decisions.</p>
+<p>Which approach produces the best ranking?</p>
+<h3>Experiment 2: Grading</h3>
+<p>Take the same query-product pairs and ask Jev to assign relevance grades.</p>
+<p>Compare those grades with human judgments, paying particular attention to the nature of disagreements.</p>
+<p>Confusing a 2 with a 3 is not the same as confusing a 0 with a 3.</p>
+<p>We could also experiment with different grading instructions.</p>
+<p>Perhaps a more precise rubric improves agreement. Perhaps certain categories require additional context.</p>
+<p>The goal is to understand not only how often Jev disagrees with humans, but why.</p>
+<h3>Experiment 3: Knowing when to ask for help</h3>
+<p>This is where things get especially interesting.</p>
+<p>Suppose we have 10,000 query-product pairs to judge.</p>
+<p>We could send all of them to an expensive LLM. Or we could let Jev handle the first pass and escalate only the difficult cases.</p>
+<p>Something like:</p>
+<p><strong>Jev → More capable LLM → Human judge</strong></p>
+<p>But how do we decide which judgments need escalation?</p>
+<p>We could start with a simple confidence threshold.</p>
+<p>Take judgments with human labels, sort them by confidence, and measure agreement as we accept an increasing percentage of them.</p>
+<p>What happens when we accept only the most confident 50%?</p>
+<p>What about 70% or 90%?</p>
+<p>Does agreement deteriorate predictably?</p>
+<p>Then we could try something more sophisticated, inspired by my earlier article.</p>
+<p>Instead of looking only at confidence, what if we consider <em>where the probability is distributed</em>?</p>
+<p>Perhaps uncertainty between neighboring grades is less problematic than uncertainty between opposite ends of the scale.</p>
+<p>Or perhaps that intuition turns out to be wrong.</p>
+<p>Either result would be useful.</p>
+<p>Finally, we could introduce a second judge and measure the trade-off between cost and quality.</p>
+<p>For example, can Jev handle most judgments while an expensive LLM processes only the cases where Jev is least reliable?</p>
+<p>How much does agreement with human experts improve? And how much does that improvement cost?</p>
+<p>There's a subtle but important point here: <strong>the best escalation strategy is not necessarily the one that escalates the most uncertain judgments according to Jev</strong>.</p>
+<p>It's the one that most effectively identifies cases where a second judge can actually improve the result.</p>
+<p>Those might not be exactly the same cases.</p>
+<h2>Maybe we don't need one perfect judge</h2>
+<p>The more I work on Jev, the less convinced I am that comparing AI judges using a single benchmark tells us enough.</p>
+<p>One model might be excellent at reranking but only moderately good at reproducing human relevance grades.</p>
+<p>Another might produce better grades but less useful confidence estimates.</p>
+<p>And a relatively inexpensive judge might be particularly valuable as the first step in a larger evaluation pipeline, even if it isn't the most accurate model available.</p>
+<p>That doesn't mean we should build complicated systems for the sake of complexity.</p>
+<p>Maybe a single judge is good enough.</p>
+<p>Maybe a simple confidence threshold works just as well as a sophisticated uncertainty measure.</p>
+<p>Maybe some clever escalation strategy adds more complexity than value.</p>
+<p>These are exactly the kinds of things I'd like to find out.</p>
+<p>What started as adding Jev support to Quepid has gradually turned into a much broader exploration of how AI judgments should be evaluated, calibrated, and combined.</p>
+<p>I don't have definitive answers yet.</p>
+<p>But I think separating these questions will help us understand where Jev — and perhaps other decision-oriented models — can be most useful.</p>
+<p>Because the most accurate judge isn't necessarily the best judge for every job.</p>
+<p>And sometimes the most useful thing a judge can do is recognize when we should ask someone else.</p>
+<hr>
+<h2>Further reading</h2>
+<ul>
+<li><a href="https://github.com/o19s/quepid/pull/1802">Bringing Jev into Quepid — PR #1802</a></li>
+<li><a href="https://github.com/o19s/quepid/pull/1826">Ongoing Quepid work — PR #1826</a> and <a href="https://github.com/o19s/quepid/pull/1827">PR #1827</a></li>
+<li><a href="https://www.linkedin.com/pulse/can-we-outsmart-jev-all-uncertainty-same-neighbour-splits-kornilov-zexce/">Can We Outsmart JEV? Not All Uncertainty Is the Same — Andrew Kornilov</a></li>
+<li><a href="https://www.elastic.co/search-labs/blog/ecommerce-search-reranking-llm-alternative-jev">Using Jev as a Search Reranker — Dustin Coates, Elastic Search Labs</a></li>
+<li><a href="https://softwaredoug.com/blog/2026/10/08/bag-of-decisions">Bag of Decisions — Doug Turnbull</a></li>
+</ul>
+
+<hr>
+<p>Best,<br>Andrew</p>
+
+</body>
+</html>
