@@ -9,11 +9,11 @@ I've been building e-commerce search applications for 15+ years. Below is a list
 
 ## Latest Changes
 
+- [2026.42](https://frutik.github.io/awesome-search/History/2026.42)
 - [2026.41](https://frutik.github.io/awesome-search/History/2026.41)
 - [2026.40](https://frutik.github.io/awesome-search/History/2026.40)
 - [2026.39](https://frutik.github.io/awesome-search/History/2026.39)
 - [2026.38](https://frutik.github.io/awesome-search/History/2026.38)
-- [2026.37](https://frutik.github.io/awesome-search/History/2026.37)
 
 ---
 

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c605ed149e540d1",
+        "id": "f839b758f06f8180",
         "type": "tabs",
         "children": [
           {
-            "id": "563af557fed436ef",
+            "id": "3ce5b963ea78d63b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Outcome-Based vs Semantic Relevance.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Outcome-Based vs Semantic Relevance"
+              "title": "Нова вкладка"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Outcome-Based vs Semantic Relevance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,8 +182,12 @@
       "bases:Створити нову базу": false
     }
   },
-  "active": "563af557fed436ef",
+  "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "Concepts/Agentic Memory.md",
+    "History/2026.42.md",
+    "History/2026.41.md",
+    "Topics/Outcome-Based vs Semantic Relevance.md",
     "Articles/Cheap Signals, Shipped.md",
     "Datasets/MAIR.md",
     "Datasets/LongEmbed.md",
@@ -203,9 +202,7 @@
     "Articles/Jevjitsu - How We Tried Generalized Classifiers on Everything.md",
     "Articles/Using Jev as a Search Reranker - Benchmarks and How to Implement.md",
     "Articles/Bag of Decisions Reranker.md",
-    "History/2026.41.md",
     "Articles/Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems.md",
-    "Topics/Outcome-Based vs Semantic Relevance.md",
     "Concepts/Outcome-Based Relevance.md",
     "Topics/E-commerce Search Evaluation Datasets.md",
     "People/Paul Coursaux.md",
@@ -213,8 +210,6 @@
     "Tools/CLEPR.md",
     "Articles/Introducing CLEPR, our model for semantic understanding.md",
     "People/Romain Beaumont.md",
-    "People/Victor Paltz.md",
-    "Companies/Criteo.md",
     "Без назви"
   ]
 }

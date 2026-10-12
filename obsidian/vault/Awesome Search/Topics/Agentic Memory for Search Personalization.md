@@ -112,7 +112,7 @@ An asynchronous judge agent can compare query, results and known preferences aft
 - **Context pollution.** Episodic memory is the most dynamic and personal, and the most prone to accumulating junk that later degrades retrieval.
 - **Over-constraining.** Hard filters built from inferred preference remove correct results invisibly.
 - **Negation.** Aversions stored as negations retrieve badly under dense models.
-- **Silent staleness.** Without a TTL, a preference from a prior life stage keeps applying.
+- **Silent staleness.** Without a TTL, a preference from a prior life stage keeps applying. A TTL is the coarsest fix; per-fact decay and contradiction-driven demotion are compared in [[Agentic Memory#Decay and Forgetting]].
 - **Latency creep.** Every synchronous LLM call is on the user's clock.
 
 ## Open Questions

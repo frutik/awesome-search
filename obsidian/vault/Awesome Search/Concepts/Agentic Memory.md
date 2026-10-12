@@ -1,13 +1,19 @@
 ---
 type: concept
-title: "Agentic Memory"
-aliases: ["agent memory", "long-term memory", "working memory", "session memory", "memory-based personalization"]
+title: Agentic Memory
+aliases:
+  - agent memory
+  - long-term memory
+  - working memory
+  - session memory
+  - memory-based personalization
 tags:
   - concept
   - agentic-search
   - personalization
   - memory
   - opensearch
+  - memory-decay
 created: 2026-09-07
 ---
 
@@ -97,10 +103,49 @@ Practical constraints that follow from that split:
 - **Cache** the user profile rather than re-retrieving it per query.
 - **Cap retrieval** at the top 5–10 facts, scoped to the current context rather than the whole history.
 - **Tier the models** — reasoning-capable offline, a small language model online.
-- Set a **TTL** so stale context expires as the user changes.
+- Set a **TTL** so stale context expires as the user changes — the bluntest of the forgetting mechanisms in [[#Decay and Forgetting]].
 - Keep a **conventional fallback** (lexical, k-NN or hybrid) for when the agent is slow or misbehaves.
 
 Multi-tenancy and access control matter here in a way they do not for a stateless ranker: memory is per-user data, and an agent must be scoped to the memories it is entitled to read.
+
+## Decay and Forgetting
+
+A memory store that only accumulates becomes a liability. A preference is true when it is written and less true every month after; without a way to forget, a fact from a prior life stage keeps shaping results long after the user has moved on, and nothing in the result list says why.
+
+The case for forgetting comes from the same place as the case for memory:
+
+- **Users change.** The evolutive-context argument — students become professionals, single shoppers start buying for babies — is what makes memory better than retrained features. It cuts both ways: if updating is a write, expiring has to be one too.
+- **Facts age at different rates.** The illustration used in the [[DICE]] lineage is the difference between where you parked your car and the day you got married. One expiry horizon for both is wrong for at least one of them.
+- **Junk accumulates.** Episodic memory is singled out as the most prone to context pollution; whatever is not removed keeps competing for the capped handful of facts that reach the query.
+- **Some facts should not be kept at all.** The General User Models work that DICE builds on includes an **audit** step for facts the system should not remember — forgetting as policy, not only as ageing.
+
+### Three granularities
+
+| Mechanism | How it forgets | Where it appears |
+|---|---|---|
+| **TTL** | Stored context expires after a fixed horizon | The production guidance in [[Hajer Bouafif - Personalize Search Results with OpenSearch Agentic Memory\|Bouafif's OpenSearch talk]] |
+| **Scope-bound lifetime** | Memory lives exactly as long as the conversation it is tied to | [[django-dice]]: working memory carries the current conversation id and disappears with it, while semantic, procedural and episodic memory are written globally |
+| **Per-fact decay** | Each fact carries its own decay score, and its weight falls with time | [[DICE]] propositions |
+
+A TTL is the blunt instrument — one horizon for every fact. Per-fact decay moves the decision to write time: DICE's extraction prompt assigns **low decay** to stable preferences (a favourite topic, category preferences) and **high decay** to transient states (the topic currently being worked on), and its memory types line up the same way — semantic memory is permanent, working memory expires fast.
+
+### Decay changes ranking before it deletes
+
+In DICE, **effective confidence** applies time-based decay, so retrieval ranks by recency-weighted certainty rather than by the raw score a fact was born with. Combined with a capped top-N injection (`importance × confidence`), an ageing fact is likely to drop out of the context window well before anything removes it from the store — forgetting as demotion rather than deletion.
+
+### Contradiction is a second path
+
+Time is not the only thing that should weaken a memory. When a new observation conflicts with a stored one, DICE's reviser classifies it as `CONTRADICTORY` and the conflicting proposition **loses confidence**; propositions are the system of record and accumulate evidence as observations arrive. [[Embabel DICE]] adds a maintenance pass, `MemoryMaintenanceOrchestrator`, that consolidates, abstracts and **retires** memories over time.
+
+Compression is the gentlest form of forgetting — OpenSearch's `SUMMARY` strategy turns a 20-message session into one line, keeping the gist and dropping the detail. Memory compression in general is still named as an open problem.
+
+### Forgetting should be auditable
+
+OpenSearch's `history` memory type records memory operations including **delete**, and DICE propositions carry an **explanation** of why they were proposed. Both make it possible to answer, after the fact, why the system stopped — or never started — applying something it once knew.
+
+### Contrast with feature decay
+
+Feature-based [[Personalization]] decays too — behavioural profiles that decay over time in the [[Kleinanzeigen]]/[[Vespa]] setup, exponential recency weights on purchase history in Elastic's governed personalization. The difference is what decays: a feature pipeline down-weights a number, memory ages a statement that can be read, explained and revised.
 
 ## Applying Memory to a Query
 
@@ -136,6 +181,8 @@ Agentic memory is documented as **introduced in OpenSearch 3.3**, in the ml-comm
 - [[OpenSearch]] — four memory types by lifetime, with native memory APIs
 - [[Elasticsearch]] — the procedural/episodic/semantic split, with document-level security as the isolation mechanism
 - [[User Behavior Insights]] — behavioural signal source for offline preference inference
+- [[Embabel DICE]] — per-proposition decay scores and a maintenance pass that retires memories
+- [[django-dice]] — working memory scoped to a conversation, durable types written globally
 
 ## Articles
 
