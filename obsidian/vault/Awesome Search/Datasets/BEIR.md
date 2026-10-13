@@ -115,6 +115,7 @@ BEIR is the shared yardstick across the retrieval-model notes:
 - [[MIRACL]] — the multilingual counterpart BEIR lacks
 - [[LoTTE]] — long-tail topic stratification rather than heterogeneity
 - [[Retrieval Benchmarks and Leaderboards]] — how these fit together, and how to use them without being misled
+- [[Benchmark Contamination]] — why BEIR's public corpora now carry a caveat on every result table
 
 ## Source
 

@@ -48,3 +48,4 @@ Where a private-set score is available, treat a large open-vs-private drop as th
 - [[BEIR]] — the older zero-shot generalization test
 - [[BRIGHT]] — a different attack on the same complacency
 - [[Embedding Models Compared]] · [[Search Evaluation]]
+- [[Benchmark Contamination]] — the problem the open/private split is built to expose

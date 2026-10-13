@@ -159,6 +159,7 @@ An offline gain is a prediction that users will behave differently. It is not ev
 - [[Relevance Program Setup]] — running this as an ongoing organizational practice
 - [[Relevance Evaluation Tools Compared]] · [[Quepid]] — tooling
 - [[Search Quality Assurance]] · [[Vector Search Evaluation]]
+- [[Catastrophic Forgetting]] — the overfitting signal on general queries, and how single- vs multi-domain training trades it off
 
 ## Articles
 

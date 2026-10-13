@@ -114,6 +114,7 @@ Fine-tuning is easy to do and easy to fool yourself about. Training loss falling
 - [[LoRA]] — dominant PEFT method for embedding fine-tuning
 - [[QLoRA]] — LoRA + 4-bit quantization; consumer GPU fine-tuning
 - [[PEFT]] — umbrella term; parameter-efficient fine-tuning family
+- [[Catastrophic Forgetting]] — what domain fine-tuning costs outside the domain; single- vs multi-domain training
 
 ## People
 ## Articles

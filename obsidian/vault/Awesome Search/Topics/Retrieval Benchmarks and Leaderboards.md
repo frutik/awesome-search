@@ -91,7 +91,7 @@ For a side-by-side comparison of their label schemes, which to pick for which jo
 
 ## How Leaderboards Mislead
 
-- **Train/test contamination** — the dominant problem. Public test sets leak into training corpora, deliberately or not, and the leaderboard rewards it.
+- **Train/test contamination** — the dominant problem. Public test sets leak into training corpora, deliberately or not, and the leaderboard rewards it. See [[Benchmark Contamination]].
 - **Benchmark fit ≠ model quality** — position reflects optimization *against the benchmark* as much as capability. It is routine for a board leader to lose to a mid-ranked model on in-domain data.
 - **Averages hide everything** — a suite average smooths over the one task type that matches your use case.
 - **Version incomparability** — MTEB v1 vs v2, dataset revisions, changed metric definitions.

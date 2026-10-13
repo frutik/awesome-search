@@ -96,6 +96,7 @@ embedding compression, reranking, sparse retrieval, and metric definitions. Nota
 - [[LoTTE]] — built explicitly against MS MARCO's head-heavy query distribution
 - [[BRIGHT]] · [[MIRACL]] · [[RTEB]] — the stress-test, multilingual, and anti-contamination benchmarks
 - [[Retrieval Benchmarks and Leaderboards]] — the landscape, and why MS MARCO's ubiquity is now a contamination risk
+- [[Benchmark Contamination]] — the general problem MS MARCO's ubiquity in training data is a case of
 
 ## Source
 

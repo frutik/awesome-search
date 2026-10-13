@@ -184,6 +184,8 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "Concepts/Catastrophic Forgetting.md",
+    "Concepts/Benchmark Contamination.md",
     "Concepts/Agentic Memory.md",
     "History/2026.42.md",
     "History/2026.41.md",
@@ -208,8 +210,6 @@
     "People/Paul Coursaux.md",
     "People/Maxime Vono.md",
     "Tools/CLEPR.md",
-    "Articles/Introducing CLEPR, our model for semantic understanding.md",
-    "People/Romain Beaumont.md",
     "Без назви"
   ]
 }

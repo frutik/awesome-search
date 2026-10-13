@@ -158,6 +158,7 @@ The series is one of the few end-to-end, numbers-attached accounts of domain-ada
 - [[Hard Negative Mining]] — the ANCE loop
 - [[Embedding Fine-tuning]] — the dense-side analogue
 - [[BM25]] — the baseline throughout
+- [[Catastrophic Forgetting]] — the Part 4 specialization-vs-generalization result
 
 ## Related Topics
 

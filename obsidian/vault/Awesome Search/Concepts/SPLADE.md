@@ -94,6 +94,7 @@ Tooling: [[Sentence Transformers]] v5 (`MLMTransformer` + `SpladePooling`, `Spla
 - [[Embedding Fine-tuning]] — the dense-side analogue
 - [[Hybrid Search]] — SPLADE complements dense retrieval
 - [[Cross-Encoder]] — used as teacher model for SPLADE distillation
+- [[Catastrophic Forgetting]] — the generality cost of catalog fine-tuning, measured
 
 ## Articles
 

@@ -39,7 +39,7 @@ There is no single "MTEB leaderboard," and this causes constant confusion in ven
 
 MTEB's datasets are public — corpus, queries, and labels. That is good for reproducibility and bad for honesty: public test sets leak into training corpora, deliberately or not, and the leaderboard rewards the leakage. The result is a **generalization gap**, where reported scores exceed real-world retrieval accuracy on unseen data.
 
-This is precisely the problem [[RTEB]] was created to address, and it is why teams routinely find that a mid-ranked model beats the board leader on their own data. See [[Retrieval Benchmarks and Leaderboards]] for the full set of failure modes.
+This is precisely the problem [[RTEB]] was created to address, and it is why teams routinely find that a mid-ranked model beats the board leader on their own data. See [[Retrieval Benchmarks and Leaderboards]] for the full set of failure modes. The mechanism has its own note: [[Benchmark Contamination]].
 
 ## How to Use It
 

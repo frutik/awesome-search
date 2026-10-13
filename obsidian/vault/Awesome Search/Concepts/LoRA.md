@@ -70,3 +70,4 @@ For embedding models specifically: LoRA fine-tuning with contrastive loss achiev
 - [[PEFT]] — umbrella term; LoRA is the dominant PEFT method
 - [[Embedding Fine-tuning]] — domain adaptation of embedding models; LoRA is increasingly the standard approach
 - [[LLM]] — primary target for LoRA in search pipelines
+- [[Catastrophic Forgetting]] — per-domain adapters on a frozen encoder as one answer to it
