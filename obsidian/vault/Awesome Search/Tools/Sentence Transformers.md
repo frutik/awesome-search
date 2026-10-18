@@ -53,6 +53,8 @@ It also supports **multi-domain training**, the lever for trading peak in-domain
 | `MatryoshkaLoss` | Wrapper for nested-dimension embeddings |
 | `SpladeLoss` | Sparse encoders, with sparsity regularization |
 
+How to choose between them, and which training-data shape each expects: [[Embedding Loss Functions]] and [[Dataset Types for Embedding Fine-Tuning]].
+
 ## Related Tools
 
 - [[Qdrant Vector DB]] · [[Elasticsearch]] — where the trained representations get indexed

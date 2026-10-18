@@ -48,6 +48,8 @@ There is a failure mode on the other side too: **false negatives**. Mine aggress
 - [[Bi-Encoder]] · [[Cross-Encoder]] — architectures trained this way
 - [[Knowledge Distillation]] — the alternative signal source: learn from a stronger model's scores rather than from labels
 - [[Embeddings]] · [[Dense Embeddings]]
+- [[Embedding Loss Functions]] — the concrete losses (MNRL, TripletLoss, CoSENT, cached MNRL) and when to use each
+- [[Dataset Types for Embedding Fine-Tuning]] — the pair, triplet and scored-pair data these objectives consume
 
 ## Related Topics
 

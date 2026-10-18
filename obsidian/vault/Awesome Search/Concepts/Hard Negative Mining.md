@@ -79,6 +79,7 @@ The risk is worse the sparser your labels, which is the usual situation with cli
 - [[Judgment Lists]] — the labels that determine what counts as a false negative
 - [[Synthetic Query Generation]] · [[Consistency Filtering]] — mining negatives from the validation pass
 - [[Cross-Encoder]] — the model trained on the resulting triplets in that pipeline
+- [[Dataset Types for Embedding Fine-Tuning]] — hard-negative sets as one of six training-data shapes, with five ways to mine them
 
 ## Articles
 

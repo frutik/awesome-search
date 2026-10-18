@@ -116,3 +116,4 @@ Synonym dictionaries rot. Common sources of decay:
 - [[Dense Vector Retrieval]] — handles the semantic gap case
 - [[E-commerce Search]] — vocabulary management is especially critical in product search
 - [[Query Understanding in Practice]] — synonyms are one component of the QU pipeline
+- [[Domain-Specific Semantic Gaps]] — when the gap sits in the embedding model rather than the vocabulary, and fine-tuning is the fix

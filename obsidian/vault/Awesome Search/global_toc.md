@@ -54,7 +54,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Agentic Search]] · [[Agentic Memory]] · [[Model Context Protocol]] · [[Agentic Query Workload]] · [[Conversational Search]] · [[RAG]] · [[Generative Retrieval]] · [[Differentiable Search Index]] · [[Direct Corpus Interaction]] · [[Purpose-Built Agentic Search Models]] · [[System One Model]] · [[SIRA]] · [[Search-R1]] · [[Reinforcement Learning for Search]] · [[Semantic IDs]] · [[TIGER]] · [[RQ-VAE]] · [[Context Engineering]] · [[DICE]] · [[Clean Context]] · [[Hypothetical Document Embeddings]] · [[Steering Vectors]] · [[GraphRAG]] · [[HippoRAG]] · [[Long-Context RAG]] · [[Prompt Compression]] · [[Query Routing]] · [[LLM Guardrails]] · [[Adaptive Retrieval]]
 
 ### Model Fine-Tuning & Serving
-[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Catastrophic Forgetting]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Reinforcement Learning for Calibrated Decisions]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]]
+[[LoRA]] · [[QLoRA]] · [[PEFT]] · [[GGUF]] · [[Hard Negative Mining]] · [[Catastrophic Forgetting]] · [[Contrastive Learning]] · [[Knowledge Distillation]] · [[Reinforcement Learning for Calibrated Decisions]] · [[Synthetic Query Generation]] · [[Consistency Filtering]] · [[PROMPTAGATOR]] · [[FLAN-T5]] · [[Domain-Specific Semantic Gaps]] · [[Dataset Types for Embedding Fine-Tuning]] · [[Embedding Loss Functions]] · [[Hyperparameter Tuning for Embedding Fine-Tuning]]
 
 ### Search Architecture & Operations
 [[Search Architecture]] · [[Retrieval Pipeline]] · [[Sharding]] · [[Compute-Storage Disaggregation]] · [[Unified Search Index]] · [[Denormalization for Search]] · [[Search Governance]] · [[Search Team]] · [[Search Results Explainability]] · [[Text Chunking]] · [[Knowledge Graph Search]]
@@ -93,6 +93,9 @@ A map of every note in the vault organized by category and theme.  This index tr
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
+
+### SQLite Extensions
+[[sqlite-sparse]]
 
 ### Ranking & ML Libraries
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[Metarank]] · [[eland]]

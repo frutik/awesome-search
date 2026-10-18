@@ -160,6 +160,8 @@ An offline gain is a prediction that users will behave differently. It is not ev
 - [[Relevance Evaluation Tools Compared]] · [[Quepid]] — tooling
 - [[Search Quality Assurance]] · [[Vector Search Evaluation]]
 - [[Catastrophic Forgetting]] — the overfitting signal on general queries, and how single- vs multi-domain training trades it off
+- [[Hyperparameter Tuning for Embedding Fine-Tuning]] — the settings swept against the dev set, and how to read the loss curve
+- [[Dataset Types for Embedding Fine-Tuning]] — training-data shapes, including the no-shared-queries rule for IR data
 
 ## Articles
 

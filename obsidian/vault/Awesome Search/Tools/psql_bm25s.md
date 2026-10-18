@@ -50,3 +50,4 @@ An alternative to [[ParadeDB]] (`pg_search`) for adding [[BM25]] to a [[Search u
 - [[Search using PostgreSQL]] · [[PostgreSQL]] · [[pgvector]] · [[ParadeDB]]
 - [[BM25]] · [[Full-Text Search]] · [[Hybrid Search]] · [[Reciprocal Rank Fusion]]
 - Compare: [[ParadeDB]] (pg_search), vchord_bm25, Elasticsearch/OpenSearch BM25
+- In SQLite: [[sqlite-sparse]] (learned sparse rather than BM25)

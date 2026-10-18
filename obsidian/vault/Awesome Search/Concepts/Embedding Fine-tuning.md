@@ -115,6 +115,10 @@ Fine-tuning is easy to do and easy to fool yourself about. Training loss falling
 - [[QLoRA]] — LoRA + 4-bit quantization; consumer GPU fine-tuning
 - [[PEFT]] — umbrella term; parameter-efficient fine-tuning family
 - [[Catastrophic Forgetting]] — what domain fine-tuning costs outside the domain; single- vs multi-domain training
+- [[Domain-Specific Semantic Gaps]] — the problem fine-tuning closes
+- [[Dataset Types for Embedding Fine-Tuning]] — the six training-data shapes and their minimums
+- [[Embedding Loss Functions]] — MNRL, CoSENT, Triplet, cached MNRL, Matryoshka; which data each needs
+- [[Hyperparameter Tuning for Embedding Fine-Tuning]] — learning rate, batch size, warmup, epochs
 
 ## People
 ## Articles

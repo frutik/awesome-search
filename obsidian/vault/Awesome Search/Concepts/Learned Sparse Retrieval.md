@@ -77,6 +77,8 @@ The trade-off is generality. A model tuned on one catalog is not a general e-com
 
 [[SPLADE]] and [[ELSER]] are the dominant production-grade LSR models. uniCOIL and DeepImpact trade effectiveness for speed.
 
+OpenSearch's neural sparse models also come in an **inference-free** form — the encoder runs on documents only, and each query token takes a learned weight from a lookup table. [[sqlite-sparse]] builds on that variant to run LSR inside a single SQLite file with no model at query time.
+
 ---
 
 ## Mechanism (SPLADE Canonical Example)
@@ -143,6 +145,7 @@ LSR models are primarily evaluated on **BEIR** (Benchmarking IR) — 18 heteroge
 - [[miniCOIL]] — BM25-extending alternative built for generalization
 - [[Hard Negative Mining]] — how LSR training gets its negative signal
 - [[Embedding Fine-tuning]] — the dense-side counterpart
+- [[sqlite-sparse]] — embedded LSR in SQLite with an inference-free query path
 
 ## Related Articles
 

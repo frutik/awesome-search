@@ -91,6 +91,7 @@ Some platforms are not general-purpose search engines but focus on a specific do
 Search run inside an existing database rather than a dedicated engine — increasingly viable for small-to-medium workloads, eliminating a separate search cluster.
 
 - **[[PostgreSQL]]** — native [[Full-Text Search]] (`tsvector`, GIN, `ts_rank`), plus [[pgvector]] for vector search and [[ParadeDB]] for [[BM25]]; supports [[Hybrid Search]] + [[Reciprocal Rank Fusion|RRF]] in SQL. See [[Search using PostgreSQL]].
+- **SQLite** — [[sqlite-sparse]] adds [[Learned Sparse Retrieval]] as a virtual table: documents are encoded at insert, queries need no model and are scored exactly over posting lists stored in the database file.
 
 ## Key Trade-offs When Choosing a Platform
 
