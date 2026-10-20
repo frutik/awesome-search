@@ -201,12 +201,12 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
-**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
+**T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 **U** — [[Udi Manber]]
 
 **V** — [[Venkat Ram Rao]] · [[Victor Paltz]] · [[Vsevolod Goloviznin]]
 
-**W** — [[Wenqi Glantz]] · [[Wolf Garbe]] · [[Daniel Wrigley]]
+**W** — [[Walter Underwood]] · [[Wenqi Glantz]] · [[Wolf Garbe]] · [[Daniel Wrigley]]
 
 **Y** — [[Yiqun Sun]] · [[Yixuan Tang]] · [[Yu Su]] · [[Yuanyuan Shi]] · [[Yuqing Zhang]]

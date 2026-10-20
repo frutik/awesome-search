@@ -68,7 +68,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Sai Yashwanth]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Stéphane Clinchant]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Sujit Pal]] · [[Susan Liu]]
 
 ## T
-- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Ted Underwood]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
+- [[Tao Ruangyam]] · [[Taylor Roy]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
 ## U
 - [[Udi Manber]]
@@ -77,7 +77,7 @@ The practitioners, researchers, and educators who shape the search and IR field.
 - [[Venkat Ram Rao]] · [[Vsevolod Goloviznin]]
 
 ## W
-- [[Wenqi Glantz]] · [[Wolf Garbe]]
+- [[Walter Underwood]] · [[Wenqi Glantz]] · [[Wolf Garbe]]
 
 ## Y
 - [[Yiqun Sun]] · [[Yixuan Tang]] · [[Yu Su]] · [[Yuanyuan Shi]] · [[Yuqing Zhang]]

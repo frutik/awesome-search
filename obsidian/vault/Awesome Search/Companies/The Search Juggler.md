@@ -32,6 +32,11 @@ Solo search consultancy run by [[Charlie Hull]]. Vendor-neutral, independent adv
 
 Charlie Hull previously ran Flax, a UK open-source search company, and was Managing Consultant at [[OpenSource Connections]] before going independent.
 
+### Writing
+
+- [[How to Securely Hook Up Quepid to Vespa]] — offline relevance testing for [[Vespa]] via [[Quepid]]
+- [[Click Residuals - A Clever Way to Find Underperforming Queries]] — using [[Clicks Residual|click residuals]] in client work to find and prioritise underperforming queries
+
 ## Related
 
 - [[Charlie Hull]]

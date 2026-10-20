@@ -24,6 +24,7 @@ created: 2026-05-17
 - [[Search Optimization 101 - How do you fix a broken search]]
 - [[Search Optimization 101 - Reducing business risk by optimizing search]]
 - [[How to Securely Hook Up Quepid to Vespa]] — wiring [[Quepid]] to a [[Vespa]] Cloud app via read-only token auth
+- [[Click Residuals - A Clever Way to Find Underperforming Queries]] — extends [[Walter Underwood]]'s [[Clicks Residual|click residual]] metric for e-commerce with per-category CTR, exit rate and business-value prioritisation
 
 ## Videos
 - [[Rene Kriegler - Query Relaxation]] — introduced [[Rene Kriegler]]'s talk
@@ -37,3 +38,4 @@ created: 2026-05-17
 - [[Search Evaluation]]
 - [[Search Consultancy]]
 - [[Search Quality Assurance]]
+- [[Clicks Residual]]

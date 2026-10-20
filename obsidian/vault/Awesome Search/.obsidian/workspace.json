@@ -184,6 +184,9 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "History/2026.43.md",
+    "People/Walter Underwood.md",
+    "Articles/Click Residuals - A Clever Way to Find Underperforming Queries.md",
     "Concepts/Hyperparameter Tuning for Embedding Fine-Tuning.md",
     "Concepts/Embedding Loss Functions.md",
     "Concepts/Dataset Types for Embedding Fine-Tuning.md",
@@ -207,9 +210,6 @@
     "Datasets/QASPER.md",
     "Concepts/Bag of Decisions.md",
     "Articles/Jevjitsu - How We Tried Generalized Classifiers on Everything.md",
-    "Articles/Using Jev as a Search Reranker - Benchmarks and How to Implement.md",
-    "Articles/Bag of Decisions Reranker.md",
-    "Articles/Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems.md",
     "Без назви"
   ]
 }

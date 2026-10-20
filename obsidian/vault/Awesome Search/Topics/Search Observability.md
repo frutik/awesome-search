@@ -26,6 +26,7 @@ articles:
   - "[[When There's No Conversion Rate]]"
   - "[[Click Residual - A Query Success Metric]]"
   - "[[Building Smarter Search Products 3 Steps for Evaluating Search Algorithms]]"
+  - "[[Click Residuals - A Clever Way to Find Underperforming Queries]]"
 people:
   - "[[Daniel Tunkelang]]"
   - "[[James Rubinstein]]"
@@ -69,7 +70,7 @@ Behavioral signals measure whether users are succeeding. They are always availab
 | **Abandonment rate** | Fraction of sessions ending without success | Ambiguous: fast exit can mean success (found it fast) or failure (gave up) |
 | **Query reformulation rate** | Fraction of queries followed by another query within the same session | Dissatisfaction signal; user didn't find what they wanted on first try |
 | **Dwell time / long click** | Time spent on a clicked result | Long dwell = satisfaction; short dwell = pogo-sticking back to SERP |
-| **[[Clicks Residual]]** | Gap between expected and actual click distribution for a query | Detects queries underperforming relative to their type; position-bias corrected |
+| **[[Clicks Residual]]** | Actual minus expected clicks for a query (attempts × average CTR) | Ranks underperformers by customer impact rather than raw CTR; a site-wide CTR baseline is crude, so per-category baselines help; says *that* a query fails, not *why* |
 | **Session success rate** | Fraction of sessions ending with a terminal success event (purchase, saved, no reformulation) | Closest to true task completion; slow to accumulate |
 
 Segment all behavioral metrics by **query tier** (head / torso / tail). Head queries account for 50%+ of traffic but are not representative of the long tail where most quality problems hide.

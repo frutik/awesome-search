@@ -9,11 +9,11 @@ I've been building e-commerce search applications for 15+ years. Below is a list
 
 ## Latest Changes
 
+- [2026.43](https://frutik.github.io/awesome-search/History/2026.43)
 - [2026.42](https://frutik.github.io/awesome-search/History/2026.42)
 - [2026.41](https://frutik.github.io/awesome-search/History/2026.41)
 - [2026.40](https://frutik.github.io/awesome-search/History/2026.40)
 - [2026.39](https://frutik.github.io/awesome-search/History/2026.39)
-- [2026.38](https://frutik.github.io/awesome-search/History/2026.38)
 
 ---
 
@@ -220,13 +220,13 @@ See the [Conferences](https://frutik.github.io/awesome-search/Conferences) MOC. 
 
 **S** — [Sai Yashwanth](https://frutik.github.io/awesome-search/People/Sai-Yashwanth) · [Sajith K](https://frutik.github.io/awesome-search/People/Sajith-K) · [Sami Maameri](https://frutik.github.io/awesome-search/People/Sami-Maameri) · [Sergey Feldman](https://frutik.github.io/awesome-search/People/Sergey-Feldman) · [Shane Connelly](https://frutik.github.io/awesome-search/People/Shane-Connelly) · [Shaw Talebi](https://frutik.github.io/awesome-search/People/Shaw-Talebi) · [Shay Banon](https://frutik.github.io/awesome-search/People/Shay-Banon) · [Shib Sankar Dasgupta](https://frutik.github.io/awesome-search/People/Shib-Sankar-Dasgupta) · [Shun Tsukagoshi](https://frutik.github.io/awesome-search/People/Shun-Tsukagoshi) · [Siegfried Schüle](https://frutik.github.io/awesome-search/People/Siegfried-Schüle) · [Skip Everling](https://frutik.github.io/awesome-search/People/Skip-Everling) · [Soraya Hausl](https://frutik.github.io/awesome-search/People/Soraya-Hausl) · [Steffen Rendle](https://frutik.github.io/awesome-search/People/Steffen-Rendle) · [Steven Truitt](https://frutik.github.io/awesome-search/People/Steven-Truitt) · [Stuart Cam](https://frutik.github.io/awesome-search/People/Stuart-Cam) · [Stéphane Clinchant](https://frutik.github.io/awesome-search/People/Stéphane-Clinchant) · [Sujit Pal](https://frutik.github.io/awesome-search/People/Sujit-Pal) · [Susan Liu](https://frutik.github.io/awesome-search/People/Susan-Liu)
 
-**T** — [Tao Ruangyam](https://frutik.github.io/awesome-search/People/Tao-Ruangyam) · [Taylor Roy](https://frutik.github.io/awesome-search/People/Taylor-Roy) · [Ted Underwood](https://frutik.github.io/awesome-search/People/Ted-Underwood) · [Themis Mavridis](https://frutik.github.io/awesome-search/People/Themis-Mavridis) · [Thibault Formal](https://frutik.github.io/awesome-search/People/Thibault-Formal) · [Thierry Damiba](https://frutik.github.io/awesome-search/People/Thierry-Damiba) · [Thomas Veasey](https://frutik.github.io/awesome-search/People/Thomas-Veasey) · [Tomas Mikolov](https://frutik.github.io/awesome-search/People/Tomas-Mikolov) · [Trey Grainger](https://frutik.github.io/awesome-search/People/Trey-Grainger) · [Tullie Murrell](https://frutik.github.io/awesome-search/People/Tullie-Murrell)
+**T** — [Tao Ruangyam](https://frutik.github.io/awesome-search/People/Tao-Ruangyam) · [Taylor Roy](https://frutik.github.io/awesome-search/People/Taylor-Roy) · [Themis Mavridis](https://frutik.github.io/awesome-search/People/Themis-Mavridis) · [Thibault Formal](https://frutik.github.io/awesome-search/People/Thibault-Formal) · [Thierry Damiba](https://frutik.github.io/awesome-search/People/Thierry-Damiba) · [Thomas Veasey](https://frutik.github.io/awesome-search/People/Thomas-Veasey) · [Tomas Mikolov](https://frutik.github.io/awesome-search/People/Tomas-Mikolov) · [Trey Grainger](https://frutik.github.io/awesome-search/People/Trey-Grainger) · [Tullie Murrell](https://frutik.github.io/awesome-search/People/Tullie-Murrell)
 
 **U** — [Udi Manber](https://frutik.github.io/awesome-search/People/Udi-Manber)
 
 **V** — [Venkat Ram Rao](https://frutik.github.io/awesome-search/People/Venkat-Ram-Rao) · [Victor Paltz](https://frutik.github.io/awesome-search/People/Victor-Paltz) · [Vsevolod Goloviznin](https://frutik.github.io/awesome-search/People/Vsevolod-Goloviznin)
 
-**W** — [Wenqi Glantz](https://frutik.github.io/awesome-search/People/Wenqi-Glantz) · [Wolf Garbe](https://frutik.github.io/awesome-search/People/Wolf-Garbe) · [Daniel Wrigley](https://frutik.github.io/awesome-search/People/Daniel-Wrigley)
+**W** — [Walter Underwood](https://frutik.github.io/awesome-search/People/Walter-Underwood) · [Wenqi Glantz](https://frutik.github.io/awesome-search/People/Wenqi-Glantz) · [Wolf Garbe](https://frutik.github.io/awesome-search/People/Wolf-Garbe) · [Daniel Wrigley](https://frutik.github.io/awesome-search/People/Daniel-Wrigley)
 
 **Y** — [Yiqun Sun](https://frutik.github.io/awesome-search/People/Yiqun-Sun) · [Yixuan Tang](https://frutik.github.io/awesome-search/People/Yixuan-Tang) · [Yu Su](https://frutik.github.io/awesome-search/People/Yu-Su) · [Yuanyuan Shi](https://frutik.github.io/awesome-search/People/Yuanyuan-Shi) · [Yuqing Zhang](https://frutik.github.io/awesome-search/People/Yuqing-Zhang)
 

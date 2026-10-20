@@ -36,6 +36,10 @@ Netflix's content catalog is a **federated graph** — different teams own diffe
 - [[How Netflix Makes a Federated Graph Searchable]] — distributed graph search architecture
 - [[Netflix Elasticsearch Indexing Strategy in AMP]] — indexing patterns for high-update corpus
 
+## Query Success Measurement: Click Residual
+
+[[Walter Underwood]] developed the [[Clicks Residual|click residual]] metric (actual minus expected clicks per query) at Netflix. It flagged "batman" as an underperformer because *The Dark Knight* doesn't contain the word, which an alias fixed. It also flagged "cj7", a film not yet released in the US, which led the metadata team to add a catalogue entry. See [[Click Residual - A Query Success Metric]].
+
 ## Influence on Ranking Experimentation
 
 Outside its own search stack, Netflix's 2017 engineering write-up on
