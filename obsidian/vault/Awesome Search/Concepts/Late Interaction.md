@@ -70,12 +70,17 @@ Since late interaction stores many vectors per document, storage is a concern:
 - [[Cross-Encoder]] — early interaction (joint encoding)
 - [[Dense Vector Retrieval]] — late interaction uses multi-vector dense representations
 
+- [[PLAID]] — ColBERTv2's multi-vector retrieval engine (single-vector heuristic for candidates), MUVERA's baseline
+
 ## Articles
 
 - [[What is ColBERT and Late Interaction and Why They Matter in Search]]
 - [[Announcing the Vespa ColBERT Embedder]]
 - [[ColPali & Elasticsearch - How to Search Complex Documents]]
 - [[Late Interaction Models - How to Scale and Optimize in Elasticsearch]]
+
+- [[MUVERA - Multi-Vector Retrieval via Fixed Dimensional Encodings]] — reducing MaxSim (Chamfer) search to single-vector MIPS
+- [[Scaling Late Interaction Retrieval in OpenSearch with MUVERA]] — retrieve-then-rerank benchmarks on text and visual pages
 
 ## Related Topics
 

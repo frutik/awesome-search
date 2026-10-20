@@ -47,6 +47,9 @@ The production pattern combines them: **Stage 1** retrieves top-k candidates wit
 
 ---
 
+### Average vectors vs MUVERA
+Elastic's first-stage stand-in for a multi-vector document is the plain average of its vectors, computed before ingest. [[MUVERA]], the fixed-dimensional encoding that [[Weaviate Vector DB]], [[Qdrant Vector DB]] and an [[OpenSearch]] sample use for the same slot, has no Elastic documentation, blog post or GitHub issue as of October 2026. The AWS OpenSearch benchmark compares the two under the same MaxSim rerank: mean-pool + rerank loses 48–72% of exact quality, while MUVERA + rerank loses 3–13% ([[Scaling Late Interaction Retrieval in OpenSearch with MUVERA]]).
+
 ## Where Late Interaction Fits
 
 Elastic's recommendation: use late-interaction models **for reranking the top-k, not first-stage retrieval** — which is why the field is called `rank_vectors`.

@@ -41,6 +41,8 @@ Weaviate supports cross-encoder reranking as a native feature in its search pipe
 
 **Block-Max WAND** — Weaviate implemented [[Block-Max WAND]] in v1.29 (technical preview), achieving 5–10x p50 keyword search speedups and 50–90% index size reduction vs. their prior WAND baseline. Implemented by [[André Mourão]] and [[Joon-Pil (JP) Hwang]].
 
+- [[MUVERA]] multi-vector encoding in [[Weaviate Vector DB]] 1.31 — [[More Efficient Multi-Vector Embeddings with MUVERA]]
+
 ## Key Articles
 
 - [[Using Cross-Encoders as Reranker in Multistage Vector Search]]
@@ -57,6 +59,8 @@ Weaviate supports cross-encoder reranking as a native feature in its search pipe
 - [[Laura Ham]]
 - [[André Mourão]] — search engineer; [[Block-Max WAND]] implementation
 - [[Joon-Pil (JP) Hwang]] — search engineer; [[Block-Max WAND]] implementation
+
+- [[Roberto Esposito]] — Research Engineer
 
 ## Concepts
 

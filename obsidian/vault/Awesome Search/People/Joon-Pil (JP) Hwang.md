@@ -15,6 +15,10 @@ Search engineer at [[Weaviate]]. Co-implemented Weaviate's [[Block-Max WAND]] ke
 
 - [[BlockMax WAND - How Weaviate Achieved 10x Faster Keyword Search]]
 
+- [[More Efficient Multi-Vector Embeddings with MUVERA]] — with [[Roberto Esposito]]
+
 ## Topics
 
 [[Block-Max WAND]] · [[Weaviate]]
+
+[[MUVERA]] · [[Late Interaction]]

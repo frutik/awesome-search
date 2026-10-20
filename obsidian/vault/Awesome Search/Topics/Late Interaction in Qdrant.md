@@ -66,6 +66,9 @@ ColBERT-style storage is the same multi-vector pressure seen elsewhere — many 
 
 ---
 
+##### MUVERA via FastEmbed
+Qdrant's multi-vector course ([[MUVERA in Qdrant - Multi-Vector Search Course]]) builds the [[MUVERA]] first stage with [[FastEmbed]] 0.7.2+ (`fastembed.postprocess.Muvera`, `k_sim=6`, `dim_proj=32`, `r_reps=20`) over `Qdrant/colmodernvbert`, prefetches 100 candidates on the `muvera` vector and MaxSim-reranks to 10. Its stated rationale: MaxSim is asymmetric and non-metric, so HNSW navigates raw multi-vectors poorly. The cost is roughly double the storage, since both representations are kept; offloading the originals to disk is the suggested mitigation.
+
 ## Qdrant vs the Search Engines
 
 | | [[Qdrant Vector DB]] | [[Elasticsearch]] (8.18+) | [[OpenSearch]] (3.3+) |
@@ -112,3 +115,5 @@ All three land on the same retrieve-then-rerank shape; the difference is packagi
 - [Multivectors and Late Interaction — Qdrant docs](https://qdrant.tech/documentation/advanced-tutorials/using-multivector-representations/)
 - [Working with ColBERT — Qdrant docs](https://qdrant.tech/documentation/fastembed/fastembed-colbert/)
 - [Multi-Vector Postprocessing — Qdrant docs](https://qdrant.tech/documentation/fastembed/fastembed-postprocessing/)
+
+- [[MUVERA in Qdrant - Multi-Vector Search Course]]

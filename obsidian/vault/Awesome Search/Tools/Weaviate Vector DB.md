@@ -44,6 +44,10 @@ Weaviate's canonical retrieval pattern:
 
 This separates scalability (stage 1) from accuracy (stage 2).
 
+## Multi-Vector Embeddings and MUVERA
+
+Since **1.31**, Weaviate can encode multi-vector embeddings ([[ColBERT]], [[ColPali]]) with [[MUVERA]] so [[HNSW]] indexes one fixed-size vector per object, tuned with `k_sim`, `d_proj` and `r_reps` (no final projection). On LoTTE lifestyle with colbertv2.0, memory dropped from ~12 GB to under 1 GB and import from 20+ minutes to 3–6 minutes, at the cost of recall that needs a higher `ef` (above 512 for 80%+) to recover. See [[More Efficient Multi-Vector Embeddings with MUVERA]].
+
 ## Related Tools
 - **[[Qdrant Vector DB]]** — competing vector database; stronger quantization options (TurboQuant)
 - **Pinecone** — managed-only competitor
@@ -62,5 +66,9 @@ This separates scalability (stage 1) from accuracy (stage 2).
 
 - [[Choosing a Vector Database for ANN Search at Reddit]] — Reddit qualitatively scored Weaviate; not tested quantitatively due to time constraints; single-node-type architecture noted as a concern
 
+- [[More Efficient Multi-Vector Embeddings with MUVERA]] — MUVERA support in 1.31, LoTTE memory/import/recall benchmark
+
 ## People
 - [[Laura Ham]] — cross-encoder pipeline explainer
+
+- [[Roberto Esposito]] · [[Joon-Pil (JP) Hwang]] — MUVERA implementation post

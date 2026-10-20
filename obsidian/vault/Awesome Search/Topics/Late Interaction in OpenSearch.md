@@ -54,6 +54,11 @@ Storage requirements increase **10–100×** versus single-vector retrieval — 
 
 ---
 
+##### MUVERA as the first stage
+An AWS sample ([[Scaling Late Interaction Retrieval in OpenSearch with MUVERA]]) replaces the bi-encoder first stage with a [[MUVERA]] fixed dimensional encoding of the multi-vectors themselves, indexed as a `knn_vector` and reranked with `lateInteractionScore`. On self-managed OpenSearch 3.8.0 the [[opensearch-muvera-plugin]] computes it server-side (`muvera` / `muvera_query` processors); on Amazon OpenSearch Service it is computed client-side with [[FastEmbed]]. FDE dimension is capped at 16,000.
+
+Its benchmarks: MUVERA + rerank keeps 90–97% of exact MaxSim nDCG@10 on text (SciFact, NFCorpus) and 87% of recall@10 on visual pages (IRPAPERS), against 28–52% for mean-pooling + rerank. Rerank is ~97% of query latency; a richer FDE (`r_reps` 30) lets the rerank depth halve at equal quality for ~40% less latency. int8 multi-vectors cut storage 4× at near-zero quality cost but no speedup while scoring reads from `_source`; a native `LateInteractionField` kernel was ~34× faster in a Lucene microbenchmark (k-NN RFC #3439).
+
 ## OpenSearch vs Elasticsearch for Late Interaction
 
 | | [[OpenSearch]] (3.3+) | [[Elasticsearch]] (8.18+) |
@@ -100,3 +105,5 @@ Both converge on the same architecture; Elastic is further along on native multi
 ## Source
 - [Boost search relevance with late interaction models — OpenSearch blog](https://opensearch.org/blog/boost-search-relevance-with-late-interaction-models/) (Dec 2025; Mingshi Liu, Vigya Sharma, Navneet Verma, Brian Flores)
 - [k-NN issue #2934 — Lucene-based rescoring with late interaction](https://github.com/opensearch-project/k-NN/issues/2934)
+
+- [[Scaling Late Interaction Retrieval in OpenSearch with MUVERA]] — aws-samples MUVERA plugin, client-side FDE path, and OpenSearchCon benchmarks

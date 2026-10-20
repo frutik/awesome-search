@@ -52,6 +52,8 @@ Key capabilities:
 - **FAISS** — library (not a service); no filtering, no persistence
 - **[[qdrant-es-gateway]]** — third-party Elasticsearch-compatible REST front end that uses Qdrant as a lexical engine: server-side BM25 sparse vectors, payload filters and facets; its documented surface has no kNN or dense-vector query
 
+- [[FastEmbed]] — Qdrant's embedding library; computes MUVERA encodings client-side
+
 ## Related Concepts
 - [[HNSW]] — the ANN index Qdrant uses
 - [[Vector Quantization]] — compression family
@@ -70,6 +72,8 @@ Key capabilities:
 - [[Choosing a Vector Database for ANN Search at Reddit]] — head-to-head vs. Milvus at 340M vectors; Qdrant showed better raw latency at RF=1 but lost on scaling and organizational fit
 - [[How to Tune Hybrid Search in Qdrant]] — [[Dylan Couzon]]; RRF vs. DBSF and RRF `k`/weight tuning, measured across five datasets
 - [[Hybrid Queries - Qdrant]] — RRF and DBSF fusion query reference
+
+- [[MUVERA in Qdrant - Multi-Vector Search Course]] — MUVERA prefetch via [[FastEmbed]], MaxSim rerank
 
 ## People
 - [[Ivan Pleshkov]] — TurboQuant implementation

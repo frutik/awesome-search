@@ -27,7 +27,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Dimensionality Reduction]] · [[PCA]] · [[UMAP]] · [[t-SNE]]
 
 ### Late Interaction & Multi-Vector
-[[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]]
+[[Late Interaction]] · [[ColBERT]] · [[ColPali]] · [[MUVERA]] · [[PLAID]]
 
 ### Reranking & Cross-Encoders
 [[Reranking]] · [[Asymmetric Re-ranking]] · [[Bag of Decisions]] · [[Calibrated Relevance Probability]] · [[Cross-Encoder]] · [[MonoT5]] · [[RankGPT]] · [[RankLLaMA]] · [[Knowledge Distillation]] · [[Relational Transformer]]
@@ -89,7 +89,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 ## Tools
 
 ### Search & Vector Engines
-[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Manticore Search]] · [[FAISS]] · [[autofaiss]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[qdrant-es-gateway]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]]
+[[Elasticsearch]] · [[OpenSearch]] · [[Solr]] · [[Manticore Search]] · [[FAISS]] · [[autofaiss]] · [[Milvus Vector DB]] · [[Pinecone Vector DB]] · [[Qdrant Vector DB]] · [[qdrant-es-gateway]] · [[Weaviate Vector DB]] · [[turbopuffer Search DB]] · [[PostgreSQL]] · [[ParadeDB]] · [[VectorChord]] · [[opensearch-muvera-plugin]]
 
 ### PostgreSQL Extensions
 [[pgvector]] · [[pgvectorscale]] · [[pg_textsearch]] · [[pg_trgm]] · [[psql_bm25s]]
@@ -110,12 +110,12 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
 
 ### ML & Model Serving
-[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[Voyage rerank-3]] · [[CLEPR]]
+[[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[Voyage rerank-3]] · [[CLEPR]] · [[FastEmbed]]
 
 ---
 
 ## Companies
-[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Google]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -181,13 +181,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
-**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jason Lee]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
-**K** — [[Karthik Ramasamy]] · [[Kemal Erdem]]
+**K** — [[Karthik Ramasamy]] · [[Kemal Erdem]] · [[Keyur Ramoliya]]
 
-**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Dietz]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
+**L** — [[Lakhan Bukkawar]] · [[Lakshmi Devi Prakash]] · [[Laura Dietz]] · [[Laura Ham]] · [[Laurynas Jasiukėnas]] · [[Laurens van der Maaten]] · [[Laxman Dhulipala]] · [[Leo Schuster]] · [[Leonie Monigatti]] · [[Lester Solbakken]] · [[Li Zhang]] · [[Luca Arnaboldi]] · [[Luke Vilnis]]
 
-**M** — [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Mateusz Sidor]] · [[Max Irwin]] · [[Maxime Vono]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
+**M** — [[Majid Hadian]] · [[Marianne Haugvaldstad]] · [[Maryna Kryvko]] · [[Matei Zaharia]] · [[Mateusz Sidor]] · [[Max Irwin]] · [[Maxime Vono]] · [[Michael Hannecke]] · [[Michael Ryaboy]] · [[Mihajlo Grbovic]] · [[Mohamed Arbi Nsibi]]
 
 **N** — [[Naghmeh Farzi]] · [[Namratesh Shrivastav]] · [[Nathan VanBenschoten]] · [[Neal Lathia]] · [[Negar Arabzadeh]] · [[Nick Zadrozny]] · [[Nicolò Rinaldi]] · [[Nikhil Dandekar]]
 
@@ -197,7 +197,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **Q** — [[Qiang Huang]] · [[Quynh Nguyen]]
 
-**R** — [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Romain Beaumont]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
+**R** — [[Rajesh Jayaram]] · [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Esposito]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Romain Beaumont]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
 **S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
@@ -205,7 +205,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **U** — [[Udi Manber]]
 
-**V** — [[Venkat Ram Rao]] · [[Victor Paltz]] · [[Vsevolod Goloviznin]]
+**V** — [[Vahab Mirrokni]] · [[Venkat Ram Rao]] · [[Victor Paltz]] · [[Vsevolod Goloviznin]]
 
 **W** — [[Walter Underwood]] · [[Wenqi Glantz]] · [[Wolf Garbe]] · [[Daniel Wrigley]]
 

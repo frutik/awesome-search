@@ -51,6 +51,8 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 
 - [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Andrei Cristea]] & [[Chadha Sridi]]; [[Jev]] for reranking, Jev-scored [[MMR]], tiered category filter/boost on payloads, and topic-boundary chunking on [[QASPER]]
 
+- [[MUVERA in Qdrant - Multi-Vector Search Course]]
+
 ## Videos
 - [[Evgeniya Sukhodolskaya - Fine-Tuning Sparse Neural Retrievers for E-Commerce]] — [[MICES]] 2026
 - [[Evgeniya Sukhodolskaya - Relevance Feedback Inside the Search Engine]] — [[Berlin Buzzwords]] 2026
@@ -60,3 +62,5 @@ Open-source vector database and similarity search engine. Specializes in high-pe
 - [[Qdrant Vector DB]]
 - [[qdrant-sparse-finetune]] — open-source SPLADE fine-tuning framework
 - [[qdrant-relevance-feedback]] — fits the relevance feedback scoring parameters
+
+- [[FastEmbed]] — embedding library, including the MUVERA postprocessor

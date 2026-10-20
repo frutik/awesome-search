@@ -42,3 +42,5 @@ For teams, the transferable idea is the *stratification itself*: when building y
 - [[BEIR]] — the heterogeneous zero-shot counterpart
 - [[MS MARCO]] — the head-heavy distribution LoTTE reacts against
 - [[Query Sampling]] — the same stratification logic applied to your own queries
+
+- [[More Efficient Multi-Vector Embeddings with MUVERA]] — `lotte-lifestyle` (~119k docs) as the benchmark for Weaviate's [[MUVERA]] memory/import/recall trade-off
