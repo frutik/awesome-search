@@ -184,6 +184,12 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "People/Douwe Kiela.md",
+    "People/Thien Hang Nguyen.md",
+    "People/Sheshansh Agrawal.md",
+    "Companies/Contextual AI.md",
+    "Concepts/BlitzRank.md",
+    "Articles/BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs.md",
     "People/Keyur Ramoliya.md",
     "People/Roberto Esposito.md",
     "People/Vahab Mirrokni.md",
@@ -204,12 +210,6 @@
     "History/2026.43.md",
     "People/Walter Underwood.md",
     "Articles/Click Residuals - A Clever Way to Find Underperforming Queries.md",
-    "Concepts/Hyperparameter Tuning for Embedding Fine-Tuning.md",
-    "Concepts/Embedding Loss Functions.md",
-    "Concepts/Dataset Types for Embedding Fine-Tuning.md",
-    "Concepts/Domain-Specific Semantic Gaps.md",
-    "Tools/sqlite-sparse.md",
-    "Concepts/Catastrophic Forgetting.md",
     "Без назви"
   ]
 }

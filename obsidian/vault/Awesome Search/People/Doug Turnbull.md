@@ -78,3 +78,5 @@ something is a 3/5 or a 4/5. LLMs had made that feasible but slow; a model tuned
 decisions is what makes it compelling. See [[Reception of Jev]].
 
 He then used it as a reranker in [[Bag of Decisions Reranker]] (2026-10-08). An LLM writes a per-query rubric of yes/no questions, Jev answers each as a probability, and the sum is the rerank score ([[Bag of Decisions]]). It beat both [[BM25]] and a single-question Jev reranker on [[WANDS Dataset|WANDS]] and [[Amazon ESCI Dataset|ESCI]] mean NDCG. His "filter only when very sure, otherwise boost" rule for query classification is the rule [[Qdrant]] followed in [[Jevjitsu - How We Tried Generalized Classifiers on Everything]].
+
+On 2026-10-22 he promoted [[BlitzRank]] ([[Contextual AI]]) on LinkedIn as "the sweet spot of LLM Judge quality / cost in search". He presented it as a cheaper route to pairwise judging, since one listwise call yields many pairwise preferences. The AI-Powered Search cohort lists a guest lecture on "Evals with Blitzrank" for Nov 11. The paper itself benchmarks BlitzRank only as a reranker; see [[BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs]].

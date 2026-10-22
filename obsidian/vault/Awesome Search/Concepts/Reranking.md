@@ -52,6 +52,8 @@ Use a large language model ([[LLM as Judge]]) to score or listwise-rank candidat
 - Pointwise: "Is this document relevant to the query? Yes/No"
 - Listwise: "Rank these 10 documents by relevance"
 
+The cost of LLM reranking is largely a scheduling problem. [[BlitzRank]] reads each listwise answer as all its pairwise preferences and infers further pairs by transitivity. Averaged over 14 TREC DL/BEIR sets and two LLMs (GPT-4.1, Gemini-3-Flash), that brought it within 0.1 nDCG@10 of a pairwise LLM reranker at about one-eighth of the tokens ([[BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs]]).
+
 ### ColBERT Late Interaction
 [[ColBERT]] / [[Late Interaction]] sits between bi-encoder speed and cross-encoder quality — efficient enough for first-stage in some setups, but also used as a reranker.
 

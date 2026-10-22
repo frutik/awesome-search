@@ -85,6 +85,8 @@ See [[Classic ML to Cope with Dumb LLM Judges]] for the full experiment.
 - [[Decision Tree]] — classical ML used to ensemble pairwise signals
 - [[Precision-Recall Tradeoff]] — fundamental tension in the Neither/force choice
 
+- [[BlitzRank]] — gets pairwise preferences in bulk: one listwise call over k items yields k(k−1)/2 pairs, and transitivity infers more; tested as a reranker, not yet as an evaluation-label generator
+
 ## Articles
 
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; mentions pairwise as an LTR training paradigm (SVMRank)

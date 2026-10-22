@@ -13,9 +13,17 @@ tags:
   - ranking
   - neural-ir
   - frontier
-related_concepts: '["Reranking", "Cross-Encoder", "RankGPT", "RankLLaMA",
-  "MonoT5", "LLM as Judge", "Late Interaction", "Listwise Relevance Evaluation",
-  "Calibrated Relevance Probability"]'
+related_concepts:
+  - Reranking
+  - Cross-Encoder
+  - RankGPT
+  - RankLLaMA
+  - MonoT5
+  - LLM as Judge
+  - Late Interaction
+  - Listwise Relevance Evaluation
+  - Calibrated Relevance Probability
+  - BlitzRank
 related_topics:
   - Frontier of Search 2026
   - Conversational and Agentic Search
@@ -55,6 +63,7 @@ Rerankers only need to score ~100–1000 surviving candidates, so they can affor
 - **[[MonoT5]]** — frames relevance as a seq2seq task: score a (query, document) pair by the probability of generating a "true" vs "false" token. (DuoT5 is the pairwise variant.)
 - **[[RankLLaMA]]** — a decoder LLM (RepLLaMA/RankLLaMA line, Tevatron) fine-tuned for **pointwise** relevance scoring.
 - **[[RankGPT]]** — **listwise** reranking by prompting an instruction-tuned LLM to emit a permutation of the candidate list directly, using a sliding window to handle lists longer than the context window. No fine-tuning required.
+- **[[BlitzRank]]** ([[Contextual AI]]) — keeps RankGPT's listwise prompt but replaces the sliding window with a **tournament graph**. Each window ordering is stored as pairwise preferences, transitivity fills in pairs never asked about, and it stops once the top 10 are provably settled. Averaged over 14 TREC DL/BEIR sets and two LLMs (GPT-4.1, Gemini-3-Flash), it scored 56.9 nDCG@10 using 42k tokens per query, against 57.0 and 324k for the Pairwise baseline. It treats every judgment as deterministic and never re-checks one, and the paper leaves noisy-judge handling open. See [[BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs]].
 - **Reasoning rerankers / [[LLM as Judge|LLM-as-judge]]** — let the model reason (chain-of-thought) and optionally emit explanations before scoring. See [[LLM-as-a-Judge When to Use Reasoning CoT and Explanations]] for when CoT actually helps vs. adds cost.
 
 Pointwise vs. pairwise vs. listwise is the same axis explored in classic LTR (see [[Pointwise vs Pairwise vs Listwise Learning to Rank]]) — LLM rerankers re-instantiate it at the prompt level.

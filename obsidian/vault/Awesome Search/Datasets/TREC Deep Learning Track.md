@@ -68,3 +68,5 @@ This is the property that makes the track useful for studying automatic judges: 
 
 - [[Benchmarking LLM-based Relevance Judgment Methods]] — uses DL-19/20/21 to separate label agreement from system-ranking agreement
 - [[Criteria-Based LLM Relevance Judgments]] — uses DL-19/20 plus LLMJudge
+
+- [[BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs]] — DL19–DL23 and DL-Hard among the 14 sets used to benchmark [[BlitzRank]]

@@ -211,24 +211,7 @@ escalation, rather than a sampled subset extrapolated to the whole.
 
 ## Related Concepts
 
-- [[Pointwise Relevance Evaluation]] — score each item independently; best agreement with human *system rankings*
-- [[Pairwise Relevance Evaluation]] — LHS/RHS comparison; best agreement with human *labels*
-- [[Listwise Relevance Evaluation]] — rank full candidate list; most holistic
-- [[Judgment Lists]] — what LLM judges help create
-- [[Search Evaluation]] — where LLM judgments are used
-- [[NDCG]] — metric computed from LLM-generated grades
-- [[Staged Judging]] — the cost-driven architecture for judging at catalogue scale
-- [[Knowledge Distillation]] — turning expensive judgments into a servable model
-- [[RAG]] — LLM judge also used for RAG faithfulness/relevancy evaluation
-- [[Agentic Search]] — LLM verification step is a form of LLM judgment
-- [[Semantic Relevance]] — the intent-based signal LLM judges are used to scale, alongside engagement-based relevance
-- [[Levels of Judge Agreement]] — label, score, ranking and decision agreement, and why they decouple
-- [[Inter-Annotator Agreement]] — the label-level statistics and the human-human baseline the bar should be set against
-- [[Prompt Sensitivity]] — the prompt as part of the measuring instrument
-- [[Adversarial Relevance Judgment]] — gaming the judge, and the marketplace threat model
-- [[Kendall Rank Correlation]] — the leaderboard-agreement statistic and the tau >= 0.9 convention
-- [[Statistical Significance in Search Evaluation]] — where false positives appear on close comparisons
-- [[Position Bias]] — the first-option preference in pairwise judging
+- [[BlitzRank]] — an LLM-as-oracle reranker that schedules listwise calls; averaged over 14 TREC DL/BEIR sets and two LLMs, it matched the Pairwise baseline's nDCG@10 with ~8× fewer tokens. Promoted for evaluation use, though its paper assumes a noise-free judge and tests only reranking
 
 ## Related Datasets
 

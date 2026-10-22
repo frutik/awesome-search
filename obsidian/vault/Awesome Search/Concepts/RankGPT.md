@@ -43,12 +43,7 @@ This mirrors the classic [[Learning to Rank]] axis (see [[Pointwise vs Pairwise 
 
 ## Related Concepts
 
-- [[Reranking]] — the stage RankGPT implements
-- [[RankLLaMA]] — fine-tuned pointwise LLM reranker (contrast: RankGPT is prompt-based, listwise)
-- [[MonoT5]] — T5 pointwise reranker
-- [[LLM as Judge]] — same models scoring relevance
-- [[Listwise Relevance Evaluation]] — the evaluation style RankGPT embodies
-- [[Cross-Encoder]] — the classic reranker LLM rankers extend
+- [[BlitzRank]] — reuses RankGPT's listwise prompt as its oracle, replacing the sliding window with a tournament graph that reads each answer as all its pairwise preferences; ~42k vs ~54k tokens per query at similar nDCG@10 (averaged over 14 TREC DL/BEIR sets, GPT-4.1 and Gemini-3-Flash)
 
 ## Topics
 

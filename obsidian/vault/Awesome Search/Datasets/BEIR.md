@@ -96,6 +96,8 @@ BEIR is the shared yardstick across the retrieval-model notes:
 
 - [[RouterRetriever - Routing over a Mixture of Expert Embedding Models]] — routing each query to a domain-expert LoRA encoder: +2.1 nDCG@10 over an MS MARCO-trained model, +3.2 over multi-task training
 
+- [[BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs]] — eight BEIR sets (TREC-COVID, NFCorpus, Signal-1M, News, Robust04, Touché, DBPedia, SciFact) used to benchmark [[BlitzRank]] LLM reranking
+
 ## Related Concepts
 
 - [[NDCG]] · [[NDCG Variants]] — the reported metric and its incompatible conventions

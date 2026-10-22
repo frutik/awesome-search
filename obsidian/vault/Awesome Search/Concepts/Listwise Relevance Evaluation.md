@@ -79,6 +79,8 @@ In [[Learning to Rank]], listwise loss functions (e.g. LambdaMART) optimize rank
 - [[NDCG]] — metric that listwise evaluation directly approximates
 - [[Reranking]] — production stage where listwise evaluation is most applicable
 
+- [[BlitzRank]] — treats each listwise answer as a set of pairwise preferences; found k=10 windows more reliable than k=20 because larger windows produced more contradictory orderings
+
 ## Articles
 
 - [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; LambdaMART as the canonical listwise LTR algorithm
