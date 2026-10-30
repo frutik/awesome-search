@@ -3,7 +3,7 @@ type: topic
 tags: [topic, consulting, search-business, search-strategy]
 related_concepts: [Search Evaluation, Relevance Program Setup, Search Quality Assurance]
 related_topics: [Relevance Program Setup, Managing a Search Team, Hiring for Search]
-companies: [OpenSource Connections, Sease, The Search Juggler]
+companies: [OpenSource Connections, Sease, The Search Juggler, InferSense Labs]
 people: [Charlie Hull, Doug Turnbull, Giovanni Fernandez-Kincade, Nicolò Rinaldi]
 created: 2026-05-17
 ---
@@ -22,6 +22,7 @@ Search consultancy as a practice — who does it, what they offer, and how to ru
 | [[Sease]] | Apache Solr, Elasticsearch, neural IR (LTR, ColBERT, reranking) | [[Nicolò Rinaldi]] |
 | [[The Search Juggler]] | Vendor-neutral strategy & audit, market positioning, events | [[Charlie Hull]] |
 | BigData Boutique | Elasticsearch consulting | — |
+| [[InferSense Labs]] | Search relevance audits, query understanding, hybrid retrieval and RAG retrieval, search evaluation | Monadhika Sharma |
 
 ---
 
