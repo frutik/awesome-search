@@ -72,6 +72,8 @@ The simplest single-vector stand-in for a multi-vector document is the mean of i
 - [[Token Pooling]] — alternative multi-vector compression (clusters vectors rather than collapsing to one)
 - [[Bi-Encoder]] — the single-vector baseline MUVERA imitates for stage 1
 
+- [[Fast but Not Late Interaction]] — a different way to shrink token-level passage representations, at the reranking stage with a learned decoder
+
 ## Related Topics
 
 - [[Late Interaction in Qdrant]] — where MUVERA is used as the prefetch stage

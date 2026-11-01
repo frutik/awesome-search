@@ -124,6 +124,8 @@ each document. Both levers reduce work without touching the model.
 - [[Interaction Paradigms]] — the no/late/early spectrum; cross-encoder is the early-interaction endpoint
 - [[Calibrated Relevance Probability]] — what a cross-encoder logit is not, and the operations that need it
 
+- [[Fast but Not Late Interaction]] — encoder-decoder reranker that avoids re-encoding the passage per query by caching compressed passage states
+
 ## Articles
 
 - [[Bi-encoder vs Cross-encoder When to Use Which One]]

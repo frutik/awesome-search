@@ -72,6 +72,7 @@ Home goods search has distinct challenges compared to general e-commerce:
 
 - [[Bag of Decisions Reranker]] — [[Doug Turnbull]]; mean NDCG 0.5407 (BM25) → 0.574 (Jev reranker) → 0.610 (per-query rubric)
 - [[Jevjitsu - How We Tried Generalized Classifiers on Everything]] — [[Qdrant]]; 240 held-out queries measuring relevance against near-duplicates and product-class variety
+- [[Search golden sets are anything but]] — average NDCG-m@10 of about 0.77 here versus closer to 0.93 for ESCI, suggesting more queries with few relevant results
 
 ## Source
 

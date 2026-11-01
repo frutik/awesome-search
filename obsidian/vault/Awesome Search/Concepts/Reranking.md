@@ -111,6 +111,8 @@ In [[RAG]] pipelines, reranking is critical: the LLM context window is limited, 
 - [[hev-rerank]] — the minimal open-source implementation of that approach
 
 - [[Outcome-Based Relevance]] — re-ranking on commerce signals such as recent sales share, after semantic retrieval ([[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic Recommendation Systems]])
+
+- [[Fast but Not Late Interaction]] — cheaper reranking through offline, compressed passage encoding ([[Lychee-Reranker]])
 ## When Reranking Becomes a System Boundary
 
 From [[When Reranking Becomes a System Boundary]] ([[Ravindra Harige]]):

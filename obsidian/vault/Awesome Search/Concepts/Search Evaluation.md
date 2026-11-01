@@ -112,6 +112,8 @@ Tools that operationalize this offline loop (query set → judgments → experim
 - [[Click Signals]] — online evaluation via behavior
 - [[Diversity Metrics]] — result set quality beyond relevance
 
+- [[NDCG-m]] · [[NDCG-f]] · [[Rank-Biased Overlap]] — narrower offline checks proposed in [[Search golden sets are anything but]]
+
 ## People
 
 - [[Daniel Tunkelang]] — "Evaluating Search" series; search evaluation philosophy

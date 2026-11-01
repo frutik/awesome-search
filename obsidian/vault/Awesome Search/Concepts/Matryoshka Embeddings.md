@@ -104,6 +104,8 @@ embeddings = model.encode(texts)
 - [[Embedding Fine-tuning]] — MatryoshkaLoss is a fine-tuning technique
 - [[Vector Search]] — adaptive retrieval optimizes ANN search using MRL
 
+- [[Fast but Not Late Interaction]] — applies Matryoshka-style pooling to the token axis of cached passage states (1x–128x) in a reranker
+
 ## Articles
 
 - [[Matryoshka embeddings - faster OpenAI vector search using Adaptive Retrieval]] — Supabase

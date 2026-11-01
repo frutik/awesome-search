@@ -25,6 +25,7 @@ Search engineer at [[Bonsai]], focused on applying neural/BERT-based approaches 
 
 - [[How to Really Do Autocomplete]] — [[Bonsai]]; Part 1, generating suggestion vocabulary from documents
 - [[How to Really Scale Autocomplete]] — [[Bonsai]]; Part 2, scaling autocomplete to 6M docs at sub-50ms
+- [[Search golden sets are anything but]] — [[NDCG-m]] is named in honor of Irwin, who argued for its definition
 
 ## Key Concepts
 - [[Dense Vector Retrieval]]

@@ -109,6 +109,8 @@ These datasets are useful for: initial model benchmarking, transfer learning bas
 
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's 380K+ multilingual judgment dataset, built with 30 experts and dual-blind annotation plus arbitration
 
+- [[Search golden sets are anything but]] — [[Doug Turnbull]]; why golden sets of judgments often fail to predict user experience (poor ideals, missing labels, sampling bias)
+
 ## People
 
 - [[Daniel Tunkelang]] — "Evaluating Search: Using Human Judgments"

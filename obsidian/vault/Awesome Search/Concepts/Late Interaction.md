@@ -72,6 +72,8 @@ Since late interaction stores many vectors per document, storage is a concern:
 
 - [[PLAID]] — ColBERTv2's multi-vector retrieval engine (single-vector heuristic for candidates), MUVERA's baseline
 
+- [[Fast but Not Late Interaction]] — a reranker design that replaces token-level MaxSim with a learned decoder over compressed, cached passage states
+
 ## Articles
 
 - [[What is ColBERT and Late Interaction and Why They Matter in Search]]

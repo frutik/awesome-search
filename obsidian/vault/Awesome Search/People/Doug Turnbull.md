@@ -39,6 +39,8 @@ Co-founder of OpenSource Connections (OSC); currently independent (previously [[
 
 - [[Updating a Vector Database Is No Simple Thing]] — tombstoning, segmented graphs, and vendor-by-vendor comparison of how HNSW indexes handle updates/deletes
 
+- [[Search golden sets are anything but]] — why offline golden-set evaluation misleads, and narrower alternatives ([[NDCG-m]], [[NDCG-f]], [[Rank-Biased Overlap]])
+
 ## Talks & Videos
 - [[Haystack US 2022 - Bayesian Optimization of Relevance at Shopify]] — with [[Andy Toulis]]; [[Bayesian Optimization]] as a lightweight halfway point to [[Learning to Rank]], with a concrete Shopify BM25 `b`/`k1` retuning case study
 

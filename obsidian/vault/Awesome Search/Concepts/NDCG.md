@@ -121,9 +121,14 @@ Standard NDCG assumes irrelevant documents are neutral (grade 0). In LLM/RAG pip
 **Related videos:**
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 the "perfect ranking" behind NDCG encodes a business goal: weighting purchases over clicks (or sorting by margin) changes what the metric optimizes
 
+- [[NDCG-m]] — normalises against a fixed all-max-grade ideal so corpus coverage shows up in the score
+- [[NDCG-f]] — computes NDCG over labeled results only, as a regression check when labels are incomplete
+
 ## Articles
 
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro correlates LLM relevance labels with result position (position-1 mismatches critical, position-20 mismatches minor) to compute NDCG
+
+- [[Search golden sets are anything but]] — [[Doug Turnbull]]; NDCG can hit 1 when a corpus has few relevant results, and unlabeled results skew it, motivating NDCG-m and NDCG-f
 
 ## People
 
