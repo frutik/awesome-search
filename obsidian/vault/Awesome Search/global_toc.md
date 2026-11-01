@@ -82,7 +82,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Books]] · [[Courses]]
 
 ### Strategy & Meta
-[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]] · [[Reception of Jev]]
+[[Frontier of Search]] · [[Frontier of Search 2025]] · [[Frontier of Search 2026]] · [[Frontier of Search 2026 Part 2]] · [[Economics of Search]] · [[Search Problem Archetypes]] · [[Fun and Philosophy]] · [[Reception of Jev]]
 
 ---
 

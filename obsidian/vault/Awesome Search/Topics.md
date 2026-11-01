@@ -79,6 +79,7 @@ Practice-oriented guides — "how to *do* something in search." The fastest on-r
 - [[Frontier of Search]]
 - [[Frontier of Search 2025]]
 - [[Frontier of Search 2026]]
+- [[Frontier of Search 2026 Part 2]]
 - [[Interaction Paradigms]]
 
 ## Lighter reading

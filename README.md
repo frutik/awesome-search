@@ -101,7 +101,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [Books](https://frutik.github.io/awesome-search/Topics/Books) · [Courses](https://frutik.github.io/awesome-search/Topics/Courses)
 
 ### Strategy & Meta
-[Frontier of Search](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search) · [Frontier of Search 2025](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2025) · [Frontier of Search 2026](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026) · [Economics of Search](https://frutik.github.io/awesome-search/Topics/Economics-of-Search) · [Search Problem Archetypes](https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes) · [Fun and Philosophy](https://frutik.github.io/awesome-search/Topics/Fun-and-Philosophy) · [Reception of Jev](https://frutik.github.io/awesome-search/Topics/Reception-of-Jev)
+[Frontier of Search](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search) · [Frontier of Search 2025](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2025) · [Frontier of Search 2026](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026) · [Frontier of Search 2026 Part 2](https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026-Part-2) · [Economics of Search](https://frutik.github.io/awesome-search/Topics/Economics-of-Search) · [Search Problem Archetypes](https://frutik.github.io/awesome-search/Topics/Search-Problem-Archetypes) · [Fun and Philosophy](https://frutik.github.io/awesome-search/Topics/Fun-and-Philosophy) · [Reception of Jev](https://frutik.github.io/awesome-search/Topics/Reception-of-Jev)
 
 ---
 

@@ -1,18 +1,56 @@
 ---
 type: topic
-title: "Frontier of Search 2026"
-aliases: ["Agentic Search Frontier", "The New User of Search"]
-tags: [topic, agentic-search, frontier, llm, retrieval, reranking, commoditization, neural-ir]
-related_concepts: [Agentic Search, Direct Corpus Interaction, Purpose-Built Agentic Search Models, Agentic Query Workload, Reranking, Block-Max WAND, Late Interaction, ColPali, BBQ]
-related_topics: [Frontier of Search, Frontier of Search 2025, Late Interaction in Elasticsearch, Conversational and Agentic Search, Reasoning Reranking, RL-Trained Search Agents, Elasticsearch vs OpenSearch, Search Platforms]
+title: Frontier of Search 2026
+aliases:
+  - Agentic Search Frontier
+  - The New User of Search
+tags:
+  - topic
+  - agentic-search
+  - frontier
+  - llm
+  - retrieval
+  - reranking
+  - commoditization
+  - neural-ir
+related_concepts:
+  - Agentic Search
+  - Direct Corpus Interaction
+  - Purpose-Built Agentic Search Models
+  - Agentic Query Workload
+  - Reranking
+  - Block-Max WAND
+  - Late Interaction
+  - ColPali
+  - BBQ
+related_topics:
+  - Frontier of Search
+  - Frontier of Search 2025
+  - Late Interaction in Elasticsearch
+  - Conversational and Agentic Search
+  - Reasoning Reranking
+  - RL-Trained Search Agents
+  - Elasticsearch vs OpenSearch
+  - Search Platforms
+  - Frontier of Search 2026 Part 2
 articles:
   - "[[Agentic Search Models with OpenSearch and Elasticsearch]]"
   - "[[The Scaling Dimensions of Keyword Search]]"
   - "[[This Is What Agentic Retrieval Looks Like]]"
-  - "[[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via Direct Corpus Interaction]]"
+  - "[[Beyond Semantic Similarity - Rethinking Retrieval for Agentic Search via
+    Direct Corpus Interaction]]"
   - "[[Agentic search models]]"
-companies: [Hornet, SID.ai, Bonsai, Elastic, Weaviate, Vespa]
-people: [Jo Kristian Bergum, Skip Everling, Doug Turnbull]
+companies:
+  - Hornet
+  - SID.ai
+  - Bonsai
+  - Elastic
+  - Weaviate
+  - Vespa
+people:
+  - Jo Kristian Bergum
+  - Skip Everling
+  - Doug Turnbull
 created: 2026-06-18
 ---
 
@@ -145,6 +183,7 @@ Two more live edges feed directly into this shift and have their own topic pages
 - [[Late Interaction in Elasticsearch]] — the clearest case of the frontier becoming a built-in feature
 - [[RL-Trained Search Agents]] — training the search policy with RL (Search-R1)
 - [[Reasoning Reranking]] — LLM / generative / reasoning rerankers
+- [[Frontier of Search 2026 Part 2]]: the second half of the year (the judge, decision models, cheaper reranking)
 
 ## Related Articles
 - [[Agentic Search Models with OpenSearch and Elasticsearch]]

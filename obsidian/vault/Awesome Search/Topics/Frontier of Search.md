@@ -1,9 +1,18 @@
 ---
 type: topic
-title: "Frontier of Search"
-aliases: ["Search Frontier", "Frontier of Search Index"]
-tags: [topic, frontier, index, moc]
-related_topics: [Frontier of Search 2025, Frontier of Search 2026]
+title: Frontier of Search
+aliases:
+  - Search Frontier
+  - Frontier of Search Index
+tags:
+  - topic
+  - frontier
+  - index
+  - moc
+related_topics:
+  - Frontier of Search 2025
+  - Frontier of Search 2026
+  - Frontier of Search 2026 Part 2
 created: 2026-06-19
 ---
 
@@ -15,6 +24,7 @@ A year-by-year index of what counts as the leading edge of search and retrieval.
 
 - **[[Frontier of Search 2025]]** — late interaction goes multimodal & production-scale ([[ColPali]]), embeddings become a commodity, vector quantization/ANN engineering, the keyword-efficiency renaissance ([[Block-Max WAND]]), and the first RL/agentic seeds ([[Search-R1]]).
 - **[[Frontier of Search 2026]]** — *two shifts at once*: (1) **agents become the user** of search — [[Agentic Query Workload|agentic query workload]], [[Purpose-Built Agentic Search Models|purpose-built agentic models]], [[Direct Corpus Interaction]], [[RL-Trained Search Agents]], [[Reasoning Reranking]]; and (2) **the frontier becomes commodity** — mainstream engines absorb yesterday's research as switch-on features ([[Late Interaction in Elasticsearch|late interaction/ColPali in Elasticsearch]], [[BBQ]], learned sparse, built-in rerankers).
+- **[[Frontier of Search 2026 Part 2]]**: the second half of 2026. **The judge moves to the centre** ([[Staged Judging]], [[Levels of Judge Agreement]], [[Judge Calibration]]). **Decision models** emit calibrated probabilities ([[Jev]], [[Calibrated Relevance Probability]]). **Reranking gets cheaper** ([[BlitzRank]], [[Fast but Not Late Interaction]]). Commoditization continues ([[MUVERA]], [[TurboQuant]]), agents gain memory and routing ([[Agentic Memory]], [[Query Routing]]), and doubt grows about reported numbers ([[Benchmark Contamination]]).
 
 ## The Through-Line
 

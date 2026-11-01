@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Datasets/Home Depot Product Search Relevance.md",
+                "file": "Topics/Frontier of Search 2026 Part 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home Depot Product Search Relevance"
+              "title": "Frontier of Search 2026 Part 2"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Datasets/Home Depot Product Search Relevance.md",
+                "file": "Topics/Frontier of Search 2026 Part 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,6 +189,10 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "Concepts/Levels of Judge Agreement.md",
+    "Topics/Frontier of Search 2026 Part 2.md",
+    "Topics/Frontier of Search 2026.md",
+    "Datasets/Home Depot Product Search Relevance.md",
     "History/2026.44.md",
     "History/2026.43.md",
     "Concepts/Rank-Biased Overlap.md",
@@ -211,10 +215,6 @@
     "People/Rajesh Jayaram.md",
     "People/Majid Hadian.md",
     "People/Laxman Dhulipala.md",
-    "Companies/Google.md",
-    "Tools/opensearch-muvera-plugin.md",
-    "Tools/FastEmbed.md",
-    "Concepts/PLAID.md",
     "Без назви"
   ]
 }

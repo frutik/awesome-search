@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>2026, week 44 (Oct 26–Nov 1)</title>
+<style>
+  body { font-family: Georgia, serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.5; color: #1a1a1a; }
+  h1 { font-size: 1.4rem; margin-bottom: 0; }
+  .dateline { color: #555; margin-top: 0.25rem; }
+  article { margin: 2rem 0; }
+  h2 { font-size: 1.15rem; }
+  a { color: #0b5fa5; }
+  hr { border: none; border-top: 1px solid #ddd; margin: 2rem 0; }
+</style>
+</head>
+<body>
+<h1>Awesome Search</h1>
+<p class="dateline">Oct 26 – Nov 1, 2026</p>
+
+<article>
+  <h2>The search frontier, second half of 2026</h2>
+  <p>In the second half of 2026, the leading edge of search is less about finding candidates than about judging them. <a href="https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026-Part-2">Frontier of Search 2026 Part 2</a> picks up where <a href="https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026">Frontier of Search 2026</a> left off in June and sets out three new fronts. First, the <a href="https://frutik.github.io/awesome-search/Concepts/LLM-as-Judge">LLM judge</a>, made cheap through <a href="https://frutik.github.io/awesome-search/Concepts/Staged-Judging">cascades</a> and examined through <a href="https://frutik.github.io/awesome-search/Concepts/Levels-of-Judge-Agreement">agreement levels</a> and <a href="https://frutik.github.io/awesome-search/Concepts/Judge-Calibration">calibration</a>. Second, decision models such as <a href="https://frutik.github.io/awesome-search/Tools/Jev">Jev</a> that return a <a href="https://frutik.github.io/awesome-search/Concepts/Calibrated-Relevance-Probability">calibrated probability</a>. Third, cheaper reranking with <a href="https://frutik.github.io/awesome-search/Concepts/BlitzRank">BlitzRank</a> and <a href="https://frutik.github.io/awesome-search/Concepts/Fast-but-Not-Late-Interaction">Fast but Not Late Interaction</a>. It also follows commoditization (<a href="https://frutik.github.io/awesome-search/Concepts/MUVERA">MUVERA</a>), agent memory and <a href="https://frutik.github.io/awesome-search/Concepts/Query-Routing">routing</a>, and growing doubt about reported figures (<a href="https://frutik.github.io/awesome-search/Concepts/Benchmark-Contamination">Benchmark Contamination</a>). Most figures it cites are vendor- or author-reported.</p>
+  <p><strong>Topics</strong>: <a href="https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026-Part-2">Frontier of Search 2026 Part 2</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Topics/Frontier-of-Search">Frontier of Search</a>, <a href="https://frutik.github.io/awesome-search/Topics/Frontier-of-Search-2026">Frontier of Search 2026</a></p>
+</article>
+<hr>
+<article>
+  <h2>Golden sets and the NDCG that flatters them</h2>
+  <p>A golden set of graded judgments can score a search system at NDCG 1 while users are unhappy, simply because the corpus holds few relevant results for the query. <a href="https://frutik.github.io/awesome-search/People/Doug-Turnbull">Doug Turnbull</a> argues for narrower evals: <a href="https://frutik.github.io/awesome-search/Concepts/NDCG-m">NDCG-m</a>, named for <a href="https://frutik.github.io/awesome-search/People/Max-Irwin">Max Irwin</a>, normalises against a fixed all-max-grade ideal so corpus coverage shows in the score; <a href="https://frutik.github.io/awesome-search/Concepts/NDCG-f">NDCG-f</a> scores labeled results only, as a regression check when labels are incomplete; and <a href="https://frutik.github.io/awesome-search/Concepts/Rank-Biased-Overlap">Rank-Biased Overlap</a> measures how far results moved. The post reports an average NDCG-m@10 of about 0.77 on <a href="https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset">WANDS</a> and closer to 0.93 on <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">ESCI</a>. The first two extend <a href="https://frutik.github.io/awesome-search/Concepts/NDCG">NDCG</a>; the third compares rankings without labels.</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/Search-golden-sets-are-anything-but">Search golden sets are anything but</a></p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/NDCG-m">NDCG-m</a>, <a href="https://frutik.github.io/awesome-search/Concepts/NDCG-f">NDCG-f</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Rank-Biased-Overlap">Rank-Biased Overlap</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/NDCG">NDCG</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Judgment-Lists">Judgment Lists</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Search-Evaluation">Search Evaluation</a>, <a href="https://frutik.github.io/awesome-search/People/Max-Irwin">Max Irwin</a>, <a href="https://frutik.github.io/awesome-search/People/Doug-Turnbull">Doug Turnbull</a>, <a href="https://frutik.github.io/awesome-search/Datasets/WANDS-Dataset">WANDS Dataset</a>, <a href="https://frutik.github.io/awesome-search/Datasets/Amazon-ESCI-Dataset">Amazon ESCI Dataset</a></p>
+</article>
+<hr>
+<article>
+  <h2>Fast but Not Late Interaction: rerankers with cached passages</h2>
+  <p>A <a href="https://frutik.github.io/awesome-search/Concepts/Cross-Encoder">Cross-Encoder</a> re-encodes every passage for every query, while <a href="https://frutik.github.io/awesome-search/Concepts/Late-Interaction">Late Interaction</a> avoids that with a fixed token-level MaxSim comparison. A third design, <a href="https://frutik.github.io/awesome-search/Concepts/Fast-but-Not-Late-Interaction">Fast but Not Late Interaction</a>, encodes passages offline into compressed token states and lets a learned decoder read them alongside the query, with the compression ratio adjustable from 1x to 128x at inference. The concept note places it against cross-encoders, late interaction and <a href="https://frutik.github.io/awesome-search/Concepts/MUVERA">MUVERA</a>, and <a href="https://frutik.github.io/awesome-search/Tools/Lychee-Reranker">Lychee-Reranker</a> covers the open model family built on it. Sourced from the authors&#x27; technical report; its cost figures are analytical estimates rather than measured latency, and on <a href="https://frutik.github.io/awesome-search/Datasets/BEIR">BEIR</a> the largest model trails Qwen3-Reranker-8B (see <a href="https://frutik.github.io/awesome-search/Articles/Qwen3-Embedding-Series">Qwen3 Embedding Series</a>).</p>
+  <p><strong>Articles</strong>: <a href="https://frutik.github.io/awesome-search/Articles/Lychee-Reranker---Fast-but-Not-Late-Interaction-for-Compressed-Document-Reranking">Lychee-Reranker - Fast but Not Late Interaction for Compressed Document Reranking</a> (the arXiv paper)</p>
+  <p><strong>Concepts</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Fast-but-Not-Late-Interaction">Fast but Not Late Interaction</a></p>
+  <p><strong>Tools</strong>: <a href="https://frutik.github.io/awesome-search/Tools/Lychee-Reranker">Lychee-Reranker</a></p>
+  <p><strong>Updated</strong>: <a href="https://frutik.github.io/awesome-search/Concepts/Late-Interaction">Late Interaction</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Cross-Encoder">Cross-Encoder</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Reranking">Reranking</a>, <a href="https://frutik.github.io/awesome-search/Concepts/Matryoshka-Embeddings">Matryoshka Embeddings</a>, <a href="https://frutik.github.io/awesome-search/Concepts/MUVERA">MUVERA</a></p>
+</article>
+
+<hr>
+<p>Best,<br>Andrew</p>
+
+</body>
+</html>
