@@ -71,3 +71,4 @@ For embedding models specifically: LoRA fine-tuning with contrastive loss achiev
 - [[Embedding Fine-tuning]] — domain adaptation of embedding models; LoRA is increasingly the standard approach
 - [[LLM]] — primary target for LoRA in search pipelines
 - [[Catastrophic Forgetting]] — per-domain adapters on a frozen encoder as one answer to it
+- [[Macro and Micro Averaging]] — what the 0.836 macro-F1 in the Qwen3 example measures

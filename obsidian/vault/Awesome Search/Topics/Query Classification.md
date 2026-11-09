@@ -237,5 +237,5 @@ Query understanding is upstream of retrieval, so classifier metrics alone are ne
 - [[Etsy - Search Quality and Query Understanding]] — broad queries where the right answer is diversity, not a single confident label
 - [[Uber Eats - Scaling Search for Food Delivery]] — query annotation feeding implicit filters in a live system
 - [[Synonyms and Vocabulary Management]] — the neighbouring vocabulary problem
-
 - [[Query Routing]] — classification used as control flow; the cheapest-first cascade in [[Query Routing - Direct Queries to the Right Source]] and the router taxonomy in [[Build an Advanced RAG App - Query Routing]]
+- [[Macro and Micro Averaging]] — how multi-class classifiers are scored; macro-F1 vs accuracy

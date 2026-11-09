@@ -119,6 +119,7 @@ Fine-tuning is easy to do and easy to fool yourself about. Training loss falling
 - [[Dataset Types for Embedding Fine-Tuning]] — the six training-data shapes and their minimums
 - [[Embedding Loss Functions]] — MNRL, CoSENT, Triplet, cached MNRL, Matryoshka; which data each needs
 - [[Hyperparameter Tuning for Embedding Fine-Tuning]] — learning rate, batch size, warmup, epochs
+- [[Macro and Micro Averaging]] — reading the macro-F1 reported for fine-tuned classifiers
 
 ## People
 ## Articles

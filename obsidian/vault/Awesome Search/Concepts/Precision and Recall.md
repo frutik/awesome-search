@@ -65,6 +65,8 @@ F1 = 2 × (Precision × Recall) / (Precision + Recall)
 
 F1 treats precision and recall equally. Use when both matter and you want a single number.
 
+For multi-class or multilabel tasks F1 is computed per class and then averaged, and macro, micro and weighted averages can differ a lot. See [[Macro and Micro Averaging]].
+
 ## When to Use Each Metric
 
 | Metric | Best for |
@@ -91,6 +93,7 @@ NDCG is generally preferred for ranked retrieval evaluation.
 - [[Search Evaluation]] — how these feed into evaluation
 - [[Judgment Lists]] — relevance labels needed
 - [[Retrieval Pipeline]] — Recall@1000 critical for first stage
+- [[Macro and Micro Averaging]] — extending F1 to multi-class problems
 
 ## People
 

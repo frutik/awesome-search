@@ -51,3 +51,4 @@ A self-labelled web corpus (LSPC) with merchant-provided category annotations en
 - [[PEFT]] — parameter-efficient fine-tuning family
 - [[Dense Vector Retrieval]]
 - [[Semantic Search]]
+- [[Macro and Micro Averaging]] — macro F1 0.836 vs 87.91% accuracy (= micro F1) on the same classifier

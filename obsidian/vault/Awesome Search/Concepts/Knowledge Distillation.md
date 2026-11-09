@@ -124,6 +124,7 @@ the comparison has to be made. See [[Zero-Shot Retrieval]].
 - [[Staged Judging]] — distilling the evaluator instead of the retriever
 - [[Contrastive Learning]] — the objective distillation replaces or supplements
 - [[Semantic Relevance]] — the signal Etsy's three-tier cascade distills
+- [[Macro and Micro Averaging]] — the macro F1 used to measure quality loss across Etsy's cascade
 
 ## Articles
 

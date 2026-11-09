@@ -172,6 +172,7 @@ A judge, or a jury of judges, produces **qrels**. **Self-consistency** checks th
 - [[Judgment Lists]] · [[ESCI Label Scheme]] · [[Pairwise Relevance Evaluation]]
 - [[Staged Judging]] · [[Knowledge Distillation]] · [[Adversarial Relevance Judgment]] · [[Prompt Sensitivity]]
 - [[Hallucination Detection]] · [[NDCG]]
+- [[Macro and Micro Averaging]] — macro vs micro F1 when scoring a judge against golden labels
 
 ## Related Topics
 

@@ -56,6 +56,7 @@ RAG strategies differ a lot in token cost: on RAGRouter-Bench, relative to an LL
 
 - [[Adaptive Retrieval]] · [[Query Routing]] · [[Query Classification]]
 - [[RAG]] · [[GraphRAG]]
+- [[Macro and Micro Averaging]] — the macro-F1 used to compare routers
 
 ## Related Notes
 

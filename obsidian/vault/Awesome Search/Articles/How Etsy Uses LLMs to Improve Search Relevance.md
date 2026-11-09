@@ -83,6 +83,7 @@ Fully-relevant listing share rose from 58% to 62% between August and October 202
 - [[LLM as Judge]] — the annotator tier, and the domain-shift/cost problems it has to solve before it can scale
 - [[Knowledge Distillation]] — the LLM annotator → teacher → student cascade
 - [[Semantic Relevance]] — the signal this framework adds alongside engagement-based relevance
+- [[Macro and Micro Averaging]] — how the cascade's macro F1 and per-class F1 are computed
 
 ## Related Topics
 

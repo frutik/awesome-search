@@ -110,6 +110,7 @@ The two signals are rarely traded off one-for-one. Each tends to take a distinct
 - [[Judgment Lists]] · [[LLM as Judge]] · [[ESCI Label Scheme]] — the semantic side's evidence
 - [[Position Bias]] — the main distortion in behavioural labels
 - [[Staged Judging]] — behaviour deciding what gets judged
+- [[Macro and Micro Averaging]] — the macro F1 behind semantic-relevance agreement numbers
 
 ## Related Articles
 
