@@ -82,6 +82,8 @@ When evaluating search systems, position bias affects:
 - **NDCG from click labels**: biased toward top positions
 - **Session abandonment**: hard to distinguish "satisfied at rank 1" from "frustrated after rank 1"
 
+The examination curve also depends on layout. In product grids, several items share a row and are nearly equally visible, and examination drops in steps at row and viewport boundaries that differ between desktop and mobile. A metric with a fixed log discount such as [[NDCG]] cannot represent this; [[Andreas Wagner]] argues the discount should be measured per device and layout instead ([[Why nDCG Misleads eCommerce Search]]).
+
 ## Position bias vs impression bias
 
 A distinction worth keeping sharp. Position bias asks *given that an item was
@@ -127,6 +129,8 @@ There is a second-order version in evaluation architecture. Where [[Staged Judgi
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; position bias as an LLM-judge failure mode and a contaminant of behavioral pruning
 
 - [[Introducing CLEPR, our model for semantic understanding]] — limits click bias with a contrastive objective, one count per pair, and evaluation on human labels
+
+- [[Why nDCG Misleads eCommerce Search]] — [[Andreas Wagner]]; grid rows and viewports make examination step-shaped, not log-shaped
 
 ## People
 

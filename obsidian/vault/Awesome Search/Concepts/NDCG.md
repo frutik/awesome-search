@@ -105,6 +105,14 @@ NDCG requires **relevance judgments** ([[Judgment Lists]]) — human-rated (quer
 
 Standard NDCG assumes irrelevant documents are neutral (grade 0). In LLM/RAG pipelines, some documents actively harm accuracy by introducing distractors. [[UDCG]] extends NDCG with negative utility scores for distractor documents.
 
+### NDCG Limitations in eCommerce Search
+
+[[Andreas Wagner]] argues that NDCG's popularity in benchmarks and papers is no reason to make it the default optimization target for product search ([[Why nDCG Misleads eCommerce Search]]):
+
+- **The discount is assumed, not measured.** The log curve rarely matches how shoppers actually examine results; if NDCG is used, its discount should come from measured attention across positions — the territory of [[Click Models]].
+- **Grids break the curve.** Results are shown as product grids, not lists. On desktop the first four items can be equally visible, on mobile only one or two; real examination drops in steps at grid-row and viewport boundaries, while NDCG discounts position 2 sharply against position 1 on every device. See [[Position Bias]] and [[Presentation Bias]].
+- **k is a decision.** NDCG@5 or @10 treats everything below the cutoff as irrelevant although shoppers scroll and compare far more; @50 or @100 covers more of the ranking but leaves the discount problem intact.
+- **Weak link to business KPIs.** Once images, prices, brands and promotions drive clicks and purchases, a better NDCG does not automatically mean a better shop.
 ## Related Concepts
 
 - [[MRR]] — simpler ranking metric (binary relevance, first relevant result)
@@ -129,6 +137,8 @@ Standard NDCG assumes irrelevant documents are neutral (grade 0). In LLM/RAG pip
 - [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro correlates LLM relevance labels with result position (position-1 mismatches critical, position-20 mismatches minor) to compute NDCG
 
 - [[Search golden sets are anything but]] — [[Doug Turnbull]]; NDCG can hit 1 when a corpus has few relevant results, and unlabeled results skew it, motivating NDCG-m and NDCG-f
+
+- [[Why nDCG Misleads eCommerce Search]] — [[Andreas Wagner]]; the log discount, small k and weak KPI correlation make NDCG a poor default target for product grids
 
 ## People
 

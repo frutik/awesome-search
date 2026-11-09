@@ -38,3 +38,5 @@ German search optimization SaaS company. Helps e-commerce companies improve onsi
 - [[Common Pitfalls of Onsite Search Experimentation Part 2]]
 - [[My Journey Building Elasticsearch for Retail]]
 - [[Towards Scalable Relevance Engineering]] — [[Andreas Wagner]]; judge economics at 10B+ annual searches
+
+- [[Why nDCG Misleads eCommerce Search]] — [[Andreas Wagner]]; nDCG as a poor default target for product grids

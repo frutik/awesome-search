@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Frontier of Search 2026 Part 2.md",
+                "file": "Topics/LLM as Judge Vocabulary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frontier of Search 2026 Part 2"
+              "title": "LLM as Judge Vocabulary"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Frontier of Search 2026 Part 2.md",
+                "file": "Topics/LLM as Judge Vocabulary.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,8 +189,11 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
-    "Concepts/Levels of Judge Agreement.md",
+    "Articles/Why nDCG Misleads eCommerce Search.md",
     "Topics/Frontier of Search 2026 Part 2.md",
+    "History/2026.46.md",
+    "Topics/LLM as Judge Vocabulary.md",
+    "Concepts/Levels of Judge Agreement.md",
     "Topics/Frontier of Search 2026.md",
     "Datasets/Home Depot Product Search Relevance.md",
     "History/2026.44.md",
@@ -212,9 +215,6 @@
     "People/Roberto Esposito.md",
     "People/Vahab Mirrokni.md",
     "People/Jason Lee.md",
-    "People/Rajesh Jayaram.md",
-    "People/Majid Hadian.md",
-    "People/Laxman Dhulipala.md",
     "Без назви"
   ]
 }

@@ -53,6 +53,8 @@ Simplest de-biasing model: examination probability depends only on position (not
 
 Click models connect to [[Session-Based Evaluation]] — they model the full session, not individual clicks.
 
+The examination probabilities a click model estimates are also what a ranking metric's position discount should be. [[Andreas Wagner]] argues that [[NDCG]]'s fixed log discount should be replaced with attention measured per device and layout for product grids ([[Why nDCG Misleads eCommerce Search]]).
+
 ## Related Concepts
 
 - [[Neural Click Models]] — deep-learning successors (NCM, CACM, GraphCM, two-tower) that learn representations instead of hand-set parameters

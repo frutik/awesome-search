@@ -72,6 +72,8 @@ Position bias is a specific manifestation of presentation bias. Both corrupt [[C
 - [[Improving Search Ranking with Few-Shot Prompting of LLMs]] — [[Jo Kristian Bergum]]; click bias as
   the argument for generated training data over pseudo-labels
 
+- [[Why nDCG Misleads eCommerce Search]] — [[Andreas Wagner]]; how much of a product grid is on screen differs by device, so exposure (and a metric's discount) should be measured per layout
+
 ## People
 
 - [[Doug Turnbull]] — coined "presentation bias" framing in search context

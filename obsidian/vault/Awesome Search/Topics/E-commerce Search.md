@@ -107,6 +107,8 @@ Are the right items at the top?
 
 Engagement signals (clicks, add-to-carts, purchases) are the default ranking proxy, but they bias toward already-popular listings regardless of query fit. [[Semantic Relevance]] is a complementary, intent-based signal — [[How Etsy Uses LLMs to Improve Search Relevance|Etsy scales it with an LLM judge anchored to human labels]], distilled down to a model cheap enough to run in real-time production ranking.
 
+[[Andreas Wagner]] also questions NDCG itself as the ranking metric: product grids expose several items per row, with how many depending on the device, so attention drops at row and viewport boundaries rather than along a log curve, and image, price, brand and promotions weaken the metric's tie to revenue ([[Why nDCG Misleads eCommerce Search]]).
+
 ### Discovery
 Can users find things they didn't know they were looking for?
 - **Key metric**: diversity, engagement depth, session conversion

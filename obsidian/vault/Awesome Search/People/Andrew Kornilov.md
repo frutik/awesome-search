@@ -22,6 +22,8 @@ Search practitioner and writer focused on e-commerce search, retrieval, and rele
 - Building [[django-dice]] — a Python/Django implementation of [[DICE]] for e-commerce preference inference, extending it toward implicit behavioural signals and user-inspectable preferences
 - Contributing fixes to Quepid
 
+- Arguing, in reply to [[Andreas Wagner]]'s critique of [[NDCG]] ([[Why nDCG Misleads eCommerce Search]]), that teams adopt nDCG not because of papers but because no clear, implementable alternative exists
+
 ## Articles
 - [[Calibrate Before You Trust]] — the case for [[Judge Calibration]]: measure an AI judge against a reference on frozen pairs, at both pair and rank level, before trusting it, and chain the measurement through escalating judges
 

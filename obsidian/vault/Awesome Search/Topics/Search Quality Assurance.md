@@ -99,6 +99,8 @@ Measure whether the right results are ranked at the top.
 | [[Precision and Recall]] | Coverage and accuracy tradeoff | Filtering tasks, document retrieval |
 | P@K | Precision in top-K results | Quick sanity check on top of SERP |
 
+NDCG's fixed log discount is an assumption about attention, not a measurement of it. For eCommerce product grids, [[Andreas Wagner]] argues the discount, the cutoff k and the metric's link to business KPIs all need checking before it becomes the optimization target ([[Why nDCG Misleads eCommerce Search]]).
+
 ### Diversity Metrics
 Measure whether results cover different aspects of the query intent.
 
