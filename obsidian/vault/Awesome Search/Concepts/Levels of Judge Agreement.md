@@ -73,6 +73,8 @@ The practical instruction that follows is to measure at least the label level *a
 - [[Search Evaluation]] — the enclosing practice
 - [[Judgment Lists]] — the artifact produced at the label level
 
+- [[LLM as Judge Vocabulary]] — where the levels sit among the other judge-evaluation terms
+
 ## Related Articles
 
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; the four-level framing and the evidence pinning the levels apart

@@ -56,6 +56,8 @@ The figures are only as good as the reference. Agreement with a random reference
 - [[Calibrated Relevance Probability]] — the unrelated probabilistic sense of "calibration"
 - [[Judgment Lists]] · [[Search Evaluation]]
 
+- [[LLM as Judge Vocabulary]] — both senses of calibration next to agreement and self-consistency
+
 ## Related Articles
 
 - [[Calibrate Before You Trust]] — [[Andrew Kornilov]]

@@ -213,6 +213,8 @@ escalation, rather than a sampled subset extrapolated to the whole.
 
 - [[BlitzRank]] — an LLM-as-oracle reranker that schedules listwise calls; averaged over 14 TREC DL/BEIR sets and two LLMs, it matched the Pairwise baseline's nDCG@10 with ~8× fewer tokens. Promoted for evaluation use, though its paper assumes a noise-free judge and tests only reranking
 
+- [[LLM as Judge Vocabulary]] — glossary of agreement, self-consistency, calibration, adjudication and jury terms
+
 ## Related Datasets
 
 - [[LLMJudge]] — a benchmark for judges rather than rankers; scores LLM labels on Cohen's κ against humans and Kendall τ against system rankings
