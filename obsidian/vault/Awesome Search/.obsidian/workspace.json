@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/LLM as Judge Vocabulary.md",
+                "file": "Topics/Psychological and Behavioural Effects and Biases in Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM as Judge Vocabulary"
+              "title": "Psychological and Behavioural Effects and Biases in Search"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/LLM as Judge Vocabulary.md",
+                "file": "Topics/Psychological and Behavioural Effects and Biases in Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,12 +189,13 @@
   },
   "active": "3ce5b963ea78d63b",
   "lastOpenFiles": [
+    "History/2026.46.md",
+    "Topics/Psychological and Behavioural Effects and Biases in Search.md",
+    "Topics/LLM as Judge Vocabulary.md",
     "Concepts/Macro and Micro Averaging.md",
     "Articles/scikit-learn - Metrics and Scoring.md",
     "Articles/Why nDCG Misleads eCommerce Search.md",
     "Topics/Frontier of Search 2026 Part 2.md",
-    "History/2026.46.md",
-    "Topics/LLM as Judge Vocabulary.md",
     "Concepts/Levels of Judge Agreement.md",
     "Topics/Frontier of Search 2026.md",
     "Datasets/Home Depot Product Search Relevance.md",
@@ -214,7 +215,6 @@
     "Concepts/BlitzRank.md",
     "Articles/BlitzRank - Principled Zero-shot Ranking Agents with Tournament Graphs.md",
     "People/Keyur Ramoliya.md",
-    "People/Roberto Esposito.md",
     "Без назви"
   ]
 }

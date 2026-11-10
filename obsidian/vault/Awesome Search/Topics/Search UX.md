@@ -216,3 +216,5 @@ Session-level metrics are better than query-level for measuring UX: a user who s
 - [[MOC - Search UX and Discovery]] — link-out index for this whole family
 - [[Search Scopes]] — pre-query narrowing; scope-then-facet
 - [[Search UX Research]] — the independent research orgs (Baymard, NN/g) whose findings ground these patterns
+
+- [[Psychological and Behavioural Effects and Biases in Search]] — how decoy, halo, anchoring and position effects shape what users choose and click

@@ -64,6 +64,8 @@ Position bias is a specific manifestation of presentation bias. Both corrupt [[C
 - [[Search Evaluation]] — why correcting for this bias matters
 - [[Diversity Metrics]] — diversity as a mitigation strategy
 
+- [[Psychological and Behavioural Effects and Biases in Search]] — topic placing presentation bias among user and data-collection biases
+
 ## Articles
 
 - [[What is Presentation Bias in Search]] — [[Doug Turnbull]]; highway sign metaphor; self-reinforcing cycle

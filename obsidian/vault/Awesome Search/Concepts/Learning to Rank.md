@@ -120,6 +120,8 @@ LTR requires labeled data:
 
 The "perfect ranking" that NDCG (and hence LambdaMART's lambdas) is computed against is *constructed* from interaction weights — and that construction encodes a business goal. Training on raw clicks optimizes for curiosity, not value: in [[Roman Grebennikov]]'s Findify war story, a giant bong shot to the top of a collection because everyone clicked it out of curiosity and nobody bought it. Weighting purchases far above clicks in the label construction sent it back down — and the same lever can optimize for margin instead of purchases. Decide the target metric before training; see [[Roman Grebennikov - Personalizing Search Results in Real-Time]].
 
+[[Andreas Wagner]] questions the per-item framing itself: in his 2019 LTR work, products with high CTR and low CVR coincided with the products shown next to them being more likely to be purchased — the latest iPhone making cheaper phones look appealing. If that spillover holds up under controlled experiments, optimizing each product's own conversion probability could make the whole ranking worse. See [[Why nDCG Misleads eCommerce Search]].
+
 The same choice decides whether LTR optimises behaviour or content match. Semantic signals enter as features and outcome signals as labels, or the reverse with human judgment lists. See [[Outcome-Based vs Semantic Relevance]].
 
 ## Position Bias in LTR Training
@@ -168,6 +170,8 @@ A model trained on clicks over its own rankings eats its own output: users click
 - [[Search using LTR - Elastic Docs]] — native LTR as rescorer / retriever
 
 - [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — 🎥 LTR across ~1,500 merchants at Findify: two-phase ranking, the feedback-loop degradation from training on own clicks (fix: exploration segments), and the bong story — the target metric is a business decision
+
+- [[Why nDCG Misleads eCommerce Search]] — [[Andreas Wagner]]; part 3 argues product value depends on neighbours, a limit of per-item LTR objectives
 
 - [[LTRR - Learning To Rank Retrievers for LLMs]] — LTR applied to ranking *retrievers* per query for RAG; pairwise XGBoost best
 

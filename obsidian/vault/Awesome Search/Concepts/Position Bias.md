@@ -119,6 +119,8 @@ There is a second-order version in evaluation architecture. Where [[Staged Judgi
 - [[Diversity Metrics]] — diversity reduces concentration at top positions
 - [[Judgment Lists]] — human judgments are position-unbiased (when evaluated blindly)
 
+- [[Psychological and Behavioural Effects and Biases in Search]] — topic grouping position, trust and social-proof bias with decoy, halo and anchoring effects
+
 
 ## Related Articles
 - [[Getting Started on Search Relevance for the Understaffed Search Team]]

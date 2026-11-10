@@ -43,7 +43,7 @@ Where the Three Pillars framework answers *what quality means*, this answers *ho
 
 ### Critique of nDCG for eCommerce
 
-In a two-part LinkedIn series (November 2026) Wagner, citing about 20 years in eCommerce information retrieval, argues that [[NDCG]] should not be the default target for product search: its log discount rarely matches measured shopper attention, small cutoffs ignore how far shoppers scroll, product grids make exposure drop in steps at row and viewport boundaries that differ by device, and the metric correlates weakly with business KPIs. See [[Why nDCG Misleads eCommerce Search]].
+In a three-part LinkedIn series (November 2026) Wagner, citing about 20 years in eCommerce information retrieval, argues that [[NDCG]] should not be the default target for product search: its log discount rarely matches measured shopper attention, small cutoffs ignore how far shoppers scroll, product grids make exposure drop in steps at row and viewport boundaries that differ by device, and the metric correlates weakly with business KPIs. The third part questions per-item ranking objectives in [[Learning to Rank]]: products with high CTR and low CVR may make the products displayed near them more appealing (attention spillover, halo and decoy effects), so optimizing each product's own conversion probability could produce a worse overall ranking, a hypothesis he says needs controlled experiments. See [[Why nDCG Misleads eCommerce Search]].
 ## Articles in Vault
 
 - [[Three Pillars of Search Quality - Findability]] — Findability pillar

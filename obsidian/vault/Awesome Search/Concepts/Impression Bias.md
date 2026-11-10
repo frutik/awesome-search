@@ -71,6 +71,8 @@ withheld exposure, not because users rejected it.
 - [[Isolated Feedback Loops]] — the same self-reinforcing loop inside experiments
 - [[Learning to Rank]] — where the bias is baked into a model
 
+- [[Psychological and Behavioural Effects and Biases in Search]] — topic placing impression bias among user and data-collection biases
+
 ## Articles
 
 - [[Beyond Algorithms - Ranking at Scale at Booking.com]] — names impression bias alongside position bias and user bias
