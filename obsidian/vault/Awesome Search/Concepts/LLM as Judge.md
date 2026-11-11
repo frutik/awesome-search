@@ -143,6 +143,19 @@ Setting the bar presumes measuring against it, per judge, per prompt and per col
 
 The failure list above is not noise. Leniency, over-reaction to query words, prompt sensitivity, following embedded instructions, position and length preferences, and possible favouritism toward LLM-built rankers (which SynDL disputes) all have a *shape*. Collecting more labels from the same judge samples the same bias more precisely rather than averaging it away. Crossing model families, prompts and repeated runs is the response; more volume from one configuration is not.
 
+## Juries: Diversity Over Repetition
+
+If the errors are systematic, the fix is a different judge, not another call to the same one. Majority vote over a single judge only removes sampling noise. It helps on cases where the judge is inconsistent, and does nothing on cases where it is consistently wrong.
+
+[[Replacing Judges with Juries]] ([[Pat Verga]] et al., [[Cohere]]) tests the alternative. Three small judges from different families (Command R, Claude 3 Haiku, GPT-3.5) vote on each output. The panel agreed with human labels better than GPT-4 alone on KILT QA (κ 0.763 vs 0.627 on [[Natural Questions]]) and matched the Chatbot Arena ranking better (Kendall τ 0.778 vs 0.667). On the multi-hop QA sets, each evaluated model got its largest positive deviation from human scores when it judged itself. The panel was seven to eight times cheaper than GPT-4 Turbo. No single judge was best in every setting, while the panel was consistently good. See [[LLM Jury]].
+
+The same paper found that **the strongest model is not automatically the best judge.** GPT-4 was among the weaker judges on reference-based QA, apparently because it over-reasons and brings in background knowledge where only matching against the reference was asked for. On NQ, an explicit "don't overthink" instruction raised its κ from 0.627 (few-shot standard prompt) to 0.725, while the same instruction badly hurt GPT-3.5.
+## Checking Claims, Not Whole Answers
+
+When the thing being judged is a long generated answer rather than a document's relevance, a single holistic verdict hides which parts failed. [[Atomic Claim Verification]] splits the answer into single-fact claims and has a judge check each one against retrieved evidence, as in FActScore ([[FActScore - Fine-grained Atomic Evaluation of Factual Precision]]) and Google DeepMind's search-agent SAFE ([[Long-form Factuality in Large Language Models]]). One finding there echoes the point above: ChatGPT checked individual facts better than a smaller model, but its errors leaned toward accepting unsupported facts, so its aggregate score was further from the human one.
+## Knowing When Not to Trust the Judge
+
+A judge can also be allowed to abstain. In [[Trust or Escalate - LLM Judges with Provable Guarantees for Human Agreement]], each judge's confidence threshold is set on a small human-labelled set so that its decided cases meet a target agreement rate with people, with a provable guarantee. Uncertain cases escalate to a stronger judge, and abstention is the last resort. Two results matter for everyday practice. The usual confidence signals, the label's probability and the judge's stated confidence, are over-confident even for GPT-4. And with a better confidence measure, small judges know when they are likely wrong about as well as GPT-4 does. See [[Staged Judging]].
 ## The Economics Problem
 
 Limitation 6 above deserves its own treatment, because it is the constraint that decides whether an LLM judge is a research demo or a production system.
@@ -204,14 +217,18 @@ escalation, rather than a sampled subset extrapolated to the whole.
 ## Best Practices
 
 - Match the **assessment paradigm to the question**: pairwise comparisons when judging individual documents, graded pointwise scoring when the output is a system-level comparison
-- Run multiple LLM calls per judgment and take majority vote
+- Run multiple LLM calls per judgment and take majority vote to reduce sampling noise. To reduce systematic bias, use a **panel of judges from different model families** ([[LLM Jury]]), since repeated calls to one judge repeat its blind spots
 - Validate on a small set of human judgments before trusting LLM judges — and say which axis you validated on, label agreement or system ranking
-- Consider **decomposing relevance into named criteria** rather than asking for one holistic grade, when you need the judge's reasoning to be inspectable
-- Use a capable LLM (GPT-4, Claude) — cheaper models have significantly worse calibration
+- Consider **decomposing relevance into named criteria** rather than asking for one holistic grade, when you need the judge's reasoning to be inspectable. For long generated answers, decompose into **atomic claims** ([[Atomic Claim Verification]])
+- Don't assume the largest model is the best judge. Cheaper models are often less accurate, but GPT-4 underperformed small judges on reference-based QA, and small judges can estimate their own reliability as well as GPT-4 can. Measure on your task rather than defaulting to the most expensive model, and let low-confidence cases escalate ([[Staged Judging]])
 
 ## Related Concepts
 
 - [[LLM as Judges - A Vocabulary]] — glossary of agreement, self-consistency, calibration, adjudication and jury terms
+
+- [[LLM Jury]] — a panel of judges from different model families instead of one
+- [[Atomic Claim Verification]] — judging long generations one fact at a time
+- [[Staged Judging]] — escalating from cheap to expensive judges on low confidence
 
 ## Related Datasets
 
@@ -235,6 +252,11 @@ escalation, rather than a sampled subset extrapolated to the whole.
 
 - [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; calibrate each judge against a reference before trusting it
 
+- [[Replacing Judges with Juries]] — [[Pat Verga]] et al. ([[Cohere]]); a panel of three small judges beats GPT-4 on human agreement at 7–8× lower cost
+- [[Trust or Escalate - LLM Judges with Provable Guarantees for Human Agreement]] — [[Jaehun Jung]], [[Yejin Choi]]; selective evaluation and a cheap-to-expensive judge cascade with a provable human-agreement guarantee
+- [[FActScore - Fine-grained Atomic Evaluation of Factual Precision]] — [[Sewon Min]] et al.; claim-level factual precision against a knowledge source
+- [[Long-form Factuality in Large Language Models]] — [[Jerry Wei]] et al.; SAFE, a search-agent judge rating each claim
+
 ## People
 
 - [[Andrew Kornilov]] — the four-level agreement framing
@@ -255,3 +277,9 @@ escalation, rather than a sampled subset extrapolated to the whole.
 - [[Yuqing Zhang]]
 - [[Congzhe Su]]
 - [[Susan Liu]]
+
+- [[Pat Verga]] — LLM juries (PoLL)
+- [[Jaehun Jung]] — cascaded selective evaluation
+- [[Yejin Choi]] — cascaded selective evaluation
+- [[Sewon Min]] — FActScore
+- [[Jerry Wei]] — SAFE

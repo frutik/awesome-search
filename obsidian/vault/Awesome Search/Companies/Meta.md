@@ -26,6 +26,8 @@ Meta (formerly Facebook) is one of the most prolific contributors to open-source
 - **[[SIRA]]** (Superintelligent Retrieval Agent) — argues that retrieval quality is a query formulation problem, not an architecture problem. A single LLM-generated BM25 query outperforms complex agentic retrieval pipelines on BEIR benchmarks (Recall@10, NDCG@10)
 - Dense Passage Retrieval (DPR) — early influential bi-encoder retrieval model (not in this vault but foundational to the field)
 
+- [[FActScore - Fine-grained Atomic Evaluation of Factual Precision]] — co-authored by Meta AI researchers with the University of Washington, UMass Amherst and AI2. It scores long-form output by the share of atomic facts supported by a knowledge source. See [[Atomic Claim Verification]]
+
 ## Why SIRA Matters
 
 SIRA is a direct challenge to the prevailing agentic-RAG orthodoxy. Meta's position: the search community has over-invested in retrieval architecture complexity (multi-step loops, vector ensembles, agentic pipelines) when the real bottleneck is the quality of the query itself. See [[SIRA]] for full analysis.

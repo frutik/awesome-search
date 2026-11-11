@@ -76,6 +76,8 @@ NQ also serves as a reference point for what *trained* query distributions look 
 short, fluent MS MARCO / Natural Questions queries underperform on the long, operator-laden queries
 that agents actually emit — NQ's 9.2-word average being the distribution those models learned.
 
+The KILT version of NQ also serves as a test bed for *judges*. In [[Replacing Judges with Juries]], open-book QA answers on KILT-NQ were judged against human correctness labels. A panel of three small models reached Cohen's κ 0.763, against 0.627 for GPT-4 alone (see [[LLM Jury]]). It also showed how exact-match scoring fails on NQ-style references: date-format differences alone penalised models that write in British or Canadian English.
+
 ## Related Concepts
 
 - [[Zero-Shot Retrieval]] — the failure NQ-trained models illustrate

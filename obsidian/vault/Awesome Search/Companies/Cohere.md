@@ -36,6 +36,8 @@ AI company specializing in enterprise NLP. Relevant to search primarily through 
 
 - [[rerank-3 and rerank-3-lite - the next generation of Voyage rerankers]] — Cohere Rerank v4.0 Pro and Fast as the main baselines; Voyage reports rerank-3 ahead by 2.72% and 5.74%, and by 13.84% over Pro on long documents
 
+- [[Replacing Judges with Juries]] — Cohere research ([[Pat Verga]] et al., 2024): a panel of three small judges from different families (Command R, Claude 3 Haiku, GPT-3.5) agreed with humans better than GPT-4 alone, at seven to eight times lower cost. See [[LLM Jury]]
+
 ## Related Concepts
 
 - [[Cross-Encoder]] · [[Reranking]] · [[Hybrid Search]] · [[Dense Vector Retrieval]]

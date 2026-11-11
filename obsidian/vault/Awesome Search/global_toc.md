@@ -45,7 +45,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[Tokenization]] · [[Spelling Correction]] · [[Synonyms]] · [[Stopwords]] · [[Autocomplete]] · [[Query Expansion]] · [[Query Relaxation]] · [[Query Rewriting]]
 
 ### Evaluation & Metrics
-[[Search Evaluation]] · [[NDCG]] · [[NDCG-m]] · [[NDCG-f]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Brier Score]] · [[Expected Calibration Error]] · [[Precision and Recall]] · [[Macro and Micro Averaging]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[ESCI Label Scheme]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Rank-Biased Overlap]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Judge Calibration]] · [[Prompt Sensitivity]] · [[Prompt Optimization]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Semantic Relevance]] · [[Outcome-Based Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]]
+[[Search Evaluation]] · [[NDCG]] · [[NDCG-m]] · [[NDCG-f]] · [[MAP]] · [[MRR]] · [[ERR]] · [[Brier Score]] · [[Expected Calibration Error]] · [[Precision and Recall]] · [[Macro and Micro Averaging]] · [[Hit Rate at K]] · [[UDCG]] · [[Diversity Metrics]] · [[Judgment Lists]] · [[ESCI Label Scheme]] · [[Implicit Judgments]] · [[Kendall Rank Correlation]] · [[Rank-Biased Overlap]] · [[Inter-Annotator Agreement]] · [[LLM as Judge]] · [[LLM Jury]] · [[Levels of Judge Agreement]] · [[Judge Calibration]] · [[Prompt Sensitivity]] · [[Prompt Optimization]] · [[Adversarial Relevance Judgment]] · [[Staged Judging]] · [[Atomic Claim Verification]] · [[Hallucination Detection]] · [[Semantic Relevance]] · [[Outcome-Based Relevance]] · [[Statistical Significance in Search Evaluation]] · [[Interleaving]] · [[Isolated Feedback Loops]] · [[Out-of-Time Validation]]
 
 ### Behavioral Signals & Bias
 [[Click Models]] · [[Neural Click Models]] · [[Click Signals]] · [[Clicks Residual]] · [[Impression Bias]] · [[Position Bias]] · [[Presentation Bias]] · [[Ranking Signal Selection]] · [[Signal Downboosting]] · [[Personalization]] · [[Exploration vs Exploitation]]
@@ -155,7 +155,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 ---
 
 ## Datasets
-[[ADE Corpus V2]] · [[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LongEmbed]] · [[LoTTE]] · [[MAIR]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[NewsSpectrum]] · [[QASPER]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
+[[ADE Corpus V2]] · [[Amazon ESCI Dataset]] · [[ANTIQUE]] · [[BEIR]] · [[BRIGHT]] · [[CLERC]] · [[DSGlobal]] · [[ESCI-S Dataset]] · [[Home Depot Product Search Relevance]] · [[LLMJudge]] · [[LocalNews]] · [[LongEmbed]] · [[LongFact]] · [[LoTTE]] · [[MAIR]] · [[MIRACL]] · [[MS MARCO]] · [[MTEB]] · [[Natural Questions]] · [[NewsSpectrum]] · [[QASPER]] · [[RelBench]] · [[RTEB]] · [[SIFT1M]] · [[STaRK]] · [[TREC Deep Learning Track]] · [[TREC-COVID]] · [[WANDS Dataset]]
 
 ---
 
@@ -179,7 +179,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
-**J** — [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jason Lee]] · [[Jeffrey Rengifo]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+**J** — [[Jaehun Jung]] · [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jason Lee]] · [[Jeffrey Rengifo]] · [[Jerry Wei]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]] · [[Keyur Ramoliya]]
 
@@ -191,13 +191,13 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **O** — [[Omar Khattab]]
 
-**P** — [[Paul Coursaux]] · [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
+**P** — [[Pat Verga]] · [[Paul Coursaux]] · [[Peter Straßer]] · [[Piotr Mazurek]] · [[Praneeth Paikray]] · [[Prateek Chandra Jha]] · [[Prosper Otemuyiwa]]
 
 **Q** — [[Qiang Huang]] · [[Quynh Nguyen]]
 
 **R** — [[Rajesh Jayaram]] · [[Ravi Theja]] · [[Ravindra Harige]] · [[Rene Kriegler]] · [[Ritik Jain]] · [[Roberto Esposito]] · [[Roberto Pagano]] · [[Roger Oriol]] · [[Romain Beaumont]] · [[Roman Grebennikov]] · [[Roshmita Dey]] · [[Roy Keyes]] · [[Rudolf Batt]]
 
-**S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Sheshansh Agrawal]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
+**S** — [[Sai Yashwanth]] · [[Sajith K]] · [[Sami Maameri]] · [[Sergey Feldman]] · [[Sewon Min]] · [[Shane Connelly]] · [[Shaw Talebi]] · [[Shay Banon]] · [[Sheshansh Agrawal]] · [[Shib Sankar Dasgupta]] · [[Shun Tsukagoshi]] · [[Siegfried Schüle]] · [[Skip Everling]] · [[Soraya Hausl]] · [[Steffen Rendle]] · [[Steven Truitt]] · [[Stuart Cam]] · [[Stéphane Clinchant]] · [[Sujit Pal]] · [[Susan Liu]]
 
 **T** — [[Tao Ruangyam]] · [[Taylor Roy]] · [[Themis Mavridis]] · [[Thibault Formal]] · [[Thien Hang Nguyen]] · [[Thierry Damiba]] · [[Thomas Veasey]] · [[Tomas Mikolov]] · [[Trey Grainger]] · [[Tullie Murrell]]
 
@@ -207,4 +207,4 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **W** — [[Walter Underwood]] · [[Wenqi Glantz]] · [[Wolf Garbe]] · [[Daniel Wrigley]]
 
-**Y** — [[Yiqun Sun]] · [[Yixuan Tang]] · [[Yu Su]] · [[Yuanyuan Shi]] · [[Yuqing Zhang]]
+**Y** — [[Yejin Choi]] · [[Yiqun Sun]] · [[Yixuan Tang]] · [[Yu Su]] · [[Yuanyuan Shi]] · [[Yuqing Zhang]]

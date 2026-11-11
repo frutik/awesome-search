@@ -18,6 +18,8 @@ Google's research arms — **Google Research** and **Google DeepMind** — publi
 ## Research
 - [[MUVERA - Multi-Vector Retrieval via Fixed Dimensional Encodings]]
 
+- [[Long-form Factuality in Large Language Models]] — Google DeepMind ([[Jerry Wei]] et al., NeurIPS 2024): SAFE, a search-augmented LLM agent that checks long-form answers one atomic claim at a time; the [[LongFact]] prompt set; and the F1@K metric. See [[Atomic Claim Verification]]
+
 ## People
 - [[Laxman Dhulipala]] · [[Majid Hadian]] · [[Rajesh Jayaram]] · [[Jason Lee]] · [[Vahab Mirrokni]]
 
