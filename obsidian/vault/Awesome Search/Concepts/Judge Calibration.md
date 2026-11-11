@@ -51,12 +51,7 @@ The figures are only as good as the reference. Agreement with a random reference
 
 ## Related Concepts
 
-- [[Levels of Judge Agreement]] · [[Inter-Annotator Agreement]] · [[Kendall Rank Correlation]]
-- [[LLM as Judge]] · [[Staged Judging]] · [[Prompt Sensitivity]] · [[Prompt Optimization]]
-- [[Calibrated Relevance Probability]] — the unrelated probabilistic sense of "calibration"
-- [[Judgment Lists]] · [[Search Evaluation]]
-
-- [[LLM as Judge Vocabulary]] — both senses of calibration next to agreement and self-consistency
+- [[LLM as Judges - A Vocabulary]] — both senses of calibration next to agreement and self-consistency
 
 ## Related Articles
 

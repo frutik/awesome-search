@@ -25,6 +25,8 @@ Search practitioner and writer focused on e-commerce search, retrieval, and rele
 - Arguing, in reply to [[Andreas Wagner]]'s critique of [[NDCG]] ([[Why nDCG Misleads eCommerce Search]]), that teams adopt nDCG not because of papers but because no clear, implementable alternative exists
 
 ## Articles
+- [[LLM as Judges - A Vocabulary]] — nine judge-evaluation terms (agreement, inter-judge and ordinal/binary agreement, self-consistency, qrels, adjudication, distilled student, calibration, jury) and the narrower claim each one makes; written from his AI-as-judge work in [[Quepid]]
+
 - [[Calibrate Before You Trust]] — the case for [[Judge Calibration]]: measure an AI judge against a reference on frozen pairs, at both pair and rank level, before trusting it, and chain the measurement through escalating judges
 
 - [[Do LLM Judges Actually Agree With Us]] — landscape survey of LLM-judge agreement evidence, from Voorhees (2000) through 2026 multilingual and product-search results

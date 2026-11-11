@@ -208,11 +208,4 @@ Beyond the e-commerce sets above, the academic benchmark suites ([[BEIR]], [[MTE
 
 ### LLM Judge Articles
 
-- [[What AI Engineers Should Know about Search]] — [[Doug Turnbull]]; broad primer covering judgment methodology, evaluation biases, pointwise/pairwise/listwise paradigms
-- [[Search Quality Assurance with AI as a Judge]] — [[Tao Ruangyam]]; Zalando production pipeline; NER query clustering; multi-language; pre-launch validation
-- [[Classic ML to Cope with Dumb LLM Judges]] — [[Doug Turnbull]]; treating per-attribute LLM outputs as ML features for a decision tree
-- [[Improving retrieval with LLM-as-a-judge]] — [[Jo Kristian Bergum]]; Vespa retrieval benchmarking with LLM judge
-- [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] — [[Joanna Marhula]], [[Mateusz Sidor]]; Allegro's RAT framework; 380K+ multilingual judgment dataset; local model migration cut inference cost 60%
-- [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; landscape survey separating four levels of judge agreement, with a decision-dependent rubric for what number is good enough and a protocol for running judge evaluation properly
-
-- [[LLM as Judge Vocabulary]] — the terms used to say how far an LLM judge can be trusted
+- [[LLM as Judges - A Vocabulary]] — [[Andrew Kornilov]]; the terms used to say how far an LLM judge can be trusted

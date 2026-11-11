@@ -97,6 +97,8 @@ Because Quepid drives any search engine over **HTTP**, it isn't tied to Elastics
 
 - [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the case for the Judge Calibration tab
 
+- [[LLM as Judges - A Vocabulary]] — [[Andrew Kornilov]]; the vocabulary for saying how far an AI judge can be trusted, written from AI-as-judge work in Quepid
+
 ## People
 - [[Doug Turnbull]] — co-creator
 - [[Andrew Kornilov]] — author of the unofficial API wrapper; vector/image-search evaluation hacks

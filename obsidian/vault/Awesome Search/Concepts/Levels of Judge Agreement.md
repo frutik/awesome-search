@@ -65,15 +65,7 @@ The practical instruction that follows is to measure at least the label level *a
 
 ## Related Concepts
 
-- [[LLM as Judge]] — the judges whose agreement is being decomposed
-- [[Inter-Annotator Agreement]] — the statistics used at the label level, and the human-human baseline
-- [[Kendall Rank Correlation]] — the statistic used at the ranking level, and the τ ≥ 0.9 convention
-- [[Statistical Significance in Search Evaluation]] — the decision level, where false positives appear at high τ
-- [[NDCG]] — which metric the leaderboard is built on is itself a separate axis
-- [[Search Evaluation]] — the enclosing practice
-- [[Judgment Lists]] — the artifact produced at the label level
-
-- [[LLM as Judge Vocabulary]] — where the levels sit among the other judge-evaluation terms
+- [[LLM as Judges - A Vocabulary]] — where the levels sit among the other judge-evaluation terms
 
 ## Related Articles
 
