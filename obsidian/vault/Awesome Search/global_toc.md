@@ -113,7 +113,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[Voyage rerank-3]] · [[Lychee-Reranker]] · [[CLEPR]] · [[FastEmbed]]
 
 ## Companies
-[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Contextual AI]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Google]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Contextual AI]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Google]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[Rohlik]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -161,7 +161,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 ## People
 
-**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrei Cristea]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
+**A** — [[Achinoam Soroker]] · [[Adrien Grand]] · [[Aleksas Kateiva]] · [[Alexander Marquardt]] · [[Amélie Chatelain]] · [[Andre Charton]] · [[Andrea Schütt]] · [[Andreas Wagner]] · [[Andrei Cristea]] · [[Andrew Kornilov]] · [[Andrew McCallum]] · [[Andrew Mende]] · [[André Mourão]] · [[Andy Toulis]] · [[Annabell Schäfer]] · [[Anthony K.H. Tung]] · [[Antoine Chaffin]] · [[Aparna Dhinakaran]] · [[Aron Negyesi]] · [[Asif Makhani]] · [[Atita Arora]] · [[Audrey Lorberfeld]]
 
 **B** — [[Benjamin Trent]] · [[Billy Chan]] · [[Bobby Mohammed]] · [[Brage Vik]]
 

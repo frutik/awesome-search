@@ -1,7 +1,15 @@
 ---
 type: topic
-aliases: ["search user experience", "search interface", "search design", "SERP design"]
-tags: [topic, ux, search-ux, query-understanding]
+aliases:
+  - search user experience
+  - search interface
+  - search design
+  - SERP design
+tags:
+  - topic
+  - ux
+  - search-ux
+  - query-understanding
 related_concepts:
   - "[[Autocomplete]]"
   - "[[Faceted Search]]"
@@ -29,6 +37,7 @@ articles:
   - "[[Facets - Constraints or Preferences]]"
   - "[[Three Pillars of Search Quality - Discovery and Inspiration]]"
   - "[[Ecommerce Search UX - 8 Query Types]]"
+  - "[[Query relaxation - the forgotten hero of eCommerce search]]"
 people:
   - "[[Daniel Tunkelang]]"
   - "[[Andreas Wagner]]"
@@ -165,6 +174,8 @@ A zero-results page is the clearest UX failure. The user had a need; the system 
 6. Provide a contact or help path
 
 What not to do: silently redirect to homepage, show completely unrelated items, or leave the page empty with no navigation.
+
+When a search is relaxed, say which words were dropped: show the original and relaxed query, offer to search the original anyway, or render dropped terms as removable chips. A vague "no exact results" message leaves the user unable to repair the query ([[Query relaxation - the forgotten hero of eCommerce search]]).
 
 ### Prevention Over Recovery
 Better than recovering from zero results: prevent them. [[Autocomplete]] steers users toward in-vocabulary queries. [[Spelling Correction]] fixes errors at query time. [[Semantic Search]] bridges vocabulary gaps. Each layer reduces the chance a user reaches zero results at all.

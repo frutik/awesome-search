@@ -81,6 +81,7 @@ above.
 Rules:
 - Only extract explicitly stated or strongly supported entities.
 - Avoid trivial/incidental mentions unless likely to recur across multiple sources.
+- Name a company only when it contributes to the search field: a system it built, an experiment it ran, a result, tool, dataset or write-up it published. A company that appears only as an example of something going wrong — a failed search, a bad result page, a cautionary anecdote seen from outside — is not named anywhere: no note, no link, no frontmatter entry, and no plain-text mention in any note or History entry. If the anecdote is needed to explain an idea, describe the company generically ("a home improvement retailer"). The one exception is a failure significant enough to be instructive in its own right — a widely documented incident or a well-known cautionary tale, usually a Case Study candidate (e.g. a self-inflicted outage the company wrote up itself). A single bad query observed from outside never qualifies.
 
 ### 2. Normalize entities
 - Use stable canonical forms; no duplicates under slightly different names.

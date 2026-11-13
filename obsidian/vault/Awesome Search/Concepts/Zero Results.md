@@ -84,6 +84,8 @@ Track by:
 - Device type (mobile users have higher zero-result rates due to autocorrect failures)
 - Time (new product launches temporarily spike zero results)
 
+A falling zero-results rate is not proof of success: irrelevant relaxed results are harder to see but tell the customer the same thing as an empty page. Track the conversion of recovered queries alongside the rate ([[Query relaxation - the forgotten hero of eCommerce search]], [[Aron Negyesi]]).
+
 ## Related Concepts
 
 - [[Spelling Correction]] — primary cause of zero results

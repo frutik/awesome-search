@@ -93,6 +93,8 @@ Don't silently substitute — users notice and lose trust.
 
 The right balance depends on query type: tail navigational queries need exact matches; broad exploratory queries tolerate more relaxation.
 
+Judge relaxation by conversion, not just by the zero-results rate. At [[Rohlik]], a first relaxation A/B test cut no-results searches to 1%, but relaxed queries converted at only 20% of the rate of normal ones; a better choice of terms to drop kept the 1% and lifted relaxed conversion to over 60% of normal ([[Query relaxation - the forgotten hero of eCommerce search]]). Dropping the rarest terms first can backfire: for spare parts and consumables the rare brand or model code is what decides fit, while for ordinary products the product type usually matters most. Showing dropped words as removable chips is another way to keep the shopper in control.
+
 ## Relation to Query Rewriting
 
 Query relaxation is one class of [[Query Rewriting|query rewriting]] — transformations applied before retrieval to improve result coverage. Other rewrites include [[Synonyms|synonym expansion]], spelling correction, and query segmentation. Relaxation is specifically triggered by *insufficient* results rather than applied universally.
@@ -109,10 +111,12 @@ Query relaxation is one class of [[Query Rewriting|query rewriting]] — transfo
 
 ## Articles
 - [[Query Understanding - Query Relaxation]] — [[Daniel Tunkelang]]; term dropping, AND→OR, attribute & semantic relaxation strategies
+- [[Query relaxation - the forgotten hero of eCommerce search]] — [[Aron Negyesi]]; measure relaxed-query conversion, pick dropped terms by query type, show what was dropped
 
 ## People
 - [[Daniel Tunkelang]] — query relaxation as part of the Query Understanding series
 - [[Rene Kriegler]] — reframes relaxation as query *recommendation*; ML term-drop prediction via [[Word2Vec]] + neural net
+- [[Aron Negyesi]] — relaxation A/B tests at [[Rohlik]]; conversion of relaxed queries as the real metric
 
 ## Videos
 - [[Rene Kriegler - Query Relaxation]] — [[Rene Kriegler]]; relaxation as a recommendation problem, with word-shape heuristics, term frequency, [[Word2Vec]] and a multi-layer neural network compared for predicting which term to drop

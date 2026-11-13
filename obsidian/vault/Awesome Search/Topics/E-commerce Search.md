@@ -38,6 +38,7 @@ articles:
   - "[[Leveraging Commerce Data for Outcome-Based Relevancy in Agentic
     Recommendation Systems]]"
   - "[[Introducing CLEPR, our model for semantic understanding]]"
+  - "[[Query relaxation - the forgotten hero of eCommerce search]]"
 companies:
   - "[[Etsy]]"
   - "[[Canva]]"
@@ -98,6 +99,7 @@ Can the user find what they're looking for?
 - **Key metric**: zero-results rate
 - **Main causes of failure**: vocabulary mismatch, spelling errors, missing synonyms
 - **Fixes**: synonyms, spelling correction, query relaxation, dense retrieval
+- **Caveat**: relaxation that empties the no-results bucket can still lose the sale; measure conversion of relaxed queries ([[Query relaxation - the forgotten hero of eCommerce search]], [[Rohlik]])
 
 ### Relevance / Ranking
 Are the right items at the top?

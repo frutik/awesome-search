@@ -96,3 +96,4 @@ Query relaxation = **query recommendation**. Best approach: MLP on [[Word2Vec]] 
 - Tool: [[Querqy]] — Kriegler's query rewriting library (its "delete terms" rule implements term-dropping relaxation)
 - Grbovic et al. — query/action embeddings (see [[Mihajlo Grbovic]])
 - Daniel Tunkelang's [[Query Understanding - Query Relaxation]] — the term-dropping / AND→OR framing
+- [[Aron Negyesi]]'s [[Query relaxation - the forgotten hero of eCommerce search]] — recommends this talk for choosing which words to drop
