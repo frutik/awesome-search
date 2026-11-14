@@ -75,6 +75,12 @@ Issue the relaxed query in parallel with the original, keep results in reserve. 
 **ML-predicted relaxation order**
 Train a model on historical zero-result queries to predict which relaxation step will succeed. Skips unnecessary waterfall steps.
 
+**Token replacement (sibling of term dropping)**
+Instead of dropping a term, swap it for a sibling (`Audi A1` → `Audi A2`) to stay specific. One approach masks the predicted position and fills it with a fine-tuned fill-mask model, then filters candidates by string similarity. Model-number swaps worked well, but other swaps drifted in meaning ([[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]]).
+
+**Offline evaluation data**
+Pairs of a long zero-result query and a shorter sub-query with results, mined from query logs, each labelled with the index of the dropped term. Accuracy is scored against those labels. No public dataset is needed.
+
 ## UX: Communicating Relaxation
 
 Don't silently substitute — users notice and lose trust.
@@ -120,3 +126,5 @@ Query relaxation is one class of [[Query Rewriting|query rewriting]] — transfo
 
 ## Videos
 - [[Rene Kriegler - Query Relaxation]] — [[Rene Kriegler]]; relaxation as a recommendation problem, with word-shape heuristics, term frequency, [[Word2Vec]] and a multi-layer neural network compared for predicting which term to drop
+
+- [[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]] — [[Rene Kriegler]], [[Jean Silva]] (2023); the 2019 term-drop models revisited with fine-tuned language models (a RoBERTa drop-position classifier, a fill-mask model for token replacement), plus [[Wallapop]]'s simple least-frequent-term baseline built from search logs

@@ -30,6 +30,8 @@ created: 2026-07-05
 
 - [[Andrei Cristea - Qdrant Vector Search and Hybrid Routing]] — [[Andrei Cristea]] ([[Qdrant]]), lightning talk
 
+- [[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]] — [[Rene Kriegler]] and [[Jean Silva]] ([[Wallapop]]), 2023; query relaxation and token replacement for zero-result queries
+
 ## Related
 
 - [[Haystack US]] — the original US edition

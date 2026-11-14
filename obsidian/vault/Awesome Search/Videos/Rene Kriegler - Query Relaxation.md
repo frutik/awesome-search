@@ -92,6 +92,8 @@ Query relaxation = **query recommendation**. Best approach: MLP on [[Word2Vec]] 
 
 ## Related
 
+- **Follow-up talk:** [[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]] ([[Haystack EU]] 2023, with [[Jean Silva]] of [[Wallapop]]). It reruns these experiments on Spanish data. Fixing a token-order bug from this talk lifts the neural network to 0.98, a fine-tuned RoBERTa classifier matches it, and the talk adds token replacement and a production least-frequent-term baseline.
+
 - Concept: [[Query Relaxation]], [[Zero Results]], [[Query Expansion]], [[Query Specificity]]
 - Tool: [[Querqy]] — Kriegler's query rewriting library (its "delete terms" rule implements term-dropping relaxation)
 - Grbovic et al. — query/action embeddings (see [[Mihajlo Grbovic]])

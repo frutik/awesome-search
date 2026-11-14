@@ -86,6 +86,8 @@ Track by:
 
 A falling zero-results rate is not proof of success: irrelevant relaxed results are harder to see but tell the customer the same thing as an empty page. Track the conversion of recovered queries alongside the rate ([[Query relaxation - the forgotten hero of eCommerce search]], [[Aron Negyesi]]).
 
+The **exit rate** after a zero-result query is another direct measure: the aim of alternative queries is to keep the user on the site. [[Rene Kriegler]] reports that teams using query relaxation have typically cut zero-result queries by about 20–25% ([[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]]).
+
 ## Related Concepts
 
 - [[Spelling Correction]] — primary cause of zero results

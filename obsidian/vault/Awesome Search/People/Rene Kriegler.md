@@ -26,6 +26,8 @@ Search and NLP relevance consultant with a long focus on **e-commerce** search, 
 
 - [[Rene Kriegler - Query Relaxation]] — "Query relaxation - a rewriting technique between search and recommendations" (2019)
 
+- [[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]] — [[Haystack EU]] 2023, with [[Jean Silva]] of [[Wallapop]]; revisits the 2019 models and finds that fixing a token-order bug lifts the MLP to 0.98, matched by a fine-tuned RoBERTa classifier
+
 ## Related Concepts
 
 - [[Query Relaxation]]

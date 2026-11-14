@@ -113,7 +113,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[Voyage rerank-3]] · [[Lychee-Reranker]] · [[CLEPR]] · [[FastEmbed]]
 
 ## Companies
-[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Contextual AI]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Google]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[Rohlik]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
+[[Ailog]] · [[Airbnb]] · [[Algolia]] · [[Allegro]] · [[Amazon Web Services]] · [[Baymard Institute]] · [[Bonsai]] · [[Booking.com]] · [[Canva]] · [[Carousell]] · [[Cohere]] · [[Contextual AI]] · [[Criteo]] · [[Delivery Hero]] · [[Dropbox]] · [[eBay]] · [[Elastic]] · [[Elsevier]] · [[Empathy]] · [[Enterprise Knowledge LLC]] · [[Etsy]] · [[Google]] · [[Grubhub]] · [[Hornet]] · [[Jina AI]] · [[Kleinanzeigen]] · [[LightOn AI]] · [[LinkedIn]] · [[Meta]] · [[Mixedbread]] · [[MongoDB]] · [[Netflix]] · [[Nielsen Norman Group]] · [[OpenSource Connections]] · [[Otto]] · [[Pinecone]] · [[Qdrant]] · [[Reddit]] · [[RelativeDB]] · [[Rohlik]] · [[SID.ai]] · [[Sease]] · [[Shaped]] · [[Shopify]] · [[Skyscanner]] · [[Slack]] · [[Spotify]] · [[The Search Juggler]] · [[Tiger Data]] · [[Twitter]] · [[TypeSafe]] · [[Uber]] · [[Valyu AI]] · [[Vespa]] · [[Vinted]] · [[Voyage AI]] · [[Wallapop]] · [[Weaviate]] · [[Zalando]] · [[searchHub]] · [[turbopuffer]]
 
 ---
 
@@ -132,6 +132,8 @@ Conference talks and recorded presentations.
 [[Choosing Indexes for Similarity Search (Faiss in Python)]] — [[James Briggs]], [[Pinecone]]; hands-on [[FAISS]] tutorial comparing Flat, [[LSH]], [[HNSW]], and [[IVF]] on Sift1M
 
 [[Rene Kriegler - Query Relaxation]] — [[Rene Kriegler]], [[OpenSource Connections]]; [[Query Relaxation]] as a query recommendation problem — word-shape heuristics, term frequency, [[Word2Vec]] and a neural network compared for predicting which term to drop
+
+[[Rene Kriegler & Jean Silva - Alternative Queries for Zero Results]] — [[Rene Kriegler]] & [[Jean Silva]], [[Wallapop]]; [[Haystack EU]] 2023 follow-up: [[Query Relaxation]] and token replacement with fine-tuned language models (a RoBERTa drop-position classifier, a fill-mask model), and Wallapop's least-frequent-term baseline evaluated on log-mined query pairs
 
 [[Roman Grebennikov - Personalizing Search Results in Real-Time]] — [[Roman Grebennikov]], Findify; [[MICES]] 2019 talk on real-time LTR personalization — [[Position Bias]] feedback loops, shuffled [[Exploration vs Exploitation]] segments, cross-merchant generic models, purchase-weighted perfect rankings
 
@@ -179,7 +181,7 @@ See the [[Conferences]] MOC. [[Berlin Buzzwords]] · [[Haystack EU]] · [[Haysta
 
 **I** — [[Isabella Tromba]] · [[Iulia Brezeanu]] · [[Ivan Pleshkov]]
 
-**J** — [[Jaehun Jung]] · [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jason Lee]] · [[Jeffrey Rengifo]] · [[Jerry Wei]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
+**J** — [[Jaehun Jung]] · [[Jagadeesh Chandra]] · [[Jaideep Ray]] · [[Jaime Arguello]] · [[James Briggs]] · [[James Rubinstein]] · [[Jamie Callan]] · [[Janani Narayanan]] · [[Janu Verma]] · [[Jason Lee]] · [[Jean Silva]] · [[Jeffrey Rengifo]] · [[Jerry Wei]] · [[Jettro Coenradie]] · [[Jithendrasaikilaru]] · [[Jo Kristian Bergum]] · [[Jodi Sloan]] · [[Joanna Marhula]] · [[Jonas Schulz]] · [[Jonathan Larson]] · [[Joon-Pil (JP) Hwang]] · [[Jose Parreño]]
 
 **K** — [[Karthik Ramasamy]] · [[Kemal Erdem]] · [[Keyur Ramoliya]]
 
