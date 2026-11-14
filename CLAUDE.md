@@ -11,8 +11,9 @@ application code, no test suite, and no package manager here.
 - `obsidian/vault/Awesome Search/` — the actual content: an Obsidian vault of
   interlinked Markdown notes (Concepts, Topics, People, Companies, Tools,
   Conferences, Case Studies, Datasets, Articles, Videos, History).
-- `docs/` — generated static site output (built by Quartz, published via GitHub
-  Pages). Never hand-edit; it's overwritten by `build-web.sh`.
+- `docs/` — legacy static site output from the old local build. No longer
+  built or published (the site is built server-side, see Build / publish);
+  stale, never hand-edit or rebuild it.
 - `README.md` — a published mirror of the vault's table of contents
   (`global_toc.md`) plus links to recent History entries. Kept in sync by the
   `kg-readme-writer` skill, not written by hand.
@@ -31,21 +32,27 @@ application code, no test suite, and no package manager here.
 
 ## Build / publish
 
+The site is built and deployed server-side by GitHub Actions
+(`.github/workflows/build-and-deploy.yml`) on every push to `master` that
+touches `obsidian/vault/**`, `fix-folder-pages.py` or `quartz-config/**`. It
+scaffolds Quartz v4.5.2, applies `quartz-config/`, builds to `web/`, runs
+`python3 fix-folder-pages.py web`, copies `History.html` to `index.html`, and
+deploys to GitHub Pages. Nothing is built locally: publishing a vault change
+just means committing and pushing it.
+
 ```sh
-sh build-web.sh   # cd quartz && npx quartz build --output ../docs --directory ../obsidian/vault/Awesome\ Search
-                   # then python3 fix-folder-pages.py docs, then docs/History.html -> docs/index.html
-sh release.sh      # build-web.sh, then commit+push obsidian/ and docs/
+sh release.sh      # git add obsidian/ mails/ drafts/, commit "wip", push
 ```
 
-`quartz` is a sibling checkout, gitignored, not part of this repo — `build-web.sh`
-assumes it already exists locally. `fix-folder-pages.py` is a required
-post-processing step, not optional cleanup: when a note shares a name with a
-sibling folder (`Concepts.md` next to `Concepts/`), Quartz emits that note a
-second time as the folder's `index.html` but only fixes the asset paths for the
-deeper location — links inside stay anchored to the shallower original and
-resolve one level too deep once served from the folder URL. The script
-re-anchors `href`/`src` targets that start with `./`. See the script's
-docstring for the full mechanism.
+`build-web.sh` and `docs/` are unused leftovers of the old local build.
+
+`fix-folder-pages.py` is a required post-processing step, not optional
+cleanup: when a note shares a name with a sibling folder (`Concepts.md` next
+to `Concepts/`), Quartz emits that note a second time as the folder's
+`index.html` but only fixes the asset paths for the deeper location — links
+inside stay anchored to the shallower original and resolve one level too deep
+once served from the folder URL. The script re-anchors `href`/`src` targets
+that start with `./`. See the script's docstring for the full mechanism.
 
 There is a link-check GitHub Action (`.github/workflows/awesome-search-actions.yml`,
 manually triggered) that runs `markdown-link-check` over the repo.

@@ -13,6 +13,7 @@ aliases:
   - LLM judge terminology
 concepts:
   - "[[LLM as Judge]]"
+  - "[[LLM Jury]]"
   - "[[Levels of Judge Agreement]]"
   - "[[Inter-Annotator Agreement]]"
   - "[[Kendall Rank Correlation]]"
@@ -57,7 +58,7 @@ The article opens with a short primer on the statistics it quotes: Cohen's, Flei
 - **Adjudication** — resolving disagreement by vote or expert; [[Allegro]] used two blind annotators plus an expert arbiter. *Learning* to adjudicate trains the arbiter: CADRE (Shu et al., 2026) uses three specialist agents (product attributes, user intent, business rules) and a trained verifier that debates only on disagreement. On 18,710 held-out e-commerce pairs the verifier reached 0.8334 accuracy, above an oracle picking any correct specialist label (0.8051); debate added about a quarter of a point. [[Classic ML to Cope with Dumb LLM Judges|Doug Turnbull]] shows a smaller version: single-attribute judges with a decision tree learning how much to trust each.
 - **Distilled student** — a small model trained to copy an expensive teacher ([[Knowledge Distillation]]). Etsy's o3 annotator → teacher → BERT student (under 10 ms) scores macro F1 0.72 / 0.71 / 0.65. CADRE's mBERT student rose from 0.7456 to 0.7809 accuracy when trained on the reasoning as well as the labels. Risk: the student inherits the teacher's systematic mistakes, so check it against people. The author's own example: *Teaching a Small Model to Judge Like Amazon*.
 - **Calibration** — two meanings. [[Judge Calibration]]: measure the judge against a trusted reference per prompt and collection, report pair-level (α, exact and within-one, error direction) and system-ranking agreement (τ), then adjust prompt, rubric or model. Probability calibration ([[Calibrated Relevance Probability]]): "70% relevant" is right 70% of the time. A review threshold can work without it if low scores pick out more errors (discrimination); calibration is what lets 0.4 mean 40%.
-- **Jury** — several judges combined into one label. A jury of four small open models in *Better Retrievers, Worse Labels* agreed with itself at Fleiss' κ 0.26 yet still reproduced the paper's main finding — good enough for direction, not for labels. In CADRE, letting specialists see earlier reports cut accuracy by 1.14 points, and seeing each other while revising by 1.76 (premature convergence). Members agreeing is inter-judge agreement; the same jury agreeing on a rerun is panel-level self-consistency; neither replaces a check against people.
+- **Jury** — several judges combined into one label ([[LLM Jury]]). A jury of four small open models in *Better Retrievers, Worse Labels* agreed with itself at Fleiss' κ 0.26 yet still reproduced the paper's main finding — good enough for direction, not for labels. In CADRE, letting specialists see earlier reports cut accuracy by 1.14 points, and seeing each other while revising by 1.76 (premature convergence). Members agreeing is inter-judge agreement; the same jury agreeing on a rerun is panel-level self-consistency; neither replaces a check against people.
 
 ## How the words fit together
 
@@ -76,7 +77,7 @@ A judge or jury produces qrels. Self-consistency says it is stable; inter-judge 
 
 ## Related Concepts
 
-- [[LLM as Judge]] · [[Levels of Judge Agreement]] · [[Inter-Annotator Agreement]] · [[Kendall Rank Correlation]]
+- [[LLM as Judge]] · [[LLM Jury]] · [[Levels of Judge Agreement]] · [[Inter-Annotator Agreement]] · [[Kendall Rank Correlation]]
 - [[Judge Calibration]] · [[Calibrated Relevance Probability]] · [[Statistical Significance in Search Evaluation]]
 - [[Judgment Lists]] · [[Knowledge Distillation]] · [[Staged Judging]] · [[NDCG]] · [[Macro and Micro Averaging]]
 
@@ -88,6 +89,7 @@ A judge or jury produces qrels. Self-consistency says it is stable; inter-judge 
 
 - [[Do LLM Judges Actually Agree With Us]] — the earlier piece the four agreement levels come from
 - [[Calibrate Before You Trust]] — judge calibration in practice
+- [[Replacing Judges with Juries]] — the PoLL paper behind the jury approach
 - [[How Etsy Uses LLMs to Improve Search Relevance]] · [[Automating Search Relevance Assessment at Scale with LLM-as-a-Judge]] · [[Classic ML to Cope with Dumb LLM Judges]]
 
 ## Companies
