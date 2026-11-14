@@ -96,7 +96,7 @@ Because Quepid drives any search engine over **HTTP**, it isn't tied to Elastics
 - [[How to Evaluate Image Search in Qdrant Using Quepid Part 2]]
 - [[How to Securely Hook Up Quepid to Vespa]] — [[Charlie Hull]] wiring Quepid to [[Vespa]] Cloud as a custom endpoint (token auth)
 
-- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the case for the Judge Calibration tab
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the case for the judge calibration tool
 
 - [[LLM as Judges - A Vocabulary]] — [[Andrew Kornilov]]; the vocabulary for saying how far an AI judge can be trusted, written from AI-as-judge work in Quepid
 

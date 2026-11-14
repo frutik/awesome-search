@@ -47,7 +47,7 @@ The figures are only as good as the reference. Agreement with a random reference
 
 ## Implementations
 
-- [[Quepid]] — a Judge Calibration tab proposed in [PR #1827](https://github.com/o19s/quepid/pull/1827): pairs and ranks agreement, side-by-side re-runs on the same pairs, and applying the winning settings to the judge.
+- [[Quepid]] — a judge calibration tool proposed in [PR #1827](https://github.com/o19s/quepid/pull/1827): pairs and ranks agreement, side-by-side re-runs on the same pairs, and applying the winning settings to the judge.
 
 ## Related Concepts
 

@@ -40,7 +40,7 @@ companies:
 
 ## Summary
 
-A short argument for **measuring an AI relevance judge before trusting it**. The occasion is a Judge Calibration tab proposed for [[Quepid]], which answers one question: if this AI judge had rated the pairs that a reference judge rated, how often would they agree, and where would they differ? The author argues that answering that question is worth more than the judge itself.
+A short argument for **measuring an AI relevance judge before trusting it**. The occasion is a judge calibration tool proposed for [[Quepid]], which answers one question: if this AI judge had rated the pairs that a reference judge rated, how often would they agree, and where would they differ? The author argues that answering that question is worth more than the judge itself.
 
 ## The Argument
 
@@ -73,7 +73,7 @@ A judge can have a weak α and a high τ. That is the "wonky tape measure" again
 ## Related Notes
 
 - [[Do LLM Judges Actually Agree With Us]] — the survey this builds on
-- [[Quepid]] — the tool the calibration tab is proposed for
+- [[Quepid]] — the tool the calibration tool is proposed for
 - [[Search Quality Assurance]]
 
 ## People
