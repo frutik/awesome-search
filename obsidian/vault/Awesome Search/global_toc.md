@@ -73,7 +73,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[E-commerce Search]] · [[Two-Sided Marketplace Ranking]] · [[Enterprise Search]] · [[Search using PostgreSQL]] · [[Search Platforms]] · [[Extreme Search Systems]] · [[Migration between Search Engines]] · [[Elasticsearch vs OpenSearch]] · [[Federated vs Unified Search]] · [[Multi-Tenancy in Search]]
 
 ### Quality & Operations
-[[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Quepid Beyond Supported Engines]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[E-commerce Search Evaluation Datasets]] · [[Outcome-Based vs Semantic Relevance]] · [[Embedding Models Compared]] · [[Search Observability]]
+[[A-B Testing for Search]] · [[Duality in Measuring Search]] · [[NDCG Variants]] · [[Search Quality Assurance]] · [[Relevance Program Setup]] · [[Relevance Evaluation Tools Compared]] · [[Offline Search Evaluation Tools]] · [[Quepid Beyond Supported Engines]] · [[Model Selection and Fine-Tuning Evaluation]] · [[Retrieval Benchmarks and Leaderboards]] · [[E-commerce Search Evaluation Datasets]] · [[Outcome-Based vs Semantic Relevance]] · [[Embedding Models Compared]] · [[Search Observability]]
 
 ### Team, Career & Community
 [[Hiring for Search]] · [[How to Start a Career in Search]] · [[Managing a Search Team]] · [[Understaffed Search Team]] · [[Search Consultancy]] · [[Search Communities]] · [[Women of Search]] · [[Events and Conferences]]
@@ -107,7 +107,7 @@ A map of every note in the vault organized by category and theme.  This index tr
 [[LlamaIndex]] · [[LangChain]] · [[Haystack (deepset)]] · [[DSPy]] · [[GEPA]] · [[AutoRAG]] · [[RAGAS]]
 
 ### Relevance & Query Tooling
-[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
+[[Querqy]] · [[Quepid]] · [[Embabel]] · [[Embabel DICE]] · [[django-dice]] · [[Search Relevance Workbench]] · [[OpenSearch Relevance Agent]] · [[Elasticsearch Relevance Studio]] · [[Rated Ranking Evaluator]] · [[Releval]] · [[llm-search-eval]] · [[Langfuse]] · [[Jevals]] · [[User Behavior Insights]] · [[ann-benchmarks]] · [[SID-1]] · [[hev-rerank]]
 
 ### ML & Model Serving
 [[LightGBM]] · [[XGBoost]] · [[CatBoost]] · [[RankLib]] · [[ONNX]] · [[eland]] · [[Jev]] · [[Voyage rerank-3]] · [[Lychee-Reranker]] · [[CLEPR]] · [[FastEmbed]]

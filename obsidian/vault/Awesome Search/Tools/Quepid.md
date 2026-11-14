@@ -59,6 +59,7 @@ See [[Relevance Evaluation Tools Compared]] for the full five-way breakdown.
 
 ## Related Topics
 - [[Tuning BM25 for E-commerce Search]] — using judgments/metrics infrastructure already in Quepid to test BM25 `k1`/`b` grids
+- [[Offline Search Evaluation Tools]] — where Quepid sits among metric libraries, experiment frameworks, judgment generators and newer CLI tools
 
 ## Related Concepts
 - [[Judgment Lists]] — the input data Quepid manages

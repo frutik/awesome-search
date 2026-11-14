@@ -126,8 +126,9 @@ Libraries that actually run these suites — distinct from the your-data dashboa
 ---
 
 ## Related
-
 - [[Model Selection and Fine-Tuning Evaluation]] — the methodology these feed into
 - [[Embedding Models Compared]] — the models being ranked
 - [[Search Evaluation]] · [[Judgment Lists]] · [[NDCG]] · [[Zero-Shot Retrieval]]
 - [[Relevance Evaluation Tools Compared]] · [[Relevance Program Setup]] — your-data counterpart
+- [[Offline Search Evaluation Tools]] — where the benchmarking frameworks above sit in the full evaluation-tooling landscape
+

@@ -188,7 +188,7 @@ verdicts, against $33,000 for a frontier model on the same instructions.
   that quietly invents a preference.
 - **No rationale, ever.** The verdict arrives with no reasoning, so a disputed judgment is
   debugged by re-reading your own criteria. Anything audited, customer-facing, or feeding
-  [[Search Results Explainability]] still needs a generative model on top. This also forecloses
+  [[Search Results Explainability]] sti[[LLM as Judges - A Vocabulary]] on top. This also forecloses
   the chain-of-thought variants discussed above.
 - **Agreement is not accuracy.** The benchmark cited measures agreement with one frontier
   model's verdict — the same trap [[Levels of Judge Agreement]] exists to name. An

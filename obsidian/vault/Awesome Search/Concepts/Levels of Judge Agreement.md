@@ -72,8 +72,4 @@ The practical instruction that follows is to measure at least the label level *a
 - [[Do LLM Judges Actually Agree With Us]] — [[Andrew Kornilov]]; the four-level framing and the evidence pinning the levels apart
 - [[Benchmarking LLM-based Relevance Judgment Methods]] — [[Negar Arabzadeh]], [[Charles L. A. Clarke]]; scores judgment paradigms separately on label agreement and system-ranking agreement, finding no method wins both
 
-- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the levels turned into a per-judge, per-prompt calibration report
-
-## People
-
-- [[Andrew Kornilov]] — the four-level framing
+- [[Calibrate Before You Trust]] — [[Andrew Kornilov]]; the levels turned into a per-judge, per-prompt calibrat[[LLM as Judges - A Vocabulary]]Andrew Kornilov]] — the four-level framing

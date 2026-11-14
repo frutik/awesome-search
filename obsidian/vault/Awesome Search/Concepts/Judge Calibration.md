@@ -61,3 +61,4 @@ The figures are only as good as the reference. Agreement with a random reference
 ## People
 
 - [[Andrew Kornilov]]
+[[LLM as Judges - A Vocabulary]]

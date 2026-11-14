@@ -98,11 +98,11 @@ Sampling decides *which* queries you look at; it doesn't decide what to *do* wit
 The framing: *you are not optimizing search results, you are optimizing the end-user experience — a holistic product concern.* Stratified [[Query Sampling|sampling]] is what makes all three tiers visible at once.
 
 ## Related
-
 - [[Judgment Lists]] — the labels applied to the sampled queries
 - [[Search Evaluation]] — the broader offline evaluation framework
 - [[Search Quality Assurance]] — query sampling is one step in the full SQA practice
 - [[NDCG]], [[MAP]], [[MRR]] — metrics computed over the sampled query set
+- [[Offline Search Evaluation Tools]] — why sampling is the least-tooled step of the evaluation pipeline
 
 ## Articles
 - [[Query Sampling for Relevancy Testing]] — [[Nick Zadrozny]] / [[Bonsai]]; per-tier (head/torso/tail) handling strategy and the product-concern framing

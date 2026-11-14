@@ -100,7 +100,7 @@ Both Elastic and OpenSearch are absorbing the offline-evaluation loop that Quepi
 - [[Agentic Search]] — the MCP differentiator, now in both ESRS and Releval
 
 ## Related Topics
-
+- [[Offline Search Evaluation Tools]] — the wider landscape these five sit in: metric engines, experiment frameworks, judgment generators and LLM-app evaluators
 - [[Relevance Program Setup]] — how these tools fit an org's relevance program
 - [[Search Quality Assurance]] — the broader QA practice they serve
 - [[Retrieval Benchmarks and Leaderboards]] — the public-benchmark counterpart: `mteb`, `beir`, `pytrec_eval`, `ranx` and friends run academic suites, where the four tools here run *your* queries against *your* corpus

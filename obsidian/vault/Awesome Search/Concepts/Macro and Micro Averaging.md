@@ -48,7 +48,7 @@ F1 comes from classification, and search uses it in two different ways. One is t
 ## In the vault
 
 - [[Fine-Tuning Qwen3 Embeddings for Product Category Classification]] reports **macro F1 0.836** alongside **accuracy 87.91%** on a 6-class task. Because micro-F1 equals accuracy in single-label multiclass, these are effectively the micro and macro views of the same classifier. The gap is consistent with some classes doing worse than the overall accuracy suggests.
-- [[How Etsy Uses LLMs to Improve Search Relevance]] scores its annotator → teacher → student cascade with multi-class macro F1 (0.72 / 0.71 / 0.65) and also reports per-class F1 for Relevant, Partial and Irrelevant (the "none" mode). The breakdown shows that Irrelevant is the weakest class at every tier, which the single macro number hides. See [[Knowledge Distillation]] and [[LLM as Judges - A Vocabulary]].
+- [[How Etsy Uses LLMs to Improve Search Relevance]] scores its annotator → teacher → student cascade with multi-class macro F1 (0.72 / 0.71 / 0.65) and also reports per-class F1 for Relevant, Partial and Irrelevant (the "none" mode). The breakdown shows that Irrelevant is the weakest class at every tier, which the single macro number hides. See [[Knowledge Distillation]] and [[LLM as Judges - A Vocabulary]]ary]].
 - [[Lightweight Query Routing for Adaptive RAG - A Baseline Study on RAGRouter-Bench]] compares routing features by macro-F1 (TF-IDF 0.928 vs MiniLM embeddings 0.897), with the best router at 93.2% accuracy. See [[Query Classification]].
 
 ## Related Concepts
